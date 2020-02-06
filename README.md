@@ -11,17 +11,17 @@
 **Recommended:**  
 **v0.0.1**  
 *MultiMC:*  
-https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.2.v0.0.1.zip  
+https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.3.v0.0.1.zip  
 *Server:*  
-https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.2.Server.v0.0.1.zip  
+https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.3.Server.v0.0.1.zip  
   
   
 **Latest:**  
 **v0.0.1**  
 *MultiMC:*  
-https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.2.v0.0.1.zip  
+https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.3.v0.0.1.zip  
 *Server:*  
-https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.2.Server.v0.0.1.zip  
+https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.3.Server.v0.0.1.zip  
 
 **Changelogs:**  
 https://github.com/AllOfFabric/AOF-3/releases	
