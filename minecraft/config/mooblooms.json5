@@ -1,0 +1,92 @@
+{
+	"spawn_weight": {
+		"dandelion_moobloom": 10,
+		"poppy_moobloom": 10,
+		"blue_orchid_moobloom": 10,
+		"allium_moobloom": 10,
+		"oxeye_daisy_moobloom": 10,
+		"cornflower_moobloom": 10,
+		"wither_rose_moobloom": 80,
+		"suncower": 10,
+		"bambmoo": 60,
+		"cluckshroom": 10
+	},
+	"auto_block_spawning": {
+		// If mooblooms can spawn flowers automatically
+		"mooblooms": true,
+		// If cluckshrooms can spawn mushrooms automatically
+		"cluckshroom": true
+	},
+	"dandelion_moobloom": {
+		"weight": 10,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"poppy_moobloom": {
+		"weight": 10,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"blue_orchid_moobloom": {
+		"weight": 10,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"allium_moobloom": {
+		"weight": 10,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"oxeye_daisy_moobloom": {
+		"weight": 10,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"cornflower_moobloom": {
+		"weight": 10,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"wither_rose_moobloom": {
+		"weight": 80,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"suncower": {
+		"weight": 10,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"bambmoo": {
+		"weight": 60,
+		"min_group_size": 2,
+		"max_group_size": 4,
+		"spawn_blocks": true
+	},
+	"crimson_mooshroom": {
+		"weight": 100,
+		"min_group_size": 4,
+		"max_group_size": 8,
+		"spawn_blocks": true
+	},
+	"warped_mooshroom": {
+		"weight": 100,
+		"min_group_size": 4,
+		"max_group_size": 8,
+		"spawn_blocks": true
+	},
+	"cluckshroom": {
+		"weight": 10,
+		"min_group_size": 4,
+		"max_group_size": 8,
+		"spawn_blocks": true
+	}
+}

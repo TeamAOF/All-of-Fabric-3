@@ -1,0 +1,257 @@
+---- Minecraft Crash Report ----
+// I blame Glass Doors.
+
+Time: 2/5/20 11:03 PM
+Description: Ticking player
+
+java.lang.NoSuchMethodError: net.minecraft.server.MinecraftServer.method_16044()Lnet/minecraft/class_3689;
+	at io.github.cottonmc.cotton.playerevents.PlayerTickCallback.lambda$null$0(PlayerTickCallback.java:14)
+	at net.minecraft.class_1657.handler$bff000$tickPlayer(class_1657.java:3854)
+	at net.minecraft.class_1657.method_5773(class_1657.java:330)
+	at net.minecraft.class_3222.method_14226(class_3222.java:386)
+	at net.minecraft.class_3244.method_18784(class_3244.java:198)
+	at net.minecraft.class_2535.method_10754(class_2535.java:234)
+	at net.minecraft.class_3242.method_14357(class_3242.java:171)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:873)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:800)
+	at net.minecraft.class_1132.method_3748(class_1132.java:130)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:659)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at io.github.cottonmc.cotton.playerevents.PlayerTickCallback.lambda$null$0(PlayerTickCallback.java:14)
+	at net.minecraft.class_1657.handler$bff000$tickPlayer(class_1657.java:3854)
+	at net.minecraft.class_1657.method_5773(class_1657.java:330)
+
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.class_3222)
+	Entity ID: 129
+	Entity Name: ObvAK9
+	Entity's Exact location: -206.50, 64.00, -16.50
+	Entity's Block location: World: (-207,64,-17), Chunk: (at 1,4,15 in -13,-2; contains blocks -208,0,-32 to -193,255,-17), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.class_3222.method_14226(class_3222.java:386)
+	at net.minecraft.class_3244.method_18784(class_3244.java:198)
+	at net.minecraft.class_2535.method_10754(class_2535.java:234)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.class_2535@74a9e530
+Stacktrace:
+	at net.minecraft.class_3242.method_14357(class_3242.java:171)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:873)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:800)
+	at net.minecraft.class_1132.method_3748(class_1132.java:130)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:659)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: Snapshot 20w06a
+	Minecraft Version ID: 20w06a
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 7263486032 bytes (6927 MB) / 8385986560 bytes (7997 MB) up to 8385986560 bytes (7997 MB)
+	CPUs: 8
+	JVM Flags: 8 total; -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms8064m -Xmx8064m
+	Fabric Mods: 
+		advancements-enlarger: Advancements Enlarger 1.0.0
+		amecs: Amecs 1.2.9+1.15-pre5
+		appleskin: AppleSkin 1.0.8
+		aquarius: Aquarius 1.4.0+1.15
+		aswitch: AutoSwitch 0.11.2
+		autoconfig1: Auto Config v1 1.2.0+mc1.14.4
+		autoconfig1u: Auto Config v1 Updated 1.2.4
+		autoharvest: autoharvest 1.0.4
+		bbor: BoundingBoxOutlineReloaded 1.0.14-1.15.1
+		beeangry-est: Bee Angry-est 1.4.0+1.15.1
+		beecompatible: Bee Compatible 2.0.0+1.15.1
+		beeinajar: Bee-in-a-Jar 19w36a-1.0.0
+		beenfo: Beenfo 1.15-fabric0.4.23-1.0.3
+		beeproductive: Bee Productive 1.0.2+1.15.1
+		biom4st3rportal: Fancy Fountain Passage 1.3.1
+		biow0rks: biow0rk5 0.4.0
+		blast: BLAST 1.1.1
+		blue_endless_jankson: jankson +
+		bucket-hat: Bucket Hat 1.0.1
+		cardinal-components-base: Cardinal Components API 2.1.0
+		cardinal-components-entity: Cardinal Components API 2.1.0
+		chestlatchfixer: ChestLatchFixer 1.1.0
+		cleanview: CleanView 1.15.2-v1-fabric
+		cloth: Cloth Events 1.1.0
+		cloth-config: Cloth Config 0.2.4+build.17
+		cloth-config2: Cloth Config v2 2.9.3
+		cmdkeybind: Command Macros 1.4.2
+		coloredcampfire: Colorful Campfire Smoke 1.1.3
+		compostrecipes: Compost Recipes 1.1.0
+		cotton: Cotton 1.0.0-rc.7
+		cotton-cauldron: Cotton Cauldron 1.0.0-rc.6
+		cotton-commons: Cotton Commons 1.0.0-rc.4
+		cotton-config: Cotton Config 1.0.0-rc.7
+		cotton-datapack: Cotton Datapack 1.0.0-rc.5
+		cotton-logging: Cotton Logging 1.0.0-rc.4
+		cotton-player-events: Cotton Player Events 1.0.0-rc.4
+		couplings: Couplings 1.3.1
+		creativebuttonmover: Creative Button Mover 0.1.2+20w06a
+		creeperspores: Creeper Spores 1.3.3
+		customtitlescreen: CustomTitleScreen 1.15.2-0.1.1
+		cwt: Climatic World Type 1.1.4
+		dataloader: Data Loader 1.1.0+mc1.14.4
+		diggusmaximus: Diggus Maximus 1.2.6
+		ding: Ding 3.0.0
+		dynamicfps: Dynamic FPS 1.1.0
+		eggtab: Egg Tab 1.1.0-1.15.x
+		enchantedtooltips: Enchanted ToolTips 1.2.4
+		expandedstorage: ExpandedStorage 3.8.33+20w06a
+		expandedstorageapi: ExpandedStorageAPI 0.0.4+20w06a
+		extra-pressure-plates: Extra Pressure Plates ${version}
+		extradoors: ExtraDoors 1.4.2-1.15
+		fabric: Fabric API 0.4.30+build.294-1.16
+		fabric-api-base: Fabric API Base 0.1.2+b7f9825d95
+		fabric-biomes-v1: Fabric Biomes (v1) 0.1.5+3b05f68ebf
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.4+c6a8ea8975
+		fabric-commands-v0: Fabric Commands (v0) 0.1.2+b7f9825d95
+		fabric-containers-v0: Fabric Containers (v0) 0.1.4+9421522dbf
+		fabric-content-registries-v0: Fabric Content Registries (v0) 0.1.3+b7f9825dbf
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.2+b7f9825dbf
+		fabric-diagonal-panes: Fabric Diagonal Panes 0.2.0
+		fabric-dimensions-v1: fabric-dimensions-v1 0.2.5+9421522dbf
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.2.8+9421522dbf
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.1.2+b7f9825dbf
+		fabric-furnaces: Fabric Furnaces 1.2.0
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.1.6+ec40b2e1bf
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.1.1+933c24c242
+		fabric-language-kotlin: Fabric Language Kotlin 1.3.61+build.1
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 0.1.5+e08a7305bf
+		fabric-mining-levels-v0: Fabric Mining Levels (v0) 0.1.1+28f8190f42
+		fabric-models-v0: Fabric Models (v0) 0.1.0+dfdb52d6bf
+		fabric-networking-blockentity-v0: Fabric Networking Block Entity (v0) 0.2.4+9421522dbf
+		fabric-networking-v0: Fabric Networking (v0) 0.1.8+9421522dbf
+		fabric-object-builders-v0: Fabric Object Builders (v0) 0.1.3+e4c9a9c3bf
+		fabric-particles-v1: fabric-particles-v1 0.1.1+dfdb52d6bf
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.2.7+9421522dbf
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 0.2.9+aea78a25bf
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.2.23+820cd5cfbf
+		fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 2.0.1+5a0f9a60bf
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.1.3+b7f9825dbf
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 0.1.6+12515ed9bf
+		fabric-rendering-v0: Fabric Rendering (v0) 1.1.0+53410490bf
+		fabric-rendering-v1: Fabric Rendering (v1) 0.1.0+53410490bf
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.1.10+06c939b3bf
+		fabric-tag-extensions-v0: Fabric Tag Extensions (v0) 0.1.3+abd91580bf
+		fabric-textures-v0: Fabric Textures (v0) 1.0.4+821cdba7bf
+		fabricdrawer: Fabric Drawer 3.2.0-1.15-pre1
+		fabricloader: Fabric Loader 0.7.8+build.184
+		fatxporbs: Fat Experience Orbs 0.0.6
+		fermion-modkeys: Fermion Modifier Keys 1.3.75+19w39a
+		flamingo: Pink Flamingo 1.15-1.16
+		flax: Flax 1.1.1
+		flonters: Flonters 1.0.2+1.15.1
+		floradoubling: Flora Doubling 1.0.0
+		gamemodeoverhaul: GamemodeOverhaul 1.15.1-1.0.1.6
+		giftit: Gift It! 1.1.2+1.15-pre7
+		glassdoor: Glass Doors 1.4.3
+		glassential: Glassential 1.15.1-1.1.3
+		grass_kiss: Grass Kiss 0.2.2
+		healthoverlay: Health Overlay 2.2.10
+		i-blame-x: I Blame X 1.0.1+1.14.4
+		i-need-keybinds: I Need Keybinds 0.2.1-unstable.201912010804
+		iamverysmart: I Am Very Smart 1.5.0+mc1.14.4
+		imbuedtorches: Imbued Torches 1.1.0
+		improved-stations: Improved Stations 1.2.4
+		inventoryprofiles: Inventory Profiles 0.1.0-dev.6
+		irishwolves: Irish Wolves 1.0.0
+		ironbarrels2: Iron Barrels 2 2.1.0
+		jankson: Jankson 2.0.1+j1.2.0
+		jumpoverfences: JumpOverFences 1.15-0.0.1
+		kayak: kayak 0.1.1.22
+		libcd: LibCapableData 2.2.2+1.15.2
+		libgui: LibGui 1.4.0
+		lightoverlay: Light Overlay 4.2
+		liltater: Lil Tater ${version}
+		lootstrap: Lootstrap 1.0.0
+		malilib: MaLiLib 0.10.0-dev.20+beta.3
+		mambience: MAmbience 1.0.0
+		materialisation: Materialisation 2.2.1
+		me_shedaniel_cloth_basic-math: basic-math 0.3.0
+		me_zeroeightsix_fiber: fiber 0.8.0-SNAPSHOT
+		minecraft: Minecraft 1.16-alpha.20.6.a
+		ml3api: ML3API 1.3.1
+		modmenu: Mod Menu 1.8.5+build.23
+		mooblooms: Mooblooms 1.1.1
+		moreberries: More Berries 1.2.3
+		moretotems: More Totems 1.1.0
+		mousewheelie: Mouse Wheelie 1.4.0+1.15.2-pre1
+		ninjaphenix-container-lib: NinjaPhenix's Container Library 0.1.4+1.15.2
+		ninjatips: NinjaTips 1.0.3+1.15
+		nomadbooks: Nomad Books 0.2.1
+		okzoomer: Ok Zoomer 2.1.2
+		orderly: Orderly 2.0.0-alpha+build.7-1.15
+		org_aeonbits_owner_owner: owner 1.0.10
+		org_apache_httpcomponents_httpclient: httpclient 4.5.10
+		org_apache_httpcomponents_httpcore: httpcore 4.4.12
+		org_apache_httpcomponents_httpmime: httpmime 4.5.10
+		org_jetbrains_annotations: annotations 18.0.0
+		org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.3.61
+		org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.3.61
+		org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.3.61
+		org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.3.61
+		org_jetbrains_kotlinx_kotlinx-coroutines-core: kotlinx-coroutines-core 1.3.3
+		org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.3.3
+		org_jetbrains_kotlinx_kotlinx-serialization-runtime: kotlinx-serialization-runtime 0.14.0
+		phosphor: Phosphor 0.3.6
+		programmerartinjector: Programmer Art Injector 1.0.0
+		reborncore: Reborn Core 4.2.2+build.97
+		redstonebits: Redstone Bits 1.2.2
+		retroexchange: Retro Exchange 1.0.0
+		right-click-clear: Right Click Clear 1.1.1-unstable.201912010707
+		roughlyenoughitems: Roughly Enough Items 3.3.18
+		rubikshotbar: Rubik's Hotbar 0.1.3
+		shulkerboxtooltip: Shulker Box Tootip 1.4.5+1.15
+		simpleteleporters: Simple Teleporters 2.2.0
+		simplevoidworld: Simple Void World 1.0.0
+		simplexterrain: Simplex Terrain 0.5.0
+		sit: Sit 1.15-4
+		skin_change: Minecraft Skin Change Mod 1.0.0
+		smoothscrollingeverywhere: Smooth Scrolling Everywhere 2.3
+		sneakthroughberries: Sneak Through Berries 1.0.1
+		sneakyscreens: Sneaky Screens 1.0.1
+		snowdrift: Snowdrift ${version}
+		soulshards: Soul Shards Respawn 1.0.12
+		statement: Statement 1.3.0+1.15.1
+		sweettooth: Sweet Tooth 1.1.2
+		team_reborn_energy: Energy 0.0.8
+		tinyconfig: TinyConfig 1.1.2
+		tippy: Tippy 1.1.2
+		tooltipwrap: Tooltip Autowrap 1.0.2
+		torcherino: Torcherino 2.11.61+20w06a
+		towelette: Towelette 3.0.0+1.15.1
+		trapexpansion: Trap Expansion 1.3.1
+		trumpet-skeleton: Trumpet Skeleton 1.1.1
+		tweed: Tweed API 2.2.9
+		vanilla-hammers: Vanilla Hammers 1.7.0
+		variablepaxels: VariablePaxels 1.15-1.0.2
+		verticalredstone: Vertical Redstone 1.1.0
+		waila: Hwyla 1.9.19
+		wildworld: Wild World 1.2.0+1.15
+		winwonders: Window Wonders 0.1.2
+		working-scheduler: Working Scheduler 1.1.3-1.15-pre1
+		wrenchable: Wrenchable 0.2.1
+		wrenchanything: Wrench Anything 1.1.2
+		yet_another_gravestone_mod: Yet Another Gravestone Mod 1.2.1
+	Player Count: 1 / 8; [class_3222['ObvAK9'/129, l='New World', x=-206.50, y=64.00, z=-16.50]]
+	Data Packs: vanilla (incompatible), fabric/aquarius (incompatible), fabric/beeangry-est (incompatible), fabric/beeproductive (incompatible), fabric/biom4st3rportal (incompatible), fabric/blast (incompatible), fabric/compostrecipes (incompatible), fabric/cotton-commons (incompatible), fabric/creeperspores (incompatible), fabric/expandedstorage (incompatible), fabric/extra-pressure-plates (incompatible), fabric/extradoors (incompatible), fabric/fabric-furnaces (incompatible), fabric/fabric-mining-levels-v0 (incompatible), fabric/flamingo (incompatible), fabric/flax (incompatible), fabric/flonters (incompatible), fabric/giftit (incompatible), fabric/glassdoor (incompatible), fabric/glassential (incompatible), fabric/iamverysmart (incompatible), fabric/imbuedtorches (incompatible), fabric/improved-stations (incompatible), fabric/ironbarrels2 (incompatible), fabric/kayak, fabric/libcd (incompatible), fabric/liltater (incompatible), fabric/materialisation (incompatible), fabric/mooblooms (incompatible), fabric/moreberries (incompatible), fabric/moretotems (incompatible), fabric/nomadbooks (incompatible), fabric/redstonebits (incompatible), fabric/retroexchange (incompatible), fabric/simpleteleporters (incompatible), fabric/simplevoidworld (incompatible), fabric/soulshards (incompatible), fabric/sweettooth (incompatible), fabric/torcherino (incompatible), fabric/towelette (incompatible), fabric/trapexpansion (incompatible), fabric/trumpet-skeleton (incompatible), fabric/vanilla-hammers (incompatible), fabric/variablepaxels (incompatible), fabric/verticalredstone (incompatible), fabric/wildworld (incompatible), fabric/wrenchanything (incompatible), global/cotton_generated (incompatible)
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Blaming and listing mods brought to you by I Blame X.

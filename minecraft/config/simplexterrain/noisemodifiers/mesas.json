@@ -1,0 +1,14 @@
+{
+  "version": "0.5.0",
+  "terraceOctaves": 1,
+  "cutoffOctaves": 3,
+  "terraceFrequency": 100.0,
+  "cutoffFrequency": 1000.0,
+  "maximumScale": 8.0,
+  "noiseCutoff": 0.3,
+  "minTerraceThreshold": -0.3,
+  "minTerraceHeight": 14.0,
+  "maxTerraceThreshold": 0.3,
+  "maxTerraceHeight": 23.0,
+  "defaultTerraceHeight": 20.0
+}

@@ -1,0 +1,76 @@
+[
+	{
+        "Name": "ForestMorning",
+        "Sound": "mambience:forest.morning",
+        "Conditions": "#IsForest# && #IsMorning#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "ForestDay",
+        "Sound": "mambience:forest.day",
+        "Conditions": "#IsForest# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "ForestEvening",
+        "Sound": "mambience:forest.evening",
+        "Conditions": "#IsForest# && #IsEvening#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "ForestNight",
+        "Sound": "mambience:forest.night",
+        "Conditions": "#IsForest# && #IsNight#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "ForestBird",
+        "Sound": "mambience:forest.bird",
+        "Conditions": "#IsForest# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "15 + Math.random()*25"
+    },
+    {
+        "Name": "ForestDeepBird",
+        "Sound": "mambience:forest.deepbird",
+        "Conditions": "#IsForest# && #IsDay# && (FoliageBlocks/Scanner.BlockSize >= 0.30)",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "15 + Math.random()*25"
+    },
+    {
+        "Name": "ForestCuckoo",
+        "Sound": "mambience:forest.cuckoo",
+        "Conditions": "#IsForest# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "20 + Math.random()*20"
+    },
+    {
+        "Name": "ForestWoodpecker",
+        "Sound": "mambience:forest.woodpecker",
+        "Conditions": "#IsForest# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "30 + Math.random()*30"
+    },
+    
+    {
+        "Name": "ForestWind",
+        "Sound": "mambience:forest.wind",
+        "Conditions": "#IsForest#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.5*#Muffle#",
+        "Cooldown": "30 + Math.random()*40"
+    }
+]

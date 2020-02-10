@@ -1,0 +1,8 @@
+{
+	// Consider blocks in the same tag as the same block
+	"tagGrouping": false,
+	// Enable block custom grouping
+	"customGrouping": false,
+	// BlockID to be considered the same block when excavating (IDs separated by commas)
+	"groups": []
+}

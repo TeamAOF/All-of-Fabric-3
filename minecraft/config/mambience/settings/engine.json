@@ -1,0 +1,342 @@
+{
+	"Settings": {
+		"ScannnerX": 17,
+		"ScannnerY": 11,
+		"ScannnerZ": 17,
+		"GlobalVolume": 0.75,
+        "StopSounds": false,
+        "DebugLogging": false
+	},
+	
+	"Soundscapes": [
+		"soundscapes/xshared.json",
+		
+		"soundscapes/cave.json",
+		"soundscapes/desert.json",
+		"soundscapes/end.json",
+		"soundscapes/forest.json",
+		"soundscapes/hell.json",
+		"soundscapes/jungle.json",
+		"soundscapes/lava.json",
+		"soundscapes/mountain.json",
+		"soundscapes/plains.json",
+		"soundscapes/rain.json",
+		"soundscapes/savanna.json",
+		"soundscapes/seaside.json",
+		"soundscapes/snow.json",
+		"soundscapes/swamp.json"
+	],
+
+	"Variables": [
+		{
+			"Name": "FoliageBlocks",
+			"Type": "BlockCount",
+			"Materials": [
+				"minecraft:oak_leaves",
+				"minecraft:spruce_leaves",
+				"minecraft:birch_leaves",
+				"minecraft:jungle_leaves",
+				"minecraft:acacia_leaves",
+				"minecraft:dark_oak_leaves",
+				"minecraft:oak_log",
+				"minecraft:spruce_log",
+				"minecraft:birch_log",
+				"minecraft:jungle_log",
+				"minecraft:acacia_log",
+				"minecraft:dark_oak_log"
+			]
+		},
+		{
+			"Name": "GrassBlocks",
+			"Type": "BlockCount",
+			"Materials": [
+				"minecraft:grass",
+				"minecraft:fern",
+				"minecraft:sunflower",
+				"minecraft:lilac",
+				"minecraft:rose_bush",
+				"minecraft:peony",
+				"minecraft:tall_grass",
+				"minecraft:large_fern",
+				"minecraft:dandelion",
+				"minecraft:poppy",
+				"minecraft:blue_orchid",
+				"minecraft:allium",
+				"minecraft:azure_bluet",
+				"minecraft:red_tulip",
+				"minecraft:orange_tulip",
+				"minecraft:white_tulip",
+				"minecraft:pink_tulip",
+				"minecraft:oxeye_daisy",
+				"minecraft:cornflower",
+				"minecraft:lilly_of_the_valley",
+				"minecraft:whiter_rose"
+			]
+		},
+		{
+			"Name": "ColdBlocks",
+			"Type": "BlockCount",
+			"Materials": [
+				"minecraft:snow",
+				"minecraft:snow_block",
+				"minecraft:ice",
+				"minecraft:packed_ice",
+				"minecraft:blue_ice"
+			]
+		},
+		{
+			"Name": "AirBlocks",
+			"Type": "BlockCount",
+			"Materials": [
+				"minecraft:air",
+				"minecraft:cave_air",
+				"minecraft:void_air"
+			]
+		},
+		{
+			"Name": "WaterBlocks",
+			"Type": "BlockCount",
+			"Materials": [
+				"minecraft:water",
+				"minecraft:bubble_column",
+				"minecraft:kelp",
+				"minecraft:kelp_plant",
+				"minecraft:seagrass",
+				"minecraft:tall_seagrass"
+			]
+		},
+		{
+			"Name": "LavaBlocks",
+			"Type": "BlockCount",
+			"Materials": [
+				"minecraft:lava"
+			]
+		},
+		{
+			"Name": "IceBlocks",
+			"Type": "BlockCount",
+			"Materials": [
+				"minecraft:ice",
+				"minecraft:packed_ice",
+				"minecraft:blue_ice"
+			]
+		},
+		{
+			"Name": "SoulsandBlocks",
+			"Type": "BlockCount",
+			"Materials": [
+				"minecraft:soul_sand"
+			]
+		},
+		
+		{
+			"Name": "JungleBiomes",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:jungle",
+				"minecraft:jungle_edge",
+				"minecraft:jungle_hills",
+				"minecraft:modified_jungle",
+                "minecraft:modified_jungle_edge",
+				"minecraft:bamboo_jungle",
+				"minecraft:bamboo_jungle_hills"
+			]
+		},
+		{
+			"Name": "ConiferousBiomes",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:snowy_taiga",
+				"minecraft:snowy_taiga_hills",
+				"minecraft:snowy_taiga_mountains",
+				"minecraft:giant_tree_taiga",
+				"minecraft:giant_tree_taiga_hills",
+				"minecraft:giant_spruce_taiga",
+				"minecraft:giant_spruce_taiga_hills",
+				"minecraft:taiga",
+				"minecraft:taiga_hills",
+				"minecraft:taiga_mountains"
+			]
+		},
+		{
+			"Name": "SavannaBiomes",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:savanna",
+				"minecraft:savanna_plateau",
+				"minecraft:shattered_savanna",
+				"minecraft:shattered_savanna_plateau",
+				"minecraft:badlands",
+				"minecraft:badlands_plateau",
+				"minecraft:modified_badlands_plateau",
+				"minecraft:wooded_badlands_plateau",
+				"minecraft:modified_wooded_badlands_plateau",
+				"minecraft:eroded_badlands"
+			]
+		},
+		{
+			"Name": "DesertBiomes",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:desert",
+				"minecraft:desert_hills",
+				"minecraft:desert_lakes",
+				"minecraft:savanna",
+				"minecraft:savanna_plateau",
+				"minecraft:shattered_savanna",
+				"minecraft:shattered_savanna_plateau",
+				"minecraft:badlands",
+				"minecraft:badlands_plateau",
+				"minecraft:modified_badlands_plateau",
+				"minecraft:wooded_badlands_plateau",
+				"minecraft:modified_wooded_badlands_plateau",
+				"minecraft:eroded_badlands"
+			]
+		},
+		{
+			"Name": "SwampBiomes",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:swamp",
+				"minecraft:swamp_hills"
+			]
+		},
+		{
+			"Name": "OceanBiomes",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:ocean",
+				"minecraft:deep_ocean",
+				"minecraft:frozen_ocean",
+				"minecraft:deep_frozen_ocean",
+				"minecraft:cold_ocean",
+				"minecraft:deep_cold_ocean",
+				"minecraft:lukewarm_ocean",
+				"minecraft:deep_lukewarm_ocean",
+				"minecraft:warm_ocean",
+				"minecraft:deep_warm_ocean",
+				"minecraft:beach",
+				"minecraft:stone_shore"
+			]
+		},
+		{
+			"Name": "ColdBiomes",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:snowy_beach",
+				"minecraft:snowy_taiga",
+				"minecraft:snowy_taiga_hills",
+				"minecraft:snowy_taiga_mountains",
+				"minecraft:frozen_ocean",
+				"minecraft:deep_frozen_ocean",
+				"minecraft:snowy_tundra",
+				"minecraft:snowy_mountains",
+				"minecraft:ice_spikes"
+			]
+		},
+		{
+			"Name": "HellBiome",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:nether"
+			]
+		},
+		{
+			"Name": "EndBiome",
+			"Type": "BiomeCount",
+			"Biomes": [
+				"minecraft:the_end",
+				"minecraft:small_end_islands",
+				"minecraft:end_midlands",
+				"minecraft:end_highlands",
+				"minecraft:end_barrens"
+			]
+		}
+	],
+	
+	"Macros": [
+		{
+			"Name": "IsMorning",
+			"Code": "(World.Time <= 2000)"
+		},
+		{
+			"Name": "IsDay",
+			"Code": "(World.Time >= 2000 && World.Time <= 12000)"
+		},
+		{
+			"Name": "IsEvening",
+			"Code": "(World.Time >= 12000 && World.Time <= 14000)"
+		},
+		{
+			"Name": "IsNight",
+			"Code": "(World.Time >= 14000)"
+		},
+		
+		{
+            "Name": "BugPlants",
+            "Code": "((GrassBlocks + FoliageBlocks)/Scanner.BlockSize >= 0.005)"
+        },
+        {
+            "Name": "Trees",
+            "Code": "(FoliageBlocks/Scanner.BlockSize >= 0.03)"
+        },
+        
+        {
+            "Name": "UnderGround",
+            "Code": "(Player.Y < 65 && Scanner.AverageSkyLight <= 0.4 /*&& !Player.IsExposed*/)"
+        },
+        {
+            "Name": "Muffle",
+            "Code": "(Player.IsExposed ? 1.0 : .25)"
+        },
+        {
+            "Name": "Salinity",
+            "Code": "(OceanBiomes/Scanner.BiomeSize)"
+        },
+        {
+             "Name": "InAir",
+             "Code": "(AirBlocks/Scanner.BlockCount >= 0.6)"
+        },
+		
+		{
+			"Name": "IsJungle",
+			"Code": "(JungleBiomes/Scanner.BiomeSize >= 0.60)"
+		},
+		{
+			"Name": "IsConiferous",
+			"Code": "(ConiferousBiomes/Scanner.BiomeSize >= 0.60)"
+		},
+		{
+			"Name": "IsSavanna",
+			"Code": "(SavannaBiomes/Scanner.BiomeSize >= 0.60)"
+		},
+		{
+			"Name": "IsDesert",
+			"Code": "(DesertBiomes/Scanner.BiomeSize >= 0.60)"
+		},
+		{
+			"Name": "IsSwamp",
+			"Code": "(SwampBiomes/Scanner.BiomeSize >= 0.60)"
+		},
+		{
+			"Name": "IsCold",
+			"Code": "(ColdBiomes/Scanner.BiomeSize >= 0.60)"
+		},
+		{
+			"Name": "IsHell",
+			"Code": "(HellBiome/Scanner.BiomeSize >= 0.60)"
+		},
+		{
+			"Name": "IsEnd",
+			"Code": "(EndBiome/Scanner.BiomeSize >= 0.60)"
+		},
+		{
+			"Name": "IsForest",
+			"Code": "((#Trees# /*&& Scanner.AverageTemperature >= 0.28*/ && Scanner.AverageTemperature <= 0.78) && !(#IsJungle# || #IsConiferous# || #IsSwamp#))"
+		},
+		{
+			"Name": "IsPlains",
+			"Code": "Scanner.AverageTemperature >= 0.77 && Scanner.AverageTemperature <= 0.83 && #BugPlants# && (FoliageBlocks/Scanner.BlockSize) < 0.01"
+		}
+	]
+}

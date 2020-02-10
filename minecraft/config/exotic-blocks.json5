@@ -1,0 +1,6 @@
+{
+	// Gives more space for REI item display.
+	"shiftScreensLeftIfReiPresent": true,
+	// Use Minecraft font in storage screens.
+	"useVanillaFonts": false
+}

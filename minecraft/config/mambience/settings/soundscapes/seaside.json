@@ -1,0 +1,34 @@
+[
+	{
+        "Name": "SeasideOcean",
+        "Sound": "mambience:seaside.ocean",
+        "Conditions": "#Salinity# >= 0.1 && Player.IsExposed",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "SeasideOceanInside",
+        "Sound": "mambience:seaside.oceaninside",
+        "Conditions": "#Salinity# >= 0.1 && !Player.IsExposed",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8",
+        "Cooldown": "9"
+    },
+    {
+        "Name": "SeasideBirds",
+        "Sound": "mambience:seaside.bird",
+        "Conditions": "#Salinity# >= 0.1",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "10 + Math.random()*20"
+    },
+    {
+        "Name": "SeasideWhale",
+        "Sound": "mambience:seaside.whale",
+        "Conditions": "#Salinity# >= 0.1 && Player.Submerged && (FoliageBlocks/Scanner.BlockSize) > 0.65",
+        "Restrictions": "",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "60 + Math.random()*120"
+    }
+]

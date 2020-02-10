@@ -1,0 +1,39 @@
+{
+  "draw": true,
+  "max_distance": 24,
+  "render_in_f1": false,
+  "health_bar_scale": 1.0,
+  "height_above": 0.6,
+  "draw_background": true,
+  "background_padding": 2,
+  "background_height": 6,
+  "bar_height": 4,
+  "plate_size": 25,
+  "plate_size_boss": 50,
+  "show_attributes": true,
+  "show_armor": true,
+  "group_armor": true,
+  "color_by_type": false,
+  "hp_text_height": 14,
+  "show_max_hp": true,
+  "show_current_hp": true,
+  "show_percentage": true,
+  "show_on_players": true,
+  "show_on_bosses": true,
+  "show_only_focused": false,
+  "enable_debug_info": false,
+  "blacklist": [
+    "minecraft:cod",
+    "minecraft:pufferfish",
+    "minecraft:armor_stand",
+    "minecraft:salmon",
+    "illuminations:firefly",
+    "minecraft:tropical_fish",
+    "minecraft:bee",
+    "minecraft:shulker"
+  ],
+  "bosses": [
+    "minecraft:ender_dragon",
+    "minecraft:wither"
+  ]
+}

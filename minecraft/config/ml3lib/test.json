@@ -1,0 +1,20 @@
+{
+  "number": 42,
+  "identifier": {
+    "field_13353": "minecraft",
+    "field_13355": "stone"
+  },
+  "string": "something",
+  "array": [
+    1,
+    2,
+    3,
+    4,
+    "you expected 5, but it was me, Dio!"
+  ],
+  "inner": {
+    "name": "",
+    "number": 0,
+    "flag": false
+  }
+}

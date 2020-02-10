@@ -1,0 +1,10 @@
+[
+	{
+        "Name": "SavannaBird",
+        "Sound": "mambience:savanna.bird",
+        "Conditions": "Scanner.AverageTemperature >= 0.97 && #IsDay# && #IsSavanna#",
+        "Restrictions": "#UnderGround# || Player.Submerged || #Salinity# >= 0.1 || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "10 + Math.random()*20"
+    }
+]

@@ -1,0 +1,61 @@
+[
+	{
+        "Name": "HellFX1",
+        "Sound": "mambience:hell.fx1",
+        "Conditions": "#IsHell#",
+        "Volume": "0.8",
+        "Cooldown": "15 + Math.random()*30"
+    },
+    {
+        "Name": "HellFX2",
+        "Sound": "mambience:hell.fx2",
+        "Conditions": "#IsHell#",
+        "Volume": "0.8",
+        "Cooldown": "15 + Math.random()*30"
+    },
+    {
+        "Name": "HellFX3",
+        "Sound": "mambience:hell.fx3",
+        "Conditions": "#IsHell#",
+        "Volume": "0.8",
+        "Cooldown": "15 + Math.random()*30"
+    },
+    
+    {
+        "Name": "HellWhisper",
+        "Sound": "mambience:hell.wisper",
+        "Conditions": "#IsHell#",
+        "Volume": "0.8",
+        "Cooldown": "40 + Math.random()*60"
+    },
+    {
+        "Name": "HellExplode",
+        "Sound": "mambience:hell.explode",
+        "Conditions": "#IsHell#",
+        "Volume": "0.8",
+        "Cooldown": "30 + Math.random()*40"
+    },
+    {
+        "Name": "HellHeartbeat",
+        "Sound": "mambience:hell.heartbeat",
+        "Conditions": "#IsHell#",
+        "Volume": "0.8",
+        "Cooldown": "30 + Math.random()*40"
+    },
+    
+    {
+        "Name": "HellSoulsand",
+        "Sound": "mambience:hell.soulsand",
+        "Conditions": "#IsHell# && (SoulsandBlocks/Scanner.BlockSize >= 0.0175)",
+        "Volume": "0.8",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "HellWind",
+        "Sound": "mambience:hell.wind",
+        "Conditions": "#IsHell#",
+        "Volume": "0.5",
+        "Cooldown": "30 + Math.random()*40"
+    }
+]

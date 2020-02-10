@@ -1,0 +1,147 @@
+{
+	"buttons": {
+		"modmenu.modlist": {
+			// X offset from center
+			"x": 3,
+			// Y offset from top
+			"y": 203,
+			"width": 100,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.realms": {
+			// X offset from center
+			"x": 1,
+			// Y offset from top
+			"y": 191,
+			"width": 0,
+			"height": 0,
+			"text": "",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.language": {
+			// X offset from center
+			"x": -101,
+			// Y offset from top
+			"y": 203,
+			"width": 100,
+			"height": 20,
+			"text": "Languages",
+			"type": "modifyTextured",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.singleplayer": {
+			// X offset from center
+			"x": -101,
+			// Y offset from top
+			"y": 131,
+			"width": 204,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.multiplayer": {
+			// X offset from center
+			"x": -101,
+			// Y offset from top
+			"y": 155,
+			"width": 204,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"aof.refresh": {
+			// X offset from center
+			"x": 110,
+			// Y offset from top
+			"y": 179,
+			"width": 100,
+			"height": 20,
+			"text": "Reload",
+			"type": "",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.quit": {
+			// X offset from center
+			"x": 3,
+			// Y offset from top
+			"y": 227,
+			"width": 100,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.options": {
+			// X offset from center
+			"x": -101,
+			// Y offset from top
+			"y": 227,
+			"width": 100,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"aof.github": {
+			// X offset from center
+			"x": 3,
+			// Y offset from top
+			"y": 179,
+			"width": 100,
+			"height": 20,
+			"text": "Github",
+			"type": "url",
+			"parameter": "https://github.com/AllOfFabric",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.accessibility": {
+			// X offset from center
+			"x": 1,
+			// Y offset from top
+			"y": 121,
+			"width": 0,
+			"height": 0,
+			"text": "",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"aof.discord": {
+			// X offset from center
+			"x": -101,
+			// Y offset from top
+			"y": 179,
+			"width": 100,
+			"height": 20,
+			"text": "Discord",
+			"type": "url",
+			"parameter": "https://discord.gg/6rkdm48",
+			// Not currently implemented
+			"textureName": ""
+		}
+	}
+}

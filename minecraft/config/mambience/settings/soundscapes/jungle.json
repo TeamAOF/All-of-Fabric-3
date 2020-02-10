@@ -1,0 +1,60 @@
+[
+	{
+        "Name": "JungleDay",
+        "Sound": "mambience:jungle.day",
+        "Conditions": "#Trees# && #IsJungle# && (#IsMorning# || #IsDay#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "JungleNight",
+        "Sound": "mambience:jungle.night",
+        "Conditions": "#Trees# && #IsJungle# && (#IsEvening# || #IsNight#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "JungleFXDay1",
+        "Sound": "mambience:jungle.fx1",
+        "Conditions": "#Trees# && #IsJungle# && (#IsMorning# || #IsDay#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "30 + Math.random()*20"
+    },
+    {
+        "Name": "JungleFXDay2",
+        "Sound": "mambience:jungle.fx2",
+        "Conditions": "#Trees# && #IsJungle# && (#IsMorning# || #IsDay#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "15 + Math.random()*30"
+    },
+    {
+        "Name": "JungleGibbon",
+        "Sound": "mambience:jungle.gibbon",
+        "Conditions": "#Trees# && #IsJungle# && (#IsMorning# || #IsDay#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "30 + Math.random()*90"
+    },
+    {
+        "Name": "JungleBird",
+        "Sound": "mambience:jungle.bird",
+        "Conditions": "#Trees# && #IsJungle# && (#IsMorning# || #IsDay# || #IsEvening#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "10 + Math.random()*20"
+    },
+    
+    {
+        "Name": "JungleFXNight",
+        "Sound": "mambience:jungle.fxnight",
+        "Conditions": "#Trees# && #IsJungle# && (#IsEvening# || #IsNight#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "10 + Math.random()*30"
+    }
+]

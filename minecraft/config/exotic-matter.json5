@@ -1,0 +1,4 @@
+{
+	// Draw detailed collision boxes normally rendered by vanilla. Can be ugly - useful for debugging.
+	"debugCollisionBoxes": false
+}

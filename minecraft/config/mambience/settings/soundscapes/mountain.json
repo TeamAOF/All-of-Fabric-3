@@ -1,0 +1,19 @@
+[
+	{
+        "Name": "MountainHighAltitudeWind",
+        "Sound": "mambience:mountain.highaltitude",
+        "Conditions": "Player.Y >= 100 && (AirBlocks/Scanner.BlockCount >= 0.3)",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "Math.min(Math.max((Player.Y - 60)/193 - .20, 0.0), 2.0) * 0.15 * #Muffle#;",
+        "Cooldown": "8 + Math.random() * 10"
+    },
+    
+    {
+        "Name": "MountainEagle",
+        "Sound": "mambience:mountain.eagle",
+        "Conditions": "Player.Y >= 100 && (AirBlocks/Scanner.BlockCount >= 0.3) && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "30 + Math.random() * 150"
+    }
+]

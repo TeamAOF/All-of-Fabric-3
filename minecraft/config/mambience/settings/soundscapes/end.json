@@ -1,0 +1,9 @@
+[
+	{
+        "Name": "EndLoop",
+        "Sound": "mambience:end.loop",
+        "Conditions": "#IsEnd#",
+        "Volume": "0.8",
+        "Cooldown": "7"
+    }
+]

@@ -1,0 +1,30 @@
+{
+	"replaceableFluids": false,
+	"unpushableFluids": true,
+	"flowingFluidlogging": false,
+	"accurateFlowBlocking": true,
+	"automaticFluidlogging": true,
+	"miscFluidlogging": {
+		"barrier": false,
+		"beacon": false,
+		"cauldron": false,
+		"end_portal": false,
+		"farmland": false,
+		"fire": false,
+		"grass_path": false,
+		"leaves": false,
+		"lily_pad": false,
+		"nether_portal": false,
+		"observer": false,
+		"pistons": true,
+		"redstone_block": false,
+		"redstone_dust": true,
+		"shulker_boxes": false,
+		"slime_block": false,
+		"spawner": false,
+		"structure_void": false,
+		"torches": true
+	},
+	"enableBlacklistAPI": true,
+	"blacklistedFluidIds": []
+}

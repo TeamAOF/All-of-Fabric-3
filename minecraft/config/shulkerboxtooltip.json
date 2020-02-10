@@ -1,0 +1,13 @@
+{
+  "main": {
+    "enablePreview": true,
+    "lockPreview": false,
+    "swapModes": false,
+    "alwaysOn": false,
+    "tooltipType": "MOD",
+    "compactPreviewTagBehavior": "SEPARATE",
+    "lootTableInfoType": "HIDE",
+    "coloredPreview": true,
+    "defaultMaxRowSize": 9
+  }
+}

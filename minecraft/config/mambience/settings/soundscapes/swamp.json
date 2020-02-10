@@ -1,0 +1,60 @@
+[
+	{
+        "Name": "SwampDay",
+        "Sound": "mambience:swamp.day",
+        "Conditions": "#IsSwamp# && (#IsMorning# || #IsDay#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "SwampNight",
+        "Sound": "mambience:swamp.night",
+        "Conditions": "#IsSwamp# && (#IsEvening# || #IsNight#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.6*#Muffle#",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "SwampMosquito",
+        "Sound": "mambience:swamp.mosquito",
+        "Conditions": "#IsSwamp#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "10 + Math.random()*30"
+    },
+    
+    {
+        "Name": "SwampBird",
+        "Sound": "mambience:swamp.bird",
+        "Conditions": "#IsSwamp# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "15 + Math.random()*25"
+    },
+    {
+        "Name": "SwampDuck",
+        "Sound": "mambience:swamp.duck",
+        "Conditions": "#IsSwamp# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "20 + Math.random()*30"
+    },
+    {
+        "Name": "SwampFrog",
+        "Sound": "mambience:swamp.frog",
+        "Conditions": "#IsSwamp# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "20 + Math.random()*30"
+    },
+    {
+        "Name": "SwampToad",
+        "Sound": "mambience:swamp.toad",
+        "Conditions": "#IsSwamp# && #IsNight#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "30 + Math.random()*30"
+    }
+]

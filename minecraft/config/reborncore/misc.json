@@ -1,0 +1,8 @@
+{
+  "config": {
+    "Enable Seasonal Easter Eggs": {
+      "comment": "Disable this is you don\u0027t want seasonal easter eggs",
+      "value": true
+    }
+  }
+}

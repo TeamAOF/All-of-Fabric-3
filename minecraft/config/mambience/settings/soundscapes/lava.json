@@ -1,0 +1,18 @@
+[
+	{
+        "Name": "LavaNear",
+        "Sound": "mambience:lava.nearlava",
+        "Conditions": "(LavaBlocks/Scanner.BlockSize >= 0.03)",
+        "Restrictions": "Player.Submerged",
+        "Volume": "0.8",
+        "Cooldown": "3"
+    },
+    {
+        "Name": "LavaPlop",
+        "Sound": "mambience:lava.plop",
+        "Conditions": "(LavaBlocks/Scanner.BlockSize >= 0.03)",
+        "Restrictions": "Player.Submerged",
+        "Volume": "0.6",
+        "Cooldown": "10 + Math.random()*10"
+    }
+]

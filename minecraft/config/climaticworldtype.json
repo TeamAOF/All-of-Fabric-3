@@ -1,0 +1,8 @@
+{
+  "humidity_zone_size": 11.0,
+  "temperature_zone_size": 10.0,
+  
+  "biome_size": 4,
+  "river_size": 5,
+  "large_shores": true
+}

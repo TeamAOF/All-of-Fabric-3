@@ -1,0 +1,10 @@
+{
+  "_comment": "True if object is a requirement to avoid damage",
+  "wearingBoots": true,
+  "wearingLeggings": true,
+  "wearingAllArmor": false,
+  "wearingArmorAllowsWalking": true,
+  "sneaking": true,
+  "isPlayer": false,
+  "isNotPlayer": false
+}

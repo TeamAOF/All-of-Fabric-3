@@ -1,0 +1,75 @@
+{
+  "freeze": false,
+  "continental": {
+    "cliffs": {
+      "weight": 0.4,
+      "enable": true
+    },
+    "arid_highlands": {
+      "weight": 2.0,
+      "enable": true
+    },
+    "autumnal_woods": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "rolling_hills": {
+      "weight": 0.7,
+      "enable": true
+    },
+    "plains_plateau": {
+      "weight": 0.1,
+      "enable": true
+    },
+    "high_coniferous_forest": {
+      "weight": 0.2,
+      "enable": true
+    },
+    "snowy_coniferous_forest": {
+      "weight": 0.5,
+      "enable": true
+    },
+    "woodlands": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "desert_shrubland": {
+      "weight": 0.8,
+      "enable": true
+    },
+    "snowy_high_coniferous_forest": {
+      "weight": 0.125,
+      "enable": true
+    },
+    "coniferous_forest": {
+      "weight": 0.8,
+      "enable": true
+    },
+    "mini_jungle": {
+      "weight": 0.2,
+      "enable": true
+    },
+    "meadow": {
+      "weight": 0.9,
+      "enable": true
+    }
+  },
+  "variants": {
+    "lush_swamp": {
+      "chance": 0.2,
+      "enable": true
+    },
+    "wooded_island": {
+      "chance": 0.1,
+      "enable": true
+    },
+    "mini_jungle": {
+      "chance": 0.15,
+      "enable": true
+    },
+    "meadow": {
+      "chance": 0.2,
+      "enable": true
+    }
+  }
+}

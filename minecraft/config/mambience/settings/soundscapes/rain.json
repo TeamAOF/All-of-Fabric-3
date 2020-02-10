@@ -1,0 +1,34 @@
+[
+	{
+        "Name": "RainOutside",
+        "Sound": "mambience:rain.outside",
+        "Conditions": "World.IsRaining && Player.IsExposed && Scanner.AverageTemperature >= 0.2 && Scanner.AverageTemperature <= 0.97",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8",
+        "Cooldown": "4"
+    },
+    {
+        "Name": "RainInside",
+        "Sound": "mambience:rain.inside",
+        "Conditions": "World.IsRaining && !Player.IsExposed && Scanner.AverageTemperature >= 0.2 && Scanner.AverageTemperature <= 0.97",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8",
+        "Cooldown": "4"
+    },
+    {
+        "Name": "RainTrees",
+        "Sound": "mambience:rain.tree",
+        "Conditions": "World.IsRaining && #Trees# && Scanner.AverageTemperature >= 0.2 && Scanner.AverageTemperature <= 0.97",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8",
+        "Cooldown": "4"
+    },
+    {
+        "Name": "RainDistantThunder",
+        "Sound": "mambience:rain.distantthunder",
+        "Conditions": "World.IsRaining && Scanner.AverageTemperature >= 0.2 && Scanner.AverageTemperature <= 0.97",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8",
+        "Cooldown": "15 + Math.random()*35"
+    }
+]

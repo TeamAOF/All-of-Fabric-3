@@ -1,0 +1,9 @@
+{
+  "apply_swords": true,
+  "apply_axes": true,
+  "apply_shovels": false,
+  "apply_pickaxes": false,
+  "apply_tridents": true,
+  "apply_hoes": false,
+  "apply_items": []
+}

@@ -1,0 +1,26 @@
+[
+	{
+        "Name": "DesertCicadas",
+        "Sound": "mambience:desert.cicada",
+        "Conditions": "Scanner.AverageTemperature >= 0.97 && #BugPlants# && #IsDay# && #IsDesert#",
+        "Restrictions": "#UnderGround# || Player.Submerged || #Salinity# >= 0.1 || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "8 + Math.random()*15"
+    },
+    {
+        "Name": "DesertDay",
+        "Sound": "mambience:desert.day",
+        "Conditions": "Scanner.AverageTemperature >= 0.97 && (#IsMorning# || #IsDay#) && #IsDesert#",
+        "Restrictions": "#UnderGround# || Player.Submerged || #Salinity# >= 0.1 || #InAir#",
+        "Volume": "0.5*#Muffle#",
+        "Cooldown": "7 + Math.random()*13"
+    },
+    {
+        "Name": "DesertNight",
+        "Sound": "mambience:desert.night",
+        "Conditions": "Scanner.AverageTemperature >= 0.97 && (#IsEvening# || #IsNight#) && #IsDesert#",
+        "Restrictions": "#UnderGround# || Player.Submerged || #Salinity# >= 0.1 || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    }
+]

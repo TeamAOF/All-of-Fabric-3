@@ -1,0 +1,10 @@
+{
+	/* Changes how server treats players without mod installed
+	   0 (default): players without Elytra Swap installed are just ignored
+	   1: players without Elytra Swap installed will be kicked into air armor change will be forced and can only be enabled or disabled by command
+	   2: for players without Elytra Swap installed armor still will be changed when falling but firework usage will be unavailable
+	*/
+	"noModPlayersHandlingMethod": 0,
+	// This is how much vertical speed player will gain as a result of using firework rocket
+	"kickSpeed": 1.7000000476837158
+}

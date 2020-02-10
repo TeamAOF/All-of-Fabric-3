@@ -1,0 +1,77 @@
+[
+	{
+        "Name": "SnowForest",
+        "Sound": "mambience:snow.forest",
+        "Conditions": "#IsCold# && #Trees# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "SnowMountain",
+        "Sound": "mambience:snow.mountain",
+        "Conditions": "#IsCold# && Player.Y>100",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "SnowPlains",
+        "Sound": "mambience:snow.plains",
+        "Conditions": "#IsCold#",
+        "Restrictions": "#Trees# || #UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "SnowWindForest",
+        "Sound": "mambience:snow.wind1",
+        "Conditions": "#IsCold# && #Trees# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.5*#Muffle#",
+        "Cooldown": "15 * Math.random()*15"
+    },
+    {
+        "Name": "SnowWind",
+        "Sound": "mambience:snow.wind2",
+        "Conditions": "#IsCold# && #IsDay#",
+        "Restrictions": "#Trees# || #UnderGround# || Player.Submerged",
+        "Volume": "0.5*#Muffle#",
+        "Cooldown": "15 * Math.random()*15"
+    },
+    {
+        "Name": "SnowWindNight",
+        "Sound": "mambience:snow.windnight",
+        "Conditions": "#IsCold# && (#IsMorning# || #IsEvening# || #IsNight#)",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.5*#Muffle#",
+        "Cooldown": "15 * Math.random()*15"
+    },
+    
+    {
+        "Name": "SnowHowl",
+        "Sound": "mambience:snow.howl",
+        "Conditions": "#IsCold# && #IsNight#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "20 * Math.random()*40"
+    },
+    {
+        "Name": "SnowCrows",
+        "Sound": "mambience:snow.crows",
+        "Conditions": "#IsCold# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "20 * Math.random()*40"
+    },
+    
+    {
+        "Name": "SnowCracks",
+        "Sound": "mambience:snow.cracks",
+        "Conditions": "#IsCold# && (IceBlocks/Scanner.BlockSize >= 0.02)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "0.8*#Muffle#",
+        "Cooldown": "5 * Math.random()*20"
+    }
+]

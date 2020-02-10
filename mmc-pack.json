@@ -23,6 +23,15 @@
             "version": "20w06a"
         },
         {
+            "cachedName": "Intermediary Mappings",
+            "cachedRequires": [
+                {
+                    "equals": "20w06a",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "cachedVersion": "20w06a",
+            "cachedVolatile": true,
             "dependencyOnly": true,
             "uid": "net.fabricmc.intermediary",
             "version": "20w06a"
@@ -34,9 +43,9 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "cachedVersion": "0.7.6+build.181",
+            "cachedVersion": "0.7.8+build.184",
             "uid": "net.fabricmc.fabric-loader",
-            "version": "0.7.6+build.181"
+            "version": "0.7.8+build.184"
         }
     ],
     "formatVersion": 1
