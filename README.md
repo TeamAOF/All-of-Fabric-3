@@ -9,17 +9,15 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 **Recommended:**  
-**v0.0.1**  
+**v0.0.3**  
 *MultiMC:*  
-https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.3.v0.0.1.zip  
-*Server:*  
-https://github.com/AllOfFabric/AOF-3/releases/download/0.0.1/AOF.3.Server.v0.0.1.zip  
+https://github.com/AllOfFabric/AOF-3/releases/download/0.0.3/AOF.3.v0.0.3.zip  
   
   
 **Latest:**  
-**v0.0.2**  
+**v0.0.3**  
 *MultiMC:*  
-https://github.com/AllOfFabric/AOF-3/releases/download/0.0.2/AOF.3.v0.0.2.zip  
+https://github.com/AllOfFabric/AOF-3/releases/download/0.0.3/AOF.3.v0.0.3.zip  
 
 **Changelogs:**  
 https://github.com/AllOfFabric/AOF-3/releases	
@@ -87,14 +85,14 @@ Minecraft 20w06a
 - [Egg Tab: eggtab-1.1.2+1.15-1.16.jar](https://www.curseforge.com/minecraft/mc-mods/eggtab)
 - [Elytra Swap: elytra_swap-1.3.0-20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/elytra-swap)
 - [Enchanted ToolTips: EnchantedToolTips-1.2.4.jar](https://www.curseforge.com/minecraft/mc-mods/enchanted-tooltips)
-- [Epicurean: epicurean-2.2.3+1.15.2.jar](https://www.curseforge.com/minecraft/mc-mods/epicurean)
+- [Epicurean: epicurean-2.2.4+1.15.2.jar](https://www.curseforge.com/minecraft/mc-mods/epicurean)
 - [Exotic Blocks: exotic-blocks-mc116-1.2.113.jar](https://www.curseforge.com/minecraft/mc-mods/exotic-blocks)
-- [Expanded Storage: expandedstorage-3.8.3320w06a.jar](https://www.curseforge.com/minecraft/mc-mods/expanded-storage)
+- [Expanded Storage: expandedstorage-4.11.37+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/expanded-storage-fabric)
 - [ExtraDiscs: ExtraDiscs-1.1.1+build.7.jar](https://www.curseforge.com/minecraft/mc-mods/extradiscs)
 - [ExtraDoors: extradoors-1.6.0-1.16.jar](https://www.curseforge.com/minecraft/mc-mods/extradoors)
 - [Diagonal Panes: fabric-diagonal-panes-0.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/diagonal-panes)
 - [Fabric Furnaces: fabric-furnaces_1.15pre4-1.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-furnaces)
-- [Facility: facility-mc116-0.5.107.jar](https://www.curseforge.com/minecraft/mc-mods/facility)
+- [Facility: facility-mc116-0.5.109.jar](https://www.curseforge.com/minecraft/mc-mods/facility)
 - [Fancy Fountain Passage: fancyfountainpassage-1.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/fancy-fountain-passage)
 - [Fat Experience Orbs: FatExperienceOrbs-0.0.6.jar](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
 - [Flax Mod (Fabric): Flax-1.1.1.jar](https://www.curseforge.com/minecraft/mc-mods/flax-mod-fabric)
@@ -109,7 +107,7 @@ Minecraft 20w06a
 - [Health Overlay: HealthOverlay-1.15-2.2.10.jar](https://www.curseforge.com/minecraft/mc-mods/health-overlay)
 - Hollowlogs
 - [HoneyMod: honeymod-1.0.1-1.16.jar](https://www.curseforge.com/minecraft/mc-mods/honeymod)
-- [Hwyla: Hwyla-fabric-1.15-pre4-1.9.19-70.jar](https://www.curseforge.com/minecraft/mc-mods/hwyla)
+- [Hwyla: Hwyla-fabric-1.15.2-1.9.20-71.jar](https://www.curseforge.com/minecraft/mc-mods/hwyla)
 - [I Am Very Smart: i-am-very-smart-1.5.0+mc1.14.4.jar](https://www.curseforge.com/minecraft/mc-mods/i-am-very-smart)
 - [I Need Keybinds: i-need-keybinds-0.2.1-unstable.201912010804.jar](https://www.curseforge.com/minecraft/mc-mods/i-need-keybinds)
 - [Illuminations ðŸ”¥: illuminations-0.6.jar](https://www.curseforge.com/minecraft/mc-mods/illuminations)
@@ -117,7 +115,7 @@ Minecraft 20w06a
 - [Improved Stations: improved-stations-1.2.4.jar](https://www.curseforge.com/minecraft/mc-mods/improved-stations)
 - [Inventory Profiles: inventoryprofiles-fabric-1.15-0.1.0-dev.6.jar](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles)
 - [Irish Wolves: irishwolves-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/irish-wolves)
-- [Iron Barrels: ironbarrels-2.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/iron-barrels)
+- [Iron Barrels: ironbarrels-2.2.1.jar](https://www.curseforge.com/minecraft/mc-mods/iron-barrels)
 - [JumpOverFences: jumpoverfences-1.16-snapshot-0.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/jumpoverfences)
 - [kayak: kayak-0.1.1.22.jar](https://www.curseforge.com/minecraft/mc-mods/kayak)
 - [Light Overlay (Rift/Forge/Fabric): LightOverlay-4.2.jar](https://www.curseforge.com/minecraft/mc-mods/light-overlay)
@@ -130,23 +128,23 @@ Minecraft 20w06a
 - [Mooblooms: mooblooms-1.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/mooblooms)
 - [More Totems Of Undying: more-totems-mod-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/more-totems-of-undying)
 - [More Berries: moreberries-1.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/more-berries)
-- [Mouse Wheelie (Fabric): mousewheelie-1.4.0+1.15.2-pre1.jar](https://www.curseforge.com/minecraft/mc-mods/mouse-wheelie)
+- [Mouse Wheelie (Fabric): mousewheelie-1.4.1+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/mouse-wheelie)
 - [netherHigher: netherHigher-1.1.0+build.4.jar](https://www.curseforge.com/minecraft/mc-mods/netherhigher)
 - [Nomad Books ðŸ“—: nomadbooks-0.3.jar](https://www.curseforge.com/minecraft/mc-mods/nomadbooks)
 - [Ok Zoomer: okzoomer-2.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/ok-zoomer)
 - [Orderly (Fabric): orderly-2.0.0-alpha+build.7-1.15.jar](https://www.curseforge.com/minecraft/mc-mods/orderly)
-- [Phosphor: phosphor-mc1.15.1-fabric-0.3.6.jar](https://www.curseforge.com/minecraft/mc-mods/phosphor)
+- [Phosphor: phosphor-mc20w06a-fabric-0.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/phosphor)
 - Quark
 - [Quazi-Modded: quazi-modded-1.0.1+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/quazi-modded)
 - [Random Teleport: Random+Teleport-Fabric-1.16+20w06a-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/random-teleport)
 - [Redstone Bits: redstone-bits-1.2.2.jar](https://www.curseforge.com/minecraft/mc-mods/redstone-bits)
 - [RetroExchange: Retro-Exchange-1.15-3.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/retroexchange)
 - [Right Click Clear: right-click-clear-1.1.1-unstable.201912010707.jar](https://www.curseforge.com/minecraft/mc-mods/right-click-clear)
-- [Roughly Enough Items (REI): RoughlyEnoughItems-4.0.0-unstable.202002091715.jar](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)
+- [Roughly Enough Items (REI): RoughlyEnoughItems-4.0.1-unstable.202002131645.jar](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)
 - [Shest: shest-1.2.5.jar](https://www.curseforge.com/minecraft/mc-mods/shest)
 - [ShulkerBoxTooltip: shulkerboxtooltip-1.4.6+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip)
 - [Simple Teleporters (Fabric): simpleteleporters-2.2.0-1.15.jar](https://www.curseforge.com/minecraft/mc-mods/simple-teleporters-fabric)
-- [Simple Void World: SimpleVoidWorld-3.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/simple-void-world)
+- [Simple Void World: SimpleVoidWorld-3.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/simple-void-world)
 - [Simplex Terrain Generation: simplexterrain-0.5.0.jar](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
 - [Sit (Fabric): sit-1.15-4.jar](https://www.curseforge.com/minecraft/mc-mods/sit-fabric)
 - [Skin Swapper: Skin+Swapper+v1.0.2+1.15.2.jar](https://www.curseforge.com/minecraft/mc-mods/skin-swapper)
@@ -155,7 +153,7 @@ Minecraft 20w06a
 - [Sneak Through Berries (Forge & Fabric): sneakthroughberries-1.15.2-20w06a-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/sneakthroughberries)
 - [Sneaky Screens: sneakyscreens-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/sneaky-screens)
 - [Snowdrift: snowdrift-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/snowdrift)
-- [Soul Shards Respawn: SoulShards-fabric-1.15-pre7-1.0.12-12.jar](https://www.curseforge.com/minecraft/mc-mods/soul-shards-respawn)
+- [Soul Shards Respawn: SoulShards-fabric-1.15.2-1.2.0-15.jar](https://www.curseforge.com/minecraft/mc-mods/soul-shards-respawn)
 - [Strong and Fair Anvils: strongandfairanvils-0.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/strong-and-fair-anvils)
 - [Sweet Tooth: sweet-tooth-1.1.2-1.15.jar](https://www.curseforge.com/minecraft/mc-mods/sweet-tooth)
 - [Trees Do Not Float: tdnf-mc116-1.8.76.jar](https://www.curseforge.com/minecraft/mc-mods/trees-do-not-float)
@@ -163,7 +161,7 @@ Minecraft 20w06a
 - [Clippy's Tippies Â®: tippy-1.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/clippys-tippies)
 - [ToolTip AutoWrap: tooltipwrap-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/tooltip-autowrap)
 - [Torcherino: Torcherino-2.11.61+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/torcherino)
-- [Trap Expansion  (Fabric): trapexpansion-1.3.1-fabric1.15.jar](https://www.curseforge.com/minecraft/mc-mods/trap-expansion-fabric)
+- [Trap Expansion  (Fabric): trapexpansion-1.3.2.jar](https://www.curseforge.com/minecraft/mc-mods/trap-expansion-fabric)
 - [Traverse (Fabric): traverse-2.2.0+build.1.jar](https://www.curseforge.com/minecraft/mc-mods/traverse)
 - [Trumpet Skeleton (Fabric): trumpet-skeleton-fabric-1.1.1.jar](https://www.curseforge.com/minecraft/mc-mods/trumpet-skeleton-fabric)
 - [Vanilla Hammers: vanilla-hammers_1.15.2-1.7.1.jar](https://www.curseforge.com/minecraft/mc-mods/vanilla-hammers)
@@ -179,15 +177,15 @@ Minecraft 20w06a
 - [Compost Recipes: compostrecipes-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/compost-recipes)
 - [Cotton: cotton-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/cotton)
 - [Exotic Matter Library: exotic-matter-mc116-1.17.297.jar](https://www.curseforge.com/minecraft/mc-mods/exotic-matter-library)
-- [Fabric API: fabric-api-0.4.30+build.294-1.16.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+- [Fabric API: fabric-api-0.4.33+build.299-1.16.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 - [Fabric Drawer: fabric-drawer-3.2.0-1.15-pre1.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-drawer)
 - [Fabric Language Kotlin: fabric-language-kotlin-1.3.61+build.1.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin)
 - [Fermion: fermion-mc116-1.14.157.jar](https://www.curseforge.com/minecraft/mc-mods/fermion)
 - [FREX: frex-mc116-1.3.104.jar](https://www.curseforge.com/minecraft/mc-mods/frex)
-- [LibCapableData (LibCD): libcd-2.2.2+1.15.2.jar](https://www.curseforge.com/minecraft/mc-mods/libcd)
+- [LibCapableData (LibCD): libcd-2.3.0+1.15.2.jar](https://www.curseforge.com/minecraft/mc-mods/libcd)
 - [LibGui: LibGui-1.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/libgui)
 - [MaLiLib: malilib-fabric-1.15.2-0.10.0-dev.20+arne.2.jar](https://www.curseforge.com/minecraft/mc-mods/malilib)
-- [Reborn Core: RebornCore-1.15-4.2.2+build.97.jar](https://www.curseforge.com/minecraft/mc-mods/reborncore)
+- [Reborn Core: RebornCore-1.15-4.2.3+build.99.jar](https://www.curseforge.com/minecraft/mc-mods/reborncore)
 - [SheetLib: sheet-lib-1.4.0+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/sheetlib)
 - [Towelette: Towelette-3.1.0+1.15.2.jar](https://www.curseforge.com/minecraft/mc-mods/towelette)
 - [Working Scheduler: working-scheduler-1.1.3-1.15-pre1.jar](https://www.curseforge.com/minecraft/mc-mods/working-scheduler)
