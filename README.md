@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=M633Qm86tqk
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 **Loader**
-Minecraft 20w06a
+Minecraft 20w07a
 [Fabric Loader 0.7.8+build.184](https://fabricmc.net)
 
 **Mods**
@@ -60,14 +60,12 @@ Minecraft 20w06a
 - [Fabric Autoswitch: autoswitch-0.11.3.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-autoswitch)
 - [Bounding Box Outline Reloaded: BBOutlineReloaded-1.0.14-1.15.1-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/bounding-box-outline-reloaded)
 - [Bee Angry-est: BeeAngryest-1.4.0+1.15.1.jar](https://www.curseforge.com/minecraft/mc-mods/bee-angry-est)
-- [Bee-in-a-Jar: beeinajar-19w36a-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/bee-in-a-jar)
 - [Beenfo: beenfo-1.15-fabric0.4.23-1.0.3.jar](https://www.curseforge.com/minecraft/mc-mods/beenfo)
 - [Bee Productive: beeproductive-1.0.2+1.15.1.jar](https://www.curseforge.com/minecraft/mc-mods/bee-productive)
 - [BetterNether: better-nether-2.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/betternether)
 - [Big Buckets - Fabric Edition: bigbuckets-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/bigbuckets-fabric)
 - [BLAST ðŸ’£: blast-1.1.1.jar](https://www.curseforge.com/minecraft/mc-mods/blast)
 - [Blockus: blockus-1.3.3.jar](https://www.curseforge.com/minecraft/mc-mods/blockus)
-- [Bucket Hat: bucket-hat-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/bucket-hat)
 - [Bulky Shulkies: bulkyshulkies-1.0.5.jar](https://www.curseforge.com/minecraft/mc-mods/bulky-shulkies)
 - [Chest Latch Fixer: chestlatchfixer-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/chest-latch-fixer)
 - [CleanView: CleanView-1.15.2-v1-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/cleanview)
@@ -92,6 +90,7 @@ Minecraft 20w06a
 - [ExtraDoors: extradoors-1.6.0-1.16.jar](https://www.curseforge.com/minecraft/mc-mods/extradoors)
 - [Diagonal Panes: fabric-diagonal-panes-0.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/diagonal-panes)
 - [Fabric Furnaces: fabric-furnaces_1.15pre4-1.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-furnaces)
+- [Window Title Changer (Fabric): fabric-title-changer-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-title-changer)
 - [Facility: facility-mc116-0.5.109.jar](https://www.curseforge.com/minecraft/mc-mods/facility)
 - [Fancy Fountain Passage: fancyfountainpassage-1.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/fancy-fountain-passage)
 - [Fat Experience Orbs: FatExperienceOrbs-0.0.6.jar](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
@@ -106,7 +105,6 @@ Minecraft 20w06a
 - [Grass Kiss (Fabric): grass_kiss-0.2.2.jar](https://www.curseforge.com/minecraft/mc-mods/grass-kiss)
 - [Health Overlay: HealthOverlay-1.15-2.2.10.jar](https://www.curseforge.com/minecraft/mc-mods/health-overlay)
 - Hollowlogs
-- [HoneyMod: honeymod-1.0.1-1.16.jar](https://www.curseforge.com/minecraft/mc-mods/honeymod)
 - [Hwyla: Hwyla-fabric-1.15.2-1.9.20-71.jar](https://www.curseforge.com/minecraft/mc-mods/hwyla)
 - [I Am Very Smart: i-am-very-smart-1.5.0+mc1.14.4.jar](https://www.curseforge.com/minecraft/mc-mods/i-am-very-smart)
 - [I Need Keybinds: i-need-keybinds-0.2.1-unstable.201912010804.jar](https://www.curseforge.com/minecraft/mc-mods/i-need-keybinds)
@@ -120,6 +118,8 @@ Minecraft 20w06a
 - [kayak: kayak-0.1.1.22.jar](https://www.curseforge.com/minecraft/mc-mods/kayak)
 - [Light Overlay (Rift/Forge/Fabric): LightOverlay-4.2.jar](https://www.curseforge.com/minecraft/mc-mods/light-overlay)
 - [Lil Tater: liltater-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/lil-tater)
+- Linkedstorage
+- [Lithium: lithium-mc20w06a-fabric-0.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/lithium)
 - [Llama Steeds: llamasteeds-2020.02.08.jar](https://www.curseforge.com/minecraft/mc-mods/llama-steeds)
 - [Lootstrap: lootstrap-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/lootstrap)
 - [MAmbience: Mambience-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/mambience)
@@ -134,7 +134,6 @@ Minecraft 20w06a
 - [Ok Zoomer: okzoomer-2.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/ok-zoomer)
 - [Orderly (Fabric): orderly-2.0.0-alpha+build.7-1.15.jar](https://www.curseforge.com/minecraft/mc-mods/orderly)
 - [Phosphor: phosphor-mc20w06a-fabric-0.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/phosphor)
-- Quark
 - [Quazi-Modded: quazi-modded-1.0.1+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/quazi-modded)
 - [Random Teleport: Random+Teleport-Fabric-1.16+20w06a-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/random-teleport)
 - [Redstone Bits: redstone-bits-1.2.2.jar](https://www.curseforge.com/minecraft/mc-mods/redstone-bits)
@@ -145,7 +144,6 @@ Minecraft 20w06a
 - [ShulkerBoxTooltip: shulkerboxtooltip-1.4.6+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip)
 - [Simple Teleporters (Fabric): simpleteleporters-2.2.0-1.15.jar](https://www.curseforge.com/minecraft/mc-mods/simple-teleporters-fabric)
 - [Simple Void World: SimpleVoidWorld-3.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/simple-void-world)
-- [Simplex Terrain Generation: simplexterrain-0.5.0.jar](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
 - [Sit (Fabric): sit-1.15-4.jar](https://www.curseforge.com/minecraft/mc-mods/sit-fabric)
 - [Skin Swapper: Skin+Swapper+v1.0.2+1.15.2.jar](https://www.curseforge.com/minecraft/mc-mods/skin-swapper)
 - [SleepVote: sleepvote-1.16-snapshot-1.2.jar](https://www.curseforge.com/minecraft/mc-mods/sleepvote)
@@ -154,10 +152,10 @@ Minecraft 20w06a
 - [Sneaky Screens: sneakyscreens-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/sneaky-screens)
 - [Snowdrift: snowdrift-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/snowdrift)
 - [Soul Shards Respawn: SoulShards-fabric-1.15.2-1.2.0-15.jar](https://www.curseforge.com/minecraft/mc-mods/soul-shards-respawn)
-- [Strong and Fair Anvils: strongandfairanvils-0.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/strong-and-fair-anvils)
 - [Sweet Tooth: sweet-tooth-1.1.2-1.15.jar](https://www.curseforge.com/minecraft/mc-mods/sweet-tooth)
 - [Trees Do Not Float: tdnf-mc116-1.8.76.jar](https://www.curseforge.com/minecraft/mc-mods/trees-do-not-float)
 - [Terrestria (Fabric): terrestria-1.3.1+build.3.jar](https://www.curseforge.com/minecraft/mc-mods/terrestria)
+- The_loved_ones
 - [Clippy's Tippies Â®: tippy-1.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/clippys-tippies)
 - [ToolTip AutoWrap: tooltipwrap-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/tooltip-autowrap)
 - [Torcherino: Torcherino-2.11.61+20w06a.jar](https://www.curseforge.com/minecraft/mc-mods/torcherino)
