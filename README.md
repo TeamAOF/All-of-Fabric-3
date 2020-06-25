@@ -1,29 +1,29 @@
 ----------------------------------------------------------------------------------------------------------------------------------------
 # AOF 3 by AK9 (1.16)
-***Modpack containing the latest &amp; best Fabric mods***  
+#### *Modpack containing the latest &amp; best Fabric mods*
 *If you find any issues/bugs related to a specific mod, use their Issue Tracker. Only use this Issue Tracker if it's pack related.* 
 
-**Where can you find me?**  
+#### *Where can you find me?*
 *All of Fabric Discord Server: https://discord.gg/6rkdm48*	
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-**Latest**  
+#### *Latest*
 **v1.0.0**  
 *MultiMC:*  
 https://github.com/AllOfFabric/All-of-Fabric-3/releases/download/1.0.0/All.of.Fabric.3.v1.0.0.zip
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-**HOW TO INSTALL MODPACK**	
-1. Download MultiMC at https://multimc.org/	
+#### *HOW TO INSTALL MODPACK*
+1. Download MultiMC at https://multimc.org/
 2. Log into your Mojang account.	
 3. Import the Zip provided above or copy the URL and paste it into MultiMC.	
 4. Play & have fun!  
 **Video Tutorial by SuntannedDuck:**
 https://www.youtube.com/watch?v=M633Qm86tqk	
 
-**HOW TO INSTALL SERVER**	
+#### *HOW TO INSTALL SERVER*
 1. Download the All of Fabric Server files above.	
 2. Extract the files to a new folder.	
 3. Run Install_Mods.bat & wait for it too finish properly!
@@ -32,11 +32,11 @@ https://www.youtube.com/watch?v=M633Qm86tqk
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-**Loader**
+#### *Loader*
 Minecraft 1.16
 [Fabric Loader 0.8.8+build.202](https://fabricmc.net)
 
-**Mods**
+#### *Mods*
 - [SuperAxes: [1.16-pre2]+SuperAxes-1.1.1.jar](https://www.curseforge.com/minecraft/mc-mods/superaxes)
 - [Adabranium: adabraniummod-1.1.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/adabranium)
 - [Art of Alchemy: artofalchemy-0.7.0.1+1.16-pre2.jar](https://www.curseforge.com/minecraft/mc-mods/art-of-alchemy)
@@ -92,7 +92,7 @@ Minecraft 1.16
 - [Wild World: WildWorld-1.2.0-1.16.jar](https://www.curseforge.com/minecraft/mc-mods/wild-world)
 - [Winged: winged-1.16-pre8-1.0.jar](https://www.curseforge.com/minecraft/mc-mods/winged)
 
-**APIs/LIBs**
+#### *APIs/LIBs*
 - [Cardinal Components: Cardinal-Components-API-2.4.0-nightly.1.16-rc1.build.2.jar](https://www.curseforge.com/minecraft/mc-mods/cardinal-components)
 - [Cloth API (Fabric): cloth-api-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/cloth-api)
 - [Cloth Config API (Fabric): config-2-4.5.5.jar](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
