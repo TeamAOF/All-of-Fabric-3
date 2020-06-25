@@ -6,6 +6,7 @@
 - Fixed certain World Types not being usable on servers.
 - Fixed there being no bedrock on Ecotones World Type.
 - Fixed Fir Wood not being smeltable.
+- Fixed sorting buttons overlapping.
 - Fixed Backpacks deleting items.
 - Skin Border of Just Map reduced from (2.0 > 1.7).
 - Actually disabled CBM this time.
