@@ -1,6 +1,6 @@
 <h1>1.2.0</h1>
 
-**NOTE:** Resetting Nether is HIGLY recommended with this build. I would personally recommend a world reset overall.  
+**NOTE:** Resetting Nether is HIGHLY recommended with this build. I would personally recommend a world reset overall.  
 This update adds ALOT of new world gen.
 
 **Changed/Fixed**
