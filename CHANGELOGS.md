@@ -7,6 +7,7 @@ This update adds ALOT of new world gen.
 - Added Custom main menu.
 - Fixed server crash when using splash potions.
 - Fixed server crash when using slime boots/sling.
+- Fixed Wooden Jetpack recipe.
 - Fixed Packet error on login.
 - Fixed jumploader crash on Java 8. Will now work with MultiMC etc.
 - Fixed crash with mouse events in Slotlink.
