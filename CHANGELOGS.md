@@ -1,3 +1,42 @@
+<h1>1.2.1</h1>
+
+**NOTE:** Resetting Nether is HIGHLY recommended with this build. I would personally recommend a world reset overall.  
+This update adds ALOT of new world gen.
+
+**Changed/Fixed**
+- Added Custom main menu.
+- Fixed server crash when using splash potions.
+- Fixed server crash when using slime boots/sling.
+- Fixed Packet error on login.
+- Fixed jumploader crash on Java 8. Will now work with MultiMC etc.
+- Fixed crash with mouse events in Slotlink.
+
+**Added**
+- **ExperimentAway** (experimentaway-1.0.0.jar)
+- **Glassential** (glassential-fabric-1.16.1-1.1.4.jar)
+- **JumpOverFences** (jumpoverfences-1.16-0.0.3.jar)
+- **LibGamerule** (libgamerule-0.0.5-1.16.1.jar)
+- **Lithium** (lithium-fabric-mc1.16.1-0.5.0-rc1.jar)
+- **Mo' Structures** (mostructures-1.0.0-pre1+mc.1.16.jar)
+- **Mouse Wheelie** (mousewheelie-1.4.16+mc1.16-rc1.jar)
+- **SleepVote** (sleepvote-1.6+1.16.1.jar)
+- **'Slight' GUI Modifications** (slight-gui-modifications-1.0.3.jar)
+- **Woods and Mires** (WoodsAndMires-1.0.0+1.16.1.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.7.2.1_Fabric_1.16.1.jar)
+- **YNet** (ynet-0.1.8+1.16.1.jar)
+
+**Removed**
+- **BYG**
+- **Gubbins**
+
+**Updated**
+- **Blockus** (blockus-1.5.4.1.jar -> blockus-1.6.0.1.jar)
+- **Jumploader** (jumploader-1.0.9.jar -> jumploader-1.0.10.jar)
+- **Kibe** (kibe-1.16-pre6-1.1.2-BETA.jar -> kibe-1.16.1-1.1.3-BETA.jar)
+- **LilTaterReloaded** (LilTaterReloaded-1.1.5+1.16.1.jar -> LilTaterReloaded-1.1.6+1.16.1.jar)
+- **slotlink** (slotlink-0.2+minecraft-1.16.1.jar -> slotlink-0.2.2+minecraft-1.16.1.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>1.2.0</h1>
 
 **NOTE:** Resetting Nether is HIGHLY recommended with this build. I would personally recommend a world reset overall.  
