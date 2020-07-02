@@ -1,3 +1,32 @@
+<h1>1.2.2</h1>
+
+**Changed/Fixed**
+- Fixed biome crash in nether.
+
+**Added**
+- **CleanCut** (cleancut-mc1.16-2.1-fabric.jar)
+- **Flonters** (Flonters-1.1.0+1.16.1.jar)
+- **Gotta Climb Fast!** (gottaclimbfast-1.0.jar)
+- **LibGamerule** (libgamerule-0.0.6-1.16.1.jar)
+- **Simple Drawers** (simpledrawers-1.8.0-1.16.1.jar)
+- **SleepVote** (sleepvote-1.7+1.16.1.jar)
+- **VanillaDeathChest** (vanilladeathchest-1.16.1-1.11.0.2-fabric.jar)
+
+**Removed**
+- **YNet**
+
+**Updated**
+- **Astromine** (astromine-1.0.17+fabric-1.16.1.jar -> astromine-1.0.25+fabric-1.16.1.jar)
+- **Cinderscapes** (cinderscapes-1.0.1+build.2.jar -> cinderscapes-1.0.3+build.18.jar)
+- **Delicious Dishes** (dishes-1.0.2.jar -> dishes-1.0.3.jar)
+- **ExpandedStorage** (expandedstorage-5.2.11+1.16.jar -> expandedstorage-5.3.14+1.16.jar)
+- **Golems Galore** (golemsgalore-0.1.2+mc.1.16.jar -> golemsgalore-0.1.3+mc.1.16.jar)
+- **More Paths** (more-paths-0.0.1.jar -> more-paths-0.0.2.jar)
+- **Mo' Structures** (mostructures-1.0.0-pre1+mc.1.16.jar -> mostructures-1.0.0-pre2+mc.1.16.jar)
+- **Patchouli** (Patchouli-1.16-36-FABRIC.jar -> Patchouli-1.16-37-FABRIC.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-4.5.5.jar -> RoughlyEnoughItems-4.6.6.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>1.2.1</h1>
 
 **NOTE:** Resetting Nether is HIGHLY recommended with this build. I would personally recommend a world reset overall.  
