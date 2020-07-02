@@ -2,6 +2,7 @@
 
 **Changed/Fixed**
 - Fixed biome crash in nether.
+- Fixed zooming not working as it should.
 
 **Added**
 - **CleanCut** (cleancut-mc1.16-2.1-fabric.jar)
