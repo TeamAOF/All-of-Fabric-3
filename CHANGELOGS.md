@@ -1,5 +1,7 @@
 <h1>1.3.0</h1>
 
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
 **Changed/Fixed**
 - Finally fixed Twitch problems, you can now download it through the launcher.
 - New beautiful ambient sounds!
