@@ -1,3 +1,92 @@
+<h1>1.3.0</h1>
+
+**Changed/Fixed**
+- Finally fixed Twitch problems, you can now download it through the launcher.
+- New beautiful ambient sounds!
+- New buttons!
+- New background!
+- Cleaned up configs.
+- Disabled the Ring of Flight (There's the Angel Ring).
+- Disabled the Ring of Hungerless.
+- Disabled the Ring of Undying.
+- Nerfed Ring of Max Health (10 > 5 hearts).
+- Redid the rarity of rings in general.
+- Disabled Reborn Core HUD for stack info.
+- Rings no longer spawn in Toolsmith & Shipwreck chests.
+- Disabled flying with Identity.
+- Nerfed Vibranium and Adamantium tools A TON.
+- Added new Chest recipe (8 logs into 4 Chests).
+- Added new Crafting Station recipe (Let's you turn back it back into a normal crafting table).
+- Rebalanced Inmis backpacks once again.
+- Fixed clicking recipes not working in certain scenarios.
+- Fixed a certain duplication bug that we should not name.
+- Fixed a server crash while trying to use Lassos.
+- Fixed backpacks not saving their content when upgraded.
+- Fixed certain items not saving in chest when killed *hopefully*.
+- Fixed recipe conflict between Kitchen Knife & Sacrifical Knife.
+- Fixed Diamond/Emerald Fragments not being craftable.
+- Fixed Craftpresence and Identity keybind overlapping by default.
+- Fixed custom menu not loading on Java 14.
+
+**Added**
+- **Advancements Enlarger** (advancements-enlarger-0.2.2.jar)
+- **Crooked Crooks** (crookedcrooks-1.2.0+1.16.1.jar)
+- **Data Loader** (data-loader-2.1.0+mc1.16.1.jar)
+- **Dynamic FPS** (dynamic-fps-1.1.4.jar)
+- **End: Rebellion** (EndRebellion+[1.5].jar)
+- **Flesh2Leather** (flesh2leather-1.0.0.jar)
+- **Inventory Profiles** (inventoryprofiles-fabric-1.16.1-0.3.3.jar)
+- **MAmbience** (Mambience-2.1.0-1.16.jar)
+- **Notes** (notes-1.16-1.0.1.jar)
+- **Repurposed Structures** (repurposed_structures-1.0.1.jar)
+- **Roughly Enough Resources** (rer-2.0.1.jar)
+- **Smooth Bedrock (Fabric)** (smoothbedrock-1.2.2.jar)
+
+**Removed**
+- **Better Signs & Frames**
+- **Crimson Moon**
+- **Inventory Sorter**
+- **LibBlockAttributes**
+- **LibMultiPart (Dependency Container)**
+- **Lib Network Stack**
+- **LilTaterReloaded**
+- **Extra Alchemy**
+- **Ring Of Miner**
+- **Shest**
+- **Wands Mod**
+
+**Updated**
+- **Adabranium Mod** (adabraniummod-1.1.4.1.jar -> adabraniummod-1.1.5.1.jar)
+- **Astromine** (astromine-1.0.25+fabric-1.16.1.jar -> astromine-1.0.29+fabric-1.16.1.jar)
+- **Cinderscapes** (cinderscapes-1.0.3+build.18.jar -> cinderscapes-1.0.4+build.25.jar)
+- **Dark Loading Screen** (dark-loading-screen-1.3.0.jar -> dark-loading-screen-1.3.1.jar)
+- **ExpandedStorage** (expandedstorage-5.3.14+1.16.jar -> expandedstorage-5.3.15+1.16.jar)
+- **Fabric API** (fabric-api-0.14.0+build.371-1.16.jar -> fabric-api-0.14.1+build.372-1.16.jar)
+- **Identity** (identity-1.0.2-beta-1.16.jar -> identity-1.2.1-beta-1.16.jar)
+- **Inmis** (inmis-1.0.2-1.16.jar -> inmis-1.1.1-1.16.1.jar)
+- **Kibe** (kibe-1.16.1-1.1.3-BETA.jar -> kibe-1.16.1-1.1.5-BETA.jar)
+- **Linkart** (linkart-2.0.0+fabric-1.16.1.jar -> linkart-2.0.3+fabric-1.16.1.jar)
+- **Linked Storage** (linkedstorage-1.3.2-1.16.jar -> linkedstorage-1.3.5-1.16.jar)
+- **Lithium** (lithium-fabric-mc1.16.1-0.5.0-rc1.jar -> lithium-fabric-mc1.16.1-0.5.1.jar)
+- **Mouse Wheelie** (mousewheelie-1.4.16+mc1.16-rc1.jar -> mousewheelie-1.5.0+mc1.16.1.jar)
+- **Ok Zoomer** (okzoomer-4.0.0-alpha.3.1.16.pre5.jar -> okzoomer-4.0.0-alpha.4.1.16.1.jar)
+- **Patchouli** (Patchouli-1.16-37-FABRIC.jar -> Patchouli-1.16-38-FABRIC.jar)
+- **Rings of Ascension** (RingsOfAscension-1.16-1.0.0.jar -> RingsOfAscension-1.16.1-1.0.3.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-4.6.6.jar -> RoughlyEnoughItems-4.8.1.jar)
+- **SleepVote** (sleepvote-1.7+1.16.1.jar -> sleepvote-1.8+1.16.1.jar)
+- **'Slight' GUI Modifications** (slight-gui-modifications-1.0.3.jar -> slight-gui-modifications-1.1.1.jar)
+- **slotlink** (slotlink-0.2.2+minecraft-1.16.1.jar -> slotlink-0.3.2+minecraft-1.16.1.jar)
+- **Spinnery** (spinnery-3.0.48+fabric-1.16.x.jar -> spinnery-3.0.50+fabric-1.16.x.jar)
+- **Staff of Building** (staffofbuilding-1.1.0-1.16.jar -> staffofbuilding-1.2.0-1.16.jar)
+- **TacoCraft** (tacocraft-1.3.0+mc.1.16.jar -> tacocraft-1.3.1+mc.1.16.jar)
+- **Terrestria** (terrestria-2.0.2+build.29.jar -> terrestria-2.0.3+build.46.jar)
+- **Vanilla Hammers** (vanilla-hammers-1.8.1-1.16.1.jar -> vanilla-hammers-1.9.0-1.16.1.jar)
+- **VanillaDeathChest** (vanilladeathchest-1.16.1-1.11.0.2-fabric.jar -> vanilladeathchest-1.16.1-1.11.0.3-fabric.jar)
+- **Wolves With Armor** (wolves-with-armor-1.2.0-1.16.1.jar -> wolves-with-armor-1.3.0-1.16.1.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.15.2_Fabric_1.16.1.jar -> Xaeros_Minimap_20.15.3_Fabric_1.16.1.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.7.2.1_Fabric_1.16.1.jar -> XaerosWorldMap_1.7.3_Fabric_1.16.1.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>1.2.2</h1>
 
 **Changed/Fixed**
