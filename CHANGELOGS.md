@@ -1,3 +1,31 @@
+<h1>1.3.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Oh yes new background again.
+- No more rare ice.
+- Disabled Xaero update notification.
+- No more oxygen icon in the bottom left until you put an astronaut helmet on.
+- Fixed shift clicking stacks with slotlink.
+- Fixed certain structures not spawning in modded biomes.
+- Fixed RER not loading on servers (should show the correct Y levels now).
+
+**Removed**
+- **Rare Ice**
+
+**Updated**
+- **Astromine** (astromine-1.0.29+fabric-1.16.1.jar -> astromine-1.0.31+fabric-1.16.1.jar)
+- **End: Rebellion** (EndRebellion [1.5].jar -> EndRebellion+[1.5].jar)
+- **Fabric Furnaces** (fabric-furnaces-1.3.0-1.16.1.jar -> fabric-furnaces-1.3.1-1.16.1.jar)
+- **Fabric Controlling** (fabriccontrolling-1.1.0.jar -> fabriccontrolling-1.1.1.jar)
+- **Mod Menu** (modmenu-1.12.2+build.17.jar -> modmenu-1.14.0+build.23.jar)
+- **Repurposed Structures** (repurposed_structures-1.0.1.jar -> repurposed_structures-1.1.0.jar)
+- **Roughly Enough Resources** (rer-2.0.1.jar -> rer-2.0.2.jar)
+- **slotlink** (slotlink-0.3.2+minecraft-1.16.1.jar -> slotlink-0.3.4+minecraft-1.16.1.jar)
+- **Vanilla Hammers** (vanilla-hammers-1.9.0-1.16.1.jar -> vanilla-hammers-1.9.1-1.16.1.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>1.3.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
