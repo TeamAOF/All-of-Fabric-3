@@ -1,3 +1,23 @@
+<h1>1.4.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed crash when entering space.
+- Fixed crash with world map.
+- Fixed jetpacks not having recipes.
+- Added more jetpacks yes.
+- Disabled Warhead
+
+**Changed/Updated**
+- **Astromine** (astromine-1.3.3+fabric-1.16.1.jar -> astromine-1.3.5+fabric-1.16.1.jar)
+- **Iron Jetpacks** (iron-jetpacks-0.2.3.jar -> iron-jetpacks-0.2.5.jar)
+- **KubeJS** (kubejs-fabric-1.1.0.jar -> kubejs-fabric-1.1.1.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-4.10.2.jar -> RoughlyEnoughItems-4.10.3.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.17.0_Fabric_1.16.1.jar -> Xaeros_Minimap_20.18.0_Fabric_1.16.1.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.7.4_Fabric_1.16.1.jar -> XaerosWorldMap_1.8.0_Fabric_1.16.1.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>1.4.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
