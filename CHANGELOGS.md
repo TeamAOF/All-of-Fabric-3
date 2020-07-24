@@ -9,6 +9,7 @@
 - Moved all recipes over to KubeJS.
 - All machines will now output Tech Reborn components (Yes this was not easy to add).
 - Unified ingot/dust output.
+- You're no longer able to craft plates in the crafting table.
 - Upgrades from Herbo Craft now uses Astromine gears.
 - Now fully loading 1.16.1 like it should.
 - Nerfed Mining Ring.
