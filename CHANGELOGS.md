@@ -21,7 +21,7 @@
 - Fixed golems not being able to be healed.
 - Fixed villagers not being captureable with diamond lassos.
 
-**New**
+**Added**
 - **AdventureZ** (adventurez-1.0.6.jar)
 - **Compressed Blocks** (compressedblocks-1.0.0.jar)
 - **Controlling For Fabric** (Controlling-For-Fabric-1.1.2.jar)
@@ -44,7 +44,7 @@
 - **VanillaDeathChest**
 - **Window Title Changer**
 
-**Changed/Updated**
+**Updated**
 - **SuperAxes** ([1.16-pre2] SuperAxes-1.1.1.jar -> [1.16.1] SuperAxes-1.1.4.jar)
 - **Astromine** (astromine-1.0.31+fabric-1.16.1.jar -> astromine-1.3.3+fabric-1.16.1.jar)
 - **Blockus** (blockus-1.6.0.1.jar -> blockus-1.6.2.jar)
