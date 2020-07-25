@@ -1,3 +1,27 @@
+<h1>1.4.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Enabled gravestone looting.
+- Fixed mining levels.
+- Fixed batteries from Astromine not being craftable.
+- Fixed recipe conflict between Iron Furnace & Iron Plating.
+- Fixed recipe conflict between Empty Cell & Tin Gear.
+- Fixed another crash with world map in rare occasions.
+
+**Updated**
+- **End: Rebellion** (EndRebellion [1.5].jar -> EndRebellion+[1.5].jar)
+- **ExpandedStorage** (expandedstorage-5.3.15+1.16.jar -> expandedstorage-5.3.16+1.16.jar)
+- **Fabric API** (fabric-api-0.15.1+build.380-1.16.1.jar -> fabric-api-0.16.0+build.384-1.16.1.jar)
+- **Flora Doubling** (flora-doubling-1.16.1-1.1.1.jar -> flora-doubling-1.16.1-1.1.2.jar)
+- **Industrial Revolution** (indrev-1.2.1-BETA.jar -> indrev-1.3.1-BETA.jar)
+- **KubeJS** (kubejs-fabric-1.1.1.jar -> kubejs-fabric-1.1.2.jar)
+- **Reborn Core** (RebornCore-1.16-4.3.2+build.49.jar -> RebornCore-1.16-4.3.4+build.64.jar)
+- **Tech Reborn** (TechReborn-1.16-3.4.3+build.72.jar -> TechReborn-1.16-3.4.5+build.88.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.18.0_Fabric_1.16.1.jar -> Xaeros_Minimap_20.18.0.1_Fabric_1.16.1.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>1.4.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
