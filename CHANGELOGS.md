@@ -1,3 +1,71 @@
+<h1>1.5.0</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed hammers not mining ores.
+- Fixed mining levels of nether ores.
+- Fixed mining level of Nikolite.
+- Fixed Tech Reborn recipes compat with Industrial Revolution.
+- Fixed crash when using rope bridges.
+- Fixed chunk loaders not working cross-dim.
+- Fixed certain machines resetting power when it shouldn't.
+- Fixed gray boxes being present in identity window.
+- Fixed any recipes using Pine slabs.
+- Fixed stronghold positioning being off.
+- Fixed inventory being way too sensitive causing you to delete items sometimes.
+- Graves are now lootable by right clicking.
+- Sorting is now by default bound to Middle Mouse Button.
+- Disabled Gem armor and tools for now, it's really broken in a pack environment as of now.
+- Fabric Furnaces can no longer duplicate output.
+- You now need the Compressor from Tech Reborn to get into Industrial Revolution.
+- Faster load times & lower ram usage.
+- Nerfed the Mining Ring a bit more.
+- Lowered the global ambient sound volume.
+
+**Added**
+- **Better Enchanted Books** (better-enchanted-books-1.16.1-1.1.1.jar)
+- **Better Graves** (bettergraves-0.3.0.jar)
+- **Block Meter** (blockmeter-1.16-fabric0.13.1-1.4.3.jar)
+- **Cherished Worlds** (cherishedworlds-fabric-1.0.1-1.16.1.jar)
+- **Deep Mob Learning: Refabricated** (deepmoblearning-refabricated-0.1.3-beta.jar)
+- **DynoCaps** (Dynocaps-1.1.1.jar)
+- **Egg Tab** (eggtab-1.2.0+1.16-fabric.jar)
+- **Inventory Sorter** (InventorySorter-1.7.0-1.16.jar)
+- **Slab Helper** (slab-helper-mc1.16.1-1.3.1.jar)
+- **Tom's Fabric Lib** (toms-fabric-libs-1.0.2.jar)
+- **Tom's Simple Storage Mod** (tomsstorage-1.1.1.jar)
+
+**Removed**
+- **Art of Alchemy**
+- **GamemodeOverhaul**
+- **Gravestones**
+- **Herbocraft**
+- **Inventory Profiles**
+- **LibGamerule**
+- **SleepVote**
+- **slotlink** (Replaced by Tom's Simple Storage Mod)
+- **Where Is It**
+
+**Updated**
+- **Astromine** (astromine-1.3.5+fabric-1.16.1.jar -> astromine-1.4.3+fabric-1.16.1.jar)
+- **Campanion** (campanion-1.1.12+build.33.jar -> campanion-1.1.13+build.35.jar)
+- **Cave Biomes** (cavebiomes-0.2.3.jar -> cavebiomes-0.2.4.jar)
+- **Cinderscapes** (cinderscapes-1.0.5+build.36-1.16.1.jar -> cinderscapes-1.0.7+build.43-1.16.1.jar)
+- **Cloth API** (cloth-api-1.0.6.jar -> cloth-api-1.0.7.jar)
+- **Compressed Blocks** (compressedblocks-1.0.0.jar -> compressedblocks-1.0.1.jar)
+- **Ecotones** (ecotones-0.4.4.jar -> ecotones-0.5.1.jar)
+- **Fabric API** (fabric-api-0.16.0+build.384-1.16.1.jar -> fabric-api-0.16.2+build.385-1.16.1.jar)
+- **Give Me Hats!** (give-me-hats-1.16-1.2.6.1.jar -> give-me-hats-1.16-1.2.8.jar)
+- **Industrial Revolution** (indrev-1.3.1-BETA.jar -> indrev-1.4.7-BETA.jar)
+- **Kibe** (kibe-1.16.1-1.1.11-BETA.jar -> kibe-1.16.1-1.1.12-BETA.jar)
+- **Ok Zoomer** (okzoomer-4.0.0-alpha.4.1.16.1.jar -> okzoomer-4.0.0-alpha.5+1.16.1.jar)
+- **Repurposed Structures** (repurposed_structures-1.3.1.jar -> repurposed_structures-1.3.2.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-4.10.3.jar -> RoughlyEnoughItems-4.10.4.jar)
+- **Simplex Terrain** (simplexterrain-0.6.4.jar -> simplexterrain-0.6.5.jar)
+- **Vanilla Hammers** (vanilla-hammers-1.10.1-1.16.1.jar -> vanilla-hammers-2.0.3-1.16.1.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>1.4.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
