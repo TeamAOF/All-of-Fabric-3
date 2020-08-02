@@ -1,3 +1,26 @@
+<h1>1.5.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed modded ores not being mineable
+- Oh yes, item pipes are now a thing. Have fun.
+- Spinnery GUIs no longer use Dark Mode. Go into Spinnery config to change it.
+- REI is now Light Theme. Feel free to change it back in the config.
+
+**Added**
+- **Compact Status Effects** (CompactStatusEffects-1.2.0.jar)
+- **Ezpas** (ezpas-mc1.16.1-v1.0.4.jar)
+- **Horse Info** (hwyla-addon-horseinfo-0.2.2-1.16.1.jar)
+- **Into the Omega** (into-the-omega-1.0.0-beta-1.16.1.jar)
+- **Netherite Horse Armor** (netherite_horse_armor_v0.3.3_1.16.jar)
+- **slotlink** (slotlink-1.0.2+minecraft-1.16.1.jar)
+
+**Removed**
+- **Tom's Fabric Lib**
+- **Tom's Simple Storage Mod**
+---------------------------------------------------------------------------------------------
+
 <h1>1.5.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
