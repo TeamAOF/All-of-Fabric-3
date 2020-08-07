@@ -1,3 +1,39 @@
+<h1>1.5.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed crash on MacOS.
+- Fixed crash when looking up recipes in Spinnery GUIs.
+- Fixed crash with Deep Mob Learning.
+- Fixed crazy lag when having too many containers connected to slotlink.
+- Keybind M for World Map no longer overlaps.
+
+**Added**
+- **Bedspreads** (bedspreads-fabric-1.0.0-1.16.1.jar)
+- **Craftable Utilities** (Craftable-Utilities-1.16.1-1.0.1.jar)
+- **Dank Storage** (dankstorage-1.1c_1.16.1.jar)
+- **Library of Exile** (Library-Of-Exile-1.16.1-1.0.1.jar)
+
+**Updated**
+- **Adorn** (Adorn-1.9.1+1.16.1.jar -> Adorn-1.10.0+1.16.1.jar)
+- **Astromine** (astromine-1.4.3+fabric-1.16.1.jar -> astromine-1.5.2+fabric-1.16.1.jar)
+- **Deep Mob Learning: Refabricated** (deepmoblearning-refabricated-0.1.3-beta.jar -> deepmoblearning-refabricated-0.2.0-beta1.jar)
+- **End: Rebellion** (EndRebellion [1.5].jar -> EndRebellion [1.6].jar)
+- **Industrial Revolution** (indrev-1.4.7-BETA.jar -> indrev-1.4.9-BETA.jar)
+- **Jumploader** (jumploader-2.0.0.jar -> jumploader-2.0.1.jar)
+- **Netherite Horse Armor** (netherite_horse_armor_v0.3.3_1.16.jar -> netherite_horse_armor_v0.4.0_1.16.jar)
+- **Patchouli** (Patchouli-1.16-38-FABRIC.jar -> Patchouli-1.16-39-FABRIC.jar)
+- **Repurposed Structures** (repurposed_structures-1.3.2.jar -> repurposed_structures-1.4.1.jar)
+- **Respawnable Pets** (respawnablepets-r3.jar -> respawnablepets-4.jar)
+- **Rings of Ascension** (RingsOfAscension-1.16.1-1.0.4.jar -> RingsOfAscension-1.16.1-1.0.5.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-4.10.4.jar -> RoughlyEnoughItems-4.10.5.jar)
+- **slotlink** (slotlink-1.0.2+minecraft-1.16.1.jar -> slotlink-1.0.3+minecraft-1.16.1.jar)
+- **Wolves With Armor** (wolves-with-armor-1.4.0-1.16.1.jar -> wolves-with-armor-1.5.1-1.16.1.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.18.0.1_Fabric_1.16.1.jar -> Xaeros_Minimap_20.19.0_Fabric_1.16.1.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.8.0_Fabric_1.16.1.jar -> XaerosWorldMap_1.9.0_Fabric_1.16.1.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>1.5.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
