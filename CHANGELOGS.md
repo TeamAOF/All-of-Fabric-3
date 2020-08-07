@@ -1,3 +1,14 @@
+<h1>1.5.2a</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed crash with anything to do with gold.
+
+**Removed**
+- AdventureZ
+---------------------------------------------------------------------------------------------
+
 <h1>1.5.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
