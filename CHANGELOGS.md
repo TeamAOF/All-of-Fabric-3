@@ -15,7 +15,7 @@
 - **Dank Storage** (dankstorage-1.1c_1.16.1.jar)
 - **Library of Exile** (Library-Of-Exile-1.16.1-1.0.1.jar)
 
-**Added**
+**Removed**
 - **Super Axes**
 - **Block Meter**
 
