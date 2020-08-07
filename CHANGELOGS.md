@@ -15,6 +15,10 @@
 - **Dank Storage** (dankstorage-1.1c_1.16.1.jar)
 - **Library of Exile** (Library-Of-Exile-1.16.1-1.0.1.jar)
 
+**Added**
+- **Super Axes**
+- **Block Meter**
+
 **Updated**
 - **Adorn** (Adorn-1.9.1+1.16.1.jar -> Adorn-1.10.0+1.16.1.jar)
 - **Astromine** (astromine-1.4.3+fabric-1.16.1.jar -> astromine-1.5.2+fabric-1.16.1.jar)
