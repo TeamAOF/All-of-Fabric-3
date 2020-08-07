@@ -16,8 +16,9 @@
 - **Library of Exile** (Library-Of-Exile-1.16.1-1.0.1.jar)
 
 **Removed**
-- **Super Axes**
 - **Block Meter**
+- **Identity** (Will be back at some point)
+- **Super Axes**
 
 **Updated**
 - **Adorn** (Adorn-1.9.1+1.16.1.jar -> Adorn-1.10.0+1.16.1.jar)
