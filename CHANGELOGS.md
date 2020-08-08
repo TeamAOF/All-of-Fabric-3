@@ -1,12 +1,20 @@
-<h1>1.5.2a</h1>
+<h1>1.5.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
 
 **Changed/Fixed**
 - Fixed crash with anything to do with gold.
+- Fixed crash when using bows & crossbows.
 
 **Removed**
 - AdventureZ
+
+**Changed/Updated**
+- **Cloth API** (cloth-api-1.0.7.jar -> cloth-api-1.0.8.jar)
+- **Dank Storage** (dankstorage-1.1c_1.16.1.jar -> dankstorage-1.1d_1.16.1.jar)
+- **Fabric API** (fabric-api-0.16.2+build.385-1.16.1.jar -> fabric-api-0.17.0+build.386-1.16.1.jar)
+- **Rings of Ascension** (RingsOfAscension-1.16.1-1.0.5.jar -> RingsOfAscension-1.16.1-1.0.6.jar)
+- **Slab Helper** (slab-helper-mc1.16.1-1.3.1.jar -> slab-helper-mc1.16.1-1.3.2.jar)
 ---------------------------------------------------------------------------------------------
 
 <h1>1.5.2</h1>
