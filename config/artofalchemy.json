@@ -1,0 +1,33 @@
+{
+  "networkProcessingLimit": 1024,
+  "formulaLoot": true,
+  "vesselCapacity": 4000,
+  "tankCapacity": 8000,
+  "centrifugeCapacity": 4000,
+  "calcinatorSettings": {
+    "yieldBasic": 0.5,
+    "yieldPlus": 1.0,
+    "opTimeBasic": 60,
+    "opTimePlus": 120
+  },
+  "dissolverSettings": {
+    "yieldBasic": 0.5,
+    "yieldPlus": 1.0,
+    "speedBasic": 0.05,
+    "speedPlus": 0.1,
+    "tankBasic": 4000,
+    "tankPlus": 8000
+  },
+  "synthesizerSettings": {
+    "maxTierBasic": "C",
+    "maxTierPlus": "OMEGA",
+    "speedBasic": 0.05,
+    "speedPlus": 0.1,
+    "tankBasic": 4000,
+    "tankPlus": 8000
+  },
+  "projectorSettings": {
+    "opTime": 180,
+    "tankSize": 8000
+  }
+}

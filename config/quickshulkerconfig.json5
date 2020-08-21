@@ -1,0 +1,12 @@
+{
+	// Activation key
+	"keybinding": "key.keyboard.p",
+	// Right Clicking with shulker in hand opens it
+	"rightClickToOpen": true,
+	// Hitting the keybind with shulker in hand opens it
+	"keybind": true,
+	// Hitting the keybind while hovering over shulker in inv opens it
+	"keybingInInv": true,
+	// Right Clicking a shulker in your inv opens it
+	"rightClickInv": true
+}

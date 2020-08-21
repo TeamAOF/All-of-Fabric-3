@@ -1,0 +1,47 @@
+{
+  "CAVE_BIOMES": {
+    "enabled": true,
+    "SANDSTONE": {
+      "weight": 10.0
+    },
+    "MOSSY": {
+      "weight": 10.0
+    },
+    "GRASS": {
+      "weight": 10.0
+    },
+    "SPIDER": {
+      "weight": 10.0
+    },
+    "HARD_DIRT": {
+      "weight": 10.0
+    },
+    "PRISMARINE": {
+      "weight": 10.0
+    },
+    "MUSHROOM": {
+      "weight": 3.0
+    }
+  },
+  "ADORNMENTS": {
+    "enabled": true
+  },
+  "ICE_CAVES": {
+    "enabled": true
+  },
+  "POTION_FLASK": {
+    "maxSize": 6
+  },
+  "ORE": {
+    "enableGarnet": true,
+    "enableOnyx": true,
+    "enableAmethyst": true
+  },
+  "MISC": {
+    "enableWaterBottleConcrete": true,
+    "enableCampfireDye": true,
+    "enableMansionInSnowTundra": true,
+    "enableSilkTouch2": true,
+    "enableWarpedPodGen": true
+  }
+}

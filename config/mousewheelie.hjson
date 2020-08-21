@@ -1,0 +1,84 @@
+{
+	// General settings
+	general: {
+		// Pick correct tool when middle clicking whilst holding a tool.
+		// default: true
+		hold-tool-pick: true
+		// Pick correct tool when middle clicking the held block.
+		// default: false
+		hold-block-tool-pick: false
+		// Enables right-clicking in recipe books/villager trading to swiftly craft/trade.
+		// default: true
+		enable-quick-craft: true
+	}
+	scrolling: {
+		// Enables scrolling of stacks
+		// default: true
+		enable: true
+		// Set the scroll factor for item scrolling.
+		// To invert the scrolling use negative numbers
+		// default: 1.0
+		scroll-factor: 1
+		// If enabled items will be moved according to whether your scrolling up or down.
+		// If disabled you will scroll to change the amount of items present (up will increase - down will decrease
+		// default: true
+		directional-scrolling: true
+		// If enabled the player inventory and the hotbar will be treated as different sections when pushing the inventory
+		// default: false
+		push-hotbar-separately: false
+		// Sets whether scrolling in creative mode by default scrolls the items or the menu.
+		// default: false
+		scroll-creative-menu: false
+	}
+	// Change sort modes. Existing sort modes are ALPHABET, RAW_ID and QUANTITY
+	sort: {
+		// Sets the sort mode for normal sorting.
+		// default: RAW_ID
+		primary-sort: NONE
+		// Sets the sort mode for sorting whilst pressing shift.
+		// default: QUANTITY
+		shift-sort: QUANTITY
+		// Sets the sort mode for sorting whilst pressing control.
+		// default: ALPHABET
+		control-sort: ALPHABET
+	}
+	// Configure refill related stuff here.
+	refill: {
+		// Refill when eating items
+		// default: true
+		eat: false
+		// Refill when dropping items
+		// default: true
+		drop: true
+		// Refill when using up items
+		// default: true
+		use: true
+		// Refill on other occasions
+		// default: true
+		other: false
+		// Enable/Disable specific rules for how to refill items
+		rules: {
+			// Tries to find any block items
+			// default: false
+			any-block: false
+			// Find items of the same item group
+			// default: false
+			itemgroup: false
+			// Try to find similar items through the item type hierarchy
+			// default: false
+			item-hierarchy: false
+			// Try to find similar block items through the block type hierarchy
+			// default: false
+			block-hierarchy: false
+			// Try to find other food items
+			// default: false
+			food: false
+			// Try to find equal items (no nbt matching)
+			// default: true
+			equal-items: true
+			// Try to find equal stacks (nbt matching
+			// default: true
+			equal-stacks: false
+		}
+	}
+}

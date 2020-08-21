@@ -1,9 +1,0 @@
-{
-	// The amount of uses for the gift paper.
-	// Use 0 for infinite uses.
-	// 1 or infinite uses will change the stack size to 64.
-	// default: 4
-	// constraints:
-	// Must be between -1 and null.
-	max-paper-damage: 4
-}

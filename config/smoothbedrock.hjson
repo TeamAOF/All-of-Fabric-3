@@ -1,0 +1,9 @@
+{
+	// true: Dimensions in filter will have flat bedrock. false: Dimensions in list will not have flat bedrock
+	"isWhitelist": false,
+	// A list of dimension ids that this mod should filter based on the 'Act as whitelist' setting.
+	"dimensionFilter": [
+		"minecraft:the_end"
+		"minecraft:nether"
+	]
+}

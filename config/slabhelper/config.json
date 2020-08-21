@@ -1,0 +1,24 @@
+{
+  "item": {
+    "Slab Hooker": {
+      "comment": "Disable this if you dont want slab hooker. (wont disable the additional lines on the double slab)",
+      "value": true
+    }
+  },
+  "render": {
+    "Additional Line for Double Slab": {
+      "comment": "Disable this if you dont want additional lines on the double slab.",
+      "value": true
+    }
+  },
+  "function": {
+    "Enable Half-Mining": {
+      "comment": "Enable this if you want that tools can half-mine the full slab.",
+      "value": true
+    },
+    "Slab Hooker In Creative": {
+      "comment": "Enable this if you want to use slab hooker only in survival mode.",
+      "value": false
+    }
+  }
+}

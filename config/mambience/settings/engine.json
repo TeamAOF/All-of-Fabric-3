@@ -1,0 +1,11 @@
+{
+	"Settings": {
+		"ScannnerX": 11,
+		"ScannnerY": 9,
+		"ScannnerZ": 11,
+        "ScannerInterval": 20,
+		"GlobalVolume": 0.4,
+        "StopSounds": false,
+        "DebugLogging": false
+	}
+}

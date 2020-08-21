@@ -1,0 +1,6 @@
+{
+	/* Add handler keys in here to disable them
+	   Insert "bg-trinkets" to disable default trinkets compatibility
+	*/
+	"disabledCompat": []
+}

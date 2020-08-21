@@ -1,0 +1,71 @@
+{
+  "freeze": false,
+  "continental": {
+    "japanese_maple_forest": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "hemlock_rainforest": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "lush_redwood_forest": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "dunes": {
+      "weight": 0.2,
+      "enable": true
+    },
+    "sakura_forest": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "lush_desert": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "canyon_cliffs": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "redwood_forest": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "outback": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "dense_woodlands": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "cypress_forest": {
+      "weight": 1.0,
+      "enable": true
+    },
+    "snowy_hemlock_forest": {
+      "weight": 2.0,
+      "enable": true
+    },
+    "cypress_swamp": {
+      "weight": 1.0,
+      "enable": true
+    }
+  },
+  "variants": {
+    "caldera": {
+      "chance": 0.33,
+      "enable": true
+    },
+    "rainbow_rainforest": {
+      "chance": 0.33,
+      "enable": true
+    },
+    "volcanic_island": {
+      "chance": 0.1,
+      "enable": true
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{ 
+	// Whether Nuclear Warheads are enabled.
+	"nuclearWarheadEnabled": false,
+	// Whether to attempt to migrate old, broken data to new data. Usage recommended when first loading old chunks after an update.
+	"compatibilityMode": true,
+	// Y level in the Overworld to get to Space.
+	"spaceTravelYLevel": 1024,
+	// Y level to spawn at when travelling to Space.
+	"spaceSpawnYLevel": 32,
+	// Y level in Space to get back to the Overworld.
+	"overworldTravelYLevel": -58,
+	// Y level to spawn at when returning to the Overworld.
+	"overworldSpawnYLevel": 992,
+	// Gravity level in Space
+	"spaceGravity": 0.01,
+	// Gravity level in Moon
+	"moonGravity": 0.03,
+	// Gravity level in Mars
+	"marsGravity": 0.045,
+	// Speed for the Primitive Triturator.
+	"primitiveTrituratorSpeed": 0.5,
+	// Speed for the Basic Triturator.
+	"basicTrituratorSpeed": 1.0,
+	// Speed for the Advanced Triturator.
+	"advancedTrituratorSpeed": 2.0,
+	// Speed for the Elite Triturator.
+	"eliteTrituratorSpeed": 4.0,
+	// Energy for the Primitive Triturator.
+	"primitiveTrituratorEnergy": 2048.0,
+	// Energy for the Basic Triturator.
+	"basicTrituratorEnergy": 16384.0,
+	// Energy for the Advanced Triturator.
+	"advancedTrituratorEnergy": 32767.0,
+	// Energy for the Elite Triturator.
+	"eliteTrituratorEnergy": 65535.0,
+	// Speed for the Primitive Solid Generator.
+	"primitiveSolidGeneratorSpeed": 0.5,
+	// Speed for the Basic Solid Generator.
+	"basicSolidGeneratorSpeed": 1.0,
+	// Speed for the Advanced Solid Generator.
+	"advancedSolidGeneratorSpeed": 2.0,
+	// Speed for the Elite Solid Generator.
+	"eliteSolidGeneratorSpeed": 4.0,
+	// Energy for the Primitive Solid Generator.
+	"primitiveSolidGeneratorEnergy": 2048.0,
+	// Energy for the Basic Solid Generator.
+	"basicSolidGeneratorEnergy": 16384.0,
+	// Energy for the Advanced Solid Generator.
+	"advancedSolidGeneratorEnergy": 32767.0,
+	// Energy for the Elite Solid Generator.
+	"eliteSolidGeneratorEnergy": 65535.0,
+	// Speed for the Primitive Presser.
+	"primitivePresserSpeed": 0.5,
+	// Speed for the Basic Presser.
+	"basicPresserSpeed": 1.0,
+	// Speed for the Advanced Presser.
+	"advancedPresserSpeed": 2.0,
+	// Speed for the Elite Presser.
+	"elitePresserSpeed": 4.0,
+	// Energy for the Primitive Presser.
+	"primitivePresserEnergy": 2048.0,
+	// Energy for the Basic Presser.
+	"basicPresserEnergy": 16384.0,
+	// Energy for the Advanced Presser.
+	"advancedPresserEnergy": 32767.0,
+	// Energy for the Elite Presser.
+	"elitePresserEnergy": 65535.0,
+	// Speed for the Primitive Liquid Generator.
+	"primitiveLiquidGeneratorSpeed": 0.5,
+	// Speed for the Basic Liquid Generator.
+	"basicLiquidGeneratorSpeed": 1.0,
+	// Speed for the Advanced Liquid Generator.
+	"advancedLiquidGeneratorSpeed": 2.0,
+	// Speed for the Elite Liquid Generator.
+	"eliteLiquidGeneratorSpeed": 4.0,
+	// Energy for the Primitive Liquid Generator.
+	"primitiveLiquidGeneratorEnergy": 2048.0,
+	// Energy for the Basic Liquid Generator.
+	"basicLiquidGeneratorEnergy": 16384.0,
+	// Energy for the Advanced Liquid Generator.
+	"advancedLiquidGeneratorEnergy": 32767.0,
+	// Energy for the Elite Liquid Generator.
+	"eliteLiquidGeneratorEnergy": 65535.0,
+	// Fluid for the Primitive Liquid Generator.
+	"primitiveLiquidGeneratorFluid": 4,
+	// Fluid for the Basic Liquid Generator.
+	"basicLiquidGeneratorFluid": 8,
+	// Fluid for the Advanced Liquid Generator.
+	"advancedLiquidGeneratorFluid": 16,
+	// Fluid for the Elite Liquid Generator.
+	"eliteLiquidGeneratorFluid": 64,
+	// Speed for the Primitive Fluid Mixer.
+	"primitiveFluidMixerSpeed": 0.5,
+	// Speed for the Basic Fluid Mixer.
+	"basicFluidMixerSpeed": 1.0,
+	// Speed for the Advanced Fluid Mixer.
+	"advancedFluidMixerSpeed": 2.0,
+	// Speed for the Elite Fluid Mixer.
+	"eliteFluidMixerSpeed": 4.0,
+	// Energy for the Primitive Fluid Mixer.
+	"primitiveFluidMixerEnergy": 2048.0,
+	// Energy for the Basic Fluid Mixer.
+	"basicFluidMixerEnergy": 16384.0,
+	// Energy for the Advanced Fluid Mixer.
+	"advancedFluidMixerEnergy": 32767.0,
+	// Energy for the Elite Fluid Mixer.
+	"eliteFluidMixerEnergy": 65535.0,
+	// Fluid for the Primitive Fluid Mixer.
+	"primitiveFluidMixerFluid": 4,
+	// Fluid for the Basic Fluid Mixer.
+	"basicFluidMixerFluid": 8,
+	// Fluid for the Advanced Fluid Mixer.
+	"advancedFluidMixerFluid": 16,
+	// Fluid for the Elite Fluid Mixer.
+	"eliteFluidMixerFluid": 64,
+	// Speed for the Primitive Electrolyzer.
+	"primitiveElectrolyzerSpeed": 0.5,
+	// Speed for the Basic Electrolyzer.
+	"basicElectrolyzerSpeed": 1.0,
+	// Speed for the Advanced Electrolyzer.
+	"advancedElectrolyzerSpeed": 2.0,
+	// Speed for the Elite Electrolyzer.
+	"eliteElectrolyzerSpeed": 4.0,
+	// Energy for the Primitive Electrolyzer.
+	"primitiveElectrolyzerEnergy": 2048.0,
+	// Energy for the Basic Electrolyzer.
+	"basicElectrolyzerEnergy": 16384.0,
+	// Energy for the Advanced Electrolyzer.
+	"advancedElectrolyzerEnergy": 32767.0,
+	// Energy for the Elite Electrolyzer.
+	"eliteElectrolyzerEnergy": 65535.0,
+	// Fluid for the Primitive Electrolyzer.
+	"primitiveElectrolyzerFluid": 4,
+	// Fluid for the Basic Electrolyzer.
+	"basicElectrolyzerFluid": 8,
+	// Fluid for the Advanced Electrolyzer.
+	"advancedElectrolyzerFluid": 16,
+	// Fluid for the Elite Electrolyzer.
+	"eliteElectrolyzerFluid": 64,
+	// Speed for the Primitive Electric Smelter.
+	"primitiveElectricSmelterSpeed": 0.5,
+	// Speed for the Basic Electric Smelter.
+	"basicElectricSmelterSpeed": 1.0,
+	// Speed for the Advanced Electric Smelter.
+	"advancedElectricSmelterSpeed": 2.0,
+	// Speed for the Elite Electric Smelter.
+	"eliteElectricSmelterSpeed": 4.0,
+	// Energy for the Primitive Electric Smelter.
+	"primitiveElectricSmelterEnergy": 2048.0,
+	// Energy for the Basic Electric Smelter.
+	"basicElectricSmelterEnergy": 16384.0,
+	// Energy for the Advanced Electric Smelter.
+	"advancedElectricSmelterEnergy": 32767.0,
+	// Energy for the Elite Electric Smelter.
+	"eliteElectricSmelterEnergy": 65535.0,
+	// Speed for the Primitive Alloy Smelter.
+	"primitiveAlloySmelterSpeed": 0.5,
+	// Speed for the Basic Alloy Smelter.
+	"basicAlloySmelterSpeed": 1.0,
+	// Speed for the Advanced Alloy Smelter.
+	"advancedAlloySmelterSpeed": 2.0,
+	// Speed for the Elite Alloy Smelter.
+	"eliteAlloySmelterSpeed": 4.0,
+	// Energy for the Primitive Alloy Smelter.
+	"primitiveAlloySmelterEnergy": 2048.0,
+	// Energy for the Basic Alloy Smelter.
+	"basicAlloySmelterEnergy": 16384.0,
+	// Energy for the Advanced Alloy Smelter.
+	"advancedAlloySmelterEnergy": 32767.0,
+	// Energy for the Elite Alloy Smelter.
+	"eliteAlloySmelterEnergy": 65535.0,
+	// Energy for the Block Placer.
+	"blockPlacerEnergy": 16384.0,
+	// Energy for the Block Breaker.
+	"blockBreakerEnergy": 16384.0,
+	// Energy for the Fluid Inserter.
+	"fluidInserterEnergy": 16384.0,
+	// Energy for the Fluid Extractor.
+	"fluidExtractorEnergy": 16384.0,
+	// Energy for the Vent.
+	"ventEnergy": 16384.0,
+	// Fluid for the Vent.
+	"ventFluid": 16,
+	// Fluid for the Tank.
+	"tankFluid": 16,
+	// Energy for the Primitive Capacitor.
+	"primitiveCapacitorEnergy": 16384.0,
+	// Energy for the Basic Capacitor.
+	"basicCapacitorEnergy": 32767.0,
+	// Energy for the Advanced Capacitor.
+	"advancedCapacitorEnergy": 65535.0,
+	// Energy for the Elite Capacitor.
+	"eliteCapacitorEnergy": 131071.0,
+	// Energy for the Block Placer actions.
+	"blockPlacerEnergyConsumed": 1024.0,
+	// Energy for the Block Breaker actions.
+	"blockBreakerEnergyConsumed": 1024.0,
+	// Energy for the Fluid Inserter actions.
+	"fluidInserterEnergyConsumed": 1024.0,
+	// Energy for the Fluid Extractor actions.
+	"fluidExtractorEnergyConsumed": 1024.0,
+	// Energy for the Vent actions.
+	"ventEnergyConsumed": 1024.0,
+	// Delay for the Block Placer actions (smaller is faster).
+	"blockPlacerTimeConsumed": 40,
+	// Delay for the Block Breaker actions (smaller is faster).
+	"blockBreakerTimeConsumed": 40,
+	// Delay for the Fluid Inserter actions (smaller is faster).
+	"fluidInserterTimeConsumed": 40,
+	// Delay for the Fluid Extractor actions (smaller is faster).
+	"fluidExtractorTimeConsumed": 40,
+	// Energy for the Gravity Gauntlet.
+	"gravityGauntletEnergy": 16384.0,
+	// Energy for the Gravity Gauntlet actions.
+	"gravityGauntletConsumed": 1024.0,
+	// Energy for the Drill actions.
+	"drillConsumed": 24.0,
+	// Multiplier for the Drill entity hit actions.
+	"drillEntityHitMultiplier": 2.0,
+	// Delay for the Fire Extinguisher sneaking actions.
+	"fireExtinguisherSneakingDelay": 2,
+	// Delay for the Fire Extinguisher standing actions.
+	"fireExtinguisherStandingDelay": 10
+}

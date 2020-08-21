@@ -1,0 +1,8 @@
+{
+  "configVersion": "0.2.1",
+  "guessCaveBiomeIfAbsent": true,
+  "generateOreCaves": true,
+  "whitelistedDimensions": [
+    "minecraft:overworld"
+  ]
+}

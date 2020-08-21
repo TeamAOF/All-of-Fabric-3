@@ -1,0 +1,27 @@
+{
+	"UseCustomButtons": false,
+	"PrevButton": {
+		"x": 167,
+		"y": 4,
+		"width": 12,
+		"height": 12,
+		"texture": {
+			"field_13353": "creativebuttonmover",
+			"field_13355": "textures/gui/creativebuttons/prev/default.png"
+		},
+		"textureWidth": 12,
+		"textureHeight": 12
+	},
+	"NextButton": {
+		"x": 179,
+		"y": 4,
+		"width": 12,
+		"height": 12,
+		"texture": {
+			"field_13353": "creativebuttonmover",
+			"field_13355": "textures/gui/creativebuttons/next/default.png"
+		},
+		"textureWidth": 12,
+		"textureHeight": 12
+	}
+}

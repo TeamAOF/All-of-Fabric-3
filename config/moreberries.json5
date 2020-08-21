@@ -1,0 +1,14 @@
+{ 
+	"blackBerrySpawnChance": 32,
+	"blueBerrySpawnChance": 32,
+	"greenBerrySpawnChance": 32,
+	"orangeBerrySpawnChance": 32,
+	"purpleBerrySpawnChance": 32,
+	"yellowBerrySpawnChance": 32,
+	"blackBerrySpawnBiomes": "minecraft:plains",
+	"blueBerrySpawnBiomes": "minecraft:forest,minecraft:wooded_hills",
+	"greenBerrySpawnBiomes": "minecraft:jungle,minecraft:jungle_hills,minecraft:jungle_edge,minecraft:modified_jungle,minecraft:modified_jungle_edge,minecraft:bamboo_jungle,minecraft:bamboo_jungle_hills",
+	"orangeBerrySpawnBiomes": "minecraft:badlands,minecraft:wooded_badlands_plateau,minecraft:badlands_plateau,minecraft:eroded_badlands,minecraft:modified_wooded_badlands_plateau,minecraft:modified_badlands_plateau",
+	"purpleBerrySpawnBiomes": "minecraft:swamp,minecraft:swamp_hills",
+	"yellowBerrySpawnBiomes": "minecraft:birch_forest,minecraft:birch_forest_hills,minecraft:tall_birch_forest,minecraft:tall_birch_hills"
+}

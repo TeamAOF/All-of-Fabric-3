@@ -1,0 +1,67 @@
+{ 
+	"main": { 
+		// Toggles the shulker box preview
+		"enablePreview": true,
+		/* Locks the preview window above the tooltip.
+		   When locked, the window will not adapt when out of screen.
+		*/
+		"lockPreview": false,
+		/* Swaps the preview modes.
+		   If true, pressing the preview key will show the full preview instead.
+		*/
+		"swapModes": false,
+		// If on, the preview is always displayed, regardless of the preview key being pressed.
+		"alwaysOn": false,
+		// Controls whether the key hints in the container's tooltip should be displayed.
+		"showKeyHints": true,
+		/* The tooltip to use.
+		   VANILLA: The vanilla tooltip (shows the first 5 items)
+		   MOD: The mod's tooltip
+		   NONE: No tooltip
+		*/
+		"tooltipType": "MOD",
+		/* In compact mode, how should items with the same ID but different NBT data be compacted?
+		   IGNORE: Ignores NBT data
+		   FIRST_ITEM: Items are displayed as all having the same NBT as the first item
+		   SEPARATE: Separates items with different NBT data
+		*/
+		"compactPreviewTagBehavior": "SEPARATE",
+		/* Shows info about the current loot table of the item if present.
+		   Visible only when Tooltip Type is set to Modded.
+		   HIDE: No loot table info, default.
+		   SIMPLE: Displays whether the stack uses a loot table.
+		   ADVANCED: Shows the loot table used by the item.
+		*/
+		"lootTableInfoType": "HIDE",
+		// Controls whether the preview window should be colored.
+		"coloredPreview": true,
+		/* The max number of items in a row.
+		   May not affect modded containers.
+		*/
+		"defaultMaxRowSize": 9,
+		// If on, the client will try to send packets to servers to allow extra preview information such as ender chest previews.
+		"serverIntegration": true
+	},
+	"controls": { 
+		// Press this key when hovering a container stack to open the preview window.
+		"previewKey": { 
+			"code": "key.keyboard.left.shift"
+		},
+		// Press this key when hovering a container stack to open the full preview window.
+		"fullPreviewKey": { 
+			"code": "key.keyboard.left.alt"
+		}
+	},
+	"server": { 
+		/* If on, the server will be able to provide extra information about containers to the clients with the mod installed.
+		   Disabling this option will disable all of the options below.
+		*/
+		"clientIntegration": true,
+		/* Changes the way the ender chest content preview is synchronized.
+		   NONE: No synchronization, prevents clients from seeing a preview of their ender chest.
+		   ACTIVE: Ender chest contents are synchronized when changed.
+		   PASSIVE: Ender chest contents are synchonized when the client opens a preview.
+		*/
+		"enderChestSyncType": "ACTIVE"
+	}
+}

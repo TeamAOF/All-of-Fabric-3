@@ -1,0 +1,18 @@
+{ 
+	// General configuration options.
+	"general": { 
+		// Should jetpacks be enachantable?
+		"enchantableJetpacks": false
+	},
+	// Dynamic recipe options.
+	"recipe": { 
+		// Enable default recipes for Energy Cells?
+		"enableCellRecipes": true,
+		// Enable default recipes for Thrusters?
+		"enableThrusterRecipes": true,
+		// Enable default recipes for Capacitors?
+		"enableCapacitorRecipes": true,
+		// Enable default recipes for Jetpacks?
+		"enableJetpackRecipes": true
+	}
+}

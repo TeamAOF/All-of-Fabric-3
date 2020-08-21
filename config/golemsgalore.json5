@@ -1,0 +1,39 @@
+{ 
+	// Diamond Golem
+	"healthDiamond": 230,
+	"speedDiamond": 0.2,
+	"knockbackResistanceDiamond": 1.0,
+	"attackDamageDiamond": 20.0,
+	// Netherite Golem
+	"healthNetherite": 450,
+	"speedNetherite": 0.18,
+	"knockbackResistanceNetherite": 1.1,
+	"attackDamageNetherite": 30.0,
+	// Golden Golem
+	"healthGolden": 50,
+	"speedGolden": 0.35,
+	"knockbackResistanceGolden": 1.0,
+	"attackDamageGolden": 19.9,
+	// Obsidian Golem
+	"healthObsidian": 190,
+	"speedObsidian": 0.15,
+	"knockbackResistanceObsidian": 2.0,
+	"attackDamageObsidian": 15.0,
+	// Quartz Golem
+	"healthQuartz": 50,
+	"speedQuartz": 0.25,
+	"knockbackResistanceQuartz": 0.5,
+	"attackDamageQuartz": 5.0,
+	// Laser Golem
+	"healthLaser": 75,
+	"speedLaser": 0.25,
+	"knockbackResistanceLaser": 1.0,
+	"attackDamageLaser": 10.0,
+	// Anti-Creeper Golem
+	"healthCreeper": 75,
+	"speedCreeper": 0.3,
+	"knockbackResistanceCreeper": 1.0,
+	"attackDamageCreeper": 20.0,
+	// Performance
+	"renderLaserFlames": true
+}

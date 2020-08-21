@@ -1,0 +1,9 @@
+{ 
+	"woodenSize": 9,
+	"stoneSize": 25,
+	"ironSize": 49,
+	"goldenSize": 81,
+	"diamondSize": 121,
+	"netheriteSize": 169,
+	"infiniteSize": 625
+}

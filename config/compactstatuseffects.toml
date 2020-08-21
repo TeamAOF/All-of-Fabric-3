@@ -1,0 +1,18 @@
+module = "NONAME"
+margin = 10
+
+[noNameConfig]
+showLevel = true
+maxEffectsNumber = 4
+
+[onlyNameConfig]
+maxEffectsNumber = 8
+permanentColour = 16777215
+wontExpireSoonColour = 45065
+soonToExpireColour = 13946112
+expiringColour = 13893632
+expiringBound = 20
+soonToExpireBound = 60
+
+[noSpriteConfig]
+maxEffectsNumber = 5

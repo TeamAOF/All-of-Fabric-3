@@ -1,0 +1,105 @@
+{ 
+	"removeWingsDamage": 12.0,
+	"heartOfTheSkyItemTicksPerDamage": 40,
+	"lootTables": { 
+		"abandonedMineshaft": { 
+			"generate": true,
+			"broken": true,
+			"chance": 0.10000000149011612
+		},
+		"buriedTreasure": { 
+			"generate": true,
+			"broken": true,
+			"chance": 0.10000000149011612
+		},
+		"simpleDungeon": { 
+			"generate": true,
+			"broken": true,
+			"chance": 0.10000000149011612
+		},
+		"woodlandMansion": { 
+			"generate": true,
+			"broken": true,
+			"chance": 0.10000000149011612
+		},
+		"endCityTreasure": { 
+			"generate": true,
+			"broken": false,
+			"chance": 0.10000000149011612
+		},
+		"blackFeather": { 
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.05000000074505806,
+			"lootingMultiplier": 0.019999999552965164
+		},
+		"friedChicken": { 
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.05000000074505806,
+			"lootingMultiplier": 0.019999999552965164
+		},
+		"demonicFlesh": { 
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.05000000074505806,
+			"lootingMultiplier": 0.019999999552965164
+		},
+		"endermanIrrealityCrystal": { 
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.10000000149011612,
+			"lootingMultiplier": 0.03999999910593033
+		},
+		"endermiteIrrealityCrystal": { 
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.4000000059604645,
+			"lootingMultiplier": 0.1599999964237213
+		},
+		"batWing": { 
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.05000000074505806,
+			"lootingMultiplier": 0.019999999552965164
+		},
+		"vexEssence": { 
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.10000000149011612,
+			"lootingMultiplier": 0.03999999910593033
+		},
+		"holidayDrops": { 
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.009999999776482582,
+			"lootingMultiplier": 0.004999999888241291
+		}
+	},
+	"velocityUnit": "METERS_PER_SECOND",
+	"boosters": { 
+		"forwardLauncher": { 
+			"constantVelocity": 0.9,
+			"interpolatingVelocity": 0.1,
+			"frictionFactor": 0.4
+		},
+		"standardBooster": { 
+			"constantVelocity": 0.1,
+			"interpolatingVelocity": 1.5,
+			"frictionFactor": 0.5,
+			"ticksPerDamage": 4
+		},
+		"fastBooster": { 
+			"constantVelocity": 0.2,
+			"interpolatingVelocity": 2.5,
+			"frictionFactor": 0.6,
+			"ticksPerDamage": 2
+		},
+		"slowBooster": { 
+			"constantVelocity": 0.1,
+			"interpolatingVelocity": 0.9,
+			"frictionFactor": 0.4,
+			"ticksPerDamage": 8
+		}
+	}
+}

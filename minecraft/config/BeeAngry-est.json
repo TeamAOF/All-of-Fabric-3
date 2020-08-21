@@ -1,8 +1,0 @@
-{
-  "gameRuleDefaults": {
-    "beesSeekRainShelter": true,
-    "saveScoopedBeeNbt": true,
-    "alwaysDropScoopedBees": true,
-    "beesExplode": true
-  }
-}

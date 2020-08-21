@@ -1,0 +1,4 @@
+{
+	// Inventories that should not be sorted
+	"blacklistedInventories": []
+}

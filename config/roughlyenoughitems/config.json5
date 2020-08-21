@@ -1,0 +1,138 @@
+{ 
+	"basics": { 
+		"favorites": [ 
+],
+		// Declares whether cheating mode is on.
+		"cheating": true,
+		"favoritesEnabled": true,
+		"keyBindings": { 
+			"recipeKeybind": { 
+				"keyCode": "key.keyboard.r",
+				"modifier": 0
+			},
+			"usageKeybind": { 
+				"keyCode": "key.keyboard.u",
+				"modifier": 0
+			},
+			"hideKeybind": { 
+				"keyCode": "key.keyboard.o",
+				"modifier": 2
+			},
+			"previousPageKeybind": { 
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"nextPageKeybind": { 
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"focusSearchFieldKeybind": { 
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"copyRecipeIdentifierKeybind": { 
+				"keyCode": "key.keyboard.home",
+				"modifier": 0
+			},
+			"favoriteKeybind": { 
+				"keyCode": "key.keyboard.a",
+				"modifier": 0
+			},
+			"exportImageKeybind": { 
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			}
+		},
+		// Declares whether REI is visible.
+		"overlayVisible": true,
+		"cheatingStyle": "GIVE"
+	},
+	"advanced": { 
+		"filtering": { 
+			"filteringRules": [ 
+				"{rule:{},id:\"roughlyenoughitems:manual\"}"
+			],
+			"filteredStacks": [ 
+]
+		},
+		"tooltips": { 
+			// Declares whether REI should append mod names to entries.
+			"appendModNames": false,
+			// Declares whether favorites tooltip should be displayed.
+			"displayFavoritesTooltip": false
+		},
+		"layout": { 
+			// The ordering of the items on the entry panel.
+			"entryPanelOrdering": "REGISTRY_ASCENDING",
+			// Declares the maximum amount of recipes displayed in a page if possible.
+			"maxRecipesPerPage": 15,
+			// Declares whether entry rendering time should be debugged.
+			"debugRenderTimeRequired": false
+		},
+		"accessibility": { 
+			"entrySize": 1.0,
+			// Declares the position of the entry panel.
+			"displayPanelLocation": "RIGHT",
+			// Declares whether scrolled entry panel should snap to rows.
+			"snapToRows": false,
+			// Declares how the scrollbar in villager screen should act.
+			"villagerScreenPermanentScrollBar": false,
+			"toastDisplayedOnCopyIdentifier": true,
+			// Declares whether REI should use compact tabs for categories.
+			"useCompactTabs": true,
+			// Declares whether REI should resize its recipe window dynamically
+			"resizeDynamically": false
+		},
+		"search": { 
+			// Declares whether favorites will be searched.
+			"searchFavorites": true,
+			// Declares whether search time should be debugged.
+			"debugSearchTimeRequired": false,
+			// Declares whether REI should search async.
+			"asyncSearch": true,
+			// Declares how many entries should be grouped one async search.
+			"asyncSearchPartitionSize": 100
+		},
+		"commands": { 
+			// Declares the command used to change gamemode.
+			"gamemodeCommand": "/gamemode {gamemode}",
+			// Declares the command used in servers to cheat items.
+			"giveCommand": "/give {player_name} {item_identifier}{nbt} {count}",
+			// Declares the command used to change weather.
+			"weatherCommand": "/weather {weather}"
+		},
+		"miscellaneous": { 
+			// Declares whether arrows in containers should be clickable.
+			"clickableRecipeArrows": true,
+			"registerRecipesInAnotherThread": true,
+			// Whether REI should render entry's enchantment glint
+			"renderEntryEnchantmentGlint": true,
+			"newFastEntryRendering": true
+		}
+	},
+	"appearance": { 
+		"recipeScreenType": "ORIGINAL",
+		// Declares the appearance of REI windows.
+		"theme": "LIGHT",
+		"layout": { 
+			// Declares the position of the search field.
+			"searchFieldLocation": "CENTER",
+			// Declares the position of the config button.
+			"configButtonLocation": "LOWER",
+			// Declares whether the craftable filter button is enabled.
+			"enableCraftableOnlyButton": false,
+			// Declares whether the utils buttons are shown.
+			"showUtilsButtons": false
+		},
+		// Declares the appearance of recipe's border.
+		"recipeBorder": "DEFAULT",
+		// Declares whether entry panel is scrolled.
+		"scrollingEntryListWidget": false
+	},
+	"functionality": { 
+		// Declares whether REI should remove the recipe book.
+		"disableRecipeBook": false,
+		// Declares whether subsets is enabled.
+		"isSubsetsEnabled": false
+	}
+}

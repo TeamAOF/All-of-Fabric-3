@@ -1,0 +1,7 @@
+# Netherite Horse Armor by P3NG00
+netheriteBurnResistHorse=true
+netheriteBurnResistPlayer=true
+bastionTreasureAmount=3
+bastionTreasureChance=0.25
+ruinedPortalAmount=2
+ruinedPortalChance=0.1

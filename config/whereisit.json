@@ -1,0 +1,14 @@
+{
+  "clientOptions": {
+    "fadeOutTime": 140,
+    "colour": 5242703,
+    "alternateColour": 16732159,
+    "lineWidth": 8
+  },
+  "serverOptions": {
+    "searchRadius": 12,
+    "doDeepSearch": true,
+    "printSearchTime": false,
+    "cooldownTicks": 5
+  }
+}

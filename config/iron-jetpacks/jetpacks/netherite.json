@@ -1,0 +1,19 @@
+{
+  "name": "netherite",
+  "disable": false,
+  "tier": 6,
+  "color": "382013",
+  "armorPoints": 5,
+  "enchantability": 15,
+  "craftingMaterial": "minecraft:netherite_ingot",
+  "rarity": 0,
+  "capacity": 6.4E7,
+  "usage": 1000.0,
+  "speedVertical": 1.12,
+  "accelVertical": 0.23,
+  "speedSideways": 0.23,
+  "speedHoverDescend": 0.45,
+  "speedHover": 0.0,
+  "sprintSpeedMulti": 2.2,
+  "sprintFuelMulti": 4.2
+}

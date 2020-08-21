@@ -1,0 +1,12 @@
+{
+  "renderPosX": 0,
+  "renderPosY": 0,
+  "renderHelmetArmor": true,
+  "renderHelmetShield": true,
+  "renderChestplateArmor": true,
+  "renderChestplateShield": true,
+  "renderLeggingsArmor": true,
+  "renderLeggingsShield": true,
+  "renderBootsArmor": true,
+  "renderBootsShield": true
+}

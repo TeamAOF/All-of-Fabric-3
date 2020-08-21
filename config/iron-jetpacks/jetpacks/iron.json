@@ -1,0 +1,19 @@
+{
+  "name": "iron",
+  "disable": false,
+  "tier": 2,
+  "color": "c1c1c1",
+  "armorPoints": 3,
+  "enchantability": 9,
+  "craftingMaterial": "minecraft:iron_ingot",
+  "rarity": 0,
+  "capacity": 800000.0,
+  "usage": 120.0,
+  "speedVertical": 0.41,
+  "accelVertical": 0.12,
+  "speedSideways": 0.14,
+  "speedHoverDescend": 0.27,
+  "speedHover": 0.075,
+  "sprintSpeedMulti": 1.1,
+  "sprintFuelMulti": 2.1
+}

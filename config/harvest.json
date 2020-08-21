@@ -1,0 +1,36 @@
+{
+  "exhaustionPerHarvest": 0.005,
+  "additionalLogging": false,
+  "crops": [
+    {
+      "block": "minecraft:wheat",
+      "states": {
+        "age": "7"
+      }
+    },
+    {
+      "block": "minecraft:nether_wart",
+      "states": {
+        "age": "3"
+      }
+    },
+    {
+      "block": "minecraft:carrots",
+      "states": {
+        "age": "7"
+      }
+    },
+    {
+      "block": "minecraft:potatoes",
+      "states": {
+        "age": "7"
+      }
+    },
+    {
+      "block": "minecraft:beetroots",
+      "states": {
+        "age": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "config": {
+    "Show stack info": {
+      "comment": "Show additional stack info on HUD, like active, charge, etc.",
+      "value": false
+    },
+    "Stack Info Corner": {
+      "comment": "Screen corner for HUD, 0 is top left, 1 is top right, 2 is bottom right and 3 is bottom left",
+      "value": 3
+    },
+    "Stack Info Y": {
+      "comment": "Y padding for HUD ",
+      "value": 90
+    },
+    "Stack Info X": {
+      "comment": "X padding for HUD ",
+      "value": 2
+    }
+  }
+}

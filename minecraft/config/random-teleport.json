@@ -1,9 +1,0 @@
-{
-    "canTeleportOnTrees": true,
-    "defaultRadius": 4096,
-    "defaultAttempts": 1,
-    "teleportStrategy": "USUALLY_TELEPORT",
-    "teleportOnCenterBlock": true,
-    "locationRollBackTimer": 10,
-    "minRandomTeleportRadius": 30
-}

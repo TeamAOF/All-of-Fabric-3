@@ -1,0 +1,26 @@
+{ 
+	// General configuration options.
+	"general": { 
+		// Enable jetpack sounds?
+		"enableJetpackSounds": true,
+		// Enable jetpack particles?
+		"enableJetpackParticles": true,
+		// Enable jetpack stat tooltips?
+		"enableAdvancedInfoTooltips": true
+	},
+	// HUD configuration options.
+	"hud": { 
+		// Enable the HUD?
+		"enableHud": true,
+		/* The position preset for the HUD.
+		   0=Top Left, 1=Middle Left, 2=Bottom Left, 3=Top Right, 4=Middle Right, 5=Bottom Right
+		*/
+		"hudPosition": 1,
+		// The X offset for the HUD.
+		"hudOffsetX": 0,
+		// The Y offset for the HUD.
+		"hudOffsetY": 0,
+		// Show HUD over the chat?
+		"showHudOverChat": false
+	}
+}

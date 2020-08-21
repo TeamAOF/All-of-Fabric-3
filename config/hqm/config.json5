@@ -1,0 +1,239 @@
+{ 
+	// Settings related to hardcore mode
+	"Hardcore": { 
+		// How many lives players should start with.
+		"DEFAULT_LIVES": 3,
+		// Define in seconds how long the rot timer is.
+		"HEART_ROT_TIME": 120,
+		// Set to true to enable the heart rot timer
+		"HEART_ROT_ENABLE": false,
+		// Use this to set the maximum lives obtainable
+		"MAX_LIVES": 20
+	},
+	// Settings related to server start & modes
+	"Starting": { 
+		// If set to true, new worlds will automatically activate Hardcore mode
+		"AUTO_HARDCORE": false,
+		// If set to true, new worlds will automatically activate Questing mode
+		"AUTO_QUESTING": true,
+		// Set to true to enable the sending of quests from the server to all clients that connect to it
+		"SERVER_SYNC": false
+	},
+	// Settings related to loot bags and loot tiers
+	"Loot": { 
+		// Always display the tier name, instead of the individual bag's name, when opening a reward bag.
+		"ALWAYS_USE_TIER": false,
+		// Set to true to display an interface with the contents of the reward bag when you open it.
+		"REWARD_INTERFACE": true
+	},
+	// Settings related to the interface
+	"Interface": { 
+		// Colour settings for quest set rendering
+		"QuestSets": { 
+			// Use the HTML format, e.g.: #ffffff
+			"COMPLETED_SELECTED_IN_BOUNDS_SET": "#40bb40",
+			// Use the HTML format, e.g.: #ffffff
+			"COMPLETED_UNSELECTED_IN_BOUNDS_SET": "#10a010",
+			// Use the HTML format, e.g.: #ffffff
+			"UNCOMPLETED_SELECTED_IN_BOUNDS_SET": "#aaaaaa",
+			// Use the HTML format, e.g.: #ffffff
+			"UNCOMPLETED_UNSELECTED_IN_BOUNDS_SET": "#666666",
+			// Use the HTML format, e.g.: #ffffff
+			"DISABLED_SET": "#dddddd"
+		},
+		// Colour settings for quests
+		"Quests": { 
+			"QUEST_INVISIBLE": "#55FFFFFF",
+			// Use the HTML format with alpha, e.g.: #55FFFFFF
+			"QUEST_DISABLED": "#FF888888",
+			// Use the HTML format with alpha, e.g.: #55FFFFFF
+			"QUEST_COMPLETE": "#FFFFFFFF",
+			// Use the HTML format with alpha, e.g.: #55FFFFFF
+			"QUEST_COMPLETE_REPEATABLE": "#FFFFFFCC",
+			// Use the HTML format with alpha, e.g: #55FFFFFF
+			"QUEST_AVAILABLE": "#554286f4",
+			// Set to true to disable the default colour pulse and use the colour specified above
+			"SINGLE_COLOUR": false
+		}
+	},
+	// Enable this to cause the player to be granted a gift on spawning into the world
+	"SPAWN_BOOK": false,
+	// Loose the quest book when you die, if set to false it will stay in your inventory
+	"LOSE_QUEST_BOOK": true,
+	// Allow every single player in a party to claim the reward for a quest. Setting this to false will give the party one set of rewards to share.
+	"MULTI_REWARD": true,
+	// Use this to specify NBT tags that should be ignored when comparing items with NBT subset
+	"NBT_SUBSET_FILTER": [ 
+		"RepairCost"
+	],
+	// Settings related to messages sent from the server
+	"Message": { 
+		// Set to true to enable sending a status message if Hardcore Questing mode is off
+		"NO_HARDCORE_MESSAGE": false,
+		// Set to false to prevent the 'use /hqm op instead' message when operators use '/hqm edit' instead.
+		"OP_REMINDER": true
+	},
+	// Settings related to edit mode
+	"Editing": { 
+		// Set to true to save work-in-progress quests in the default folder of the configuration
+		"SAVE_DEFAULT": true,
+		// Set to true to automatically enable edit mode when entering worlds in single-player. Has no effect in multiplayer.
+		"USE_EDITOR": false,
+		// Hotkeys used in the book, one entry per line(Format: [key]:[mode]
+		"HOTKEYS": [ 
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select",
+			"68:delete",
+			"78:create",
+			"77:move",
+			"260:create",
+			"82:rename",
+			"261:delete",
+			"32:normal",
+			"83:swap",
+			"83:swap_select"
+		]
+	}
+}

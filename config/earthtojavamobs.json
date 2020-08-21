@@ -1,0 +1,414 @@
+{
+  "modWanderingTrader": {
+    "canSpawn": false,
+    "delay": 4,
+    "chance": 20
+  },
+  "rubyOre": {
+    "canGenerate": false,
+    "topOffset": 0,
+    "bottomOffset": 0,
+    "count": 2,
+    "maximum": 8
+  },
+  "mudLakeFrequency": 40,
+  "albinoCow": {
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:gravelly_mountains",
+      "minecraft:modified_gravelly_mountains"
+    ]
+  },
+  "amberChicken": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:desert_lakes",
+      "minecraft:savanna",
+      "minecraft:savanna_plateau",
+      "minecraft:shattered_savanna",
+      "minecraft:shattered_savanna_plateau"
+    ]
+  },
+  "ashenCow": {
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:gravelly_mountains",
+      "minecraft:modified_gravelly_mountains"
+    ]
+  },
+  "boneSpider": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:badlands",
+      "minecraft:badlands_plateau",
+      "minecraft:modified_badlands_plateau",
+      "minecraft:wooded_badlands_plateau",
+      "minecraft:modified_wooded_badlands_plateau",
+      "minecraft:eroded_badlands"
+    ]
+  },
+  "cluckshroom": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:mushroom_fields",
+      "minecraft:mushroom_fields"
+    ]
+  },
+  "fleckedSheep": {
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:taiga",
+      "minecraft:taiga_hills",
+      "minecraft:taiga_mountains",
+      "minecraft:gravelly_mountains",
+      "minecraft:modified_gravelly_mountains",
+      "minecraft:forest",
+      "minecraft:wooded_hills",
+      "minecraft:flower_forest"
+    ]
+  },
+  "furnaceGolem": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:desert_lakes"
+    ]
+  },
+  "glowSquid": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:ocean",
+      "minecraft:deep_ocean",
+      "minecraft:frozen_ocean",
+      "minecraft:deep_frozen_ocean",
+      "minecraft:cold_ocean",
+      "minecraft:deep_cold_ocean",
+      "minecraft:lukewarm_ocean",
+      "minecraft:deep_lukewarm_ocean",
+      "minecraft:warm_ocean",
+      "minecraft:deep_warm_ocean",
+      "minecraft:river",
+      "minecraft:swamp",
+      "minecraft:swamp_hills"
+    ]
+  },
+  "harelequinRabbit": {
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
+    ]
+  },
+  "hornedSheep": {
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:gravelly_mountains",
+      "minecraft:modified_gravelly_mountains"
+    ]
+  },
+  "inkySheep": {
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:gravelly_mountains",
+      "minecraft:modified_gravelly_mountains"
+    ]
+  },
+  "jollyLlama": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:snowy_tundra",
+      "minecraft:snowy_mountains",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_taiga",
+      "minecraft:snowy_taiga_hills",
+      "minecraft:snowy_taiga_mountains",
+      "minecraft:frozen_river",
+      "minecraft:snowy_beach"
+    ]
+  },
+  "jumboRabbit": {
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
+    ]
+  },
+  "melonGolem": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:snowy_taiga",
+      "minecraft:snowy_taiga_hills",
+      "minecraft:snowy_taiga_mountains",
+      "minecraft:snowy_tundra",
+      "minecraft:snowy_mountains",
+      "minecraft:snowy_beach",
+      "minecraft:ice_spikes"
+    ]
+  },
+  "midnightChicken": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:forest",
+      "minecraft:wooded_hills",
+      "minecraft:flower_forest",
+      "minecraft:dark_forest",
+      "minecraft:dark_forest_hills",
+      "minecraft:jungle",
+      "minecraft:jungle_hills",
+      "minecraft:modified_jungle",
+      "minecraft:jungle_edge",
+      "minecraft:modified_jungle_edge",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:tall_birch_forest",
+      "minecraft:tall_birch_hills"
+    ]
+  },
+  "moobloom": {
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:flower_forest"
+    ]
+  },
+  "muddyPig": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:river"
+    ]
+  },
+  "muddyFootRabbit": {
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
+    ]
+  },
+  "palePig": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:snowy_tundra",
+      "minecraft:snowy_mountains",
+      "minecraft:snowy_taiga",
+      "minecraft:snowy_taiga_hills",
+      "minecraft:snowy_taiga_mountains"
+    ]
+  },
+  "piebaldPig": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:forest",
+      "minecraft:wooded_hills",
+      "minecraft:flower_forest",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:tall_birch_forest",
+      "minecraft:tall_birch_hills",
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:taiga",
+      "minecraft:taiga_hills",
+      "minecraft:taiga_mountains",
+      "minecraft:savanna",
+      "minecraft:savanna_plateau",
+      "minecraft:shattered_savanna",
+      "minecraft:shattered_savanna_plateau"
+    ]
+  },
+  "rainbowSheep": {
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:forest",
+      "minecraft:wooded_hills",
+      "minecraft:flower_forest"
+    ]
+  },
+  "rockySheep": {
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:gravelly_mountains",
+      "minecraft:modified_gravelly_mountains"
+    ]
+  },
+  "skeletonWolf": {
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:forest",
+      "minecraft:wooded_hills",
+      "minecraft:flower_forest",
+      "minecraft:taiga",
+      "minecraft:taiga_hills",
+      "minecraft:taiga_mountains",
+      "minecraft:snowy_taiga",
+      "minecraft:snowy_taiga_hills",
+      "minecraft:snowy_taiga_mountains",
+      "minecraft:giant_tree_taiga",
+      "minecraft:giant_tree_taiga_hills",
+      "minecraft:giant_spruce_taiga",
+      "minecraft:giant_spruce_taiga_hills",
+      "minecraft:badlands",
+      "minecraft:badlands_plateau",
+      "minecraft:modified_badlands_plateau",
+      "minecraft:wooded_badlands_plateau",
+      "minecraft:modified_wooded_badlands_plateau",
+      "minecraft:eroded_badlands"
+    ]
+  },
+  "spottedPig": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:swamp",
+      "minecraft:swamp_hills"
+    ]
+  },
+  "stormyChicken": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "minecraft:mountains",
+      "minecraft:wooded_mountains",
+      "minecraft:mountain_edge",
+      "minecraft:gravelly_mountains",
+      "minecraft:modified_gravelly_mountains",
+      "minecraft:taiga",
+      "minecraft:taiga_hills",
+      "minecraft:taiga_mountains"
+    ]
+  },
+  "sunsetCow": {
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:savanna",
+      "minecraft:savanna_plateau",
+      "minecraft:shattered_savanna",
+      "minecraft:shattered_savanna_plateau"
+    ]
+  },
+  "tropicalSlime": {
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:beach"
+    ]
+  },
+  "vestedRabbit": {
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
+    ]
+  },
+  "woolyCow": {
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:taiga",
+      "minecraft:taiga_hills",
+      "minecraft:taiga_mountains",
+      "minecraft:snowy_taiga",
+      "minecraft:snowy_taiga_hills",
+      "minecraft:snowy_taiga_mountains",
+      "minecraft:giant_tree_taiga",
+      "minecraft:giant_tree_taiga_hills",
+      "minecraft:giant_spruce_taiga",
+      "minecraft:giant_spruce_taiga_hills"
+    ]
+  }
+}

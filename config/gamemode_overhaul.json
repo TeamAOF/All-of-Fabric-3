@@ -1,0 +1,9 @@
+{
+  "enable_gamemode_numbers": true,
+  "enable_gamemode_letters": true,
+  "enable_defaultgamemode_numbers": true,
+  "enable_defaultgamemode_letters": true,
+  "enable_excessively_short_commands": false,
+  "enable_difficulty_numbers": true,
+  "enable_toggledownfall": true
+}

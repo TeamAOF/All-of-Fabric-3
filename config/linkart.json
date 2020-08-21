@@ -1,0 +1,7 @@
+{
+  "enableLinker": true,
+  "enableChain": true,
+  "pathfindingDistance": 8,
+  "velocityMultiplier": 0.5,
+  "collisionDepth": 16
+}

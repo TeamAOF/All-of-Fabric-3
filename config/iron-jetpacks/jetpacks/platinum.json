@@ -1,0 +1,19 @@
+{
+  "name": "platinum",
+  "disable": false,
+  "tier": 4,
+  "color": "6feaef",
+  "armorPoints": 4,
+  "enchantability": 12,
+  "craftingMaterial": "tag:c:platinum_ingots",
+  "rarity": 0,
+  "capacity": 3.6E7,
+  "usage": 720.0,
+  "speedVertical": 0.92,
+  "accelVertical": 0.155,
+  "speedSideways": 0.193,
+  "speedHoverDescend": 0.42,
+  "speedHover": 0.005,
+  "sprintSpeedMulti": 1.8,
+  "sprintFuelMulti": 3.8
+}

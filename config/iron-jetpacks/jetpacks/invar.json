@@ -1,0 +1,19 @@
+{
+  "name": "invar",
+  "disable": false,
+  "tier": 3,
+  "color": "929d97",
+  "armorPoints": 3,
+  "enchantability": 15,
+  "craftingMaterial": "tag:c:invar_ingots",
+  "rarity": 0,
+  "capacity": 1.2E7,
+  "usage": 350.0,
+  "speedVertical": 0.61,
+  "accelVertical": 0.13,
+  "speedSideways": 0.15,
+  "speedHoverDescend": 0.34,
+  "speedHover": 0.03,
+  "sprintSpeedMulti": 1.5,
+  "sprintFuelMulti": 3.2
+}

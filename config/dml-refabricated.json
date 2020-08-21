@@ -1,0 +1,84 @@
+{
+  "trial": {
+    "maxMobsInArena": 8,
+    "postEndTimeout": 60,
+    "arenaRadius": 12,
+    "maxTime": 24000,
+    "allowStartInWrongTerrain": false,
+    "allowPlayersLeavingArena": false,
+    "allowMobsLeavingArena": false,
+    "buildGriefPrevention": true,
+    "interactGriefPrevention": true,
+    "explosionGriefPrevention": true,
+    "trialKeyConsume": true,
+    "trialKeyReturnIfSucceed": true
+  },
+  "lootFabricator": {
+    "pristineExchangeRate": 16,
+    "processTime": 200
+  },
+  "dataModel": {
+    "basicDataRequired": 8,
+    "advancedDataRequired": 16,
+    "superiorDataRequired": 32,
+    "selfAwareDataRequired": 64
+  },
+  "systemGlitch": {
+    "teleportChance": 0.05,
+    "teleportMinDistance": 5,
+    "teleportDelay": 100,
+    "teleportAroundPlayerRadius": 2
+  },
+  "dataCollection": {
+    "baseDataGainPerKill": 1
+  },
+  "affix": {
+    "maxAffixesInKey": 3,
+    "enableMobStrength": true,
+    "enableMobSpeed": true,
+    "enableMobResistance": true,
+    "enableThunderstorm": true,
+    "enablePartyPoison": true,
+    "thunderstormBoltChance": 0.05,
+    "partyPoisonChance": 0.005
+  },
+  "matterCondenser": {
+    "processTime": 40
+  },
+  "glitchArmor": {
+    "dataAmountToBasic": 32,
+    "dataAmountToAdvanced": 96,
+    "dataAmountToSuperior": 192,
+    "dataAmountToSelfAware": 384,
+    "enableFireProtection": true,
+    "fireProtectionCost": 1.0,
+    "enableAutoExtinguish": true,
+    "autoExtinguishCost": 4.0,
+    "enableFeatherFalling": true,
+    "featherFallingCost": 3.0,
+    "enableFireImmunity": true,
+    "fireImmunityCost": 1.0,
+    "enableJumpBoost": true,
+    "jumpBoostCost": 1.0,
+    "enableFallImmunity": true,
+    "fallImmunityCost": 1.0,
+    "enableEndermenProofVision": true,
+    "endermenProofVisionCost": 1.0,
+    "enableSoulSensitive": true,
+    "soulSensitiveCost": 8.0,
+    "enableGhostlySkin": true,
+    "ghostlySkinCost": 16.0,
+    "enableImprovedGhostlySkin": true,
+    "improvedGhostlySkinCost": 0.0,
+    "enableFly": true,
+    "flyCost": 0.05,
+    "enableUnderwaterHaste": true,
+    "underwaterHasteCost": 1.0,
+    "enableDepthStrider": true,
+    "depthStriderCost": 1.0,
+    "enableWaterBreathing": true,
+    "waterBreathingCost": 1.0,
+    "enablePoseidonBless": true,
+    "poseidonBlessCost": 2.0
+  }
+}

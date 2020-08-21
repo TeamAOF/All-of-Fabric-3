@@ -1,0 +1,38 @@
+{
+	// Colors for each new row of health (Hexadecimal)
+	"health_colors": [
+		"#F06E14",
+		"#F5DC23",
+		"#2DB928",
+		"#1EAFBE",
+		"#7346E1",
+		"#FA7DEB",
+		"#EB375A",
+		"#FF8278",
+		"#AAFFFA",
+		"#EBEBFF"
+	],
+	// Colors for each new row of absorption (Hexadecimal)
+	"absorption_colors": [
+		"#E1FA9B",
+		"#A0FFAF",
+		"#AAFFFA",
+		"#AACDFF",
+		"#D7B4FF",
+		"#FAA5FF",
+		"#FFB4B4",
+		"#FFAA7D",
+		"#D7F0FF",
+		"#EBFFFA"
+	],
+	// Colors for two different rows when poisoned for easier distinction (Hexadecimal)
+	"poison_colors": [
+		"#739B00",
+		"#96CD00"
+	],
+	// Colors for two different rows when withered for easier distinction (Hexadecimal)
+	"wither_colors": [
+		"#0F0F0F",
+		"#2D2D2D"
+	]
+}

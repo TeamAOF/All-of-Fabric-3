@@ -1,0 +1,28 @@
+{
+  "client": {
+    "disableColoredCableRecipesInJEI": true,
+    "enableEffects": true,
+    "useTerminalUseLargeFont": false,
+    "useColoredCraftingStatus": true,
+    "__comment": "Controls buttons on Level Emitter Screen",
+    "PowerUnit": "ae",
+    "craftByStacks0": 1,
+    "priorityByStacks0": 1,
+    "levelByStacks0": 1,
+    "craftByStacks1": 10,
+    "priorityByStacks1": 10,
+    "levelByStacks1": 10,
+    "craftByStacks2": 100,
+    "priorityByStacks2": 100,
+    "levelByStacks2": 100,
+    "craftByStacks3": 1000,
+    "priorityByStacks3": 1000,
+    "levelByStacks3": 1000
+  },
+  "terminals": {
+    "__comment": "Should tooltips be searched. Performance impact",
+    "searchTooltips": "yes",
+    "terminalStyle": "tall",
+    "terminalSearchMode": "autosearch"
+  }
+}

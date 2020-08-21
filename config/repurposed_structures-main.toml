@@ -1,0 +1,183 @@
+[RSDungeonsConfig]
+addDungeonsToModdedBiomes = false
+blacklistedDungeonBiomes = ""
+
+[RSDungeonsConfig.spawnrate]
+badlandsDungeonSpawnrate = 8
+darkForestDungeonSpawnrate = 8
+desertDungeonSpawnrate = 8
+jungleDungeonSpawnrate = 8
+mushroomDungeonSpawnrate = 8
+snowDungeonSpawnrate = 8
+swampDungeonSpawnrate = 8
+endDungeonSpawnrate = 8
+netherDungeonSpawnrate = 8
+oceanDungeonSpawnrate = 8
+
+[RSDungeonsConfig.minHeight]
+badlandsDungeonMinHeight = 2
+darkForestDungeonMinHeight = 2
+desertDungeonMinHeight = 2
+jungleDungeonMinHeight = 2
+mushroomDungeonMinHeight = 2
+snowDungeonMinHeight = 2
+swampDungeonMinHeight = 2
+endDungeonMinHeight = 2
+netherDungeonMinHeight = 2
+oceanDungeonMinHeight = 3
+
+[RSDungeonsConfig.maxHeight]
+badlandsDungeonMaxHeight = 255
+darkForestDungeonMaxHeight = 255
+desertDungeonMaxHeight = 255
+jungleDungeonMaxHeight = 255
+mushroomDungeonMaxHeight = 255
+snowDungeonMaxHeight = 255
+swampDungeonMaxHeight = 255
+endDungeonMaxHeight = 255
+netherDungeonMaxHeight = 255
+oceanDungeonMaxHeight = 255
+[RSMainConfig.misc]
+addSwampTreeToModdedBiomes = false
+addBoulderToModdedBiomes = false
+blacklistedSwampTreeBiomes = ""
+blacklistedBoulderBiomes = ""
+hornedSwampTree = true
+boulderTiny = true
+boulderGiant = true
+diamondChanceInGiantBoulders = 7000
+giantBouldersPerChunk = 1.0
+[RSMainConfig.jungleFortress]
+jungleFortressSpawnrate = 32
+addJungleFortressToModdedBiomes = false
+blacklistedFortressBiomes = ""
+silverfishSpawnrateJF = 0.5
+lootChestsJF = true
+[RSMainConfig.shipwrecks]
+addEndShipwreckToModdedBiomes = false
+blacklistedShipwreckBiomes = ""
+endShipwreckSpawnrate = 23
+[RSMainConfig.igloos]
+blacklistedIglooBiomes = ""
+grassyIglooSpawnrate = 20
+addGrassyIglooToModdedBiomes = false
+stoneIglooSpawnrate = 20
+addStoneIglooToModdedBiomes = false
+[RSTemplesConfig.temples]
+blacklistedTempleBiomes = ""
+netherWastelandTempleSpawnrate = 26
+addNetherWastelandTempleToModdedBiomes = false
+netherBasaltTempleSpawnrate = 26
+addNetherBasaltTempleToModdedBiomes = false
+netherCrimsonTempleSpawnrate = 26
+addNetherCrimsonTempleToModdedBiomes = false
+netherWarpedTempleSpawnrate = 26
+addNetherWarpedTempleToModdedBiomes = false
+netherSoulTempleSpawnrate = 26
+addNetherSoulTempleToModdedBiomes = false
+[RSTemplesConfig.pyramids]
+blacklistedPyramidBiomes = ""
+netherPyramidSpawnrate = 34
+addNetherPyramidToModdedBiomes = false
+badlandsPyramidSpawnrate = 20
+addBadlandsPyramidToModdedBiomes = false
+[RSMineshaftsConfig]
+lootChestsMS = true
+addMineshaftsToModdedBiomes = false
+blacklistedMineshaftBiomes = ""
+
+[RSMineshaftsConfig.spawnrate]
+birchMineshaftSpawnrate = 40
+jungleMineshaftSpawnrate = 40
+desertMineshaftSpawnrate = 40
+stoneMineshaftSpawnrate = 40
+savannaMineshaftSpawnrate = 40
+icyMineshaftSpawnrate = 40
+oceanMineshaftSpawnrate = 40
+taigaMineshaftSpawnrate = 40
+swampAndDarkForestMineshaftSpawnrate = 40
+endMineshaftSpawnrate = 40
+netherMineshaftSpawnrate = 40
+
+[RSMineshaftsConfig.minHeight]
+birchMineshaftMinHeight = 5
+jungleMineshaftMinHeight = 5
+desertMineshaftMinHeight = 5
+stoneMineshaftMinHeight = 5
+savannaMineshaftMinHeight = 5
+icyMineshaftMinHeight = 5
+oceanMineshaftMinHeight = 5
+taigaMineshaftMinHeight = 5
+swampAndDarkForestMineshaftMinHeight = 5
+endMineshaftMinHeight = 30
+netherMineshaftMinHeight = 5
+
+[RSMineshaftsConfig.maxHeight]
+birchMineshaftMaxHeight = 45
+jungleMineshaftMaxHeight = 45
+desertMineshaftMaxHeight = 45
+stoneMineshaftMaxHeight = 45
+savannaMineshaftMaxHeight = 45
+icyMineshaftMaxHeight = 45
+oceanMineshaftMaxHeight = 25
+taigaMineshaftMaxHeight = 45
+swampAndDarkForestMineshaftMaxHeight = 45
+endMineshaftMaxHeight = 37
+netherMineshaftMaxHeight = 13
+
+[RSMineshaftsConfig.misc]
+barrensIslandsEndMineshafts = false
+[RSStrongholdsConfig]
+strongholdSizeSH = 100.0
+allowExtraSpawnersSH = true
+lootChestsSH = true
+blacklistedStrongholdBiomes = ""
+
+[RSStrongholdsConfig.stonebrick]
+allowStonebrickStronghold = true
+addStonebrickStrongholdToModdedBiomes = true
+silverfishSpawnrateSH = 0.8
+stonebrickStrongholdMinHeight = 0
+stonebrickStrongholdMaxHeight = 45
+stonebrickStrongholdSpawnrate = 85
+stonebrickStrongholdChainSpawnrate = 35
+
+[RSStrongholdsConfig.nether]
+netherStrongholdSpawnrate = 85
+addNetherStrongholdToModdedBiomes = false
+netherStrongholdMinHeight = 33
+netherStrongholdMaxHeight = 36
+netherStrongholdChainSpawnrate = 50
+[RSOutpostsConfig]
+blacklistedOutpostBiomes = ""
+
+[RSOutpostsConfig.outposts]
+netherBrickOutpostSpawnrate = 28
+addNetherBrickOutpostToModdedBiomes = false
+warpedOutpostSpawnrate = 28
+addWarpedOutpostToModdedBiomes = false
+crimsonOutpostSpawnrate = 28
+addCrimsonOutpostToModdedBiomes = false
+[RSVillagesConfig]
+addVillagesToModdedBiomes = false
+blacklistedVillageBiomes = ""
+badlandsVillageSpawnrate = 17
+birchVillageSpawnrate = 28
+darkForestVillageSpawnrate = 28
+jungleVillageSpawnrate = 26
+swampVillageSpawnrate = 28
+mountainsVillageSpawnrate = 28
+giantTaigaVillageSpawnrate = 26
+crimsonVillageSpawnrate = 22
+warpedVillageSpawnrate = 22
+[RSWellsConfig]
+addWellsToModdedBiomes = false
+blacklistedWellBiomes = ""
+canHaveBells = true
+
+[RSWellsConfig.spawnrate]
+badlandsWellSpawnrate = 350
+netherWellSpawnrate = 350
+snowWellSpawnrate = 350
+mossyStoneWellSpawnrate = 350
+forestWellSpawnrate = 350

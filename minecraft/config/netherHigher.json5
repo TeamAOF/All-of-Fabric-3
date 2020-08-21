@@ -1,6 +1,0 @@
-{
-	// Raises the End height limit to 256.
-	"raiseEndHeightLimit": true,
-	// Raises the Nether height limit to 256.
-	"raiseNetherHeightLimit": true
-}

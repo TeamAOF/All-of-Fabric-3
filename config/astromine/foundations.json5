@@ -1,0 +1,130 @@
+{ 
+	// Whether generation of Copper Ore in the Overworld is enabled.
+	"overworldCopperOre": false,
+	// Whether generation of Tin Ore in the Overworld is enabled.
+	"overworldTinOre": false,
+	// Whether generation of Silver Ore in the Overworld is enabled.
+	"overworldSilverOre": false,
+	// Whether generation of Lead Ore in the Overworld is enabled.
+	"overworldLeadOre": false,
+	// Minimum range of Asteroid Coal Ore weight.
+	"asteroidCoalOreMinimumRange": 0,
+	// Maximum range of Asteroid Coal Ore weight.
+	"asteroidCoalOreMaximumRange": 48,
+	// Minimum size of Asteroid Coal Ore veins.
+	"asteroidCoalOreMinimumSize": 8,
+	// Maximum Size of Asteroid Coal Ore veins.
+	"asteroidCoalOreMaximumSize": 48,
+	// Minimum range of Asteroid Iron Ore weight.
+	"asteroidIronOreMinimumRange": 0,
+	// Maximum range of Asteroid Iron Ore weight.
+	"asteroidIronOreMaximumRange": 48,
+	// Minimum size of Asteroid Iron Ore veins.
+	"asteroidIronOreMinimumSize": 8,
+	// Maximum Size of Asteroid Iron Ore veins.
+	"asteroidIronOreMaximumSize": 48,
+	// Minimum range of Asteroid Gold Ore weight.
+	"asteroidGoldOreMinimumRange": 0,
+	// Maximum range of Asteroid Gold Ore weight.
+	"asteroidGoldOreMaximumRange": 48,
+	// Minimum size of Asteroid Gold Ore veins.
+	"asteroidGoldOreMinimumSize": 8,
+	// Maximum Size of Asteroid Gold Ore veins.
+	"asteroidGoldOreMaximumSize": 48,
+	// Minimum range of Asteroid Copper Ore weight.
+	"asteroidCopperOreMinimumRange": 0,
+	// Maximum range of Asteroid Copper Ore weight.
+	"asteroidCopperOreMaximumRange": 48,
+	// Minimum size of Asteroid Copper Ore veins.
+	"asteroidCopperOreMinimumSize": 8,
+	// Maximum Size of Asteroid Copper Ore veins.
+	"asteroidCopperOreMaximumSize": 48,
+	// Minimum range of Asteroid Tin Ore weight.
+	"asteroidTinOreMinimumRange": 0,
+	// Maximum range of Asteroid Tin Ore weight.
+	"asteroidTinOreMaximumRange": 48,
+	// Minimum size of Asteroid Tin Ore veins.
+	"asteroidTinOreMinimumSize": 8,
+	// Maximum Size of Asteroid Tin Ore veins.
+	"asteroidTinOreMaximumSize": 48,
+	// Minimum range of Asteroid Silver Ore weight.
+	"asteroidSilverOreMinimumRange": 0,
+	// Maximum range of Asteroid Silver Ore weight.
+	"asteroidSilverOreMaximumRange": 48,
+	// Minimum size of Asteroid Silver Ore veins.
+	"asteroidSilverOreMinimumSize": 8,
+	// Maximum Size of Asteroid Silver Ore veins.
+	"asteroidSilverOreMaximumSize": 48,
+	// Minimum range of Asteroid Lead Ore weight.
+	"asteroidLeadOreMinimumRange": 0,
+	// Maximum range of Asteroid Lead Ore weight.
+	"asteroidLeadOreMaximumRange": 48,
+	// Minimum size of Asteroid Lead Ore veins.
+	"asteroidLeadOreMinimumSize": 8,
+	// Maximum Size of Asteroid Lead Ore veins.
+	"asteroidLeadOreMaximumSize": 48,
+	// Minimum range of Asteroid Redstone Ore weight.
+	"asteroidRedstoneOreMinimumRange": 0,
+	// Maximum range of Asteroid Redstone Ore weight.
+	"asteroidRedstoneOreMaximumRange": 32,
+	// Minimum size of Asteroid Redstone Ore veins.
+	"asteroidRedstoneOreMinimumSize": 8,
+	// Maximum Size of Asteroid Redstone Ore veins.
+	"asteroidRedstoneOreMaximumSize": 48,
+	// Minimum range of Asteroid Lapis Ore weight.
+	"asteroidLapisOreMinimumRange": 0,
+	// Maximum range of Asteroid Lapis Ore weight.
+	"asteroidLapisOreMaximumRange": 32,
+	// Minimum size of Asteroid Lapis Ore veins.
+	"asteroidLapisOreMinimumSize": 8,
+	// Maximum Size of Asteroid Lapis Ore veins.
+	"asteroidLapisOreMaximumSize": 48,
+	// Minimum range of Asteroid Diamond Ore weight.
+	"asteroidDiamondOreMinimumRange": 0,
+	// Maximum range of Asteroid Diamond Ore weight.
+	"asteroidDiamondOreMaximumRange": 16,
+	// Minimum size of Asteroid Diamond Ore veins.
+	"asteroidDiamondOreMinimumSize": 8,
+	// Maximum Size of Asteroid Diamond Ore veins.
+	"asteroidDiamondOreMaximumSize": 48,
+	// Minimum range of Asteroid Emerald Ore weight.
+	"asteroidEmeraldOreMinimumRange": 0,
+	// Maximum range of Asteroid Emerald Ore weight.
+	"asteroidEmeraldOreMaximumRange": 16,
+	// Minimum size of Asteroid Emerald Ore veins.
+	"asteroidEmeraldOreMinimumSize": 8,
+	// Maximum Size of Asteroid Emerald Ore veins.
+	"asteroidEmeraldOreMaximumSize": 48,
+	// Minimum range of Asteroid Metite Ore weight.
+	"asteroidMetiteOreMinimumRange": 0,
+	// Maximum range of Asteroid Metite Ore weight.
+	"asteroidMetiteOreMaximumRange": 48,
+	// Minimum size of Asteroid Metite Ore veins.
+	"asteroidMetiteOreMinimumSize": 8,
+	// Maximum Size of Asteroid Metite Ore veins.
+	"asteroidMetiteOreMaximumSize": 48,
+	// Minimum range of Asteroid Asterite Ore weight.
+	"asteroidAsteriteOreMinimumRange": 0,
+	// Maximum range of Asteroid Asterite Ore weight.
+	"asteroidAsteriteOreMaximumRange": 32,
+	// Minimum size of Asteroid Asterite Ore veins.
+	"asteroidAsteriteOreMinimumSize": 8,
+	// Maximum Size of Asteroid Asterite Ore veins.
+	"asteroidAsteriteOreMaximumSize": 48,
+	// Minimum range of Asteroid Stellum Ore weight.
+	"asteroidStellumOreMinimumRange": 0,
+	// Maximum range of Asteroid Stellum Ore weight.
+	"asteroidStellumOreMaximumRange": 8,
+	// Minimum size of Asteroid Stellum Ore veins.
+	"asteroidStellumOreMinimumSize": 8,
+	// Maximum Size of Asteroid Stellum Ore veins.
+	"asteroidStellumOreMaximumSize": 48,
+	// Minimum range of Asteroid Galaxium Ore weight.
+	"asteroidGalaxiumOreMinimumRange": 0,
+	// Maximum range of Asteroid Galaxium Ore weight.
+	"asteroidGalaxiumOreMaximumRange": 4,
+	// Minimum size of Asteroid Galaxium Ore veins.
+	"asteroidGalaxiumOreMinimumSize": 8,
+	// Maximum Size of Asteroid Galaxium Ore veins.
+	"asteroidGalaxiumOreMaximumSize": 48
+}

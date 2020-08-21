@@ -1,0 +1,19 @@
+{
+  "name": "gold",
+  "disable": false,
+  "tier": 3,
+  "color": "dede00",
+  "armorPoints": 2,
+  "enchantability": 25,
+  "craftingMaterial": "minecraft:gold_ingot",
+  "rarity": 0,
+  "capacity": 1.0E7,
+  "usage": 300.0,
+  "speedVertical": 0.61,
+  "accelVertical": 0.13,
+  "speedSideways": 0.15,
+  "speedHoverDescend": 0.34,
+  "speedHover": 0.03,
+  "sprintSpeedMulti": 1.5,
+  "sprintFuelMulti": 3.2
+}
