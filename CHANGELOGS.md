@@ -3,7 +3,7 @@
 <h1>THIS UPDATE WILL BREAK EXISTING WORLDS!</h1>
 <h2>Be sure to backup player data if you want to keep items etc.</h2>
 
-<h2>NOTE: You'll notice some quest chapters are locked, quests will be added in iterations for the upcoming weeks.
+<h2>NOTE: You'll notice some quest chapters are locked, quests will be added in iterations for the upcoming weeks.</h2>
 
 **Changed/Fixed**
 - Updated to 1.16.2
