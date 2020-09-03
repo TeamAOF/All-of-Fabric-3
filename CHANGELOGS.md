@@ -66,7 +66,6 @@
 **Removed**
 - **Adabranium Mod** ()
 - **Better Graves** ()
-- **Cardinal Components API** ()
 - **Cave Biomes** ()
 - **Cinderscapes** ()
 - **Compact Status Effects** ()
@@ -74,10 +73,8 @@
 - **Delicious Dishes** ()
 - **Ecotones** ()
 - **ExperimentAway** ()
-- **Fabric Language Kotlin** ()
 - **Golems Galore** ()
 - **Into the Omega** ()
-- **Jumploader** ()
 - **Library of Exile** ()
 - **Mo Glass** ()
 - **More Paths** ()
