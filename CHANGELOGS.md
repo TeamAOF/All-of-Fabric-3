@@ -11,7 +11,7 @@
 - Fixed Silicone recipe not working in certain machines.
 - Fixed crash when using bone meal on flowers using dispenser.
 - Fixed incorrect quest names, rewards and other.
-- Unfified REI inputs/outputs for metal nuggets & blocks.
+- Unified REI inputs/outputs for metal nuggets & blocks.
 - Nerfed chance of finding Broken Flight Cores.
 - Nerfed rings even more.
 - Nerfed crates from Allure.
