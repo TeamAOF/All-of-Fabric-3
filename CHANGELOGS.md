@@ -1,3 +1,26 @@
+<h1>2.0.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Disabled duplication with Fabric Furnaces as you could exploit it.
+- Any BYG plank can now be used for Oak Sign.
+- Fixed Tech Reborn cells not being craftable.
+- Fixed dupe bug in Tech Reborn.
+- Fixed crash when in view distance of any entity drawing crossbow.
+- Fixed Silicone recipe not working in certain machines.
+- Fixed crash when using bone meal on flowers using dispenser.
+- Unfified REI inputs/outputs for metal nuggets & blocks.
+- Nerfed chance of finding Broken Flight Cores.
+- Nerfed rings even more.
+- Nerfed crates from Allure.
+- Disabled Crag Gardens biome.
+- Excavate no longer requires tool.
+- No more "Experimental Features" when joining/creating a world.
+- Max amount of possible excavated blocks nerfed from (40 > 30).
+- Removed old background png.
+---------------------------------------------------------------------------------------------
+
 <h1>2.0.0</h1>
 
 <h1>THIS UPDATE WILL BREAK EXISTING WORLDS!</h1>
@@ -29,7 +52,6 @@
 - Hid tons of items/blocks from REI with unification script in mind (Ingots, dusts, plates & blocks).
 - Unified all metal blocks, dusts & ingots.
 - You no longer need recipes unlocked to shift-craft in slotlink.
-- Actually disabled chance of duplication in Fabric Furnaces this time..
 - Tech Reborn loot no longer spawn in Overworld chests.
 - Disabled Max Health, Invisibility & Wither rings.
 - Rebalanced rarity & buffs from rings.
