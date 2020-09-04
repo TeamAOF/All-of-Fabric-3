@@ -10,11 +10,11 @@
 - Fixed crash when in view distance of any entity drawing crossbow.
 - Fixed Silicone recipe not working in certain machines.
 - Fixed crash when using bone meal on flowers using dispenser.
+- Fixed incorrect quest names, rewards and other.
 - Unfified REI inputs/outputs for metal nuggets & blocks.
 - Nerfed chance of finding Broken Flight Cores.
 - Nerfed rings even more.
 - Nerfed crates from Allure.
-- Disabled Crag Gardens biome.
 - Excavate no longer requires tool.
 - No more "Experimental Features" when joining/creating a world.
 - Max amount of possible excavated blocks nerfed from (40 > 30).
