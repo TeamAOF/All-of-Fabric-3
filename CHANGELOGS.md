@@ -19,6 +19,22 @@
 - No more "Experimental Features" when joining/creating a world.
 - Max amount of possible excavated blocks nerfed from (40 > 30).
 - Removed old background png.
+
+**Added**
+- **Disable Custom Worlds Advice** (DisableCustomWorldsAdvice-1.0.jar)
+- **Dwarf Coal** (dwarfcoal-1.16.2-1.0.0.jar)
+
+**Removed**
+- **Polymorph**
+
+**Changed/Updated**
+- **Crudade Mod** (crusade-mod-1.1.3+1.16.2.jar -> crusade-mod-1.1.4+1.16.2.jar)
+- **Deep Mob Learning: Refabricated** (deepmoblearning-refabricated-0.3.0-beta1.jar -> deepmoblearning-refabricated-0.3.1-beta1.jar)
+- **Fabric Diagonal Panes** (fabric-diagonal-panes-0.3.0.jar -> fabric-diagonal-panes-0.3.1.jar)
+- **Fabric Furnaces** (fabric-furnaces-1.3.1-1.16.1.jar -> fabric-furnaces-1.3.2-1.16.2.jar)
+- **Flesh2Leather** (flesh2leather-1.0.0.jar -> flesh2leather-1.0.1.jar)
+- **KubeJS** (kubejs-fabric-1.4.0.jar -> kubejs-fabric-1.4.3.jar)
+- **Tech Reborn** (TechReborn-1.16-3.5.1+build.101.jar -> TechReborn-1.16-3.5.2+build.110.jar)
 ---------------------------------------------------------------------------------------------
 
 <h1>2.0.0</h1>
