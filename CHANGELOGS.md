@@ -24,6 +24,7 @@
 - Removed all alt solar panel recipes.
 - Disabled Winged wings with creative flight.
 - Disabled Sulfur Crystals from Industrial Revolution.
+- Remade all Quantum Suit recipe pieces.
 - Added gated recipes for Astromine altar.
 - Hid tons of items/blocks from REI with unification script in mind (Ingots, dusts, plates & blocks).
 - Unified all metal blocks, dusts & ingots.
@@ -40,22 +41,23 @@
 - Made z key default for crawl.
 - Got rid of keybind conflicts.
 - Added recipe for rgb block.
+- Most likely a ton of other stuff I totally forgot about but ay have an update!
 
-**New**
+**Added**
 - **Allure** (Allure-1.2.6.jar)
 - **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.6.jar)
+- **Auto Config v1 Updated** (autoconfig1u-3.2.2.jar)
 - **BYG** (byg-1.0.6.jar)
 - **cAn i MiNe thIS bLOCk?** (can-i-mine-this-block-1.0.2.jar)
 - **Common Expansion: Foodstuffs** (CEFoodstuffs-1.0.1-(Fabric-1.16.2).jar)
 - **Crawl** (crawl-0.7.3.jar)
 - **Facility** (facility-mc116-0.11.184(1).jar)
 - **Get Off My Lawn** (get-off-my-lawn-1.16.2-1.1.0.jar)
-- **Hardcore Questing Mode** (HQM-0.2.2.jar)
+- **Hardcore Questing Mode** (HQM-0.2.3.jar)
 - **Lapis Reserve** (lapisreserve-1.0.6.jar)
 - **No Potion Offset** (no-potion-offset-1.0.1-unstable.jar)
 - **Pling** (pling-1.2.0.jar)
 - **Polymorph** (polymorph-fabric-0.0.4-1.16.1(1).jar)
-- **RedDragon Marvelous Machines** (reddragon-marvelousmachines-1.0.1-beta-mc1.16.1.jar)
 - **RGBable** (rgbable-1.0.0.jar)
 - **RSWires** (rswires-4.9.1.jar)
 - **Smoother Bedrock** (smootherbedrock-1.0.0.jar)
@@ -67,7 +69,7 @@
 **Removed**
 - **Adabranium Mod** ()
 - **Better Graves** ()
-- **Cave Biomes** ()
+- **Bunch O' Trinkets** ()
 - **Cinderscapes** ()
 - **Compact Status Effects** ()
 - **Craftable Utilities** ()
@@ -84,7 +86,6 @@
 - **Netherite Horse Armor** ()
 - **Notes** ()
 - **River Redux** ()
-- **Sandwichable** ()
 - **Simple Drawers** ()
 - **Simple Void World** ()
 - **Simplex Terrain** ()
@@ -106,12 +107,14 @@
 - **Better Enchanted Books** (better-enchanted-books-1.16.1-1.1.1.jar -> better-enchanted-books-1.16.2-1.1.1.jar)
 - **Blockus** (blockus-1.6.2.jar -> blockus-1.6.3.2.jar)
 - **Campanion** (campanion-1.1.13+build.35.jar -> campanion-1.2.0+build.39.jar)
+- **Cave Biomes** (cavebiomes-0.2.4.jar -> cavebiomes-0.3.0 (1).jar)
 - **Cherished Worlds** (cherishedworlds-fabric-1.0.1-1.16.1.jar -> cherishedworlds-fabric-1.1.0-1.16.2.jar)
 - **Cloth API** (cloth-api-1.0.8.jar -> cloth-api-1.4.6.jar)
 - **Cloth Config v4** (config-2-4.6.0.jar -> config-2-4.8.1.jar)
 - **Controlling For Fabric** (Controlling-For-Fabric-1.1.2.jar -> Controlling-For-Fabric-1.1.3.jar)
 - **Couplings** (Couplings-1.3.1.jar -> Couplings-1.3.2.jar)
 - **CraftPresence** (CraftPresence-Fabric-1.16.1-1.6.6.jar -> CraftPresence-Fabric-1.16.2-1.6.8.jar)
+- **Crudade Mod** (crusade-1.1.2+1.16.1.jar -> crusade-mod-1.1.3+1.16.2.jar)
 - **Dank Storage** (dankstorage-1.1d_1.16.1.jar -> dankstorage-1.6a-1.16.2.jar)
 - **Deep Mob Learning: Refabricated** (deepmoblearning-refabricated-0.2.0-beta1.jar -> deepmoblearning-refabricated-0.3.0-beta1.jar)
 - **Diggus Maximus** (diggusmaximus-1.3.0-1.16.jar -> diggusmaximus-1.3.1-1.16.jar)
@@ -119,19 +122,20 @@
 - **DynoCaps** (Dynocaps-1.1.1.jar -> Dynocaps-1.3.2.jar)
 - **Egg Tab** (eggtab-1.2.0+1.16-fabric.jar -> eggtab-1.3.0+1.16-fabric.jar)
 - **End: Rebellion** (EndRebellion [1.6].jar -> EndRebellion+[1.8].jar)
-- **ExpandedStorage** (expandedstorage-5.3.16+1.16.jar -> expandedstorage-5.5.23+1.16.2.jar)
+- **ExpandedStorage** (expandedstorage-5.3.16+1.16.jar -> expandedstorage-5.6.26+1.16.2.jar)
 - **Ezpas** (ezpas-mc1.16.1-v1.0.4.jar -> ezpas-1.2.1-1.16.2.jar)
 - **Fabric API** (fabric-api-0.17.0+build.386-1.16.1.jar -> fabric-api-0.19.0+build.398-1.16.jar)
+- **Fabric Language Kotlin** (fabric-language-kotlin-1.3.71+build.1.jar -> fabric-language-kotlin-1.4.0+build.1.jar)
 - **Flonters** (Flonters-1.1.0+1.16.1.jar -> Flonters-1.1.1+1.16.2.jar)
 - **GameInfo** (GameInfo-mod-2.0.0a-experimental-06 1.16.1.jar -> GameInfo-mod-2.0.0a-experimental-06.1 1.16.2.jar)
 - **Hwyla** (Hwyla-fabric-1.16.1-1.9.22-75.jar -> Hwyla-fabric-1.16.2-1.9.23-79.jar)
 - **Improved Stations** (improved-stations-2.0.2-unstable.jar -> improved-stations-2.0.3.jar)
-- **Industrial Revolution** (indrev-1.4.9-BETA.jar -> indrev-1.6.2-BETA.jar)
+- **Industrial Revolution** (indrev-1.4.9-BETA.jar -> indrev-1.6.3-BETA.jar)
 - **Inmis** (inmis-1.2.0-1.16.1.jar -> inmis-1.3.0-1.16.2.jar)
 - **Inventory Sorter** (InventorySorter-1.7.0-1.16.jar -> InventorySorter-1.7.2-1.16.jar)
+- **Jumploader** (jumploader-2.0.1.jar -> jumploader-2.0.1 (1).jar)
 - **Kibe** (kibe-1.16.1-1.1.12-BETA.jar -> kibe-1.16.2-1.3.3-BETA.jar)
 - **KubeJS** (kubejs-fabric-1.1.2.jar -> kubejs-fabric-1.4.0.jar)
-- **Light Overlay** (light-overlay-5.4.1.jar -> light-overlay-5.5.1.jar)
 - **Linked Storage** (linkedstorage-1.3.5-1.16.jar -> linkedstorage-1.3.7-1.16.jar)
 - **Lithium** (lithium-fabric-mc1.16.1-0.5.1.jar -> lithium-fabric-mc1.16.2-0.5.4.jar)
 - **MAmbience** (Mambience-2.1.0-1.16.jar -> Mambience-2.1.0+1.16.2.jar)
@@ -147,6 +151,7 @@
 - **Respawnable Pets** (respawnablepets-4.jar -> respawnablepets-6.jar)
 - **Rings of Ascension** (RingsOfAscension-1.16.1-1.0.6.jar -> RingsOfAscension-1.16.2-1.0.7.jar)
 - **Roughly Enough Items** (RoughlyEnoughItems-4.10.5.jar -> RoughlyEnoughItems-5.2.10.jar)
+- **Sandwichable** (sandwichable-1.1.1-snapshot__1.16-pre2.jar -> sandwichable-1.1.2__1.16.2 (2).jar)
 - **Secret Rooms** (secretrooms-0.9.1+1.16.1.jar -> secretrooms-0.9.2+1.16.2.jar)
 - **Shulker Box Tootip** (shulkerboxtooltip-2.1.0+1.16.1.jar -> shulkerboxtooltip-2.1.1+1.16.2.jar)
 - **Simple Teleporters** (simpleteleporters-2.2.0.jar -> simpleteleporters-2.2.1.jar)
