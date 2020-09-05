@@ -1,3 +1,14 @@
+<h1>2.0.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed recipe conflict between Wooden Bucket and Small Logs.
+- Fixed electrum unification outputs/inputs.
+- Fixed Certus Quartz not spawning in modded biomes.
+- Disabled the Industrial Drill/Chainsaw for now (You could dupe it by activating).
+---------------------------------------------------------------------------------------------
+
 <h1>2.0.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
