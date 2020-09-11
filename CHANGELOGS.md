@@ -1,3 +1,53 @@
+<h1>2.0.3</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed metal blocks not being unified properly.
+- Fixed recipe conflict between Basic Coil & Red Alloy Compound.
+- Fixed huge memory leak (AOF3 can now be ran on as low as 1GB of ram.. Not recommended tho but doable).
+- Fixed common crash with RER when looking in REI.
+- Fixed Crude Storage Unit recipe.
+- Fixed recipe conflict between Bamboo Block & Bamboo Planks.
+- Fixed hammers not being able to mine modded ores.
+- Fixed crash when using slab helper.
+- Made Cobweb craftable.
+
+**New**
+- **AdventureZ** (adventurez-1.0.9.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.6.0.jar)
+- **CC:T for Fabric** (cc-tweaked-fabric-1.16.2-1.91.1.jar)
+- **Wooden Hoppers** (woodenhoppers-1.0.0.jar)
+
+**Removed**
+- **Crawl**
+- **Facility**
+- **Flesh2Leather**
+- **Linked Storage**
+
+**Changed/Updated**
+- **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.7.jar -> appliedenergistics2-fabric-8.1.0-alpha.9.jar)
+- **Astromine** (astromine-1.9.2+fabric-1.16.2.jar -> astromine-1.10.4+fabric-1.16.2.jar)
+- **Better Enchanted Books** (better-enchanted-books-1.16.2-1.1.1.jar -> better-enchanted-books-1.16.2-1.1.2.jar)
+- **Cloth API** (cloth-api-1.4.6.jar -> cloth-api-1.4.8.jar)
+- **Crooked Crooks** (crookedcrooks-1.2.1+1.16.1.jar -> crookedcrooks-1.3.0+1.16.3.jar)
+- **Dank Storage** (dankstorage-1.6a-1.16.2.jar -> dankstorage-1.7-1.16.2.jar)
+- **Fabric Chunk Pregenerator** (fabric-chunkpregen-0.2.2.jar -> fabric-chunkpregen-0.3.0.jar)
+- **Hardcore Questing Mode** (HQM-0.2.3.jar -> HQM-0.3.0.jar)
+- **Kibe** (kibe-1.16.2-1.3.3-BETA.jar -> kibe-1.16.2-1.4.2-BETA.jar)
+- **Light Overlay** (light-overlay-5.5.2.jar -> light-overlay-5.5.3.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.2-1.5.3.jar -> repurposed_structures-1.16.2-1.5.4.jar)
+- **Roughly Enough Resources** (rer-2.1.0.jar -> rer-2.1.1.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.2.10.jar -> RoughlyEnoughItems-5.4.2.jar)
+- **Sandwichable** (sandwichable-1.1.2__1.16.2.jar -> sandwichable-1.1.2__1.16.2 (2).jar)
+- **Slab Helper** (slab-helper-mc1.16.2-1.3.3.jar -> slab-helper-mc1.16.2-1.3.4.jar)
+- **Tech Reborn** (TechReborn-1.16-3.5.2+build.110.jar -> TechReborn-1.16-3.5.3+build.115.jar)
+- **Vanilla Hammers** (vanilla-hammers-2.0.6-1.16.2.jar -> vanilla-hammers-2.0.8-1.16.2.jar)
+- **Vanilla Excavators** (vanillaexcavators-2.0.0-1.16.1.jar -> vanillaexcavators-2.1.0-1.16.2.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.20.3_Fabric_1.16.2.jar -> Xaeros_Minimap_20.21.0_Fabric_1.16.2.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.10.3_Fabric_1.16.2.jar -> XaerosWorldMap_1.10.3_Fabric_1.16.3.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.0.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
