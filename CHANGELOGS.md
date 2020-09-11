@@ -7,6 +7,7 @@
 - Fixed recipe conflict between Basic Coil & Red Alloy Compound.
 - Fixed huge memory leak (AOF3 can now be ran on as low as 1GB of ram.. Not recommended tho but doable).
 - Fixed common crash with RER when looking in REI.
+- Fixed server crash when using Item Tag filters.
 - Fixed Crude Storage Unit recipe.
 - Fixed recipe conflict between Bamboo Block & Bamboo Planks.
 - Fixed hammers not being able to mine modded ores.
