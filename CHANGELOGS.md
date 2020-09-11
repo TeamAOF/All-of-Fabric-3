@@ -13,7 +13,7 @@
 - Fixed crash when using slab helper.
 - Made Cobweb craftable.
 
-**New**
+**Added**
 - **AdventureZ** (adventurez-1.0.9.jar)
 - **Cardinal Components API** (Cardinal-Components-API-2.6.0.jar)
 - **CC:T for Fabric** (cc-tweaked-fabric-1.16.2-1.91.1.jar)
