@@ -1,3 +1,11 @@
+<h1>2.0.4</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed HQM not letting you on servers.
+---------------------------------------------------------------------------------------------
+
 <h1>2.0.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
