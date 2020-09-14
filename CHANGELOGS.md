@@ -1,3 +1,17 @@
+<h1>2.0.5</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Removed**
+- **AdventureZ** (Will be readded when config is implemented)
+- **Slab Helper** (Will be readded when server crash is fixed)
+
+**Updated**
+- **Astromine** (astromine-1.10.4+fabric-1.16.2.jar -> astromine-1.10.6+fabric-1.16.3.jar)
+- **Deep Mob Learning: Refabricated** (deepmoblearning-refabricated-0.3.1-beta1.jar -> deepmoblearning-refabricated-0.3.1-beta2.jar)
+- **Kibe** (kibe-1.16.2-1.4.2-BETA.jar -> kibe-1.16.3-1.4.3-BETA.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.0.4</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
