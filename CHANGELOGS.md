@@ -5,6 +5,7 @@
 **Removed**
 - **AdventureZ** (Will be readded when config is implemented)
 - **Slab Helper** (Will be readded when server crash is fixed)
+- **Xp Storage** (Due to dupe bug)
 
 **Updated**
 - **Astromine** (astromine-1.10.4+fabric-1.16.2.jar -> astromine-1.10.6+fabric-1.16.3.jar)
