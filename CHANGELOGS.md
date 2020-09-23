@@ -1,3 +1,12 @@
+<h1>2.1.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed StructureManager crash.
+- Fixed crash in End.
+---------------------------------------------------------------------------------------------
+
 <h1>2.1.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
