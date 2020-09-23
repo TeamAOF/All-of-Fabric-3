@@ -4,7 +4,7 @@
 
 **Changed/Fixed**
 - Fixed StructureManager crash.
-- Fixed crash in End.
+- Fixed end biome layer crash.
 ---------------------------------------------------------------------------------------------
 
 <h1>2.1.0</h1>
