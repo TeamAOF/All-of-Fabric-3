@@ -1,3 +1,52 @@
+<h1>2.1.0</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed not being able to make rocket fuel.
+- Fixed bamboo recipe conflicts.
+- Fixed multiple quests not completing like they should.
+- Fixed Ebony Bookshelf not being craftable.
+- Fixed Charcoal Block conflicts.
+- Fixed Glowstone dust conflicts.
+- Lowered Ambient sound volume by 0.2
+- Increased chance of finding Broken Core of Flight.
+- Density of trees/plantation has been lowered drastically which should increase FPS.
+
+**Added**
+- **YUNG's Better Caves** (BetterCaves-fabric-1.16.2-1.0.1.jar)
+- **Carrier** (carrier-1.0.1.jar)
+- **Dawn API** (Dawn-API-1.1-(Fabric-1.16.3).jar)
+- **Dungeons of Exile** (Dungeons-Of-Exile-1.16.3-1.0.0.jar)
+- **Library of Exile** (Library-Of-Exile-1.16.3-1.0.4.jar)
+- **megane-all** (megane-all-1.0.2+1.16-da0d5d1.jar)
+- **Mo' Structures** (mostructures-1.0.0-pre3+mc.1.16.2.jar)
+- **Notes** (notes-1.16.2-1.0.2.jar)
+- **Realistic Bakery Products** (realistic-bakery-products-1.0.7_1.jar)
+- **Wild Explorer** (WildExplorer-1.0-(Fabric-1.16.3).jar)
+
+**Removed**
+- **Cave Biomes**
+
+**Changed/Updated**
+- **Astromine** (astromine-1.10.6+fabric-1.16.3.jar -> astromine-1.10.7+fabric-1.16.3.jar)
+- **Boring Backgrounds** (boringbackgrounds-2.1.0-1.16.pre3.jar -> boringbackgrounds-3.0.1+1.16.3.jar)
+- **BYG** (byg-1.0.7.jar -> byg-1.0.9.jar)
+- **CC:T for Fabric** (cc-tweaked-fabric-1.16.2-1.91.1.jar -> cc-tweaked-fabric-1.16.2-1.91.2.jar)
+- **CraftPresence** (CraftPresence-Fabric-1.16.2-1.6.8.jar -> CraftPresence-Fabric-1.16.2-Release-1.7.1.jar)
+- **Deep Mob Learning: Refabricated** (deepmoblearning-refabricated-0.3.1-beta2.jar -> deepmoblearning-refabricated-0.3.1-beta4.jar)
+- **ExpandedStorage** (expandedstorage-5.6.26+1.16.2.jar -> expandedstorage-5.6.29+1.16.2.jar)
+- **Fabric API** (fabric-api-0.20.1+build.401-1.16.jar -> fabric-api-0.21.0+build.407-1.16.jar)
+- **Fabric Chunk Pregenerator** (fabric-chunkpregen-0.3.0.jar -> fabric-chunkpregen-0.3.2.jar)
+- **Industrial Revolution** (indrev-1.6.6-BETA.jar -> indrev-1.6.11-BETA.jar)
+- **Mouse Wheelie** (mousewheelie-1.5.3+mc1.16.2-pre1.jar -> mousewheelie-1.5.5+mc1.16.2-pre1.jar)
+- **Roughly Enough Resources** (rer-2.1.1.jar -> rer-2.1.2.jar)
+- **Staff of Building** (staffofbuilding-1.2.2-1.16.2.jar -> staffofbuilding-1.2.3-1.16.2.jar)
+- **TIS-3D** (TIS-3D-MC1.16.2-Fabric-1.5.0.6.jar -> TIS-3D-MC1.16.2-Fabric-1.5.0.10.jar)
+- **Vanilla Excavators** (vanillaexcavators-2.1.0-1.16.2.jar -> vanillaexcavators-2.1.2-1.16.2.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.21.0_Fabric_1.16.2.jar -> Xaeros_Minimap_20.22.0_Fabric_1.16.3.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.0.5</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
