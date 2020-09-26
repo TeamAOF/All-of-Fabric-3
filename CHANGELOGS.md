@@ -1,3 +1,34 @@
+<h1>2.1.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed another crash related to the End.
+- Fixed final issues with Kibe quests.
+- Fixed background not loading in options etc.
+- Disabled Air Structures.
+
+**Added
+- **Decimal Coins** (decimalCoins-fabric-1.16.2-1.2.0.jar)
+- **Dungeons of Exile** (Dungeons-Of-Exile-1.16.3-1.0.0.jar)
+- **Library of Exile** (Library-Of-Exile-1.16.3-1.0.4.jar)
+
+**Removed**
+
+**Changed/Updated**
+- **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.9.jar -> appliedenergistics2-fabric-8.1.0-alpha.10.jar)
+- **Boring Backgrounds** (boringbackgrounds-3.0.1+1.16.3.jar -> boringbackgrounds-3.0.2+1.16.3.jar)
+- **BYG** (byg-1.0.10.jar -> byg-1.0.12.jar)
+- **Carrier** (carrier-1.0.1.jar -> carrier-1.1.0.jar)
+- **Cloth Config v4** (config-2-4.8.1.jar -> config-2-4.8.2.jar)
+- **Get Off My Lawn** (get-off-my-lawn-1.16.2-1.1.0.jar -> get-off-my-lawn-1.16.2-1.2.0-beta.jar)
+- **megane-all** (megane-all-1.0.2+1.16-da0d5d1.jar -> megane-all-1.0.2+1.16-01606fe.jar)
+- **Realistic Bakery Products** (realistic-bakery-products-1.0.7_1.jar -> realistic-bakery-products-1.0.7_2.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.4.2.jar -> RoughlyEnoughItems-5.4.5.jar)
+- **'Slight' GUI Modifications** (slight-gui-modifications-1.3.0.jar -> slight-gui-modifications-1.4.0.jar)
+- **VanillaDeathChest** (vanilladeathchest-1.16.2-1.11.0.6-fabric.jar -> vanilladeathchest-1.16.3-1.11.0.7-fabric.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.1.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
