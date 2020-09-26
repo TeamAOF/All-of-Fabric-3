@@ -8,7 +8,7 @@
 - Fixed background not loading in options etc.
 - Disabled Air Structures.
 
-**Added
+**Added**
 - **Decimal Coins** (decimalCoins-fabric-1.16.2-1.2.0.jar)
 - **Dungeons of Exile** (Dungeons-Of-Exile-1.16.3-1.0.0.jar)
 - **Library of Exile** (Library-Of-Exile-1.16.3-1.0.4.jar)
