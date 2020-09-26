@@ -13,8 +13,6 @@
 - **Dungeons of Exile** (Dungeons-Of-Exile-1.16.3-1.0.0.jar)
 - **Library of Exile** (Library-Of-Exile-1.16.3-1.0.4.jar)
 
-**Removed**
-
 **Changed/Updated**
 - **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.9.jar -> appliedenergistics2-fabric-8.1.0-alpha.10.jar)
 - **Boring Backgrounds** (boringbackgrounds-3.0.1+1.16.3.jar -> boringbackgrounds-3.0.2+1.16.3.jar)
