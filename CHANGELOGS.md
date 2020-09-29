@@ -1,3 +1,27 @@
+<h1>2.1.3</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed land claims.
+- Fixed issues with griefing in claims.
+- You'll no longer just randomly pick up blocks like the sandwich table.
+
+**Removed**
+- **Carrier** (Will be readded when proper compat with GOMF is added).
+
+**Changed/Updated**
+- **Dawn API** (Dawn-API-1.1-(Fabric-1.16.3).jar -> Dawn-API-1.2-(Fabric-1.16.3).jar)
+- **Diggus Maximus** (diggusmaximus-1.3.1-1.16.jar -> diggusmaximus-1.4.0-1.16.2.jar)
+- **Get Off My Lawn** (get-off-my-lawn-1.16.2-1.2.0-beta.jar -> get-off-my-lawn-1.16.2-1.2.1-beta.jar)
+- **Glass Doors** (glassdoor-1.4.4-1.16.jar -> glassdoor-1.5.0-1.16.jar)
+- **Notes** (notes-1.16.2-1.0.2.jar -> notes-1.16.2-1.0.3.jar)
+- **Realistic Bakery Products** (realistic-bakery-products-1.0.7_2.jar -> realistic-bakery-products-1.0.8.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.2-1.5.4.jar -> repurposed_structures-1.16.3-1.6.1.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.4.5.jar -> RoughlyEnoughItems-5.5.1.jar)
+- **Wild Explorer** (WildExplorer-1.0-(Fabric-1.16.3).jar -> WildExplorer-1.1-(Fabric-1.16.3).jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.1.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
