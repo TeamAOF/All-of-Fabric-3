@@ -1,4 +1,7 @@
 {
   "type": "BLACKLIST",
-  "list": ["sandwichable:sandwich_table"]
+  "list": [
+    "sandwichable:sandwich_table",
+    "packages:package"
+  ]
 }
