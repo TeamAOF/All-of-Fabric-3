@@ -1,3 +1,114 @@
+<h1>The Halloween Update - 2.2.0</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Updated to 1.16.3
+- New Art for Halloween.
+- Removed (Mods loaded count) in menu. It'll now just say Mods.
+- Redid how Tech Progression works to extend play time.
+- Added compat between almost every machine there is, let me know if I missed any.
+- New Light Ring recipe.
+- Nerfed Vanilla Hammers durability multiplier (5 > 4).
+- Nerfed all solar panels by a shizzel ton.
+- Disabled Obsidian Tools.
+- Disabled generation of Scoria Stone.
+- Disabled generation of Soap Stone.
+- Disabled all gem tools & gear till proper balance is in place.
+- Disabled scrolling with Mouse Wheelie. This will let you scroll in AE2 Terminal and such easier.
+- Re-enabled the Industrial Drill & Chainsaw as the dupe bug is fixed.
+- Re-enabled flora doubling with dispensers.
+- Lowered the ambient sounds by a tad.
+- Fixed crashes with HQM Teams.
+- Fixed pack not loading on macOS.
+
+**Added**
+- **Ars Theurgia** (arstheurgia-1.0.5.jar)
+- **Art of Alchemy: Memoriam** (artofalchemy-1.0.0-rc3+1.16.3.jar)
+- **BLAST** (blast-1.4.jar)
+- **Blockshifter** (blockshifter-1.3.1+fabric-1.16.2.jar)
+- **Carrier** (carrier-1.4.0.jar)
+- **Cinderscapes** (cinderscapes-1.2.3+build.37-1.16.3.jar)
+- **Croptopia** (Croptopia-1.0.2-1.16.3-FABRIC.jar)
+- **Direbats** (direbats-1.0.0+1.16.3-fabric.jar)
+- **Geckolib** (fabric-1.16.1-geckolib-2.0.0.jar)
+- **Fabric Language Scala** (fabric-language-scala-0.3.2.12-fat (1).jar)
+- **Flamingo, oh, oh, oh...** (Flamingo-oh-oh-oh-1.0.2-MC1.16.3-fabric.jar)
+- **Ignis Fatuus** (ignis-fatuus-1.1.0.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.2.jar)
+- **Netherite Plus Mod** (netherite-plus-mod-1.0.0.jar)
+- **This Rocks!** (rocks-1.0.0.jar)
+- **Simplex Terrain** (simplexterrain-0.7.0.jar)
+- **SlotLock** (slotlock-1.0.1-BETA.jar)
+- **Survival Island** (survivalisland-0.1.6.jar)
+- **Terrestria** (terrestria-2.1.4+build.26.jar)
+- **Traverse** (traverse-3.0.0+build.6.jar)
+- **True Secret Rooms** (true-secret-rooms-1.0.1.jar)
+- **Woods and Mires** (WoodsAndMires-1.0.3+1.16.3.jar)
+- **Harvest Scythes** (wraith-harvestscythes-1.0.3.jar)
+- **Waystones** (wraith-waystones-1.0.8.jar)
+
+**Removed**
+- **Cotton**
+- **Fabric Diagonal Panes**
+- **RGBable**
+
+**Updated**
+- **Adorn** (Adorn-1.11.0+1.16.2.jar -> Adorn-1.11.1+1.16.3.jar)
+- **Allure** (Allure-1.2.6.jar -> Allure-1.2.7.jar)
+- **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.10.jar -> appliedenergistics2-fabric-8.1.0-alpha.11.jar)
+- **Astromine** (astromine-1.10.7+fabric-1.16.3.jar -> astromine-1.11.4+fabric-1.16.3.jar)
+- **Auto Config v1 Updated** (autoconfig1u-3.2.2.jar -> autoconfig1u-3.3.1.jar)
+- **Bedspreads** (bedspreads-fabric-1.1.0-1.16.2.jar -> bedspreads-fabric-1.2.0-1.16.3.jar)
+- **Better Enchanted Books** (better-enchanted-books-1.16.2-1.1.2.jar -> better-enchanted-books-1.16.3-1.1.4.jar)
+- **YUNG's Better Caves** (BetterCaves-fabric-1.16.2-1.0.1.jar -> BetterCaves-fabric-1.16.2-1.0.3.jar)
+- **Blockus** (blockus-1.6.3.2.jar -> blockus-1.6.5.jar)
+- **BYG** (byg-1.0.12.jar -> byg-1.1.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.6.0.jar -> Cardinal-Components-API-2.7.2.jar)
+- **Common Expansion: Foodstuffs** (CEFoodstuffs-1.0.1-(Fabric-1.16.2).jar -> ce_foodstuffs-1.1.1.jar)
+- **Cherished Worlds** (cherishedworlds-fabric-1.1.0-1.16.2.jar -> cherishedworlds-fabric-1.2.0-1.16.3.jar)
+- **Couplings** (Couplings-1.3.2.jar -> Couplings-1.3.3.jar)
+- **CraftPresence** (CraftPresence-Fabric-1.16.2-Release-1.7.1.jar -> CraftPresence-Fabric-1.16.3-Release-1.7.2.jar)
+- **Crooked Crooks** (crookedcrooks-1.3.0+1.16.3.jar -> crookedcrooks-1.3.1+1.16.3.jar)
+- **Dank Storage** (dankstorage-1.7-1.16.2.jar -> dankstorage-1.8c-1.16.3.jar)
+- **Dawn API** (Dawn-API-1.2-(Fabric-1.16.3).jar -> dawn-1.5.2.jar)
+- **Deep Mob Learning: Refabricated** (deepmoblearning-refabricated-0.3.1-beta4.jar -> deepmoblearning-refabricated-0.3.1-beta5.jar)
+- **Diggus Maximus** (diggusmaximus-1.4.0-1.16.2.jar -> diggusmaximus-1.4.2-1.16.3.jar)
+- **Disable Custom Worlds Advice** (DisableCustomWorldsAdvice-1.0.jar -> DisableCustomWorldsAdvice-1.1.jar)
+- **Dungeons of Exile** (Dungeons-Of-Exile-1.16.3-1.0.0.jar -> Dungeons-Of-Exile-1.16.3-1.1.1.jar)
+- **Egg Tab** (eggtab-1.3.0+1.16-fabric.jar -> eggtab-1.3.2+1.16-fabric.jar)
+- **ExpandedStorage** (expandedstorage-5.6.29+1.16.2.jar -> expandedstorage-5.6.30+1.16.2.jar)
+- **Fabric API** (fabric-api-0.21.0+build.407-1.16.jar -> fabric-api-0.25.0+build.415-1.16.jar)
+- **Fabric Chunk Pregenerator** (fabric-chunkpregen-0.3.2.jar -> fabric-chunkpregen-0.3.3.jar)
+- **Flora Doubling** (flora-doubling-1.16.1-1.1.2.jar -> flora-doubling-fabric-1.16.3-1.2.0.jar)
+- **Get Off My Lawn** (get-off-my-lawn-1.16.2-1.2.1-beta.jar -> get-off-my-lawn-1.16.2-1.2.2-beta.jar)
+- **Hardcore Questing Mode** (HQM-0.3.1.jar -> HQM-1.16.2+5.5.3-fabric.jar)
+- **Industrial Revolution** (indrev-1.6.11-BETA.jar -> indrev-1.7.0-BETA.jar)
+- **Inventory Sorter** (InventorySorter-1.7.2-1.16.jar -> InventorySorter-1.7.4-1.16.jar)
+- **Kibe** (kibe-1.16.3-1.4.3-BETA.jar -> kibe-1.16.3-1.5-BETA.jar)
+- **KubeJS** (kubejs-fabric-1.4.5.jar -> kubejs-fabric-1.5.2.jar)
+- **Library of Exile** (Library-Of-Exile-1.16.3-1.0.4.jar -> Library-Of-Exile-1.16.3-1.0.6.jar)
+- **Light Overlay** (light-overlay-5.5.3.jar -> light-overlay-5.5.4.jar)
+- **Linkart** (linkart-2.0.3+fabric-1.16.1.jar -> linkart-1.3.3+fabric-1.16.3.jar)
+- **Lithium** (lithium-fabric-mc1.16.2-0.5.4.jar -> lithium-fabric-mc1.16.3-0.5.6.jar)
+- **megane** (megane-1.1.0+1.16.jar -> megane-2.1.0+1.16.jar)
+- **Mouse Wheelie** (mousewheelie-1.5.5+mc1.16.2-pre1.jar -> mousewheelie-1.5.7+mc1.16.2-pre1.jar)
+- **Notes** (notes-1.16.2-1.0.3.jar -> notes-1.16.2-1.0.4.jar)
+- **Quick Shulker** (quickshulker-1.1.6-1.16.jar -> quickshulker-1.1.10-1.16.jar)
+- **Realistic Bakery Products** (realistic-bakery-products-1.0.8.jar -> realistic-bakery-products-1.1.4.7.jar)
+- **Reborn Core** (RebornCore-1.16-4.4.1+build.69.jar -> RebornCore-1.16-4.5.0+build.84.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.3-1.6.1.jar -> repurposed_structures-1.16.3-1.6.9.jar)
+- **Respawnable Pets** (respawnablepets-6.jar -> respawnablepets-1.16.3-1.jar)
+- **Rings of Ascension** (RingsOfAscension-1.16.2-1.0.7.jar -> RingsOfAscension-1.16.3-1.0.7.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.5.1.jar -> RoughlyEnoughItems-5.7.0.jar)
+- **Shulker Box Tootip** (shulkerboxtooltip-2.1.1+1.16.2.jar -> shulkerboxtooltip-2.3.2+1.16.3.jar)
+- **'Slight' GUI Modifications** (slight-gui-modifications-1.4.0.jar -> slight-gui-modifications-1.5.0.jar)
+- **Tech Reborn** (TechReborn-1.16-3.5.3+build.115.jar -> TechReborn-1.16-3.6.1+build.143.jar)
+- **Trinkets** (trinkets-2.6.4.jar -> trinkets-2.6.6.jar)
+- **Wild Explorer** (WildExplorer-1.1-(Fabric-1.16.3).jar -> wild_explorer-1.2.1.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.23.0_Fabric_1.16.3.jar -> Xaeros_Minimap_20.26.0_Fabric_1.16.3.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.1.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
