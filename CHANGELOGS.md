@@ -1,3 +1,56 @@
+<h1>2.3.0</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Revamped how food works with a nourishment system in place.
+- Made battle towers more common.
+- Croptopia seeds are now available in many more biomes.
+- You no longer need a hoe to get Croptopia seeds from grass.
+- Fixed not being able to click recipes in REI.
+- Fixed Industrial Revolution unification to use Tech Reborn outputs.
+- Fixed cycling through tags of metals, this will ease up crafting & confusion.
+- Fixed a certain iron farm with Rolling Machine hue hue.
+- Fixed bamboo & charcoal recipe conflicts with Allure.
+- Fixed hammer durability.
+- Fixed TileEntity crash with fluids using AE2.
+- Fixed an issue where backpacks could be placed inside other backpacks.
+- Fixed multiple conflicts with Carrier pick up.
+- Fixed wings deleting when switching dimensions.
+- Fixed crash when placing down camo blocks.
+
+**Added**
+- **Artifacts** (Artifacts-1.0.1+1.16.4-fabric.jar)
+- **DamageTilt** (DamageTilt-1.16-fabric-0.1.0.jar)
+- **Nourish** (nourish-1.1.1.jar)
+- **Straw Dummy** (strawdummy-1.3.0.jar)
+
+**Removed**
+- **Common Expansion: Foodstuffs**
+- **Realistic Bakery Products**
+- **Rings of Ascension** (Replaced by Artifacts)
+
+**Updated**
+- **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.11.jar -> appliedenergistics2-fabric-8.1.0-alpha.12.jar)
+- **BYG** (byg-1.1.jar -> byg-1.1.2.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.7.2.jar -> Cardinal-Components-API-2.7.3.jar)
+- **Croptopia** (Croptopia-1.0.2-1.16.3-FABRIC.jar -> Croptopia-1.0.3-1.16.3-FABRIC.jar)
+- **Dawn API** (dawn-1.5.2.jar -> dawn-1.5.3.jar)
+- **Fabric Language Scala** (fabric-language-scala-0.3.2.12-fat.jar -> fabric-language-scala-0.3.2.12-fat (1).jar)
+- **Flamingo, oh, oh, oh...** (Flamingo-oh-oh-oh-1.0.2-MC1.16.3-fabric.jar -> Flamingo-oh-oh-oh-1.0.3-MC1.16.3-fabric.jar)
+- **Industrial Revolution** (indrev-1.7.0-BETA.jar -> indrev-1.7.2-BETA.jar)
+- **Inmis** (inmis-1.3.0-1.16.2.jar -> inmis-1.3.1-1.16.2.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.2.jar -> Modern-Industrialization-0.3.3.jar)
+- **This Rocks!** (rocks-1.0.0.jar -> rocks-1.1.0.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.7.0.jar -> RoughlyEnoughItems-5.7.1.jar)
+- **Shulker Box Tooltip** (shulkerboxtooltip-2.3.2+1.16.3.jar -> shulkerboxtooltip-2.3.3+1.16.4.jar)
+- **Trinkets** (trinkets-2.6.6.jar -> trinkets-2.6.7.jar)
+- **True Secret Rooms** (true-secret-rooms-1.0.1.jar -> true-secret-rooms-1.0.3.jar)
+- **Vanilla Hammers** (vanilla-hammers-2.0.8-1.16.2.jar -> vanilla-hammers-3.0.1-1.16.3.jar)
+- **Winged Mod** (winged-1.16.2-1.4.0.jar -> winged-1.16.2-1.4.1.jar)
+- **Waystones** (wraith-waystones-1.0.8.jar -> wraith-waystones-1.0.9.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>The Halloween Update - 2.2.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
