@@ -15,7 +15,7 @@
 - Fixed a certain iron farm with Rolling Machine hue hue.
 - Fixed bamboo & charcoal recipe conflicts with Allure.
 - Fixed hammer durability.
-- Fixed TileEntity crash with fluids using AE2.
+- Fixed crash with fluids using AE2.
 - Fixed an issue where backpacks could be placed inside other backpacks.
 - Fixed multiple conflicts with Carrier pick up.
 - Fixed wings deleting when switching dimensions.
