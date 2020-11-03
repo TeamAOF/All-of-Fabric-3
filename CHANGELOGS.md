@@ -2,7 +2,7 @@
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
 
-<h2>WARNING! 2.1.x worlds are NOT compatible with 2.2.x and versions above, we're working on a fix! Keep an eye out for it in #announcements over at our Discord Server: https://discord.gg/6rkdm48
+<h2>WARNING! 2.1.x worlds are NOT compatible with 2.2.x and versions above, we're working on a fix! Keep an eye out for it in #announcements over at our Discord Server: https://discord.gg/6rkdm48 </h2>
 
 **Changed/Fixed**
 - Revamped how food works with a nourishment system in place.
