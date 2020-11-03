@@ -2,6 +2,8 @@
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
 
+<h2>WARNING! Going from 2.1.x versions to 2.3.x requires a world reset due to critical changes. IF you do however want full compat going from 2.1.x I recommend keeping an eye out for #announcements in our Discord server as we're working on the proper fix.</h2>
+
 **Changed/Fixed**
 - Revamped how food works with a nourishment system in place.
 - Made battle towers more common.
