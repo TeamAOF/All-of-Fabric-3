@@ -1,3 +1,39 @@
+<h1>2.3.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Hid unused dusts from MI because of unify.
+- Added recipe for Wool Tarp.
+- Cooking Pot & Frying Pan will no longer be consumed with crafting.
+- Unified salt dusts/ores, all recipes will now output the Croptopia variant for ease of crafting.
+- Fixed blazing backpack not registering.
+- Fixed multiple recipes outputting the wrong amount due to a kjs bug.
+- Fixed jetpack recipes using tag instead of static.
+- Fixed bug kicking you from server when equipping artifacts.
+- Fixed output of tiny dusts being incorrect.
+- Fixed certain crops not being in the loot table (All crops will now drop seeds).
+
+**Removed**
+- **Direbats**
+- **End: Rebellion**
+- **I Know What I'm Doing**
+
+**Updated**
+- **Cinderscapes** (cinderscapes-1.2.3+build.37-1.16.3.jar -> cinderscapes-1.2.4+build.43-1.16.4.jar)
+- **Cloth API** (cloth-api-1.4.8.jar -> cloth-api-1.4.9.jar)
+- **Cloth Config v4** (config-2-4.8.2.jar -> config-2-4.8.3.jar)
+- **Croptopia** (Croptopia-1.0.3-1.16.3-FABRIC.jar -> Croptopia-1.0.4-1.16.3-FABRIC.jar)
+- **Industrial Revolution** (indrev-1.7.2-BETA.jar -> indrev-1.7.3-BETA.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.3.jar -> Modern-Industrialization-0.3.4.jar)
+- **Mouse Wheelie** (mousewheelie-1.5.7+mc1.16.2-pre1.jar -> mousewheelie-1.5.9+mc1.16.4.jar)
+- **Netherite Plus Mod** (netherite-plus-mod-1.0.0.jar -> netherite-plus-mod-1.1.0-1.16.4.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.7.1.jar -> RoughlyEnoughItems-5.8.1.jar)
+- **'Slight' GUI Modifications** (slight-gui-modifications-1.5.0.jar -> slight-gui-modifications-1.5.1.jar)
+- **TIS-3D** (TIS-3D-MC1.16.2-Fabric-1.5.0.10.jar -> TIS-3D-MC1.16.2-Fabric-1.6.0.18.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.26.0_Fabric_1.16.3.jar -> Xaeros_Minimap_20.27.2_Fabric_1.16.4.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.3.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
