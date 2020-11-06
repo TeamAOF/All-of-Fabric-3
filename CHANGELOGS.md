@@ -1,3 +1,14 @@
+<h1>2.3.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed a bug that forced players to open and close a singleplayer world before joining a server
+
+**Updated**
+- **Modern Industrialization** (Modern-Industrialization-0.3.4.jar -> Modern-Industrialization-0.3.5.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.3.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
