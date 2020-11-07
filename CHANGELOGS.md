@@ -5,6 +5,7 @@
 **Changed/Fixed**
 - Fixed ingot to nugget in crafting table outputting incorrect nugget.
 - Fixed certain astromine recipes outputting the incorrect nugget.
+- Fixed server not being able to read manifest file.
 - Fixed a couple of blasting recipes.
 - Fixed static cycling through tags in all Indrev machines.
 
