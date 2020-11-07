@@ -1,3 +1,18 @@
+<h1>2.3.3/2.3.4</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed ingot to nugget in crafting table outputting incorrect nugget.
+- Fixed certain astromine recipes outputting the incorrect nugget.
+- Fixed a couple of blasting recipes.
+- Fixed static cycling through tags in all Indrev machines.
+
+**Updated**
+- **Adorn** (Adorn-1.11.0+1.16.3.jar -> Adorn-1.12.0+1.16.4.jar)
+- **Industrial Revolution** (indrev-1.7.3-BETA.jar -> indrev-1.7.6-BETA.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.3.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
