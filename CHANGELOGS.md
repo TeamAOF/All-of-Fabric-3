@@ -7,6 +7,7 @@
 - Removed Quests till fully finished & 100% working.
 - Removed Alloy Furnace recipe from Tech Reborn.
 - New Alloy Smelter recipe from Tech Reborn.
+- Updated default args for server, should run smoother.
 - Fixed Certus Quartz not being smeltable.
 - Fixed certain ores spawning in mid-air.
 - Fixed strongholds not spawning on Simplex world generation.
