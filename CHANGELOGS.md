@@ -1,3 +1,54 @@
+<h1>2.4.0</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- New beautiful ambient sounds.
+- Removed Quests till fully finished & 100% working.
+- Removed Alloy Furnace recipe from Tech Reborn.
+- New Alloy Smelter recipe from Tech Reborn.
+- Fixed Certus Quartz not being smeltable.
+- Fixed certain ores spawning in mid-air.
+- Fixed strongholds not spawning on Simplex world generation.
+- Fixed pattern terminal crash.
+- Fixed nourish tags not loading for certain foods.
+- Fixed incorrect output of quartz dust in MI machines.
+
+**Added**
+- **Ag4tr** (ag4tr-0.1.5.1.jar)
+- **Better End** (better-end-0.5.2-beta.jar)
+- **Cave Biomes** (cavebiomes-0.5.1.jar)
+- **Charm** (charm-fabric-1.16.4-2.1.0.jar)
+- **Charmonium** (charmonium-fabric-1.16.4-2.0.2.jar)
+- **GentleFawn** (GentleFawn-1.1.1-MC1.16.3-fabric.jar)
+- **Phonos** (phonos-0.1.0-beta.jar)
+
+**Removed**
+- **Allure** (Replaced by Charm)
+- **Hardcore Questing Mode**
+- **MAmbience**
+
+**Updated**
+- **Artifacts** (Artifacts-1.0.2+1.16.4-fabric.jar -> Artifacts-1.0.4+1.16.4-fabric.jar)
+- **Art of Alchemy: Memoriam** (artofalchemy-1.0.0-rc3+1.16.3.jar -> artofalchemy-1.0.0-rc4+1.16.4.jar)
+- **Blockshifter** (blockshifter-1.3.1+fabric-1.16.2.jar -> blockshifter-1.3.2+fabric-1.16.4.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.7.3.jar -> Cardinal-Components-API-2.7.4.jar)
+- **Fabric API** (fabric-api-0.25.0+build.415-1.16.jar -> fabric-api-0.25.4+1.16.jar)
+- **Industrial Revolution** (indrev-1.7.6-BETA.jar -> indrev-1.7.8-BETA.jar)
+- **Kibe** (kibe-1.16.3-1.5-BETA.jar -> kibe-1.16.4-1.5.2-BETA.jar)
+- **Lithium** (lithium-fabric-mc1.16.3-0.5.6.jar -> lithium-fabric-mc1.16.4-0.6.0.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.5.jar -> Modern-Industrialization-0.3.7.jar)
+- **Mod Menu** (modmenu-1.14.6+build.31.jar -> modmenu-1.14.7+build.11.jar)
+- **Packages** (packages-1.16.2-1.1.jar -> packages-1.16.4-1.1.1.jar)
+- **Reborn Core** (RebornCore-1.16-4.5.0+build.84.jar -> RebornCore-1.16-4.6.1+build.97.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.8.1.jar -> RoughlyEnoughItems-5.8.3.jar)
+- **Simplex Terrain** (simplexterrain-0.7.0.jar -> simplexterrain-0.7.1.jar)
+- **Straw Dummy** (strawdummy-1.3.0.jar -> strawdummy-1.4.0.jar)
+- **Tech Reborn** (TechReborn-1.16-3.6.1+build.143.jar -> TechReborn-1.16-3.7.1+build.162.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.27.2_Fabric_1.16.4.jar -> Xaeros_Minimap_20.27.2.1_Fabric_1.16.4.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.11.0_Fabric_1.16.3.jar -> XaerosWorldMap_1.11.0.1_Fabric_1.16.4.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.3.3/2.3.4</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
