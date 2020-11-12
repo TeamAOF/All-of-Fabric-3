@@ -18,7 +18,6 @@
 
 **Added**
 - **Ag4tr** (ag4tr-0.1.5.1.jar)
-- **Better End** (better-end-0.5.2-beta.jar)
 - **Cave Biomes** (cavebiomes-0.5.1.jar)
 - **Charm** (charm-fabric-1.16.4-2.1.0.jar)
 - **Charmonium** (charmonium-fabric-1.16.4-2.0.2.jar)
