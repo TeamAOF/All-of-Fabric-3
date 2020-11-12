@@ -9,6 +9,7 @@
 - New Alloy Smelter recipe from Tech Reborn.
 - Updated default args for server, should run smoother.
 - Fixed Certus Quartz not being smeltable.
+- Fixed Tiny Dusts crafting recipes.
 - Fixed certain ores spawning in mid-air.
 - Fixed strongholds not spawning on Simplex world generation.
 - Fixed pattern terminal crash.
