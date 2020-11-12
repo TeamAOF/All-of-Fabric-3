@@ -5,7 +5,7 @@
   "color": "ec9e3f",
   "armorPoints": 3,
   "enchantability": 9,
-  "craftingMaterial": "tag:c:bronze_ingots",
+  "craftingMaterial": "techreborn:bronze_ingot",
   "rarity": 0,
   "capacity": 800000.0,
   "usage": 120.0,

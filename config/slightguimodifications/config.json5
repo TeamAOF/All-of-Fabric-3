@@ -4,12 +4,12 @@
 	// Whether we should unlimit the hard 60 fps limit placed on the title screen.
 	"unlimitTitleScreenFps": true,
 	"openingAnimation": { 
-		"fluidChatOpening": false,
+		"fluidChatOpening": true,
 		"fluidOpenSlideFromBottom": false,
 		"fluidOpenFade": false,
-		"fluidAnimationDuration": 400,
+		"fluidAnimationDuration": 209,
 		"affectsGameMenus": true,
-		"affectsInventories": true,
+		"affectsInventories": false,
 		"ignoreSlideWhenRedirected": true,
 		"ignoreFadeWhenRedirected": false
 	},
@@ -44,14 +44,22 @@
 		"showFps": false
 	},
 	"customScaling": { 
+		"vanillaScaleSlider": false,
 		"scale": 1.0
 	},
 	"slotHighlight": { 
 		// Whether this module is enabled.
-		"enabled": false,
+		"enabled": true,
 		"color": -2130706433
 	},
+	"tooltipModifications": { 
+		// Whether this module is enabled.
+		"enabled": false,
+		"backgroundColor": -267386864,
+		"outlineGradientTopColor": 1347420415,
+		"outlineGradientBottomColor": 1344798847
+	},
 	// Whether GUI should allow right click actions.
-	"rightClickActions": false,
+	"rightClickActions": true,
 	"satisfyingScreenshots": false
 }

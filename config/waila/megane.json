@@ -1,0 +1,57 @@
+{
+  "inventory": {
+    "enabled": true,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "entityInventory": {
+    "enabled": true,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "energy": {
+    "enabled": true,
+    "expandWhenSneak": true,
+    "colors": {
+      "megane": -9368576,
+      "techreborn": -8386560,
+      "astromine": -13275755,
+      "indrev": -12891426
+    },
+    "units": {
+      "megane": "E",
+      "indrev": "LF"
+    },
+    "blacklist": []
+  },
+  "fluid": {
+    "enabled": true,
+    "expandWhenSneak": true,
+    "barColor": -15921831,
+    "blacklist": []
+  },
+  "progress": {
+    "enabled": true,
+    "showWhenZero": false,
+    "blacklist": [
+      "minecraft:furnace",
+      "minecraft:blast_furnace"
+    ]
+  },
+  "petOwner": {
+    "enabled": true,
+    "offline": true,
+    "blacklist": []
+  },
+  "effect": {
+    "enabled": true,
+    "level": true,
+    "roman": false,
+    "hidden": false,
+    "blacklist": []
+  },
+  "spawnEgg": false,
+  "playerHead": true
+}

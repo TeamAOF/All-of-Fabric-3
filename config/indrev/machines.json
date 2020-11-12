@@ -1,158 +1,293 @@
 {
   "electricFurnaceMk1": {
     "energyCost": 4.0,
-    "processSpeed": 1.0,
+    "processSpeed": 1.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 1000.0,
     "maxInput": 64.0
   },
   "electricFurnaceMk2": {
     "energyCost": 8.0,
-    "processSpeed": 2.0,
+    "processSpeed": 2.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 5000.0,
     "maxInput": 128.0
   },
   "electricFurnaceMk3": {
     "energyCost": 16.0,
-    "processSpeed": 3.0,
+    "processSpeed": 3.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 10000.0,
     "maxInput": 512.0
   },
   "electricFurnaceMk4": {
     "energyCost": 64.0,
-    "processSpeed": 4.0,
+    "processSpeed": 4.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 100000.0,
     "maxInput": 4096.0
   },
   "pulverizerMk1": {
     "energyCost": 4.0,
-    "processSpeed": 1.0,
+    "processSpeed": 1.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 1000.0,
     "maxInput": 64.0
   },
   "pulverizerMk2": {
     "energyCost": 8.0,
-    "processSpeed": 2.0,
+    "processSpeed": 2.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 5000.0,
     "maxInput": 128.0
   },
   "pulverizerMk3": {
     "energyCost": 16.0,
-    "processSpeed": 3.0,
+    "processSpeed": 3.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 10000.0,
     "maxInput": 512.0
   },
   "pulverizerMk4": {
     "energyCost": 64.0,
-    "processSpeed": 4.0,
+    "processSpeed": 4.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 100000.0,
     "maxInput": 4096.0
   },
   "compressorMk1": {
     "energyCost": 4.0,
-    "processSpeed": 1.0,
+    "processSpeed": 1.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 1000.0,
     "maxInput": 64.0
   },
   "compressorMk2": {
     "energyCost": 8.0,
-    "processSpeed": 2.0,
+    "processSpeed": 2.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 5000.0,
     "maxInput": 128.0
   },
   "compressorMk3": {
     "energyCost": 16.0,
-    "processSpeed": 3.0,
+    "processSpeed": 3.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 10000.0,
     "maxInput": 512.0
   },
   "compressorMk4": {
     "energyCost": 64.0,
-    "processSpeed": 4.0,
+    "processSpeed": 4.5,
+    "processTemperatureBoost": 2.0,
+    "maxEnergyStored": 100000.0,
+    "maxInput": 4096.0
+  },
+  "sawmillMk1": {
+    "energyCost": 4.0,
+    "processSpeed": 1.5,
+    "processTemperatureBoost": 2.0,
+    "maxEnergyStored": 1000.0,
+    "maxInput": 64.0
+  },
+  "sawmillMk2": {
+    "energyCost": 8.0,
+    "processSpeed": 2.5,
+    "processTemperatureBoost": 2.0,
+    "maxEnergyStored": 5000.0,
+    "maxInput": 128.0
+  },
+  "sawmillMk3": {
+    "energyCost": 16.0,
+    "processSpeed": 3.5,
+    "processTemperatureBoost": 2.0,
+    "maxEnergyStored": 10000.0,
+    "maxInput": 512.0
+  },
+  "sawmillMk4": {
+    "energyCost": 64.0,
+    "processSpeed": 4.5,
     "processTemperatureBoost": 2.0,
     "maxEnergyStored": 100000.0,
     "maxInput": 4096.0
   },
   "infuserMk1": {
     "energyCost": 4.0,
-    "processSpeed": 1.0,
+    "processSpeed": 1.5,
+    "processTemperatureBoost": 2.0,
     "maxEnergyStored": 1000.0,
     "maxInput": 64.0
   },
   "infuserMk2": {
     "energyCost": 8.0,
-    "processSpeed": 2.0,
+    "processSpeed": 2.5,
+    "processTemperatureBoost": 2.0,
     "maxEnergyStored": 5000.0,
     "maxInput": 128.0
   },
   "infuserMk3": {
     "energyCost": 16.0,
-    "processSpeed": 3.0,
+    "processSpeed": 3.5,
+    "processTemperatureBoost": 2.0,
     "maxEnergyStored": 10000.0,
     "maxInput": 512.0
   },
   "infuserMk4": {
     "energyCost": 64.0,
-    "processSpeed": 4.0,
+    "processSpeed": 4.5,
+    "processTemperatureBoost": 2.0,
     "maxEnergyStored": 100000.0,
     "maxInput": 4096.0
   },
   "recycler": {
     "energyCost": 8.0,
-    "processSpeed": 2.0,
+    "processSpeed": 2.5,
     "maxEnergyStored": 50000.0,
     "maxInput": 128.0
   },
-  "chopper": {
+  "chopperMk1": {
+    "energyCost": 16.0,
+    "processSpeed": 50.0,
+    "maxEnergyStored": 1000.0,
+    "maxInput": 64.0
+  },
+  "chopperMk2": {
     "energyCost": 32.0,
-    "processSpeed": 100.0,
-    "maxEnergyStored": 50000.0,
+    "processSpeed": 40.0,
+    "maxEnergyStored": 5000.0,
+    "maxInput": 128.0
+  },
+  "chopperMk3": {
+    "energyCost": 64.0,
+    "processSpeed": 30.0,
+    "maxEnergyStored": 25000.0,
     "maxInput": 512.0
   },
-  "rancher": {
-    "energyCost": 16.0,
-    "processSpeed": 100.0,
-    "maxEnergyStored": 50000.0,
-    "maxInput": 128.0
-  },
-  "miner": {
-    "energyCost": 64.0,
-    "processSpeed": 200.0,
+  "chopperMk4": {
+    "energyCost": 128.0,
+    "processSpeed": 20.0,
     "maxEnergyStored": 50000.0,
     "maxInput": 4096.0
   },
-  "enderMiner": {
+  "farmerMk1": {
+    "energyCost": 16.0,
+    "processSpeed": 50.0,
+    "maxEnergyStored": 1000.0,
+    "maxInput": 64.0
+  },
+  "farmerMk2": {
+    "energyCost": 32.0,
+    "processSpeed": 40.0,
+    "maxEnergyStored": 5000.0,
+    "maxInput": 128.0
+  },
+  "farmerMk3": {
     "energyCost": 64.0,
-    "processSpeed": 400.0,
+    "processSpeed": 30.0,
+    "maxEnergyStored": 25000.0,
+    "maxInput": 512.0
+  },
+  "farmerMk4": {
+    "energyCost": 128.0,
+    "processSpeed": 20.0,
+    "maxEnergyStored": 50000.0,
+    "maxInput": 4096.0
+  },
+  "rancherMk1": {
+    "energyCost": 16.0,
+    "processSpeed": 50.0,
+    "maxEnergyStored": 1000.0,
+    "maxInput": 64.0
+  },
+  "rancherMk2": {
+    "energyCost": 32.0,
+    "processSpeed": 40.0,
+    "maxEnergyStored": 5000.0,
+    "maxInput": 128.0
+  },
+  "rancherMk3": {
+    "energyCost": 64.0,
+    "processSpeed": 30.0,
+    "maxEnergyStored": 25000.0,
+    "maxInput": 512.0
+  },
+  "rancherMk4": {
+    "energyCost": 128.0,
+    "processSpeed": 20.0,
+    "maxEnergyStored": 50000.0,
+    "maxInput": 4096.0
+  },
+  "miner": {
+    "energyCost": 64.0,
+    "processSpeed": 100.0,
     "maxEnergyStored": 50000.0,
     "maxInput": 4096.0
   },
   "fishingMk2": {
     "energyCost": 8.0,
-    "processSpeed": 500.0,
+    "processSpeed": 400.0,
     "maxEnergyStored": 50000.0,
     "maxInput": 128.0
   },
   "fishingMk3": {
     "energyCost": 16.0,
-    "processSpeed": 300.0,
+    "processSpeed": 400.0,
     "maxEnergyStored": 50000.0,
     "maxInput": 512.0
   },
   "fishingMk4": {
     "energyCost": 64.0,
-    "processSpeed": 200.0,
+    "processSpeed": 500.0,
     "maxEnergyStored": 50000.0,
+    "maxInput": 4096.0
+  },
+  "drain": {
+    "energyCost": 4.0,
+    "processSpeed": 20.0,
+    "maxEnergyStored": 1000.0,
+    "maxInput": 64.0
+  },
+  "smelter": {
+    "energyCost": 64.0,
+    "processSpeed": 4.0,
+    "processTemperatureBoost": 2.0,
+    "maxEnergyStored": 50000.0,
+    "maxInput": 4096.0
+  },
+  "condenser": {
+    "energyCost": 64.0,
+    "processSpeed": 4.0,
+    "maxEnergyStored": 50000.0,
+    "maxInput": 4096.0
+  },
+  "fluidInfuserMk1": {
+    "energyCost": 4.0,
+    "processSpeed": 1.5,
+    "maxEnergyStored": 1000.0,
+    "maxInput": 64.0
+  },
+  "fluidInfuserMk2": {
+    "energyCost": 8.0,
+    "processSpeed": 2.5,
+    "maxEnergyStored": 5000.0,
+    "maxInput": 128.0
+  },
+  "fluidInfuserMk3": {
+    "energyCost": 16.0,
+    "processSpeed": 3.5,
+    "maxEnergyStored": 10000.0,
+    "maxInput": 512.0
+  },
+  "fluidInfuserMk4": {
+    "energyCost": 64.0,
+    "processSpeed": 4.5,
+    "maxEnergyStored": 100000.0,
+    "maxInput": 4096.0
+  },
+  "modularWorkbench": {
+    "energyCost": 16.0,
+    "processSpeed": 1.0,
+    "maxEnergyStored": 500000.0,
     "maxInput": 4096.0
   }
 }

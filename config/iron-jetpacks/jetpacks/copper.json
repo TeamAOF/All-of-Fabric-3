@@ -5,7 +5,7 @@
   "color": "ce7201",
   "armorPoints": 2,
   "enchantability": 12,
-  "craftingMaterial": "tag:c:copper_ingots",
+  "craftingMaterial": "techreborn:copper_ingot",
   "rarity": 0,
   "capacity": 250000.0,
   "usage": 85.0,

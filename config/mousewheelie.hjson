@@ -10,11 +10,15 @@
 		// Enables right-clicking in recipe books/villager trading to swiftly craft/trade.
 		// default: true
 		enable-quick-craft: true
+		// This option will treat the hotbar as a separate scope.
+		// This means that pushing the inventory or sorting the main inventory will not affect the hotbar and vice-versa.
+		// default: true
+		hotbar-scope: true
 	}
 	scrolling: {
 		// Enables scrolling of stacks
 		// default: true
-		enable: true
+		enable: false
 		// Set the scroll factor for item scrolling.
 		// To invert the scrolling use negative numbers
 		// default: 1.0
@@ -33,14 +37,14 @@
 	// Change sort modes. Existing sort modes are ALPHABET, RAW_ID and QUANTITY
 	sort: {
 		// Sets the sort mode for normal sorting.
-		// default: RAW_ID
-		primary-sort: NONE
+		// default: raw_id
+		primary-sort: raw_id
 		// Sets the sort mode for sorting whilst pressing shift.
-		// default: QUANTITY
-		shift-sort: QUANTITY
+		// default: quantity
+		shift-sort: quantity
 		// Sets the sort mode for sorting whilst pressing control.
-		// default: ALPHABET
-		control-sort: ALPHABET
+		// default: alphabet
+		control-sort: alphabet
 	}
 	// Configure refill related stuff here.
 	refill: {
@@ -80,5 +84,8 @@
 			// default: true
 			equal-stacks: false
 		}
+		// Refills stacks in the off hand
+		// default: true
+		off-hand: true
 	}
 }

@@ -1,0 +1,10 @@
+{
+	// Gives more space for REI item display.
+	"shiftScreensLeftIfReiPresent": true,
+	// Use Minecraft font in storage screens.
+	"useVanillaFonts": false,
+	// Item transfer rate for category 1 universal transport bus. 1 to 1024
+	"utb1ItemsPerTick": 4,
+	// Tick frequency for category 1 importer. 1 to 20. Higher values can reduce server impact but may need higher bus transfer rates.
+	"utb1ImporterCooldownTicks": 5
+}

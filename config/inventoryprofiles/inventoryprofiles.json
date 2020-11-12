@@ -10,6 +10,7 @@
   },
   "GuiSettings": {
     "enable_inventory_buttons": false,
-    "continuous_crafting_saved_value": false
+    "continuous_crafting_saved_value": false,
+    "use_old_insert_method": true
   }
 }

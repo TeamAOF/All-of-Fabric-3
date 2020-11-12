@@ -4,11 +4,15 @@
     "comparator": true,
     "hide_infestations": true,
     "display_furnace_contents": true,
+    "player_head_name": false,
     "jukebox": true,
     "lever": true,
     "spawner_type": true,
     "redstone": true,
     "repeater": true
+  },
+  "horseinfo": {
+    "enabled": false
   },
   "waila": {
     "show_registry": false,

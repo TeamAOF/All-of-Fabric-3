@@ -5,7 +5,7 @@
   "color": "a79135",
   "armorPoints": 2,
   "enchantability": 18,
-  "craftingMaterial": "tag:c:electrum_ingots",
+  "craftingMaterial": "techreborn:electrum_ingot",
   "rarity": 0,
   "capacity": 1.0E7,
   "usage": 310.0,

@@ -12,7 +12,23 @@
     "minecraft:oxeye_daisy",
     "minecraft:cornflower",
     "minecraft:lily_of_the_valley",
-    "minecraft:wither_rose"
+    "minecraft:wither_rose",
+    "flonters:red_flower",
+    "flonters:green_flower",
+    "flonters:purple_flower",
+    "flonters:cyan_flower",
+    "flonters:light_gray_flower",
+    "flonters:gray_flower",
+    "flonters:pink_flower",
+    "flonters:lime_flower",
+    "flonters:yellow_flower",
+    "flonters:light_blue_flower",
+    "flonters:magenta_flower",
+    "flonters:orange_flower",
+    "flonters:blue_flower",
+    "flonters:brown_flower",
+    "flonters:black_flower",
+    "flonters:white_flower"    
   ],
-  "dispenser": true
+  "dispenser": false
 }

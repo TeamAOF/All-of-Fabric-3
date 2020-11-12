@@ -5,74 +5,74 @@
 		"abandonedMineshaft": { 
 			"generate": true,
 			"broken": true,
-			"chance": 0.10000000149011612
+			"chance": 0.05999999865889549
 		},
 		"buriedTreasure": { 
 			"generate": true,
 			"broken": true,
-			"chance": 0.10000000149011612
+			"chance": 0.05000000074505806
 		},
 		"simpleDungeon": { 
 			"generate": true,
 			"broken": true,
-			"chance": 0.10000000149011612
+			"chance": 0.05999999865889549
 		},
 		"woodlandMansion": { 
 			"generate": true,
 			"broken": true,
-			"chance": 0.10000000149011612
+			"chance": 0.05999999865889549
 		},
 		"endCityTreasure": { 
 			"generate": true,
 			"broken": false,
-			"chance": 0.10000000149011612
+			"chance": 0.05999999865889549
 		},
 		"blackFeather": { 
 			"drop": true,
 			"requirePlayer": true,
-			"chance": 0.05000000074505806,
+			"chance": 0.020000001415610313,
 			"lootingMultiplier": 0.019999999552965164
 		},
 		"friedChicken": { 
 			"drop": true,
 			"requirePlayer": true,
-			"chance": 0.05000000074505806,
+			"chance": 0.020000001415610313,
 			"lootingMultiplier": 0.019999999552965164
 		},
 		"demonicFlesh": { 
 			"drop": true,
 			"requirePlayer": true,
-			"chance": 0.05000000074505806,
+			"chance": 0.020000001415610313,
 			"lootingMultiplier": 0.019999999552965164
 		},
 		"endermanIrrealityCrystal": { 
 			"drop": true,
 			"requirePlayer": true,
-			"chance": 0.10000000149011612,
+			"chance": 0.030000001192092896,
 			"lootingMultiplier": 0.03999999910593033
 		},
 		"endermiteIrrealityCrystal": { 
 			"drop": true,
 			"requirePlayer": true,
-			"chance": 0.4000000059604645,
+			"chance": 0.09000000357627869,
 			"lootingMultiplier": 0.1599999964237213
 		},
 		"batWing": { 
 			"drop": true,
 			"requirePlayer": true,
-			"chance": 0.05000000074505806,
+			"chance": 0.010000001639127731,
 			"lootingMultiplier": 0.019999999552965164
 		},
 		"vexEssence": { 
 			"drop": true,
 			"requirePlayer": true,
-			"chance": 0.10000000149011612,
+			"chance": 0.030000001192092896,
 			"lootingMultiplier": 0.03999999910593033
 		},
 		"holidayDrops": { 
 			"drop": true,
 			"requirePlayer": true,
-			"chance": 0.009999999776482582,
+			"chance": 0.00699999975040555,
 			"lootingMultiplier": 0.004999999888241291
 		}
 	},

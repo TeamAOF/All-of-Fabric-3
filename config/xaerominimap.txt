@@ -22,7 +22,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:false
-zoom:0
+zoom:2
 mapSize:-1
 entityAmount:1
 chunkGrid:-1
@@ -65,10 +65,9 @@ hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
 playerNames:true
-showLightLevel:false
+showLightLevel:0
 renderLayerIndex:1
 crossDimensionalTp:true
-mpCrossDimensionalTp:false
 showTime:0
 biomeColorsVanillaMode:false
 lookingAtAngle:20
@@ -84,9 +83,11 @@ caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
+ignoreHeightmaps:false
+waypointsBottom:false
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
 interface:gui.xaero_minimap:73:-5:false:false:true:false
-#WAYPOINTS HAVE BEEN MOVED TO xaerowaypoints.txt!
+#WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints

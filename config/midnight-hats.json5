@@ -1,0 +1,4 @@
+{ 
+	// Enable Event Hats (Default: true)
+	"event_hats": true
+}

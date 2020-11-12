@@ -14,7 +14,7 @@
   "overlay": {
     "overlayPosX": 0.5,
     "overlayPosY": 0.99,
-    "overlayScale": 1.0,
+    "overlaySize": "NORMAL",
     "color": {
       "alpha": 80,
       "themes": [

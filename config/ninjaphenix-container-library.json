@@ -1,19 +1,10 @@
 {
 	/* 
-	   Enables auto focus of the search bar as soon as screen is opened.
-	   No longer used.
+	   Prefered container type, set to expandedstorage:auto to reuse selection screen.
 	*/
-	"auto_focus_searchbar": false,
-	/* 
-	   Prefered container type, set to ninjaphenix-container-lib:auto to reuse selection screen.
-	*/
-	"preferred_container_type": "ninjaphenix-container-lib:single",
+	"preferred_container_type": "expandedstorage:single",
 	/* 
 	   Only allows scrolling in scrollable screen whilst hovering over the scrollbar region.
 	*/
-	"restrictive_scrolling": false,
-	/* 
-	   If true centers the settings cog to the scrollbar in scrollable screens.
-	*/
-	"settings_button_center_on_scrollbar": false
+	"restrictive_scrolling": false
 }

@@ -1,0 +1,20 @@
+{
+	"values": [
+		"campanion:mre",
+		"sandwichable:lettuce_head",
+		"sandwichable:lettuce_leaf",
+		"sandwichable:tomato",
+		"sandwichable:tomato_slice",
+		"sandwichable:cooked_tomato_slice",
+		"sandwichable:cucumber",
+		"sandwichable:pickled_cucumber",
+		"sandwichable:pickle_chips",
+		"sandwichable:onion",
+		"sandwichable:chopped_onion",
+		"sandwichable:cooked_chopped_onion",
+		"sandwichable:chopped_carrot",
+		"sandwichable:cooked_chopped_carrot",
+		"sandwichable:chopped_beetroot",
+		"sandwichable:cooked_chopped_beetroot"
+	]
+}

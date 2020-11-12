@@ -29,7 +29,7 @@ mainMenu {
             }
         }
 
-        text = literal("All of Fabric 3 - 2.0.0")
+        text = literal("All of Fabric 3 - 2.4.0")
     }
 
     button {
@@ -40,7 +40,7 @@ mainMenu {
         width = 100
         height = 20
 
-        text = modMenuText()
+        text = literal("Mods")
         onClicked = modMenu()
     }
     button {

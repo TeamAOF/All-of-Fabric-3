@@ -137,6 +137,30 @@
 	"advancedElectrolyzerFluid": 16,
 	// Fluid for the Elite Electrolyzer.
 	"eliteElectrolyzerFluid": 64,
+	// Speed for the Primitive Refinery.
+	"primitiveRefinerySpeed": 0.5,
+	// Speed for the Basic Refinery.
+	"basicRefinerySpeed": 1.0,
+	// Speed for the Advanced Refinery.
+	"advancedRefinerySpeed": 2.0,
+	// Speed for the Elite Refinery.
+	"eliteRefinerySpeed": 4.0,
+	// Energy for the Primitive Refinery.
+	"primitiveRefineryEnergy": 2048.0,
+	// Energy for the Basic Refinery.
+	"basicRefineryEnergy": 16384.0,
+	// Energy for the Advanced Refinery.
+	"advancedRefineryEnergy": 32767.0,
+	// Energy for the Elite Refinery.
+	"eliteRefineryEnergy": 65535.0,
+	// Fluid for the Primitive Refinery.
+	"primitiveRefineryFluid": 4,
+	// Fluid for the Basic Refinery.
+	"basicRefineryFluid": 8,
+	// Fluid for the Advanced Refinery.
+	"advancedRefineryFluid": 16,
+	// Fluid for the Elite Refinery.
+	"eliteRefineryFluid": 64,
 	// Speed for the Primitive Electric Smelter.
 	"primitiveElectricSmelterSpeed": 0.5,
 	// Speed for the Basic Electric Smelter.
@@ -177,12 +201,36 @@
 	"fluidInserterEnergy": 16384.0,
 	// Energy for the Fluid Extractor.
 	"fluidExtractorEnergy": 16384.0,
+	// Speed for the Vent.
+	"ventSpeed": 1.0,
 	// Energy for the Vent.
 	"ventEnergy": 16384.0,
 	// Fluid for the Vent.
 	"ventFluid": 16,
-	// Fluid for the Tank.
-	"tankFluid": 16,
+	// Fluid for the Primitive Tank.
+	"primitiveTankFluid": 16,
+	// Speed for the Primitive Tank.
+	"primitiveTankSpeed": 0.5,
+	// Fluid for the Basic Tank.
+	"basicTankFluid": 32,
+	// Speed for the Basic Tank.
+	"basicTankSpeed": 1.0,
+	// Fluid for the Advanced Tank.
+	"advancedTankFluid": 128,
+	// Speed for the Advanced Tank.
+	"advancedTankSpeed": 2.0,
+	// Fluid for the Elite Tank.
+	"eliteTankFluid": 256,
+	// Speed for the Elite Tank.
+	"eliteTankSpeed": 4.0,
+	// Speed for the Primitive Capacitor.
+	"primitiveCapacitorSpeed": 0.5,
+	// Speed for the Basic Capacitor.
+	"basicCapacitorSpeed": 1.0,
+	// Speed for the Advanced Capacitor.
+	"advancedCapacitorSpeed": 2.0,
+	// Speed for the Elite Capacitor.
+	"eliteCapacitorSpeed": 4.0,
 	// Energy for the Primitive Capacitor.
 	"primitiveCapacitorEnergy": 16384.0,
 	// Energy for the Basic Capacitor.
@@ -202,13 +250,13 @@
 	// Energy for the Vent actions.
 	"ventEnergyConsumed": 1024.0,
 	// Delay for the Block Placer actions (smaller is faster).
-	"blockPlacerTimeConsumed": 40,
+	"blockPlacerSpeed": 40,
 	// Delay for the Block Breaker actions (smaller is faster).
-	"blockBreakerTimeConsumed": 40,
+	"blockBreakerSpeed": 40,
 	// Delay for the Fluid Inserter actions (smaller is faster).
-	"fluidInserterTimeConsumed": 40,
+	"fluidInserterSpeed": 40,
 	// Delay for the Fluid Extractor actions (smaller is faster).
-	"fluidExtractorTimeConsumed": 40,
+	"fluidExtractorSpeed": 40,
 	// Energy for the Gravity Gauntlet.
 	"gravityGauntletEnergy": 16384.0,
 	// Energy for the Gravity Gauntlet actions.
@@ -220,5 +268,13 @@
 	// Delay for the Fire Extinguisher sneaking actions.
 	"fireExtinguisherSneakingDelay": 2,
 	// Delay for the Fire Extinguisher standing actions.
-	"fireExtinguisherStandingDelay": 10
+	"fireExtinguisherStandingDelay": 10,
+	// Tick rate for gas movement in the atmosphere. This is inversely correlated to gas movement speed, higher means slower. Lower numbers are also less performant, so choose wisely.
+	"gasTickRate": 10,
+	// Numerator for the gas decay rate fraction. It will decay gas by this fraction every gas tick.
+	"gasDecayNumerator": 5,
+	// Denominator for the gas decay rate fraction. It will decay gas by this fraction every gas tick.
+	"gasDecayDenominator": 1024,
+	// Noise threshold for Asteroid generation.
+	"asteroidNoiseThreshold": 0.5450000166893005
 }

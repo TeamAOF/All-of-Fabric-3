@@ -1,0 +1,37 @@
+{
+  "enabled": {
+    "shulker_boxes": true,
+    "elytra": true,
+    "shields": true,
+    "bows_and_crossbows": true,
+    "fishing_rod": true,
+    "horse_armor": true,
+    "fake_netherite_blocks": true,
+    "anvils": true,
+    "config_debug_print": false,
+    "trident": true,
+    "beacon": true
+  },
+  "durabilities": {
+    "elytra": 864,
+    "fishing_rod": 128,
+    "shield": 672,
+    "bow": 768,
+    "crossbow": 652,
+    "trident": 500
+  },
+  "damage": {
+    "bow_damage_addition": 0.0,
+    "bow_damage_multiplier": 1.0,
+    "crossbow_damage_addition": 0.0,
+    "crossbow_damage_multiplier": 1.0,
+    "trident_damage_addition": 0.0,
+    "trident_damage_multiplier": 1.0
+  },
+  "anvil": {
+    "xp_reduction": 0.5
+  },
+  "graphics": {
+    "lava_vision_distance": 0.25
+  }
+}

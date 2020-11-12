@@ -1,0 +1,5 @@
+genChance = 0.08
+mimicChance = 0.3
+oreChance = 0.25
+minY = 0
+maxY = 45

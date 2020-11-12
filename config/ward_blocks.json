@@ -1,0 +1,33 @@
+{
+  "BLOCKS": {
+    "enableGrowthBlock": true,
+    "enableHealthBlock": true,
+    "enableDefenseBlock": true,
+    "enableExpBlock": true,
+    "enableAttackBlock": true,
+    "enableLootBlock": true
+  },
+  "GROWTH": {
+    "growthRange": 10
+  },
+  "HEALTH": {
+    "healthRadius": 12,
+    "healthLevel": 0,
+    "healthYellowHearts": 20.0
+  },
+  "DEFENSE": {
+    "defenseRadius": 12,
+    "defenseLevel": 0
+  },
+  "EXP": {
+    "expRadius": 12,
+    "expLevel": 1
+  },
+  "ATTACK": {
+    "attackRadius": 16,
+    "damageAmount": 3
+  },
+  "LOOT": {
+    "lootRadius": 16
+  }
+}

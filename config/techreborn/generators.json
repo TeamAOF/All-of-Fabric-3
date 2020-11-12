@@ -108,17 +108,17 @@
     },
     "advancedDayRate": {
       "comment": "Generation rate during day for Advanced Solar Panel (Value in FE)",
-      "value": 16
+      "value": 4
     }
   },
   "solarPanelQuantum": {
     "quantumNightRate": {
       "comment": "Generation rate during night for Quantum Solar Panel (Value in FE)",
-      "value": 128
+      "value": 32
     },
     "quantumDayRate": {
       "comment": "Generation rate during day for Quantum Solar Panel (Value in FE)",
-      "value": 2048
+      "value": 128
     }
   },
   "solarPanelIndustrial": {
@@ -128,7 +128,7 @@
     },
     "industrialDayRate": {
       "comment": "Generation rate during day for Industrial Solar Panel (Value in FE)",
-      "value": 64
+      "value": 8
     }
   },
   "generator": {
@@ -176,17 +176,17 @@
   "solarPanelGeneral": {
     "internalCapacity": {
       "comment": "Multiplier for internal capacity of solar panels (multiplier * day generation rate)",
-      "value": 2000
+      "value": 1000
     }
   },
   "solarPanelUltimate": {
     "ultimateDayRate": {
       "comment": "Generation rate during day for Ultimate Solar Panel (Value in FE)",
-      "value": 256
+      "value": 16
     },
     "ultimateNightRate": {
       "comment": "Generation rate during night for Ultimate Solar Panel (Value in FE)",
-      "value": 16
+      "value": 4
     }
   },
   "diesel_generator": {

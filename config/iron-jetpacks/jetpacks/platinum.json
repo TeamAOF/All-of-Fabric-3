@@ -5,7 +5,7 @@
   "color": "6feaef",
   "armorPoints": 4,
   "enchantability": 12,
-  "craftingMaterial": "tag:c:platinum_ingots",
+  "craftingMaterial": "techreborn:platinum_ingot",
   "rarity": 0,
   "capacity": 3.6E7,
   "usage": 720.0,

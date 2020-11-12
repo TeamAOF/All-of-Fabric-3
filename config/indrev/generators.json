@@ -6,13 +6,13 @@
     "maxOutput": 64.0
   },
   "solarGeneratorMk1": {
-    "ratio": 4.0,
+    "ratio": 8.0,
     "temperatureBoost": 1.5,
     "maxEnergyStored": 500.0,
     "maxOutput": 64.0
   },
   "solarGeneratorMk3": {
-    "ratio": 8.0,
+    "ratio": 12.0,
     "temperatureBoost": 1.5,
     "maxEnergyStored": 1500.0,
     "maxOutput": 512.0

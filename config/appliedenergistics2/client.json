@@ -23,6 +23,6 @@
     "__comment": "Should tooltips be searched. Performance impact",
     "searchTooltips": "yes",
     "terminalStyle": "tall",
-    "terminalSearchMode": "autosearch"
+    "terminalSearchMode": "jei_manual_search"
   }
 }

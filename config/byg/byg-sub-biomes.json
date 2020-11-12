@@ -1,0 +1,434 @@
+{
+  "sub-biomes": {
+    "byg:alpine_foothills": {
+      "river": "byg:alpine_foothills",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:araucaria_forest": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:aspen_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:aspen_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:bamboo_forest": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:basalt_barrera": {
+      "river": "minecraft:river",
+      "beach": "",
+      "edge": ""
+    },
+    "byg:black_forest_clearing": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:black_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:blue_giant_taiga": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:blue_taiga_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:bluff_peaks": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:bog": {
+      "river": "byg:bog",
+      "beach": "byg:bog",
+      "edge": ""
+    },
+    "byg:boreal_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:boreal_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:canyon_edge": {
+      "river": "byg:canyon_edge",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:cherry_blossom_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:cika_mountains": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:coniferous_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:coniferous_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:coral_mangroves": {
+      "river": "byg:coral_mangroves",
+      "beach": "byg:coral_mangroves",
+      "edge": ""
+    },
+    "byg:deciduous_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:deciduous_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:dummy": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:ebony_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:enchanted_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:evergreen_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:evergreen_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:flowering_ancient_forest": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:flowering_enchanted_grove": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:flowering_grove": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:flowering_meadow": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:forest_fault": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:fresh_water_lake": {
+      "river": "byg:fresh_water_lake",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:frozen_lake": {
+      "river": "byg:frozen_lake",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:fungal_patch": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:glowing_ancient_forest": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:great_lake_isles": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:guiana_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:jacaranda_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:jacaranda_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:lush_red_desert": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:maple_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:marshlands": {
+      "river": "byg:marshlands",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:northern_forest": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:oasis": {
+      "river": "byg:oasis",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:pointed_stone_forest": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:polluted_lake": {
+      "river": "byg:polluted_lake",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:prairie_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:pumpkin_forest": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:rainbow_beach": {
+      "river": "minecraft:river",
+      "beach": "",
+      "edge": ""
+    },
+    "byg:red_desert_dunes": {
+      "river": "byg:red_desert_dunes",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_oak_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_rock_highlands": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_rock_lowlands": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_spruce_taiga": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:redwood_clearing": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:redwood_mountains": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:rocky_beach": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_birch_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_deciduous_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_deciduous_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_giant_taiga": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_taiga_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:sierra_range": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_black_beach": {
+      "river": "minecraft:frozen_river",
+      "beach": "",
+      "edge": ""
+    },
+    "byg:snowy_blue_giant_taiga": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_blue_taiga_hills": {
+      "river": "minecraft:frozen_river",
+      "beach": "minecraft:snowy_beach",
+      "edge": ""
+    },
+    "byg:snowy_coniferous_clearing": {
+      "river": "minecraft:frozen_river",
+      "beach": "byg:snowy_black_beach",
+      "edge": ""
+    },
+    "byg:snowy_coniferous_forest_hills": {
+      "river": "minecraft:frozen_river",
+      "beach": "byg:snowy_black_beach",
+      "edge": ""
+    },
+    "byg:snowy_deciduous_clearing": {
+      "river": "minecraft:frozen_river",
+      "beach": "minecraft:snowy_beach",
+      "edge": ""
+    },
+    "byg:snowy_deciduous_forest_hills": {
+      "river": "minecraft:frozen_river",
+      "beach": "minecraft:snowy_beach",
+      "edge": ""
+    },
+    "byg:snowy_evergreen_clearing": {
+      "river": "minecraft:frozen_river",
+      "beach": "byg:snowy_black_beach",
+      "edge": ""
+    },
+    "byg:snowy_evergreen_hills": {
+      "river": "minecraft:frozen_river",
+      "beach": "byg:snowy_black_beach",
+      "edge": ""
+    },
+    "byg:snowy_rocky_black_beach": {
+      "river": "minecraft:frozen_river",
+      "beach": "",
+      "edge": ""
+    },
+    "byg:tropical_fungal_rainforest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:tropical_islands": {
+      "river": "byg:tropical_islands",
+      "beach": "byg:rainbow_beach",
+      "edge": ""
+    },
+    "byg:tropical_rainforest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:twilight_valley_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:weeping_witch_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:white_beach": {
+      "river": "minecraft:river",
+      "beach": "",
+      "edge": ""
+    },
+    "byg:wooded_grassland_plateau": {
+      "river": "minecraft:river",
+      "beach": "byg:rocky_beach",
+      "edge": ""
+    },
+    "byg:wooded_meadow": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:wooded_red_rock_mountains": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:zelkova_clearing": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:zelkova_forest_hills": {
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    }
+  }
+}

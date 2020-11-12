@@ -31,6 +31,12 @@
       "isFireImmune": false
     },
     {
+      "name": "blazing",
+      "rowWidth": 9,
+      "numberOfRows": 6,
+      "isFireImmune": true
+    },
+    {
       "name": "withered",
       "rowWidth": 11,
       "numberOfRows": 6,

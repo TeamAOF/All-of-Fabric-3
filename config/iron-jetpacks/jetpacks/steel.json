@@ -5,7 +5,7 @@
   "color": "565656",
   "armorPoints": 3,
   "enchantability": 15,
-  "craftingMaterial": "tag:c:steel_ingots",
+  "craftingMaterial": "techreborn:steel_ingot",
   "rarity": 0,
   "capacity": 1.2E7,
   "usage": 350.0,

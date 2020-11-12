@@ -4,7 +4,7 @@
 		"ScannnerY": 9,
 		"ScannnerZ": 11,
         "ScannerInterval": 20,
-		"GlobalVolume": 0.4,
+		"GlobalVolume": 0.2,
         "StopSounds": false,
         "DebugLogging": false
 	}

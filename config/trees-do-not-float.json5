@@ -1,0 +1,40 @@
+{
+	// When do trees break? (NO_SUPPORT, LOG_BREAK, or USE_TOOL)
+	"fallCondition": "NO_SUPPORT",
+	// Log blocks move to the ground instead of dropping as items. Can be laggy.
+	"keepLogsIntact": false,
+	// Render falling logs? (Affects client side only.) Can be laggy.
+	"renderFallingLogs": true,
+	// Falling logs break leaves and other plants on the way down.
+	"fallingLogsBreakPlants": true,
+	// Falling logs break glass and other fragile blocks.
+	"fallingLogsBreakFragile": false,
+	// Protect logs placed by players.
+	"protectPlayerLogs": true,
+	// Place dropped items directly into player inventory. (Good for skyblock)
+	"directDeposit": false,
+	// Apply fortune from axe used to fell a tree. (If an axe was used.)
+	"applyFortune": true,
+	// Remove durability from an axe used to fell a tree. (If an axe was used.)
+	"consumeDurability": true,
+	// Tools take durability loss from leaves as well as logs.
+	"leafDurability": false,
+	// Don't break tools when using durability.
+	"protectTools": true,
+	// Players gain hunger from felling trees, as if they had broken each log.
+	"applyHunger": true,
+	// Players gain hunger from leaves in addition to logs.
+	"leafHunger": false,
+	// Consolidate item drops into stacks to prevent lag.
+	"stackDrops": true,
+	// Play particles and sounds? Number is max effects per second. 0-20
+	"effectsPerSecond": 4,
+	// Max log/leaf blocks to break per tick. 1 - 128
+	"maxBreaksPerTick": 32,
+	// Max percentage of each server tick that can be used by TDNF. 1 - 5
+	"tickBudget": 1,
+	// Max number of active falling block entities. 1 - 64
+	"maxFallingBlocks": 16,
+	// Tree cutting jobs will be abandoned if they take longer than tnis number of ticks. 20-2400
+	"jobTimeoutTicks": 200
+}

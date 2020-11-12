@@ -1,8 +1,6 @@
 {
 	// If true, you can sit on tables.
 	"sittingOnTables": false,
-	// If true, sleeping on sofas can skip the night.
-	"skipNightOnSofas": true,
 	// Protects trading stations from other players.
 	"protectTradingStations": true,
 	// Configuration for Adorn's Extra Pieces support.
@@ -21,9 +19,15 @@
 		// If true, floating tooltips are shown above trading stations.
 		"showTradingStationTooltips": true
 	},
+	// Default values for game rules in new worlds
+	"gameRuleDefaults": {
+		// If true, sleeping on sofas can skip the night.
+		"skipNightOnSofas": true
+	},
 	// Mod compatibility toggles (enabled: true, disabled: false)
 	"compat": {
 		"traverse": true,
+		"byg": true,
 		"terrestria": true,
 		"woods_and_mires": true,
 		"towelette": true

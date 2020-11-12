@@ -1,0 +1,7 @@
+{
+  "type": "WHITELIST",
+  "list": [
+  	"minecraft:*",
+  	"expandedstorage:*" 
+  ]
+}

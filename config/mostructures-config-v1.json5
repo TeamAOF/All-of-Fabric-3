@@ -1,0 +1,88 @@
+{ 
+	// Mo' Structures feature toggles.
+	"features": { 
+		// Airplanes & Air Balloons
+		"air_features": false,
+		// Fallen Trees
+		"fallen_trees": true,
+		// Desert Features
+		"desert_features": true,
+		// Ruins
+		"ruins": true,
+		// Lamppost
+		"lamppost": true,
+		// Boulder
+		"boulder": true,
+		// Volcanic Vent
+		"volcanic_vent": true,
+		// Beach Features
+		"beach_features": true,
+		// Boats
+		"boats": true
+	},
+	// Chances are once per the number of chunks. A Chance 500 makes a feature spawn every 500 chunks. Affected by biomes it spawns in and the chunk, so not all are proportional.
+	"feature_chances": { 
+		// Airplanes & Air Balloons
+		"air_feature_chance": 4600,
+		// Fallen Trees
+		"fallen_trees_chance": 17,
+		// Desert Features
+		"desert_features_chance": 555,
+		// Ruins
+		"ruins_chance": 3500,
+		// Lamppost
+		"lamppost_chance": 85,
+		// Boulder
+		"boulder_chance": 4000,
+		// Volcanic Vent
+		"volcanic_vent_chance": 85,
+		// Beach Features
+		"beach_features_chance": 75,
+		// Boats
+		"boats_chance": 4000
+	},
+	// Structure toggles. These do not have chances, but in the future they may. 
+	"structures": { 
+		// Barnhouse
+		"barn_house": true,
+		// Jungle Pyramid
+		"jungle_pyramid": true,
+		// Big Pyramid
+		"big_pyramid": true,
+		// The Castle In The Sky
+		"the_castle_in_the_sky": false,
+		// Villager Tower
+		"villager_tower": true,
+		// Abandoned Churches
+		"abandoned_churches": true,
+		// Villager Market
+		"villager_market": true
+	},
+	// Structure chances. Seperation is the least amount of chunks that a structure will spawn from itself. Spacing is the maximum amount of chunks, and both are used to randomly spawn structures and can be tweaked.
+	"structureChances": { 
+		// Barn House
+		"barn_house_seperation": 16,
+		"barn_house_spacing": 40,
+		// Big Pyramid
+		"big_pyramid_seperation": 8,
+		"big_pyramid_spacing": 32,
+		// Jungle Pyramid
+		"jungle_pyramid_seperation": 8,
+		"jungle_pyramid_spacing": 32,
+		// The Castle In The Sky
+		"the_castle_in_the_sky_seperation": 8,
+		"the_castle_in_the_sky_spacing": 32,
+		// Villager Tower
+		"villager_tower_seperation": 16,
+		"villager_tower_spacing": 40,
+		// Abandoned Church
+		"abandoned_church_seperation": 16,
+		"abandoned_church_spacing": 40,
+		// Villager Market
+		"villager_market_seperation": 27,
+		"villager_market_spacing": 50
+	},
+	// You can use it to blacklist biomes yourself, overworld and modded dimensions in case I haven't covered them.
+	"biome_id_blacklist": [ 
+]
+}

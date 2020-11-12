@@ -1,0 +1,10 @@
+{ 
+	"dimensionBlacklist": [ 
+],
+	"makeshiftRadius": 10,
+	"reinforcedRadius": 25,
+	"glisteningRadius": 50,
+	"crystalRadius": 75,
+	"emeradicRadius": 125,
+	"witheredRadius": 200
+}

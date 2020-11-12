@@ -2,11 +2,13 @@
 	// Mod enabled or disabled
 	"enabled": true,
 	// Activation key
-	"keybinding": "key.mouse.4",
+	"keybinding": "key.keyboard.grave.accent",
+	// Inverts the keybinding activation
+	"invertActivation": false,
 	// Should mine diagonally
 	"mineDiag": true,
 	// Maximum number of blocks to mine
-	"maxMinedBlocks": 40,
+	"maxMinedBlocks": 30,
 	// Maximum distance from start to mine
 	"maxMineDistance": 10,
 	// Automatically pick up drops
@@ -22,7 +24,7 @@
 	// Should player get exhaustion
 	"playerExhaustion": true,
 	// Multiply exhaustion when excavating
-	"exhaustionMultiplier": 2.0,
+	"exhaustionMultiplier": 64.0,
 	// Other items to be considered tools ie: "minecraft:stick"
 	"tools": []
 }

@@ -40,7 +40,13 @@
 		*/
 		"defaultMaxRowSize": 9,
 		// If on, the client will try to send packets to servers to allow extra preview information such as ender chest previews.
-		"serverIntegration": true
+		"serverIntegration": true,
+		/* The theme to use.
+		   AUTO: uses the dark mode setting from LibGui if present, defaults to light theme.
+		   LIGHT: the regular vanilla-style theme
+		   DARK: preview windows will be gray instead of white.
+		*/
+		"theme": "AUTO"
 	},
 	"controls": { 
 		// Press this key when hovering a container stack to open the preview window.

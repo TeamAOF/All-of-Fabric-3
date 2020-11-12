@@ -1,0 +1,6 @@
+{
+     "textures": {
+         "minecraft:textures/block/gray_concrete.png": 1
+     },
+         "randomize_on_new_screen": false
+}

@@ -4,9 +4,10 @@
     "minecraft",
     "fabric"
   ],
-  "gameVersion": "1.16.2",
+  "gameVersion": "1.16.3",
   "gameSide": "current",
   "disableUI": false,
   "loadJarsFromFolder": null,
-  "overrideMainClass": null
+  "overrideMainClass": null,
+  "pinFabricLoaderVersion": "0.10.6+build.214"
 }

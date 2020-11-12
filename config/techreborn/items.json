@@ -190,11 +190,5 @@
       "comment": "Energy storage behavior extra power",
       "value": 40000.0
     }
-  },
-  "general": {
-    "enableGemTools": {
-      "comment": "Enable Gem armor and tools",
-      "value": true
-    }
   }
 }

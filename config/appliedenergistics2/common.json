@@ -82,11 +82,11 @@
   "worldGen": {
     "spawnChargedChance": 0.08,
     "meteoriteMaximumSpawnHeight": 180,
-    "meteoriteDimensionWhitelist": [
-      "minecraft:overworld"
-    ],
+    "__comment": "Biome IDs in which quartz ores should NOT be generated (i.e. minecraft:plains).",
+    "meteoriteBiomeBlacklist": [],
     "quartzOresPerCluster": 4,
-    "quartzOresClusterAmount": 20
+    "quartzOresClusterAmount": 20,
+    "quartzOreBiomeBlacklist": []
   },
   "wireless": {
     "wirelessBaseCost": 8.0,
@@ -146,5 +146,10 @@
     "OpenComputersTunnelMax": 5,
     "PressureTunnelMin": 1,
     "PressureTunnelMax": 120
+  },
+  "inWorldPurification": {
+    "__comment": "The speed multiplier to use when the crystals are submerged in the improved fluid.",
+    "improvedFluidTag": "",
+    "improvedFluidMultiplier": 2.0
   }
 }

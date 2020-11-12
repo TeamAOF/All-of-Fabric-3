@@ -1,0 +1,18 @@
+{
+	"values": [
+		"tacocraft:fish_taco",
+		"tacocraft:cheesy_taco",
+		"sandwichable:cheese_wheel",
+		"sandwichable:cheese_slice",
+		"sandwichable:creamy_cheese_wheel",
+		"sandwichable:creamy_cheese_slice",
+		"sandwichable:intoxicating_cheese_wheel",
+		"sandwichable:intoxicating_cheese_slice",
+		"sandwichable:sour_cheese_wheel",
+		"sandwichable:sour_cheese_slice",
+		"sandwichable:candescent_cheese_wheel",
+		"sandwichable:candescent_cheese_slice",
+		"sandwichable:warped_bleu_cheese_wheel",
+		"sandwichable:warped_bleu_cheese_slice"
+	]
+}
