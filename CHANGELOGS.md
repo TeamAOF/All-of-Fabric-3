@@ -1,3 +1,29 @@
+<h1>2.4.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed multiple recipe conflicts with food.
+- Fixed protein tag not loading with foods.
+- Fixed stripping BYG wood.
+- Fixed recipes not taking chests tag as input.
+
+**Added**
+- **Better End** (better-end-0.6.1-beta.jar)
+
+**Updated**
+- **Ag4tr** (ag4tr-0.1.5.1.jar -> ag4tr-0.1.5.2.jar)
+- **Blockus** (blockus-1.6.5.jar -> blockus-1.6.7+1.16.4.jar)
+- **Charm** (charm-fabric-1.16.4-2.1.0.jar -> charm-fabric-1.16.4-2.1.1.jar)
+- **Couplings** (Couplings-1.3.3.jar -> Couplings-1.3.5.jar)
+- **Croptopia** (Croptopia-1.0.4-1.16.3-FABRIC.jar -> Croptopia-1.0.5-1.16.X-FABRIC.jar)
+- **Mod Menu** (modmenu-1.14.7+build.11.jar -> modmenu-1.14.8+build.12.jar)
+- **Mouse Wheelie** (mousewheelie-1.5.9+mc1.16.4.jar -> mousewheelie-1.5.10+mc1.16.4.jar)
+- **Terrestria** (terrestria-2.1.4+build.26.jar -> terrestria-2.1.5+build.28.jar)
+- **TIS-3D** (TIS-3D-MC1.16.2-Fabric-1.6.0.18.jar -> TIS-3D-MC1.16.2-Fabric-1.6.0.20.jar)
+- **Traverse** (traverse-3.0.0+build.6.jar -> traverse-3.0.1+build.8.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.4.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
