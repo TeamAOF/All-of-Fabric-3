@@ -2,6 +2,8 @@
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
 
+<h2>HIGHLY RECOMMENDED to reset the End with this update as Better End was added.</h2>
+
 **Changed/Fixed**
 - Fixed multiple recipe conflicts with food.
 - Fixed protein tag not loading with foods.
