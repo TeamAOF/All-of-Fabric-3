@@ -1,3 +1,28 @@
+<h1>2.4.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Updated to 1.16.4
+- Fixed incorrect barrel inputs.
+- Fixed netherite drops crashing due to despawn.
+
+**Updated**
+- **Better End** (better-end-0.6.1-beta.jar -> better-end-0.6.2-beta.jar)
+- **BYG** (byg-1.1.2.jar -> byg-1.1.3.jar)
+- **Cave Biomes** (cavebiomes-0.5.1.jar -> cavebiomes-0.6.0.jar)
+- **Charm** (charm-fabric-1.16.4-2.1.1.jar -> charm-fabric-1.16.4-2.1.1-hotfix1.jar)
+- **CraftPresence** (CraftPresence-Fabric-1.16.3-Release-1.7.2.jar -> CraftPresence-Fabric-1.16.4-Release-1.7.5.jar)
+- **Crooked Crooks** (crookedcrooks-1.3.1+1.16.3.jar -> crookedcrooks-1.3.2+1.16.4.jar)
+- **ExpandedStorage** (expandedstorage-5.6.30+1.16.2.jar -> expandedstorage-5.6.31+1.16.4.jar)
+- **Fabric API** (fabric-api-0.25.4+1.16.jar -> fabric-api-0.25.7+1.16.jar)
+- **Flora Doubling** (flora-doubling-fabric-1.16.3-1.2.0.jar -> flora-doubling-1.3.0+1.16.4-fabric.jar)
+- **megane** (megane-2.1.0+1.16.jar -> megane-3.0.0+1.16.4.jar)
+- **Mod Menu** (modmenu-1.14.8+build.12.jar -> modmenu-1.14.9+build.13.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.3-1.6.9.jar -> repurposed_structures-1.16.4-1.7.0.jar)
+- **Respawnable Pets** (respawnablepets-1.16.3-1.jar -> respawnablepets-1.16.4-1.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.4.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
