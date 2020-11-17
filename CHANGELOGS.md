@@ -1,3 +1,26 @@
+<h1>2.4.3</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed outputs of manganese & silicon dusts.
+- Fixed items not stacking when output.
+- Fixed StackOverflowError with advancements causing server/client crash in rare occasions.
+- Fixed something important that I totally forgot about.
+
+**Updated**
+- **Ag4tr** (ag4tr-0.1.5.2.jar -> ag4tr-0.1.5.4.jar)
+- **Artifacts** (Artifacts-1.0.4+1.16.4-fabric.jar -> Artifacts-1.1.0+1.16.4-fabric.jar)
+- **Cherished Worlds** (cherishedworlds-fabric-1.2.0-1.16.3.jar -> cherishedworlds-fabric-1.3.0-1.16.4.jar)
+- **Fabric API** (fabric-api-0.25.7+1.16.jar -> fabric-api-0.26.0+1.16.jar)
+- **Industrial Revolution** (indrev-1.7.8-BETA.jar -> indrev-1.7.10-BETA.jar)
+- **megane** (megane-3.0.3+1.16.4.jar -> megane-3.0.4+1.16.4.jar)
+- **Mod Menu** (modmenu-1.14.9+build.13.jar -> modmenu-1.14.10+build.15.jar)
+- **Quick Shulker** (quickshulker-1.1.10-1.16.jar -> quickshulker-1.1.11-1.16.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.8.4.jar -> RoughlyEnoughItems-5.8.5.jar)
+- **Traverse** (traverse-3.0.1+build.8.jar -> traverse-3.0.1+build.10.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.4.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
