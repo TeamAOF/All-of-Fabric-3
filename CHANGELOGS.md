@@ -5,10 +5,6 @@
 **Changed/Fixed**
 - Fixed REI crash when going into settings menu.
 
-**Added**
-- **BitsAndChisels** (bitsandchisels-1.1.2.jar)
-- **Fast Leaves!** (fast-leaves-fabric-1.16.4-1.0.2.jar)
-
 **Removed**
 - **GentleFawn**
 - **This Rocks!**
