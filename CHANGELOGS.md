@@ -4,6 +4,7 @@
 
 **Changed/Fixed**
 - Fixed REI crash when going into settings menu.
+- Fixed enormous amounts of lag due to Deers.
 
 **Removed**
 - **GentleFawn**
