@@ -1,3 +1,27 @@
+<h1>2.4.4</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed REI crash when going into settings menu.
+
+**Added**
+- **BitsAndChisels** (bitsandchisels-1.1.2.jar)
+- **Fast Leaves!** (fast-leaves-fabric-1.16.4-1.0.2.jar)
+
+**Removed**
+- **GentleFawn**
+- **This Rocks!**
+
+**Updated**
+- **megane** (megane-3.0.4+1.16.4.jar -> megane-3.0.5+1.16.4.jar)
+- **Mod Menu** (modmenu-1.14.10+build.15.jar -> modmenu-1.14.9+build.13.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.8.5.jar -> RoughlyEnoughItems-5.8.7.jar)
+- **Traverse** (traverse-3.0.1+build.10.jar -> traverse-3.0.1+build.8.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.27.2.1_Fabric_1.16.4.jar -> Xaeros_Minimap_20.27.3_Fabric_1.16.4.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.11.0.1_Fabric_1.16.4.jar -> XaerosWorldMap_1.11.1_Fabric_1.16.4.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.4.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
