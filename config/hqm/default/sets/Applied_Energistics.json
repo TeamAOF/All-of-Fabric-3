@@ -1,0 +1,521 @@
+{
+  "name": "Applied Energistics",
+  "quests": [
+    {
+      "uuid": "37794e84-9b9f-4bea-8d6e-71059c88edeb",
+      "name": "1k ME Storage Cell",
+      "description": "A disk that can store up to 1000 items.",
+      "x": 34,
+      "y": 138,
+      "icon": {
+        "id": "appliedenergistics2:1k_storage_cell",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:1k_storage_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9e598995-074e-4799-a5cc-c3663a9cc8ba"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:basic_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c1c142f6-9c16-49e3-a684-5fefc5da4632",
+      "name": "16k ME Storage Cell",
+      "description": "A disk that can store up to 16000 items.",
+      "x": 101,
+      "y": 178,
+      "icon": {
+        "id": "appliedenergistics2:16k_storage_cell",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:16k_storage_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1d6dc402-485f-49a0-8636-e88bfa5d51f8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:greater_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "97abf090-fd93-4de7-94e3-a33d598bbe7e",
+      "name": "ME Controller",
+      "description": "The ME controller is the heart of your future storage system.",
+      "x": 76,
+      "y": 68,
+      "bigicon": true,
+      "icon": {
+        "id": "appliedenergistics2:controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:controller",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "22be766c-6b67-4163-b1e4-787025be6f2f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:fluix_glass_cable",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1d6dc402-485f-49a0-8636-e88bfa5d51f8",
+      "name": "4k ME Storage Cell",
+      "description": "A disk that can store up to 4000 items.",
+      "x": 56,
+      "y": 178,
+      "icon": {
+        "id": "appliedenergistics2:4k_storage_cell",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:4k_storage_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "37794e84-9b9f-4bea-8d6e-71059c88edeb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7390f703-3fe6-49f5-b691-51a533cea134",
+      "name": "64k ME Storage Cell",
+      "description": "A disk that can store up to 64000 items.",
+      "x": 123,
+      "y": 139,
+      "icon": {
+        "id": "appliedenergistics2:64k_storage_cell",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:64k_storage_cell",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c1c142f6-9c16-49e3-a684-5fefc5da4632"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:epic_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b5b5c7b-345c-4c41-bc14-bb445da07a7f",
+      "name": "A Better Crafting Table",
+      "description": "This terminal acts as a crafting table that can access all of your stored items.",
+      "x": 182,
+      "y": 100,
+      "icon": {
+        "id": "appliedenergistics2:crafting_terminal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:crafting_terminal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9e598995-074e-4799-a5cc-c3663a9cc8ba"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "22be766c-6b67-4163-b1e4-787025be6f2f",
+      "name": "Inscribing",
+      "description": "Inscribers are pretty useful for inscribing, right?",
+      "x": 79,
+      "y": 23,
+      "icon": {
+        "id": "appliedenergistics2:inscriber",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:inscriber",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0b99fc7a-7bf3-43da-ae54-542635d3d33c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:purified_certus_quartz_crystal",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 1
+        },
+        {
+          "id": "appliedenergistics2:silicon",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9e598995-074e-4799-a5cc-c3663a9cc8ba",
+      "name": "ME Drive",
+      "description": "The ME drive is the block where you will store all of your items.",
+      "x": 79,
+      "y": 122,
+      "icon": {
+        "id": "appliedenergistics2:drive",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:drive",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "97abf090-fd93-4de7-94e3-a33d598bbe7e"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:greater_bag",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:basic_bag",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0b99fc7a-7bf3-43da-ae54-542635d3d33c",
+      "name": "Inscriber Presses",
+      "description": "These presses are the base of everything in Applied Energistics. You can only find them in meteorites. Maybe a compass could help?",
+      "x": 31,
+      "y": 23,
+      "icon": {
+        "id": "appliedenergistics2:silicon_press",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:calculation_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:engineering_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:logic_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:silicon_press",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cdd82af8-83d6-4324-b8cf-44d3878b57f8",
+      "name": "Automatic Crafting",
+      "description": "These are the basic items to unlock automatic crafting. Craft recipe patterns from the Pattern Terminal and place them inside an interface next to molecular assemblers.",
+      "x": 231,
+      "y": 100,
+      "icon": {
+        "id": "appliedenergistics2:molecular_assembler",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:crafting_accelerator",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:1k_crafting_storage",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:pattern_terminal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:interface",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:molecular_assembler",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1b5b5c7b-345c-4c41-bc14-bb445da07a7f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "appliedenergistics2:blank_pattern",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "166bfa55-f68f-471a-8541-e8d4d307b8c4",
+      "name": "Longer Range",
+      "description": "With wireless boosters, you can increase your range which you can access your storage, however, it will consume more energy.",
+      "x": 231,
+      "y": 38,
+      "icon": {
+        "id": "appliedenergistics2:wireless_booster",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:wireless_booster",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4ff1aaa3-789a-4f1d-8382-07bc671f56aa"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:greater_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4ff1aaa3-789a-4f1d-8382-07bc671f56aa",
+      "name": "Wireless Storage",
+      "description": "After linking your ME Wireless Terminal to the ME Security Terminal, you can now access your storage while adventuring.",
+      "x": 182,
+      "y": 38,
+      "icon": {
+        "id": "appliedenergistics2:wireless_terminal",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:wireless_access_point",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:wireless_terminal",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:security_station",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "97abf090-fd93-4de7-94e3-a33d598bbe7e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:epic_bag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Applied Energistics is the perfect mod to manage your storage and can also craft items for you."
+}
