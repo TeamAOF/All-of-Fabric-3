@@ -13,6 +13,7 @@
 - This build should slightly increase performance both client & server side.
 - Added ability to carry Charm chest types.
 - Fixed crash with MI pipes interacting with ME interfaces.
+- Fixed crash with Canvas and slight gui modifications.
 - Fixed structures spawning way too far away (8k-11k blocks). They now generate within 3k blocks.
 - Fixed missing recipe for Pine Slab from W&M.
 - Fixed class_2985.method_12885 advancement crash.
