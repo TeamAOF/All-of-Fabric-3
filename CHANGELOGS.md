@@ -12,6 +12,8 @@
 - You can now drag & drop mods into the Mods window.
 - This build should slightly increase performance both client & server side.
 - Added ability to carry Charm chest types.
+- No more useless loot in towers.
+- Added RS dungeons to modded biomes.
 - Fixed crash with MI pipes interacting with ME interfaces.
 - Fixed crash with Canvas and slight gui modifications.
 - Fixed structures spawning way too far away (8k-11k blocks). They now generate within 3k blocks.
@@ -20,13 +22,14 @@
 - Fixed silicon plates within MI.
 - Fixed crash when equipping Hat from Hard Hat Steve.
 - Unified sawdusts.
-- Most likely fixed something I forgot about but yes it's fixed.
+- Most likely fixed something I forgot about but yes it's fixed, I think?
 
 **Added**
 - **MoreTooltips** ([1.16.4]+MoreTooltips-1.0.1.jar)
 - **Advancements Debug** (advdebug-2.2.0.jar)
 - **Architectury** (architectury-1.1.55-fabric.jar)
 - **Auth Me** (authme-1.16.3-1.4.0.jar)
+- **Battle Towers** (battletowers-3.2.1-beta-1.16.4.jar)
 - **YUNG's Better Mineshafts** (BetterMineshafts-Fabric-1.16.4-1.0.jar)
 - **Dark Paintings** (DarkPaintings-fabric-1.16.3-1.0.0 (1).jar)
 - **Gate Of Babylon** (gate-of-babylon-1.1.2-1.16.2.jar)
@@ -37,24 +40,26 @@
 
 **Removed**
 - **Ag4tr**
+- **Dungeons of Exile**
 - **Linkart**
 - **Roughly Enough Resources**
-- **Sandwichable** (Reason being that it overlaps with several foods from Croptopia & also dosen't work with Nourish).
+- **Sandwichable**
 
 **Updated**
 - **Adorn** (Adorn-1.12.1+1.16.4.jar -> Adorn-1.12.2+1.16.4.jar)
 - **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.12.jar -> appliedenergistics2-fabric-8.1.0-alpha.13.jar)
-- **Artifacts** (Artifacts-1.1.0+1.16.4-fabric.jar -> Artifacts-2.0.1+1.16.4-fabric.jar)
+- **Artifacts** (Artifacts-1.1.0+1.16.4-fabric.jar -> Artifacts-2.0.2+1.16.4-fabric.jar)
 - **Bedspreads** (bedspreads-fabric-1.2.0-1.16.3.jar -> bedspreads-fabric-1.3.1-1.16.4.jar)
 - **Better End** (better-end-0.6.2-beta.jar -> better-end-0.7.1-beta.jar)
 - **Blockus** (blockus-1.6.7+1.16.4.jar -> blockus-1.6.8+1.16.4.jar)
 - **Cardinal Components API** (Cardinal-Components-API-2.7.5.jar -> Cardinal-Components-API-2.7.9.jar)
 - **Carrier** (carrier-1.4.0.jar -> carrier-1.6.1.jar)
-- **Charm** (charm-fabric-1.16.4-2.1.1-hotfix1.jar -> charm-fabric-1.16.4-2.1.3.jar)
-- **Charmonium** (charmonium-fabric-1.16.4-2.0.2.jar -> charmonium-fabric-1.16.4-2.1.3.jar)
+- **Charm** (charm-fabric-1.16.4-2.1.1-hotfix1.jar -> charm-fabric-1.16.4-2.1.4.jar)
+- **Charmonium** (charmonium-fabric-1.16.4-2.0.2.jar -> charmonium-fabric-1.16.4-2.1.4.jar)
 - **Dank Storage** (dankstorage-1.8c-1.16.3.jar -> dankstorage-1.9a-1.16.3.jar)
 - **Dawn API** (dawn-1.5.3.jar -> dawn-1.5.4.jar)
 - **Fabric API** (fabric-api-0.26.0+1.16.jar -> fabric-api-0.27.1+1.16.jar)
+- **Fat Experience Orbs** (fatxporbs-0.0.7+1.16-rc1.jar -> fatxporbs-0.0.9+1.16.4.jar)
 - **Give Me Hats!** (give-me-hats-1.16-1.2.8.jar -> give-me-hats-1.16-1.3.jar)
 - **Hard Hat Steve** (hard-hat-steve-1.1.1.jar -> hard-hat-steve-1.2.0.jar)
 - **Health Overlay** (HealthOverlay-1.16.1-3.6.12.jar -> HealthOverlay-1.16.4-3.6.13.jar)
