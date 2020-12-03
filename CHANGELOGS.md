@@ -42,8 +42,8 @@
 - **Ag4tr**
 - **Dungeons of Exile**
 - **Linkart**
-- **Roughly Enough Resources**
-- **Sandwichable**
+- **Roughly Enough Resources** (Caused random crashes due to desert, Daniel dosent have enough time to update the mod right now).
+- **Sandwichable** (Reason being that it overlaps with several foods from Croptopia & also dosen't work with Nourish).
 
 **Updated**
 - **Adorn** (Adorn-1.12.1+1.16.4.jar -> Adorn-1.12.2+1.16.4.jar)
