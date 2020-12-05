@@ -1,3 +1,11 @@
+<h1>2.5.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed nourish values not loading at all.
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.0</h1>
 
 <h2>WARNING: Backpacks will reset with this update, be sure to empty your stuff before updating! Don't say I didn't warn you.</h2>
