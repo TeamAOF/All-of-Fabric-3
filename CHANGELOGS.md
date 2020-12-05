@@ -4,6 +4,7 @@
 
 **Changed/Fixed**
 - Fixed nourish values not loading at all.
+- Fixed incorrect server icon being loaded.
 ---------------------------------------------------------------------------------------------
 
 <h1>2.5.0</h1>
