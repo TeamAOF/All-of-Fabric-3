@@ -1,3 +1,27 @@
+<h1>2.5.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- You no longer need a hoe to collect Croptopia seeds from grass.
+- Fixed incorrect output of copper/tin ores in Miner.
+- Nerfed Katanas.
+- Made Rapier leaping now require you to land between each jump.
+- Wood Jetpack can now be crafted with any plank.
+- Hunger/Saturation tooltip now only shows on Shift/Debug.
+
+**Updated**
+- **MoreTooltips** ([1.16.4] MoreTooltips-1.0.1.jar -> [1.16.4]+MoreTooltips-1.0.1.jar)
+- **Cinderscapes** (cinderscapes-1.2.4+build.43-1.16.4.jar -> cinderscapes-1.3.0+build.51.jar)
+- **Crooked Crooks** (crookedcrooks-1.3.2+1.16.4.jar -> crookedcrooks-1.3.3+1.16.4.jar)
+- **Dark Paintings** (DarkPaintings-fabric-1.16.3-1.0.0.jar -> DarkPaintings-fabric-1.16.3-1.0.0 (1).jar)
+- **Dawn API** (dawn-1.5.4.jar -> dawn-1.6.jar)
+- **Gate Of Babylon** (gate-of-babylon-1.1.2-1.16.2.jar -> gate-of-babylon-1.1.3-1.16.2.jar)
+- **Give Me Hats!** (give-me-hats-1.16-1.3.jar -> give-me-hats-1.16-1.4.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.8.7.jar -> RoughlyEnoughItems-5.8.8.jar)
+- **Wild Explorer** (wild_explorer-1.2.1.jar -> wild_explorer-1.3.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
