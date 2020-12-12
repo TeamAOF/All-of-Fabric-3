@@ -1,3 +1,11 @@
+<h1>2.5.4</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed crash when using control keys in menus.
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
