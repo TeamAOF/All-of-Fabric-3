@@ -1,3 +1,26 @@
+<h1>2.5.3</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed outputs of Bauxite dusts depending on machine.
+- Fixed nugget unification with MI machines.
+- Fixed nourish buffs not loading for sweets.
+- Added nourish tags to foods from better end.
+- Hid all gem gear/tools.
+- Added x16 sticks recipe.
+- Added new hopper recipe using logs.
+
+**Updated**
+- **Campanion** (campanion-1.2.0+build.39.jar -> campanion-1.3.0+build.49.jar)
+- **Charm** (charm-fabric-1.16.4-2.1.4.jar -> charm-fabric-1.16.4-2.1.6.jar)
+- **Crusade** (crusade-mod-1.1.4+1.16.2.jar -> crusade-mod-1.2.0.jar)
+- **Fabric API** (fabric-api-0.27.1+1.16.jar -> fabric-api-0.28.0+1.16.jar)
+- **Glassential** (glassential-fabric-1.16.1-1.1.4.jar -> glassential-fabric-1.16.4-1.1.5.jar)
+- **Simplex Terrain** (simplexterrain-0.7.1.jar -> simplexterrain-0.7.2.jar)
+- **Woods and Mires** (WoodsAndMires-1.0.3+1.16.3.jar -> WoodsAndMires-1.0.4+1.16.3.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
