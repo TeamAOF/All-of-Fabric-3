@@ -1,3 +1,59 @@
+<h1>2.5.5</h1>
+ 
+<h2>Be sure to always backup your world(s) before updating!</h2>
+<h2>(Last update before 2.6 which brings tons of new content, also yes quests)</h2>
+
+**Changed/Fixed**
+- Fixed REI not on server error.
+- Fixed cinderscapes quartz not being allowed in certain recipes.
+- Fixed a dedicated server crash playing vanilla music discs in a radio jukebox.
+- Hid quartz grindstone from REI.
+- Added a description to sweets, it'll now tell you that too much sweets will have negative effects.
+
+**Changed/Updated**
+- **MoreTooltips** ([1.16.4] MoreTooltips-1.0.1.jar -> [1.16.4]+MoreTooltips-1.0.1.jar)
+- **Architectury** (architectury-1.1.55-fabric.jar -> architectury-1.2.64-fabric.jar)
+- **Battle Towers** (battletowers-3.2.1-beta-1.16.4.jar -> battletowers-3.3.1-beta-1.16.4.jar)
+- **Better End** (better-end-0.7.1-beta.jar -> better-end-0.8.3-beta.jar)
+- **YUNG's Better Caves** (BetterCaves-fabric-1.16.2-1.0.3.jar -> BetterCaves-fabric-1.16.2-1.0.3 (3).jar)
+- **BLAST** (blast-1.4.jar -> blast-1.5.jar)
+- **Blockus** (blockus-1.6.8+1.16.4.jar -> blockus-2.0.1+1.16.4.jar)
+- **Campanion** (campanion-1.3.0+build.49.jar -> campanion-1.3.1+build.51.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.7.9.jar -> Cardinal-Components-API-2.7.10.jar)
+- **Charm** (charm-fabric-1.16.4-2.1.6.jar -> charm-fabric-1.16.4-2.2.1.jar)
+- **Charmonium** (charmonium-fabric-1.16.4-2.1.4.jar -> charmonium-fabric-1.16.4-2.2.0.jar)
+- **Couplings** (Couplings-1.3.3.jar -> Couplings-1.3.6.jar)
+- **Croptopia** (Croptopia-1.0.5-1.16.X-FABRIC.jar -> Croptopia-1.0.6-1.16.3-4_FABRIC.jar)
+- **Dark Paintings** (DarkPaintings-fabric-1.16.3-1.0.0.jar -> DarkPaintings-fabric-1.16.3-1.0.0 (1).jar)
+- **Dawn API** (dawn-1.6.jar -> dawn-1.6.1.jar)
+- **Egg Tab** (eggtab-1.3.2+1.16-fabric.jar -> eggtab-2.0.0+1.16-fabric.jar)
+- **Fabric API** (fabric-api-0.28.1+1.16.jar -> fabric-api-0.28.4+1.16.jar)
+- **Fabric Language Kotlin** (fabric-language-kotlin-1.4.0+build.1.jar -> fabric-language-kotlin-1.4.21+build.1.jar)
+- **Fermion** (fermion-mc116-2.8.215.jar -> fermion-mc116-2.9.217.jar)
+- **GameInfo** (GameInfo-mod-2.0.0a-experimental-06.1 1.16.2.jar -> GameInfo-mod-2.0.0a-experimental-08 1.16.4.jar)
+- **Gate Of Babylon** (gate-of-babylon-1.1.3-1.16.2.jar -> gate-of-babylon-1.2.0-1.16.2.jar)
+- **Get Off My Lawn** (get-off-my-lawn-1.16.2-1.2.2-beta.jar -> get-off-my-lawn-1.16.2-1.2.3-beta.jar)
+- **Ignis Fatuus** (ignis-fatuus-1.1.0.jar -> ignis-fatuus-1.1.1.jar)
+- **Inmis** (inmis-2.0.0-beta-1.16.2.jar -> inmis-2.0.1-beta-1.16.2.jar)
+- **Jumploader** (jumploader-2.1.0.jar -> jumploader-2.1.2.jar)
+- **Kibe** (kibe-1.16.4-1.5.2-BETA.jar -> kibe-1.16.4-1.6-BETA.jar)
+- **megane** (megane-3.0.7+1.16.4.jar -> megane-3.1.0+1.16.4.jar)
+- **Mouse Wheelie** (mousewheelie-1.5.10+mc1.16.4.jar -> mousewheelie-1.6.1+mc1.16.4.jar)
+- **Netherite Plus Mod** (netherite-plus-mod-1.1.0-1.16.4.jar -> netherite-plus-mod-1.2.0.jar)
+- **Nourish** (nourish-1.1.1.jar -> nourish-1.2.0.jar)
+- **Phonos** (phonos-0.1.0-beta.jar -> phonos-0.1.1-beta.jar)
+- **Phosphor** (phosphor-fabric-mc1.16.1-0.6.0+build.7.jar -> phosphor-fabric-mc1.16.3-0.7.0+build.10.jar)
+- **Reborn Core** (RebornCore-1.16-4.6.1+build.97.jar -> RebornCore-1.16-4.6.2+build.108.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.8.8.jar -> RoughlyEnoughItems-5.8.10.jar)
+- **Staff of Building** (staffofbuilding-1.2.3-1.16.2.jar -> staffofbuilding-1.2.4-1.16.2.jar)
+- **Tech Reborn** (TechReborn-1.16-3.7.1+build.162.jar -> TechReborn-1.16-3.7.2+build.189.jar)
+- **Traverse** (traverse-3.0.3+build.13.jar -> traverse-3.2.0+build.17.jar)
+- **True Secret Rooms** (true-secret-rooms-1.0.3.jar -> true-secret-rooms-1.1.2-hotfix.jar)
+- **Wild Explorer** (wild_explorer-1.3.jar -> wild_explorer-1.3.1.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.28.1_Fabric_1.16.4.jar -> Xaeros_Minimap_20.29.1_Fabric_1.16.4.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.11.3_Fabric_1.16.4.jar -> XaerosWorldMap_1.11.4_Fabric_1.16.4.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.4</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
