@@ -1,3 +1,11 @@
+<h1>2.5.6</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed crash when using right-clicking non-scythe items.
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.5</h1>
  
 <h2>Be sure to always backup your world(s) before updating!</h2>
