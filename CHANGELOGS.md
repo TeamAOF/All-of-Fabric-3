@@ -1,6 +1,7 @@
 <h1>2.5.6</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
+<h2>(Last update before 2.6 which brings tons of new content, also yes quests)</h2>
 
 **Changed/Fixed**
 - Fixed crash when using right-clicking non-scythe items.
@@ -9,7 +10,6 @@
 <h1>2.5.5</h1>
  
 <h2>Be sure to always backup your world(s) before updating!</h2>
-<h2>(Last update before 2.6 which brings tons of new content, also yes quests)</h2>
 
 **Changed/Fixed**
 - Fixed REI not on server error.
