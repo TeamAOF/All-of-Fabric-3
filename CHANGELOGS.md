@@ -7,6 +7,7 @@
 - Fixed REI not on server error.
 - Fixed cinderscapes quartz not being allowed in certain recipes.
 - Fixed a dedicated server crash playing vanilla music discs in a radio jukebox.
+- Enabled Salt Ore generation.
 - Hid quartz grindstone from REI.
 - Added a description to sweets, it'll now tell you that too much sweets will have negative effects.
 
@@ -37,7 +38,7 @@
 - **Inmis** (inmis-2.0.0-beta-1.16.2.jar -> inmis-2.0.1-beta-1.16.2.jar)
 - **Jumploader** (jumploader-2.1.0.jar -> jumploader-2.1.2.jar)
 - **Kibe** (kibe-1.16.4-1.5.2-BETA.jar -> kibe-1.16.4-1.6-BETA.jar)
-- **megane** (megane-3.0.7+1.16.4.jar -> megane-3.1.0+1.16.4.jar)
+- **megane** (megane-3.0.7+1.16.4.jar -> megane-3.1.1+1.16.4.jar)
 - **Mouse Wheelie** (mousewheelie-1.5.10+mc1.16.4.jar -> mousewheelie-1.6.1+mc1.16.4.jar)
 - **Netherite Plus Mod** (netherite-plus-mod-1.1.0-1.16.4.jar -> netherite-plus-mod-1.2.0.jar)
 - **Nourish** (nourish-1.1.1.jar -> nourish-1.2.0.jar)
