@@ -4,6 +4,7 @@
 
 **Changed/Fixed**
 - Fixed barrels not saving items on server restart.
+- Fixed bug where waystones get mixed up.
 ---------------------------------------------------------------------------------------------
 
 <h1>2.5.6</h1>
