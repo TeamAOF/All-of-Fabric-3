@@ -5,6 +5,7 @@
 **Changed/Fixed**
 - Fixed barrels not saving items on server restart.
 - Fixed multiple sorting issues.
+- Fixed gameinfo scale & overlapping.
 - Fix Torch Sling crashing on dedicated servers.
 - Fixed bug where waystones get mixed up.
 ---------------------------------------------------------------------------------------------
