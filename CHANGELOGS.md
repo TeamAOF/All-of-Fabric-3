@@ -1,3 +1,11 @@
+<h1>2.5.7</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed barrels not saving items on server restart.
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.6</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
