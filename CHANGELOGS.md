@@ -4,6 +4,7 @@
 
 **Changed/Fixed**
 - Fixed barrels not saving items on server restart.
+- Fixed multiple sorting issues.
 - Fixed bug where waystones get mixed up.
 ---------------------------------------------------------------------------------------------
 
