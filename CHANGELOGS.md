@@ -1,3 +1,33 @@
+<h1>2.5.8</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Updated to 1.16.5
+- Fixed canvas crash with RSWires.
+- Fixed launch issues with GDLauncher.
+
+**Updated**
+- **Architectury** (architectury-1.2.68-fabric.jar -> architectury-1.3.81-fabric.jar)
+- **Ars Theurgia** (arstheurgia-1.0.5.jar -> arstheurgia-1.0.6.jar)
+- **Astromine** (astromine-1.11.4+fabric-1.16.3.jar -> astromine-1.11.5+fabric-1.16.5.jar)
+- **Battle Towers** (battletowers-3.3.1-beta-1.16.4.jar -> battletowers-3.3.2-1.16.4.jar)
+- **Better End** (better-end-0.8.5-beta.jar -> better-end-0.8.8-beta.jar)
+- **Egg Tab** (eggtab-2.0.0+1.16-fabric.jar -> eggtab-2.1.0+1.16-fabric.jar)
+- **Fabric API** (fabric-api-0.29.2+1.16.jar -> fabric-api-0.29.3+1.16.jar)
+- **GameInfo** (GameInfo-mod-2.0.0a-experimental-08 1.16.4.jar -> GameInfo-mod-2.0.1b 1.16.4.jar)
+- **Health Overlay** (HealthOverlay-1.16.4-3.6.13.jar -> HealthOverlay-1.16.4-3.6.14.jar)
+- **Inmis** (inmis-2.0.1-beta-1.16.2.jar -> inmis-2.1.1-1.16.4.jar)
+- **JSON Model Extensions** (jmx-mc116-1.20.179.jar -> jmx-mc116-1.21.182.jar)
+- **megane** (megane-3.1.1+1.16.4.jar -> megane-3.1.2+1.16.4.jar)
+- **Mouse Wheelie** (mousewheelie-1.6.1+mc1.16.4.jar -> mousewheelie-1.6.2+mc1.16.4.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.4-1.7.3.jar -> repurposed_structures-1.16.4-1.7.4.jar)
+- **RSWires** (rswires-4.9.1.jar -> rswires-4.10.0.jar)
+- **Harvest Scythes** (wraith-harvestscythes-1.0.6.jar -> wraith-harvestscythes-1.0.7.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_20.29.1_Fabric_1.16.4.jar -> Xaeros_Minimap_21.0.0_Fabric_1.16.5.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.11.4_Fabric_1.16.4.jar -> XaerosWorldMap_1.11.7_Fabric_1.16.5.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.7</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
