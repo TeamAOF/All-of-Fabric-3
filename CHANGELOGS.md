@@ -1,3 +1,12 @@
+<h1>2.5.9</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed crashes with Kibe spikes.
+
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.8</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
