@@ -1,3 +1,71 @@
+<h1>2.6.0 - The Questing Update</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Added quests (7 chapters, more to come).
+- Added recipe for block of charcoal.
+- Unhid MI gears & tiny dusts from REI as they replace Astromine.
+- Gem tools & armor are back!
+- Loading times should now be faster thanks to using rhino instead for KubeJS.
+- Fixed REI info about quantum singularities, it'll now say ender pearls instead of ender dust.
+- Fixed input tag of quartz being wonky resulting in incorrect outputs.
+- Fixed multiple food types not having nourish values.
+- New Angel Ring recipe.
+- Removed MRE recipe.
+- Nerfed jetpack vertical speeds.
+
+**Added**
+- **Attribute Fix {FABRIC}** (attribute-fix-fabric-1.0.1.jar)
+- **Biome Makeover** (biome-makeover-1.16.4-1.2.10.jar)
+- **Biome Locator** (biome_locator-1.0.0.jar)
+- **Ecotones** (ecotones-0.7.1.jar)
+- **Go Fish** (go-fish-1.2.0-beta-1.16.4.jar)
+- **Hardcore Questing Mode** (HQM-1.16.2+5.5.6-fabric.jar)
+- **KubeJS** (kubejs-1605.3.6-build.160-fabric.jar)
+- **NoAngleBrackets** (NoAngleBrackets-1.0.1.jar)
+- **Reroll** (reroll-1.1.0-1.16.4.jar)
+- **Rhino** (rhino-1.7.13-build.14.jar)
+- **Sandwichable** (sandwichable-1.2-beta1--1.16.4.jar)
+- **Save My Stronghold!** (SaveMyStronghold-Fabric-1.16.4-1.0.jar)
+- **Some Forge Patches Ported** (someforgepatchesported-1.0.0.jar)
+- **Smithee** (wraith-smithee-0.2.2a.jar)
+
+**Removed**
+- **Ars Theurgia**
+- **Astromine**
+- **Better Enchanted Books**
+- **Geckolib**
+- **GameInfo**
+- **Ignis Fatuus**
+
+**Updated**
+- **Architectury** (architectury-1.3.81-fabric.jar -> architectury-1.5.105-fabric.jar)
+- **Artifacts** (Artifacts-2.1.0+1.16.4-fabric.jar -> artifacts-2.3.0+fabric.jar)
+- **Campanion** (campanion-1.3.1+build.51.jar -> campanion-1.3.2.jar)
+- **Carrier** (carrier-1.6.1.jar -> carrier-1.7.1.jar)
+- **Cave Biomes** (cavebiomes-0.5.1.jar -> cavebiomes-0.6.2.jar)
+- **CraftPresence** (CraftPresence-Fabric-1.16.4-Release-1.7.5.jar -> CraftPresence-Fabric-1.16.4-Release-1.7.6.jar)
+- **Croptopia** (Croptopia-1.16.3-4-FABRIC-1.1.0.jar -> Croptopia-1.16.4-5-FABRIC-1.2.0.jar)
+- **Dawn API** (dawn-1.6.1.jar -> dawn-1.6.2.jar)
+- **Dynamic FPS** (dynamic-fps-1.2.1.jar -> dynamic-fps-2.0.1.jar)
+- **ExpandedStorage** (expandedstorage-5.6.31+1.16.4.jar -> expandedstorage-5.6.32+1.16.5.jar)
+- **Kibe** (kibe-1.16.4-1.6.1-BETA.jar -> kibe-1.16.5-1.6.2-BETA.jar)
+- **Lithium** (lithium-fabric-mc1.16.4-0.6.0.jar -> lithium-fabric-mc1.16.5-0.6.1.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.9.jar -> Modern-Industrialization-0.3.12.jar)
+- **Mouse Wheelie** (mousewheelie-1.6.2+mc1.16.4.jar -> mousewheelie-1.6.3+mc1.16.4.jar)
+- **Netherite Plus Mod** (netherite-plus-mod-1.3.2-1.16.5-fabric.jar -> netherite-plus-mod-1.3.4-1.16.5-fabric.jar)
+- **Nourish** (nourish-1.2.0.jar -> nourish-1.2.1.jar)
+- **Quick Shulker** (quickshulker-1.1.11-1.16.jar -> quickshulker-1.1.12-1.16.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.8.10.jar -> RoughlyEnoughItems-5.9.1.jar)
+- **RSWires** (rswires-4.10.0.jar -> rswires-4.10.1.jar)
+- **Shulker Box Tooltip** (shulkerboxtooltip-2.3.3+1.16.4.jar -> shulkerboxtooltip-2.3.4+1.16.4.jar)
+- **Traverse** (traverse-3.2.0+build.17.jar -> traverse-3.3.1.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_21.0.0_Fabric_1.16.5.jar -> Xaeros_Minimap_21.1.1_Fabric_1.16.5.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.11.7_Fabric_1.16.5.jar -> XaerosWorldMap_1.11.10_Fabric_1.16.5.jar)
+
+---------------------------------------------------------------------------------------------
+
 <h1>2.5.9</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
