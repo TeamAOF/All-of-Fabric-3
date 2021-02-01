@@ -7,6 +7,7 @@
 - Added recipe for block of charcoal.
 - Unhid MI gears & tiny dusts from REI as they replace Astromine.
 - Gem tools & armor are back!
+- Readded metal gear/tools from Indrev.
 - Loading times should now be faster thanks to using rhino instead for KubeJS.
 - Fixed REI info about quantum singularities, it'll now say ender pearls instead of ender dust.
 - Fixed input tag of quartz being wonky resulting in incorrect outputs.
