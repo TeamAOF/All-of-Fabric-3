@@ -30,7 +30,6 @@
 - **Sandwichable** (sandwichable-1.2-beta1--1.16.4.jar)
 - **Save My Stronghold!** (SaveMyStronghold-Fabric-1.16.4-1.0.jar)
 - **Some Forge Patches Ported** (someforgepatchesported-1.0.0.jar)
-- **Smithee** (wraith-smithee-0.2.2a.jar)
 
 **Removed**
 - **Ars Theurgia**
