@@ -1,3 +1,38 @@
+<h1>2.6.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed nourish values not loading for fruits.
+- Fixed crash when going into HWYLA ingame config.
+- Disabled inventory show in HWYLA interface.
+- Disabled spawn egg icon in HWYLA interface.
+
+**Added**
+- **Golems Galore** (golemsgalore-0.2.0+mc.1.16.2.jar)
+- **Ignis Fatuus** (ignis-fatuus-1.1.3.jar)
+- **River Redux** (riverredux-0.1.6.jar)
+
+**Updated**
+- **Adorn** (Adorn-1.12.2+1.16.4.jar -> Adorn-1.13.0+1.16.5.jar)
+- **Campanion** (campanion-1.3.2.jar -> campanion-1.3.3.jar)
+- **Carrier** (carrier-1.7.1.jar -> carrier-1.7.2.jar)
+- **Cinderscapes** (cinderscapes-1.3.0+build.51.jar -> cinderscapes-1.3.2.jar)
+- **Dawn API** (dawn-1.6.2.jar -> dawn-1.6.3.jar)
+- **Fabric API** (fabric-api-0.29.3+1.16.jar -> fabric-api-0.30.0+1.16.jar)
+- **Fabric Language Scala** (fabric-language-scala-0.3.2.12-fat.jar -> fabric-language-scala-1.0.0-fat.jar)
+- **Kibe** (kibe-1.16.5-1.6.2-BETA.jar -> kibe-1.16.5-1.6.3-BETA.jar)
+- **Mo Glass** (Mo-Glass-1.5-MC1.16.4.jar -> Mo-Glass-1.5-MC1.16.5.jar)
+- **Netherite Plus Mod** (netherite-plus-mod-1.3.4-1.16.5-fabric.jar -> netherite-plus-mod-1.3.12-1.16.5-fabric.jar)
+- **Reborn Core** (RebornCore-1.16-4.6.3+build.110.jar -> RebornCore-1.16-4.6.4+build.117.jar)
+- **Respawnable Pets** (respawnablepets-1.16.4-1.jar -> respawnablepets-1.16.5-1.jar)
+- **Sandwichable** (sandwichable-1.2-beta1--1.16.4.jar -> sandwichable-1.2-beta2--1.16.5.jar)
+- **Terrestria** (terrestria-2.1.5+build.28.jar -> terrestria-2.1.7.jar)
+- **Harvest Scythes** (wraith-harvestscythes-1.0.8.jar -> wraith-harvestscythes-1.0.9.jar)
+- **Hwyla** (Hwyla-fabric-1.16.2-1.9.23-79.jar -> wthit-2.0.0+1.16.5.jar)
+
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.0 - The Questing Update</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
