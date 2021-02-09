@@ -5,7 +5,7 @@
 **Changed/Fixed**
 - Fixed multiple quests not completing.
 
-**New**
+**Added**
 - **FlytreLib** (flytre_lib-0.2.3.jar)
 
 **Updated**
