@@ -1,3 +1,32 @@
+<h1>2.6.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed multiple quests not completing.
+
+**New**
+- **FlytreLib** (flytre_lib-0.2.3.jar)
+
+**Updated**
+- **Architectury** (architectury-1.5.105-fabric.jar -> architectury-1.5.110-fabric.jar)
+- **Biome Makeover** (biome-makeover-1.16.4-1.2.10.jar -> biome-makeover-1.16.4-1.2.11.jar)
+- **BYG** (byg-1.1.3.jar -> byg-1.1.4.jar)
+- **Carrier** (carrier-1.7.2.jar -> carrier-1.7.3.jar)
+- **Dawn API** (dawn-1.6.3.jar -> dawn-1.6.5.jar)
+- **Go Fish** (go-fish-1.2.0-beta-1.16.4.jar -> go-fish-1.2.1-beta-1.16.4.jar)
+- **KubeJS** (kubejs-1605.3.6-build.160-fabric.jar -> kubejs-1605.3.6-build.163-fabric.jar)
+- **Lithium** (lithium-fabric-mc1.16.5-0.6.1.jar -> lithium-fabric-mc1.16.5-0.6.3.jar)
+- **Mod Menu** (modmenu-1.14.13+build.19.jar -> modmenu-1.14.15.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.9.1.jar -> RoughlyEnoughItems-5.9.171.jar)
+- **Shulker Box Tooltip** (shulkerboxtooltip-2.3.4+1.16.4.jar -> shulkerboxtooltip-2.3.5+1.16.5.jar)
+- **Staff of Building** (staffofbuilding-1.2.4-1.16.2.jar -> staffofbuilding-1.2.5-1.16.5.jar)
+- **True Secret Rooms** (true-secret-rooms-1.1.2-hotfix.jar -> true-secret-rooms-1.1.3.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_21.1.1_Fabric_1.16.5.jar -> Xaeros_Minimap_21.2.0.2_Fabric_1.16.5.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.11.10_Fabric_1.16.5.jar -> XaerosWorldMap_1.11.11.2_Fabric_1.16.5.jar)
+
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
