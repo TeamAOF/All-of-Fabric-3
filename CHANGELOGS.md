@@ -1,3 +1,28 @@
+<h1>2.6.3</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Removed Adventurer quest chapter, it was useless (expect more chapters to come).
+- Fixed vanilla dispenser behaviors being overridden by Sandwichable.
+- Fixed a crash exploit involving sandwich items being placeable in sandwiches.
+- Fixed quest rewards using incorrect variant of item due to unification (example being indrev plates instead of tech reborn).
+- Fixed Charm barrels not working in recipes.
+- Fixed KJS complaining about Astromine recipes (Yes I forgot to yeet the recipes from the scripts, go blame not me).
+- Added forge hammer recipe for gold plates.
+- Nerfed some quest rewards, mostly the machine casing rewards.
+- Added blockus barrel wood types to charm tag for them to be allowed in recipes.
+
+**Updated**
+- **Biome Locator** (biome_locator-1.1.0.jar -> biome_locator-1.1.1.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.7.10.jar -> Cardinal-Components-API-2.7.11.jar)
+- **Carrier** (carrier-1.7.3.jar -> carrier-1.7.4.jar)
+- **CraftPresence** (CraftPresence-Fabric-1.16.4-Release-1.7.6.jar -> CraftPresence-Fabric-1.16.5-Release-1.7.6.jar)
+- **Mouse Wheelie** (mousewheelie-1.6.3+mc1.16.4.jar -> mousewheelie-1.6.4+mc1.16.4.jar)
+- **Netherite Plus Mod** (netherite-plus-mod-1.3.12-1.16.5-fabric.jar -> netherite-plus-mod-1.3.17-1.16.5-fabric.jar)
+
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
