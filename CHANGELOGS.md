@@ -1,3 +1,53 @@
+<h1>2.6.4</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed that some chunks were missing skylight after worldgen.
+- Fixed multiple incompatibilites with Sodium.
+- Fixed unification input of better end gear/tools.
+- Fixed missing byg workbenches not put in tag.
+- Fixed any glitched sandwich-sandwiches
+- Fixed rubber quest not completing when not made in vanilla furnace.
+- Fixed REI filtering to work side by side with unification scripts.
+- Redid unification, most notably the input of ores.
+- Eh, I forgot to turn off REI cheating mode last update so yes it's turned off now.. Sorry not sorry.
+
+**Added**
+- **Addendum** (addendum-fabric-1.16.5-1.0.2.jar)
+- **Crimson Moon** (crimson-moon-2.0.0-beta-1.16.5.jar)
+- **Enchantment Descriptions** (EnchantmentDescriptions-fabric-1.16.5-2.0.1.jar)
+- **Lightstones** (lightstones-1.3.0.jar)
+- **Roughly Enough Resources** (rer-2.1.3.jar)
+- **Runelic** (Runelic-fabric-1.16.5-1.0.2.jar)
+- **ToolTip Fix** (tooltipfix-1.0.2-1.16.jar)
+- **Croptosis** (wraith-croptosis-1.0.1.jar)
+
+**Removed**
+- **Phonos**
+
+**Updated**
+- **Architectury** (architectury-1.5.110-fabric.jar -> architectury-1.5.112-fabric.jar)
+- **Better End** (better-end-0.8.8-beta.jar -> better-end-0.9.1-pre.jar)
+- **BYG** (byg-1.1.4.jar -> byg-1.1.5.jar)
+- **Cinderscapes** (cinderscapes-1.3.2.jar -> cinderscapes-1.3.3.jar)
+- **Cloth Config v4** (config-2-4.8.3.jar -> cloth-config-4.10.12-fabric.jar)
+- **KubeJS** (kubejs-1605.3.6-build.163-fabric.jar -> kubejs-1605.3.6-build.165-fabric.jar)
+- **Mod Menu** (modmenu-1.14.15.jar -> modmenu-1.16.7.jar)
+- **Phosphor** (phosphor-fabric-mc1.16.3-0.7.0+build.10.jar -> phosphor-fabric-mc1.16.3-0.7.1+build.11.jar)
+- **Reroll** (reroll-1.1.0-1.16.4.jar -> reroll-1.2.0-1.16.5.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.9.171.jar -> RoughlyEnoughItems-5.10.181.jar)
+- **RSWires** (rswires-4.10.1.jar -> rswires-4.10.2.jar)
+- **Sandwichable** (sandwichable-1.2-beta2--1.16.5.jar -> sandwichable-1.2-beta4--1.16.5.jar)
+- **'Slight' GUI Modifications** (slight-gui-modifications-1.6.1.jar -> slight-gui-modifications-1.7.1.jar)
+- **Terrestria** (terrestria-2.1.7.jar -> terrestria-2.2.0.jar)
+- **VanillaDeathChest** (vanilladeathchest-1.16.3-1.11.0.7-fabric.jar -> vanilladeathchest-2.0.3-fabric.jar)
+- **Wild Explorer** (wild_explorer-1.3.1.jar -> wild_explorer-1.3.2.jar)
+- **wthit** (wthit-2.2.0+1.16.5.jar -> wthit-2.2.1+1.16.5.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_21.2.0.2_Fabric_1.16.5.jar -> Xaeros_Minimap_21.3.0.2_Fabric_1.16.5.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.11.11.2_Fabric_1.16.5.jar -> XaerosWorldMap_1.12.0.2_Fabric_1.16.5.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
