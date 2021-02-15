@@ -6,7 +6,7 @@
 - Disabled gem tools as they currently cant be rebalanced.
 
 **Removed**
-- Crimson Moon (Due to critical issues, needs tweaking and looking into)
+- **Crimson Moon** (Due to critical issues, needs tweaking and looking into)
 ---------------------------------------------------------------------------------------------
 
 <h1>2.6.5</h1>
