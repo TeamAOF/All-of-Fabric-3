@@ -1,3 +1,12 @@
+<h1>2.6.5</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed removeInvStack client crash when dying to any mob.
+- Fixed solar panels overfilling.
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.4</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
