@@ -1,3 +1,14 @@
+<h1>2.6.6</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Disabled gem tools as they currently cant be rebalanced.
+
+**Removed**
+- Crimson Moon (Due to critical issues, needs tweaking and looking into)
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.5</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
