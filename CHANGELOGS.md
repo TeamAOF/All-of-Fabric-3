@@ -5,6 +5,7 @@
 **Changed/Fixed**
 - Fixed blast furnace multiblock not forming.
 - Fixed death chests not spawning under certain circumstances.
+- Fixed empty upgrade recipe not loading due to kjs bug.
 - Fixed multiple croptopia foods not having any nourish tag applied to them.
 
 **Added**
