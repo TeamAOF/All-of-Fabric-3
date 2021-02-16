@@ -1,3 +1,30 @@
+<h1>2.6.7</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed blast furnace multiblock not forming.
+- Fixed death chests not spawning under certain circumstances.
+- Fixed multiple croptopia foods not having any nourish tag applied to them.
+
+**Added**
+- **Alaska Native Craft** (alaskanativecraft-1.1.0.jar)
+
+**Updated**
+- **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.13.jar -> appliedenergistics2-fabric-8.1.0-alpha.13 (2).jar)
+- **Architectury** (architectury-1.5.112-fabric.jar -> architectury-1.6.114-fabric.jar)
+- **Biome Locator** (biome_locator-1.1.1.jar -> biome_locator-1.1.2.jar)
+- **Campanion** (campanion-1.3.3.jar -> campanion-1.3.4.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.7.11.jar -> Cardinal-Components-API-2.7.12.jar)
+- **FlytreLib** (flytre_lib-0.2.4.jar -> flytre_lib-0.2.5.jar)
+- **Inventory Sorter** (InventorySorter-1.7.6-1.16.jar -> InventorySorter-1.7.7-1.16.jar)
+- **KubeJS** (kubejs-1605.3.6-build.165-fabric.jar -> kubejs-1605.3.6-build.166-fabric.jar)
+- **Light Overlay** (light-overlay-5.6.1.jar -> light-overlay-5.7.0.jar)
+- **Reborn Core** (RebornCore-1.16-4.7.0+build.126.jar -> RebornCore-1.16-4.7.1+build.129.jar)
+- **TIS-3D** (TIS-3D-MC1.16.2-Fabric-1.6.0.20.jar -> TIS-3D-MC1.16.2-Fabric-1.6.1.23.jar)
+- **VanillaDeathChest** (vanilladeathchest-2.0.4-fabric.jar -> vanilladeathchest-1.16.3-1.11.0.7-fabric.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.6</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
