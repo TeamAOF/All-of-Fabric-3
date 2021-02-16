@@ -9,9 +9,6 @@
 - Fixed dispenser output crashing.
 - Fixed multiple croptopia foods not having any nourish tag applied to them.
 
-**Added**
-- **Alaska Native Craft** (alaskanativecraft-1.1.0.jar)
-
 **Updated**
 - **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.13.jar -> appliedenergistics2-fabric-8.1.0-alpha.13 (2).jar)
 - **Architectury** (architectury-1.5.112-fabric.jar -> architectury-1.6.114-fabric.jar)
