@@ -3,23 +3,35 @@
 <h2>Be sure to always backup your world(s) before updating!</h2>
 
 **Changed/Fixed**
+- Buffed Biomass Generator (64LF/t > 128LF/t).
 - Fixed blast furnace multiblock not forming.
 - Fixed death chests not spawning under certain circumstances.
 - Fixed empty upgrade recipe not loading due to kjs bug.
+- Fixed alloy furnace recipes missing.
+- Fixed energy crystal & lithium battery missing.
+- Fixed insane log spam about failing recipes due to mods not present.
+- Fixed quests not completing in anything else other than Vanilla crafting methods (Instead of CRAFT all quests are now DETECT).
 - Fixed dispenser output crashing.
 - Fixed multiple croptopia foods not having any nourish tag applied to them.
 
 **Updated**
 - **Applied Energistics 2** (appliedenergistics2-fabric-8.1.0-alpha.13.jar -> appliedenergistics2-fabric-8.1.0-alpha.13 (2).jar)
-- **Architectury** (architectury-1.5.112-fabric.jar -> architectury-1.6.114-fabric.jar)
+- **Architectury** (architectury-1.5.112-fabric.jar -> architectury-1.7.117-fabric.jar)
 - **Biome Locator** (biome_locator-1.1.1.jar -> biome_locator-1.1.2.jar)
 - **Campanion** (campanion-1.3.3.jar -> campanion-1.3.4.jar)
 - **Cardinal Components API** (Cardinal-Components-API-2.7.11.jar -> Cardinal-Components-API-2.7.12.jar)
 - **FlytreLib** (flytre_lib-0.2.4.jar -> flytre_lib-0.2.5.jar)
+- **Get Off My Lawn** (get-off-my-lawn-1.16.2-1.2.3-beta.jar -> get-off-my-lawn-1.16.4-1.3.2-beta.jar)
+- **Industrial Revolution** (indrev-1.7.15-BETA.jar -> indrev-1.8.2-BETA.jar)
 - **Inventory Sorter** (InventorySorter-1.7.6-1.16.jar -> InventorySorter-1.7.7-1.16.jar)
-- **KubeJS** (kubejs-1605.3.6-build.165-fabric.jar -> kubejs-1605.3.6-build.166-fabric.jar)
+- **KubeJS** (kubejs-1605.3.6-build.165-fabric.jar -> kubejs-1605.3.6-build.168-fabric.jar)
 - **Light Overlay** (light-overlay-5.6.1.jar -> light-overlay-5.7.0.jar)
+- **megane** (megane-3.1.2+1.16.4.jar -> megane-3.1.3+1.16.5.jar)
+- **Quick Shulker** (quickshulker-1.1.12-1.16.jar -> quickshulker-1.1.14-1.16.jar)
 - **Reborn Core** (RebornCore-1.16-4.7.0+build.126.jar -> RebornCore-1.16-4.7.1+build.129.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.4-1.7.4.jar -> repurposed_structures-1.16.5-1.8.1.jar)
+- **Sandwichable** (sandwichable-1.2-beta4--1.16.5.jar -> sandwichable-1.2-beta5--1.16.5.jar)
+- **Secret Rooms** (secretrooms-0.9.2+1.16.2.jar -> secretrooms-0.9.3+1.16.5.jar)
 - **TIS-3D** (TIS-3D-MC1.16.2-Fabric-1.6.0.20.jar -> TIS-3D-MC1.16.2-Fabric-1.6.1.23.jar)
 - **VanillaDeathChest** (vanilladeathchest-2.0.4-fabric.jar -> vanilladeathchest-1.16.3-1.11.0.7-fabric.jar)
 ---------------------------------------------------------------------------------------------
