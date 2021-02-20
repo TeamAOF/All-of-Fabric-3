@@ -1,3 +1,12 @@
+<h1>2.6.9</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Tons of bug fixes for AE2.
+- Retexturing of AE2.
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.8</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
