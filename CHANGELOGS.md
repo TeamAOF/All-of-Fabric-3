@@ -1,3 +1,23 @@
+<h1>2.6.8</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed techreborn ingredients.
+- Fixed indrev plank recipe not registering.
+- Fixed drills being uncraftable.
+- Fixed modular armor shields not recharging.
+- Fixed protein tag not loading.
+
+**Updated**
+- **Battle Towers** (battletowers-3.3.2-1.16.4.jar -> battletowers-3.3.3-1.16.4.jar)
+- **Industrial Revolution** (indrev-1.8.2-BETA.jar -> indrev-1.8.5-BETA.jar)
+- **KubeJS** (kubejs-1605.3.6-build.168-fabric.jar -> kubejs-1605.3.6-build.169-fabric.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.12.jar -> Modern-Industrialization-0.3.13.jar)
+- **Traverse** (traverse-3.3.1.jar -> traverse-3.3.2.jar)
+- **VanillaDeathChest** (vanilladeathchest-1.16.3-1.11.0.7-fabric.jar -> vanilladeathchest-2.0.5-fabric.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.7</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
