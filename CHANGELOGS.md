@@ -1,3 +1,37 @@
+<h1>2.6.10</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Compat between Iron Jetpacks and FTL energy.
+- Empty Enhancers now use Tin plates instead of Iron plates.
+- Fixed Charm barrels not being craftable.. Again...
+- Fixed inputs of salt ores not working at all.
+- Fixed server thread dying when rejoining world.
+- Fixed server crash when not all lasers are connected.
+- Added BE barrels to charm:barrels tag.
+- Disabled FullObsidianCaves.
+
+**Updated**
+- **Architectury** (architectury-1.7.117-fabric.jar -> architectury-1.8.120-fabric.jar)
+- **Campanion** (campanion-1.3.4.jar -> campanion-1.3.5.jar)
+- **Cloth Config v4** (cloth-config-4.10.13-fabric.jar -> cloth-config-4.11.14-fabric.jar)
+- **Dawn API** (dawn-1.6.5.jar -> dawn-1.7.jar)
+- **ExpandedStorage** (expandedstorage-5.6.32+1.16.5.jar -> expandedstorage-5.6.33+1.16.5.jar)
+- **FlytreLib** (flytre_lib-0.2.5.jar -> flytre_lib-0.2.7.jar)
+- **Industrial Revolution** (indrev-1.8.5-BETA.jar -> indrev-1.8.11-BETA.jar)
+- **Iron Jetpacks** (iron-jetpacks-0.2.5.jar -> iron-jetpacks-0.3.1.jar)
+- **KubeJS** (kubejs-1605.3.6-build.169-fabric.jar -> kubejs-1605.3.6-build.170-fabric.jar)
+- **Lithium** (lithium-fabric-mc1.16.5-0.6.3.jar -> lithium-fabric-mc1.16.5-0.6.4.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.13.jar -> Modern-Industrialization-0.3.14.jar)
+- **Mod Menu** (modmenu-1.16.7.jar -> modmenu-1.16.8.jar)
+- **Reborn Core** (RebornCore-1.16-4.7.1+build.129.jar -> RebornCore-1.16-4.7.2+build.132.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.5-1.8.1.jar -> repurposed_structures-1.16.5-1.8.2.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.10.181.jar -> RoughlyEnoughItems-5.10.183.jar)
+- **Tech Reborn** (TechReborn-1.16-3.8.0+build.205.jar -> TechReborn-1.16-3.8.1+build.211.jar)
+- **VanillaDeathChest** (vanilladeathchest-2.0.5-fabric.jar -> vanilladeathchest-2.0.6-fabric.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.9</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
