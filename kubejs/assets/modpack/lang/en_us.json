@@ -1,4 +1,6 @@
 {
 	"modpack.example.translation_key": "Example Translation",
-	"block.astromine.altar_pedestal": "Altar Pedestal"
+	"block.astromine.altar_pedestal": "Altar Pedestal",
+  "advancement.modpack.aof.rich-bitch-certificate.title": "Rich Bitch Certificate",
+  "advancement.modpack.aof.rich-bitch-certificate.description": "Get a stack of diamond blocks and a stack of netherite in your inventory"
 }

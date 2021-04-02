@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_block"
+    },
+    "title": {
+      "translate": "advancement.modpack.aof.rich-bitch-certificate.title"
+    },
+    "description": {
+      "translate": "advancement.modpack.aof.rich-bitch-certificate.description"
+    },
+    "background": "minecraft:textures/block/stone.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_block",
+            "count": {
+              "min": 64
+            }
+          },
+          {
+            "item": "minecraft:netherite_ingot",
+            "count": {
+              "min": 64
+            }
+          }
+        ],
+        "slots": {
+          "full": {
+            "min": 2
+          }
+        }
+      }
+    }
+  }
+}
