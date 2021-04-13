@@ -1,3 +1,105 @@
+<h1>2.7.0</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Moved quest system to FTBQ (Yes this sadly means that your quest data will be lost but it's for the better).
+- Added more info into enchants
+- Fixed crashes related to wrenching machines.
+- Fixed memory leak when playing on servers.
+- Fixed bug where world would get stuck at 100% when reloading.
+- Fixed multiple bugs with AE2 auto crafting.
+- Fixed incorrect rei display about singularities, it'll be more clear now.
+- Fixed a bug where the trial's grief prevention would not turn off even when finished.
+- More pipes!
+
+**Added**
+- **Bewitchment** (bewitchment-1.16.5-8.jar)
+- **Bosses of Mass Destruction (Beta)** (BOMD-1.0-1.16.5.jar)
+- **Chillager** (chillager_mod-1.1.jar)
+- **Colorful Columns** (colorfulcolumns-1.0.0.jar)
+- **Columns** (columns-1.1.1.jar)
+- **Dungeons Mod Lite** (DungeonsModLite-1.16.5-1.0.0.jar)
+- **FerriteCore** (ferritecore-2.0.4-fabric.jar)
+- **FTB GUI Library** (ftb-gui-library-1605.2.1.41-fabric.jar)
+- **FTB Quests** (ftb-quests-1605.2.1-build.39-fabric.jar)
+- **Geckolib** (geckolib-fabric-1.16.5-3.0.29.jar)
+- **Impersonate** (Impersonate-2.1.0.jar)
+- **Item Filters** (item-filters-1605.2.4-build.30-fabric.jar)
+- **LazyDFU** (lazydfu-0.1.2.jar)
+- **Lifts** (lifts-1.16.5-1.0.5-BETA.jar)
+- **MixinTrace** (mixintrace-1.0.0.jar)
+- **Mo' Colors** (mocolors-1.1.2.jar)
+- **Pehkui** (Pehkui-1.9.0+21w10a.jar)
+- **RandomPatches** (randompatches-2.4.5-fabric.jar)
+- **Rat's Mischief** (ratsmischief-1.1.jar)
+- **This Rocks!** (rocks-1.3.1.jar)
+- **Somnus API** (somnus-fabric-0.0.11-1.16.5.jar)
+- **Wireless Networks** (wirelessnetworks-1.0.1.jar)
+- **xlpackets-1.1.jar** (xlpackets-1.1.jar)
+
+**Removed**
+- **Hardcore Questing Mode**
+
+**Updated**
+- **Applied Energistics 2** (appliedenergistics2-fabric-8.2.0-alpha.1.jar -> appliedenergistics2-fabric-8.2.0-alpha.3.jar)
+- **Architectury** (architectury-1.8.120-fabric.jar -> architectury-1.10.139-fabric.jar)
+- **Artifacts** (artifacts-2.3.0+fabric.jar -> artifacts-3.2.0+fabric.jar)
+- **Bamboo Tweaks** (bambootweaks-2.0.0+1.16.1.jar -> bambootweaks-2.0.5-fabric.jar)
+- **Battle Towers** (battletowers-3.3.3-1.16.4.jar -> battletowers-3.3.4-1.16.4.jar)
+- **YUNG's Better Caves** (BetterCaves-fabric-1.16.2-1.0.3.jar -> BetterCaves-Fabric-1.16.5-1.1.jar)
+- **YUNG's Better Mineshafts** (BetterMineshafts-Fabric-1.16.4-1.0.jar -> BetterMineshafts-Fabric-1.16.4-1.0.1.jar)
+- **Biome Makeover** (biome-makeover-1.16.4-1.2.11.jar -> biome-makeover-1.16.4-1.2.13.jar)
+- **BLAST** (blast-1.5.jar -> blast-1.5.2.jar)
+- **Blockus** (blockus-2.0.2+1.16.4.jar -> blockus-2.1.1+1.16.5.jar)
+- **BYG** (byg-1.1.5.jar -> byg-1.1.7.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.7.12.jar -> Cardinal-Components-API-2.8.0.jar)
+- **Carrier** (carrier-1.7.4.jar -> carrier-1.7.5.jar)
+- **CC:T for Fabric** (cc-tweaked-fabric-1.16.2-1.91.2.jar -> cc-restiched-1.94.1-beta.jar)
+- **Charm** (charm-fabric-1.16.4-2.2.2.jar -> charm-fabric-1.16.5-2.3.2.jar)
+- **Charmonium** (charmonium-fabric-1.16.4-2.2.2.jar -> charmonium-fabric-1.16.5-2.3.2.jar)
+- **Cloth Config v4** (cloth-config-4.11.14-fabric.jar -> cloth-config-4.11.19-fabric.jar)
+- **CraftPresence** (CraftPresence-Fabric-1.16.5-Release-1.7.6.jar -> CraftPresence-Fabric-1.16.5-Release-1.8.0.jar)
+- **Croptopia** (Croptopia-1.16.4-5-FABRIC-1.2.0.jar -> Croptopia-1.16.4-5-FABRIC-1.3.3.jar)
+- **Dawn API** (dawn-1.7.jar -> dawn-1.8.jar)
+- **Deep Mob Learning: Refabricated** (deepmoblearning-refabricated-0.3.1-beta5.jar -> deepmoblearning-refabricated-0.3.3-beta1.jar)
+- **Ecotones** (ecotones-0.7.1.jar -> ecotones-0.7.2.jar)
+- **Fabric API** (fabric-api-0.30.3+1.16.jar -> fabric-api-0.32.5+1.16.jar)
+- **Fabric Language Kotlin** (fabric-language-kotlin-1.4.21+build.1.jar -> fabric-language-kotlin-1.5.0+kotlin.1.4.31.jar)
+- **FlytreLib** (flytre_lib-0.2.7.jar -> flytre_lib-0.2.9.jar)
+- **Gate Of Babylon** (gate-of-babylon-1.2.1-1.16.2.jar -> gate-of-babylon-1.4.2-1.16.5.jar)
+- **Get Off My Lawn** (get-off-my-lawn-1.16.4-1.3.2-beta.jar -> get-off-my-lawn-1.16.5-1.3.4-beta.jar)
+- **Give Me Hats!** (give-me-hats-1.16-1.4.jar -> give-me-hats-1.16-1.5.jar)
+- **Golems Galore** (golemsgalore-0.2.0+mc.1.16.2.jar -> golemsgalore-0.2.1+mc.1.16.5.jar)
+- **Industrial Revolution** (indrev-1.8.11-BETA.jar -> indrev-1.9.1-BETA.jar)
+- **Inmis** (inmis-2.1.1-1.16.4.jar -> inmis-2.2.1-1.16.5.jar)
+- **Inventory Sorter** (InventorySorter-1.7.7-1.16.jar -> InventorySorter-1.7.8-1.16.jar)
+- **Jumploader** (jumploader-2.1.2.jar -> jumploader-2.1.3.jar)
+- **Kibe** (kibe-1.16.5-1.6.3-BETA.jar -> kibe-1.16.5-1.6.7-BETA.jar)
+- **KubeJS** (kubejs-1605.3.6-build.170-fabric.jar -> kubejs-1605.3.6-build.179-fabric.jar)
+- **Library of Exile** (Library-Of-Exile-1.16.3-1.0.6.jar -> Library-Of-Exile-1.16.5-1.0.8.jar)
+- **Light Overlay** (light-overlay-5.7.0.jar -> light-overlay-5.8.0.jar)
+- **megane** (megane-3.1.3+1.16.5.jar -> megane-3.1.6+1.16.5.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.14.jar -> Modern-Industrialization-0.3.15.jar)
+- **Mod Menu** (modmenu-1.16.8.jar -> modmenu-1.16.9.jar)
+- **Mo' Structures** (mostructures-1.0.1+mc.1.16.4.jar -> mostructures-1.1.1+mc.1.16.5.jar)
+- **Netherite Plus Mod** (netherite-plus-mod-1.3.17-1.16.5-fabric.jar -> netherite-plus-mod-1.4.2-1.16.5-fabric.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.5-1.8.2.jar -> repurposed_structures-1.16.5-1.10.1-fabric.jar)
+- **Reroll** (reroll-1.2.0-1.16.5.jar -> reroll-1.2.1-1.16.5.jar)
+- **Respawnable Pets** (respawnablepets-1.16.5-1.jar -> respawnablepets-1.16.5-2.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.10.183.jar -> RoughlyEnoughItems-5.11.202.jar)
+- **SlotLock** (slotlock-1.0.1-BETA.jar -> slotlock-1.0.3-BETA.jar)
+- **TacoCraft** (tacocraft-1.4.0+mc.1.16.2.jar -> TacoCraft-1.5.0+mc.1.16.5.jar)
+- **Tech Reborn** (TechReborn-1.16-3.8.1+build.211.jar -> TechReborn-1.16-3.8.2+build.220.jar)
+- **Vanilla Hammers** (vanilla-hammers-3.0.1-1.16.3.jar -> vanilla-hammers-3.0.2-1.16.5.jar)
+- **Croptosis** (wraith-croptosis-1.0.1.jar -> wraith-croptosis-1.1.0.jar)
+- **Harvest Scythes** (wraith-harvestscythes-1.0.9.jar -> wraith-harvestscythes-1.1.0.jar)
+- **wthit** (wthit-2.2.1+1.16.5.jar -> wthit-2.5.4-fabric.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_21.3.0.2_Fabric_1.16.5.jar -> Xaeros_Minimap_21.5.0_Fabric_1.16.5.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.12.0.2_Fabric_1.16.5.jar -> XaerosWorldMap_1.13.1_Fabric_1.16.5.jar)
+- **YUNG's API** (YungsApi-1.16.4-Fabric-1.jar -> YungsApi-1.16.5-Fabric-2.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.6.10</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
