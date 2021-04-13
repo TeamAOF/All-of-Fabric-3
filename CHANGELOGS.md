@@ -4,7 +4,7 @@
 
 **Changed/Fixed**
 - Moved quest system to FTBQ (Yes this sadly means that your quest data will be lost but it's for the better).
-- Added more info into enchants
+- Added more info into enchants.
 - Fixed crashes related to wrenching machines.
 - Fixed memory leak when playing on servers.
 - Fixed bug where world would get stuck at 100% when reloading.
