@@ -33,7 +33,6 @@
 - **Pehkui** (Pehkui-1.9.0+21w10a.jar)
 - **RandomPatches** (randompatches-2.4.5-fabric.jar)
 - **Rat's Mischief** (ratsmischief-1.1.jar)
-- **This Rocks!** (rocks-1.3.1.jar)
 - **Somnus API** (somnus-fabric-0.0.11-1.16.5.jar)
 - **Wireless Networks** (wirelessnetworks-1.0.1.jar)
 - **xlpackets-1.1.jar** (xlpackets-1.1.jar)
