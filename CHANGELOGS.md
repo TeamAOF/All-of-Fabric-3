@@ -1,3 +1,53 @@
+<h1>2.7.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed client freezing on servers.
+- Fixed item pipes being limited to one stack.
+- Fixed auto feeder module voiding sandwiches.
+- Fixed networks trying to interact with unloaded chunks.
+- Fixed missing lang for certain enchantments.
+- Fixed multiple gui issues. The most common being the everything going red bug.
+
+**Removed**
+- **Bosses of Mass Destruction (Beta)**
+
+**Removed**
+- **Bosses of Mass Destruction (Beta)**
+
+**Updated**
+- **Architectury** (architectury-1.10.139-fabric.jar -> architectury-1.10.142-fabric.jar)
+- **Biome Makeover** (biome-makeover-1.16.4-1.2.13.jar -> biome-makeover-1.16.5-1.3.4.jar)
+- **Geckolib** (geckolib-fabric-1.16.5-3.0.29.jar -> geckolib-fabric-1.16.5-3.0.30.jar)
+- **Industrial Revolution** (indrev-1.9.1-BETA.jar -> indrev-1.9.2-BETA.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.15.jar -> Modern-Industrialization-0.3.16.jar)
+- **Netherite Plus Mod** (netherite-plus-mod-1.4.2-1.16.5-fabric.jar -> netherite-plus-mod-1.4.3-1.16.5-fabric.jar)
+- **wthit** (wthit-2.5.4-fabric.jar -> wthit-2.7.0-fabric.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_21.5.0_Fabric_1.16.5.jar -> Xaeros_Minimap_21.6.0_Fabric_1.16.5.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.13.1_Fabric_1.16.5.jar -> XaerosWorldMap_1.13.2_Fabric_1.16.5.jar)
+---------------------------------------------------------------------------------------------
+
+<h1>2.6.8</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed techreborn ingredients.
+- Fixed indrev plank recipe not registering.
+- Fixed drills being uncraftable.
+- Fixed modular armor shields not recharging.
+- Fixed protein tag not loading.
+
+**Updated**
+- **Battle Towers** (battletowers-3.3.2-1.16.4.jar -> battletowers-3.3.3-1.16.4.jar)
+- **Industrial Revolution** (indrev-1.8.2-BETA.jar -> indrev-1.8.5-BETA.jar)
+- **KubeJS** (kubejs-1605.3.6-build.168-fabric.jar -> kubejs-1605.3.6-build.169-fabric.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.12.jar -> Modern-Industrialization-0.3.13.jar)
+- **Traverse** (traverse-3.3.1.jar -> traverse-3.3.2.jar)
+- **VanillaDeathChest** (vanilladeathchest-1.16.3-1.11.0.7-fabric.jar -> vanilladeathchest-2.0.5-fabric.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.7.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
