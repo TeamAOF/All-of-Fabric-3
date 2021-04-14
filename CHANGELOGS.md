@@ -13,9 +13,6 @@
 **Removed**
 - **Bosses of Mass Destruction (Beta)**
 
-**Removed**
-- **Bosses of Mass Destruction (Beta)**
-
 **Updated**
 - **Architectury** (architectury-1.10.139-fabric.jar -> architectury-1.10.142-fabric.jar)
 - **Biome Makeover** (biome-makeover-1.16.4-1.2.13.jar -> biome-makeover-1.16.5-1.3.4.jar)
