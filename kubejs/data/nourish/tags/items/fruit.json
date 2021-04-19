@@ -1,10 +1,7 @@
 {
 	"values": [
-		"astromine:rose_gold_apple",
-		"astromine:fools_gold_apple",
-		"astromine:lead_apple",
-		"arstheurgia:dates",
-		"arstheurgia:syrup",
+		"betterend:shadow_berry_raw",
+		"betterend:shadow_berry_cooked",
 		"byg:holly_berries",
 		"byg:green_apple",
 		"byg:crimson_berries",
@@ -17,8 +14,14 @@
 		"wild_explorer:mango",
 		"wild_explorer:blueberries",
 		"campanion:mre",
-		"sandwichable:apple_slices",
-		"sandwichable:golden_apple_slices",
-		"sandwichable:enchanted_golden_apple_slices"
+		"croptopia:roasted_nuts",
+		"croptopia:trail_mix",
+		"croptopia:protein_bar",
+		"croptopia:cashew_chicken",
+		"croptopia:pecan_ice_cream",
+		"croptopia:candied_nuts",
+		"croptopia:almond_brittle",
+		"croptopia:raisin_oatmeal_cookie",
+		"croptopia:nutty_cookie"
 	]
 }

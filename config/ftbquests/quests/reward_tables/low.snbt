@@ -1,0 +1,35 @@
+{
+	id: "2D848C6B241E653D",
+	order_index: 3,
+	title: "Low",
+	loot_size: 6,
+	rewards: [
+		{
+			item: "minecraft:gold_ore"
+		},
+		{
+			item: "minecraft:iron_ore"
+		},
+		{
+			item: "minecraft:redstone_ore"
+		},
+		{
+			item: "techreborn:copper_ore"
+		},
+		{
+			item: "minecraft:apple"
+		},
+		{
+			item: "byg:green_apple"
+		},
+		{
+			item: "croptopia:banana"
+		},
+		{
+			item: "croptopia:mango"
+		},
+		{
+			item: "croptopia:strawberry"
+		}
+	]
+}

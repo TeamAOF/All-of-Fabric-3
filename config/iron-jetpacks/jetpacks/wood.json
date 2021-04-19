@@ -5,15 +5,15 @@
   "color": "6b511f",
   "armorPoints": 1,
   "enchantability": 15,
-  "craftingMaterial": "minecraft:oak_planks",
+  "craftingMaterial": "tag:minecraft:planks",
   "rarity": 0,
   "capacity": 20000.0,
   "usage": 32.0,
-  "speedVertical": 0.18,
+  "speedVertical": 0.08,
   "accelVertical": 0.1,
   "speedSideways": 0.06,
   "speedHoverDescend": 0.16,
-  "speedHover": 0.14,
+  "speedHover": 0.08,
   "sprintSpeedMulti": 1.0,
   "sprintFuelMulti": 1.0
 }

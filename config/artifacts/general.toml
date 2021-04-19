@@ -1,0 +1,5 @@
+configVersion = 0
+everlastingFoodCooldown = 300
+playExtraHurtSounds = true
+showFirstPersonGloves = true
+showTooltips = true

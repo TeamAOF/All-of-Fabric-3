@@ -3,6 +3,7 @@
     "maxMobsInArena": 8,
     "postEndTimeout": 60,
     "arenaRadius": 12,
+    "warmupTime": 60,
     "maxTime": 24000,
     "allowStartInWrongTerrain": false,
     "allowPlayersLeavingArena": false,

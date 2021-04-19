@@ -1,7 +1,9 @@
 {
-  "enableAshyShoals": true,
-  "enableBlackstoneShales": true,
-  "enableLuminousGrove": true,
-  "enableQuartzCanyon": true,
+  "biomes": {
+    "enableAshyShoals": true,
+    "enableBlackstoneShales": true,
+    "enableLuminousGrove": true,
+    "enableQuartzCanyon": true
+  },
   "enableAshFall": true
 }

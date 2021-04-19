@@ -1,6 +1,0 @@
-{
-	/* Fill common tags automatically with modded items. This may add unintended items.
-	   Intended for pack devs dealing with mods not using common tags.
-	*/
-	"fillCommonTags": false
-}

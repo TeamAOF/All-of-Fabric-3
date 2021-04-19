@@ -1,9 +1,11 @@
-{ 
-	"miscellaneousModule": { 
+{
+	"miscellaneousModule": {
+		// Should fluid changing inside tanks update the block's luminance.
+		"tanksChangeLights": true,
 		// How many mobs can the Cursed Dirt spawn in a chunk.
 		"cursedDirtMobCap": 25
 	},
-	"chunkLoaderModule": { 
+	"chunkLoaderModule": {
 		// If enabled chunk loaders will only work if it's owner is on the server
 		"checkForPlayer": false,
 		// Limits how many active chunk loaders players have. (Set to -1 for infinite)

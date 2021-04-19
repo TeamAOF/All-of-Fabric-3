@@ -1,0 +1,6 @@
+[campsite]
+genChance = 8
+mimicChance = 30
+oreChance = 25
+minY = 0
+maxY = 45

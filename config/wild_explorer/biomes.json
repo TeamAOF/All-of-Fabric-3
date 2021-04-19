@@ -1,10 +1,10 @@
 {
   "pumpkin_pastures": true,
-  "pink_cherry_oak_forest": true,
-  "white_cherry_oak_forest": true,
-  "tall_crimson_forest": true,
-  "tall_warped_forest": true,
-  "tritanopian_gallery": true,
-  "achromatopsian_gallery": true,
-  "protanopian_gallery": true
+  "pumpkin_pastures_weight": 10,
+  "cherry_oak_forests": true,
+  "cherry_oak_forests_weight": 10,
+  "tall_nether_forests": true,
+  "nether_galleries": true,
+  "dark_amaranth_forests": true,
+  "dark_amaranth_forests_weight": 10
 }

@@ -1,0 +1,69 @@
+{ 
+	"lichConfig": { 
+		"eternalNighttime": true,
+		"experienceDrop": 1500,
+		"idleHealingPerTick": 0.20000000298023224,
+		"health": 200.0,
+		"missile": { 
+			"statusEffectId": "minecraft:slowness",
+			"statusEffectDuration": 100,
+			"statusEffectPotency": 2,
+			"damage": 9.0
+		},
+		"comet": { 
+			"explosionStrength": 4.0,
+			"destroysBlocks": true
+		},
+		"summonMechanic": { 
+			"isEnabled": true,
+			"entitiesThatCountToSummonCounter": [ 
+				"minecraft:zombie",
+				"minecraft:skeleton",
+				"minecraft:drowned",
+				"minecraft:giant",
+				"minecraft:husk",
+				"minecraft:phantom",
+				"minecraft:skeleton_horse",
+				"minecraft:stray",
+				"minecraft:wither",
+				"minecraft:wither_skeleton",
+				"minecraft:zoglin",
+				"minecraft:zombie_horse",
+				"minecraft:zombie_villager",
+				"minecraft:zombified_piglin"
+			],
+			"numEntitiesKilledToSummonLich": 250,
+			"numEntitiesKilledToShowCounter": 50
+		}
+	},
+	"obsidilithConfig": { 
+		"health": 200.0,
+		"armor": 14.0,
+		"attack": 16.0,
+		"idleHealingPerTick": 0.5,
+		"experienceDrop": 1000,
+		"spawnPillarOnDeath": true,
+		"anvilAttackExplosionStrength": 4.0,
+		"arenaGeneration": { 
+			"generationHeight": 90,
+			"generationSpacing": 32,
+			"generationSeparation": 24,
+			"generationEnabled": true
+		}
+	},
+	"gauntletConfig": { 
+		"health": 250.0,
+		"armor": 8.0,
+		"attack": 16.0,
+		"idleHealingPerTick": 0.5,
+		"experienceDrop": 1000,
+		"spawnAncientDebrisOnDeath": true,
+		"energizedPunchExplosionSize": 4.5,
+		"normalPunchExplosionMultiplier": 1.5,
+		"arenaGeneration": { 
+			"generationSpacing": 32,
+			"generationSeparation": 24,
+			"generationEnabled": true
+		}
+	}
+}

@@ -5,16 +5,20 @@
     "displayMode": "TOGGLE",
     "hideFromPlayerList": true,
     "hideFromDebug": true,
-    "showItem": true,
     "enableTextToSpeech": false,
     "maxHealthForRender": 40,
-    "maxHeartsPerLine": 10,
-    "displayFluids": false
+    "maxHeartsPerLine": 10
   },
   "overlay": {
-    "overlayPosX": 0.5,
-    "overlayPosY": 0.99,
-    "overlaySize": "NORMAL",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "alignX": "CENTER",
+      "alignY": "TOP",
+      "anchorX": "CENTER",
+      "anchorY": "TOP"
+    },
+    "scale": 1.0,
     "color": {
       "alpha": 80,
       "themes": [
@@ -44,10 +48,10 @@
     }
   },
   "formatting": {
-    "modName": "\\u00A79\\u00A7o%s",
-    "blockName": "\\u00A7f%s",
-    "fluidName": "\\u00A7f%s",
-    "entityName": "\\u00A7f%s",
-    "registryName": "\\u00A77[%s]"
+    "modName": "§9§o%s",
+    "blockName": "§f%s",
+    "fluidName": "§f%s",
+    "entityName": "§f%s",
+    "registryName": "§7[%s]"
   }
 }

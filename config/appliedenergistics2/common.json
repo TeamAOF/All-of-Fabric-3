@@ -81,7 +81,6 @@
   },
   "worldGen": {
     "spawnChargedChance": 0.08,
-    "meteoriteMaximumSpawnHeight": 180,
     "__comment": "Biome IDs in which quartz ores should NOT be generated (i.e. minecraft:plains).",
     "meteoriteBiomeBlacklist": [],
     "quartzOresPerCluster": 4,

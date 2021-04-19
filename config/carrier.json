@@ -2,6 +2,7 @@
   "type": "WHITELIST",
   "list": [
   	"minecraft:*",
-  	"expandedstorage:*" 
+    "expandedstorage:*",
+    "charm:*"
   ]
 }

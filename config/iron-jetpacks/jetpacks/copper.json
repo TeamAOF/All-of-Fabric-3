@@ -9,7 +9,7 @@
   "rarity": 0,
   "capacity": 250000.0,
   "usage": 85.0,
-  "speedVertical": 0.29,
+  "speedVertical": 0.13,
   "accelVertical": 0.11,
   "speedSideways": 0.1,
   "speedHoverDescend": 0.23,

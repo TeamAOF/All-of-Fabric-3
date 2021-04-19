@@ -1,6 +1,5 @@
 {
-  "blunite_patch": true,
-  "carbonite_patch": true,
-  "palm_tree": true,
-  "blueberry_bush": true
+  "igneous_rock_patches": true,
+  "palm_trees": true,
+  "blueberry_bushes": true
 }

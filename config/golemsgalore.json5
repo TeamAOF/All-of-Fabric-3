@@ -24,11 +24,21 @@
 	"speedQuartz": 0.25,
 	"knockbackResistanceQuartz": 0.5,
 	"attackDamageQuartz": 5.0,
+	// Hay Golem
+	"healthHay": 25,
+	"speedHay": 0.3,
+	"knockbackResistanceHay": 0.1,
+	"attackDamageHay": 5.0,
 	// Laser Golem
 	"healthLaser": 75,
 	"speedLaser": 0.25,
 	"knockbackResistanceLaser": 1.0,
 	"attackDamageLaser": 10.0,
+	// Diamond Laser Golem
+	"healthDiamondLaser": 200,
+	"speedDiamondLaser": 0.22,
+	"knockbackResistanceDiamondLaser": 1.0,
+	"attackDamageDiamondLaser": 20.0,
 	// Anti-Creeper Golem
 	"healthCreeper": 75,
 	"speedCreeper": 0.3,

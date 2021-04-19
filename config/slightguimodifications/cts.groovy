@@ -1,5 +1,5 @@
 // Here is the groovy file for screen elements
-info("Hello From 'Slight' Gui Modifications cts script")
+info("Welcome to All of Fabric 3")
 
 mainMenu {
     enabled = true
@@ -29,7 +29,8 @@ mainMenu {
             }
         }
 
-        text = literal("All of Fabric 3 - 2.4.0")
+        text = literal("All of Fabric 3 - 2.7.1")
+        shadow = true
     }
 
     button {

@@ -1,35 +1,63 @@
 {
+  "configVersion": 2,
+  "modules": {
+    "megane-impl": {
+      "badasintended.megane.impl.TechReborn": true,
+      "badasintended.megane.impl.Astromine": false,
+      "badasintended.megane.impl.ArtOfAlchemy": true,
+      "badasintended.megane.impl.Kibe": true,
+      "badasintended.megane.impl.Minecraft": true,
+      "badasintended.megane.impl.ModernIndustrialization": true,
+      "badasintended.megane.impl.IndustrialRevolution": true,
+      "badasintended.megane.impl.AppliedEnergistics2": true,
+      "badasintended.megane.impl.FabricFurnaces": true
+    }
+  },
   "inventory": {
-    "enabled": true,
+    "forceRegistry": false,
+    "enabled": false,
+    "itemCount": false,
+    "nbt": false,
     "maxWidth": 9,
     "maxHeight": 3,
     "blacklist": []
   },
   "entityInventory": {
-    "enabled": true,
+    "enabled": false,
+    "itemCount": false,
+    "nbt": false,
     "maxWidth": 9,
     "maxHeight": 3,
     "blacklist": []
   },
   "energy": {
     "enabled": true,
-    "expandWhenSneak": true,
+    "expandWhenSneak": false,
+    "forceRegistry": false,
     "colors": {
-      "megane": -9368576,
-      "techreborn": -8386560,
-      "astromine": -13275755,
-      "indrev": -12891426
+      "megane": 7408640,
+      "indrev": 3885790,
+      "techreborn": 8390656,
+      "appliedenergistics2": 6556063
     },
     "units": {
       "megane": "E",
-      "indrev": "LF"
+      "indrev": "LF",
+      "techreborn": "E",
+      "appliedenergistics2": "AE"
     },
-    "blacklist": []
+    "blacklist": [
+      "appliedenergistics2:energy_acceptor"
+    ]
   },
   "fluid": {
     "enabled": true,
-    "expandWhenSneak": true,
-    "barColor": -15921831,
+    "expandWhenSneak": false,
+    "forceRegistry": false,
+    "colors": {
+      "megane:default": 855385,
+      "techreborn:methane": 8917592
+    },
     "blacklist": []
   },
   "progress": {

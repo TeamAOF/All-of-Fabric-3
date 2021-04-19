@@ -3,12 +3,36 @@
   "infoTooltipKeyBind": "SHIFT",
   "slowEatingLargeSandwiches": true,
   "baseSandwichEatTime": 32,
+  "itemOptions": {
+    "knives": [
+      {
+        "itemId": "sandwichable:stone_kitchen_knife",
+        "value": 1
+      },
+      {
+        "itemId": "sandwichable:kitchen_knife",
+        "value": 3
+      },
+      {
+        "itemId": "sandwichable:golden_kitchen_knife",
+        "value": 5
+      },
+      {
+        "itemId": "sandwichable:diamond_kitchen_knife",
+        "value": 8
+      },
+      {
+        "itemId": "sandwichable:netherite_kitchen_knife",
+        "value": 20
+      }
+    ]
+  },
   "saltySandGenOptions": {
     "rarity": 18,
     "veinSize": 5,
     "maxGenHeight": 128
   },
   "shrubGenOptions": {
-    "spawnTries": 10
+    "spawnTries": 0
   }
 }

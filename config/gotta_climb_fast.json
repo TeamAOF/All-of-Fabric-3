@@ -1,7 +1,0 @@
-{
-  "factor_comment": "Speed factor of ladder ascending/descending. Default: 4.0F",
-  "ascend_factor": 4.0,
-  "descend_factor": 4.0,
-  "forward_to_ascend_comment": "True = Lookup and go forward to ascend. False = Lookup and no need to go forward to ascend. Default: True",
-  "forward_to_ascend": true
-}

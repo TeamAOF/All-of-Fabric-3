@@ -41,10 +41,91 @@
 			"decay": 0.1,
 			"multiplier": 2.0,
 			"color": "db60ae",
-			"secondary": true
+			"secondary": true,
+			"description": true
 		}
 	],
 	"effects": [
+		{
+			"conditions": [
+				{
+					"groups": [
+						"carbohydrates",
+						"protein",
+						"fats"
+					],
+					"above": 0.85
+				}
+			],
+			"status_effects": [
+				{
+					"status": "strength",
+					"level": 0
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"carbohydrates",
+						"protein",
+						"fats"
+					],
+					"above": 0.95
+				},
+				{
+					"groups": [
+						"fruit",
+						"vegetables"
+					],
+					"above": 0.7
+				}
+			],
+			"status_effects": [
+				{
+					"status": "strength",
+					"level": 1
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"fruit",
+						"vegetables"
+					],
+					"above": 0.9
+				}
+			],
+			"status_effects": [
+				{
+					"status": "speed",
+					"level": 0
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"carbohydrates",
+						"fruit",
+						"vegetables",
+						"protein",
+						"fats"
+					],
+					"above": 0.85
+				}
+			],
+			"status_effects": [
+				{
+					"status": "resistance",
+					"level": 0
+				}
+			]
+		},
 		{
 			"conditions": [
 				{

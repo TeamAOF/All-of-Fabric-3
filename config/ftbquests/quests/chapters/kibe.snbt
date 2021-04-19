@@ -1,0 +1,877 @@
+{
+	id: "678F1B2A6B0EAD8A",
+	group: "",
+	order_index: 0,
+	filename: "kibe",
+	title: "Kibe",
+	icon: "kibe:kibe",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.5d,
+			y: -1.5d,
+			id: "361EB40A421A54D0",
+			tasks: [{
+				id: "5F0C386671CCED97",
+				type: "item",
+				item: "kibe:pocket_crafting_table"
+			}],
+			rewards: [
+				{
+					id: "7BA1CF190C1DE907",
+					type: "item",
+					item: {
+						id: "villagerhats:farmer_hat",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0370BCD2FBBEBC9C",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			dependencies: ["6DB3219A892587E7"],
+			id: "6DF9ED6B11E39EE5",
+			tasks: [{
+				id: "44FF5B36632998F9",
+				type: "item",
+				item: {
+					id: "kibe:slime_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "1DE8BDDF2586D892",
+					type: "item",
+					item: "minecraft:glistering_melon_slice",
+					count: 16
+				},
+				{
+					id: "3FC7A8773FF14DD4",
+					type: "item",
+					item: "minecraft:bone_block",
+					count: 5
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			dependencies: ["414A9FF13407018C"],
+			id: "6DB3219A892587E7",
+			tasks: [{
+				id: "7ACD20B336946E26",
+				type: "item",
+				item: "kibe:slime_sling"
+			}],
+			rewards: [{
+				id: "7EC4D11A3FC3147F",
+				type: "item",
+				item: "hard-hat-steve:safety_vest"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			id: "58841B1EBF6621D7",
+			tasks: [{
+				id: "3BACDE665F5E88B0",
+				type: "item",
+				item: "kibe:kibe"
+			}],
+			rewards: [{
+				id: "71B62ADAB7D599D8",
+				type: "item",
+				item: "minecraft:beef",
+				count: 16
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			dependencies: ["58841B1EBF6621D7"],
+			id: "4E57E55B6E5BEA7E",
+			tasks: [{
+				id: "459F2569F1A0B853",
+				type: "item",
+				item: "kibe:golden_kibe"
+			}],
+			rewards: [{
+				id: "306BDC58133354A3",
+				type: "item",
+				item: "byg:death_cap",
+				count: 16
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.5d,
+			dependencies: ["4E57E55B6E5BEA7E"],
+			id: "02A0144E86588E14",
+			tasks: [{
+				id: "2AB72B2B7BA4E8E4",
+				type: "item",
+				item: "kibe:cursed_kibe"
+			}],
+			rewards: [{
+				id: "2480D5169AC61E0D",
+				type: "item",
+				item: "minecraft:gold_block"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: ["02A0144E86588E14"],
+			id: "7C411E45471F75A9",
+			tasks: [{
+				id: "1C8E09BBFCE9E474",
+				type: "item",
+				item: "kibe:diamond_kibe"
+			}],
+			rewards: [
+				{
+					id: "1554A5BCA721B536",
+					type: "item",
+					item: "trapexpansion:slippery_stone",
+					count: 16
+				},
+				{
+					id: "0A0624040E0E7DC8",
+					type: "item",
+					item: "ezpas:netherite_puller_pipe",
+					count: 2
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			dependencies: ["361EB40A421A54D0"],
+			id: "414A9FF13407018C",
+			tasks: [{
+				id: "3107AA81795E23B7",
+				type: "item",
+				item: "kibe:trash_can"
+			}],
+			rewards: [{
+				id: "638A952E5D87D57E",
+				type: "item",
+				item: {
+					id: "crusade:iron_lance",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -0.5d,
+			dependencies: ["414A9FF13407018C"],
+			id: "2C097D94E43FCA31",
+			tasks: [{
+				id: "371BA976EFFC9C56",
+				type: "item",
+				item: "kibe:pocket_trash_can"
+			}],
+			rewards: [{
+				id: "59A5EF2770CD44CA",
+				type: "item",
+				item: "minecraft:golden_apple"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -0.5d,
+			dependencies: ["5283DE5D0B36F117"],
+			id: "005579D7253783DD",
+			tasks: [{
+				id: "3DE0218DE8AC27FE",
+				type: "item",
+				item: {
+					id: "kibe:magnet",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: "0225106EDF329F67",
+					type: "item",
+					item: "minecraft:gold_ore",
+					count: 16
+				},
+				{
+					id: "485D0FB815091375",
+					type: "item",
+					item: "techreborn:rubber_sapling",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -0.5d,
+			dependencies: ["2C097D94E43FCA31"],
+			id: "5283DE5D0B36F117",
+			tasks: [{
+				id: "41208414FAB8FFB0",
+				type: "item",
+				item: "kibe:sleeping_bag"
+			}],
+			rewards: [
+				{
+					id: "5ED178DD34204B9D",
+					type: "item",
+					item: "dml-refabricated:soot_redstone",
+					count: 6
+				},
+				{
+					id: "455EEE93314E9FD0",
+					type: "item",
+					item: "adorn:stone_torch",
+					count: 12
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -0.5d,
+			dependencies: ["005579D7253783DD"],
+			id: "68E6922D87650FCF",
+			tasks: [{
+				id: "3736BE39C21CE3EE",
+				type: "item",
+				item: "kibe:redstone_timer"
+			}],
+			rewards: [{
+				id: "6E62A72F73710AD4",
+				type: "item",
+				item: {
+					id: "villagerhats:cartographer_hat",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			dependencies: ["6DF9ED6B11E39EE5"],
+			id: "05A746383CAF92B5",
+			tasks: [{
+				id: "3CF403E19CFB43F5",
+				type: "item",
+				item: {
+					id: "kibe:red_glider",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: "0571DFC567A50319",
+					type: "item",
+					item: "minecraft:redstone_ore",
+					count: 16
+				},
+				{
+					id: "56942A64914DB5DA",
+					type: "item",
+					item: "minecraft:gold_ore",
+					count: 10
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 3.0d,
+			id: "723042FEB43DB32B",
+			tasks: [{
+				id: "10275B5AFED17E0A",
+				type: "item",
+				item: "kibe:regular_conveyor_belt"
+			}],
+			rewards: [{
+				id: "17B024D8842669F1",
+				type: "item",
+				item: "minecraft:iron_block",
+				count: 5
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.0d,
+			dependencies: ["723042FEB43DB32B"],
+			id: "1606B1622251F2DA",
+			tasks: [{
+				id: "34014D5F4F37C38C",
+				type: "item",
+				item: "kibe:fast_conveyor_belt"
+			}],
+			rewards: [
+				{
+					id: "07B8CE3E609D3FDA",
+					type: "item",
+					item: "kibe:orange_rune",
+					count: 5
+				},
+				{
+					id: "45F089A8F3F03DF2",
+					type: "item",
+					item: "kibe:yellow_rune",
+					count: 5
+				},
+				{
+					id: "034E975D5CBC8422",
+					type: "item",
+					item: "kibe:pink_rune",
+					count: 5
+				},
+				{
+					id: "3EC2855837A59B6C",
+					type: "item",
+					item: "kibe:brown_rune",
+					count: 5
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 3.0d,
+			dependencies: ["1606B1622251F2DA"],
+			id: "09A32E4B84B60770",
+			tasks: [{
+				id: "37C11AC3D193435F",
+				type: "item",
+				item: "kibe:express_conveyor_belt"
+			}],
+			rewards: [
+				{
+					id: "6800487C3A2B1EB2",
+					type: "item",
+					item: {
+						id: "crookedcrooks:iron_crook",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2148E47F52280958",
+					type: "item",
+					item: "hard-hat-steve:safety_vest"
+				},
+				{
+					id: "756898D1C268D18E",
+					type: "item",
+					item: "hard-hat-steve:hard_hat"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 3.0d,
+			dependencies: ["09A32E4B84B60770"],
+			id: "430038C243856BEE",
+			tasks: [{
+				id: "15754F0F344385D0",
+				type: "item",
+				item: "kibe:white_elevator"
+			}],
+			rewards: [{
+				id: "588AC7C90C4069B9",
+				type: "item",
+				item: "minecraft:ender_pearl",
+				count: 16
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -2.5d,
+			id: "6A09C575021CFFB3",
+			tasks: [{
+				id: "2B68583BE3081BFD",
+				type: "item",
+				item: "kibe:diamond_ring"
+			}],
+			rewards: [
+				{
+					id: "7C11686C6971F5CA",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 2
+				},
+				{
+					id: "781E6D5325EA4403",
+					type: "item",
+					item: "minecraft:soul_torch",
+					count: 12
+				}
+			]
+		},
+		{
+			x: 9.0d,
+			y: -2.5d,
+			dependencies: ["32CCFCF5BFD43059"],
+			id: "713D78B576FC2358",
+			tasks: [{
+				id: "26CECB9F0606FB3F",
+				type: "item",
+				item: {
+					id: "kibe:angel_ring",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "00AB0E3146FC9C79",
+				type: "item",
+				item: "fabric-furnaces:ethereal_furnace"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -2.5d,
+			dependencies: ["096BEB1299C8ACFF"],
+			id: "134A0BDD1EA1B57C",
+			tasks: [{
+				id: "601DB3BDB123333A",
+				type: "item",
+				item: {
+					id: "kibe:magma_ring",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "4AE4D1D6AA2E61E3",
+				type: "item",
+				item: "tacocraft:golden_taco",
+				count: 5
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.5d,
+			dependencies: ["6A09C575021CFFB3"],
+			id: "096BEB1299C8ACFF",
+			tasks: [{
+				id: "206B90038BD45214",
+				type: "item",
+				item: {
+					id: "kibe:water_ring",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "2B59DFAA5511980B",
+				type: "item",
+				item: "minecraft:obsidian",
+				count: 16
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.5d,
+			dependencies: ["134A0BDD1EA1B57C"],
+			id: "32CCFCF5BFD43059",
+			tasks: [{
+				id: "7FF1D418EC755A0D",
+				type: "item",
+				item: "kibe:light_ring"
+			}],
+			rewards: [{
+				id: "7D8F28180474C58E",
+				type: "item",
+				item: "croptopia:tofuburger",
+				count: 12
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -0.5d,
+			dependencies: ["71A8CB25F05858E3"],
+			id: "06B1CFEDB4820C10",
+			tasks: [{
+				id: "68AE47A289AA3CCA",
+				type: "item",
+				item: "kibe:cursed_seeds"
+			}],
+			rewards: [{
+				id: "72297253B4156CD0",
+				type: "item",
+				item: "minecraft:iron_ore",
+				count: 16
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -0.5d,
+			id: "71A8CB25F05858E3",
+			tasks: [{
+				id: "3E4A39B831FDFDE4",
+				type: "item",
+				item: "kibe:cursed_droplets"
+			}],
+			rewards: [{
+				id: "1B68512A1146C579",
+				type: "item",
+				item: "minecraft:grass_block",
+				count: 12
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -0.5d,
+			dependencies: ["06B1CFEDB4820C10"],
+			id: "5B4EFCF837D869DF",
+			tasks: [{
+				id: "26C8889C7FB1D14E",
+				type: "item",
+				item: "kibe:big_torch"
+			}],
+			rewards: [
+				{
+					id: "7B092A063940C5FB",
+					type: "item",
+					item: "minecraft:torch",
+					count: 32
+				},
+				{
+					id: "51CAC25CA6B1B9CB",
+					type: "item",
+					item: "croptopia:tres_leche_cake",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: -0.5d,
+			dependencies: ["5B4EFCF837D869DF"],
+			id: "68FBAC7FEA3519CD",
+			tasks: [{
+				id: "34CD571C5E4907AE",
+				type: "item",
+				item: "kibe:vacuum_hopper"
+			}],
+			rewards: [
+				{
+					id: "3658F30E4B4B5EC7",
+					type: "item",
+					item: "minecraft:ender_eye"
+				},
+				{
+					id: "47D512413F840BB9",
+					type: "item",
+					item: "minecraft:ender_pearl",
+					count: 4
+				},
+				{
+					id: "6DE419862EAF0D77",
+					type: "item",
+					item: "simpleteleporters:tele_crystal"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 0.5d,
+			dependencies: ["68FBAC7FEA3519CD"],
+			id: "3C9101E3DE9CD5F3",
+			tasks: [{
+				id: "4B43456ABF0639E3",
+				type: "item",
+				item: "kibe:iron_spikes"
+			}],
+			rewards: [{
+				id: "1EED86F5E75B98FD",
+				type: "random",
+				table_id: 4023534927821043910L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 1.5d,
+			dependencies: ["3C9101E3DE9CD5F3"],
+			id: "087764F730F2F28F",
+			tasks: [{
+				id: "4A0B72DEAF10B38B",
+				type: "item",
+				item: "kibe:diamond_spikes"
+			}],
+			rewards: [{
+				id: "2DEB0FD5E4BA04A9",
+				type: "choice",
+				table_id: 4023534927821043910L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 4.5d,
+			id: "389E1B4E634FC44B",
+			tasks: [{
+				id: "476CA55663635644",
+				type: "item",
+				item: "kibe:water_wooden_bucket"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 4.5d,
+			dependencies: ["389E1B4E634FC44B"],
+			id: "6D0F80D814762BC6",
+			tasks: [{
+				id: "590AC5AC8849BB95",
+				type: "item",
+				item: "kibe:void_bucket"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.5d,
+			dependencies: ["6D0F80D814762BC6"],
+			id: "0CCADAE611DE18DE",
+			tasks: [{
+				id: "75ECF4406E2C30F9",
+				type: "item",
+				item: {
+					id: "kibe:tank",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 5.5d,
+			dependencies: ["1BC1EA201E056F20"],
+			id: "5A5024A5BBD57C34",
+			tasks: [{
+				id: "794AB6AB54FE7BD9",
+				type: "item",
+				item: "kibe:xp_shower"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.5d,
+			dependencies: ["0CCADAE611DE18DE"],
+			id: "1BC1EA201E056F20",
+			tasks: [{
+				id: "4F8CEE3FF9FA1FD9",
+				type: "item",
+				item: "kibe:xp_drain"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 6.5d,
+			dependencies: ["5A5024A5BBD57C34"],
+			id: "6560D75355D87E0C",
+			tasks: [{
+				id: "40F00F899CEADC49",
+				type: "item",
+				item: "kibe:fluid_hopper"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.5d,
+			dependencies: ["389E1B4E634FC44B"],
+			id: "3C0E959D274AC3FF",
+			tasks: [{
+				id: "081FF796CD0F7C10",
+				type: "item",
+				item: "kibe:cooler"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			id: "79569B5EA267AB78",
+			tasks: [{
+				id: "50E22852D8FFBF39",
+				type: "item",
+				item: {
+					id: "kibe:golden_lasso",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: "24C1984326A6C075",
+					type: "item",
+					item: "minecraft:iron_block",
+					count: 4
+				},
+				{
+					id: "2DFB1D28120E676D",
+					type: "item",
+					item: "minecraft:oak_planks",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 2.5d,
+			dependencies: ["79569B5EA267AB78"],
+			id: "2141D1E07BA2687D",
+			tasks: [{
+				id: "784C7C4A0F187075",
+				type: "item",
+				item: {
+					id: "kibe:cursed_lasso",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "7E172BAA846C3DD8",
+				type: "item",
+				item: "minecraft:ender_pearl",
+				count: 4
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 3.5d,
+			dependencies: ["2141D1E07BA2687D"],
+			id: "1F24357206737FF2",
+			tasks: [{
+				id: "7513DBA102EBAAB6",
+				type: "item",
+				item: {
+					id: "kibe:diamond_lasso",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: "77608B09D7511F94",
+					type: "item",
+					item: "minecraft:diamond_block"
+				},
+				{
+					id: "5F7A30358459ED8A",
+					type: "random",
+					table_id: 4023534927821043910L
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 5.0d,
+			id: "5FE1D3D19D76F02E",
+			tasks: [{
+				id: "04F057119998BAE7",
+				type: "item",
+				item: "kibe:entangled_chest"
+			}],
+			rewards: [{
+				id: "1906C3F4DC32BEFD",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 5.0d,
+			dependencies: ["4984393ED12F6FBD"],
+			id: "601ACCD382EBCECB",
+			tasks: [{
+				id: "2A98D931E04C2929",
+				type: "item",
+				item: "kibe:entangled_tank"
+			}],
+			rewards: [{
+				id: "1B18C350ACF5BF5E",
+				type: "random",
+				table_id: 3133982820876343405L
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 5.0d,
+			dependencies: ["5FE1D3D19D76F02E"],
+			id: "4984393ED12F6FBD",
+			tasks: [{
+				id: "7E95DC5B1FAAE809",
+				type: "item",
+				item: "kibe:entangled_bag"
+			}],
+			rewards: [{
+				id: "5FEA324E1A67C366",
+				type: "choice",
+				table_id: 3133982820876343405L
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 5.0d,
+			dependencies: ["601ACCD382EBCECB"],
+			id: "7151E40AD624965B",
+			tasks: [{
+				id: "3CAFBA924D241CC2",
+				type: "item",
+				item: "kibe:entangled_bucket"
+			}],
+			rewards: [{
+				id: "41EEAB0CB9BAC5F9",
+				type: "random",
+				table_id: 3133982820876343405L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 5.0d,
+			dependencies: ["7151E40AD624965B"],
+			id: "1A2B3EA8BB30F499",
+			tasks: [{
+				id: "6096356AAF6CEC41",
+				type: "item",
+				item: "kibe:chunk_loader"
+			}],
+			rewards: [
+				{
+					id: "5E2F0E676BF8EFF7",
+					type: "random",
+					table_id: 3133982820876343405L
+				},
+				{
+					id: "3026C7FD7F45EDE0",
+					type: "random",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "36EBB99CD22D60AC",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		}
+	]
+}

@@ -120,37 +120,14 @@
 			   Void Biome(where small end islands generate in vanilla) size.
 			   Default: 3
 			*/
-			"VoidBiomeSize": 3,
-			/* 
-			   Add biomes by their registry String ID's in a commented list.
-			   Adding a biome several times gives it more weight in generation.
-			   NO SPACES AFTER COMMAS!
-			   DOES NOT ACCEPT DATAPACK VALUES!
-			   Default: "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands"
-			*/
-			"VoidBiomes": "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands"
+			"VoidBiomeSize": 3
 		},
 		"Islands": { 
 			/* 
 			   End Island Biome Size
 			   Default: 3
 			*/
-			"IslandBiomeSize": 3,
-			/* 
-			   Is the list of biomes a blacklist or whitelist?
-			   When this list is a blacklist, the values in the list will not be in world generation.
-			   When this list is a whitelist, Adding a biome several times gives it more weight in generation and it must contain at least 1 value.
-			   When set to true, datapack biomes will work automatically!
-			   Default: true
-			*/
-			"IsBlackListEnd": true,
-			/* 
-			   This works as a whitelist or blacklist depending on the "isBlacklistEnd" value.
-			   NO SPACES AFTER COMMAS!
-			   DOES NOT ACCEPT DATAPACK VALUES!
-			   Default: "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands,minecraft:the_end,minecraft:end_barrens"
-			*/
-			"BlackListEnd": "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands,minecraft:the_end,minecraft:end_barrens"
+			"IslandBiomeSize": 3
 		}
 	},
 	"NetherDimension": { 

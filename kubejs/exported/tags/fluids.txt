@@ -1,0 +1,55 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 1, 2021 9:04:28 PM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+- indrev:molten_netherite_still
+- indrev:molten_netherite_flowing
+- indrev:molten_iron_still
+- indrev:molten_iron_flowing
+- indrev:molten_copper_still
+- indrev:molten_copper_flowing
+- indrev:molten_gold_still
+- indrev:molten_gold_flowing
+- indrev:molten_tin_still
+- indrev:molten_tin_flowing
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- indrev:coolant_still
+- indrev:coolant_flowing
+- indrev:sulfuric_acid_still
+- indrev:sulfuric_acid_flowing
+- indrev:toxic_mud_still
+- indrev:toxic_mud_flowing
+- artofalchemy:alkahest
+- artofalchemy:flowing_alkahest
+- artofalchemy:essentia_mercury
+- artofalchemy:flowing_essentia_mercury
+- artofalchemy:essentia_venus
+- artofalchemy:flowing_essentia_venus
+- artofalchemy:essentia_tellus
+- artofalchemy:flowing_essentia_tellus
+- artofalchemy:essentia_mars
+- artofalchemy:flowing_essentia_mars
+- artofalchemy:essentia_jupiter
+- artofalchemy:flowing_essentia_jupiter
+- artofalchemy:essentia_saturn
+- artofalchemy:flowing_essentia_saturn
+- artofalchemy:essentia_uranus
+- artofalchemy:flowing_essentia_uranus
+- artofalchemy:essentia_neptune
+- artofalchemy:flowing_essentia_neptune
+- artofalchemy:essentia_apollo
+- artofalchemy:flowing_essentia_apollo
+- artofalchemy:essentia_diana
+- artofalchemy:flowing_essentia_diana
+- artofalchemy:essentia_ceres
+- artofalchemy:flowing_essentia_ceres
+- artofalchemy:essentia_pluto
+- artofalchemy:flowing_essentia_pluto
+- artofalchemy:essentia_void
+- artofalchemy:flowing_essentia_void
+
+#appliedenergistics2:blacklisted/fluid_annihilation_plane

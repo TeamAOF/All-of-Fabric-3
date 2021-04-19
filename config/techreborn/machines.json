@@ -1,4 +1,25 @@
 {
+  "recycler": {
+    "RecyclerChance": {
+      "comment": "Recycler Chance to produce scrap (1 out of chance)",
+      "value": 6
+    },
+    "RecyclerInput": {
+      "comment": "Recycler Max Input",
+      "value": 32
+    },
+    "RecyclerBlacklist": {
+      "comment": "Recycler blacklist",
+      "value": [
+        "techreborn:scrap_box",
+        "techreborn:scrap"
+      ]
+    },
+    "RecyclerMaxEnergy": {
+      "comment": "Recycler Max Energy",
+      "value": 1000
+    }
+  },
   "greenhouse_controller": {
     "GreenhouseControllerEnergyPerBonemeal": {
       "comment": "Greenhouse Controller Energy Per Bonemeal",
@@ -319,23 +340,6 @@
     "ChunkLoaderMaxRadius": {
       "comment": "Chunk Loader Max Radius",
       "value": 5
-    }
-  },
-  "recycler": {
-    "RecyclerInput": {
-      "comment": "Recycler Max Input (Value in EU)",
-      "value": 32
-    },
-    "RecyclerBlacklist": {
-      "comment": "Recycler blacklist",
-      "value": [
-        "techreborn:scrap_box",
-        "techreborn:scrap"
-      ]
-    },
-    "RecyclerMaxEnergy": {
-      "comment": "Recycler Max Energy (Value in EU)",
-      "value": 1000
     }
   },
   "industrial_grinder": {

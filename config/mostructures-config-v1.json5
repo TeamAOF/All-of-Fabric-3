@@ -56,7 +56,15 @@
 		// Abandoned Churches
 		"abandoned_churches": true,
 		// Villager Market
-		"villager_market": true
+		"villager_market": true,
+		// Pillager Factory
+		"pillager_factory": true,
+		// Ice Tower
+		"ice_tower": true,
+		// Boar Hat Tavern
+		"tavern": true,
+		// Killer Bunny Castle
+		"killer_bunny_castle": true
 	},
 	// Structure chances. Seperation is the least amount of chunks that a structure will spawn from itself. Spacing is the maximum amount of chunks, and both are used to randomly spawn structures and can be tweaked.
 	"structureChances": { 
@@ -80,9 +88,18 @@
 		"abandoned_church_spacing": 40,
 		// Villager Market
 		"villager_market_seperation": 27,
-		"villager_market_spacing": 50
-	},
-	// You can use it to blacklist biomes yourself, overworld and modded dimensions in case I haven't covered them.
-	"biome_id_blacklist": [ 
-]
+		"villager_market_spacing": 50,
+		// Pillager Factory
+		"pillager_factory_seperation": 27,
+		"pillager_factory_spacing": 50,
+		// Ice Tower
+		"ice_tower_seperation": 8,
+		"ice_tower_spacing": 32,
+		// Boar Hat Tavern
+		"tavern_seperation": 16,
+		"tavern_spacing": 46,
+		// Killer Bunny Castle
+		"killer_bunny_castle_seperation": 25,
+		"killer_bunny_castle_spacing": 50
+	}
 }

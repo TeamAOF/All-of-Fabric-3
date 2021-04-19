@@ -1,0 +1,12 @@
+{
+  "mixin": {
+    "appliedenergistics2.MTileWailaDataProvider": true,
+    "modern_industrialization.ATankBlockEntity": true,
+    "minecraft.AHorseBaseEntity": true,
+    "modern_industrialization.AMultiblockMachineBlockEntity": true,
+    "fabric_furnaces.ABaseFurnaceEntity": true,
+    "modern_industrialization.ACreativeTankBlockEntity": true,
+    "modern_industrialization.AMachineBlockEntity": true,
+    "artofalchemy.AProgress": true
+  }
+}

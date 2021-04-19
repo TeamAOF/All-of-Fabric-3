@@ -1,0 +1,14 @@
+{
+  "isEnable": true,
+  "debug": false,
+  "BurnTime": "onShiftAndDebug",
+  "Durability": "show",
+  "Food": "onShiftAndDebug",
+  "NBT": "onShiftAndDebug",
+  "ID": "onShift",
+  "MaxStackSize": "onDebug",
+  "TranslationKey": "onDebug",
+  "RepairCost": "onShift",
+  "Enchantability": "onShift",
+  "MiningLevel": "show"
+}

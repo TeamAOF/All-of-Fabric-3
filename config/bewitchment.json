@@ -1,0 +1,50 @@
+{
+  "silverSize": 6,
+  "silverMaxHeight": 48,
+  "silverCount": 5,
+  "saltSize": 12,
+  "saltMaxHeight": 96,
+  "saltCount": 6,
+  "owlBiomeCategories": [
+    "taiga",
+    "forest"
+  ],
+  "owlWeight": 10,
+  "owlMinGroupCount": 1,
+  "owlMaxGroupCount": 2,
+  "ravenBiomeCategories": [
+    "plains",
+    "forest"
+  ],
+  "ravenWeight": 10,
+  "ravenMinGroupCount": 1,
+  "ravenMaxGroupCount": 3,
+  "snakeBiomeCategories": [
+    "plains",
+    "savanna",
+    "desert"
+  ],
+  "snakeWeight": 6,
+  "snakeMinGroupCount": 1,
+  "snakeMaxGroupCount": 2,
+  "toadBiomeCategories": [
+    "jungle",
+    "swamp"
+  ],
+  "toadWeight": 10,
+  "toadMinGroupCount": 1,
+  "toadMaxGroupCount": 3,
+  "ghostWeight": 6,
+  "ghostMinGroupCount": 1,
+  "ghostMaxGroupCount": 1,
+  "vampireWeight": 10,
+  "vampireMinGroupCount": 1,
+  "vampireMaxGroupCount": 1,
+  "werewolfWeight": 10,
+  "werewolfMinGroupCount": 1,
+  "werewolfMaxGroupCount": 1,
+  "hellhoundWeight": 6,
+  "hellhoundMinGroupCount": 1,
+  "hellhoundMaxGroupCount": 1,
+  "doDemonTradesRefresh": true
+}

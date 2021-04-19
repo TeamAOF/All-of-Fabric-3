@@ -1,0 +1,6 @@
+{
+	// Levels required/consumed per reroll in an Enchantment Table.
+	"levelsPerReroll": 1,
+	// Lapis Lazuli required/consumed per reroll in an Enchantment Table.
+	"lapisPerReroll": 0
+}

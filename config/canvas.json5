@@ -1,0 +1,78 @@
+{
+	// Glow effect around light sources. Work-in-Progress
+	"enableBloom": true,
+	// Intensity of glow effect around light sources. 0.0 to 0.5, default is 0.1.
+	"bloomIntensity": 0.20000000298023224,
+	// Size of bloom effect around light sources. 0.0 to 2.0, default is 0.25.
+	"bloomScale": 0.6000000238418579,
+	// Animated foliage
+	"wavyGrass": true,
+	// Enable rendering of internal buffers for debug purposes. Off by default to prevent accidental activation.
+	"enableBufferDebug": false,
+	// Output load/reload trace data to log. Will have performance impact.
+	"enableLifeCycleDebug": false,
+	// Makes terrain fog a little less foggy or turns it off.
+	"fogMode": "SUBTLE",
+	// Fluid biome colors are blended at block corners to avoid patchy appearance. Slight peformance impact to chunk loading.
+	"blendFluidColors": true,
+	// Truly smoothh lighting. Some impact to memory use, chunk loading and frame rate.
+	"hdLightmaps": false,
+	// Slight variation in light values - may prevent banding. Slight performance impact and not usually necessary.
+	"lightmapNoise": false,
+	// Mimics directional light.
+	"diffuseShadingMode": "NORMAL",
+	// Makes light sources less cross-shaped. Chunk loading a little slower. Overall light levels remain similar.
+	"lightSmoothing": true,
+	// Mimics light blocked by nearby objects.
+	"aoShadingMode": "NORMAL",
+	// Setting > 0 may give slightly better FPS at cost of potential flickering when lighting changes.
+	"maxLightmapDelayFrames": 0,
+	// Extra lightmap capacity. Ensure enabled if you are getting `unable to create HD lightmap(s) - out of space' messages.
+	"moreLightmap": true,
+	// Models with flat lighting have smoother lighting (but no ambient occlusion).
+	"semiFlatLighting": true,
+	// Draws multiple chunks with same view transformation. Much faster, but try without if you see visual defects.
+	"batchedChunkRender": true,
+	// Adjusts quads on some vanilla models (like iron bars) to avoid z-fighting with neighbor blocks.
+	"preventDepthFighting": true,
+	// Treats model geometry outside of block boundaries as on the block for lighting purposes. Helps prevent bad lighting outcomes.
+	"clampExteriorVertices": true,
+	// Prevent Glowstone and other blocks that emit light from casting shade on nearby blocks.
+	"fixLuminousBlockShading": true,
+	// Terrain setup done off the main render thread. Increases FPS when moving. May see occasional flashes of blank chunks
+	"terrainSetupOffThread": true,
+	// Use Vertex Array Objects if available. VAOs generally improve performance when they are supported.
+	"enableVao": true,
+	// Use more efficient entity culling. Improves framerate in most scenes.
+	"cullEntityRender": true,
+	// When true, render thread does not yield to other threads every frame. Vanilla behavior is false (yields).
+	"greedyRenderThread": true,
+	// Use more efficient model loading. Improves chunk rebuild speed and reduces memory use.
+	"forceJmxModelLoading": true,
+	// Output runtime per-material shader source. For shader development debugging.
+	"shaderDebug": false,
+	// Shows HD lightmap pixels for debug purposes. Also looks cool.
+	"lightmapDebug": false,
+	// Summarizes multiple errors and warnings to single-line entries in the log.
+	"conciseErrors": true,
+	// Writes information useful for bug reports to the game log at startup.
+	"logMachineInfo": true,
+	// Writes OpenGL state changes to log.  *VERY SPAMMY - KILLS FRAME RATE*  Used only for debugging.
+	"logGlStateChanges": false,
+	// Enables LWJGL memory allocation tracking.  Will harm performance. Use for debugging memory leaks. Requires restart.
+	"debugNativeMemoryAllocation": false,
+	// Uses slower and safer memory allocation method for GL buffers.  Use only if having problems. Requires restart.
+	"safeNativeMemoryAllocation": false,
+	// Output performance trace data to log. Will have significant performance impact. Requires restart.
+	"enablePerformanceTrace": false,
+	// Output periodic snapshots of terrain occlusion raster. Will have performance impact.
+	"debugOcclusionRaster": false,
+	// Render active occlusion boxes of targeted render region. Will have performance impact and looks strange.
+	"debugOcclusionBoxes": false,
+	// Log clipping or other non-critical failures detected by terrain occluder. May spam the log.
+	"traceOcclusionEdgeCases": false,
+	// Log uniforms not found in shaders. Sometimes useful for shader debug. Will spam the log.
+	"logMissingUniforms": false,
+	// For use in development - enables work-in-progress rendering features.
+	"enableExperimentalPipeline": false
+}

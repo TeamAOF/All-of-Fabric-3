@@ -5,5 +5,6 @@
   "enableAllBlockBreakingAnimation": true,
   "disableExtendedHitboxWhileSneaking": true,
   "breakSingleBlockWhenSneaking": true,
-  "individualBlockOutlines": false
+  "individualBlockOutlines": false,
+  "autoPickup": false
 }

@@ -1,6 +1,0 @@
-{
-	// Specifies specific recipes to remove from the game.
-	"removeRecipesByIdentifier": [],
-	// Item identifiers specified here will prevent any recipe for one of that item.
-	"removeRecipesByItem": []
-}

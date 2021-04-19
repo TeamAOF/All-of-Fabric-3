@@ -1,5 +1,5 @@
 {
-  "configVersion": "0.7.1",
+  "configVersion": "0.7.2",
   "doModCompat": true,
   "reloadConfigCommand": false,
   "threadedNoiseGeneration": true,

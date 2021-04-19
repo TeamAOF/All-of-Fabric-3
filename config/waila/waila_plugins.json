@@ -15,9 +15,13 @@
     "enabled": false
   },
   "waila": {
+    "show_blocks": true,
     "show_registry": false,
+    "show_mod_name": true,
+    "show_fluids": false,
     "show_entity_hp": true,
     "show_states": false,
+    "show_item": true,
     "show_entities": true
   }
 }

@@ -18,7 +18,9 @@
 		"campanion:mre",
 		"campanion:cracker",
 		"campanion:smore",
-		"sandwichable:bread_slice",
-		"sandwichable:toasted_bread_slice"
+		"gofish:grilled_blackstone_deluxe",
+		"croptopia:leek_soup",
+		"croptopia:raisin_oatmeal_cookie",
+		"croptopia:nutty_cookie"
 	]
 }

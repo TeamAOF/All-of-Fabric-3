@@ -92,7 +92,7 @@
 			"conditions": [
 				{
 					"groups": [
-						"fruits",
+						"fruit",
 						"vegetables"
 					],
 					"above": 0.9

@@ -1,0 +1,12 @@
+{ 
+	/* 
+	   
+	   ***********************
+	   Dimensions
+	   ***********************
+	*/
+	"enableMining": true,
+	"enableHunting": true,
+	"enableCaving": true,
+	"enableNethering": true
+}

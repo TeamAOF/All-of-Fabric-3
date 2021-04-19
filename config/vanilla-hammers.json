@@ -1,4 +1,5 @@
 {
   "enableExtraMaterials": true,
-  "durabilityModifier": 2
+  "durabilityModifier": 2,
+  "breakSpeedMultiplier": 1.0
 }

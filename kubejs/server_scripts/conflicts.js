@@ -3,14 +3,6 @@
 ////////////////////////
 
 events.listen("recipes", function (event) {
-  // Kitchen Knife
-  event.remove({ output: "sandwichable:kitchen_knife" });
-
-  event.shaped(item.of("sandwichable:kitchen_knife"), [
-    ["minecraft:iron_nugget"],
-    ["minecraft:iron_nugget"],
-    ["minecraft:stick"],
-  ]);
 
   // Wooden Bucket / Small Logs
   event.remove({ output: "blockus:oak_small_logs" });
@@ -45,22 +37,9 @@ events.listen("recipes", function (event) {
 
   // Charcoal & Glowstone
   event.remove({ output: "techreborn:glowstone_small_dust" });
-  event.remove({ output: "astromine:glowstone_tiny_dust" });
-  event.remove({ output: "dwarfcoal:charcoal_block" });
 
   event.shaped(item.of("techreborn:glowstone_small_dust", 4), [
     ["minecraft:glowstone_dust"],
-  ]);
-
-  event.shaped(item.of("astromine:glowstone_tiny_dust", 18), [
-    ["minecraft:glowstone_dust", "minecraft:glowstone_dust"],
-  ]);
-
-  event.shaped(item.of("dwarfcoal:charcoal_block", 3), [
-    ["minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal",
-     "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal",
-     "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal"
-    ],
   ]);
 
   // Iron Plating / Iron Furnace
@@ -70,6 +49,13 @@ events.listen("recipes", function (event) {
     "techreborn:iron_plate"
   );
 
+    // Chests
+    event.replaceInput(
+      {},
+      "#c:wooden_chests",
+      "#c:wooden_chests"
+    );
+
   // Diamond Chain
   event.replaceInput(
     { id: "mochains:diamond_chain" },
@@ -78,43 +64,17 @@ events.listen("recipes", function (event) {
   );
 
   // Crafting Tables
-  var tables = [
-    "byg:aspen_crafting_table",
-    "byg:baobab_crafting_table",
-    "byg:blue_enchanted_crafting_table",
-    "byg:cherry_crafting_table",
-    "byg:cika_crafting_table",
-    "byg:cypress_crafting_table",
-    "byg:ebony_crafting_table",
-    "byg:fir_crafting_table",
-    "byg:green_enchanted_crafting_table",
-    "byg:zelkova_crafting_table",
-    "byg:witch_hazel_crafting_table",
-    "byg:willow_crafting_table",
-    "byg:holly_crafting_table",
-    "byg:jacaranda_crafting_table",
-    "byg:mahogany_crafting_table",
-    "byg:mangrove_crafting_table",
-    "byg:mangrove_crafting_table",
-    "byg:pine_crafting_table",
-    "byg:rainbow_eucalyptus_crafting_table",
-    "byg:redwood_crafting_table",
-    "byg:skyris_crafting_table",
-  ];
-
-  tables.forEach(function (item, index) {
-    event.remove({ type: "crafting_shaped", output: item });
-  });
+    event.remove({ type: "crafting_shaped", output: "#c:workbench" });
 
   // Fragments
   event.remove({ output: "techreborn:diamond_nugget" });
   event.remove({ output: "techreborn:emerald_nugget" });
 
-  // Crude Storage Unit
+  // Barrels
   event.replaceInput(
     { type: "minecraft:crafting_shaped" },
     "minecraft:barrel",
-    "#blockus:barrels"
+    "#charm:barrels"
   );
 
   // Bamboo
@@ -141,41 +101,22 @@ events.listen("recipes", function (event) {
     [null, "#c:tin_ingots", null],
   ]);
 
-  // Industrial Revolution Gear
-  var indrevGear = [
-    "copper_helmet",
-    "copper_chestplate",
-    "copper_leggings",
-    "copper_boots",
-    "copper_pickaxe",
-    "copper_axe",
-    "copper_shovel",
-    "copper_sword",
-    "copper_hoe",
-    "tin_helmet",
-    "tin_chestplate",
-    "tin_leggings",
-    "tin_boots",
-    "tin_pickaxe",
-    "tin_axe",
-    "tin_shovel",
-    "tin_sword",
-    "tin_hoe",
-    "steel_helmet",
-    "steel_chestplate",
-    "steel_leggings",
-    "steel_boots",
-    "steel_pickaxe",
-    "steel_axe",
-    "steel_shovel",
-    "steel_sword",
-    "steel_hoe",
-  ];
-
   // AE2 Grindstone 
   event.remove({ output: "appliedenergistics2:grindstone" });
 
-  indrevGear.forEach(function (item, index) {
-    event.remove({ type: "crafting_shaped", output: "indrev:" + item });
-  });
+    // Barrels
+    var blockus_barrels = [
+      "oak",
+      "birch",
+      "jungle",
+      "acacia",
+      "dark_oak",
+      "crimson",
+      "warped",
+    ];
+  
+    blockus_barrels.forEach(function (item, index) {
+      event.remove({ type: "crafting_shaped", output: "blockus:" + item + "_barrel" });
+    });
+
 });

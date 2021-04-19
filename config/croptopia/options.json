@@ -2,10 +2,11 @@
   "options": {
     "_comment": "Set this to false if you want to get seeds anytime you break tall grass.",
     "use-hoe-to-collect-seeds": false,
-    "disable-salt-ore": true
+    "disable-salt-ore": false
   },
   "seeds": {
     "_comment": "You can configure the biome category that seeds will drop in and the chance to drop. Acceptable biome categories are: taiga, extreme_hills, jungle, mesa, plains, savanna, icy, the_end, beach, forest, ocean, desert, river, swamp, mushroom, nether",
+    "__comment": "Set this to none if you want them to drop from any biome category.",
     "artichoke_seed": {
       "biome-category": "swamp",
       "drop-chance": 0.0125
@@ -224,6 +225,10 @@
     },
     "soybean_seed": {
       "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "vanilla_seeds": {
+      "biome-category": "jungle",
       "drop-chance": 0.0125
     }
   }
