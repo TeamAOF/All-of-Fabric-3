@@ -13,6 +13,14 @@ events.listen("recipes", function (event) {
     ["minecraft:stick"],
   ]);
 
+  // Ender Binding
+  event.remove({ output: "goml:ender_binding" });
+  event.shaped(item.of("goml:ender_binding"), [
+    ["minecraft:obsidian", "minecraft:crying_obsidian", "minecraft:obsidian"],
+    ["minecraft:crying_obsidian", "minecraft:ender_eye", "minecraft:crying_obsidian"],
+    ["minecraft:obsidian", "minecraft:crying_obsidian", "minecraft:obsidian"],
+  ]);
+
   // Wooden Bucket / Small Logs
   event.remove({ output: "blockus:oak_small_logs" });
   event.remove({ output: "blockus:spruce_small_logs" });
