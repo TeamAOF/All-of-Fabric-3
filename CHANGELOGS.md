@@ -1,3 +1,38 @@
+<h1>2.7.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed recipe conflict with ceremonial knife.
+- Fixed recipe conflict with ender binding.
+- Fixed debug log spam on servers.
+- Fixed loot table for wireless networks, they wouldnt drop on break.
+- Fixed dc from server related to Taco Craft.
+- Buffed indrev energy cables.
+- Added a window/bar title icon.
+- Server list no longer resets on updating.
+- Added bewitchment salt ore to world gen for rituals.
+
+**Added**
+- **Builtin Servers** (builtin-servers-1.0-BETA.jar)
+
+**Updated**
+- **Architectury** (architectury-1.10.142-fabric.jar -> architectury-1.12.145-fabric.jar)
+- **Biome Makeover** (biome-makeover-1.16.5-1.3.4.jar -> biome-makeover-1.16.5-1.3.6.jar)
+- **Fabric API** (fabric-api-0.32.5+1.16.jar -> fabric-api-0.33.0+1.16.jar)
+- **Geckolib** (geckolib-fabric-1.16.5-3.0.30.jar -> geckolib-fabric-1.16.5-3.0.31.jar)
+- **Give Me Hats!** (give-me-hats-1.16-1.5.jar -> give-me-hats-1.16-1.5.1.jar)
+- **Industrial Revolution** (indrev-1.9.2-BETA.jar -> indrev-1.9.4-BETA.jar)
+- **Inventory Sorter** (InventorySorter-1.7.8-1.16.jar -> InventorySorter-1.7.9-1.16.jar)
+- **KubeJS** (kubejs-1605.3.6-build.179-fabric.jar -> kubejs-1605.3.7-build.184-fabric.jar)
+- **Lifts** (lifts-1.16.5-1.0.5-BETA.jar -> lifts-1.16.5-1.1.0-BETA.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.5-1.10.1-fabric.jar -> repurposed_structures-1.16.5-1.10.3-fabric.jar)
+- **Rhino** (rhino-1.7.13-build.14.jar -> rhino-1.7.13-build.23.jar)
+- **TacoCraft** (TacoCraft-1.5.0+mc.1.16.5.jar -> TacoCraft-1.5.1+mc.1.16.5.jar)
+- **Wild Explorer** (wild_explorer-1.3.2.jar -> wild_explorer-1.3.3.jar)
+- **Wireless Networks** (wirelessnetworks-1.0.1.jar -> wirelessnetworks-1.0.2.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.7.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
