@@ -10,6 +10,8 @@ assignees: ''
 **Is this a modpack or mod issue?**
 (if something is screwy using a certain mod, then send the bug to the mod dev first.)
 
+**PLEASE MENTION IF YOU ADDED ANY MODS.. ESPECIALLY SODIUM, IF YOU DON'T, IT MAKES US VERY GRUMPY**
+
 
 **Modpack Version**
 (any bugs using a non-up-to-date version will be asked to replicate with the most up-to-date release)
