@@ -1,4 +1,7 @@
 {
 	// Inventories that should not be sorted
-	"blacklistedInventories": []
+	"blacklistedInventories": [
+		"tfar.dankstorage.client.screens.DockScreen",
+		"tfar.dankstorage.client.screens.PortableDankStorageScreen"
+	]
 }
