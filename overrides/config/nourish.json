@@ -1,0 +1,194 @@
+{
+	"groups": [
+		{
+			"name": "carbohydrates",
+			"default_value": 0.8,
+			"decay": 0.12,
+			"multiplier": 1.0,
+			"color": "d9b05f"
+		},
+		{
+			"name": "fruit",
+			"default_value": 0.8,
+			"decay": 0.08,
+			"multiplier": 1.0,
+			"color": "5f9cd9"
+		},
+		{
+			"name": "vegetables",
+			"default_value": 0.8,
+			"decay": 0.11,
+			"multiplier": 1.0,
+			"color": "63db60"
+		},
+		{
+			"name": "protein",
+			"default_value": 0.8,
+			"decay": 0.08,
+			"multiplier": 1.0,
+			"color": "db6460"
+		},
+		{
+			"name": "fats",
+			"default_value": 0.7,
+			"decay": 0.05,
+			"multiplier": 2.0,
+			"color": "8360db"
+		},
+		{
+			"name": "sweets",
+			"default_value": 0.4,
+			"decay": 0.1,
+			"multiplier": 2.0,
+			"color": "db60ae",
+			"secondary": true,
+			"description": true
+		}
+	],
+	"effects": [
+		{
+			"conditions": [
+				{
+					"groups": [
+						"carbohydrates",
+						"protein",
+						"fats"
+					],
+					"above": 0.85
+				}
+			],
+			"status_effects": [
+				{
+					"status": "strength",
+					"level": 0
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"carbohydrates",
+						"protein",
+						"fats"
+					],
+					"above": 0.95
+				},
+				{
+					"groups": [
+						"fruit",
+						"vegetables"
+					],
+					"above": 0.7
+				}
+			],
+			"status_effects": [
+				{
+					"status": "strength",
+					"level": 1
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"fruit",
+						"vegetables"
+					],
+					"above": 0.9
+				}
+			],
+			"status_effects": [
+				{
+					"status": "speed",
+					"level": 0
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"carbohydrates",
+						"fruit",
+						"vegetables",
+						"protein",
+						"fats"
+					],
+					"above": 0.85
+				}
+			],
+			"status_effects": [
+				{
+					"status": "resistance",
+					"level": 0
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"carbohydrates",
+						"fruit",
+						"vegetables",
+						"protein",
+						"fats"
+					],
+					"below": 0.4
+				}
+			],
+			"status_effects": [
+				{
+					"status": "weakness",
+					"level": 0
+				},
+				{
+					"status": "mining_fatigue",
+					"level": 0
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"carbohydrates",
+						"fruit",
+						"vegetables",
+						"protein",
+						"fats"
+					],
+					"below": 0.2
+				}
+			],
+			"status_effects": [
+				{
+					"status": "weakness",
+					"level": 1
+				},
+				{
+					"status": "slowness",
+					"level": 0
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"groups": [
+						"sweets"
+					],
+					"above": 0.95
+				}
+			],
+			"status_effects": [
+				{
+					"status": "hunger",
+					"level": 0
+				}
+			]
+		}
+	]
+}

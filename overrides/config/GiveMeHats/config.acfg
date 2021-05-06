@@ -1,0 +1,24 @@
+#to disable a hat set its weight to 0
+bowlerhat=1
+tophat=1
+topesthat=1
+bunnyears=1
+spacehelmet=1
+catears=1
+cowboyhat=1
+crown=1
+deerstalkerhat=1
+electricmouseears=1
+fez=1
+floatinghat=1
+foxears=1
+irishhat=1
+russianhat=1
+sailorhat=1
+santahat=1
+slimehat=1
+striderhat=1
+taterhat=1
+woolrushat=1
+#this should probably not go lower than 10, it makes it so you not always guaranteed a hat
+air=10

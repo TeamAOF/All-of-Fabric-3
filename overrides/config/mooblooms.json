@@ -1,0 +1,100 @@
+{
+  "dandelionMoobloom": {
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "poppyMoobloom": {
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "blueOrchidMoobloom": {
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "alliumMoobloom": {
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "oxeyeDaisyMoobloom": {
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "cornflowerMoobloom": {
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "witherRoseMoobloom": {
+    "weight": 80,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true,
+    "damagePlayers": true
+  },
+  "suncower": {
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "bambmoo": {
+    "weight": 60,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "cowctus": {
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true,
+    "damagePlayers": true
+  },
+  "crimsonMooshroom": {
+    "weight": 100,
+    "minGroupSize": 4,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "warpedMooshroom": {
+    "weight": 100,
+    "minGroupSize": 4,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "redCluckshroom": {
+    "weight": 10,
+    "minGroupSize": 4,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "brownCluckshroom": {
+    "weight": 10,
+    "minGroupSize": 4,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "crimsonCluckshroom": {
+    "weight": 100,
+    "minGroupSize": 4,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "warpedCluckshroom": {
+    "weight": 100,
+    "minGroupSize": 4,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  }
+}

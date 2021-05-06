@@ -1,0 +1,9 @@
+{
+	"enchantment.gateofbabylon.dragon_slash.desc": "Leaves a trail of Dragon Breath in your wake, which deals damage to any mobs that step inside it.",
+	"enchantment.gateofbabylon.flame_slash.desc": "Sets mobs on fire.",
+	"enchantment.gateofbabylon.lunging.desc": "If you enchant your Rapier with Lunging, the range you travel will be increased. This enchantment caps at level 3.",
+	"enchantment.gateofbabylon.quickdraw.desc": "Allows you to draw your bow faster.  If you enchant your Bow with Quick Draw, it will have a reduced draw time, up to 10 ticks (~3.3 per level). Maxes at level 3.",
+	"enchantment.gateofbabylon.smashing.desc": "If you enchant your Waraxe with Smashing, the range, damage, and knockback of the shockwave will be increased. There is only 1 level to this enchantment. Due to the rough nature of the Waraxe with Smashing, it is incompatible with Looting.",
+	"enchantment.gateofbabylon.thunder_slash.desc": "Summons thunderbolts to smite entities you hit.",
+	"enchantment.gateofbabylon.vampire_slash.desc": "Heals you for a single heart for each mob hit."
+}

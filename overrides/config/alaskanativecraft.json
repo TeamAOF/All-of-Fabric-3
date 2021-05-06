@@ -1,0 +1,9 @@
+{
+  "snowballConversion": false,
+  "mooseEatBark": true,
+  "sealFishing": {
+    "sealsHuntFish": true,
+    "sealsEatHuntedFish": true,
+    "sealsBreedFromHuntedFish": false
+  }
+}

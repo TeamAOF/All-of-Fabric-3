@@ -1,0 +1,179 @@
+# VanillaDeathChest configuration.
+
+# Options related to death chest spawning.
+[spawning]
+	# The death chest container type.
+	# SINGLE_CHEST: Only single chests.
+	# SINGLE_OR_DOUBLE_CHEST: Single or double chests.
+	# SINGLE_SHULKER_BOX: Single shulker boxes.
+	# SINGLE_OR_DOUBLE_SHULKER_BOX: Single or double shulker boxes.
+	# Default: "SINGLE_OR_DOUBLE_CHEST"
+	container_type = "SINGLE_OR_DOUBLE_CHEST"
+	# The color of the shulker box if the container type is a shulker box.
+	# WHITE: White.
+	# ORANGE: Orange.
+	# MAGENTA: Magenta.
+	# LIGHT_BLUE: Light blue.
+	# YELLOW: Yellow.
+	# LIME: Lime.
+	# PINK: Pink.
+	# GRAY: Gray.
+	# LIGHT_GRAY: Light gray.
+	# CYAN: Cyan.
+	# PURPLE: Purple.
+	# BLUE: Blue.
+	# BROWN: Brown.
+	# GREEN: Green.
+	# RED: Red.
+	# BLACK: Black.
+	# RANDOM: Random color.
+	# Default: "WHITE"
+	shulker_box_color = "WHITE"
+	# The dimensions that death chests should or should not spawn in.
+	# Default: []
+	dimensions = []
+	# Whether the dimensions list should be a blacklist or a whitelist.
+	# BLACKLIST: blacklist.
+	# WHITELIST: whitelist.
+	# Default: "BLACKLIST"
+	dimensions_behavior = "BLACKLIST"
+	# The radius around the location of a player's death in which a suitable death chest placement location should be searched for.
+	# Min: 1
+	# Max: 2147483647
+	# Default: 8
+	location_search_radius = 8
+	# Causes a death chest to be forcibly placed at the location of a player's death if no suitable locations are found nearby.
+	# Default: true
+	force_placement_if_no_suitable_location = true
+	# Requires death chest placement to be on solid blocks.
+	# Default: false
+	require_placement_on_solid_blocks = false
+	# A regular expression that matches the registry names of items that can be placed in death chests.
+	# Default: ".+"
+	registry_name_regex = ".+"
+	# Causes death chests to only be spawned if the necessary container is in the player's inventory.
+	# If this is enabled, the container is consumed if it is found.
+	# Default: false
+	use_container_in_inventory = false
+	# The display name of the death chest container.
+	# Set this to an empty string to cause a custom display name to not be used.
+	# Default: "Death Chest"
+	container_display_name = "Death Chest"
+	# The message sent to a player after a death chest is placed when they die.
+	# The X, Y and Z coordinates are provided as arguments.
+	# Set this to an empty string to disable this message.
+	# Default: "Death chest spawned at [%s, %s, %s]"
+	spawn_message = "Death chest spawned at [%s, %s, %s]"
+
+# Options related to the death chest key item.
+[key_item]
+	# The registry name of the key item.
+	# A player must be holding this item in their main hand to unlock a death chest.
+	# Set this to an empty string to allow death chests to be unlocked without an item.
+	# Default: ""
+	registry_name = ""
+	# The meta value of the key item.
+	# Set this to 32767 to not require a specific meta value.
+	# Min: 0
+	# Max: 32767
+	# Default: 32767
+	meta = 32767
+	# The key consumption behavior.
+	# CONSUME: Consume the item.
+	# DAMAGE: Damage the item.
+	# Default: "CONSUME"
+	consumption_behavior = "CONSUME"
+	# The amount by which the key item should be consumed.
+	# If the key item cannot be consumed this many times, the death chest will not be unlocked.
+	# Players in creative mode will not have their key item consumed.
+	# Min: 0
+	# Max: 32767
+	# Default: 1
+	amount_to_consume = 1
+	# The message that is sent to the player when they fail to unlock a death chest.
+	# This string takes the required amount (%1$s) and display name (%2$s) of the item as arguments.
+	# Set this to an empty string to disable this message.
+	# Default: "You need %s of %s to retrieve your items"
+	unlock_failure_message = "You need %s of %s to retrieve your items"
+	# Whether the unlock failed message should be sent as a status message rather than a chat message.
+	# Default: true
+	unlock_failure_status_message = true
+
+# Options related to death chest defense entities.
+[defense_entities]
+	# The registry name of the defense entity.
+	# If the defense entity is a living entity, it will not automatically despawn.
+	# If the defense entity can have a revenge target, then the revenge target will be set to its player.
+	# Set this to an empty string to disable defense entities.
+	# Default: ""
+	registry_name = ""
+	# Custom NBT data for defense entities in JSON format.
+	# Default: "{}"
+	nbt_tag = "{}"
+	# Causes defense entities to drop experience.
+	# Default: false
+	drop_experience = false
+	# Causes defense entities to drop items.
+	# Default: false
+	drop_items = false
+	# The number of defense entities that are spawned when a death chest is placed.
+	# Min: 1
+	# Max: 2147483647
+	# Default: 3
+	spawn_count = 3
+	# The maximum squared distance that a defense entity can be from its chest when a player is not nearby.
+	# Set this to 0.0 to disable the limit so that defense entities are not teleported back to their death chest.
+	# Min: 0.0
+	# Max: 1.7976931348623157E308
+	# Default: 64.0
+	max_squared_distance_from_chest = 64.0
+	# The maximum squared distance that a defense entity can be from its player whenits chest is not within the maximum squared distance.
+	# Set this to 0.0 to disable the limit so that defense entities are teleported back to their death chest regardless of their distance from the player.
+	# Min: 0.0
+	# Max: 1.7976931348623157E308
+	# Default: 64.0
+	max_squared_distance_from_player = 64.0
+
+# Options related to death chest protection.
+[protection]
+	# Enables death chest protection.
+	# When a death chest is protected, it can only be unlocked by its owner.
+	# Default: true
+	enable = true
+	# The required permission level to bypass death chest protection.
+	# Min: 0
+	# Max: 2147483647
+	# Default: 3
+	bypass_permission_level = 3
+	# Causes players in creative mode to be able to bypass death chest protection.
+	# Default: true
+	bypass_in_creative_mode = true
+	# The length of death chest protection in ticks.
+	# 120000 ticks is five in-game days.
+	# Set this to 0 to cause death chests to be protected indefinitely.
+	# Min: 0
+	# Max: 2147483647
+	# Default: 120000
+	period = 120000
+
+# Miscellaneous options.
+[misc]
+	# Causes death chests to be removed when they are emptied.
+	# Default: true
+	remove_empty_death_chests = true
+	# Whether empty death chests should only be removed when they are closed.
+	# Default: false
+	only_remove_closed_empty_death_chests = false
+	# Causes death chests to be dropped when they are broken.
+	# Default: false
+	drop_death_chests = false
+	# The name of the game rule that controls whether death chests should be spawned.
+	# Set this to an empty string to disable the game rule.
+	# Changes to this option are applied after a game restart.
+	# Default: "spawnDeathChests"
+	game_rule_name = "spawnDeathChests"
+	# The name of the command that reloads this configuration from disk.
+	# Set this to an empty string to disable the command.
+	# Changes to this option are applied when a server is loaded.
+	# Default: "vdcconfigreload"
+	config_reload_command = "vdcconfigreload"

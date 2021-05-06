@@ -1,0 +1,10 @@
+{
+	// How many extra mobs to spawn per plentifulness charm
+	"plentifulness_multiplier": 2,
+	// How many ticks of waiting to remove per haste charm
+	"haste_multiplier": 93.75,
+	// How many blocks of range to add per scope charm
+	"scope_multiplier": 6,
+	// How many extra mobs are allowed close to the conjurer per ignorance charm
+	"ignorance_multiplier": 2
+}

@@ -1,0 +1,8 @@
+{
+  //Adds Corn Seeds to Grass Loot Table. Turn off if you do not want TacoCraft Seeds to drop its seeds when grass breaks
+  "addCornSeedsToGrassLootTable": true,
+  //Amount of time pencas take to cook in ticks (20 per second)
+  "penca_cook_time": 6000,
+  //Amount of time tortillas take to cook (20 per second)
+  "tortilla_cook_time": 300
+}

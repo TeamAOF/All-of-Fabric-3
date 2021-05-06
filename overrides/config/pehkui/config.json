@@ -1,0 +1,17 @@
+{
+	"scaledFallDamage": true,
+	"scaledMotion": true,
+	"scaledReach": true,
+	"scaledAttack": true,
+	"scaledDefense": true,
+	"scaledHealth": true,
+	"scaledItemDrops": true,
+	"scaledProjectiles": true,
+	"scaledExplosions": true,
+	"keepAllScalesOnRespawn": false,
+	"scalesKeptOnRespawn": [],
+	"accurateNetherPortals": true,
+	"largeScaleCollisionThreshold": 26.0,
+	"minimumCameraDepth": 0.001,
+	"keepScaleOnRespawn": false
+}
