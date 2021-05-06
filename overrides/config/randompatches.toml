@@ -102,7 +102,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "All of Fabric 3"
+		title = "Minecraft ${mcversion}"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version
@@ -112,7 +112,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion} - ${activity}"
-		title_with_activity = "All of Fabric 3 - ${activity}"
+		title_with_activity = "Minecraft ${mcversion} - ${activity}"
 		# Enables custom Minecraft window icons.
 		# Default: true
 		custom_icon = true
@@ -120,16 +120,16 @@
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_16x16 = "config/randompatches/logo16.png"
+		icon_16x16 = ""
 		# The path to the 16x16 Minecraft window icon relative to the Minecraft instance directory.
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_32x32 = "config/randompatches/logo32.png"
+		icon_32x32 = ""
 		# The path to the 256x256 Minecraft window icon relative to the Minecraft instance directory.
 		# This is only used on Mac OS X.
 		# Default: ""
-		icon_256x256 = "config/randompatches/logo256.png"
+		icon_256x256 = ""
 
 # Options related to connection timeouts.
 [connection_timeouts]

@@ -1,0 +1,22 @@
+{
+  "enabledBiomes": {
+    "enablePointOneDatapackBiomes": true,
+    "enablePointTwoDatapackBiomes": true,
+    "enablePointOne": true,
+    "enablePseudoCorkwoodPlains": true,
+    "enableCorkwoodPlains": true,
+    "enablePlaypen": true,
+    "enableChurchpark": true,
+    "enableSkinnedHouseparts": true,
+    "enablePointTwo": true,
+    "enableGravityFalls": true,
+    "enableIvoryShallows": true,
+    "enableHolicIsles": true
+  },
+  "baitMultiplier": 4,
+  "redstoneDampening": 4,
+  "immersivePortals": {
+    "connectDimensions": true,
+    "mulchPortal": true
+  }
+}

@@ -2,6 +2,6 @@
 
 onEvent('worldgen.remove', event => {
     event.removeOres(ores => {
-      ores.blocks = [ 'bewitchment:silver_ore']
+      ores.blocks = [ 'bewitchment:silver_ore', 'bewitchment:salt_ore' ]
     })
   })

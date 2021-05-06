@@ -1,0 +1,10 @@
+{
+  "everyone": {
+    "overrides": {
+      "commands": {
+        "help": "allow",
+        "role": "deny"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_comment_language": "// Language file to use.",
+  "language": "en_us",
+  "_comment_disableRegistrySync1": "// Whether to remove Taterzens from Fabric's registry sync. Safe to be true.",
+  "_comment_disableRegistrySync2": "// If using Forge, this will remove WHOLE registry sync. Proceed with caution.",
+  "disable_registry_sync": true,
+  "_comment_taterzenTablistTimeout1": "// After how many ticks Taterzens should be cleared from tablist.",
+  "_comment_taterzenTablistTimeout2": "// Some delay is needed, otherwise clients don't fetch their skins.",
+  "taterzen_tablist_timeout": 30,
+  "_comment_fabricTailorAdvert": "// Whether to remind you that if FabricTailor mod is installed, it has some more skin functionality for Taterzens as well.",
+  "post_fabrictailor_advert": true,
+  "defaults": {
+    "_comment_name": "// Default settings for new Taterzens.",
+    "name": "Taterzen",
+    "leashable": false,
+    "pushable": false,
+    "_comment_commandPermissionLevel": "// Default command permission level of Taterzen.",
+    "command_permission_level": 4,
+    "_comment_sounds": "// Default sounds for Taterzens. Set to null to mute them.",
+    "death_sound": "entity.player.death",
+    "hurt_sound": "entity.player.hurt",
+    "ambient_sound": "entity.player.breath",
+    "invulnerable": true
+  },
+  "path": {
+    "color": {
+      "_comment": "// Which color of particles to use in path editor. Use RGB values ( 0 - 255 ).",
+      "red": 0.0,
+      "green": 255.0,
+      "blue": 255.0
+    }
+  },
+  "messages": {
+    "_comment_messageDelay": "// Default delay between each message, in ticks.",
+    "message_delay": 100,
+    "_comment_exitEditorAfterMsgEdit": "// Whether to exit message editor mode after editing a message.",
+    "exit_editor_after_msg_edit": true
+  },
+  "perms": {
+    "_comment_npcCommandPermissionLevel1": "// Permission level required to execute /npc command.",
+    "_comment_npcCommandPermissionLevel2": "// Valid only if LuckPerms isn't present.",
+    "npc_command_permission_level": 2,
+    "_comment_taterzensCommandPermissionLevel1": "// Permission level required to execute /taterzens command.",
+    "_comment_taterzensCommandPermissionLevel2": "// Valid only if LuckPerms isn't present.",
+    "taterzens_command_permission_level": 4,
+    "_comment_allowSettingHigherPermissionLevel1": "// Whether to allow players to set the permission level",
+    "_comment_allowSettingHigherPermissionLevel2": "// of Taterzen higher than their own. Careful! This could",
+    "_comment_allowSettingHigherPermissionLevel3": "// enable players to bypass their permission level with NPC.",
+    "allow_setting_higher_perm_level": false
+  }
+}

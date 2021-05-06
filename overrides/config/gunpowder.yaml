@@ -1,0 +1,21 @@
+# Main Gunpowder Config
+
+# Database-related stuff
+database:
+  # Available modes: sqlite, postgres, mysql
+  mode: sqlite
+
+  # Host, unused for sqlite
+  host: localhost
+
+  # Port, unused for sqlite
+  # Default MySQL: 3306 | Default Postgres: 5432
+  port: 3306
+
+  # Name of the database
+  database: gunpowder
+
+  # DB credentials, unused for sqlite
+  # Make sure to change these!
+  username: gunpowder_user
+  password: gunpowder_password

@@ -4,23 +4,6 @@
 
 events.listen("recipes", function (event) {
 
-  // Kitchen Knife
-  event.remove({ output: "sandwichable:kitchen_knife" });
-
-  event.shaped(item.of("sandwichable:kitchen_knife"), [
-    ["minecraft:iron_nugget"],
-    ["minecraft:iron_nugget"],
-    ["minecraft:stick"],
-  ]);
-
-  // Ender Binding
-  event.remove({ output: "goml:ender_binding" });
-  event.shaped(item.of("goml:ender_binding"), [
-    ["minecraft:obsidian", "minecraft:crying_obsidian", "minecraft:obsidian"],
-    ["minecraft:crying_obsidian", "minecraft:ender_eye", "minecraft:crying_obsidian"],
-    ["minecraft:obsidian", "minecraft:crying_obsidian", "minecraft:obsidian"],
-  ]);
-
   // Wooden Bucket / Small Logs
   event.remove({ output: "blockus:oak_small_logs" });
   event.remove({ output: "blockus:spruce_small_logs" });
@@ -46,11 +29,7 @@ events.listen("recipes", function (event) {
     ["minecraft:acacia_log", "minecraft:acacia_log", "minecraft:acacia_log"],
   ]);
   event.shaped(item.of("blockus:dark_oak_small_logs", 3), [
-    [
-      "minecraft:dark_oak_log",
-      "minecraft:dark_oak_log",
-      "minecraft:dark_oak_log",
-    ],
+    ["minecraft:dark_oak_log", "minecraft:dark_oak_log", "minecraft:dark_oak_log"],
   ]);
   event.shaped(item.of("blockus:white_oak_small_logs", 3), [
     ["blockus:white_oak_log", "blockus:white_oak_log", "blockus:white_oak_log"],
@@ -70,8 +49,12 @@ events.listen("recipes", function (event) {
     "techreborn:iron_plate"
   );
 
-  // Chests
-  event.replaceInput({}, "#c:wooden_chests", "#c:wooden_chests");
+    // Chests
+    event.replaceInput(
+      {},
+      "#c:wooden_chests",
+      "#c:wooden_chests"
+    );
 
   // Diamond Chain
   event.replaceInput(
@@ -81,7 +64,7 @@ events.listen("recipes", function (event) {
   );
 
   // Crafting Tables
-  event.remove({ type: "crafting_shaped", output: "#c:workbench" });
+    event.remove({ type: "crafting_shaped", output: "#c:workbench" });
 
   // Fragments
   event.remove({ output: "techreborn:diamond_nugget" });
@@ -118,24 +101,22 @@ events.listen("recipes", function (event) {
     [null, "#c:tin_ingots", null],
   ]);
 
-  // AE2 Grindstone
+  // AE2 Grindstone 
   event.remove({ output: "appliedenergistics2:grindstone" });
 
-  // Barrels
-  var blockus_barrels = [
-    "oak",
-    "birch",
-    "jungle",
-    "acacia",
-    "dark_oak",
-    "crimson",
-    "warped",
-  ];
-
-  blockus_barrels.forEach(function (item, index) {
-    event.remove({
-      type: "crafting_shaped",
-      output: "blockus:" + item + "_barrel",
+    // Barrels
+    var blockus_barrels = [
+      "oak",
+      "birch",
+      "jungle",
+      "acacia",
+      "dark_oak",
+      "crimson",
+      "warped",
+    ];
+  
+    blockus_barrels.forEach(function (item, index) {
+      event.remove({ type: "crafting_shaped", output: "blockus:" + item + "_barrel" });
     });
-  });
+
 });

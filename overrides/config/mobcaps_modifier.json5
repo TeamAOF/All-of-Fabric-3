@@ -1,0 +1,48 @@
+{ 
+	// on/off switch
+	"enabled": false,
+	"GMO_spawngroups": { 
+		"water_creature": { 
+			"spawn_cap": 5,
+			"is_peaceful": true,
+			"is_an_animal": false,
+			"can_despawn_range": 32,
+			"should_despawn_range": 128
+		},
+		"ambient": { 
+			"spawn_cap": 15,
+			"is_peaceful": true,
+			"is_an_animal": false,
+			"can_despawn_range": 32,
+			"should_despawn_range": 128
+		},
+		"creature": { 
+			"spawn_cap": 10,
+			"is_peaceful": true,
+			"is_an_animal": true,
+			"can_despawn_range": 32,
+			"should_despawn_range": 128
+		},
+		"water_ambient": { 
+			"spawn_cap": 20,
+			"is_peaceful": true,
+			"is_an_animal": false,
+			"can_despawn_range": 32,
+			"should_despawn_range": 64
+		},
+		"monster": { 
+			"spawn_cap": 70,
+			"is_peaceful": false,
+			"is_an_animal": false,
+			"can_despawn_range": 32,
+			"should_despawn_range": 128
+		},
+		"misc": { 
+			"spawn_cap": -1,
+			"is_peaceful": true,
+			"is_an_animal": true,
+			"can_despawn_range": 32,
+			"should_despawn_range": 128
+		}
+	}
+}

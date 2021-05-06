@@ -23,14 +23,14 @@
 		// Sets whether to by default scroll items
 		// out of the creative menu.
 		// default: true
-		scroll-creative-menu-items: false
+		scroll-creative-menu-items: true
 		// Invert the scroll direction when scrolling items
 		// default: false
 		invert: false
 		// Sets whether creative mode tabs can
 		// be switched by scrolling over them.
 		// default: true
-		scroll-creative-menu-tabs: false
+		scroll-creative-menu-tabs: true
 	}
 	// Change sort modes. Existing sort modes are ALPHABET, RAW_ID and QUANTITY
 	sort: {
