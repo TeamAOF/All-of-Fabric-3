@@ -1,7 +1,7 @@
 {
 	version: 11,
 	title: "All Of Fabric 3",
-	icon: "respawnablepets:etheric_gem",
+	icon: "tacocraft:al_pastor_taco",
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",

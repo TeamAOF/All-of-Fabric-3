@@ -1,11 +1,11 @@
 {
 	id: "00AFE54418B08A94",
 	group: "",
-	order_index: 1,
+	order_index: 9,
 	filename: "tech_reborn",
 	title: "Tech Reborn",
 	icon: "techreborn:interdimensional_su",
-	default_quest_shape: "",
+	default_quest_shape: "hexagon",
 	quests: [
 		{
 			x: -3.0d,
@@ -366,7 +366,8 @@
 			rewards: [{
 				id: "15F5018B47329FC4",
 				type: "item",
-				item: "techreborn:basic_machine_frame"
+				item: "techreborn:basic_machine_frame",
+				count: 4
 			}]
 		},
 		{
@@ -547,12 +548,19 @@
 				type: "item",
 				item: "techreborn:industrial_solar_panel"
 			}],
-			rewards: [{
-				id: "07A9CFA798E50492",
-				type: "item",
-				item: "croptopia:peanut_butter_and_jam",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "07A9CFA798E50492",
+					type: "item",
+					item: "croptopia:peanut_butter_and_jam",
+					count: 2
+				},
+				{
+					id: "42182ED2C0711766",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: 0.0d,
@@ -581,12 +589,24 @@
 				type: "item",
 				item: "techreborn:quantum_solar_panel"
 			}],
-			rewards: [{
-				id: "0F188DA20EF7F4FC",
-				type: "item",
-				item: "croptopia:pineapple_pepperoni_pizza",
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "0F188DA20EF7F4FC",
+					type: "item",
+					item: "croptopia:pineapple_pepperoni_pizza",
+					count: 4
+				},
+				{
+					id: "42AD246BCEE87DB1",
+					type: "random",
+					table_id: 3133982820876343405L
+				},
+				{
+					id: "6A66ECD80A766FD0",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
 		},
 		{
 			x: 3.0d,
@@ -659,7 +679,8 @@
 			rewards: [{
 				id: "7FDB7AD22765A31D",
 				type: "item",
-				item: "techreborn:adjustable_su"
+				item: "techreborn:adjustable_su",
+				count: 2
 			}]
 		},
 		{
@@ -710,10 +731,10 @@
 				}
 			}],
 			rewards: [{
-				id: "36014453F5695FCE",
+				id: "57355C4E58A7E232",
 				type: "item",
-				item: "croptopia:tofuburger",
-				count: 12
+				item: "techreborn:superconductor",
+				count: 8
 			}]
 		}
 	]

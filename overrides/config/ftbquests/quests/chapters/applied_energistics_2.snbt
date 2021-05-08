@@ -1,11 +1,11 @@
 {
 	id: "3958FD38811FA00A",
 	group: "",
-	order_index: 4,
+	order_index: 0,
 	filename: "applied_energistics_2",
 	title: "Applied Energistics 2",
 	icon: "appliedenergistics2:controller",
-	default_quest_shape: "",
+	default_quest_shape: "hexagon",
 	quests: [
 		{
 			x: -5.5d,
@@ -153,11 +153,18 @@
 				type: "item",
 				item: "appliedenergistics2:controller"
 			}],
-			rewards: [{
-				id: "35E0CFEEF32B0097",
-				type: "item",
-				item: "croptopia:cheese_cake"
-			}]
+			rewards: [
+				{
+					id: "35E0CFEEF32B0097",
+					type: "item",
+					item: "croptopia:cheese_cake"
+				},
+				{
+					id: "6E0C529CBBC744F0",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: -4.0d,
@@ -169,12 +176,19 @@
 				type: "item",
 				item: "appliedenergistics2:fluix_smart_cable"
 			}],
-			rewards: [{
-				id: "3C02E4604D5A6314",
-				type: "item",
-				item: "croptopia:grilled_cheese",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "3C02E4604D5A6314",
+					type: "item",
+					item: "croptopia:grilled_cheese",
+					count: 2
+				},
+				{
+					id: "2D225E5BCB794CA4",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: -4.0d,
@@ -186,12 +200,19 @@
 				type: "item",
 				item: "appliedenergistics2:fluix_smart_dense_cable"
 			}],
-			rewards: [{
-				id: "2E75077E49FF8374",
-				type: "item",
-				item: "croptopia:leek_soup",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "2E75077E49FF8374",
+					type: "item",
+					item: "croptopia:leek_soup",
+					count: 2
+				},
+				{
+					id: "00EFEF9B284D179C",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: -2.5d,
@@ -231,12 +252,19 @@
 					tag: {}
 				}
 			}],
-			rewards: [{
-				id: "74BE1CEB943D4AFB",
-				type: "item",
-				item: "croptopia:fruit_smoothie",
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "74BE1CEB943D4AFB",
+					type: "item",
+					item: "croptopia:fruit_smoothie",
+					count: 6
+				},
+				{
+					id: "3DD90B3F6BA3666D",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: -2.5d,
@@ -252,12 +280,19 @@
 					tag: {}
 				}
 			}],
-			rewards: [{
-				id: "4101222B0593638D",
-				type: "item",
-				item: "appliedenergistics2:1k_cell_component",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "4101222B0593638D",
+					type: "item",
+					item: "appliedenergistics2:1k_cell_component",
+					count: 3
+				},
+				{
+					id: "25E41C4CFFEBD624",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: -2.5d,
@@ -273,12 +308,19 @@
 					tag: {}
 				}
 			}],
-			rewards: [{
-				id: "0EE1C7159FFA0E11",
-				type: "item",
-				item: "appliedenergistics2:quartz_ore",
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "0EE1C7159FFA0E11",
+					type: "item",
+					item: "appliedenergistics2:quartz_ore",
+					count: 8
+				},
+				{
+					id: "10D0012FCBA697A7",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: -2.5d,
@@ -294,12 +336,25 @@
 					tag: {}
 				}
 			}],
-			rewards: [{
-				id: "41B81CB6337BA532",
-				type: "item",
-				item: "minecraft:golden_apple",
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "41B81CB6337BA532",
+					type: "item",
+					item: "minecraft:golden_apple",
+					count: 6
+				},
+				{
+					id: "63F6E7508F5380D7",
+					type: "random",
+					table_id: 3133982820876343405L
+				},
+				{
+					id: "447258362AE02D4A",
+					type: "item",
+					item: "appliedenergistics2:4k_cell_component",
+					count: 3
+				}
+			]
 		},
 		{
 			x: -5.5d,
@@ -332,11 +387,18 @@
 					tag: {}
 				}
 			}],
-			rewards: [{
-				id: "3DB82F9B6CB6D811",
-				type: "item",
-				item: "tacocraft:golden_taco"
-			}]
+			rewards: [
+				{
+					id: "3DB82F9B6CB6D811",
+					type: "item",
+					item: "tacocraft:golden_taco"
+				},
+				{
+					id: "014AE9A8B501F158",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: -1.0d,
@@ -404,12 +466,19 @@
 				type: "item",
 				item: "appliedenergistics2:quantum_entangled_singularity"
 			}],
-			rewards: [{
-				id: "16A7624EC595AED5",
-				type: "item",
-				item: "minecraft:ender_pearl",
-				count: 7
-			}]
+			rewards: [
+				{
+					id: "16A7624EC595AED5",
+					type: "item",
+					item: "minecraft:ender_pearl",
+					count: 7
+				},
+				{
+					id: "6CD1E0C871D23381",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: -4.0d,
@@ -421,12 +490,18 @@
 				type: "item",
 				item: "appliedenergistics2:quantum_link"
 			}],
-			rewards: [{
-				id: "0741C117C2D05B3C",
-				type: "item",
-				item: "croptopia:pork_jerky",
-				count: 15
-			}]
+			rewards: [
+				{
+					id: "7757F800FF601C40",
+					type: "random",
+					table_id: 5705109811401542117L
+				},
+				{
+					id: "4201F558627583EE",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: -2.5d,
@@ -438,12 +513,19 @@
 				type: "item",
 				item: "appliedenergistics2:quantum_ring"
 			}],
-			rewards: [{
-				id: "35AD02BC0DE95056",
-				type: "item",
-				item: "minecraft:redstone_block",
-				count: 14
-			}]
+			rewards: [
+				{
+					id: "35AD02BC0DE95056",
+					type: "item",
+					item: "minecraft:redstone_block",
+					count: 14
+				},
+				{
+					id: "7BE988D365EAC9DF",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
 		},
 		{
 			x: -5.5d,
@@ -454,12 +536,19 @@
 				type: "item",
 				item: "appliedenergistics2:security_station"
 			}],
-			rewards: [{
-				id: "30EFD5F3BB3BCA71",
-				type: "item",
-				item: "croptopia:caesar_salad",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "30EFD5F3BB3BCA71",
+					type: "item",
+					item: "croptopia:caesar_salad",
+					count: 2
+				},
+				{
+					id: "2054089FF93A1585",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
 		},
 		{
 			x: -4.0d,
@@ -475,12 +564,19 @@
 					tag: {}
 				}
 			}],
-			rewards: [{
-				id: "6A26361D3DA7E98F",
-				type: "item",
-				item: "croptopia:beer",
-				count: 12
-			}]
+			rewards: [
+				{
+					id: "6A26361D3DA7E98F",
+					type: "item",
+					item: "croptopia:beer",
+					count: 12
+				},
+				{
+					id: "60489E9712DF1C4A",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: -2.5d,
@@ -492,12 +588,19 @@
 				type: "item",
 				item: "appliedenergistics2:wireless_access_point"
 			}],
-			rewards: [{
-				id: "68B912D953CAA8B7",
-				type: "item",
-				item: "croptopia:pork_and_beans",
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "68B912D953CAA8B7",
+					type: "item",
+					item: "croptopia:pork_and_beans",
+					count: 3
+				},
+				{
+					id: "689BC61E04CB7D98",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: -1.0d,
@@ -532,12 +635,19 @@
 				type: "item",
 				item: "appliedenergistics2:wireless_booster"
 			}],
-			rewards: [{
-				id: "5F207C73DD379713",
-				type: "item",
-				item: "croptopia:pineapple_pepperoni_pizza",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "5F207C73DD379713",
+					type: "item",
+					item: "croptopia:pineapple_pepperoni_pizza",
+					count: 2
+				},
+				{
+					id: "2831937A9F102EDF",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
 		},
 		{
 			x: 1.5d,
@@ -549,10 +659,9 @@
 				item: "appliedenergistics2:interface"
 			}],
 			rewards: [{
-				id: "2F65202323463639",
-				type: "item",
-				item: "minecraft:coal_ore",
-				count: 32
+				id: "7822148535949FD7",
+				type: "random",
+				table_id: 3279900820427924797L
 			}]
 		},
 		{
@@ -565,12 +674,19 @@
 				type: "item",
 				item: "appliedenergistics2:storage_bus"
 			}],
-			rewards: [{
-				id: "5BAB6F213E05BA4D",
-				type: "item",
-				item: "croptopia:leafy_salad",
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "5BAB6F213E05BA4D",
+					type: "item",
+					item: "croptopia:leafy_salad",
+					count: 3
+				},
+				{
+					id: "4985125D73C53D92",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: 1.5d,
@@ -582,12 +698,19 @@
 				type: "item",
 				item: "appliedenergistics2:import_bus"
 			}],
-			rewards: [{
-				id: "2E6B1E41C891739B",
-				type: "item",
-				item: "croptopia:fruit_salad",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "2E6B1E41C891739B",
+					type: "item",
+					item: "croptopia:fruit_salad",
+					count: 2
+				},
+				{
+					id: "37C95E5294BE261F",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: 1.5d,
@@ -599,11 +722,18 @@
 				type: "item",
 				item: "appliedenergistics2:export_bus"
 			}],
-			rewards: [{
-				id: "4F3A17FB7507EFDD",
-				type: "item",
-				item: "croptopia:veggie_salad"
-			}]
+			rewards: [
+				{
+					id: "4F3A17FB7507EFDD",
+					type: "item",
+					item: "croptopia:veggie_salad"
+				},
+				{
+					id: "0DE4DFCD5304CD28",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: 3.0d,
@@ -615,12 +745,19 @@
 				type: "item",
 				item: "appliedenergistics2:crafting_unit"
 			}],
-			rewards: [{
-				id: "39D7BFC0EDE6C8DA",
-				type: "item",
-				item: "croptopia:chocolate_milkshake",
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "39D7BFC0EDE6C8DA",
+					type: "item",
+					item: "croptopia:chocolate_milkshake",
+					count: 4
+				},
+				{
+					id: "1A1ACED36436FF71",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: 3.0d,
@@ -632,11 +769,18 @@
 				type: "item",
 				item: "appliedenergistics2:crafting_accelerator"
 			}],
-			rewards: [{
-				id: "41F387AB5DE3ABBA",
-				type: "item",
-				item: "minecraft:pufferfish_bucket"
-			}]
+			rewards: [
+				{
+					id: "41F387AB5DE3ABBA",
+					type: "item",
+					item: "minecraft:pufferfish_bucket"
+				},
+				{
+					id: "00D08012A10E5D14",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: 4.5d,
@@ -648,12 +792,19 @@
 				type: "item",
 				item: "appliedenergistics2:molecular_assembler"
 			}],
-			rewards: [{
-				id: "70CC49E5CEFD84E5",
-				type: "item",
-				item: "croptopia:pineapple_pepperoni_pizza",
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "70CC49E5CEFD84E5",
+					type: "item",
+					item: "croptopia:pineapple_pepperoni_pizza",
+					count: 3
+				},
+				{
+					id: "16BBAB54248AD52B",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
 			x: 6.0d,
@@ -666,15 +817,9 @@
 				item: "appliedenergistics2:1k_crafting_storage"
 			}],
 			rewards: [{
-				id: "2667094DFDEDD0CA",
-				type: "item",
-				item: {
-					id: "minecraft:golden_helmet",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "30BC4C15F5D84A72",
+				type: "random",
+				table_id: 3279900820427924797L
 			}]
 		},
 		{
@@ -687,11 +832,18 @@
 				type: "item",
 				item: "appliedenergistics2:4k_crafting_storage"
 			}],
-			rewards: [{
-				id: "1882B80BC1DA1681",
-				type: "item",
-				item: "croptopia:cucumber_salad"
-			}]
+			rewards: [
+				{
+					id: "1882B80BC1DA1681",
+					type: "item",
+					item: "croptopia:cucumber_salad"
+				},
+				{
+					id: "785177823264BCC6",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: 6.0d,
@@ -704,9 +856,9 @@
 				item: "appliedenergistics2:16k_crafting_storage"
 			}],
 			rewards: [{
-				id: "19563C9D6DC56AE2",
-				type: "item",
-				item: "minecraft:gold_block"
+				id: "1FC038ACA896E8ED",
+				type: "random",
+				table_id: 5705109811401542117L
 			}]
 		},
 		{
@@ -719,12 +871,19 @@
 				type: "item",
 				item: "appliedenergistics2:64k_crafting_storage"
 			}],
-			rewards: [{
-				id: "38D9FB22092FE79B",
-				type: "item",
-				item: "croptopia:doughnut",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "38D9FB22092FE79B",
+					type: "item",
+					item: "croptopia:doughnut",
+					count: 2
+				},
+				{
+					id: "752B0E05172EF2C2",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
 		}
 	]
 }

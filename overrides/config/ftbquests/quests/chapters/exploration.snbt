@@ -1,0 +1,401 @@
+{
+	id: "37C5BB6AE9E73F11",
+	group: "54E549EC6D1514B9",
+	order_index: 0,
+	filename: "exploration",
+	title: "Overworld",
+	default_quest_shape: "rsquare",
+	quests: [
+		{
+			icon: "terrestria:jungle_palm_sapling",
+			x: -8.5d,
+			y: -8.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "58AEFB90F465CD79",
+			tasks: [{
+				id: "6B2C9A47185AE0EA",
+				type: "biome",
+				title: "Volcanic Island",
+				icon: "minecraft:lava_bucket",
+				biome: "terrestria:volcanic_island"
+			}],
+			rewards: [{
+				id: "549E62F757FE86AD",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			icon: "byg:purple_sand",
+			x: -13.5d,
+			y: -4.5d,
+			description: ["Beaches so beautiful, you can't help but feel fabulous."],
+			dependencies: ["43B7F8B8E206346B"],
+			id: "5800FD0063D9BBE7",
+			tasks: [{
+				id: "5AA9E876C9B41CB7",
+				type: "biome",
+				title: "Rainbow Beach",
+				icon: "blockus:rainbow_block",
+				biome: "byg:rainbow_beach"
+			}],
+			rewards: [{
+				id: "4415677E884D6A6F",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -7.0d,
+			shape: "circle",
+			size: 1.2d,
+			id: "43B7F8B8E206346B",
+			tasks: [{
+				id: "52A13093311CBE63",
+				type: "item",
+				item: {
+					id: "biome_locator:compass",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "740D17FBE208E8FA",
+				type: "choice",
+				table_id: 4023534927821043910L
+			}]
+		},
+		{
+			icon: "terrestria:hemlock_sapling",
+			x: -8.5d,
+			y: -6.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "75A4E098FF7A2731",
+			tasks: [{
+				id: "2A070C10AAA6B669",
+				type: "biome",
+				title: "Hemlock",
+				icon: "terrestria:hemlock_log",
+				biome: "terrestria:hemlock_rainforest"
+			}],
+			rewards: [{
+				id: "3217E3BB461AC9B1",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -9.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "160B57EAEB00D10A",
+			tasks: [{
+				id: "006AD4959B9A2241",
+				type: "biome",
+				title: "Get that title screen",
+				icon: "terrestria:sakura_sapling",
+				biome: "terrestria:sakura_forest"
+			}],
+			rewards: [{
+				id: "620166B81D4C6CCC",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -13.5d,
+			y: -9.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "6C732F5419F8B177",
+			tasks: [{
+				id: "2D7D360763EED74A",
+				type: "biome",
+				title: "Japanese Maple Forest",
+				icon: "terrestria:japanese_maple_sapling",
+				biome: "terrestria:japanese_maple_forest"
+			}],
+			rewards: [{
+				id: "3AFB213E8B4D3B2A",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -13.5d,
+			y: -5.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "7D60ADC93869ACC1",
+			tasks: [{
+				id: "41405929A54DC89F",
+				type: "biome",
+				title: "Pine Mire",
+				icon: "biomemakeover:tall_red_mushroom",
+				biome: "woods_and_mires:pine_mire"
+			}],
+			rewards: [{
+				id: "294A1D46E53886A3",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -9.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "1EF1854F86829921",
+			tasks: [{
+				id: "47075C4AB3317110",
+				type: "biome",
+				title: "Twighlight valley",
+				icon: "byg:brown_zelkova_sapling",
+				biome: "byg:twilight_valley"
+			}],
+			rewards: [{
+				id: "7B0AB17D18A37C9E",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			icon: "byg:ebony_sapling",
+			x: -9.5d,
+			y: -9.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "7B944B5828810BA9",
+			tasks: [{
+				id: "143A3B092E997D60",
+				type: "biome",
+				title: "Ebony Woods",
+				icon: "byg:ebony_log",
+				biome: "byg:ebony_woods"
+			}],
+			rewards: [{
+				id: "1626AE1BE43F5D2C",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -9.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "35F55963256142C3",
+			tasks: [{
+				id: "0DBA423546628E11",
+				type: "biome",
+				title: "Cypress Forest",
+				icon: "byg:cypress_sapling",
+				biome: "terrestria:cypress_forest"
+			}],
+			rewards: [{
+				id: "47A0E2A748B9833E",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -7.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "095EC9F23F272F6B",
+			tasks: [{
+				id: "065CCA85A0EF8352",
+				type: "biome",
+				title: "Enchanted Grove",
+				icon: "byg:blue_enchanted_sapling",
+				biome: "byg:enchanted_grove"
+			}],
+			rewards: [{
+				id: "02D1F0458C0ECE87",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -4.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "1620B290DE5D4962",
+			tasks: [{
+				id: "662B2E493D730D1B",
+				type: "biome",
+				title: "Blue Giant Taiga",
+				icon: "byg:blue_spruce_sapling",
+				biome: "byg:blue_giant_taiga"
+			}],
+			rewards: [{
+				id: "39F7067B4E3593F1",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -5.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			dependency_requirement: "one_completed",
+			id: "5D3809DC5AFC53B7",
+			tasks: [{
+				id: "7307DB8597EB1F79",
+				type: "biome",
+				title: "Cold Swamplands",
+				icon: "biomemakeover:swamp_cypress_sapling",
+				biome: "byg:cold_swamplands"
+			}],
+			rewards: [{
+				id: "2AA0CEF1DAC194C8",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -9.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "00D2FCF1B69B50C8",
+			tasks: [{
+				id: "52B3FBD40FAD8725",
+				type: "biome",
+				title: "Glowshroom Bayou",
+				icon: "byg:purple_glowshroom",
+				biome: "byg:glowshroom_bayou"
+			}],
+			rewards: [{
+				id: "56B6B64349773A51",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			title: "Frozen Lake",
+			icon: "byg:holly_sapling",
+			x: -13.5d,
+			y: -6.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "5734097C3F03074F",
+			tasks: [{
+				id: "2EF93F9BA3BAD31C",
+				type: "biome",
+				title: "Frozen Lake",
+				icon: "byg:holly_sapling",
+				biome: "minecraft:plains"
+			}],
+			rewards: [{
+				id: "30DA3EE421AE4E6F",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			title: "Stone forest",
+			icon: "byg:overgrown_stone",
+			x: -8.5d,
+			y: -4.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "64BA4E85309B543B",
+			tasks: [{
+				id: "6A5EEE516A184118",
+				type: "biome",
+				title: "Stone Forest",
+				icon: "byg:overgrown_dacite",
+				biome: "minecraft:plains"
+			}],
+			rewards: [{
+				id: "0DA3C20D6C2E06A3",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -4.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "092AB1A791DFCD89",
+			tasks: [{
+				id: "1E72EAC6D8306E59",
+				type: "biome",
+				title: "Vibrant Swamplands",
+				icon: "biomemakeover:water_lily",
+				biome: "byg:vibrant_swamplands"
+			}],
+			rewards: [{
+				id: "4F1DB4E63ABC7157",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			title: "Skyris Highlands",
+			x: -10.5d,
+			y: -4.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "057C84DC6B70E3DA",
+			tasks: [{
+				id: "2C7AA15003707744",
+				type: "biome",
+				icon: "byg:skyris_sapling",
+				biome: "byg:skyris_highlands"
+			}],
+			rewards: [{
+				id: "6AE0B054775793F2",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			title: "Outback Uluru",
+			icon: "minecraft:red_sand",
+			x: -13.5d,
+			y: -8.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "2A20212CC8F16533",
+			tasks: [{
+				id: "4D71577826E92B48",
+				type: "biome",
+				biome: "terrestria:outback_uluru"
+			}],
+			rewards: [{
+				id: "20EE502A5B5FC9B0",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			title: "Rainbow Rainforest",
+			x: -9.5d,
+			y: -4.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "4D1F39361704F9C0",
+			tasks: [{
+				id: "3E6E6A1957DDBC5F",
+				type: "biome",
+				icon: "terrestria:rainbow_eucalyptus_sapling",
+				biome: "terrestria:rainbow_rainforest"
+			}],
+			rewards: [{
+				id: "390C7192169DA175",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		},
+		{
+			title: "Cika Woods",
+			x: -13.5d,
+			y: -7.5d,
+			dependencies: ["43B7F8B8E206346B"],
+			id: "0CF552905116773C",
+			tasks: [{
+				id: "6C34A623138BCB15",
+				type: "biome",
+				icon: "byg:cika_sapling",
+				biome: "byg:cika_woods"
+			}],
+			rewards: [{
+				id: "44DE582A706C09C2",
+				type: "random",
+				table_id: 7952480719857030898L
+			}]
+		}
+	]
+}
