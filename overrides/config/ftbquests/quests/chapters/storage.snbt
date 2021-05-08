@@ -1,11 +1,11 @@
 {
 	id: "2DF9C624928A0EA1",
 	group: "",
-	order_index: 5,
+	order_index: 8,
 	filename: "storage",
 	title: "Storage",
 	icon: "expandedstorage:netherite_chest",
-	default_quest_shape: "",
+	default_quest_shape: "rsquare",
 	quests: [
 		{
 			x: -6.0d,
@@ -33,15 +33,21 @@
 				type: "item",
 				item: "inmis:plated_backpack"
 			}],
-			rewards: [{
-				id: "4E2D98EAAC1BD302",
-				type: "item",
-				item: "croptopia:cranberry_seed",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "4A45644EEEFBC078",
+					type: "random",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "1EFDF72001FC7198",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
 		},
 		{
-			x: -4.5d,
+			x: -4.0d,
 			y: 3.5d,
 			dependencies: ["0D5D45F2AFE312C7"],
 			id: "5FB0604BFBA1A6A1",
@@ -58,8 +64,8 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 4.0d,
+			x: -2.5d,
+			y: 3.5d,
 			dependencies: ["5FB0604BFBA1A6A1"],
 			id: "64AE3285A1AC0ADA",
 			tasks: [{
@@ -75,8 +81,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 3.5d,
+			x: -1.0d,
+			y: 4.5d,
 			dependencies: ["64AE3285A1AC0ADA"],
 			id: "21A3030DC5C27643",
 			tasks: [{
@@ -92,9 +98,9 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -1.5d,
 			y: 2.5d,
-			dependencies: ["21A3030DC5C27643"],
+			dependencies: ["64AE3285A1AC0ADA"],
 			id: "2F7FE423ADC1ED86",
 			tasks: [{
 				id: "624331A9C6B1CED4",
@@ -117,8 +123,8 @@
 			]
 		},
 		{
-			x: -1.5d,
-			y: 1.5d,
+			x: -0.5d,
+			y: 2.0d,
 			dependencies: ["2F7FE423ADC1ED86"],
 			id: "5B08BC4D6EEA9BA2",
 			tasks: [{
@@ -158,14 +164,31 @@
 			]
 		},
 		{
+			title: "Iron Chest",
+			icon: "expandedstorage:iron_chest",
 			x: -6.0d,
 			y: -1.5d,
 			dependencies: ["2255AD9242764E84"],
 			id: "4ACE47154514F796",
 			tasks: [{
-				id: "1D762642040EDF8A",
+				id: "5B64EA714309DC2B",
 				type: "item",
-				item: "expandedstorage:wood_to_iron_conversion_kit"
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "expandedstorage:iron_chest",
+								Count: 1b
+							},
+							{
+								id: "expandedstorage:wood_to_iron_conversion_kit",
+								Count: 1b
+							}
+						]
+					}
+				}
 			}],
 			rewards: [
 				{
@@ -182,14 +205,31 @@
 			]
 		},
 		{
+			title: "Gold Chest",
+			icon: "expandedstorage:gold_chest",
 			x: -4.5d,
 			y: -1.5d,
 			dependencies: ["4ACE47154514F796"],
 			id: "195408F8CCBE5ADE",
 			tasks: [{
-				id: "03498EA923BD5CDE",
+				id: "4DD63DA7F7F6087F",
 				type: "item",
-				item: "expandedstorage:iron_to_gold_conversion_kit"
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "expandedstorage:iron_to_gold_conversion_kit",
+								Count: 1b
+							},
+							{
+								id: "expandedstorage:gold_chest",
+								Count: 1b
+							}
+						]
+					}
+				}
 			}],
 			rewards: [{
 				id: "6396E49909E54DD2",
@@ -199,14 +239,31 @@
 			}]
 		},
 		{
+			title: "Diamond Chest",
+			icon: "expandedstorage:diamond_chest",
 			x: -3.0d,
 			y: -1.5d,
 			dependencies: ["195408F8CCBE5ADE"],
 			id: "0F07DA4D7AFD4D7C",
 			tasks: [{
-				id: "6AEE0C62937C715E",
+				id: "0685A0D65651C773",
 				type: "item",
-				item: "expandedstorage:gold_to_diamond_conversion_kit"
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "expandedstorage:diamond_chest",
+								Count: 1b
+							},
+							{
+								id: "expandedstorage:gold_to_diamond_conversion_kit",
+								Count: 1b
+							}
+						]
+					}
+				}
 			}],
 			rewards: [
 				{
@@ -224,14 +281,31 @@
 			]
 		},
 		{
+			title: "Obsidian Chest",
+			icon: "expandedstorage:obsidian_chest",
 			x: -1.5d,
 			y: -1.5d,
 			dependencies: ["0F07DA4D7AFD4D7C"],
 			id: "5D773E576575DB15",
 			tasks: [{
-				id: "15ACB5A0CBBD831A",
+				id: "76C29E360841BB5E",
 				type: "item",
-				item: "expandedstorage:diamond_to_obsidian_conversion_kit"
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "expandedstorage:diamond_to_obsidian_conversion_kit",
+								Count: 1b
+							},
+							{
+								id: "expandedstorage:obsidian_chest",
+								Count: 1b
+							}
+						]
+					}
+				}
 			}],
 			rewards: [
 				{
@@ -248,20 +322,44 @@
 			]
 		},
 		{
+			title: "Netherite Chest",
+			icon: "expandedstorage:netherite_chest",
 			x: 0.0d,
 			y: -1.5d,
 			dependencies: ["5D773E576575DB15"],
 			id: "6BF845E9662FF210",
 			tasks: [{
-				id: "1BAFFBE5C06AF2D1",
+				id: "339861C91750A6DE",
 				type: "item",
-				item: "expandedstorage:obsidian_to_netherite_conversion_kit"
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "expandedstorage:obsidian_to_netherite_conversion_kit",
+								Count: 1b
+							},
+							{
+								id: "expandedstorage:netherite_chest",
+								Count: 1b
+							}
+						]
+					}
+				}
 			}],
-			rewards: [{
-				id: "040DE447025DEE89",
-				type: "item",
-				item: "minecraft:golden_apple"
-			}]
+			rewards: [
+				{
+					id: "040DE447025DEE89",
+					type: "item",
+					item: "minecraft:golden_apple"
+				},
+				{
+					id: "54395FA62FD636BA",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
 		},
 		{
 			x: -6.0d,
@@ -297,12 +395,20 @@
 				type: "item",
 				item: "expandedstorage:gold_barrel"
 			}],
-			rewards: [{
-				id: "7CDACB213F9C206F",
-				type: "item",
-				item: "minecraft:oak_log",
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "7CDACB213F9C206F",
+					type: "item",
+					item: "minecraft:oak_log",
+					count: 8
+				},
+				{
+					id: "1ACD8EE2B8F8F12E",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 4
+				}
+			]
 		},
 		{
 			x: -3.0d,
@@ -314,12 +420,20 @@
 				type: "item",
 				item: "expandedstorage:diamond_barrel"
 			}],
-			rewards: [{
-				id: "0B99A5AA3C74DF47",
-				type: "item",
-				item: "croptopia:zucchini_seed",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "0B99A5AA3C74DF47",
+					type: "item",
+					item: "croptopia:zucchini_seed",
+					count: 2
+				},
+				{
+					id: "1546AF2DE430F746",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 2
+				}
+			]
 		},
 		{
 			x: -1.5d,
@@ -405,20 +519,12 @@
 				type: "item",
 				item: "dankstorage:dank_3"
 			}],
-			rewards: [
-				{
-					id: "68C471495A386770",
-					type: "item",
-					item: "minecraft:yellow_dye",
-					count: 16
-				},
-				{
-					id: "583743BCA58D4790",
-					type: "item",
-					item: "minecraft:gold_block",
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "583743BCA58D4790",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 2
+			}]
 		},
 		{
 			x: -3.0d,
@@ -518,6 +624,12 @@
 				id: "23212CFE192E6985",
 				type: "item",
 				item: "fabric-furnaces:fabric_furnace"
+			}],
+			rewards: [{
+				id: "4C7F904CD04A6548",
+				type: "item",
+				item: "minecraft:coal_block",
+				count: 4
 			}]
 		},
 		{
@@ -529,6 +641,11 @@
 				id: "3EFA1815C0AE196B",
 				type: "item",
 				item: "fabric-furnaces:iron_furnace"
+			}],
+			rewards: [{
+				id: "019116B066920E1E",
+				type: "item",
+				item: "minecraft:iron_block"
 			}]
 		},
 		{
@@ -540,6 +657,11 @@
 				id: "574FA93D24072DC9",
 				type: "item",
 				item: "fabric-furnaces:gold_furnace"
+			}],
+			rewards: [{
+				id: "40E0FDA3F2980C96",
+				type: "item",
+				item: "minecraft:gold_block"
 			}]
 		},
 		{
@@ -551,6 +673,12 @@
 				id: "75EE7BA75E86BAFC",
 				type: "item",
 				item: "fabric-furnaces:diamond_furnace"
+			}],
+			rewards: [{
+				id: "53053B0EFE1C4735",
+				type: "item",
+				item: "minecraft:diamond",
+				count: 2
 			}]
 		},
 		{
@@ -562,7 +690,21 @@
 				id: "029657E5B1237FD2",
 				type: "item",
 				item: "fabric-furnaces:obsidian_furnace"
-			}]
+			}],
+			rewards: [
+				{
+					id: "6CC363CFCBD19AC7",
+					type: "item",
+					item: "gofish:obsidian_halibut",
+					count: 4
+				},
+				{
+					id: "64232D57738B646A",
+					type: "item",
+					item: "minecraft:coal_block",
+					count: 16
+				}
+			]
 		},
 		{
 			x: -10.0d,
@@ -573,7 +715,21 @@
 				id: "50987CB22D0917F5",
 				type: "item",
 				item: "fabric-furnaces:nether_furnace"
-			}]
+			}],
+			rewards: [
+				{
+					id: "1C0F9E4AE6D14C11",
+					type: "item",
+					item: "blockus:blaze_block",
+					count: 4
+				},
+				{
+					id: "16144049B41CE2ED",
+					type: "item",
+					item: "minecraft:magma_cream",
+					count: 2
+				}
+			]
 		},
 		{
 			x: -10.0d,
@@ -584,6 +740,11 @@
 				id: "16996777B20ED4C8",
 				type: "item",
 				item: "fabric-furnaces:emerald_furnace"
+			}],
+			rewards: [{
+				id: "46938009680313E7",
+				type: "item",
+				item: "minecraft:emerald_block"
 			}]
 		},
 		{
@@ -595,7 +756,22 @@
 				id: "0A91FCDB8B2A579A",
 				type: "item",
 				item: "fabric-furnaces:end_furnace"
-			}]
+			}],
+			rewards: [
+				{
+					id: "5CFBA37C3E7F6443",
+					type: "item",
+					item: "minecraft:ender_eye",
+					count: 2
+				},
+				{
+					id: "4C99FD55194D8387",
+					type: "item",
+					item: "minecraft:ender_pearl",
+					count: 2,
+					random_bonus: 2
+				}
+			]
 		},
 		{
 			x: -10.0d,
@@ -606,7 +782,26 @@
 				id: "1C66BEB922BAF2C9",
 				type: "item",
 				item: "fabric-furnaces:ethereal_furnace"
-			}]
+			}],
+			rewards: [
+				{
+					id: "37B300C5DFDE68A6",
+					type: "item",
+					item: "minecraft:wither_skeleton_skull",
+					count: 3
+				},
+				{
+					id: "0CA7A490E40EE33F",
+					type: "item",
+					item: "minecraft:diamond_block"
+				},
+				{
+					id: "6374422CF6E644FA",
+					type: "item",
+					item: "minecraft:coal_block",
+					count: 32
+				}
+			]
 		}
 	]
 }

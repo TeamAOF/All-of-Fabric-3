@@ -1,7 +1,7 @@
 {
 	id: "5CEDE7611863C76E",
 	group: "",
-	order_index: 2,
+	order_index: 6,
 	filename: "industrial_revolution",
 	title: "Industrial Revolution",
 	icon: {
@@ -260,30 +260,23 @@
 		},
 		{
 			x: -3.0d,
-			y: 2.5d,
+			y: 4.0d,
 			id: "60EB90E1DE4C7D95",
 			tasks: [{
 				id: "2EA9ADCDF797482C",
 				type: "item",
 				item: "indrev:cable_mk1"
 			}],
-			rewards: [
-				{
-					id: "5EA1D6016795ED04",
-					type: "item",
-					item: "minecraft:gold_block",
-					count: 2
-				},
-				{
-					id: "23020BA73DCDA8E3",
-					type: "item",
-					item: "croptopia:cheeseburger"
-				}
-			]
+			rewards: [{
+				id: "2541276948EE5CBB",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 2
+			}]
 		},
 		{
 			x: -1.5d,
-			y: 2.5d,
+			y: 4.0d,
 			dependencies: ["60EB90E1DE4C7D95"],
 			id: "79D4C5683C11BA43",
 			tasks: [{
@@ -291,16 +284,24 @@
 				type: "item",
 				item: "indrev:cable_mk2"
 			}],
-			rewards: [{
-				id: "756A9FD562CCC0B2",
-				type: "item",
-				item: "indrev:nikolite_dust",
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "756A9FD562CCC0B2",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 16
+				},
+				{
+					id: "0D11D3A8999A0E05",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 4
+				}
+			]
 		},
 		{
 			x: 0.0d,
-			y: 2.5d,
+			y: 4.0d,
 			dependencies: ["79D4C5683C11BA43"],
 			id: "1F874E38C72BA53C",
 			tasks: [{
@@ -313,19 +314,19 @@
 					id: "42A41911C7503686",
 					type: "item",
 					item: "indrev:nikolite_dust",
-					count: 64
+					count: 32
 				},
 				{
-					id: "0A44B73921A18E6B",
+					id: "7A0C86F4E9739A9C",
 					type: "item",
-					item: "croptopia:cheeseburger",
-					count: 2
+					item: "minecraft:diamond",
+					count: 4
 				}
 			]
 		},
 		{
 			x: 1.5d,
-			y: 2.5d,
+			y: 4.0d,
 			dependencies: ["1F874E38C72BA53C"],
 			id: "143E7779E2B69C76",
 			tasks: [{
@@ -333,24 +334,16 @@
 				type: "item",
 				item: "indrev:cable_mk4"
 			}],
-			rewards: [
-				{
-					id: "7C1A30F881AB06FF",
-					type: "item",
-					item: "indrev:nikolite_ingot",
-					count: 16
-				},
-				{
-					id: "57CCCB393FD7DC60",
-					type: "item",
-					item: "croptopia:cheeseburger",
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "05D6D874DE39C5C7",
+				type: "item",
+				item: "indrev:enriched_nikolite_dust",
+				count: 8
+			}]
 		},
 		{
 			x: -3.0d,
-			y: 4.0d,
+			y: 2.0d,
 			id: "715E719BA83FCF68",
 			tasks: [{
 				id: "487118689922C226",
@@ -366,7 +359,7 @@
 		},
 		{
 			x: -1.5d,
-			y: 4.0d,
+			y: 2.0d,
 			dependencies: ["715E719BA83FCF68"],
 			id: "0032DB153805CF44",
 			tasks: [{
@@ -388,7 +381,7 @@
 		},
 		{
 			x: 0.0d,
-			y: 4.0d,
+			y: 2.0d,
 			dependencies: ["0032DB153805CF44"],
 			id: "349E654A97C2859D",
 			tasks: [{
@@ -404,7 +397,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 4.0d,
+			y: 2.0d,
 			dependencies: ["349E654A97C2859D"],
 			id: "107772BA13FB3344",
 			tasks: [{
@@ -429,7 +422,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 5.0d,
+			y: 3.0d,
 			dependencies: ["715E719BA83FCF68"],
 			id: "209AF5F0A72814F1",
 			tasks: [{
@@ -446,7 +439,7 @@
 		},
 		{
 			x: 3.5d,
-			y: 2.5d,
+			y: 4.0d,
 			id: "6A65223183662AFC",
 			tasks: [{
 				id: "73F0BE65371E5CDD",
@@ -470,7 +463,7 @@
 		},
 		{
 			x: 3.5d,
-			y: 4.0d,
+			y: 5.5d,
 			dependencies: ["6A65223183662AFC"],
 			id: "1C7D01CABC321F63",
 			tasks: [{
@@ -485,8 +478,8 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 5.0d,
+			x: 3.5d,
+			y: 7.0d,
 			dependencies: ["1C7D01CABC321F63"],
 			id: "536E6CF7EBAB9A95",
 			tasks: [{
@@ -745,6 +738,11 @@
 					type: "item",
 					item: "croptopia:chicken_and_noodles",
 					count: 3
+				},
+				{
+					id: "720BC045A6E95CB5",
+					type: "item",
+					item: "indrev:chunk_scanner"
 				}
 			]
 		},
@@ -886,9 +884,9 @@
 			]
 		},
 		{
-			x: 7.0d,
-			y: 1.0d,
-			dependencies: ["00CB4568F4E2E08D"],
+			x: 8.5d,
+			y: 1.5d,
+			dependencies: ["7B789F6F72A91B3E"],
 			id: "080E24206BB0C3E7",
 			tasks: [{
 				id: "7B793A3163DFA54B",
@@ -903,8 +901,8 @@
 			}]
 		},
 		{
-			x: 6.0d,
-			y: 2.0d,
+			x: 7.0d,
+			y: 1.5d,
 			dependencies: ["00CB4568F4E2E08D"],
 			id: "7B789F6F72A91B3E",
 			tasks: [{
@@ -927,9 +925,9 @@
 			]
 		},
 		{
-			x: 8.0d,
-			y: 2.5d,
-			dependencies: ["7B789F6F72A91B3E"],
+			x: 6.0d,
+			y: 1.5d,
+			dependencies: ["00CB4568F4E2E08D"],
 			id: "3D1E5570A0C218E7",
 			tasks: [{
 				id: "525CC16BD1F5482B",
@@ -957,9 +955,9 @@
 			]
 		},
 		{
-			x: 9.0d,
-			y: 2.0d,
-			dependencies: ["3D1E5570A0C218E7"],
+			x: 11.5d,
+			y: 0.5d,
+			dependencies: ["1AB5FB34EB5A9020"],
 			id: "4108AB615E206CE8",
 			tasks: [{
 				id: "188ED52B28ED077E",
@@ -973,16 +971,21 @@
 					item: "givemehats:deerstalker_hat"
 				},
 				{
-					id: "5E1DD1316D66D8D3",
+					id: "1531E4073F77ABD4",
 					type: "item",
-					item: "adorn:apple_crate"
+					item: "indrev:circuit_mk4"
+				},
+				{
+					id: "2317D14013E20E91",
+					type: "choice",
+					table_id: 7401631859612543991L
 				}
 			]
 		},
 		{
-			x: 8.0d,
-			y: 1.5d,
-			dependencies: ["3D1E5570A0C218E7"],
+			x: 12.5d,
+			y: 1.0d,
+			dependencies: ["1AB5FB34EB5A9020"],
 			id: "741F64A1253A7660",
 			tasks: [{
 				id: "36A22909EB02D97D",
@@ -999,13 +1002,23 @@
 					id: "6D342296DB297069",
 					type: "item",
 					item: "givemehats:russian_hat"
+				},
+				{
+					id: "0CEF822697081CAA",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				},
+				{
+					id: "780F0DF1567BDBF4",
+					type: "choice",
+					table_id: 7401631859612543991L
 				}
 			]
 		},
 		{
-			x: 9.0d,
-			y: 3.0d,
-			dependencies: ["3D1E5570A0C218E7"],
+			x: 12.5d,
+			y: 2.0d,
+			dependencies: ["1AB5FB34EB5A9020"],
 			id: "3FF0728E7BF49525",
 			tasks: [{
 				id: "0EF774DFD58841C6",
@@ -1014,21 +1027,26 @@
 			}],
 			rewards: [
 				{
-					id: "28D0A574127DFD29",
-					type: "item",
-					item: "adorn:carrot_crate"
-				},
-				{
 					id: "6A79808A438FC32D",
 					type: "item",
 					item: "givemehats:floating_hat"
+				},
+				{
+					id: "4C57D7149E2DDF04",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				},
+				{
+					id: "784B1A3FAF2F8056",
+					type: "choice",
+					table_id: 7401631859612543991L
 				}
 			]
 		},
 		{
-			x: 8.0d,
-			y: 3.5d,
-			dependencies: ["3D1E5570A0C218E7"],
+			x: 11.5d,
+			y: 2.5d,
+			dependencies: ["1AB5FB34EB5A9020"],
 			id: "14EA609432F96C42",
 			tasks: [{
 				id: "2B2FBFF4A575208C",
@@ -1037,16 +1055,243 @@
 			}],
 			rewards: [
 				{
-					id: "0EF0F25601E9FE8E",
-					type: "item",
-					item: "blockus:cod_crate"
-				},
-				{
 					id: "2BEEC030D0BF50B4",
 					type: "item",
 					item: "givemehats:fez_hat"
+				},
+				{
+					id: "087EBACA2E86053B",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				},
+				{
+					id: "1BD0EB0F49BE22BD",
+					type: "choice",
+					table_id: 7401631859612543991L
 				}
 			]
+		},
+		{
+			x: 7.5d,
+			y: 3.0d,
+			dependencies: ["7B789F6F72A91B3E"],
+			id: "476E5819A5DCA7BC",
+			tasks: [{
+				id: "08D412DFD800602A",
+				type: "item",
+				item: "indrev:mining_drill_mk4"
+			}],
+			rewards: [{
+				id: "206B1AEFF5CF9F59",
+				type: "item",
+				item: "indrev:circuit_mk4"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 1.5d,
+			dependencies: ["080E24206BB0C3E7"],
+			id: "64FF579AEB88C22B",
+			tasks: [{
+				id: "1B72257718E4311D",
+				type: "item",
+				item: "indrev:laser_mk4"
+			}],
+			rewards: [{
+				id: "08EFD5FC6E29AF97",
+				type: "item",
+				item: "indrev:cable_mk4",
+				count: 16
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 1.5d,
+			dependencies: ["64FF579AEB88C22B"],
+			id: "1AB5FB34EB5A9020",
+			tasks: [{
+				id: "0C2C8E3BE39C2619",
+				type: "item",
+				item: "indrev:modular_core_activated"
+			}],
+			rewards: [
+				{
+					id: "15448819F4AAC74B",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk2"
+				},
+				{
+					id: "095E88AE6C952E03",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 5.5d,
+			id: "3F1B2546696B8C37",
+			tasks: [{
+				id: "675E789B1F686D0A",
+				type: "item",
+				item: "indrev:fluid_pipe_mk1"
+			}],
+			rewards: [{
+				id: "582C31B33982A6FC",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 2
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 7.0d,
+			id: "422DD6C695AB387C",
+			tasks: [{
+				id: "7A73B63D662D3231",
+				type: "item",
+				item: "indrev:item_pipe_mk1"
+			}],
+			rewards: [{
+				id: "5AB2116DB8A2DD06",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 2
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.5d,
+			dependencies: ["3F1B2546696B8C37"],
+			id: "1548F52EA7E707D2",
+			tasks: [{
+				id: "318685B65556D523",
+				type: "item",
+				item: "indrev:fluid_pipe_mk2"
+			}],
+			rewards: [
+				{
+					id: "7BF0DF45D63F1D96",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 16
+				},
+				{
+					id: "66A5B19ADECBF469",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 4
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 7.0d,
+			dependencies: ["422DD6C695AB387C"],
+			id: "255B2EE09458A29D",
+			tasks: [{
+				id: "29C7FDAD2C70568E",
+				type: "item",
+				item: "indrev:item_pipe_mk2"
+			}],
+			rewards: [
+				{
+					id: "2C181FD763A1D82D",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 16
+				},
+				{
+					id: "67AD8E99C58B264B",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 5.5d,
+			dependencies: ["1548F52EA7E707D2"],
+			id: "4D2033E7CC501D8F",
+			tasks: [{
+				id: "51BC6D27E504206B",
+				type: "item",
+				item: "indrev:fluid_pipe_mk3"
+			}],
+			rewards: [
+				{
+					id: "6C93EE6A74B76167",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 32
+				},
+				{
+					id: "41D2CFD87981C1B4",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 5.5d,
+			dependencies: ["4D2033E7CC501D8F"],
+			id: "7E51EC749AFAB32D",
+			tasks: [{
+				id: "3FC646581662BE57",
+				type: "item",
+				item: "indrev:fluid_pipe_mk4"
+			}],
+			rewards: [{
+				id: "7934A0A7FB9638DE",
+				type: "item",
+				item: "indrev:enriched_nikolite_dust",
+				count: 8
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 7.0d,
+			dependencies: ["255B2EE09458A29D"],
+			id: "2E57D2E63E787ED7",
+			tasks: [{
+				id: "6040BF2A3CB0737A",
+				type: "item",
+				item: "indrev:item_pipe_mk3"
+			}],
+			rewards: [
+				{
+					id: "5128B942953E36F0",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 32
+				},
+				{
+					id: "54AB326763ED9B63",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 7.0d,
+			dependencies: ["2E57D2E63E787ED7"],
+			id: "3C5EE9811ECFD155",
+			tasks: [{
+				id: "327523D16AAB1E09",
+				type: "item",
+				item: "indrev:item_pipe_mk4"
+			}],
+			rewards: [{
+				id: "51DA34097D0A6D7A",
+				type: "item",
+				item: "indrev:enriched_nikolite_dust",
+				count: 8
+			}]
 		}
 	]
 }

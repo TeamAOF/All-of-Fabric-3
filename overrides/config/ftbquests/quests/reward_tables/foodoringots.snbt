@@ -3,6 +3,7 @@
 	order_index: 0,
 	title: "foodORingots",
 	loot_size: 1,
+	hide_tooltip: true,
 	rewards: [
 		{
 			item: "tacocraft:carnitas_taco",

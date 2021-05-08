@@ -1,0 +1,670 @@
+{
+	id: "38C080C5958A7653",
+	group: "",
+	order_index: 4,
+	filename: "creative_items",
+	title: "Creative Items",
+	icon: "appliedenergistics2:creative_energy_cell",
+	default_quest_shape: "rsquare",
+	quests: [
+		{
+			title: "Creative Jetpack",
+			icon: {
+				id: "iron-jetpacks:creative_jetpack",
+				Count: 1b,
+				tag: {
+					energy: 0
+				}
+			},
+			x: -12.5d,
+			y: -4.5d,
+			dependencies: ["15F103C5CCCE3A8E"],
+			id: "24F56F7A5B97708C",
+			tasks: [
+				{
+					id: "2F62FE9AE0CF599B",
+					type: "item",
+					item: {
+						id: "kibe:angel_ring",
+						Count: 1b,
+						tag: {}
+					},
+					consume_items: true
+				},
+				{
+					id: "5F8BE9C25BFD34C4",
+					type: "item",
+					item: {
+						id: "iron-jetpacks:netherite_jetpack",
+						Count: 1b,
+						tag: {
+							energy: 0
+						}
+					},
+					consume_items: true
+				},
+				{
+					id: "7E0D1351B023FE57",
+					type: "kill",
+					icon: "minecraft:ender_pearl",
+					entity: "minecraft:enderman",
+					value: 1000L
+				},
+				{
+					id: "20EEEBE2F31B35DD",
+					type: "item",
+					item: "byg:pendorite_block",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "6736C15457ADF4EF",
+				type: "item",
+				item: {
+					id: "iron-jetpacks:creative_jetpack",
+					Count: 1b,
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Creative Electric Furnace",
+			icon: "indrev:electric_furnace_creative",
+			x: -20.0d,
+			y: -7.5d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "4666FFB87FEE6EB2",
+			tasks: [
+				{
+					id: "2EA458B5E0066A00",
+					type: "item",
+					item: "indrev:electric_furnace_mk4",
+					consume_items: true
+				},
+				{
+					id: "059AA966B40EA3CA",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "10140ED2070D478D",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "427076D9915BAABA",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "7B38D454353D553D",
+				type: "item",
+				item: "indrev:electric_furnace_creative"
+			}]
+		},
+		{
+			title: "Creative Pulverizer",
+			icon: "indrev:pulverizer_creative",
+			x: -21.0d,
+			y: -7.0d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "4C1711D18DCFE0CD",
+			tasks: [
+				{
+					id: "5D5639CC008C3FAF",
+					type: "item",
+					item: "indrev:pulverizer_mk4",
+					consume_items: true
+				},
+				{
+					id: "76CB26190D14F059",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "0FD8882D882D7E8E",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "5FFB60CDDF67E880",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "67E4F0A224719772",
+				type: "item",
+				item: "indrev:pulverizer_creative"
+			}]
+		},
+		{
+			title: "Creative Compressor",
+			icon: "indrev:compressor_creative",
+			x: -19.0d,
+			y: -7.5d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "7CA07CA36ED3FADF",
+			tasks: [
+				{
+					id: "0226B32F573D741F",
+					type: "item",
+					item: "indrev:compressor_mk4",
+					consume_items: true
+				},
+				{
+					id: "0C776E792B4DA5ED",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "6C89ADE1B6DE647E",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "13411A20A1974D39",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "51D632FC1675ABCC",
+				type: "item",
+				item: "indrev:compressor_creative"
+			}]
+		},
+		{
+			title: "Creative Solid Infuser",
+			icon: "indrev:infuser_creative",
+			x: -18.0d,
+			y: -7.0d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "219EC83C3FC1480C",
+			tasks: [
+				{
+					id: "3C4D714EBB247119",
+					type: "item",
+					item: "indrev:infuser_mk4",
+					consume_items: true
+				},
+				{
+					id: "7DA5735F72A08020",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "0ED590EE39096F50",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "371AE7A78A8AFF70",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "2F0D7463E1E0F87A",
+				type: "item",
+				item: "indrev:infuser_creative"
+			}]
+		},
+		{
+			title: "Creative Sawmill",
+			icon: "indrev:sawmill_creative",
+			x: -18.0d,
+			y: -5.0d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "7CF582A67F35815C",
+			tasks: [
+				{
+					id: "52BCCA5F0D7530B8",
+					type: "item",
+					item: "indrev:sawmill_mk4",
+					consume_items: true
+				},
+				{
+					id: "58255303F6C0DB82",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "3239D48E78A8C7DA",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "24094FD5A9D46358",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "4F6ADBEA76F9C2D0",
+				type: "item",
+				item: "indrev:sawmill_creative"
+			}]
+		},
+		{
+			title: "Creative Fluid Infuser",
+			icon: "indrev:fluid_infuser_creative",
+			x: -21.0d,
+			y: -5.0d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "6A739ACE850115CA",
+			tasks: [
+				{
+					id: "6B3BF42DB94EC8B9",
+					type: "item",
+					item: "indrev:fluid_infuser_mk4",
+					consume_items: true
+				},
+				{
+					id: "00A742D1B432902E",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "3FF7D9E338AD22AD",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "422D9D4E0588F4DC",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "246E458BE7D037EA",
+				type: "item",
+				item: "indrev:fluid_infuser_creative"
+			}]
+		},
+		{
+			title: "Creative Chopper",
+			icon: "indrev:chopper_mk4",
+			x: -19.0d,
+			y: -4.5d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "631A356748E49D76",
+			tasks: [
+				{
+					id: "17AFFDB5C9C86E3F",
+					type: "item",
+					item: "indrev:chopper_mk4",
+					consume_items: true
+				},
+				{
+					id: "6FDA710A5DEC2816",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "0E37E8AB45E5BB7D",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "0314F8364D706A60",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "29CBE757DFFA8408",
+				type: "item",
+				item: "indrev:chopper_creative"
+			}]
+		},
+		{
+			title: "Creative Farmer",
+			icon: "indrev:farmer_creative",
+			x: -20.0d,
+			y: -4.5d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "6E98CEE71796F0D0",
+			tasks: [
+				{
+					id: "3A549E39F559CE77",
+					type: "item",
+					item: "indrev:farmer_mk4",
+					consume_items: true
+				},
+				{
+					id: "22E8A5B057A1700E",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "47EDC811B68FDFCE",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "4AC62458D8D5CB9E",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "4A568ACEE08778FE",
+				type: "item",
+				item: "indrev:farmer_creative"
+			}]
+		},
+		{
+			title: "Creative Rancher",
+			icon: "indrev:rancher_creative",
+			x: -21.0d,
+			y: -6.0d,
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "6FAA32890E2A42C6",
+			tasks: [
+				{
+					id: "6385FF5440E1A4D4",
+					type: "item",
+					item: "indrev:rancher_mk4",
+					consume_items: true
+				},
+				{
+					id: "1B1052CBC7021314",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "0FDEFC3A777E7B6E",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "5672A5C765637641",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "1C700C83DFAF9C80",
+				type: "item",
+				item: "indrev:rancher_creative"
+			}]
+		},
+		{
+			title: "Creative Solar Panel",
+			icon: "techreborn:creative_solar_panel",
+			x: -16.0d,
+			y: -4.0d,
+			description: ["Infinite Power"],
+			dependencies: ["5410DD80607B0D84"],
+			id: "45D853BA6D8C06C8",
+			tasks: [
+				{
+					id: "2EFDBA662EFA86CA",
+					type: "kill",
+					title: "Kill 5,000 Creepers",
+					icon: "minecraft:creeper_head",
+					entity: "minecraft:creeper",
+					value: 5000L
+				},
+				{
+					id: "021879BBC2010F5C",
+					type: "item",
+					item: "techreborn:quantum_solar_panel",
+					count: 8L,
+					consume_items: true
+				},
+				{
+					id: "53A91F5F440A7865",
+					type: "item",
+					item: {
+						id: "techreborn:lapotronic_orbpack",
+						Count: 1b,
+						tag: {
+							energy: 0
+						}
+					},
+					count: 8L,
+					consume_items: true
+				},
+				{
+					id: "23220150DBE6AF6B",
+					type: "item",
+					item: "techreborn:interdimensional_su",
+					count: 4L,
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "72FED82830C126C9",
+				type: "item",
+				item: "techreborn:creative_solar_panel"
+			}]
+		},
+		{
+			title: "Creative Energy Cell",
+			icon: "appliedenergistics2:creative_energy_cell",
+			x: -16.0d,
+			y: -8.0d,
+			description: ["All the more reason for Monster to troll you with cake"],
+			dependencies: ["0FAAADFFCE60A8A0"],
+			id: "2F00D157946DC3F8",
+			tasks: [
+				{
+					id: "26E80C52000FEC01",
+					type: "stat",
+					title: "Eat Cake",
+					icon: "minecraft:cake",
+					stat: "minecraft:eat_cake_slice",
+					value: 10000
+				},
+				{
+					id: "05BEE1042E0C5CB3",
+					type: "kill",
+					title: "Kill Blaze",
+					icon: "minecraft:blaze_powder",
+					entity: "minecraft:blaze",
+					value: 500L
+				},
+				{
+					id: "59938771CABA4149",
+					type: "item",
+					item: "techreborn:quantum_solar_panel",
+					count: 8L,
+					consume_items: true
+				},
+				{
+					id: "4374873D4D1E2EE6",
+					type: "item",
+					item: {
+						id: "techreborn:lapotronic_orbpack",
+						Count: 1b,
+						tag: {
+							energy: 0
+						}
+					},
+					count: 8L,
+					consume_items: true
+				},
+				{
+					id: "42A4B6FF0379CB63",
+					type: "item",
+					item: "techreborn:interdimensional_su",
+					count: 4L,
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "78D6581982A210F7",
+				type: "item",
+				item: "appliedenergistics2:creative_energy_cell"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -19.5d,
+			y: -6.0d,
+			shape: "gear",
+			subtitle: "Remember to click the checkmark",
+			dependencies: [
+				"5CEDE7611863C76E",
+				"7B0C19A53B3E32BC"
+			],
+			id: "0184CC30EBE9CEAB",
+			tasks: [{
+				id: "3EC47BD1F053998E",
+				type: "checkmark",
+				title: "Complete Industrial Revolution",
+				disable_toast: true
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -16.0d,
+			y: -7.0d,
+			shape: "gear",
+			subtitle: "Remember to click the checkmark",
+			dependencies: [
+				"3958FD38811FA00A",
+				"7B0C19A53B3E32BC"
+			],
+			id: "0FAAADFFCE60A8A0",
+			tasks: [{
+				id: "299B5B1A20459F90",
+				type: "checkmark",
+				title: "Complete AE2",
+				disable_toast: true
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -16.0d,
+			y: -5.0d,
+			shape: "gear",
+			subtitle: "Remember to click the checkmark",
+			dependencies: [
+				"00AFE54418B08A94",
+				"7B0C19A53B3E32BC"
+			],
+			id: "5410DD80607B0D84",
+			tasks: [{
+				id: "2795943A79040B6B",
+				type: "checkmark",
+				title: "Complete Tech Reborn"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -14.0d,
+			y: -4.5d,
+			shape: "gear",
+			dependencies: ["45B35E5589C534FA"],
+			id: "15F103C5CCCE3A8E",
+			tasks: [{
+				id: "4628276CD74A048D",
+				type: "checkmark",
+				title: "Complete Jetpacks",
+				disable_toast: true
+			}],
+			rewards: [{
+				id: "1550C351F9721F42",
+				type: "item",
+				item: "winged:broken_core_of_flight"
+			}]
+		},
+		{
+			title: "Infinite Staff of Building",
+			icon: "staffofbuilding:infinite_builder_staff",
+			x: -14.0d,
+			y: -7.5d,
+			id: "2F1457758A9AFA17",
+			tasks: [
+				{
+					id: "1DEA8022359082FD",
+					type: "item",
+					item: {
+						id: "staffofbuilding:netherite_builder_staff",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					consume_items: true
+				},
+				{
+					id: "51A2A675B62D1EEB",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				},
+				{
+					id: "3B40369FDFB86778",
+					type: "xp",
+					value: 30L,
+					points: false
+				},
+				{
+					id: "129515AE42AB7632",
+					type: "item",
+					item: "compressedblocks:compressed_cobblestone_x8",
+					consume_items: true
+				},
+				{
+					id: "21EA72FE29F30BB4",
+					type: "kill",
+					icon: "minecraft:shulker_shell",
+					entity: "minecraft:shulker",
+					value: 25L
+				}
+			],
+			rewards: [{
+				id: "34B02ECEDEED4982",
+				type: "item",
+				item: "staffofbuilding:infinite_builder_staff"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -16.0d,
+			y: -6.0d,
+			shape: "gear",
+			id: "7B0C19A53B3E32BC",
+			tasks: [{
+				id: "14D95BD7D132AB6C",
+				type: "checkmark",
+				title: "WARNING: SOME CANNOT BE MOVED ONCE PLACED",
+				disable_toast: true
+			}]
+		}
+	]
+}

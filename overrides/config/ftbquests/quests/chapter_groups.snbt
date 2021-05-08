@@ -1,6 +1,12 @@
 {
-	chapter_groups: [{
-		id: "54E549EC6D1514B9",
-		title: "Exploration"
-	}]
+	chapter_groups: [
+		{
+			id: "54E549EC6D1514B9",
+			title: "Exploration"
+		},
+		{
+			id: "1BEC58D7749FCB7E",
+			title: "Become a chef"
+		}
+	]
 }
