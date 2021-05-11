@@ -10,7 +10,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "0.7b",
+    "version": "0.8b",
     "author": "The_Monster_Zer0",
     "name": "AOF3 2.8-server",
     "files": [{
@@ -952,6 +952,10 @@
         }, {
             "projectID": 394120,
             "fileID": 3273334,
+            "required": true
+        }, {
+            "projectID": 451766,
+            "fileID": 3303927,
             "required": true
         }
     ]
