@@ -140,6 +140,7 @@
 			}]
 		},
 		{
+			title: "Twilight Valley",
 			x: -8.5d,
 			y: -9.5d,
 			dependencies: ["43B7F8B8E206346B"],
@@ -288,7 +289,7 @@
 			}]
 		},
 		{
-			title: "Stone forest",
+			title: "Stone Forest",
 			icon: "byg:overgrown_stone",
 			x: -8.5d,
 			y: -4.5d,
