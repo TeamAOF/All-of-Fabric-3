@@ -21,8 +21,11 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: 3.0d,
+			title: "Amber Land",
+			x: -2.5d,
+			y: 3.5d,
+			subtitle: "Visit Biome: Amber Land",
+			description: [""],
 			dependencies: ["000681DEA51291E7"],
 			id: "6D7E1C67C045402D",
 			tasks: [{
@@ -38,8 +41,10 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -0.5d,
+			title: "Chorus Forest",
+			x: 0.5d,
+			y: 0.5d,
+			subtitle: "Visit Biome: Chorus Forest",
 			dependencies: ["000681DEA51291E7"],
 			id: "64A0BF606AA339F0",
 			tasks: [{
@@ -55,8 +60,10 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			title: "Foggy Mushroomland",
+			x: 1.0d,
 			y: 3.0d,
+			subtitle: "Visit Biome: Foggy Mushroomland",
 			dependencies: ["000681DEA51291E7"],
 			id: "609DADCB7CD29791",
 			tasks: [{
@@ -72,9 +79,11 @@
 			}]
 		},
 		{
+			title: "Dark Amaranth Forest",
 			icon: "wild_explorer:dark_amaranth_roots",
 			x: -2.0d,
 			y: 2.0d,
+			subtitle: "Visit Biome: Tall Darak Amaranth Forest",
 			dependencies: ["000681DEA51291E7"],
 			id: "636E9B1179D76159",
 			tasks: [{
@@ -90,8 +99,10 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: 1.0d,
+			title: "Megalake Grove",
+			x: 0.0d,
+			y: 4.0d,
+			subtitle: "Visit Biome: Megalake Cove",
 			dependencies: ["000681DEA51291E7"],
 			id: "77007681D6C6BA43",
 			tasks: [{
@@ -107,25 +118,10 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: 4.0d,
-			dependencies: ["000681DEA51291E7"],
-			id: "0F7EFB7B8B91B7CC",
-			tasks: [{
-				id: "333B7F23698505CF",
-				type: "biome",
-				icon: "betterend:umbrella_tree_sapling",
-				biome: "betterend:glowing_grasslands"
-			}],
-			rewards: [{
-				id: "77DEA8253024C599",
-				type: "random",
-				table_id: 657593608620279249L
-			}]
-		},
-		{
+			title: "Sulphur Springs",
 			x: 0.0d,
 			y: 2.0d,
+			subtitle: "Visit Biome: Sulphur Springs",
 			dependencies: ["000681DEA51291E7"],
 			id: "0D1BBCF53536137B",
 			tasks: [{
@@ -141,8 +137,10 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 0.0d,
+			title: "Blossoming Spires",
+			x: -3.0d,
+			y: 1.0d,
+			subtitle: "Visit Biome: Blossoming Spires",
 			dependencies: ["000681DEA51291E7"],
 			id: "6101176154426219",
 			tasks: [{
@@ -158,8 +156,10 @@
 			}]
 		},
 		{
+			title: "Crystal Mountains",
 			x: -1.0d,
 			y: 1.0d,
+			subtitle: "Visit Biome: Crystal Mountains",
 			dependencies: ["000681DEA51291E7"],
 			id: "53C6D42E726D7DAA",
 			tasks: [{
@@ -175,8 +175,12 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 4.0d,
+			title: "Glowing Grasslands",
+			icon: "betterend:salteago",
+			x: -1.0d,
+			y: 3.0d,
+			subtitle: "Visit Biome: Glowing Grasslands",
+			description: ["Visit Biome: Glowing Grasslands"],
 			dependencies: ["000681DEA51291E7"],
 			dependency_requirement: "one_completed",
 			id: "6856569F645B57EF",
@@ -193,8 +197,10 @@
 			}]
 		},
 		{
+			title: "Bulbis Gardens",
 			x: -2.0d,
-			y: -1.5d,
+			y: 0.0d,
+			subtitle: "Visit Biome: Bulbis Gardens",
 			dependencies: ["000681DEA51291E7"],
 			id: "5F89DD49F175E4FE",
 			tasks: [{
