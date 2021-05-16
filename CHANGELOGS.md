@@ -1,3 +1,79 @@
+<h1>2.7.3</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Added 10 more quest chapters.
+- Tweak BLAST gunpowder block recipe to not conflict with charm.
+- Remove boss key recipe.
+- Fixed dank storage textures.
+- Fixed blockus colored tile blocks reducing mip levels to 3.
+- Added AbstractDankStorageScreen to inventorysorter blacklist.
+- Fixed adorn tradingstation price/product sort swap.
+- Fixed ender chest and crafting table recipes.
+- Fixed incorrect cucumber & tomato seeds being set for output.
+- Added golden bars recipe.
+- Fixed modded villagers not working at all.
+- Fixed packet limit reached error.
+- Fixed multiple missing quest rewards.
+
+**Removed**
+- **Roughly Enough Resources** (Due to packet limit errors, will be added back when fixed)
+
+**Updated**
+- **Applied Energistics 2** (appliedenergistics2-fabric-8.2.0-alpha.3.jar -> appliedenergistics2-fabric-8.3.0-alpha.2.jar)
+- **Architectury** (architectury-1.12.145-fabric.jar -> architectury-1.14.156-fabric.jar)
+- **Artifacts** (artifacts-3.2.0+fabric.jar -> artifacts-3.2.1+fabric.jar)
+- **Better End** (better-end-0.9.1-pre.jar -> better-end-0.9.6-pre.jar)
+- **YUNG's Better Caves** (BetterCaves-Fabric-1.16.5-1.1.jar -> BetterCaves-Fabric-1.16.5-1.2.jar)
+- **Bewitchment** (bewitchment-1.16.5-8.jar -> bewitchment-1.16.5-12.jar)
+- **Biome Makeover** (biome-makeover-1.16.5-1.3.6.jar -> biome-makeover-1.16.5-1.3.8.jar)
+- **Blockus** (blockus-2.1.1+1.16.5.jar -> blockus-2.1.4+1.16.5.jar)
+- **BYG** (byg-1.1.7.jar -> byg-1.1.8.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.8.0.jar -> Cardinal-Components-API-2.8.2.jar)
+- **Carrier** (carrier-1.7.5.jar -> carrier-1.7.6.jar)
+- **CC:Restitched** (cc-restiched-1.94.1-beta.jar -> cc-restiched-1.95.0-beta.jar)
+- **Cloth Config v4** (cloth-config-4.11.19-fabric.jar -> cloth-config-4.11.26-fabric.jar)
+- **CraftPresence** (CraftPresence-Fabric-1.16.5-Release-1.8.0.jar -> CraftPresence-Fabric-1.16.5-Release-1.8.1.jar)
+- **Croptopia** (Croptopia-1.16.4-5-FABRIC-1.3.3.jar -> Croptopia-1.16.4-5-FABRIC-1.4.0.jar)
+- **Crusade** (crusade-mod-1.2.0.jar -> crusade-mod-1.2.1.jar)
+- **Dank Storage** (dankstorage-1.9a-1.16.3.jar -> dankstorage-1.10a-1.16.5.jar)
+- **Dungeons Mod Lite** (DungeonsModLite-1.16.5-1.0.0.jar -> DungeonsModLite-1.16.5-1.0.5.jar)
+- **Dynamic FPS** (dynamic-fps-2.0.1.jar -> dynamic-fps-2.0.2.jar)
+- **Enchantment Descriptions** (EnchantmentDescriptions-fabric-1.16.5-2.0.1.jar -> EnchantmentDescriptions-fabric-1.16.5-2.0.2.jar)
+- **Fabric API** (fabric-api-0.33.0+1.16.jar -> fabric-api-0.34.2+1.16.jar)
+- **Fabric Language Kotlin** (fabric-language-kotlin-1.5.0+kotlin.1.4.31.jar -> fabric-language-kotlin-1.6.0+kotlin.1.5.0.jar)
+- **FlytreLib** (flytre_lib-0.2.9.jar -> flytre_lib-0.2.10.jar)
+- **Geckolib** (geckolib-fabric-1.16.5-3.0.31.jar -> geckolib-fabric-1.16.5-3.0.34.jar)
+- **Impersonate** (Impersonate-2.1.0.jar -> Impersonate-2.2.1.jar)
+- **Industrial Revolution** (indrev-1.9.4-BETA.jar -> indrev-1.9.11-BETA.jar)
+- **KubeJS** (kubejs-1605.3.7-build.184-fabric.jar -> kubejs-1605.3.7-build.196-fabric.jar)
+- **Lapis Reserve** (lapisreserve-1.0.6.jar -> lapisreserve-1.0.7.jar)
+- **Lifts** (lifts-1.16.5-1.1.0-BETA.jar -> lifts-1.16.5-1.1.1-BETA.jar)
+- **Light Overlay** (light-overlay-5.8.0.jar -> light-overlay-5.8.1.jar)
+- **megane** (megane-3.1.6+1.16.5.jar -> megane-4.0.0+1.16.5.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.16.jar -> Modern-Industrialization-0.3.17.jar)
+- **Mouse Wheelie** (mousewheelie-1.6.4+mc1.16.4.jar -> mousewheelie-1.7.1+mc1.16.5.jar)
+- **Pehkui** (Pehkui-1.9.0+21w10a.jar -> Pehkui-2.1.0+21w18a.jar)
+- **Phosphor** (phosphor-fabric-mc1.16.3-0.7.1+build.11.jar -> phosphor-fabric-mc1.16.3-0.7.2+build.12.jar)
+- **Rat's Mischief** (ratsmischief-1.1.jar -> ratsmischief-1.1.1.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.5-1.10.3-fabric.jar -> repurposed_structures-1.16.5-1.10.5-fabric.jar)
+- **Rhino** (rhino-1.7.13-build.23.jar -> rhino-1.7.13-build.24.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.11.202.jar -> RoughlyEnoughItems-5.11.218.jar)
+- **Secret Rooms** (secretrooms-0.9.3+1.16.5.jar -> secretrooms-0.9.5+1.16.5.jar)
+- **Staff of Building** (staffofbuilding-1.2.5-1.16.5.jar -> staffofbuilding-1.2.6-1.16.5.jar)
+- **Tech Reborn** (TechReborn-1.16-3.8.2+build.220.jar -> TechReborn-1.16-3.8.3+build.231.jar)
+- **Vanilla Hammers** (vanilla-hammers-3.0.2-1.16.5.jar -> vanilla-hammers-3.0.3-1.16.5.jar)
+- **Winged Mod** (winged-1.16.2-1.4.1.jar -> winged-1.16.5-2.0.5.jar)
+- **Wireless Networks** (wirelessnetworks-1.0.2.jar -> wirelessnetworks-1.0.3.jar)
+- **Wolves With Armor** (wolves-with-armor-1.5.2-1.16.2.jar -> wolves-with-armor-1.5.4-1.16.5.jar)
+- **Harvest Scythes** (wraith-harvestscythes-1.1.0.jar -> wraith-harvestscythes-2.0.4.jar)
+- **wthit** (wthit-2.7.0-fabric.jar -> wthit-2.10.0-fabric.jar)
+- **Xaero's Minimap** (Xaeros_Minimap_21.6.0_Fabric_1.16.5.jar -> Xaeros_Minimap_21.8.1_Fabric_1.16.5.jar)
+- **Xaero's World Map** (XaerosWorldMap_1.13.2_Fabric_1.16.5.jar -> XaerosWorldMap_1.13.5_Fabric_1.16.5.jar)
+- **YUNG's API** (YungsApi-1.16.5-Fabric-2.jar -> YungsApi-1.16.5-Fabric-5.jar)
+------------------------------------------------------------------------------------
+
 <h1>2.7.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
