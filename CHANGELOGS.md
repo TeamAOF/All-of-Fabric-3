@@ -1,3 +1,12 @@
+<h1>2.7.4</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed nourish tags not loading.
+- Fixed indrev GUIs crashing servers.
+---------------------------------------------------------------------------------------------
+
 <h1>2.7.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
