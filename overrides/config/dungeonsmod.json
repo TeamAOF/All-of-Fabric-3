@@ -1,0 +1,121 @@
+{
+  "bosses": {
+    "crawler": {
+      "lootTable": "dungeonsmod:entities/crawler"
+    },
+    "deserted": {
+      "lootTable": "dungeonsmod:entities/deserted"
+    },
+    "ironslime": {
+      "lootTable": "dungeonsmod:entities/ironslime"
+    },
+    "king": {
+      "lootTable": "dungeonsmod:entities/king"
+    },
+    "kraken": {
+      "lootTable": "dungeonsmod:entities/kraken"
+    },
+    "sun": {
+      "lootTable": "dungeonsmod:entities/sun"
+    }
+  },
+  "difficulty": {
+    "customDifficulty": 0.0,
+    "scalingDifficulty": true
+  },
+  "invocations": {
+    "travelerInvocation": true,
+    "sunInvocation": true
+  },
+  "items": {
+    "times": {
+      "cooldownHomeGem": 18000,
+      "usageHomeGem": 200,
+      "cooldownSunOverdrive": 144000,
+      "usageSunOverdrive": 200
+    },
+    "activations": {
+      "enableBackPergamine": true,
+      "enableHomeGem": true,
+      "enableSunOverdrive": true
+    }
+  },
+  "mobs": {
+    "anthermite": {
+      "lootTable": "dungeonsmod:entities/anthermite",
+      "spawnWeight": 2
+    },
+    "mimic": {
+      "lootTable": "dungeonsmod:entities/mimic",
+      "spawnWeight": 5
+    },
+    "piranha": {
+      "lootTable": "dungeonsmod:entities/piranha",
+      "spawnWeight": 2
+    },
+    "rogue": {
+      "lootTable": "dungeonsmod:entities/rogue",
+      "spawnWeight": 1
+    },
+    "slimond": {
+      "lootTable": "dungeonsmod:entities/slimond",
+      "spawnWeight": 1
+    },
+    "guard": {
+      "lootTable": "dungeonsmod:entities/guard",
+      "spawnWeight": 100
+    },
+    "scientist": {
+      "lootTable": "dungeonsmod:entities/scientist",
+      "spawnWeight": 100
+    },
+    "slimewolf": {
+      "lootTable": "dungeonsmod:entities/slimewolf",
+      "spawnWeight": 100
+    }
+  },
+  "structures": {
+    "the_camp": {
+      "spacing": 32,
+      "separation": 8,
+      "seedModifier": 14357617,
+      "chance": 1,
+      "price": 0
+    },
+    "the_house": {
+      "spacing": 80,
+      "separation": 20,
+      "seedModifier": 9326560,
+      "chance": 1,
+      "price": 2
+    },
+    "the_iron_mines": {
+      "spacing": 80,
+      "separation": 20,
+      "seedModifier": 9326560,
+      "chance": 1,
+      "price": 4
+    },
+    "the_ship": {
+      "spacing": 80,
+      "separation": 20,
+      "seedModifier": 214556,
+      "chance": 1,
+      "price": 8
+    },
+    "the_castle": {
+      "spacing": 80,
+      "separation": 20,
+      "seedModifier": 5284629,
+      "chance": 1,
+      "price": 15
+    },
+    "the_lab": {
+      "spacing": 80,
+      "separation": 20,
+      "seedModifier": 3241280,
+      "chance": 1,
+      "price": 20
+    }
+  }
+}
