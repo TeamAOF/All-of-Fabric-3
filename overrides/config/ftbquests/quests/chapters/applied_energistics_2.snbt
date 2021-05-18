@@ -451,10 +451,9 @@
 				item: "appliedenergistics2:interface_terminal"
 			}],
 			rewards: [{
-				id: "40F40154C310C5AB",
-				type: "item",
-				item: "blast:golden_bomb",
-				count: 4
+				id: "27C39E4FC8A82ED4",
+				type: "random",
+				table_id: 5705109811401542117L
 			}]
 		},
 		{

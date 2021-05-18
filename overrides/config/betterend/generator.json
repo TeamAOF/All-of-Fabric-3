@@ -5,7 +5,8 @@
   "biomeSizeVoid [default: 256]": 256,
   "biomeMap": {
     "biomeSizeLand [default: 256]": 256,
-    "biomeSizeVoid [default: 256]": 256
+    "biomeSizeVoid [default: 256]": 256,
+    "biomeSizeCaves [default: 32]": 32
   },
   "hasPortal [default: true]": true,
   "hasPillars [default: true]": true,

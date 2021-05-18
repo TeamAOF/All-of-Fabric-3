@@ -3,7 +3,7 @@
 	group: "1BEC58D7749FCB7E",
 	order_index: 1,
 	filename: "sandwhichable",
-	title: "Sandwhichable",
+	title: "Sandwichable",
 	default_quest_shape: "",
 	quests: [
 		{

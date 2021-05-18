@@ -1,0 +1,25 @@
+{ 
+	"forwardLauncher": { 
+		"constantVelocity": 0.9,
+		"interpolatingVelocity": 0.1,
+		"frictionFactor": 0.4
+	},
+	"standardBooster": { 
+		"constantVelocity": 0.1,
+		"interpolatingVelocity": 1.5,
+		"frictionFactor": 0.5,
+		"ticksPerDamage": 4
+	},
+	"fastBooster": { 
+		"constantVelocity": 0.2,
+		"interpolatingVelocity": 2.5,
+		"frictionFactor": 0.6,
+		"ticksPerDamage": 2
+	},
+	"slowBooster": { 
+		"constantVelocity": 0.1,
+		"interpolatingVelocity": 0.9,
+		"frictionFactor": 0.4,
+		"ticksPerDamage": 8
+	}
+}

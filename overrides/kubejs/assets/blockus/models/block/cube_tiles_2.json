@@ -1,0 +1,95 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "#tile_1"
+	},
+	"elements": [
+		{
+			"name": "Tile 1",
+			"from": [0, 0, 0],
+			"to": [8, 8, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#tile_2"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#tile_2"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#tile_2"}
+			}
+		},
+		{
+			"name": "Tile 2",
+			"from": [8, 0, 0],
+			"to": [16, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#tile_1"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#tile_1"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#tile_1"}
+			}
+		},
+				{
+			"name": "Tile 3",
+			"from": [8, 0, 8],
+			"to": [16, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 16]},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 8], "texture": "#tile_2"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#tile_2"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#tile_2"}
+			}
+		},
+		{
+			"name": "Tile 4",
+			"from": [0, 0, 8],
+			"to": [8, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"south": {"uv": [0, 0, 8, 8], "texture": "#tile_1"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#tile_1"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#tile_1"}
+			}
+		},
+				{
+			"name": "Tile 5",
+			"from": [0, 8, 0],
+			"to": [8, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#tile_1"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#tile_1"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#tile_1"}
+			}
+		},
+		{
+			"name": "Tile 6",
+			"from": [8, 8, 0],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#tile_2"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#tile_2"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#tile_2"}
+			}
+		},
+		{
+			"name": "Tile 7",
+			"from": [0, 8, 8],
+			"to": [8, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 16]},
+			"faces": {
+				"south": {"uv": [0, 0, 8, 8], "texture": "#tile_2"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#tile_2"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#tile_2"}
+			}
+		},
+		{
+			"name": "Tile 8",
+			"from": [8, 8, 8],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 8], "texture": "#tile_1"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#tile_1"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#tile_1"}
+			}
+		}
+	]
+}

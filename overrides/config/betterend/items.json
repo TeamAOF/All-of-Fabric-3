@@ -122,13 +122,20 @@
     "terminite_sword_handle [default: true]": true,
     "silk_moth_matrix [default: true]": true,
     "music_disc_strange_and_alien [default: true]": true,
-    "elytra_armored [default: true]": true,
     "bucket_cubozoa [default: true]": true,
     "amber_root_raw [default: true]": true,
     "chorus_mushroom_raw [default: true]": true,
     "chorus_mushroom_cooked [default: true]": true,
     "bolux_mushroom_cooked [default: true]": true,
-    "cave_pumpkin_pie [default: true]": true
+    "cave_pumpkin_pie [default: true]": true,
+    "elytra_armored [default: true]": true,
+    "aeternium_forged_plate [default: true]": true,
+    "music_disc_grasping_at_stars [default: true]": true,
+    "music_disc_endseeker [default: true]": true,
+    "music_disc_eo_dracona [default: true]": true,
+    "blossom_berry_jelly [default: true]": true,
+    "thallasium_forged_plate [default: true]": true,
+    "terminite_forged_plate [default: true]": true
   },
   "armor": {
     "terminite_helmet [default: true]": true,

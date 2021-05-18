@@ -1,6 +1,15 @@
 {
   "configVersion": 2,
   "modules": {
+    "megane-kibe": {
+      "badasintended.megane.impl.Kibe": true
+    },
+    "megane-art-of-alchemy": {
+      "badasintended.megane.impl.ArtOfAlchemy": true
+    },
+    "megane-team-reborn-energy": {
+      "badasintended.megane.impl.TeamRebornEnergy": true
+    },
     "megane-impl": {
       "badasintended.megane.impl.TechReborn": true,
       "badasintended.megane.impl.Astromine": false,
@@ -11,10 +20,33 @@
       "badasintended.megane.impl.IndustrialRevolution": true,
       "badasintended.megane.impl.AppliedEnergistics2": true,
       "badasintended.megane.impl.FabricFurnaces": true
+    },
+    "megane-industrial-revolution": {
+      "badasintended.megane.impl.IndustrialRevolution": true
+    },
+    "megane-tech-reborn": {
+      "badasintended.megane.impl.TechReborn": true
+    },
+    "megane-fabric-furnaces": {
+      "badasintended.megane.impl.FabricFurnaces": true
+    },
+    "megane-modern-industrialization": {
+      "badasintended.megane.impl.ModernIndustrialization": true
+    },
+    "megane-lib-block-attributes": {
+      "badasintended.megane.impl.LibBlockAttributesFluids": true
+    },
+    "megane-applied-energistics-2": {
+      "badasintended.megane.impl.AppliedEnergistics2": true
+    },
+    "megane-fast-transfer-lib": {
+      "badasintended.megane.impl.FastTransferLib": true
+    },
+    "megane-vanilla": {
+      "badasintended.megane.impl.Minecraft": true
     }
   },
   "inventory": {
-    "forceRegistry": false,
     "enabled": false,
     "itemCount": false,
     "nbt": false,
@@ -33,7 +65,6 @@
   "energy": {
     "enabled": true,
     "expandWhenSneak": false,
-    "forceRegistry": false,
     "colors": {
       "megane": 7408640,
       "indrev": 3885790,
@@ -53,7 +84,6 @@
   "fluid": {
     "enabled": true,
     "expandWhenSneak": false,
-    "forceRegistry": false,
     "colors": {
       "megane:default": 855385,
       "techreborn:methane": 8917592

@@ -476,8 +476,6 @@
     "lucernia_log [default: true]": true,
     "lucernia_composter [default: true]": true,
     "lucernia_shulker [default: true]": true,
-    "thallasium_bulb_lantern [default: true]": true,
-    "terminite_bulb_lantern [default: true]": true,
     "smaragdant_crystal_bricks [default: true]": true,
     "smaragdant_crystal_polished [default: true]": true,
     "smaragdant_crystal_tiles [default: true]": true,
@@ -497,6 +495,8 @@
     "neon_cactus_block [default: true]": true,
     "neon_cactus_block_slab [default: true]": true,
     "neon_cactus_block_stairs [default: true]": true,
+    "thallasium_bulb_lantern [default: true]": true,
+    "terminite_bulb_lantern [default: true]": true,
     "tag_smith_table [default: true]": true,
     "tag_cauldron [default: true]": true,
     "tag_hopper [default: true]": true,
@@ -506,7 +506,13 @@
     "tag_bucket [default: true]": true,
     "tag_compass [default: true]": true,
     "tag_minecart [default: true]": true,
-    "tag_shield [default: true]": true
+    "tag_shield [default: true]": true,
+    "thallasium_nuggets_from_ingot [default: true]": true,
+    "thallasium_pressure_plate [default: true]": true,
+    "terminite_nuggets_from_ingot [default: true]": true,
+    "terminite_pressure_plate [default: true]": true,
+    "charcoal_from_block [default: true]": true,
+    "sugar_from_root [default: true]": true
   },
   "furnace": {
     "end_lily_leaf_dried [default: true]": true,
@@ -564,7 +570,10 @@
     "terminite_pickaxe_head [default: true]": true,
     "terminite_axe_head [default: true]": true,
     "terminite_hoe_head [default: true]": true,
-    "terminite_sword_blade [default: true]": true
+    "terminite_sword_blade [default: true]": true,
+    "thallasium_forged_plate [default: true]": true,
+    "terminite_forged_plate [default: true]": true,
+    "aeternium_forged_plate [default: true]": true
   },
   "smithing": {
     "aeternium_sword_handle [default: true]": true,

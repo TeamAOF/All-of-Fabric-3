@@ -329,5 +329,21 @@
       "has_caves [default: true]": true,
       "edge_size [default: 32]": 32
     }
+  },
+  "promenade": {
+    "dark_amaranth_forest": {
+      "enabled [default: true]": true,
+      "fog_density [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
+    },
+    "tall_dark_amaranth_forest": {
+      "enabled [default: true]": true,
+      "fog_density [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
+    }
   }
 }
