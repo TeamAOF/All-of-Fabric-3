@@ -4,6 +4,15 @@
 
 events.listen("recipes", function (event) {
 
+  //Gunpowder Block
+  event.remove({ output: "blast:gunpowder_block" });
+
+  event.shaped(item.of("blast:gunpowder_block"), [
+    ["minecraft:gunpowder", "minecraft:gunpowder", "minecraft:gunpowder"],
+    ["minecraft:gunpowder", "minecraft:coal_block", "minecraft:gunpowder"],
+    ["minecraft:gunpowder", "minecraft:gunpowder", "minecraft:gunpowder"],
+  ]);
+
   // Kitchen Knife
   event.remove({ output: "sandwichable:kitchen_knife" });
 
@@ -102,6 +111,13 @@ events.listen("recipes", function (event) {
     ["minecraft:bamboo", "minecraft:bamboo", "minecraft:bamboo"],
     ["minecraft:bamboo", "minecraft:bamboo", "minecraft:bamboo"],
   ]);
+ 
+  
+  //Blockus Golden bars
+  event.remove({ output: "blockus:golden_bars" });
+
+  event.shapeless('blockus:golden_bars', ['charm:gold_bars'])
+  event.shapeless('charm:gold_bars', ['blockus:golden_bars'])
 
   // Basic Coil / Red Alloy Compound
   event.remove({ output: "rswires:red_alloy_compound" });
@@ -120,6 +136,10 @@ events.listen("recipes", function (event) {
 
   // AE2 Grindstone
   event.remove({ output: "appliedenergistics2:grindstone" });
+
+  // Seeds
+  event.remove({ id: "sandwichable:tomato_seeds_from_tomato" });
+  event.remove({ id: "sandwichable:cucumber_seeds" });
 
   // Barrels
   var blockus_barrels = [

@@ -115,5 +115,7 @@ events.listen("recipes", function (event) {
 
     // MRE
   event.remove({ output: "campanion:mre" });
-
+  
+    // Remove boss key
+  event.remove({ output: "battletowers:boss_key" });
 });
