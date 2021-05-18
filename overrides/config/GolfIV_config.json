@@ -1,0 +1,55 @@
+{
+  "main": {
+    "_comment_checkIllegalActions": "// Prevents hitting/chatting with open GUI",
+    "checkInventoryActions": true
+  },
+  "items": {
+    "_comment_legaliseSurvivalItems": "// Whether to enable \u0027legalising\u0027 survival items",
+    "_comment_teamAOF_legaliseSurvivalItems": "// WARNING: Enabling this will break Dank Storage",
+    "legaliseSurvivalItems": false,
+    "_comment_bannedSurvivalItems": "// Which items should be cleared when clicked in survival inventory",
+    "bannedSurvivalItems": [
+      "minecraft:barrier",
+      "minecraft:structure_void",
+      "minecraft:bedrock",
+      "minecraft:command_block",
+      "minecraft:spawn_egg"
+    ],
+    "_comment_removeCreativeNBTTags": "// Disallow all NBT tags in creative except for pick-block",
+    "_comment_teamAOF_removeCreativeNBTTags": "// WARNING: Enabling this will break Dank Storage",
+    "removeCreativeNBTTags": false
+  },
+  "combat": {
+    "_comment": "// Combat checks settings.",
+    "preventWallHit": true,
+    "checkHitDistance": true,
+    "checkHitAngle": true
+  },
+  "packet": {
+    "_comment": "// Patches some outgoing server packets",
+    "removeTeleportData": false,
+    "removeHealthTags": false,
+    "removeEquipmentTags": false,
+    "checkPortalHack": true,
+    "patchSoundExploits": true,
+    "removeDroppedItemInfo": true,
+    "_comment_teamAOF_patchItemKickExploit": "// WARNING: Enabling this will break DML",
+    "patchItemKickExploit": false
+  },
+  "movement": {
+    "_comment": "// Movement checks settings",
+    "yesFall": true
+  },
+  "duplication": {
+    "_comment": "// Duplication fixes",
+    "_comment_patchSaveLimit1": "// Whether to prevent throwing an error when saving large string data.",
+    "_comment_patchSaveLimit2": "// This is done by ignoring data after DataOutputStream limit.",
+    "_comment_patchSaveLimit3": "// Written books can reach that point with hacked clients.",
+    "patchSaveLimit": true,
+    "_comment_patchGravityBlock": "// Whether to disable gravity block patching.",
+    "patchGravityBlock": true,
+    "_comment_patchDeathDuplication1": "// Checks if player is connected before applying damage.",
+    "_comment_patchDeathDuplication2": "// Prevents duplicating inventory if player dies after disconnect.",
+    "patchDeathDuplication": true
+  }
+}
