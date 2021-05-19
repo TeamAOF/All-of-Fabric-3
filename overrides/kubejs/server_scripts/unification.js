@@ -129,6 +129,7 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
+    "tungsten"
   ];
 
   var modern_dusts = [
@@ -154,6 +155,7 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
+    "tungsten"
   ];
 
   var modern_nuggets = [
@@ -169,7 +171,7 @@ events.listen("recipes", function (event) {
     "silver",
     "steel",
     "tin",
-    "titanium",
+    "titanium"
   ];
 
   var modern_metals = [
@@ -186,9 +188,18 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
+    "tungsten"
   ];
 
-  var modern_ores = ["copper", "bauxite", "lead", "silver", "tin"];
+  var modern_ores = [
+    "copper",
+    "bauxite",
+    "iridium",
+    "lead",
+    "silver",
+    "tin",
+    "tungsten"
+  ];
 
   // Plates
   modern_materials.forEach(function (item, index) {
@@ -252,6 +263,12 @@ events.listen("recipes", function (event) {
     {},
     "modern_industrialization:salt_ore",
     "croptopia:salt_ore"
+  );
+
+  event.replaceOutput(
+    {},
+    "modern_industrialization:platinum_ore",
+    "techreborn:sheldonite_ore"
   );
 
   // REI
@@ -318,9 +335,9 @@ events.listen("recipes", function (event) {
   });
 
     // --------- BEWITCHMENT --------- //
-  
+
     var bewitchment = ["silver"];
-  
+
     // Ingots
     bewitchment.forEach(function (item, index) {
       event.replaceOutput(
@@ -328,14 +345,14 @@ events.listen("recipes", function (event) {
         "bewitchment:" + item + "_ingot",
         "techreborn:" + item + "_ingot"
       );
-  
+
       // Blocks
       event.replaceOutput(
         {},
         "bewitchment:" + item + "_block",
         "techreborn:" + item + "_storage_block"
       );
-  
+
       // REI
       event.remove({ id: "bewitchment:" + item + "_ingot_from" + item + "block" });
       event.remove({ id: "bewitchment:" + item + "_ingot_from_nuggets" });
@@ -424,6 +441,7 @@ events.listen("recipes", function (event) {
     "bronze",
     "electrum",
     "titanium",
+    "tungsten",
     "chrome",
   ];
 
@@ -457,6 +475,12 @@ events.listen("recipes", function (event) {
       "techreborn:" + item + "_ore"
     );
   });
+
+  event.replaceInput(
+    {},
+    "#c:platinum_ores",
+    "techreborn:sheldonite_ore"
+  );
 
   // REI Ingots
   rei_ingots.forEach(function (item, index) {
