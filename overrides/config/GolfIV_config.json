@@ -1,7 +1,7 @@
 {
   "main": {
     "_comment_checkIllegalActions": "// Prevents hitting/chatting with open GUI",
-    "checkInventoryActions": true
+    "checkInventoryActions": false
   },
   "items": {
     "_comment_legaliseSurvivalItems": "// Whether to enable \u0027legalising\u0027 survival items",
@@ -21,24 +21,24 @@
   },
   "combat": {
     "_comment": "// Combat checks settings.",
-    "preventWallHit": true,
-    "checkHitDistance": true,
-    "checkHitAngle": true
+    "preventWallHit": false,
+    "checkHitDistance": false,
+    "checkHitAngle": false
   },
   "packet": {
     "_comment": "// Patches some outgoing server packets",
     "removeTeleportData": false,
     "removeHealthTags": false,
     "removeEquipmentTags": false,
-    "checkPortalHack": true,
-    "patchSoundExploits": true,
-    "removeDroppedItemInfo": true,
+    "checkPortalHack": false,
+    "patchSoundExploits": false,
+    "removeDroppedItemInfo": false,
     "_comment_teamAOF_patchItemKickExploit": "// WARNING: Enabling this will break DML",
     "patchItemKickExploit": false
   },
   "movement": {
     "_comment": "// Movement checks settings",
-    "yesFall": true
+    "yesFall": false
   },
   "duplication": {
     "_comment": "// Duplication fixes",
@@ -47,9 +47,9 @@
     "_comment_patchSaveLimit3": "// Written books can reach that point with hacked clients.",
     "patchSaveLimit": true,
     "_comment_patchGravityBlock": "// Whether to disable gravity block patching.",
-    "patchGravityBlock": true,
+    "patchGravityBlock": false,
     "_comment_patchDeathDuplication1": "// Checks if player is connected before applying damage.",
     "_comment_patchDeathDuplication2": "// Prevents duplicating inventory if player dies after disconnect.",
-    "patchDeathDuplication": true
+    "patchDeathDuplication": false
   }
 }
