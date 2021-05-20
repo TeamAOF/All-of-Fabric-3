@@ -1,7 +1,7 @@
 {
 	id: "600D44D7248008F3",
-	group: "",
-	order_index: 10,
+	group: "763EA77976DB28C3",
+	order_index: 2,
 	filename: "modern_industrialization",
 	title: "Modern Industrialization",
 	icon: "modern_industrialization:coke_oven",
@@ -15,6 +15,11 @@
 				id: "7E9DC84965A8DAF8",
 				type: "item",
 				item: "modern_industrialization:guidebook"
+			}],
+			rewards: [{
+				id: "72EF4BB7A024A4B1",
+				type: "item",
+				item: "modern_industrialization:wrench"
 			}]
 		},
 		{

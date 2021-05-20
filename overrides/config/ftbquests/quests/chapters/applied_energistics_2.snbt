@@ -1,7 +1,7 @@
 {
 	id: "3958FD38811FA00A",
-	group: "",
-	order_index: 0,
+	group: "763EA77976DB28C3",
+	order_index: 3,
 	filename: "applied_energistics_2",
 	title: "Applied Energistics 2",
 	icon: "appliedenergistics2:controller",
@@ -249,7 +249,7 @@
 				item: {
 					id: "appliedenergistics2:1k_storage_cell",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -277,7 +277,7 @@
 				item: {
 					id: "appliedenergistics2:4k_storage_cell",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -305,7 +305,7 @@
 				item: {
 					id: "appliedenergistics2:16k_storage_cell",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -333,7 +333,7 @@
 				item: {
 					id: "appliedenergistics2:64k_storage_cell",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -384,7 +384,7 @@
 				item: {
 					id: "appliedenergistics2:memory_card",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -560,7 +560,7 @@
 				item: {
 					id: "appliedenergistics2:biometric_card",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [

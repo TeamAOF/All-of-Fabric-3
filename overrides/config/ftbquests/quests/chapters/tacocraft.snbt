@@ -1,7 +1,7 @@
 {
 	id: "5BF0DBE7370B441E",
-	group: "1BEC58D7749FCB7E",
-	order_index: 2,
+	group: "43D306D3C07F61C5",
+	order_index: 0,
 	filename: "tacocraft",
 	title: "Tacocraft",
 	icon: "tacocraft:barbacoa_taco",
@@ -270,8 +270,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -1.0d,
+			x: -6.0d,
+			y: -5.0d,
 			dependencies: ["4018C9C2F69F206A"],
 			id: "4F4B925FCEE848FF",
 			tasks: [{
@@ -310,29 +310,6 @@
 				},
 				{
 					id: "175060A6969C5563",
-					type: "random",
-					table_id: 3279900820427924797L
-				}
-			]
-		},
-		{
-			x: -6.0d,
-			y: -5.0d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "3AADA4ACF8F97E00",
-			tasks: [{
-				id: "0035E01C8B186597",
-				type: "item",
-				item: "tacocraft:carnitas_taco"
-			}],
-			rewards: [
-				{
-					id: "18FC9CD01AC1014B",
-					type: "random",
-					table_id: 3279900820427924797L
-				},
-				{
-					id: "0A2691474089128F",
 					type: "random",
 					table_id: 3279900820427924797L
 				}
@@ -431,7 +408,7 @@
 			]
 		},
 		{
-			x: -6.5d,
+			x: -7.0d,
 			y: -1.0d,
 			dependencies: ["4018C9C2F69F206A"],
 			id: "58033FCE992DF9B0",

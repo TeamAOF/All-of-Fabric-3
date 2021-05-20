@@ -1,7 +1,7 @@
 {
 	id: "2DF9C624928A0EA1",
-	group: "",
-	order_index: 8,
+	group: "0C9B847BCE2B4A0A",
+	order_index: 1,
 	filename: "storage",
 	title: "Storage",
 	icon: "expandedstorage:netherite_chest",
@@ -587,11 +587,18 @@
 				type: "item",
 				item: "dankstorage:dank_7"
 			}],
-			rewards: [{
-				id: "56F36A9BA7468884",
-				type: "item",
-				item: "minecraft:nether_star"
-			}]
+			rewards: [
+				{
+					id: "56F36A9BA7468884",
+					type: "item",
+					item: "minecraft:nether_star"
+				},
+				{
+					id: "4854B9D52B6ECA46",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
 		},
 		{
 			x: -7.5d,
@@ -617,7 +624,7 @@
 			]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: -4.5d,
 			id: "25C7592FAE8BC12B",
 			tasks: [{
@@ -633,7 +640,7 @@
 			}]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: -3.5d,
 			dependencies: ["25C7592FAE8BC12B"],
 			id: "73928E8A618CC6C0",
@@ -649,7 +656,7 @@
 			}]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: -2.5d,
 			dependencies: ["73928E8A618CC6C0"],
 			id: "72D9662BC17F184B",
@@ -665,7 +672,7 @@
 			}]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: -1.5d,
 			dependencies: ["72D9662BC17F184B"],
 			id: "470CCEC18ACB6497",
@@ -682,7 +689,7 @@
 			}]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: -0.5d,
 			dependencies: ["470CCEC18ACB6497"],
 			id: "25D6E3CDA8CE2F38",
@@ -707,7 +714,7 @@
 			]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: 0.5d,
 			dependencies: ["25D6E3CDA8CE2F38"],
 			id: "68D32A793BF8FB67",
@@ -732,7 +739,7 @@
 			]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: 1.5d,
 			dependencies: ["68D32A793BF8FB67"],
 			id: "606A4F1AF2BDC8A0",
@@ -748,7 +755,7 @@
 			}]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: 2.5d,
 			dependencies: ["606A4F1AF2BDC8A0"],
 			id: "782F5076BCBFC303",
@@ -774,7 +781,7 @@
 			]
 		},
 		{
-			x: -10.0d,
+			x: -9.0d,
 			y: 3.5d,
 			dependencies: ["782F5076BCBFC303"],
 			id: "78B041DEF55E66B0",

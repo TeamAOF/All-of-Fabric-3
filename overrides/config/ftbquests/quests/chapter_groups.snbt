@@ -1,12 +1,10 @@
 {
 	chapter_groups: [
-		{
-			id: "54E549EC6D1514B9",
-			title: "Exploration"
-		},
-		{
-			id: "1BEC58D7749FCB7E",
-			title: "Become a chef"
-		}
+		{ id: "14EF39AAFA552664", title: "Exploration" },
+		{ id: "43D306D3C07F61C5", title: "Foodstuffs" },
+		{ id: "3649680F519F99E2", title: "Magic" },
+		{ id: "0C9B847BCE2B4A0A", title: "Miscellaneous" },
+		{ id: "763EA77976DB28C3", title: "Technology" },
+		{ id: "4C1384FECEABE1CF", title: "Endgame" }
 	]
 }

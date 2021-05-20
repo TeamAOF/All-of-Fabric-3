@@ -1,0 +1,129 @@
+{
+	id: "075C0FAADCAD6CA2",
+	group: "",
+	order_index: 0,
+	filename: "welcome_to_aof_3",
+	title: "Welcome",
+	icon: {
+		id: "minecraft:iron_pickaxe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Vein Miner",
+			icon: {
+				id: "minecraft:iron_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: 0.0d,
+			subtitle: "This modpack uses Diggus Maximus, bound to ~ by default",
+			dependencies: ["18AE8E898162EE40"],
+			id: "1A381D1812A82E93",
+			tasks: [{
+				id: "302EB130F3DFCE33",
+				type: "checkmark",
+				title: "Esc -> Mods -> Diggus Maximus to change config"
+			}],
+			rewards: [{
+				id: "1562074D3B7BFCB8",
+				type: "xp",
+				xp: 20
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			dependencies: ["18AE8E898162EE40"],
+			id: "3332C573DD9B123D",
+			tasks: [{
+				id: "2D9184E7D6FD4ED1",
+				type: "checkmark",
+				title: "World Blender"
+			}],
+			rewards: [{
+				id: "34130658B79CCC2B",
+				type: "xp",
+				xp: 20
+			}]
+		},
+		{
+			icon: "minecraft:chiseled_stone_bricks",
+			x: 1.5d,
+			y: 0.0d,
+			subtitle: "Place chiseled stone brick like a nether portal and use a pickaxe to activate it. Press shift to go through the portal.",
+			dependencies: ["18AE8E898162EE40"],
+			id: "5C812960E3970D18",
+			tasks: [{
+				id: "0AD1D0DC5EDEEEBC",
+				type: "checkmark",
+				title: "Miner's Horizon"
+			}],
+			rewards: [{
+				id: "4DB8CF135E23462E",
+				type: "xp",
+				xp: 20
+			}]
+		},
+		{
+			icon: "framed:framers_hammer",
+			x: -1.0d,
+			y: 1.5d,
+			subtitle: "This mod adds blocks which you can disguise as any other block by right clicking",
+			dependencies: ["18AE8E898162EE40"],
+			id: "6C3A08132C153A6A",
+			tasks: [{
+				id: "3066FACECAE0811A",
+				type: "checkmark",
+				title: "Framed"
+			}],
+			rewards: [{
+				id: "3AC7A3B33FB37A9C",
+				type: "xp",
+				xp: 20
+			}]
+		},
+		{
+			icon: "minecraft:spawner",
+			x: 1.0d,
+			y: 1.5d,
+			subtitle: "Shift + Right Click to pick up spawners, chests or entities",
+			dependencies: ["18AE8E898162EE40"],
+			id: "72E4A952CB05932B",
+			tasks: [{
+				id: "74F5711506150040",
+				type: "checkmark",
+				title: "Carrier"
+			}],
+			rewards: [{
+				id: "720FAAA02A0A9A7A",
+				type: "xp",
+				xp: 20
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "These quests serve as an optional overview of included mods",
+			id: "18AE8E898162EE40",
+			tasks: [{
+				id: "5AF5686EB03D64AD",
+				type: "checkmark",
+				title: "Welcome to AOF 3"
+			}],
+			rewards: [{
+				id: "6C70C657FAB494D9",
+				type: "item",
+				item: "croptopia:apple_juice",
+				count: 2
+			}]
+		}
+	]
+}

@@ -1,14 +1,16 @@
 {
 	id: "327CCD3E12B81920",
-	group: "54E549EC6D1514B9",
+	group: "14EF39AAFA552664",
 	order_index: 1,
 	filename: "nether",
 	title: "Nether",
+	icon: "minecraft:warped_nylium",
 	default_quest_shape: "",
 	quests: [
 		{
 			x: -5.5d,
 			y: -2.5d,
+			subtitle: "Visit Biome: Warped Forest",
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "63B7E9D202637CEE",
 			tasks: [{
@@ -34,6 +36,7 @@
 		{
 			x: -3.0d,
 			y: -5.0d,
+			subtitle: "Visit Biome: Withering Woods",
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "38CBA773AFBEAF22",
 			tasks: [{
@@ -59,6 +62,7 @@
 		{
 			x: -7.0d,
 			y: -5.0d,
+			subtitle: "Visit Biome: Brimstone Caverns",
 			hide_dependency_lines: true,
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "05CD96C64C260F95",
@@ -85,6 +89,7 @@
 		{
 			x: -5.5d,
 			y: -6.5d,
+			subtitle: "Visit Biome: Protanopian Gallery",
 			hide_dependency_lines: true,
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "6A2B74D56660E9D0",
@@ -92,7 +97,7 @@
 				id: "034A55B0B49B94FF",
 				type: "biome",
 				title: "Protanopian Gallery",
-				icon: "wild_explorer:white_mushroom_block",
+				icon: "promenade:white_mushroom_block",
 				biome: "wild_explorer:protanopian_gallery"
 			}],
 			rewards: [
@@ -111,6 +116,7 @@
 		{
 			x: -6.5d,
 			y: -3.5d,
+			subtitle: "Visit Biome: Quartz Desert",
 			hide_dependency_lines: true,
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "5EE63353A89780C0",
@@ -137,6 +143,7 @@
 		{
 			x: -4.0d,
 			y: -2.5d,
+			subtitle: "Visit Biome: Luminous Grove",
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "00E3AF63B95EB83D",
 			tasks: [{
@@ -162,6 +169,7 @@
 		{
 			x: -4.0d,
 			y: -5.0d,
+			subtitle: "Visit Biome: Ashy Shoals",
 			hide_dependency_lines: true,
 			dependencies: ["4566DA7C2FDF5656"],
 			dependency_requirement: "one_completed",
@@ -189,6 +197,7 @@
 		{
 			x: -8.0d,
 			y: -5.0d,
+			subtitle: "Visit Biome: Blackstone Shales",
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "422101912ABB8135",
 			tasks: [{
@@ -214,6 +223,7 @@
 		{
 			x: -7.0d,
 			y: -2.5d,
+			subtitle: "Visit Biome: Quartz Canyon",
 			description: ['also known as the "Quartz Cavern"'],
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "59115F306B9F7EF1",
@@ -241,6 +251,7 @@
 			icon: "byg:soul_shroom",
 			x: -5.5d,
 			y: -7.5d,
+			subtitle: "Visit Biome: Glowstone Gardens",
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "4DC79B13D7895332",
 			tasks: [{
@@ -267,6 +278,7 @@
 			icon: "byg:embur_wart",
 			x: -4.5d,
 			y: -3.5d,
+			subtitle: "Visit Biome: Embur Bog",
 			hide_dependency_lines: true,
 			dependencies: ["4566DA7C2FDF5656"],
 			id: "1D9E5A744C3E2921",

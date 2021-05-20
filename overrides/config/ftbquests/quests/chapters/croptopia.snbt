@@ -1,9 +1,10 @@
 {
 	id: "2BEEF26B3F9DF9CC",
-	group: "1BEC58D7749FCB7E",
-	order_index: 0,
+	group: "43D306D3C07F61C5",
+	order_index: 1,
 	filename: "croptopia",
 	title: "Croptopia",
+	icon: "croptopia:cheeseburger",
 	default_quest_shape: "",
 	quests: [
 		{

@@ -1,7 +1,7 @@
 {
 	id: "00AFE54418B08A94",
-	group: "",
-	order_index: 9,
+	group: "763EA77976DB28C3",
+	order_index: 1,
 	filename: "tech_reborn",
 	title: "Tech Reborn",
 	icon: "techreborn:interdimensional_su",
@@ -734,6 +734,23 @@
 				id: "57355C4E58A7E232",
 				type: "item",
 				item: "techreborn:superconductor",
+				count: 8
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: ["40CA76C06FADD71B"],
+			id: "6AD5DE8EA7FB6748",
+			tasks: [{
+				id: "6BBC56592168879A",
+				type: "item",
+				item: "techreborn:wrench"
+			}],
+			rewards: [{
+				id: "08C06686EC6448E0",
+				type: "item",
+				item: "techreborn:insulated_copper_cable",
 				count: 8
 			}]
 		}

@@ -1,17 +1,17 @@
 {
 	id: "6BBD32012BCD30BC",
-	group: "",
-	order_index: 1,
+	group: "0C9B847BCE2B4A0A",
+	order_index: 2,
 	filename: "artifacts",
 	title: "Artifacts",
 	icon: {
+		id: "artifacts:cross_necklace",
+		Count: 1b,
 		cardinal_components: {
 			"artifacts:trinket_enabled": {
 				isEnabled: 1b
 			}
-		},
-		id: "artifacts:cross_necklace",
-		Count: 1b
+		}
 	},
 	default_quest_shape: "rsquare",
 	quests: [
@@ -38,13 +38,13 @@
 				id: "7EB45A3668EF90FA",
 				type: "item",
 				item: {
+					id: "artifacts:whoopee_cushion",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:whoopee_cushion",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -92,13 +92,13 @@
 				id: "7E75B72DD7A2F464",
 				type: "item",
 				item: {
+					id: "artifacts:plastic_drinking_hat",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:plastic_drinking_hat",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -115,13 +115,13 @@
 				id: "006F5FF7ABE6062A",
 				type: "item",
 				item: {
+					id: "artifacts:novelty_drinking_hat",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:novelty_drinking_hat",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -138,13 +138,13 @@
 				id: "073F3980777A4AFA",
 				type: "item",
 				item: {
+					id: "artifacts:snorkel",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:snorkel",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -161,13 +161,13 @@
 				id: "520705CBF9AD3B61",
 				type: "item",
 				item: {
+					id: "artifacts:night_vision_goggles",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:night_vision_goggles",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -184,13 +184,13 @@
 				id: "648DE890C040D1CF",
 				type: "item",
 				item: {
+					id: "artifacts:villager_hat",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:villager_hat",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -207,13 +207,13 @@
 				id: "5DF654A60BCA330C",
 				type: "item",
 				item: {
+					id: "artifacts:superstitious_hat",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:superstitious_hat",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -230,13 +230,13 @@
 				id: "3BF8D11F43378FC4",
 				type: "item",
 				item: {
+					id: "artifacts:lucky_scarf",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:lucky_scarf",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -253,13 +253,13 @@
 				id: "4C5D7B9A6D141A45",
 				type: "item",
 				item: {
+					id: "artifacts:scarf_of_invisibility",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:scarf_of_invisibility",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -327,13 +327,13 @@
 				id: "44D5DC8F06173A6A",
 				type: "item",
 				item: {
+					id: "artifacts:cross_necklace",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:cross_necklace",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -350,13 +350,13 @@
 				id: "5BE7FD7D182C0C46",
 				type: "item",
 				item: {
+					id: "artifacts:panic_necklace",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:panic_necklace",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -373,13 +373,13 @@
 				id: "5731ED405DE54260",
 				type: "item",
 				item: {
+					id: "artifacts:shock_pendant",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:shock_pendant",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -396,13 +396,13 @@
 				id: "59B32563F934CC3A",
 				type: "item",
 				item: {
+					id: "artifacts:flame_pendant",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:flame_pendant",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -419,13 +419,13 @@
 				id: "31F0493D906A834E",
 				type: "item",
 				item: {
+					id: "artifacts:thorn_pendant",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:thorn_pendant",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -442,13 +442,13 @@
 				id: "3D937BF69393EF1A",
 				type: "item",
 				item: {
+					id: "artifacts:obsidian_skull",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:obsidian_skull",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -465,13 +465,13 @@
 				id: "6D8CE16A8057049E",
 				type: "item",
 				item: {
+					id: "artifacts:antidote_vessel",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:antidote_vessel",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -488,13 +488,13 @@
 				id: "2A82F132A7E201A3",
 				type: "item",
 				item: {
+					id: "artifacts:universal_attractor",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:universal_attractor",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -511,13 +511,13 @@
 				id: "73436980529D48FF",
 				type: "item",
 				item: {
+					id: "artifacts:crystal_heart",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:crystal_heart",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -534,13 +534,13 @@
 				id: "14D01B2997683F17",
 				type: "item",
 				item: {
+					id: "artifacts:cloud_in_a_bottle",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:cloud_in_a_bottle",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -557,13 +557,13 @@
 				id: "7D9C1CF780D7155B",
 				type: "item",
 				item: {
+					id: "artifacts:digging_claws",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:digging_claws",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -580,13 +580,13 @@
 				id: "13429B7E9451A245",
 				type: "item",
 				item: {
+					id: "artifacts:feral_claws",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:feral_claws",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -603,13 +603,13 @@
 				id: "66C25962DA622B08",
 				type: "item",
 				item: {
+					id: "artifacts:power_glove",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:power_glove",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -626,13 +626,13 @@
 				id: "33678AF2F0456B58",
 				type: "item",
 				item: {
+					id: "artifacts:fire_gauntlet",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:fire_gauntlet",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -649,13 +649,13 @@
 				id: "22F6C843F97A1761",
 				type: "item",
 				item: {
+					id: "artifacts:pocket_piston",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:pocket_piston",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -672,13 +672,13 @@
 				id: "1D8D6DCC6361B9BB",
 				type: "item",
 				item: {
+					id: "artifacts:vampiric_glove",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:vampiric_glove",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -695,13 +695,13 @@
 				id: "634352333166BD30",
 				type: "item",
 				item: {
+					id: "artifacts:golden_hook",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:golden_hook",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -718,13 +718,13 @@
 				id: "7EECD3927DEA24CA",
 				type: "item",
 				item: {
+					id: "artifacts:bunny_hoppers",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:bunny_hoppers",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -741,13 +741,13 @@
 				id: "566538F3CF7E9148",
 				type: "item",
 				item: {
+					id: "artifacts:kitty_slippers",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:kitty_slippers",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -764,13 +764,13 @@
 				id: "34A56B3042BF50E4",
 				type: "item",
 				item: {
+					id: "artifacts:running_shoes",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:running_shoes",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -787,13 +787,13 @@
 				id: "077E85808106E87F",
 				type: "item",
 				item: {
+					id: "artifacts:steadfast_spikes",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:steadfast_spikes",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{
@@ -810,13 +810,13 @@
 				id: "27CAE1F934807E48",
 				type: "item",
 				item: {
+					id: "artifacts:flippers",
+					Count: 1b,
 					cardinal_components: {
 						"artifacts:trinket_enabled": {
 							isEnabled: 1b
 						}
-					},
-					id: "artifacts:flippers",
-					Count: 1b
+					}
 				}
 			}],
 			rewards: [{

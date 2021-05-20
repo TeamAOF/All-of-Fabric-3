@@ -1,14 +1,15 @@
 {
 	id: "08C676AD195EFC3C",
-	group: "54E549EC6D1514B9",
+	group: "14EF39AAFA552664",
 	order_index: 2,
 	filename: "end",
 	title: "End",
+	icon: "betterend:amber_moss",
 	default_quest_shape: "",
 	quests: [
 		{
 			title: "Complete Nether",
-			icon: "minecraft:blaze_powder",
+			icon: "minecraft:warped_nylium",
 			x: -1.0d,
 			y: 2.0d,
 			shape: "gear",
@@ -80,7 +81,7 @@
 		},
 		{
 			title: "Dark Amaranth Forest",
-			icon: "wild_explorer:dark_amaranth_roots",
+			icon: "promenade:dark_amaranth_roots",
 			x: -2.0d,
 			y: 2.0d,
 			subtitle: "Visit Biome: Tall Darak Amaranth Forest",
@@ -89,7 +90,7 @@
 			tasks: [{
 				id: "11597511AD79B3B5",
 				type: "biome",
-				icon: "wild_explorer:dark_amaranth_roots",
+				icon: "promenade:dark_amaranth_roots",
 				biome: "wild_explorer:tall_dark_amaranth_forest"
 			}],
 			rewards: [{

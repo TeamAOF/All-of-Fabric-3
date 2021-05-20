@@ -1,7 +1,7 @@
 {
 	id: "2E85360C822A5250",
-	group: "",
-	order_index: 3,
+	group: "3649680F519F99E2",
+	order_index: 0,
 	filename: "bewitchment",
 	title: "Bewitchment",
 	icon: {
@@ -198,6 +198,7 @@
 		{
 			x: 0.0d,
 			y: -0.5d,
+			subtitle: "Right click on an entity or bed to taglock it",
 			id: "53BF559D847C42F2",
 			tasks: [{
 				id: "201DF1FF276453D8",

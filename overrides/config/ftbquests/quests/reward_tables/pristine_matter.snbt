@@ -5,32 +5,14 @@
 	loot_size: 1,
 	hide_tooltip: true,
 	rewards: [
-		{
-			item: "dml-refabricated:pristine_matter_nether"
-		},
-		{
-			item: "dml-refabricated:pristine_matter_slimy"
-		},
-		{
-			item: "dml-refabricated:pristine_matter_overworld"
-		},
-		{
-			item: "dml-refabricated:pristine_matter_zombie"
-		},
-		{
-			item: "dml-refabricated:pristine_matter_skeleton"
-		},
-		{
-			item: "dml-refabricated:pristine_matter_end"
-		},
-		{
-			item: "dml-refabricated:pristine_matter_ghost"
-		},
-		{
-			item: "dml-refabricated:pristine_matter_illager"
-		},
-		{
-			item: "dml-refabricated:pristine_matter_ocean"
-		}
+		{ item: "dml-refabricated:pristine_matter_nether" },
+		{ item: "dml-refabricated:pristine_matter_slimy" },
+		{ item: "dml-refabricated:pristine_matter_overworld" },
+		{ item: "dml-refabricated:pristine_matter_zombie" },
+		{ item: "dml-refabricated:pristine_matter_skeleton" },
+		{ item: "dml-refabricated:pristine_matter_end" },
+		{ item: "dml-refabricated:pristine_matter_ghost" },
+		{ item: "dml-refabricated:pristine_matter_illager" },
+		{ item: "dml-refabricated:pristine_matter_ocean" }
 	]
 }

@@ -1,7 +1,7 @@
 {
 	id: "008E9FBD02F09AA5",
-	group: "",
-	order_index: 5,
+	group: "0C9B847BCE2B4A0A",
+	order_index: 3,
 	filename: "deep_mob_learning",
 	title: "Deep Mob Learning",
 	icon: "dml-refabricated:glitch_ingot",
@@ -40,7 +40,7 @@
 				item: {
 					id: "dml-refabricated:data_model_nether",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -60,7 +60,7 @@
 				item: {
 					id: "dml-refabricated:data_model_slimy",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -80,7 +80,7 @@
 				item: {
 					id: "dml-refabricated:data_model_overworld",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -100,7 +100,7 @@
 				item: {
 					id: "dml-refabricated:data_model_zombie",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -120,7 +120,7 @@
 				item: {
 					id: "dml-refabricated:data_model_skeleton",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -140,7 +140,7 @@
 				item: {
 					id: "dml-refabricated:data_model_end",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -160,7 +160,7 @@
 				item: {
 					id: "dml-refabricated:data_model_ghost",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -180,7 +180,7 @@
 				item: {
 					id: "dml-refabricated:data_model_illager",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -200,7 +200,7 @@
 				item: {
 					id: "dml-refabricated:data_model_ocean",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -252,7 +252,7 @@
 				item: {
 					id: "dml-refabricated:trial_key",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -312,7 +312,7 @@
 				item: {
 					id: "dml-refabricated:glitch_helmet",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -339,7 +339,7 @@
 				item: {
 					id: "dml-refabricated:glitch_chestplate",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -366,7 +366,7 @@
 				item: {
 					id: "dml-refabricated:glitch_leggings",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -393,7 +393,7 @@
 				item: {
 					id: "dml-refabricated:glitch_boots",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [

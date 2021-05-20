@@ -1,7 +1,7 @@
 {
 	id: "38C080C5958A7653",
-	group: "",
-	order_index: 4,
+	group: "4C1384FECEABE1CF",
+	order_index: 0,
 	filename: "creative_items",
 	title: "Creative Items",
 	icon: "appliedenergistics2:creative_energy_cell",
@@ -27,7 +27,7 @@
 					item: {
 						id: "kibe:angel_ring",
 						Count: 1b,
-						tag: {}
+						tag: { }
 					},
 					consume_items: true
 				},
@@ -72,7 +72,7 @@
 		{
 			title: "Creative Electric Furnace",
 			icon: "indrev:electric_furnace_creative",
-			x: -20.0d,
+			x: -19.5d,
 			y: -7.5d,
 			dependencies: ["0184CC30EBE9CEAB"],
 			id: "4666FFB87FEE6EB2",
@@ -111,7 +111,7 @@
 		{
 			title: "Creative Pulverizer",
 			icon: "indrev:pulverizer_creative",
-			x: -21.0d,
+			x: -20.5d,
 			y: -7.0d,
 			dependencies: ["0184CC30EBE9CEAB"],
 			id: "4C1711D18DCFE0CD",
@@ -150,8 +150,8 @@
 		{
 			title: "Creative Compressor",
 			icon: "indrev:compressor_creative",
-			x: -19.0d,
-			y: -7.5d,
+			x: -18.5d,
+			y: -7.0d,
 			dependencies: ["0184CC30EBE9CEAB"],
 			id: "7CA07CA36ED3FADF",
 			tasks: [
@@ -184,45 +184,6 @@
 				id: "51D632FC1675ABCC",
 				type: "item",
 				item: "indrev:compressor_creative"
-			}]
-		},
-		{
-			title: "Creative Solid Infuser",
-			icon: "indrev:infuser_creative",
-			x: -18.0d,
-			y: -7.0d,
-			dependencies: ["0184CC30EBE9CEAB"],
-			id: "219EC83C3FC1480C",
-			tasks: [
-				{
-					id: "3C4D714EBB247119",
-					type: "item",
-					item: "indrev:infuser_mk4",
-					consume_items: true
-				},
-				{
-					id: "7DA5735F72A08020",
-					type: "item",
-					item: "indrev:modular_core_activated",
-					consume_items: true
-				},
-				{
-					id: "0ED590EE39096F50",
-					type: "item",
-					item: "indrev:lazuli_flux_container_mk4",
-					consume_items: true
-				},
-				{
-					id: "371AE7A78A8AFF70",
-					type: "item",
-					item: "minecraft:nether_star",
-					consume_items: true
-				}
-			],
-			rewards: [{
-				id: "2F0D7463E1E0F87A",
-				type: "item",
-				item: "indrev:infuser_creative"
 			}]
 		},
 		{
@@ -425,6 +386,7 @@
 			icon: "techreborn:creative_solar_panel",
 			x: -16.0d,
 			y: -4.0d,
+			subtitle: "WARNING: CANNOT MOVE ONCE PLACED",
 			description: ["Infinite Power"],
 			dependencies: ["5410DD80607B0D84"],
 			id: "45D853BA6D8C06C8",
@@ -476,6 +438,7 @@
 			icon: "appliedenergistics2:creative_energy_cell",
 			x: -16.0d,
 			y: -8.0d,
+			subtitle: "WARNING: CANNOT MOVE ONCE PLACED",
 			description: ["All the more reason for Monster to troll you with cake"],
 			dependencies: ["0FAAADFFCE60A8A0"],
 			id: "2F00D157946DC3F8",
@@ -531,21 +494,18 @@
 			}]
 		},
 		{
+			title: "Complete Industrial Revolution",
 			disable_toast: true,
 			x: -19.5d,
 			y: -6.0d,
 			shape: "gear",
 			subtitle: "Remember to click the checkmark",
-			dependencies: [
-				"5CEDE7611863C76E",
-				"7B0C19A53B3E32BC"
-			],
+			dependencies: ["5CEDE7611863C76E"],
 			id: "0184CC30EBE9CEAB",
 			tasks: [{
-				id: "3EC47BD1F053998E",
+				id: "5E16921CA2665583",
 				type: "checkmark",
-				title: "Complete Industrial Revolution",
-				disable_toast: true
+				title: "Complete Industrial Revolution"
 			}]
 		},
 		{
@@ -554,10 +514,7 @@
 			y: -7.0d,
 			shape: "gear",
 			subtitle: "Remember to click the checkmark",
-			dependencies: [
-				"3958FD38811FA00A",
-				"7B0C19A53B3E32BC"
-			],
+			dependencies: ["3958FD38811FA00A"],
 			id: "0FAAADFFCE60A8A0",
 			tasks: [{
 				id: "299B5B1A20459F90",
@@ -572,10 +529,7 @@
 			y: -5.0d,
 			shape: "gear",
 			subtitle: "Remember to click the checkmark",
-			dependencies: [
-				"00AFE54418B08A94",
-				"7B0C19A53B3E32BC"
-			],
+			dependencies: ["00AFE54418B08A94"],
 			id: "5410DD80607B0D84",
 			tasks: [{
 				id: "2795943A79040B6B",
@@ -595,11 +549,6 @@
 				type: "checkmark",
 				title: "Complete Jetpacks",
 				disable_toast: true
-			}],
-			rewards: [{
-				id: "1550C351F9721F42",
-				type: "item",
-				item: "winged:broken_core_of_flight"
 			}]
 		},
 		{
@@ -654,16 +603,42 @@
 			}]
 		},
 		{
-			disable_toast: true,
-			x: -16.0d,
+			title: "Creative Solid Infuser",
+			icon: "indrev:infuser_creative",
+			x: -18.0d,
 			y: -6.0d,
-			shape: "gear",
-			id: "7B0C19A53B3E32BC",
-			tasks: [{
-				id: "14D95BD7D132AB6C",
-				type: "checkmark",
-				title: "WARNING: SOME CANNOT BE MOVED ONCE PLACED",
-				disable_toast: true
+			dependencies: ["0184CC30EBE9CEAB"],
+			id: "33F1783684212511",
+			tasks: [
+				{
+					id: "317749AE73B37EAC",
+					type: "item",
+					item: "indrev:infuser_mk4",
+					consume_items: true
+				},
+				{
+					id: "19AC81E03BCC525F",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk4",
+					consume_items: true
+				},
+				{
+					id: "3FF42152391B00B3",
+					type: "item",
+					item: "indrev:modular_core_activated",
+					consume_items: true
+				},
+				{
+					id: "5FA6371F80196476",
+					type: "item",
+					item: "minecraft:nether_star",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "03B0F335E75AD3A6",
+				type: "item",
+				item: "indrev:infuser_creative"
 			}]
 		}
 	]

@@ -1,7 +1,7 @@
 {
 	id: "32E800F2D5FEBB33",
-	group: "",
-	order_index: 2,
+	group: "3649680F519F99E2",
+	order_index: 1,
 	filename: "art_of_alchemy",
 	title: "Art of Alchemy",
 	icon: "artofalchemy:philosophers_stone",
@@ -36,7 +36,7 @@
 					item: {
 						id: "artofalchemy:alchemical_journal",
 						Count: 1b,
-						tag: {}
+						tag: { }
 					}
 				}
 			]
@@ -319,7 +319,7 @@
 				item: {
 					id: "artofalchemy:essentia_vessel",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{

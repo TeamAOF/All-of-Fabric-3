@@ -1,15 +1,24 @@
 {
 	id: "78E6EACACDEC3EAF",
-	group: "54E549EC6D1514B9",
-	order_index: 3,
+	group: "763EA77976DB28C3",
+	order_index: 5,
 	filename: "jetpacks",
 	title: "Jetpacks",
+	icon: {
+		id: "iron-jetpacks:silver_jetpack",
+		Count: 1b,
+		tag: {
+			energy: 0
+		}
+	},
 	default_quest_shape: "",
 	quests: [
 		{
 			title: "Tier 0",
 			x: -0.5d,
 			y: -2.0d,
+			subtitle: "Craft a Tier 0 Jetpack",
+			description: [""],
 			id: "20A69205CA669DF9",
 			tasks: [{
 				id: "0E7D452645FB9060",
@@ -32,6 +41,7 @@
 			title: "Tier 1",
 			x: -0.5d,
 			y: -1.0d,
+			subtitle: "Craft a Tier 1 Jetpack",
 			dependencies: ["20A69205CA669DF9"],
 			id: "2A7FBF33FE8182E3",
 			tasks: [{
@@ -70,6 +80,7 @@
 			title: "Tier 2",
 			x: -0.5d,
 			y: 0.0d,
+			subtitle: "Craft a Tier 2 Jetpack",
 			dependencies: ["2A7FBF33FE8182E3"],
 			dependency_requirement: "one_completed",
 			id: "6F2C1A4197026008",
@@ -116,6 +127,7 @@
 			title: "Tier 3",
 			x: -0.5d,
 			y: 1.0d,
+			subtitle: "Craft a Tier 3 Jetpack",
 			dependencies: ["6F2C1A4197026008"],
 			dependency_requirement: "one_completed",
 			id: "2B87B22D61502336",
@@ -176,6 +188,7 @@
 			title: "Tier 4",
 			x: -0.5d,
 			y: 2.0d,
+			subtitle: "Craft a Tier 4 Jetpack",
 			dependencies: ["2B87B22D61502336"],
 			dependency_requirement: "one_completed",
 			id: "3640E76E44458CE7",
@@ -215,6 +228,7 @@
 			title: "Tier 5",
 			x: -0.5d,
 			y: 3.0d,
+			subtitle: "Craft a Tier 5 Jetpack",
 			dependencies: ["3640E76E44458CE7"],
 			dependency_requirement: "one_completed",
 			id: "4E9F0DE272EA5F6F",
@@ -246,6 +260,7 @@
 			title: "Tier 6",
 			x: -0.5d,
 			y: 4.0d,
+			subtitle: "Craft a Tier 6 Jetpack",
 			dependencies: ["4E9F0DE272EA5F6F"],
 			id: "45B35E5589C534FA",
 			tasks: [{

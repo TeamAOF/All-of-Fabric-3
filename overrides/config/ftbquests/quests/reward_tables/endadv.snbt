@@ -5,23 +5,14 @@
 	loot_size: 1,
 	hide_tooltip: true,
 	rewards: [
+		{ item: "minecraft:ender_pearl", count: 12, weight: 40 },
+		{ item: "croptopia:tofuburger", weight: 10 },
 		{
-			item: "minecraft:ender_pearl",
-			count: 12,
-			weight: 40
-		},
-		{
-			item: "croptopia:tofuburger",
-			weight: 10
-		},
-		{
-			weight: 35,
+			xp_levels: 1,
 			type: "xp_levels",
-			xp_levels: 1
+			weight: 35
 		},
-		{
-			item: "simpleteleporters:tele_crystal"
-		},
+		{ item: "simpleteleporters:tele_crystal" },
 		{
 			item: {
 				id: "harvest_scythes:pendorite_scythe",
@@ -41,17 +32,8 @@
 			},
 			weight: 25
 		},
-		{
-			item: "gofish:ender_eel",
-			weight: 20
-		},
-		{
-			item: "gofish:baked_endfish",
-			count: 4
-		},
-		{
-			item: "columns:end_stone_brick_column",
-			count: 12
-		}
+		{ item: "gofish:ender_eel", weight: 20 },
+		{ item: "gofish:baked_endfish", count: 4 },
+		{ item: "columns:end_stone_brick_column", count: 12 }
 	]
 }

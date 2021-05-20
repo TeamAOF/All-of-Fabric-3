@@ -5,69 +5,27 @@
 	loot_size: 16,
 	hide_tooltip: true,
 	rewards: [
-		{
-			item: "croptopia:tofuburger",
-			count: 4,
-			weight: 10
-		},
-		{
-			item: "croptopia:chimichanga",
-			count: 4,
-			weight: 30
-		},
-		{
-			item: "minecraft:diamond_block",
-			weight: 6
-		},
+		{ item: "croptopia:tofuburger", count: 4, weight: 10 },
+		{ item: "croptopia:chimichanga", count: 4, weight: 30 },
+		{ item: "minecraft:diamond_block", weight: 6 },
 		{
 			xp: 1000,
-			weight: 2,
-			type: "xp"
+			type: "xp",
+			weight: 2
 		},
 		{
-			weight: 6,
+			xp_levels: 5,
 			type: "xp_levels",
-			xp_levels: 5
+			weight: 6
 		},
-		{
-			item: "betterend:aeternium_ingot",
-			count: 2
-		},
-		{
-			item: "techreborn:iridium_ingot",
-			count: 12
-		},
-		{
-			item: "dml-refabricated:glitch_ingot",
-			count: 2
-		},
-		{
-			item: "indrev:enriched_nikolite_ingot",
-			count: 12,
-			weight: 4
-		},
-		{
-			item: "minecraft:gold_block",
-			count: 12,
-			weight: 8
-		},
-		{
-			item: "croptopia:supreme_pizza",
-			count: 6,
-			weight: 20
-		},
-		{
-			item: "minecraft:iron_block",
-			count: 32,
-			weight: 12
-		},
-		{
-			item: "tacocraft:golden_taco",
-			weight: 15
-		},
-		{
-			item: "kibe:diamond_kibe",
-			weight: 3
-		}
+		{ item: "betterend:aeternium_ingot", count: 2 },
+		{ item: "techreborn:iridium_ingot", count: 12 },
+		{ item: "dml-refabricated:glitch_ingot", count: 2 },
+		{ item: "indrev:enriched_nikolite_ingot", count: 12, weight: 4 },
+		{ item: "minecraft:gold_block", count: 12, weight: 8 },
+		{ item: "croptopia:supreme_pizza", count: 6, weight: 20 },
+		{ item: "minecraft:iron_block", count: 32, weight: 12 },
+		{ item: "tacocraft:golden_taco", weight: 15 },
+		{ item: "kibe:diamond_kibe", weight: 3 }
 	]
 }

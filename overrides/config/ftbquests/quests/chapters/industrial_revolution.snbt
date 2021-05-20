@@ -1,7 +1,7 @@
 {
 	id: "5CEDE7611863C76E",
-	group: "",
-	order_index: 6,
+	group: "763EA77976DB28C3",
+	order_index: 0,
 	filename: "industrial_revolution",
 	title: "Industrial Revolution",
 	icon: {
@@ -261,6 +261,7 @@
 		{
 			x: -3.0d,
 			y: 4.0d,
+			subtitle: "Transports energy, right click with a block to cover",
 			id: "60EB90E1DE4C7D95",
 			tasks: [{
 				id: "2EA9ADCDF797482C",
@@ -277,6 +278,7 @@
 		{
 			x: -1.5d,
 			y: 4.0d,
+			subtitle: "Transports energy, right click with a block to cover",
 			dependencies: ["60EB90E1DE4C7D95"],
 			id: "79D4C5683C11BA43",
 			tasks: [{
@@ -302,6 +304,7 @@
 		{
 			x: 0.0d,
 			y: 4.0d,
+			subtitle: "Transports energy, right click with a block to cover",
 			dependencies: ["79D4C5683C11BA43"],
 			id: "1F874E38C72BA53C",
 			tasks: [{
@@ -327,6 +330,7 @@
 		{
 			x: 1.5d,
 			y: 4.0d,
+			subtitle: "Transports energy, right click with a block to cover",
 			dependencies: ["1F874E38C72BA53C"],
 			id: "143E7779E2B69C76",
 			tasks: [{
@@ -749,6 +753,7 @@
 		{
 			x: 6.5d,
 			y: 3.5d,
+			subtitle: "Use up to 8 per mining rig computer",
 			dependencies: ["1A3208F77701907B"],
 			id: "68C84F9AEE34DB49",
 			tasks: [{
@@ -957,6 +962,7 @@
 		{
 			x: 11.5d,
 			y: 0.5d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
 			dependencies: ["1AB5FB34EB5A9020"],
 			id: "4108AB615E206CE8",
 			tasks: [{
@@ -985,6 +991,7 @@
 		{
 			x: 12.5d,
 			y: 1.0d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
 			dependencies: ["1AB5FB34EB5A9020"],
 			id: "741F64A1253A7660",
 			tasks: [{
@@ -1018,6 +1025,7 @@
 		{
 			x: 12.5d,
 			y: 2.0d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
 			dependencies: ["1AB5FB34EB5A9020"],
 			id: "3FF0728E7BF49525",
 			tasks: [{
@@ -1046,6 +1054,7 @@
 		{
 			x: 11.5d,
 			y: 2.5d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
 			dependencies: ["1AB5FB34EB5A9020"],
 			id: "14EA609432F96C42",
 			tasks: [{
@@ -1074,6 +1083,7 @@
 		{
 			x: 7.5d,
 			y: 3.0d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
 			dependencies: ["7B789F6F72A91B3E"],
 			id: "476E5819A5DCA7BC",
 			tasks: [{
@@ -1130,6 +1140,7 @@
 		{
 			x: -3.0d,
 			y: 5.5d,
+			subtitle: "Transports fluids, right click with a block to cover",
 			id: "3F1B2546696B8C37",
 			tasks: [{
 				id: "675E789B1F686D0A",
@@ -1146,6 +1157,7 @@
 		{
 			x: -3.0d,
 			y: 7.0d,
+			subtitle: "Transports items, right click with a block to cover",
 			id: "422DD6C695AB387C",
 			tasks: [{
 				id: "7A73B63D662D3231",
@@ -1162,6 +1174,7 @@
 		{
 			x: -1.5d,
 			y: 5.5d,
+			subtitle: "Transports fluids, right click with a block to cover",
 			dependencies: ["3F1B2546696B8C37"],
 			id: "1548F52EA7E707D2",
 			tasks: [{
@@ -1187,6 +1200,7 @@
 		{
 			x: -1.5d,
 			y: 7.0d,
+			subtitle: "Transports items, right click with a block to cover",
 			dependencies: ["422DD6C695AB387C"],
 			id: "255B2EE09458A29D",
 			tasks: [{
@@ -1212,6 +1226,7 @@
 		{
 			x: 0.0d,
 			y: 5.5d,
+			subtitle: "Transports fluids, right click with a block to cover",
 			dependencies: ["1548F52EA7E707D2"],
 			id: "4D2033E7CC501D8F",
 			tasks: [{
@@ -1237,6 +1252,7 @@
 		{
 			x: 1.5d,
 			y: 5.5d,
+			subtitle: "Transports fluids, right click with a block to cover",
 			dependencies: ["4D2033E7CC501D8F"],
 			id: "7E51EC749AFAB32D",
 			tasks: [{
@@ -1254,6 +1270,7 @@
 		{
 			x: 0.0d,
 			y: 7.0d,
+			subtitle: "Transports items, right click with a block to cover",
 			dependencies: ["255B2EE09458A29D"],
 			id: "2E57D2E63E787ED7",
 			tasks: [{
@@ -1279,6 +1296,7 @@
 		{
 			x: 1.5d,
 			y: 7.0d,
+			subtitle: "Transports items, right click with a block to cover",
 			dependencies: ["2E57D2E63E787ED7"],
 			id: "3C5EE9811ECFD155",
 			tasks: [{
@@ -1291,6 +1309,54 @@
 				type: "item",
 				item: "indrev:enriched_nikolite_dust",
 				count: 8
+			}]
+		},
+		{
+			icon: {
+				id: "indrev:servo_output",
+				Count: 1b,
+				tag: { }
+			},
+			x: -3.0d,
+			y: 8.0d,
+			subtitle: "Required for item pipes, used to connect to inventories",
+			dependencies: ["422DD6C695AB387C"],
+			id: "3A624F6AB32AA112",
+			tasks: [
+				{
+					id: "436406ECF54C73EA",
+					type: "item",
+					item: {
+						id: "indrev:servo_output",
+						Count: 1b,
+						tag: { }
+					}
+				},
+				{
+					id: "145342559F5E77A3",
+					type: "item",
+					item: {
+						id: "indrev:servo_retriever",
+						Count: 1b,
+						tag: { }
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			dependencies: ["4CF84A7DBDB28451"],
+			id: "21FB8A3BF0F5D619",
+			tasks: [{
+				id: "5612F59D028D1604",
+				type: "item",
+				item: "indrev:mining_drill_mk1"
+			}],
+			rewards: [{
+				id: "68F479D07029D5F7",
+				type: "random",
+				table_id: 3279900820427924797L
 			}]
 		}
 	]

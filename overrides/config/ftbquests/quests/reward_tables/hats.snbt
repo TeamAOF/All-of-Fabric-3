@@ -86,68 +86,26 @@
 				}
 			}
 		},
-		{
-			item: "givemehats:bowler_hat"
-		},
-		{
-			item: "givemehats:bunny_ears"
-		},
-		{
-			item: "givemehats:santa_hat"
-		},
-		{
-			item: "givemehats:slime_hat"
-		},
-		{
-			item: "givemehats:cowboy_hat"
-		},
-		{
-			item: "givemehats:sailor_hat"
-		},
-		{
-			item: "givemehats:floating_hat"
-		},
-		{
-			item: "givemehats:top_hat"
-		},
-		{
-			item: "givemehats:topest_hat"
-		},
-		{
-			item: "givemehats:fez_hat"
-		},
-		{
-			item: "givemehats:deerstalker_hat"
-		},
-		{
-			item: "givemehats:cat_ears"
-		},
-		{
-			item: "givemehats:fox_ears"
-		},
-		{
-			item: "givemehats:electric_mouse_ears"
-		},
-		{
-			item: "givemehats:crown"
-		},
-		{
-			item: "givemehats:russian_hat"
-		},
-		{
-			item: "givemehats:strider_hat"
-		},
-		{
-			item: "givemehats:woolrus_hat"
-		},
-		{
-			item: "givemehats:tater_hat"
-		},
-		{
-			item: "givemehats:bunny_space_helmet"
-		},
-		{
-			item: "givemehats:irish_hat"
-		}
+		{ item: "givemehats:bowler_hat" },
+		{ item: "givemehats:bunny_ears" },
+		{ item: "givemehats:santa_hat" },
+		{ item: "givemehats:slime_hat" },
+		{ item: "givemehats:cowboy_hat" },
+		{ item: "givemehats:sailor_hat" },
+		{ item: "givemehats:floating_hat" },
+		{ item: "givemehats:top_hat" },
+		{ item: "givemehats:topest_hat" },
+		{ item: "givemehats:fez_hat" },
+		{ item: "givemehats:deerstalker_hat" },
+		{ item: "givemehats:cat_ears" },
+		{ item: "givemehats:fox_ears" },
+		{ item: "givemehats:electric_mouse_ears" },
+		{ item: "givemehats:crown" },
+		{ item: "givemehats:russian_hat" },
+		{ item: "givemehats:strider_hat" },
+		{ item: "givemehats:woolrus_hat" },
+		{ item: "givemehats:tater_hat" },
+		{ item: "givemehats:bunny_space_helmet" },
+		{ item: "givemehats:irish_hat" }
 	]
 }

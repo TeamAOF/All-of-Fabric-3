@@ -1,9 +1,10 @@
 {
 	id: "79EC62003681D496",
-	group: "1BEC58D7749FCB7E",
-	order_index: 1,
+	group: "43D306D3C07F61C5",
+	order_index: 2,
 	filename: "sandwhichable",
 	title: "Sandwichable",
+	icon: "sandwichable:sandwich_table",
 	default_quest_shape: "",
 	quests: [
 		{

@@ -5,14 +5,7 @@
 	loot_size: 1,
 	hide_tooltip: true,
 	rewards: [
-		{
-			item: "tacocraft:carnitas_taco",
-			count: 12,
-			weight: 2
-		},
-		{
-			item: "minecraft:iron_ingot",
-			count: 12
-		}
+		{ item: "tacocraft:carnitas_taco", count: 12, weight: 2 },
+		{ item: "minecraft:iron_ingot", count: 12 }
 	]
 }

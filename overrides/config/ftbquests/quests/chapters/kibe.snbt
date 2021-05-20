@@ -1,7 +1,7 @@
 {
 	id: "678F1B2A6B0EAD8A",
-	group: "",
-	order_index: 7,
+	group: "0C9B847BCE2B4A0A",
+	order_index: 0,
 	filename: "kibe",
 	title: "Kibe",
 	icon: "kibe:kibe",
@@ -206,7 +206,7 @@
 				item: {
 					id: "kibe:magnet",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -282,7 +282,7 @@
 				item: {
 					id: "kibe:red_glider",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -438,7 +438,7 @@
 				item: {
 					id: "kibe:angel_ring",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -458,7 +458,7 @@
 				item: {
 					id: "kibe:magma_ring",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -479,7 +479,7 @@
 				item: {
 					id: "kibe:water_ring",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -677,7 +677,7 @@
 				item: {
 					id: "kibe:tank",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -769,7 +769,7 @@
 				item: {
 					id: "kibe:golden_lasso",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
@@ -798,7 +798,7 @@
 				item: {
 					id: "kibe:cursed_lasso",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [{
@@ -819,7 +819,7 @@
 				item: {
 					id: "kibe:diamond_lasso",
 					Count: 1b,
-					tag: {}
+					tag: { }
 				}
 			}],
 			rewards: [
