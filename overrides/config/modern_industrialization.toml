@@ -1,12 +1,2 @@
 generateOres = true
-
-[ores]
-generateAntimony = true
-generateBauxite = false
-generateCopper = false
-generateLead = false
-generateLigniteCoal = true
-generateNickel = false
-generateSalt = false
-generateSilver = false
-generateTin = false
+blacklistedOres = ["bauxite","copper","lead","nickel","salt","silver","tin"]
