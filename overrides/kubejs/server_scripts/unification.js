@@ -117,7 +117,9 @@ events.listen("recipes", function (event) {
     "aluminum",
     "bronze",
     "chrome",
+    "diamond",
     "electrum",
+    "emerald",
     "gold",
     "invar",
     "redstone",
@@ -129,7 +131,7 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
-    "tungsten"
+    "tungsten",
   ];
 
   var modern_dusts = [
@@ -140,12 +142,15 @@ events.listen("recipes", function (event) {
     "bronze",
     "bauxite",
     "chrome",
+    "diamond",
     "electrum",
+    "emerald",
     "gold",
     "invar",
     "nickel",
     "redstone",
     "manganese",
+    "iridium",
     "iron",
     "quartz",
     "lead",
@@ -155,7 +160,7 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
-    "tungsten"
+    "tungsten",
   ];
 
   var modern_nuggets = [
@@ -171,7 +176,7 @@ events.listen("recipes", function (event) {
     "silver",
     "steel",
     "tin",
-    "titanium"
+    "titanium",
   ];
 
   var modern_metals = [
@@ -188,7 +193,7 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
-    "tungsten"
+    "tungsten",
   ];
 
   var modern_ores = [
@@ -198,7 +203,7 @@ events.listen("recipes", function (event) {
     "lead",
     "silver",
     "tin",
-    "tungsten"
+    "tungsten",
   ];
 
   // Plates
@@ -270,6 +275,16 @@ events.listen("recipes", function (event) {
     "modern_industrialization:platinum_ore",
     "techreborn:sheldonite_ore"
   );
+
+  event.replaceOutput(
+    {},
+    "modern_industrialization:quartz_ore",
+    "minecraft:nether_quartz_ore"
+  );
+
+  event.remove({
+    input: "modern_industrialization:quartz_ore",
+  });
 
   // REI
   modern_materials.forEach(function (item, index) {
@@ -391,7 +406,10 @@ events.listen("recipes", function (event) {
     "chrome",
     "bronze",
     "silicon",
+    "diamond",
     "electrum",
+    "emerald",
+    "platinum"
     "invar",
     "nickel",
     "iron",
@@ -466,6 +484,11 @@ events.listen("recipes", function (event) {
       "techreborn:" + item + "_plate"
     );
   });
+  event.replaceInput(
+    {},
+    "modern_industrialization:platinum_plate",
+    "techreborn:platinum_plate"
+  );
 
   // REI Ores
   rei_ores.forEach(function (item, index) {

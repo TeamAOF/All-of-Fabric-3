@@ -5,7 +5,7 @@
 
 events.listen("recipes", function (event) {
 event.recipes.modern_industrialization.forge_hammer_hammer({
-  
+
   eu: 2,
   duration: 200,
   id: "aof3:forge_hammer/gold_plates",
@@ -22,7 +22,9 @@ event.recipes.modern_industrialization.forge_hammer_hammer({
       }
   ],
 });
-  
+
+
+
   event.recipes.modern_industrialization.forge_hammer_hammer({
   eu: 2,
   duration: 200,
@@ -39,6 +41,43 @@ event.recipes.modern_industrialization.forge_hammer_hammer({
           amount: 1
       }
   ]
-
   });
+
+  event.recipes.modern_industrialization.macerator({
+    eu: 2,
+    duration: 200,
+    id: "aof3:macerator/inferium_ore",
+    item_inputs: [
+        {
+            item: "mysticalagriculture:inferium_ore",
+            amount: 1
+        }
+    ],
+    item_outputs: [
+        {
+            item: "mysticalagriculture:inferium_essence",
+            amount: 9
+        }
+    ],
+  });
+
+  event.recipes.modern_industrialization.macerator({
+    eu: 2,
+    duration: 200,
+    id: "aof3:macerator/prosperity_ore",
+    item_inputs: [
+        {
+            item: "mysticalagriculture:prosperity_ore",
+            amount: 1
+        }
+    ],
+    item_outputs: [
+        {
+            item: "mysticalagriculture:prosperity_shard",
+            amount: 7
+        }
+    ],
+  });
+
+
 });
