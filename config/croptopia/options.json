@@ -1,0 +1,243 @@
+{
+  "options": {
+    "_comment": "Set this to false if you want to get seeds anytime you break tall grass.",
+    "use-hoe-to-collect-seeds": false,
+    "disable-salt-ore": false
+  },
+  "seeds": {
+    "_comment": "You can configure the biome category that seeds will drop in and the chance to drop. Acceptable biome categories are: taiga, extreme_hills, jungle, mesa, plains, savanna, icy, the_end, beach, forest, ocean, desert, river, swamp, mushroom, nether",
+    "__comment": "Set this to none if you want them to drop from any biome category.",
+    "artichoke_seed": {
+      "biome-category": "swamp",
+      "drop-chance": 0.0125
+    },
+    "asparagus_seed": {
+      "biome-category": "swamp",
+      "drop-chance": 0.0125
+    },
+    "bellpepper_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "blackbean_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "blackberry_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "blueberry_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "broccoli_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "cabbage_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "cantaloupe_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "cauliflower_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "celery_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "coffee_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "corn_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "cranberry_seed": {
+      "biome-category": "swamp",
+      "drop-chance": 0.0125
+    },
+    "cucumber_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "currant_seed": {
+      "biome-category": "swamp",
+      "drop-chance": 0.0125
+    },
+    "eggplant_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "elderberry_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "garlic_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "grape_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "greenbean_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "greenonion_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "honeydew_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "hops_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "kale_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "kiwi_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "leek_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "lettuce_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "olive_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "onion_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "peanut_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "pineapple_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "radish_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "raspberry_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "rhubarb_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "rice_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "rutabaga_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "saguaro_seed": {
+      "biome-category": "desert",
+      "drop-chance": 0.0125
+    },
+    "spinach_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "squash_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "strawberry_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "sweetpotato_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "tomatillo_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "tomato_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    },
+    "turnip_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "yam_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "zucchini_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "mustard_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "chile_pepper_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "turmeric_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "ginger_seed": {
+      "biome-category": "savanna",
+      "drop-chance": 0.0125
+    },
+    "basil_seed": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "oat_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "barley_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "soybean_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "vanilla_seeds": {
+      "biome-category": "jungle",
+      "drop-chance": 0.0125
+    },
+    "pepper_seed": {
+      "biome-category": "plains",
+      "drop-chance": 0.0125
+    },
+    "tea_seed": {
+      "biome-category": "forest",
+      "drop-chance": 0.0125
+    }
+  }
+}

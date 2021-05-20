@@ -1,0 +1,9 @@
+{
+	// Inventories that should not be sorted
+	"blacklistedInventories": [
+		"tfar.dankstorage.client.screens.DockScreen",
+		"tfar.dankstorage.client.screens.AbstractDankStorageScreen",
+		"tfar.dankstorage.client.screens.PortableDankStorageScreen",
+		"juuxel.adorn.client.gui.screen.TradingStationScreen"
+	]
+}

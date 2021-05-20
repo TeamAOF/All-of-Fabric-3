@@ -1,0 +1,18 @@
+{
+	/* 
+	   Should window title be changed?
+	*/
+	"changeTitle": true,
+	/* 
+	   This is what window title will say.
+	   You can add '{version}' to display your minecraft version.
+	*/
+	"windowTitle": "All of Fabric 3",
+	/* 
+	   Should window icon be changed?
+	   REMEMBER! You have to provide both 16x16 and 32x32 icon in .png format!
+	*/
+	"changeIcons": false,
+	"icon16x16": "",
+	"icon32x32": ""
+}

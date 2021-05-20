@@ -1,0 +1,159 @@
+{
+	"OverworldDimension": {
+		"Stones": {
+			"RockyStone": {
+				/* 
+				   Generate ore?
+				*/
+				"Generate": true,
+				/* 
+				   Y level to start generating at.
+				   Default: 63
+				*/
+				"YLevel": 63,
+				/* 
+				   Size of the clusters.
+				   Default: 20
+				*/
+				"Size": 20,
+				/* 
+				   Number of times to spawn per chunk.
+				   Default: 10
+				*/
+				"PerChunk": 10
+			},
+			"ScoriaStone": {
+				/* 
+				   Generate ore?
+				*/
+				"Generate": false,
+				/* 
+				   Y level to start generating at.
+				   Default: 63
+				*/
+				"YLevel": 63,
+				/* 
+				   Size of the clusters.
+				   Default: 20
+				*/
+				"Size": 20,
+				/* 
+				   Number of times to spawn per chunk.
+				   Default: 10
+				*/
+				"PerChunk": 10
+			},
+			"SoapStone": {
+				/* 
+				   Generate ore?
+				*/
+				"Generate": false,
+				/* 
+				   Y level to start generating at.
+				   Default: 63
+				*/
+				"YLevel": 63,
+				/* 
+				   Size of the clusters.
+				   Default: 20
+				*/
+				"Size": 20,
+				/* 
+				   Number of times to spawn per chunk.
+				   Default: 10
+				*/
+				"PerChunk": 10
+			}
+		},
+		"Ores": {
+			"Ametrine": {
+				/* 
+				   Generate ore?
+				*/
+				"Generate": true,
+				/* 
+				   Y level to start generating at.
+				   Default: 56
+				*/
+				"YLevel": 56,
+				/* 
+				   Size of the clusters.
+				   Default: 4
+				*/
+				"Size": 4,
+				/* 
+				   Number of times to spawn per chunk.
+				   Default: 10
+				*/
+				"PerChunk": 10
+			},
+			"Pendorite": {
+				/* 
+				   Generate ore?
+				*/
+				"Generate": true,
+				/* 
+				   Y level to start generating at.
+				   Default: 56
+				*/
+				"YLevel": 56,
+				/* 
+				   Size of the clusters.
+				   Default: 4
+				*/
+				"Size": 4,
+				/* 
+				   Number of times to spawn per chunk.
+				   Default: 10
+				*/
+				"PerChunk": 10
+			}
+		}
+	},
+	"EndDimension": {
+		/* 
+		   Does BYG Control The End Dimension?
+		*/
+		"ControlEnd": true,
+		"Void": {
+			/* 
+			   Void Biome(where small end islands generate in vanilla) size.
+			   Default: 3
+			*/
+			"VoidBiomeSize": 3
+		},
+		"Islands": {
+			/* 
+			   End Island Biome Size
+			   Default: 3
+			*/
+			"IslandBiomeSize": 3
+		}
+	},
+	"NetherDimension": {
+		/* 
+		   Does Control The Nether Dimension?
+		*/
+		"ControlNether": true,
+		/* 
+		   End Island Biome Size
+		   Default: 3
+		*/
+		"BiomeSize": 3,
+		/* 
+		   Is the list of biomes a blacklist or whitelist?
+		   When this list is a blacklist, the values in the list will not be in world generation.
+		   When this list is a whitelist, Adding a biome several times gives it more weight in generation and it must contain at least 1 value.
+		   When set to true, datapack biomes will work automatically!
+		   Default: true
+		*/
+		"IsBlackListNether": true,
+		/* 
+		   This works as a whitelist or blacklist depending on the "isBlacklistNether" value.
+		   NO SPACES AFTER COMMAS!
+		   DOES NOT ACCEPT DATAPACK VALUES!
+		   Default: ""
+		*/
+		"BlackListNether": ""
+	}
+}

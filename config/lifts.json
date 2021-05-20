@@ -1,0 +1,36 @@
+{
+  "maxFuelTicksStored": 32000,
+  "fuelTicksNeededPerBlock": 100,
+  "energyUnitsNeededPerBlock": 100,
+  "liftConfigs": {
+    "stirlingLift": {
+      "platformSpeed": 1.0,
+      "platformRange": 16
+    },
+    "electricLiftMk1": {
+      "energyCapacity": 32000.0,
+      "platformSpeed": 1.2,
+      "platformRange": 32
+    },
+    "electricLiftMk2": {
+      "energyCapacity": 64000.0,
+      "platformSpeed": 1.4,
+      "platformRange": 64
+    },
+    "electricLiftMk3": {
+      "energyCapacity": 128000.0,
+      "platformSpeed": 1.6,
+      "platformRange": 128
+    },
+    "electricLiftMk4": {
+      "energyCapacity": 256000.0,
+      "platformSpeed": 1.8,
+      "platformRange": 128
+    },
+    "electricLiftMk5": {
+      "energyCapacity": 512000.0,
+      "platformSpeed": 2.0,
+      "platformRange": 256
+    }
+  }
+}

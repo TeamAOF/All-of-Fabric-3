@@ -1,0 +1,18 @@
+{
+  "cableMk1": {
+    "maxOutput": 64.0,
+    "maxInput": 64.0
+  },
+  "cableMk2": {
+    "maxOutput": 128.0,
+    "maxInput": 128.0
+  },
+  "cableMk3": {
+    "maxOutput": 512.0,
+    "maxInput": 512.0
+  },
+  "cableMk4": {
+    "maxOutput": 4096.0,
+    "maxInput": 4096.0
+  }
+}

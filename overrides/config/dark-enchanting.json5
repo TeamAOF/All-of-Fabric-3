@@ -1,8 +1,0 @@
-{
-  "baseCost": 2.5,
-  "costFactor": 1.0,
-  "curseFactor": 3.0,
-  "treasureFactor": 4.0,
-  //Makes rare enchantments less cheap. Decrease the value increase the cost of Rare & Very Rare enchantments.
-  "weightDivisor": 2.0
-}

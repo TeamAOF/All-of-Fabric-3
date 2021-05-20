@@ -1,0 +1,1049 @@
+{
+	"basics": {
+		"favorites": [],
+		// Declares whether cheating mode is on.
+		"cheating": true,
+		"favoritesEnabled": true,
+		"keyBindings": {
+			"recipeKeybind": {
+				"keyCode": "key.keyboard.r",
+				"modifier": 0
+			},
+			"usageKeybind": {
+				"keyCode": "key.keyboard.u",
+				"modifier": 0
+			},
+			"hideKeybind": {
+				"keyCode": "key.keyboard.o",
+				"modifier": 2
+			},
+			"previousPageKeybind": {
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"nextPageKeybind": {
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"focusSearchFieldKeybind": {
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"copyRecipeIdentifierKeybind": {
+				"keyCode": "key.keyboard.home",
+				"modifier": 0
+			},
+			"favoriteKeybind": {
+				"keyCode": "key.keyboard.a",
+				"modifier": 0
+			},
+			"exportImageKeybind": {
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			}
+		},
+		// Declares whether REI is visible.
+		"overlayVisible": true,
+		"cheatingStyle": "GIVE",
+		"reducedMotion": false
+	},
+	"advanced": {
+		"filtering": {
+			"filteringRules": [
+				"{rule:{},id:\"roughlyenoughitems:manual\"}"
+			],
+			"filteredStacks": [
+				{
+					"id": "indrev:electrum_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:copper_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "blockus:oak_barrel",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:bauxite_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:bronze_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:invar_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "sandwichable:lettuce_leaf",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "sandwichable:cooked_tomato_slice",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:silver_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:mahogany_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:copper_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:lead_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:silver_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:steel_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:bronze_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tungsten_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:bronze_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:umbrella_tree_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:copper_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:lead_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:lead_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:lead_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:bronze_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:silver_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:fir_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:zelkova_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:steel_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:steel_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:invar_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:palm_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:electrum_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:electrum_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:gold_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:mossy_glowshroom_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:silver_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:bauxite_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:cika_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:silver_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:bronze_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:tin_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:helix_tree_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:chrome_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:nickel_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:quartz_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:tin_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:electrum_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "sandwichable:onion",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:ruby_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:gold_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:lead_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tin_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:nickel_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:titanium_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "bewitchment:silver_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:sulfur_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:willow_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "sandwichable:lettuce_head",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "sandwichable:salt",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "sandwichable:tomato_slice",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:lead_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:iron_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:skyris_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:mangrove_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:steel_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:copper_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:diamond_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:electrum_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:pythadendron_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tungsten_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:bronze_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:lead_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:sythian_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:copper_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:chrome_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:dragon_tree_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:green_enchanted_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:chrome_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:witch_hazel_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:steel_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:silver_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tin_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:redwood_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:steel_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "blockus:dark_oak_barrel",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:sulfur_crystal",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:titanium_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:pine_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "blockus:jungle_barrel",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:copper_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:tin_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:silver_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:bronze_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:iron_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:aluminum_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:lament_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "sandwichable:cucumber",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:iron_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:lead_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:chrome_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:electrum_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:chrome_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:copper_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:copper_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:end_lotus_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:baobab_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "sandwichable:tomato",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:electrum_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:sawdust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "bewitchment:silver_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:coal_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:copper_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:nightshade_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:lacugrove_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:gold_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tungsten_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:nickel_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:aspen_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:titanium_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:bronze_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:copper_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:nickel_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tungsten_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:cypress_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tin_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:aluminum_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:jacaranda_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:gold_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:lead_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:maple_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:ebony_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:electrum_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:silver_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:embur_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:tin_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:holly_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "bewitchment:silver_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:silver_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "blockus:crimson_barrel",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:blue_enchanted_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:silver_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:electrum_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:lead_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tungsten_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:aluminum_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "appliedenergistics2:grindstone",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:ether_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tin_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:coal_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:steel_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:silver_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "blockus:birch_barrel",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:invar_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:electrum_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:tenanea_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:lead_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:tin_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:bronze_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:aluminum_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:bronze_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "blockus:warped_barrel",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "bewitchment:salt_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:copper_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:titanium_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:steel_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:copper_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tungsten_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:steel_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tin_ore",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:titanium_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:cherry_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:lead_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:tin_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "blockus:acacia_barrel",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:invar_ingot",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:iron_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:nickel_nugget",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:invar_plate",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "modern_industrialization:aluminum_dust",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:rainbow_eucalyptus_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "byg:bulbis_crafting_table",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "indrev:silver_block",
+					"Count": 1,
+					"type": "item"
+				},
+				{
+					"id": "betterend:jellyshroom_crafting_table",
+					"Count": 1,
+					"type": "item"
+				}
+			]
+		},
+		"tooltips": {
+			// Declares whether REI should append mod names to entries.
+			"appendModNames": true,
+			// Declares whether favorites tooltip should be displayed.
+			"displayFavoritesTooltip": true
+		},
+		"layout": {
+			// The ordering of the items on the entry panel.
+			"entryPanelOrdering": "REGISTRY_ASCENDING",
+			// Declares the maximum amount of recipes displayed in a page if possible.
+			"maxRecipesPerPage": 15,
+			// Declares whether entry rendering time should be debugged.
+			"debugRenderTimeRequired": false
+		},
+		"accessibility": {
+			"entrySize": 1.0,
+			// Declares the position of the entry panel.
+			"displayPanelLocation": "RIGHT",
+			// Declares whether scrolled entry panel should snap to rows.
+			"snapToRows": true,
+			// Declares how the scrollbar in villager screen should act.
+			"villagerScreenPermanentScrollBar": false,
+			"toastDisplayedOnCopyIdentifier": true,
+			// Declares whether REI should use compact tabs for categories.
+			"useCompactTabs": true
+		},
+		"search": {
+			// Declares whether search time should be debugged.
+			"debugSearchTimeRequired": false,
+			// Declares whether REI should search async.
+			"asyncSearch": true,
+			// Declares how many entries should be grouped one async search.
+			"asyncSearchPartitionSize": 100,
+			"tooltipSearch": "ALWAYS",
+			"tagSearch": "PREFIX",
+			"modSearch": "PREFIX"
+		},
+		"commands": {
+			// Declares the command used to change gamemode.
+			"gamemodeCommand": "/gamemode {gamemode}",
+			// Declares the command used in servers to cheat items.
+			"giveCommand": "/give {player_name} {item_identifier}{nbt} {count}",
+			// Declares the command used to change weather.
+			"weatherCommand": "/weather {weather}"
+		},
+		"miscellaneous": {
+			// Declares whether arrows in containers should be clickable.
+			"clickableRecipeArrows": true,
+			"registerRecipesInAnotherThread": true,
+			"newFastEntryRendering": true
+		}
+	},
+	"appearance": {
+		"recipeScreenType": "ORIGINAL",
+		// Declares the appearance of REI windows.
+		"theme": "LIGHT",
+		"layout": {
+			// Declares the position of the search field.
+			"searchFieldLocation": "CENTER",
+			// Declares the position of the config button.
+			"configButtonLocation": "LOWER",
+			// Declares whether the craftable filter button is enabled.
+			"enableCraftableOnlyButton": true,
+			// Declares whether the utils buttons are shown.
+			"showUtilsButtons": false
+		},
+		// Declares the appearance of recipe's border.
+		"recipeBorder": "LIGHTER",
+		// Declares whether entry panel is scrolled.
+		"scrollingEntryListWidget": false,
+		"horizontalEntriesBoundaries": 1.0,
+		"verticalEntriesBoundaries": 1.0,
+		"syntaxHighlightingMode": "COLORFUL"
+	},
+	"functionality": {
+		// Declares whether REI should remove the recipe book.
+		"disableRecipeBook": true,
+		// Declares whether subsets is enabled.
+		"isSubsetsEnabled": false,
+		"allowInventoryHighlighting": true
+	}
+}

@@ -1,0 +1,27 @@
+{
+	id: "2DD81551399022B2",
+	order_index: 7,
+	title: "Artifact Rewards",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [
+		{
+			xp_levels: 5,
+			type: "xp_levels",
+			weight: 40
+		},
+		{
+			xp_levels: 2,
+			type: "xp_levels",
+			weight: 80
+		},
+		{ item: "minecraft:creeper_head", weight: 80 },
+		{ item: "minecraft:zombie_head", weight: 80 },
+		{ item: "minecraft:diamond", weight: 20 },
+		{ item: "minecraft:golden_apple", weight: 40 },
+		{ item: "kibe:golden_kibe", weight: 40 },
+		{ item: "minecraft:iron_block", weight: 40 },
+		{ item: "minecraft:gold_ore", weight: 40 },
+		{ item: "betterend:thallasium_ingot", count: 4, weight: 20 }
+	]
+}
