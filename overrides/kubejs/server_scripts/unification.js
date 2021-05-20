@@ -409,7 +409,7 @@ events.listen("recipes", function (event) {
     "diamond",
     "electrum",
     "emerald",
-    "platinum"
+    "platinum",
     "invar",
     "nickel",
     "iron",
