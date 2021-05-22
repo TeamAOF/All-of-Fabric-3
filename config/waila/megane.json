@@ -16,7 +16,7 @@
       "badasintended.megane.impl.ArtOfAlchemy": true,
       "badasintended.megane.impl.Kibe": true,
       "badasintended.megane.impl.Minecraft": true,
-      "badasintended.megane.impl.ModernIndustrialization": true,
+      "badasintended.megane.impl.ModernIndustrialization": false,
       "badasintended.megane.impl.IndustrialRevolution": true,
       "badasintended.megane.impl.AppliedEnergistics2": true,
       "badasintended.megane.impl.FabricFurnaces": true
@@ -31,7 +31,7 @@
       "badasintended.megane.impl.FabricFurnaces": true
     },
     "megane-modern-industrialization": {
-      "badasintended.megane.impl.ModernIndustrialization": true
+      "badasintended.megane.impl.ModernIndustrialization": false
     },
     "megane-lib-block-attributes": {
       "badasintended.megane.impl.LibBlockAttributesFluids": true
