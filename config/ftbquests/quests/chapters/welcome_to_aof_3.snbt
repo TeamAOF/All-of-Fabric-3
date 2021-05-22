@@ -3,8 +3,14 @@
 	group: "",
 	order_index: 0,
 	filename: "welcome_to_aof_3",
-	title: "Welcome to AOF 3",
-	icon: "tacocraft:carnitas_taco",
+	title: "Welcome",
+	icon: {
+		id: "minecraft:iron_pickaxe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
 	default_quest_shape: "",
 	quests: [
 		{

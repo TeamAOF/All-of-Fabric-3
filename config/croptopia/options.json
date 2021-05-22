@@ -230,14 +230,6 @@
     "vanilla_seeds": {
       "biome-category": "jungle",
       "drop-chance": 0.0125
-    },
-    "pepper_seed": {
-      "biome-category": "plains",
-      "drop-chance": 0.0125
-    },
-    "tea_seed": {
-      "biome-category": "forest",
-      "drop-chance": 0.0125
     }
   }
 }

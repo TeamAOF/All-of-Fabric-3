@@ -1,7 +1,7 @@
 {
 	version: 12,
 	title: "All Of Fabric 3",
-	icon: "tacocraft:al_pastor_taco",
+	icon: "kubejs:aof_logo",
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",

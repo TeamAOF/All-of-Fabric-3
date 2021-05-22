@@ -1,18 +1,14 @@
 {
-  "cableMk1": {
-    "maxOutput": 64.0,
-    "maxInput": 64.0
-  },
-  "cableMk2": {
-    "maxOutput": 128.0,
-    "maxInput": 128.0
-  },
-  "cableMk3": {
-    "maxOutput": 512.0,
-    "maxInput": 512.0
-  },
-  "cableMk4": {
-    "maxOutput": 4096.0,
-    "maxInput": 4096.0
-  }
+  "cableMk1": 128.0,
+  "cableMk2": 512.0,
+  "cableMk3": 4096.0,
+  "cableMk4": 16384.0,
+  "itemPipeMk1": 32,
+  "itemPipeMk2": 64,
+  "itemPipeMk3": 128,
+  "itemPipeMk4": 256,
+  "fluidPipeMk1": 1,
+  "fluidPipeMk2": 2,
+  "fluidPipeMk3": 4,
+  "fluidPipeMk4": 8
 }
