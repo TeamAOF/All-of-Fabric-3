@@ -34,3 +34,7 @@ craftpresence/
 .jumploader/
 
 .fabric/
+
+local/
+
+servers.dat
