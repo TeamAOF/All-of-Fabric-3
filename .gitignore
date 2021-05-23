@@ -38,3 +38,5 @@ craftpresence/
 local/
 
 servers.dat
+
+config/jmx.properties

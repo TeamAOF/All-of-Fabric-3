@@ -69,13 +69,15 @@
       "megane": 7408640,
       "indrev": 3885790,
       "techreborn": 8390656,
-      "appliedenergistics2": 6556063
+      "appliedenergistics2": 6556063,
+      "extragenerators": 7408640
     },
     "units": {
       "megane": "E",
       "indrev": "LF",
       "techreborn": "E",
-      "appliedenergistics2": "AE"
+      "appliedenergistics2": "AE",
+      "extragenerators": "E"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

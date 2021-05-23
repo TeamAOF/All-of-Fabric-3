@@ -1,6 +1,24 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			{
+				"type": "roughlyenoughitems:entry_stack",
+				"data": {
+					"id": "mysticalagriculture:master_infusion_crystal",
+					"Count": 127,
+					"type": "item"
+				}
+			},
+			{
+				"type": "roughlyenoughitems:entry_stack",
+				"data": {
+					"id": "kibe:angel_ring",
+					"Count": 127,
+					"tag": { },
+					"type": "item"
+				}
+			}
+		],
 		// Declares whether cheating mode is on.
 		"cheating": true,
 		"favoritesEnabled": true,
@@ -319,11 +337,6 @@
 					"type": "item"
 				},
 				{
-					"id": "bewitchment:silver_block",
-					"Count": 1,
-					"type": "item"
-				},
-				{
 					"id": "indrev:sulfur_dust",
 					"Count": 1,
 					"type": "item"
@@ -594,11 +607,6 @@
 					"type": "item"
 				},
 				{
-					"id": "bewitchment:silver_ingot",
-					"Count": 1,
-					"type": "item"
-				},
-				{
 					"id": "indrev:coal_dust",
 					"Count": 1,
 					"type": "item"
@@ -729,11 +737,6 @@
 					"type": "item"
 				},
 				{
-					"id": "bewitchment:silver_ore",
-					"Count": 1,
-					"type": "item"
-				},
-				{
 					"id": "modern_industrialization:silver_block",
 					"Count": 1,
 					"type": "item"
@@ -850,11 +853,6 @@
 				},
 				{
 					"id": "blockus:warped_barrel",
-					"Count": 1,
-					"type": "item"
-				},
-				{
-					"id": "bewitchment:salt_ore",
 					"Count": 1,
 					"type": "item"
 				},
