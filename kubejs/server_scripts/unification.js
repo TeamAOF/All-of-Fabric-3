@@ -394,35 +394,6 @@ events.listen("recipes", function (event) {
     ],
   });
 
-
-
-    // --------- BEWITCHMENT --------- //
-
-    var bewitchment = ["silver"];
-
-    // Ingots
-    bewitchment.forEach(function (item, index) {
-      event.replaceOutput(
-        {},
-        "bewitchment:" + item + "_ingot",
-        "techreborn:" + item + "_ingot"
-      );
-
-      // Blocks
-      event.replaceOutput(
-        {},
-        "bewitchment:" + item + "_block",
-        "techreborn:" + item + "_storage_block"
-      );
-
-      // REI
-      event.remove({ id: "bewitchment:" + item + "_ingot_from" + item + "block" });
-      event.remove({ id: "bewitchment:" + item + "_ingot_from_nuggets" });
-      event.remove({ id: "bewitchment:" + item + "_ingot_from_blasting" });
-      event.remove({ id: "bewitchment:" + item + "_block" });
-      event.remove({ id: "bewitchment:" + item + "_ingot" });
-    });
-
   // --------- APPLIED ENERGESTICS 2 --------- //
 
   var applied_dusts = ["gold", "iron"];
