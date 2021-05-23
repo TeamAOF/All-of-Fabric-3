@@ -3,7 +3,7 @@
 	group: "",
 	order_index: 0,
 	filename: "welcome_to_aof_3",
-	title: "Welcome to AOF 3",
+	title: "Introduction",
 	icon: "minecraft:book",
 	default_quest_shape: "",
 	quests: [
