@@ -34,7 +34,7 @@
   "toadWeight": 10,
   "toadMinGroupCount": 1,
   "toadMaxGroupCount": 3,
-  "ghostWeight": 4,
+  "ghostWeight": 6,
   "ghostMinGroupCount": 1,
   "ghostMaxGroupCount": 1,
   "vampireWeight": 10,
