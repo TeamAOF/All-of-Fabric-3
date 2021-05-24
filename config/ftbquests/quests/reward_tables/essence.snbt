@@ -1,0 +1,14 @@
+{
+	id: "5FDFED465FADB3FC",
+	order_index: 13,
+	title: "Essence",
+	icon: "mysticalagriculture:inferium_essence",
+	loot_size: 1,
+	rewards: [
+		{ item: "mysticalagriculture:inferium_essence", weight: 256 },
+		{ item: "mysticalagriculture:prudentium_essence", weight: 64 },
+		{ item: "mysticalagriculture:tertium_essence", weight: 16 },
+		{ item: "mysticalagriculture:imperium_essence", weight: 4 },
+		{ item: "mysticalagriculture:supremium_essence" }
+	]
+}

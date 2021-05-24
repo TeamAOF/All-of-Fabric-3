@@ -1,0 +1,220 @@
+{
+	id: "08C676AD195EFC3C",
+	group: "14EF39AAFA552664",
+	order_index: 2,
+	filename: "end",
+	title: "End",
+	icon: "betterend:amber_moss",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Complete Nether",
+			icon: "minecraft:warped_nylium",
+			x: -1.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: ["327CCD3E12B81920"],
+			size: 1.2d,
+			id: "000681DEA51291E7",
+			tasks: [{
+				id: "510879FABD8EAF39",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Amber Land",
+			x: -2.5d,
+			y: 3.5d,
+			subtitle: "Visit Biome: Amber Land",
+			description: [""],
+			dependencies: ["000681DEA51291E7"],
+			id: "6D7E1C67C045402D",
+			tasks: [{
+				id: "1952C0DD785CEC3D",
+				type: "biome",
+				icon: "betterend:amber_moss",
+				biome: "betterend:amber_land"
+			}],
+			rewards: [{
+				id: "68711DC4AA222D3F",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Chorus Forest",
+			x: 0.5d,
+			y: 0.5d,
+			subtitle: "Visit Biome: Chorus Forest",
+			dependencies: ["000681DEA51291E7"],
+			id: "64A0BF606AA339F0",
+			tasks: [{
+				id: "3C33B978D696B879",
+				type: "biome",
+				icon: "betterend:chorus_nylium",
+				biome: "betterend:chorus_forest"
+			}],
+			rewards: [{
+				id: "37EF13E129353D43",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Foggy Mushroomland",
+			x: 1.0d,
+			y: 3.0d,
+			subtitle: "Visit Biome: Foggy Mushroomland",
+			dependencies: ["000681DEA51291E7"],
+			id: "609DADCB7CD29791",
+			tasks: [{
+				id: "65292F646A247E15",
+				type: "biome",
+				icon: "betterend:end_mycelium_path",
+				biome: "betterend:foggy_mushroomland"
+			}],
+			rewards: [{
+				id: "73D548039A3A4F8E",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Dark Amaranth Forest",
+			icon: "promenade:dark_amaranth_roots",
+			x: -2.0d,
+			y: 2.0d,
+			subtitle: "Visit Biome: Tall Darak Amaranth Forest",
+			dependencies: ["000681DEA51291E7"],
+			id: "636E9B1179D76159",
+			tasks: [{
+				id: "11597511AD79B3B5",
+				type: "biome",
+				icon: "promenade:dark_amaranth_roots",
+				biome: "wild_explorer:tall_dark_amaranth_forest"
+			}],
+			rewards: [{
+				id: "64251E3CD1AD9F9E",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Megalake Grove",
+			x: 0.0d,
+			y: 4.0d,
+			subtitle: "Visit Biome: Megalake Cove",
+			dependencies: ["000681DEA51291E7"],
+			id: "77007681D6C6BA43",
+			tasks: [{
+				id: "6D3DDE1A993418DB",
+				type: "biome",
+				icon: "betterend:lacugrove_sapling",
+				biome: "betterend:megalake_grove"
+			}],
+			rewards: [{
+				id: "15E435201DBE096B",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Sulphur Springs",
+			x: 0.0d,
+			y: 2.0d,
+			subtitle: "Visit Biome: Sulphur Springs",
+			dependencies: ["000681DEA51291E7"],
+			id: "0D1BBCF53536137B",
+			tasks: [{
+				id: "25574379890EA03A",
+				type: "biome",
+				icon: "indrev:sulfur_crystal",
+				biome: "betterend:sulphur_springs"
+			}],
+			rewards: [{
+				id: "315B24731C3A4CF3",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Blossoming Spires",
+			x: -3.0d,
+			y: 1.0d,
+			subtitle: "Visit Biome: Blossoming Spires",
+			dependencies: ["000681DEA51291E7"],
+			id: "6101176154426219",
+			tasks: [{
+				id: "5BCDC58899B4133A",
+				type: "biome",
+				icon: "betterend:tenanea_bark",
+				biome: "betterend:blossoming_spires"
+			}],
+			rewards: [{
+				id: "604E6F78E46F4BF3",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Crystal Mountains",
+			x: -1.0d,
+			y: 1.0d,
+			subtitle: "Visit Biome: Crystal Mountains",
+			dependencies: ["000681DEA51291E7"],
+			id: "53C6D42E726D7DAA",
+			tasks: [{
+				id: "54CE2A1D34D2D8F2",
+				type: "biome",
+				icon: "betterend:aurora_crystal",
+				biome: "betterend:crystal_mountains"
+			}],
+			rewards: [{
+				id: "26A27731E56347EB",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Glowing Grasslands",
+			icon: "betterend:salteago",
+			x: -1.0d,
+			y: 3.0d,
+			subtitle: "Visit Biome: Glowing Grasslands",
+			description: ["Visit Biome: Glowing Grasslands"],
+			dependencies: ["000681DEA51291E7"],
+			dependency_requirement: "one_completed",
+			id: "6856569F645B57EF",
+			tasks: [{
+				id: "7EB980CDAA5BE5E0",
+				type: "biome",
+				icon: "betterend:salteago",
+				biome: "betterend:glowing_grasslands"
+			}],
+			rewards: [{
+				id: "66406EF9DF2B492C",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		},
+		{
+			title: "Bulbis Gardens",
+			x: -2.0d,
+			y: 0.0d,
+			subtitle: "Visit Biome: Bulbis Gardens",
+			dependencies: ["000681DEA51291E7"],
+			id: "5F89DD49F175E4FE",
+			tasks: [{
+				id: "3B3CF01947A55368",
+				type: "biome",
+				icon: "betterend:glowing_bulb",
+				biome: "betterend:old_bulbis_gardens"
+			}],
+			rewards: [{
+				id: "7E0E7177421E4B81",
+				type: "random",
+				table_id: 657593608620279249L
+			}]
+		}
+	]
+}

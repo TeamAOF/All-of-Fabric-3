@@ -1,0 +1,605 @@
+{
+	id: "32E800F2D5FEBB33",
+	group: "3649680F519F99E2",
+	order_index: 1,
+	filename: "art_of_alchemy",
+	title: "Art of Alchemy",
+	icon: "artofalchemy:philosophers_stone",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -2.5d,
+			y: -0.5d,
+			subtitle: "Used to make transmutation formulas",
+			id: "0DB01A3C350447EA",
+			tasks: [{
+				id: "0BD83C584FC1CBE9",
+				type: "item",
+				item: "artofalchemy:analysis_desk"
+			}],
+			rewards: [
+				{
+					id: "6D9BE93EDE268FEE",
+					type: "item",
+					item: "minecraft:ink_sac",
+					count: 16
+				},
+				{
+					id: "281AC574A09B0A2C",
+					type: "item",
+					item: "minecraft:paper",
+					count: 16
+				},
+				{
+					id: "6A977D6DCFE1D667",
+					type: "item",
+					item: {
+						id: "artofalchemy:alchemical_journal",
+						Count: 1b,
+						tag: { }
+					}
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -0.5d,
+			subtitle: "Leaves behind Materia of what you put in",
+			description: [""],
+			id: "700C565C29E037D6",
+			tasks: [{
+				id: "7C9C76E1BACE306B",
+				type: "item",
+				item: "artofalchemy:calcination_furnace"
+			}],
+			rewards: [
+				{
+					id: "610FCA9422C0CAD5",
+					type: "item",
+					item: "minecraft:coal_block",
+					count: 4
+				},
+				{
+					id: "796A682DC282259F",
+					type: "item",
+					item: "artofalchemy:azoth",
+					count: 2
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -2.0d,
+			subtitle: "Leaves behind Essentia of what you put in",
+			id: "0DE97F2AE835231B",
+			tasks: [{
+				id: "25BE4CC2CA012214",
+				type: "item",
+				item: "artofalchemy:dissolution_chamber"
+			}],
+			rewards: [{
+				id: "17D341738BCB6098",
+				type: "item",
+				item: "artofalchemy:alkahest_bucket",
+				count: 2
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -0.5d,
+			subtitle: "Uses Essentia and Materia to follow a Formula",
+			dependencies: [
+				"0DE97F2AE835231B",
+				"700C565C29E037D6",
+				"0DB01A3C350447EA"
+			],
+			id: "6B64554955CF03D7",
+			tasks: [{
+				id: "0DFBBEC0BD11CF87",
+				type: "item",
+				item: "artofalchemy:synthesis_table"
+			}],
+			rewards: [
+				{
+					id: "1989D6104DC47AF0",
+					type: "item",
+					item: "artofalchemy:materia_e",
+					count: 4
+				},
+				{
+					id: "36296C7D3462A42F",
+					type: "item",
+					item: "artofalchemy:materia_d",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 2.0d,
+			subtitle: "Turns 8 Materia into 1 of the next rank",
+			dependencies: ["05BF81750785191A"],
+			id: "4CF72F9183A6B402",
+			tasks: [{
+				id: "6A40157637BEBCCB",
+				type: "item",
+				item: "artofalchemy:projection_altar"
+			}],
+			rewards: [{
+				id: "0D393F30CDB770CF",
+				type: "item",
+				item: "artofalchemy:materia_c",
+				count: 8
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.0d,
+			subtitle: "Allows you to upgrade your machines",
+			description: [""],
+			dependencies: [
+				"1C9BE964FA957ECB",
+				"470C708FF9568588"
+			],
+			id: "05BF81750785191A",
+			tasks: [{
+				id: "4E5115D5B10D5BBD",
+				type: "item",
+				item: "artofalchemy:philosophers_stone"
+			}],
+			rewards: [
+				{
+					id: "33236FEB7A5FA05D",
+					type: "item",
+					item: "minecraft:polished_basalt",
+					count: 12
+				},
+				{
+					id: "30F7099649725303",
+					type: "item",
+					item: "croptopia:tofuburger",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 4.0d,
+			subtitle: "Allows you to recover the full amount of Materia from items",
+			dependencies: ["05BF81750785191A"],
+			id: "3C02774C7EAA9025",
+			tasks: [{
+				id: "05EF8E2E5BD318D1",
+				type: "item",
+				item: "artofalchemy:calcination_furnace_plus"
+			}],
+			rewards: [{
+				id: "426ED439215CF636",
+				type: "item",
+				item: "artofalchemy:alkahest_bucket",
+				count: 2
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.0d,
+			subtitle: "Allows you to recover the full amount of Essentia from items",
+			dependencies: ["05BF81750785191A"],
+			id: "774CA4F155E2261C",
+			tasks: [{
+				id: "5F362187497BE2A8",
+				type: "item",
+				item: "artofalchemy:dissolution_chamber_plus"
+			}],
+			rewards: [
+				{
+					id: "1A19E05033182D4D",
+					type: "item",
+					item: "artofalchemy:alkahest_bucket"
+				},
+				{
+					id: "4E89D381BE272A80",
+					type: "item",
+					item: "artofalchemy:materia_b",
+					count: 2
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 5.0d,
+			subtitle: "Allows you to synthesize items above rank C",
+			dependencies: ["05BF81750785191A"],
+			id: "59C564BDDCBF5E67",
+			tasks: [{
+				id: "0EA85CD8BD63A621",
+				type: "item",
+				item: "artofalchemy:synthesis_table_plus"
+			}],
+			rewards: [
+				{
+					id: "26478F9709E85C53",
+					type: "item",
+					item: "artofalchemy:alkahest_bucket"
+				},
+				{
+					id: "7B0CAA9CB0D7BC94",
+					type: "item",
+					item: "artofalchemy:materia_b",
+					count: 2
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -0.5d,
+			subtitle: "Transports Essentia",
+			description: [""],
+			id: "3C4C09321933584B",
+			tasks: [{
+				id: "28543257E754E40A",
+				type: "item",
+				item: "artofalchemy:essentia_pipe",
+				count: 32L
+			}],
+			rewards: [{
+				id: "62AA1E93C98442A1",
+				type: "item",
+				item: "croptopia:ham_sandwich",
+				count: 2
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 1.0d,
+			subtitle: "Use these to connect your conduits to your machines",
+			dependencies: ["3C4C09321933584B"],
+			id: "37F36161F0073296",
+			tasks: [
+				{
+					id: "0FC9A22E2F35EE77",
+					type: "item",
+					item: "artofalchemy:essentia_port",
+					count: 2L
+				},
+				{
+					id: "269D3FAAAFF0470A",
+					type: "item",
+					item: "artofalchemy:essentia_inserter"
+				},
+				{
+					id: "4164B7C6D52F8BF1",
+					type: "item",
+					item: "artofalchemy:essentia_extractor"
+				}
+			],
+			rewards: [
+				{
+					id: "3DA42DAE062F127C",
+					type: "item",
+					item: "artofalchemy:materia_c",
+					count: 2
+				},
+				{
+					id: "7E595D33D73CC721",
+					type: "item",
+					item: "artofalchemy:materia_d",
+					count: 8
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -0.5d,
+			subtitle: "Essentia Storage Block",
+			dependencies: ["3C4C09321933584B"],
+			id: "0413F92C6AAF930D",
+			tasks: [{
+				id: "785ADF71F118BCF4",
+				type: "item",
+				item: "artofalchemy:essentia_tank",
+				count: 2L
+			}],
+			rewards: [{
+				id: "7B599EB72714C26F",
+				type: "item",
+				item: "artofalchemy:essentia_pipe",
+				count: 32
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			subtitle: "Stores Essentia - Works like a bucket",
+			dependencies: ["0DE97F2AE835231B"],
+			id: "60E45E81DD621601",
+			tasks: [{
+				id: "52AC6519F0939868",
+				type: "item",
+				item: {
+					id: "artofalchemy:essentia_vessel",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "2552757B8525EFB0",
+				type: "item",
+				item: "croptopia:pizza",
+				count: 2
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			dependencies: ["700C565C29E037D6"],
+			id: "3EACAF2C0754329F",
+			tasks: [{
+				id: "39FEC5A7380FB24E",
+				type: "item",
+				item: "artofalchemy:materia_f",
+				count: 16L
+			}],
+			rewards: [{
+				id: "473EC640F9491290",
+				type: "item",
+				item: "artofalchemy:azoth",
+				count: 2
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.0d,
+			dependencies: ["700C565C29E037D6"],
+			id: "72300C9E0B306953",
+			tasks: [{
+				id: "0C6F0B768192310F",
+				type: "item",
+				item: "artofalchemy:materia_e",
+				count: 8L
+			}],
+			rewards: [
+				{
+					id: "6123C32F642FF8D5",
+					type: "item",
+					item: "artofalchemy:materia_f",
+					count: 16
+				},
+				{
+					id: "500993D8F36DFDCF",
+					type: "item",
+					item: "artofalchemy:materia_e",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["700C565C29E037D6"],
+			id: "2515D8E2BEB688CF",
+			tasks: [{
+				id: "52702871F3C02007",
+				type: "item",
+				item: "artofalchemy:materia_d",
+				count: 8L
+			}],
+			rewards: [
+				{
+					id: "44A521A495FAFE54",
+					type: "item",
+					item: "artofalchemy:azoth",
+					count: 4
+				},
+				{
+					id: "170B6E8D9B35A980",
+					type: "item",
+					item: "artofalchemy:materia_d",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 0.5d,
+			dependencies: ["700C565C29E037D6"],
+			id: "29CE1E3FCC4DC4B8",
+			tasks: [{
+				id: "1D6C5D5B08DCE647",
+				type: "item",
+				item: "artofalchemy:materia_c",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "279882B35A41A2A2",
+					type: "item",
+					item: "artofalchemy:azoth",
+					count: 8
+				},
+				{
+					id: "66E029374D7E7841",
+					type: "item",
+					item: "artofalchemy:materia_c",
+					count: 4
+				},
+				{
+					id: "41FC44D1C611D178",
+					type: "item",
+					item: "artofalchemy:materia_d",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 3.5d,
+			dependencies: ["3C02774C7EAA9025"],
+			id: "443B80B9DF05527A",
+			tasks: [{
+				id: "7BBABD97268D1A6A",
+				type: "item",
+				item: "artofalchemy:materia_b",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "2471BB9487BE6E9C",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 16
+				},
+				{
+					id: "259F5E3EF0CD82BF",
+					type: "item",
+					item: "artofalchemy:materia_b",
+					count: 2
+				},
+				{
+					id: "5489F1AA01F5E1C1",
+					type: "item",
+					item: "artofalchemy:materia_c",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 5.0d,
+			dependencies: ["3C02774C7EAA9025"],
+			id: "4D9A01B80322AE6B",
+			tasks: [{
+				id: "4F8CBAEA2AC77A47",
+				type: "item",
+				item: "artofalchemy:materia_a",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: "727684B9C1CC6C30",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 8
+				},
+				{
+					id: "5E8E193937E6D0CE",
+					type: "item",
+					item: "artofalchemy:materia_a",
+					count: 2
+				},
+				{
+					id: "7582D540DE7FB1E8",
+					type: "item",
+					item: "artofalchemy:materia_b",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			dependencies: ["3C02774C7EAA9025"],
+			id: "7EE626C331F27E71",
+			tasks: [{
+				id: "66C150CB6ADBD00C",
+				type: "item",
+				item: "artofalchemy:materia_s",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: "0DEE3EDCE5E2A346",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 4
+				},
+				{
+					id: "549803C255B38979",
+					type: "item",
+					item: "artofalchemy:materia_s",
+					count: 2
+				},
+				{
+					id: "7ACFA671A2DDEC07",
+					type: "item",
+					item: "artofalchemy:materia_a",
+					count: 2
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			subtitle: "Found in chests throughout the world",
+			description: [""],
+			id: "1C9BE964FA957ECB",
+			tasks: [{
+				id: "1F998B49CFC5FED0",
+				type: "item",
+				item: {
+					id: "artofalchemy:alchemy_formula",
+					Count: 1b,
+					tag: {
+						formula: "artofalchemy:philosophers_stone"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "237664FE535459A8",
+					type: "item",
+					item: "minecraft:ender_eye"
+				},
+				{
+					id: "7367FFF255B10DDF",
+					type: "item",
+					item: "croptopia:pineapple_juice",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Centrifuges",
+			x: -6.0d,
+			y: 2.5d,
+			subtitle: "Sorts Essentia - Inputs from the top or bottom",
+			dependencies: ["37F36161F0073296"],
+			id: "744869DB378898E4",
+			tasks: [
+				{
+					id: "0DC2FA152D26261D",
+					type: "item",
+					item: "artofalchemy:elemental_centrifuge"
+				},
+				{
+					id: "1222F84F2D9D8A3F",
+					type: "item",
+					item: "artofalchemy:astrological_centrifuge"
+				}
+			],
+			rewards: [{
+				id: "44BECD4E4A63BDEA",
+				type: "item",
+				item: "artofalchemy:essentia_tank",
+				count: 2
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 1.0d,
+			dependencies: ["6B64554955CF03D7"],
+			id: "470C708FF9568588",
+			tasks: [{
+				id: "2B4EAB5CBF33C4C2",
+				type: "item",
+				item: "artofalchemy:activated_amaranth_pearl"
+			}],
+			rewards: [{
+				id: "79CEF7E2331F740F",
+				type: "item",
+				item: "artofalchemy:azoth",
+				count: 4
+			}]
+		}
+	]
+}

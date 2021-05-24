@@ -1,0 +1,888 @@
+{
+	id: "3958FD38811FA00A",
+	group: "763EA77976DB28C3",
+	order_index: 3,
+	filename: "applied_energistics_2",
+	title: "Applied Energistics 2",
+	icon: "appliedenergistics2:controller",
+	default_quest_shape: "hexagon",
+	quests: [
+		{
+			x: -5.5d,
+			y: -2.0d,
+			id: "443BB37F3F0EA2AF",
+			tasks: [{
+				id: "71337EC58DD11716",
+				type: "item",
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+			}],
+			rewards: [{
+				id: "34C8FBF84950E19B",
+				type: "item",
+				item: "appliedenergistics2:crank"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -2.0d,
+			dependencies: ["443BB37F3F0EA2AF"],
+			id: "513AD1D87CC16079",
+			tasks: [{
+				id: "64CC12D7DDB6A880",
+				type: "item",
+				item: "appliedenergistics2:fluix_crystal",
+				count: 16L
+			}],
+			rewards: [{
+				id: "46A1FAFCCD7D5839",
+				type: "item",
+				item: "minecraft:diamond",
+				count: 4
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -1.0d,
+			dependencies: ["513AD1D87CC16079"],
+			id: "347DC36D2B157F39",
+			tasks: [{
+				id: "2E6372BDAD946160",
+				type: "item",
+				item: "appliedenergistics2:inscriber"
+			}],
+			rewards: [{
+				id: "18B4C37363B4EAEA",
+				type: "item",
+				item: "minecraft:ender_pearl"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			dependencies: ["513AD1D87CC16079"],
+			id: "7C266B0570583366",
+			tasks: [{
+				id: "0F01F11FD08D6605",
+				type: "item",
+				item: "appliedenergistics2:charger"
+			}],
+			rewards: [{
+				id: "10589A55E4D14228",
+				type: "item",
+				item: "appliedenergistics2:certus_quartz_crystal",
+				count: 4
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.0d,
+			dependencies: ["7C266B0570583366"],
+			id: "7C41ED6F189BCA59",
+			tasks: [{
+				id: "059DDE7AE7B4F940",
+				type: "item",
+				item: "appliedenergistics2:energy_acceptor"
+			}],
+			rewards: [{
+				id: "2E484EE82200D723",
+				type: "item",
+				item: "croptopia:chicken_and_noodles",
+				count: 6
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -2.0d,
+			dependencies: ["7C41ED6F189BCA59"],
+			id: "090CE220A2B3614D",
+			tasks: [{
+				id: "3C2AB8BDA21BE9D3",
+				type: "item",
+				item: "appliedenergistics2:fluix_glass_cable",
+				count: 6L
+			}],
+			rewards: [{
+				id: "5E51015373B207BD",
+				type: "item",
+				item: "appliedenergistics2:tiny_tnt",
+				count: 4
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: ["090CE220A2B3614D"],
+			id: "0CBA05E59C223FAE",
+			tasks: [{
+				id: "64E9C75C04201568",
+				type: "item",
+				item: "appliedenergistics2:quartz_growth_accelerator",
+				count: 4L
+			}],
+			rewards: [{
+				id: "42EB25DEFB72AE46",
+				type: "item",
+				item: "croptopia:banana_cream_pie",
+				count: 6
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.0d,
+			dependencies: ["0CBA05E59C223FAE"],
+			id: "656294811DCF7BCB",
+			tasks: [{
+				id: "0C5B58D3BB78C172",
+				type: "item",
+				item: "appliedenergistics2:fluix_crystal_seed",
+				count: 4L
+			}],
+			rewards: [{
+				id: "4161C3632C8E5F47",
+				type: "item",
+				item: "appliedenergistics2:fluix_crystal_seed",
+				count: 12
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 0.5d,
+			id: "4FACE61B2D0516D6",
+			tasks: [{
+				id: "3C3932BA2CD1F8F4",
+				type: "item",
+				item: "appliedenergistics2:controller"
+			}],
+			rewards: [
+				{
+					id: "35E0CFEEF32B0097",
+					type: "item",
+					item: "croptopia:cheese_cake"
+				},
+				{
+					id: "6E0C529CBBC744F0",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 0.5d,
+			dependencies: ["4FACE61B2D0516D6"],
+			id: "49DD34EAC6379440",
+			tasks: [{
+				id: "7B1D4D22947E80D2",
+				type: "item",
+				item: "appliedenergistics2:fluix_smart_cable"
+			}],
+			rewards: [
+				{
+					id: "3C02E4604D5A6314",
+					type: "item",
+					item: "croptopia:grilled_cheese",
+					count: 2
+				},
+				{
+					id: "2D225E5BCB794CA4",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 1.5d,
+			dependencies: ["49DD34EAC6379440"],
+			id: "4A368EFF24C05845",
+			tasks: [{
+				id: "47D147653AC196F5",
+				type: "item",
+				item: "appliedenergistics2:fluix_smart_dense_cable"
+			}],
+			rewards: [
+				{
+					id: "2E75077E49FF8374",
+					type: "item",
+					item: "croptopia:leek_soup",
+					count: 2
+				},
+				{
+					id: "00EFEF9B284D179C",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 0.5d,
+			dependencies: ["49DD34EAC6379440"],
+			id: "00031D1DE9C3CDCE",
+			tasks: [{
+				id: "67E115864DE5A3D4",
+				type: "item",
+				item: "appliedenergistics2:drive"
+			}],
+			rewards: [
+				{
+					id: "5390EB072B8AB7A7",
+					type: "item",
+					item: "minecraft:iron_ore",
+					count: 16
+				},
+				{
+					id: "60A2B871B9C896BF",
+					type: "item",
+					item: "croptopia:cherry_pie"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 1.5d,
+			dependencies: ["00031D1DE9C3CDCE"],
+			id: "707B6D2400D80AF4",
+			tasks: [{
+				id: "73CC600030357A43",
+				type: "item",
+				item: {
+					id: "appliedenergistics2:1k_storage_cell",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "74BE1CEB943D4AFB",
+					type: "item",
+					item: "croptopia:fruit_smoothie",
+					count: 6
+				},
+				{
+					id: "3DD90B3F6BA3666D",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 2.5d,
+			dependencies: ["707B6D2400D80AF4"],
+			id: "47A42161B78649F8",
+			tasks: [{
+				id: "7587E28A46D6E040",
+				type: "item",
+				item: {
+					id: "appliedenergistics2:4k_storage_cell",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "4101222B0593638D",
+					type: "item",
+					item: "appliedenergistics2:1k_cell_component",
+					count: 3
+				},
+				{
+					id: "25E41C4CFFEBD624",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 3.5d,
+			dependencies: ["47A42161B78649F8"],
+			id: "4CAD773F67A98479",
+			tasks: [{
+				id: "2C964800D350902C",
+				type: "item",
+				item: {
+					id: "appliedenergistics2:16k_storage_cell",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "0EE1C7159FFA0E11",
+					type: "item",
+					item: "appliedenergistics2:quartz_ore",
+					count: 8
+				},
+				{
+					id: "10D0012FCBA697A7",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 4.5d,
+			dependencies: ["4CAD773F67A98479"],
+			id: "0EEE8B242D875589",
+			tasks: [{
+				id: "5CEBEC7A25245B32",
+				type: "item",
+				item: {
+					id: "appliedenergistics2:64k_storage_cell",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "41B81CB6337BA532",
+					type: "item",
+					item: "minecraft:golden_apple",
+					count: 6
+				},
+				{
+					id: "63F6E7508F5380D7",
+					type: "random",
+					table_id: 3133982820876343405L
+				},
+				{
+					id: "447258362AE02D4A",
+					type: "item",
+					item: "appliedenergistics2:4k_cell_component",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 1.5d,
+			dependencies: ["4FACE61B2D0516D6"],
+			id: "14F30EB744252AE0",
+			tasks: [{
+				id: "742C688E1BAA0C02",
+				type: "item",
+				item: "appliedenergistics2:me_p2p_tunnel"
+			}],
+			rewards: [{
+				id: "48470239141DD065",
+				type: "item",
+				item: "croptopia:tuna_sandwich",
+				count: 2
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 2.5d,
+			dependencies: ["14F30EB744252AE0"],
+			id: "5C5C451C2A019267",
+			tasks: [{
+				id: "6709B0E4A2D38FA0",
+				type: "item",
+				item: {
+					id: "appliedenergistics2:memory_card",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "3DB82F9B6CB6D811",
+					type: "item",
+					item: "tacocraft:golden_taco"
+				},
+				{
+					id: "014AE9A8B501F158",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 0.5d,
+			dependencies: ["00031D1DE9C3CDCE"],
+			id: "6C43F911C2C6AB7C",
+			tasks: [{
+				id: "7B4251F50966D62D",
+				type: "item",
+				item: "appliedenergistics2:crafting_terminal"
+			}],
+			rewards: [{
+				id: "25D295FDE21A880A",
+				type: "item",
+				item: "betterend:dragon_tree_sapling"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 1.5d,
+			dependencies: ["6C43F911C2C6AB7C"],
+			id: "0BEA89FBB7D06724",
+			tasks: [{
+				id: "5554F0E15C538AC4",
+				type: "item",
+				item: "appliedenergistics2:pattern_terminal"
+			}],
+			rewards: [
+				{
+					id: "1C873A8C0C9AF03E",
+					type: "item",
+					item: "sandwichable:golden_kitchen_knife"
+				},
+				{
+					id: "5D49F4063DED8280",
+					type: "item",
+					item: "croptopia:tomatillo",
+					count: 6
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 2.5d,
+			dependencies: ["0BEA89FBB7D06724"],
+			id: "4C2768C2DCCB8589",
+			tasks: [{
+				id: "48FF5C61F85797C2",
+				type: "item",
+				item: "appliedenergistics2:interface_terminal"
+			}],
+			rewards: [{
+				id: "27C39E4FC8A82ED4",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 7.5d,
+			id: "176225AF6147F8D8",
+			tasks: [{
+				id: "4063479EC8EA1FCC",
+				type: "item",
+				item: "appliedenergistics2:quantum_entangled_singularity"
+			}],
+			rewards: [
+				{
+					id: "16A7624EC595AED5",
+					type: "item",
+					item: "minecraft:ender_pearl",
+					count: 7
+				},
+				{
+					id: "6CD1E0C871D23381",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 7.5d,
+			dependencies: ["176225AF6147F8D8"],
+			id: "210E2611C68BDD62",
+			tasks: [{
+				id: "069AB8A791085BFF",
+				type: "item",
+				item: "appliedenergistics2:quantum_link"
+			}],
+			rewards: [
+				{
+					id: "7757F800FF601C40",
+					type: "random",
+					table_id: 5705109811401542117L
+				},
+				{
+					id: "4201F558627583EE",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 7.5d,
+			dependencies: ["210E2611C68BDD62"],
+			id: "00A9E0DF9BE1F0AE",
+			tasks: [{
+				id: "11CC1297BF1F8529",
+				type: "item",
+				item: "appliedenergistics2:quantum_ring"
+			}],
+			rewards: [
+				{
+					id: "35AD02BC0DE95056",
+					type: "item",
+					item: "minecraft:redstone_block",
+					count: 14
+				},
+				{
+					id: "7BE988D365EAC9DF",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 6.0d,
+			id: "0B9F42CF92474BB6",
+			tasks: [{
+				id: "131B493A5FCF91D7",
+				type: "item",
+				item: "appliedenergistics2:security_station"
+			}],
+			rewards: [
+				{
+					id: "30EFD5F3BB3BCA71",
+					type: "item",
+					item: "croptopia:caesar_salad",
+					count: 2
+				},
+				{
+					id: "2054089FF93A1585",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 6.0d,
+			dependencies: ["0B9F42CF92474BB6"],
+			id: "3F55238CFC528EAA",
+			tasks: [{
+				id: "5755FE9736079800",
+				type: "item",
+				item: {
+					id: "appliedenergistics2:biometric_card",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "6A26361D3DA7E98F",
+					type: "item",
+					item: "croptopia:beer",
+					count: 12
+				},
+				{
+					id: "60489E9712DF1C4A",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 6.0d,
+			dependencies: ["3F55238CFC528EAA"],
+			id: "7C45CC7245A868CD",
+			tasks: [{
+				id: "72BB8EC68401855C",
+				type: "item",
+				item: "appliedenergistics2:wireless_access_point"
+			}],
+			rewards: [
+				{
+					id: "68B912D953CAA8B7",
+					type: "item",
+					item: "croptopia:pork_and_beans",
+					count: 3
+				},
+				{
+					id: "689BC61E04CB7D98",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 6.0d,
+			dependencies: ["7C45CC7245A868CD"],
+			id: "2114DD0889B83C92",
+			tasks: [{
+				id: "6B9CDAA9B60528EC",
+				type: "item",
+				item: {
+					id: "appliedenergistics2:wireless_terminal",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "2D2887702E331526",
+				type: "item",
+				item: "appliedenergistics2:purified_fluix_crystal",
+				count: 8
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 6.0d,
+			dependencies: ["2114DD0889B83C92"],
+			id: "74D86A5B3250A2C2",
+			tasks: [{
+				id: "507ED568B77AD6AC",
+				type: "item",
+				item: "appliedenergistics2:wireless_booster"
+			}],
+			rewards: [
+				{
+					id: "5F207C73DD379713",
+					type: "item",
+					item: "croptopia:pineapple_pepperoni_pizza",
+					count: 2
+				},
+				{
+					id: "2831937A9F102EDF",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			id: "5CEF79825698F754",
+			tasks: [{
+				id: "7B6E57F7A80AE446",
+				type: "item",
+				item: "appliedenergistics2:interface"
+			}],
+			rewards: [{
+				id: "7822148535949FD7",
+				type: "random",
+				table_id: 3279900820427924797L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: ["5CEF79825698F754"],
+			id: "3F9E719515B82541",
+			tasks: [{
+				id: "3AF474A1325958B0",
+				type: "item",
+				item: "appliedenergistics2:storage_bus"
+			}],
+			rewards: [
+				{
+					id: "5BAB6F213E05BA4D",
+					type: "item",
+					item: "croptopia:leafy_salad",
+					count: 3
+				},
+				{
+					id: "4985125D73C53D92",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 2.5d,
+			dependencies: ["3F9E719515B82541"],
+			id: "08AD876C017305FC",
+			tasks: [{
+				id: "4D20F40B0DCAF85B",
+				type: "item",
+				item: "appliedenergistics2:import_bus"
+			}],
+			rewards: [
+				{
+					id: "2E6B1E41C891739B",
+					type: "item",
+					item: "croptopia:fruit_salad",
+					count: 2
+				},
+				{
+					id: "37C95E5294BE261F",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 3.5d,
+			dependencies: ["08AD876C017305FC"],
+			id: "00E633886DA3E341",
+			tasks: [{
+				id: "2D0C26495F4E87F4",
+				type: "item",
+				item: "appliedenergistics2:export_bus"
+			}],
+			rewards: [
+				{
+					id: "4F3A17FB7507EFDD",
+					type: "item",
+					item: "croptopia:veggie_salad"
+				},
+				{
+					id: "0DE4DFCD5304CD28",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 0.5d,
+			dependencies: ["5CEF79825698F754"],
+			id: "429AB4A84E029464",
+			tasks: [{
+				id: "1B4892B114C3C90B",
+				type: "item",
+				item: "appliedenergistics2:crafting_unit"
+			}],
+			rewards: [
+				{
+					id: "39D7BFC0EDE6C8DA",
+					type: "item",
+					item: "croptopia:chocolate_milkshake",
+					count: 4
+				},
+				{
+					id: "1A1ACED36436FF71",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: ["429AB4A84E029464"],
+			id: "2BB3833E21B72A08",
+			tasks: [{
+				id: "2B371B076EE47F31",
+				type: "item",
+				item: "appliedenergistics2:crafting_accelerator"
+			}],
+			rewards: [
+				{
+					id: "41F387AB5DE3ABBA",
+					type: "item",
+					item: "minecraft:pufferfish_bucket"
+				},
+				{
+					id: "00D08012A10E5D14",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 0.5d,
+			dependencies: ["429AB4A84E029464"],
+			id: "1889EB3E45ECD72A",
+			tasks: [{
+				id: "046EB9A83E7E879B",
+				type: "item",
+				item: "appliedenergistics2:molecular_assembler"
+			}],
+			rewards: [
+				{
+					id: "70CC49E5CEFD84E5",
+					type: "item",
+					item: "croptopia:pineapple_pepperoni_pizza",
+					count: 3
+				},
+				{
+					id: "16BBAB54248AD52B",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 0.5d,
+			dependencies: ["1889EB3E45ECD72A"],
+			id: "77C60001CFA515EC",
+			tasks: [{
+				id: "06D50266D55C4D6E",
+				type: "item",
+				item: "appliedenergistics2:1k_crafting_storage"
+			}],
+			rewards: [{
+				id: "30BC4C15F5D84A72",
+				type: "random",
+				table_id: 3279900820427924797L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			dependencies: ["77C60001CFA515EC"],
+			id: "75C2DB86CF2A62CB",
+			tasks: [{
+				id: "2E1C994DD9C4AEF0",
+				type: "item",
+				item: "appliedenergistics2:4k_crafting_storage"
+			}],
+			rewards: [
+				{
+					id: "1882B80BC1DA1681",
+					type: "item",
+					item: "croptopia:cucumber_salad"
+				},
+				{
+					id: "785177823264BCC6",
+					type: "random",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 2.5d,
+			dependencies: ["75C2DB86CF2A62CB"],
+			id: "3A674AFF23647D12",
+			tasks: [{
+				id: "353C962AA240F32F",
+				type: "item",
+				item: "appliedenergistics2:16k_crafting_storage"
+			}],
+			rewards: [{
+				id: "1FC038ACA896E8ED",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 3.5d,
+			dependencies: ["3A674AFF23647D12"],
+			id: "75535580F30451CB",
+			tasks: [{
+				id: "7B51B0A257F2FB50",
+				type: "item",
+				item: "appliedenergistics2:64k_crafting_storage"
+			}],
+			rewards: [
+				{
+					id: "38D9FB22092FE79B",
+					type: "item",
+					item: "croptopia:doughnut",
+					count: 2
+				},
+				{
+					id: "752B0E05172EF2C2",
+					type: "random",
+					table_id: 3133982820876343405L
+				}
+			]
+		}
+	]
+}

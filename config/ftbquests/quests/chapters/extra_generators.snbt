@@ -1,0 +1,213 @@
+{
+	id: "24FEABE273BFA610",
+	group: "763EA77976DB28C3",
+	order_index: 4,
+	filename: "extra_generators",
+	title: "Extra Generators",
+	icon: "extragenerators:colorful_generator",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 3.5d,
+			y: 5.5d,
+			id: "4368A26E1F3DAADD",
+			tasks: [{
+				id: "6CE17D626AA10287",
+				type: "item",
+				item: "extragenerators:thermoelectric_generator"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.5d,
+			id: "39089A6A3188DC63",
+			tasks: [{
+				id: "185EE46AF64F63C0",
+				type: "item",
+				item: "extragenerators:burnable_generator"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 4.5d,
+			id: "051BEBF649B17D0D",
+			tasks: [{
+				id: "45DA27F8D821643D",
+				type: "item",
+				item: "extragenerators:icy_generator"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 5.5d,
+			id: "353FA5394C021773",
+			tasks: [{
+				id: "09E486A814365317",
+				type: "item",
+				item: "extragenerators:colorful_generator"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 3.5d,
+			id: "2718367F51D73E2F",
+			tasks: [{
+				id: "238D0140DB427431",
+				type: "item",
+				item: "extragenerators:sludgy_generator"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 3.5d,
+			id: "038C6C74DEEF9303",
+			tasks: [{
+				id: "346D58D3C4A3B774",
+				type: "item",
+				item: "extragenerators:teleport_generator"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.5d,
+			id: "59CD18017A8BAE95",
+			tasks: [{
+				id: "2D1F189A8592404F",
+				type: "item",
+				item: "extragenerators:scalding_generator"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.5d,
+			id: "64FDF3BD785A8589",
+			tasks: [{
+				id: "6AA0F77B9DE4923F",
+				type: "item",
+				item: "extragenerators:steam_generator"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 4.5d,
+			id: "42244A963B40808A",
+			tasks: [{
+				id: "3BD5F52F25945C99",
+				type: "item",
+				item: "extragenerators:gluttony_generator"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 3.5d,
+			id: "0358438976ED1B49",
+			tasks: [{
+				id: "68B9AA6DFD5261D4",
+				type: "item",
+				item: "extragenerators:brew_generator"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.5d,
+			id: "2B481D35757519C6",
+			tasks: [{
+				id: "18F337D14ACDE69E",
+				type: "item",
+				item: "extragenerators:redstone_generator"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.5d,
+			id: "3AE814DEE0397E8E",
+			tasks: [{
+				id: "3E4B832DA894B7EA",
+				type: "item",
+				item: "extragenerators:blast_generator"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 5.5d,
+			id: "1AC81453ACE4B6A3",
+			tasks: [{
+				id: "4AACC7B6E5DDA9BD",
+				type: "item",
+				item: "extragenerators:enchanted_generator"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 5.5d,
+			id: "581797955ECDF2F9",
+			tasks: [{
+				id: "0476A49D63487097",
+				type: "item",
+				item: "extragenerators:demise_generator"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 5.5d,
+			id: "585DDFACFC8971B4",
+			tasks: [{
+				id: "6E6904ADE315E668",
+				type: "item",
+				item: "extragenerators:dragon_generator"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 5.5d,
+			id: "6B324923C3D16AE0",
+			tasks: [{
+				id: "0183F78594BF543B",
+				type: "item",
+				item: "extragenerators:withered_generator"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 4.5d,
+			subtitle: "Only works if you have all other generators running at the same time",
+			dependencies: [
+				"051BEBF649B17D0D",
+				"2718367F51D73E2F",
+				"038C6C74DEEF9303",
+				"0358438976ED1B49",
+				"42244A963B40808A",
+				"585DDFACFC8971B4",
+				"1AC81453ACE4B6A3",
+				"353FA5394C021773"
+			],
+			id: "117AB17F1EF8088E",
+			tasks: [{
+				id: "1054BCCD02A5D91B",
+				type: "item",
+				item: "extragenerators:heavenly_generator"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.5d,
+			subtitle: "Only works if you have all other generators running at the same time",
+			dependencies: [
+				"3AE814DEE0397E8E",
+				"59CD18017A8BAE95",
+				"2B481D35757519C6",
+				"64FDF3BD785A8589",
+				"39089A6A3188DC63",
+				"4368A26E1F3DAADD",
+				"6B324923C3D16AE0",
+				"581797955ECDF2F9"
+			],
+			id: "01EDB143FC04C604",
+			tasks: [{
+				id: "5F83404135132CE7",
+				type: "item",
+				item: "extragenerators:infernal_generator"
+			}]
+		}
+	]
+}
