@@ -1,0 +1,1363 @@
+{
+	id: "5CEDE7611863C76E",
+	group: "763EA77976DB28C3",
+	order_index: 0,
+	filename: "industrial_revolution",
+	title: "Industrial Revolution",
+	icon: {
+		id: "indrev:gamer_axe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "hexagon",
+	quests: [
+		{
+			x: -3.0d,
+			y: -1.5d,
+			id: "677909DDB75C6D6F",
+			tasks: [{
+				id: "6F7B8095BF6960BF",
+				type: "item",
+				item: "indrev:wrench"
+			}],
+			rewards: [
+				{
+					id: "635DB12CF7BCC5C9",
+					type: "item",
+					item: "techreborn:iron_plate",
+					count: 2
+				},
+				{
+					id: "13B6AC2356EA17BA",
+					type: "item",
+					item: "indrev:guide_book"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -1.5d,
+			dependencies: ["677909DDB75C6D6F"],
+			id: "7D9169B63C350B32",
+			tasks: [{
+				id: "2B966DAA86C472D2",
+				type: "item",
+				item: "indrev:machine_block"
+			}],
+			rewards: [{
+				id: "47F9E7C4C465C6BB",
+				type: "item",
+				item: "techreborn:iron_plate",
+				count: 2
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			dependencies: ["7D9169B63C350B32"],
+			id: "53EE1923C67A25D4",
+			tasks: [{
+				id: "742030666E881FAB",
+				type: "item",
+				item: "indrev:battery"
+			}],
+			rewards: [{
+				id: "72AE02FB59D78F77",
+				type: "item",
+				item: "croptopia:wine",
+				count: 2
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			dependencies: ["53EE1923C67A25D4"],
+			id: "2CBDE19902C22B73",
+			tasks: [{
+				id: "3ED0A5CF09B9D05D",
+				type: "item",
+				item: "indrev:nikolite_ingot"
+			}],
+			rewards: [{
+				id: "359CAB2788032F5E",
+				type: "item",
+				item: "indrev:nikolite_dust",
+				count: 6
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			id: "69A5E44DB5332E2E",
+			tasks: [{
+				id: "6EE73EB6F87E0F7D",
+				type: "item",
+				item: "indrev:circuit_mk1"
+			}],
+			rewards: [{
+				id: "0F962F9B4957A4EE",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:infinity"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.0d,
+			dependencies: ["69A5E44DB5332E2E"],
+			id: "24321D4C54C598EB",
+			tasks: [{
+				id: "29F4D75E4A5FFF1A",
+				type: "item",
+				item: "indrev:coal_generator_mk1"
+			}],
+			rewards: [{
+				id: "424C1AFEF1611EB0",
+				type: "item",
+				item: "minecraft:coal_block",
+				count: 16
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: ["24321D4C54C598EB"],
+			id: "4CF84A7DBDB28451",
+			tasks: [{
+				id: "2ED067DF0E512146",
+				type: "item",
+				item: "indrev:electric_furnace_mk1"
+			}],
+			rewards: [{
+				id: "3E3E1C2E1656529E",
+				type: "item",
+				item: "minecraft:iron_ore",
+				count: 16
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["4CF84A7DBDB28451"],
+			id: "0E2B4793836B0489",
+			tasks: [{
+				id: "0F1D0C0DCDA610A1",
+				type: "item",
+				item: "indrev:pulverizer_mk1"
+			}],
+			rewards: [
+				{
+					id: "040BFE76035E2FD3",
+					type: "item",
+					item: "croptopia:cheeseburger",
+					count: 10
+				},
+				{
+					id: "205EAFB856561C79",
+					type: "item",
+					item: "indrev:circuit_mk1"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: ["0E2B4793836B0489"],
+			id: "41480C409DDD0DAE",
+			tasks: [{
+				id: "0B5E482587A4FBCE",
+				type: "item",
+				item: "indrev:infuser_mk1"
+			}],
+			rewards: [{
+				id: "2A325F6DECD8B789",
+				type: "item",
+				item: "indrev:machine_block"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			dependencies: ["41480C409DDD0DAE"],
+			id: "46CFC9F02745567F",
+			tasks: [{
+				id: "301CA3BA9503EDD9",
+				type: "item",
+				item: "indrev:untanned_leather"
+			}],
+			rewards: [{
+				id: "76E7D85B6E4DE9D9",
+				type: "item",
+				item: "croptopia:tofuburger"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			dependencies: ["41480C409DDD0DAE"],
+			id: "71CC672468BFE024",
+			tasks: [{
+				id: "2F504B4436A39C6D",
+				type: "item",
+				item: "indrev:enriched_nikolite_ingot"
+			}],
+			rewards: [
+				{
+					id: "64A1E4943CE5AF21",
+					type: "item",
+					item: "indrev:enriched_nikolite_dust",
+					count: 16
+				},
+				{
+					id: "07D77C3ED54BA333",
+					type: "item",
+					item: "croptopia:tofuburger"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			dependencies: ["24321D4C54C598EB"],
+			id: "4AD075A805FCCAB5",
+			tasks: [{
+				id: "3293E8CDA09BD8E0",
+				type: "item",
+				item: "indrev:lazuli_flux_container_mk1"
+			}],
+			rewards: [{
+				id: "5D570EC0D866D294",
+				type: "item",
+				item: "croptopia:taco",
+				count: 2
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.0d,
+			dependencies: ["69A5E44DB5332E2E"],
+			id: "257FB0E0FDA73074",
+			tasks: [{
+				id: "3DEEC6FE0BBF274F",
+				type: "item",
+				item: "indrev:solar_generator_mk1"
+			}],
+			rewards: [{
+				id: "16FB8244A8B1D13C",
+				type: "item",
+				item: "minecraft:gold_block"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 4.0d,
+			subtitle: "Transports energy, right click with a block to cover",
+			id: "60EB90E1DE4C7D95",
+			tasks: [{
+				id: "2EA9ADCDF797482C",
+				type: "item",
+				item: "indrev:cable_mk1"
+			}],
+			rewards: [{
+				id: "2541276948EE5CBB",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 2
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 4.0d,
+			subtitle: "Transports energy, right click with a block to cover",
+			dependencies: ["60EB90E1DE4C7D95"],
+			id: "79D4C5683C11BA43",
+			tasks: [{
+				id: "68005E067F3E0DA1",
+				type: "item",
+				item: "indrev:cable_mk2"
+			}],
+			rewards: [
+				{
+					id: "756A9FD562CCC0B2",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 16
+				},
+				{
+					id: "0D11D3A8999A0E05",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			subtitle: "Transports energy, right click with a block to cover",
+			dependencies: ["79D4C5683C11BA43"],
+			id: "1F874E38C72BA53C",
+			tasks: [{
+				id: "05341246F0036B17",
+				type: "item",
+				item: "indrev:cable_mk3"
+			}],
+			rewards: [
+				{
+					id: "42A41911C7503686",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 32
+				},
+				{
+					id: "7A0C86F4E9739A9C",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 4.0d,
+			subtitle: "Transports energy, right click with a block to cover",
+			dependencies: ["1F874E38C72BA53C"],
+			id: "143E7779E2B69C76",
+			tasks: [{
+				id: "5DCFC38DEEDB0EB0",
+				type: "item",
+				item: "indrev:cable_mk4"
+			}],
+			rewards: [{
+				id: "05D6D874DE39C5C7",
+				type: "item",
+				item: "indrev:enriched_nikolite_dust",
+				count: 8
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 2.0d,
+			id: "715E719BA83FCF68",
+			tasks: [{
+				id: "487118689922C226",
+				type: "item",
+				item: "indrev:circuit_mk2"
+			}],
+			rewards: [{
+				id: "177922A6C478DF99",
+				type: "item",
+				item: "indrev:enriched_nikolite_ingot",
+				count: 3
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.0d,
+			dependencies: ["715E719BA83FCF68"],
+			id: "0032DB153805CF44",
+			tasks: [{
+				id: "0C8CA6F77FCE073B",
+				type: "item",
+				item: "indrev:fishing_farm_mk2"
+			}],
+			rewards: [{
+				id: "53423A77825ADA4F",
+				type: "item",
+				item: {
+					id: "gofish:skeletal_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: ["0032DB153805CF44"],
+			id: "349E654A97C2859D",
+			tasks: [{
+				id: "0A4AD8F8712E275A",
+				type: "item",
+				item: "indrev:recycler_mk2"
+			}],
+			rewards: [{
+				id: "4DBD6DCBEAA6C438",
+				type: "item",
+				item: "indrev:machine_block"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.0d,
+			dependencies: ["349E654A97C2859D"],
+			id: "107772BA13FB3344",
+			tasks: [{
+				id: "266F61380CC60C0E",
+				type: "item",
+				item: "indrev:mining_drill_mk2"
+			}],
+			rewards: [
+				{
+					id: "57AE3755AB6AD11E",
+					type: "item",
+					item: "techreborn:gold_plate",
+					count: 4
+				},
+				{
+					id: "1AB68D4DF204BCA1",
+					type: "item",
+					item: "croptopia:cheeseburger",
+					count: 4
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 3.0d,
+			dependencies: ["715E719BA83FCF68"],
+			id: "209AF5F0A72814F1",
+			tasks: [{
+				id: "201BB4FFAD49DD59",
+				type: "item",
+				item: "indrev:tier_upgrade_mk2"
+			}],
+			rewards: [{
+				id: "7D48DBE5AAC762E1",
+				type: "item",
+				item: "indrev:speed_upgrade",
+				count: 2
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.0d,
+			id: "6A65223183662AFC",
+			tasks: [{
+				id: "73F0BE65371E5CDD",
+				type: "item",
+				item: "indrev:chopper_mk1"
+			}],
+			rewards: [
+				{
+					id: "2BDCD7C51B0B6474",
+					type: "item",
+					item: "minecraft:gold_block",
+					count: 3
+				},
+				{
+					id: "78D064B8F8F988F9",
+					type: "item",
+					item: "croptopia:pineapple_pepperoni_pizza",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 5.5d,
+			dependencies: ["6A65223183662AFC"],
+			id: "1C7D01CABC321F63",
+			tasks: [{
+				id: "4CA6AB207921987C",
+				type: "item",
+				item: "indrev:farmer_mk1"
+			}],
+			rewards: [{
+				id: "4422671E6B021437",
+				type: "item",
+				item: "adorn:sweet_berry_crate"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 7.0d,
+			dependencies: ["1C7D01CABC321F63"],
+			id: "536E6CF7EBAB9A95",
+			tasks: [{
+				id: "559D3AD20CD7AA33",
+				type: "item",
+				item: "indrev:rancher_mk1"
+			}],
+			rewards: [{
+				id: "5F9C133AD671C2B8",
+				type: "item",
+				item: {
+					id: "minecraft:diamond_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.5d,
+			id: "2D8AAF9BA67500BE",
+			tasks: [{
+				id: "52DA2F273F90E8C3",
+				type: "item",
+				icon: "indrev:circuit_mk3",
+				item: "indrev:circuit_mk3"
+			}],
+			rewards: [{
+				id: "60F6F777FD3DF9CD",
+				type: "item",
+				item: "indrev:tier_upgrade_mk3"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.5d,
+			dependencies: ["2D8AAF9BA67500BE"],
+			id: "2690A909C81B7880",
+			tasks: [{
+				id: "4F0AEE5EF23210EB",
+				type: "item",
+				item: "indrev:biomass_generator_mk3"
+			}],
+			rewards: [{
+				id: "28FBF3509A2B0CB6",
+				type: "item",
+				item: "indrev:biomass",
+				count: 64
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -1.5d,
+			dependencies: ["2690A909C81B7880"],
+			id: "0C63912270AF4F7C",
+			tasks: [{
+				id: "43E5FB414F085BF0",
+				type: "item",
+				item: "indrev:fishing_farm_mk3"
+			}],
+			rewards: [{
+				id: "3B8E9109F37826EA",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:lure"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -1.5d,
+			dependencies: ["0C63912270AF4F7C"],
+			id: "793FF933EDF4B460",
+			tasks: [{
+				id: "3484339FBCD0484F",
+				type: "item",
+				item: "indrev:energy_upgrade"
+			}],
+			rewards: [{
+				id: "55287C5879AFDBC2",
+				type: "item",
+				item: "indrev:enriched_nikolite_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -1.5d,
+			dependencies: ["793FF933EDF4B460"],
+			id: "3E4274FC2A46BF55",
+			tasks: [{
+				id: "0270F0EC8A997523",
+				type: "item",
+				item: "indrev:mining_drill_mk3"
+			}],
+			rewards: [{
+				id: "33363F8A5C65803D",
+				type: "item",
+				item: "indrev:machine_block"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			id: "4F4EA22461135224",
+			tasks: [{
+				id: "71AC22B579AD8486",
+				type: "item",
+				item: "indrev:circuit_mk4"
+			}],
+			rewards: [
+				{
+					id: "261AEC183DFC1FCE",
+					type: "item",
+					item: "techreborn:industrial_circuit",
+					count: 2
+				},
+				{
+					id: "21B50C7393AE61C9",
+					type: "item",
+					item: "croptopia:cheeseburger"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 0.0d,
+			dependencies: ["4F4EA22461135224"],
+			id: "00CB4568F4E2E08D",
+			tasks: [{
+				id: "4E65A06D9D554597",
+				type: "item",
+				item: {
+					id: "indrev:portable_charger",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "1594144AB54F45CD",
+					type: "item",
+					item: "croptopia:taco",
+					count: 2
+				},
+				{
+					id: "68521D7BDDB88C7A",
+					type: "item",
+					item: "indrev:battery",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			dependencies: ["00CB4568F4E2E08D"],
+			id: "680D97508E1B6A28",
+			tasks: [{
+				id: "40096D7DB970743C",
+				type: "item",
+				item: "indrev:charge_pad_mk4"
+			}],
+			rewards: [
+				{
+					id: "131FBF5C8B7E03F2",
+					type: "item",
+					item: "minecraft:redstone_torch",
+					count: 12
+				},
+				{
+					id: "3061607363BD5F6F",
+					type: "item",
+					item: "indrev:battery",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: 0.0d,
+			dependencies: ["680D97508E1B6A28"],
+			id: "3257987EB61C451A",
+			tasks: [{
+				id: "1685E2EE11DACF7A",
+				type: "item",
+				item: "indrev:fishing_farm_mk4"
+			}],
+			rewards: [
+				{
+					id: "7FDC882EB9FC5A29",
+					type: "item",
+					item: "givemehats:santa_hat"
+				},
+				{
+					id: "6D28BDFC8F76AA8D",
+					type: "item",
+					item: "croptopia:saguaro",
+					count: 12
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			dependencies: ["4F4EA22461135224"],
+			id: "1DFDF44B0E5A917E",
+			tasks: [{
+				id: "407C270AD414586D",
+				type: "item",
+				item: "indrev:heat_generator_mk4"
+			}],
+			rewards: [
+				{
+					id: "205F27CD2C177AD7",
+					type: "item",
+					item: "givemehats:cowboy_hat"
+				},
+				{
+					id: "60C375B358D166E6",
+					type: "item",
+					item: "croptopia:spaghetti_squash",
+					count: 6
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 3.0d,
+			dependencies: ["1DFDF44B0E5A917E"],
+			id: "1A3208F77701907B",
+			tasks: [{
+				id: "78FB231A514E069A",
+				type: "item",
+				item: "indrev:miner_mk4"
+			}],
+			rewards: [
+				{
+					id: "01027ED82628D04D",
+					type: "item",
+					item: "givemehats:top_hat"
+				},
+				{
+					id: "3C0FEBCA1C5B9728",
+					type: "item",
+					item: "croptopia:chicken_and_noodles",
+					count: 3
+				},
+				{
+					id: "720BC045A6E95CB5",
+					type: "item",
+					item: "indrev:chunk_scanner"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 3.5d,
+			subtitle: "Use up to 8 per mining rig computer",
+			dependencies: ["1A3208F77701907B"],
+			id: "68C84F9AEE34DB49",
+			tasks: [{
+				id: "5751A8F4A37074B3",
+				type: "item",
+				item: "indrev:drill_bottom"
+			}],
+			rewards: [
+				{
+					id: "192B21A07A09578B",
+					type: "item",
+					item: "croptopia:leek_soup",
+					count: 6
+				},
+				{
+					id: "217DB60FFAC86661",
+					type: "item",
+					item: "techreborn:electrum_ingot",
+					count: 6
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 4.5d,
+			dependencies: ["1A3208F77701907B"],
+			id: "09FE5486AB74C390",
+			tasks: [{
+				id: "78FC3D8BE94D523A",
+				type: "item",
+				item: "indrev:fluid_infuser_mk4"
+			}],
+			rewards: [
+				{
+					id: "6CFD66D4D016AC78",
+					type: "item",
+					item: "givemehats:bowler_hat"
+				},
+				{
+					id: "29E2D7CB6A5B1A0A",
+					type: "item",
+					item: "croptopia:grilled_cheese",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 4.5d,
+			dependencies: ["09FE5486AB74C390"],
+			id: "2B673578DB94609E",
+			tasks: [{
+				id: "1417EF917940D74D",
+				type: "item",
+				item: "indrev:pulverizer_factory_mk4"
+			}],
+			rewards: [{
+				id: "0EF565A284CE57C5",
+				type: "item",
+				item: "minecraft:iron_ore",
+				count: 32
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 4.5d,
+			dependencies: ["2B673578DB94609E"],
+			id: "24B90E6707AF606B",
+			tasks: [{
+				id: "7F449494CFB19E76",
+				type: "item",
+				item: "indrev:electric_furnace_factory_mk4"
+			}],
+			rewards: [
+				{
+					id: "2B95C4537D513F09",
+					type: "item",
+					item: "givemehats:bunny_ears"
+				},
+				{
+					id: "57AC93BA7E827E8B",
+					type: "item",
+					item: "adorn:nether_wart_crate"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 4.5d,
+			dependencies: ["24B90E6707AF606B"],
+			id: "557721471C571599",
+			tasks: [{
+				id: "6F98870B71A186E9",
+				type: "item",
+				item: "indrev:compressor_factory_mk4"
+			}],
+			rewards: [
+				{
+					id: "797FC549AF0D8883",
+					type: "item",
+					item: "givemehats:sailor_hat"
+				},
+				{
+					id: "2A9E0C169E5B5D20",
+					type: "item",
+					item: "croptopia:cheese_cake"
+				}
+			]
+		},
+		{
+			x: 9.0d,
+			y: 4.5d,
+			dependencies: ["557721471C571599"],
+			id: "717CB42B230A232D",
+			tasks: [{
+				id: "7E020EE42FD0DA96",
+				type: "item",
+				item: "indrev:infuser_factory_mk4"
+			}],
+			rewards: [
+				{
+					id: "53FA2EDDD5EC28D6",
+					type: "item",
+					item: "croptopia:chocolate",
+					count: 12
+				},
+				{
+					id: "3EA1450ACA5F0F4B",
+					type: "item",
+					item: "croptopia:chicken_and_noodles",
+					count: 12
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: 1.5d,
+			dependencies: ["7B789F6F72A91B3E"],
+			id: "080E24206BB0C3E7",
+			tasks: [{
+				id: "7B793A3163DFA54B",
+				type: "item",
+				item: "indrev:modular_core"
+			}],
+			rewards: [{
+				id: "7EB743DB45B458E9",
+				type: "item",
+				item: "techreborn:tungsten_plate",
+				count: 4
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 1.5d,
+			dependencies: ["00CB4568F4E2E08D"],
+			id: "7B789F6F72A91B3E",
+			tasks: [{
+				id: "7B5938FE778D4D71",
+				type: "item",
+				item: "indrev:modular_workbench_mk4"
+			}],
+			rewards: [
+				{
+					id: "634B565A91E15F5C",
+					type: "item",
+					item: "givemehats:woolrus_hat"
+				},
+				{
+					id: "298A2D9A3189303D",
+					type: "item",
+					item: "croptopia:leek_soup",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			dependencies: ["00CB4568F4E2E08D"],
+			id: "3D1E5570A0C218E7",
+			tasks: [{
+				id: "525CC16BD1F5482B",
+				type: "item",
+				item: {
+					id: "indrev:gamer_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "25B01BFF46D79658",
+					type: "item",
+					item: "croptopia:pineapple",
+					count: 6
+				},
+				{
+					id: "4A3859817F94CDED",
+					type: "item",
+					item: "givemehats:crown"
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 0.5d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
+			dependencies: ["1AB5FB34EB5A9020"],
+			id: "4108AB615E206CE8",
+			tasks: [{
+				id: "188ED52B28ED077E",
+				type: "item",
+				item: "indrev:modular_armor_helmet"
+			}],
+			rewards: [
+				{
+					id: "1E2EC04E002008E1",
+					type: "item",
+					item: "givemehats:deerstalker_hat"
+				},
+				{
+					id: "1531E4073F77ABD4",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				},
+				{
+					id: "2317D14013E20E91",
+					type: "choice",
+					table_id: 7401631859612543991L
+				}
+			]
+		},
+		{
+			x: 12.5d,
+			y: 1.0d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
+			dependencies: ["1AB5FB34EB5A9020"],
+			id: "741F64A1253A7660",
+			tasks: [{
+				id: "36A22909EB02D97D",
+				type: "item",
+				item: "indrev:modular_armor_chest"
+			}],
+			rewards: [
+				{
+					id: "260C12014AA4561E",
+					type: "item",
+					item: "givemehats:slime_hat"
+				},
+				{
+					id: "6D342296DB297069",
+					type: "item",
+					item: "givemehats:russian_hat"
+				},
+				{
+					id: "0CEF822697081CAA",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				},
+				{
+					id: "780F0DF1567BDBF4",
+					type: "choice",
+					table_id: 7401631859612543991L
+				}
+			]
+		},
+		{
+			x: 12.5d,
+			y: 2.0d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
+			dependencies: ["1AB5FB34EB5A9020"],
+			id: "3FF0728E7BF49525",
+			tasks: [{
+				id: "0EF774DFD58841C6",
+				type: "item",
+				item: "indrev:modular_armor_legs"
+			}],
+			rewards: [
+				{
+					id: "6A79808A438FC32D",
+					type: "item",
+					item: "givemehats:floating_hat"
+				},
+				{
+					id: "4C57D7149E2DDF04",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				},
+				{
+					id: "784B1A3FAF2F8056",
+					type: "choice",
+					table_id: 7401631859612543991L
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 2.5d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
+			dependencies: ["1AB5FB34EB5A9020"],
+			id: "14EA609432F96C42",
+			tasks: [{
+				id: "2B2FBFF4A575208C",
+				type: "item",
+				item: "indrev:modular_armor_boots"
+			}],
+			rewards: [
+				{
+					id: "2BEEC030D0BF50B4",
+					type: "item",
+					item: "givemehats:fez_hat"
+				},
+				{
+					id: "087EBACA2E86053B",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				},
+				{
+					id: "1BD0EB0F49BE22BD",
+					type: "choice",
+					table_id: 7401631859612543991L
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 3.0d,
+			subtitle: "Use the modular item configuration keybind to change active modules",
+			dependencies: ["7B789F6F72A91B3E"],
+			id: "476E5819A5DCA7BC",
+			tasks: [{
+				id: "08D412DFD800602A",
+				type: "item",
+				item: "indrev:mining_drill_mk4"
+			}],
+			rewards: [{
+				id: "206B1AEFF5CF9F59",
+				type: "item",
+				item: "indrev:circuit_mk4"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 1.5d,
+			dependencies: ["080E24206BB0C3E7"],
+			id: "64FF579AEB88C22B",
+			tasks: [{
+				id: "1B72257718E4311D",
+				type: "item",
+				item: "indrev:laser_mk4"
+			}],
+			rewards: [{
+				id: "08EFD5FC6E29AF97",
+				type: "item",
+				item: "indrev:cable_mk4",
+				count: 16
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 1.5d,
+			dependencies: ["64FF579AEB88C22B"],
+			id: "1AB5FB34EB5A9020",
+			tasks: [{
+				id: "0C2C8E3BE39C2619",
+				type: "item",
+				item: "indrev:modular_core_activated"
+			}],
+			rewards: [
+				{
+					id: "15448819F4AAC74B",
+					type: "item",
+					item: "indrev:lazuli_flux_container_mk2"
+				},
+				{
+					id: "095E88AE6C952E03",
+					type: "item",
+					item: "indrev:circuit_mk4"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 5.5d,
+			subtitle: "Transports fluids, right click with a block to cover",
+			id: "3F1B2546696B8C37",
+			tasks: [{
+				id: "675E789B1F686D0A",
+				type: "item",
+				item: "indrev:fluid_pipe_mk1"
+			}],
+			rewards: [{
+				id: "582C31B33982A6FC",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 2
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 7.0d,
+			subtitle: "Transports items, right click with a block to cover",
+			id: "422DD6C695AB387C",
+			tasks: [{
+				id: "7A73B63D662D3231",
+				type: "item",
+				item: "indrev:item_pipe_mk1"
+			}],
+			rewards: [{
+				id: "5AB2116DB8A2DD06",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 2
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.5d,
+			subtitle: "Transports fluids, right click with a block to cover",
+			dependencies: ["3F1B2546696B8C37"],
+			id: "1548F52EA7E707D2",
+			tasks: [{
+				id: "318685B65556D523",
+				type: "item",
+				item: "indrev:fluid_pipe_mk2"
+			}],
+			rewards: [
+				{
+					id: "7BF0DF45D63F1D96",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 16
+				},
+				{
+					id: "66A5B19ADECBF469",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 4
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 7.0d,
+			subtitle: "Transports items, right click with a block to cover",
+			dependencies: ["422DD6C695AB387C"],
+			id: "255B2EE09458A29D",
+			tasks: [{
+				id: "29C7FDAD2C70568E",
+				type: "item",
+				item: "indrev:item_pipe_mk2"
+			}],
+			rewards: [
+				{
+					id: "2C181FD763A1D82D",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 16
+				},
+				{
+					id: "67AD8E99C58B264B",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 5.5d,
+			subtitle: "Transports fluids, right click with a block to cover",
+			dependencies: ["1548F52EA7E707D2"],
+			id: "4D2033E7CC501D8F",
+			tasks: [{
+				id: "51BC6D27E504206B",
+				type: "item",
+				item: "indrev:fluid_pipe_mk3"
+			}],
+			rewards: [
+				{
+					id: "6C93EE6A74B76167",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 32
+				},
+				{
+					id: "41D2CFD87981C1B4",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 5.5d,
+			subtitle: "Transports fluids, right click with a block to cover",
+			dependencies: ["4D2033E7CC501D8F"],
+			id: "7E51EC749AFAB32D",
+			tasks: [{
+				id: "3FC646581662BE57",
+				type: "item",
+				item: "indrev:fluid_pipe_mk4"
+			}],
+			rewards: [{
+				id: "7934A0A7FB9638DE",
+				type: "item",
+				item: "indrev:enriched_nikolite_dust",
+				count: 8
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 7.0d,
+			subtitle: "Transports items, right click with a block to cover",
+			dependencies: ["255B2EE09458A29D"],
+			id: "2E57D2E63E787ED7",
+			tasks: [{
+				id: "6040BF2A3CB0737A",
+				type: "item",
+				item: "indrev:item_pipe_mk3"
+			}],
+			rewards: [
+				{
+					id: "5128B942953E36F0",
+					type: "item",
+					item: "indrev:nikolite_dust",
+					count: 32
+				},
+				{
+					id: "54AB326763ED9B63",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 7.0d,
+			subtitle: "Transports items, right click with a block to cover",
+			dependencies: ["2E57D2E63E787ED7"],
+			id: "3C5EE9811ECFD155",
+			tasks: [{
+				id: "327523D16AAB1E09",
+				type: "item",
+				item: "indrev:item_pipe_mk4"
+			}],
+			rewards: [{
+				id: "51DA34097D0A6D7A",
+				type: "item",
+				item: "indrev:enriched_nikolite_dust",
+				count: 8
+			}]
+		},
+		{
+			icon: {
+				id: "indrev:servo_output",
+				Count: 1b,
+				tag: { }
+			},
+			x: -3.0d,
+			y: 8.0d,
+			subtitle: "Required for item pipes, used to connect to inventories",
+			dependencies: ["422DD6C695AB387C"],
+			id: "3A624F6AB32AA112",
+			tasks: [
+				{
+					id: "436406ECF54C73EA",
+					type: "item",
+					item: {
+						id: "indrev:servo_output",
+						Count: 1b,
+						tag: { }
+					}
+				},
+				{
+					id: "145342559F5E77A3",
+					type: "item",
+					item: {
+						id: "indrev:servo_retriever",
+						Count: 1b,
+						tag: { }
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			dependencies: ["4CF84A7DBDB28451"],
+			id: "21FB8A3BF0F5D619",
+			tasks: [{
+				id: "5612F59D028D1604",
+				type: "item",
+				item: "indrev:mining_drill_mk1"
+			}],
+			rewards: [{
+				id: "68F479D07029D5F7",
+				type: "random",
+				table_id: 3279900820427924797L
+			}]
+		}
+	]
+}

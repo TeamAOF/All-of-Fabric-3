@@ -1,0 +1,697 @@
+{
+	id: "2E85360C822A5250",
+	group: "3649680F519F99E2",
+	order_index: 0,
+	filename: "bewitchment",
+	title: "Bewitchment",
+	icon: {
+		id: "bewitchment:voodoo_poppet",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "hexagon",
+	quests: [
+		{
+			x: 3.0d,
+			y: 2.0d,
+			id: "2DCE8A072E6085FD",
+			tasks: [{
+				id: "223A97F745CF940D",
+				type: "item",
+				item: {
+					id: "bewitchment:athame",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "1D5E14552C3839FD",
+				type: "item",
+				item: "bewitchment:book_of_shadows"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			dependencies: ["2DCE8A072E6085FD"],
+			id: "5D8C56AF2F02B345",
+			tasks: [{
+				id: "260FE0BF71D1AC6D",
+				type: "item",
+				item: "bewitchment:wood_ash"
+			}],
+			rewards: [{
+				id: "34EC48C4E91214FA",
+				type: "random",
+				table_id: 3279900820427924797L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			subtitle: "Read the Athame Entry",
+			description: [""],
+			dependencies: ["2DCE8A072E6085FD"],
+			id: "1AF47B1764D0653B",
+			tasks: [{
+				id: "6645777F0283A87A",
+				type: "item",
+				item: "bewitchment:bottle_of_blood"
+			}],
+			rewards: [
+				{
+					id: "2B809A214DBA3A6A",
+					type: "random",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "1B0773CEAF82BD5C",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			subtitle: "Used to brew many things",
+			description: [""],
+			id: "5867F73EB8938ADF",
+			tasks: [{
+				id: "6739F55BF670C27A",
+				type: "item",
+				item: "bewitchment:witch_cauldron"
+			}],
+			rewards: [{
+				id: "71AD2180627F0402",
+				type: "item",
+				item: "bewitchment:mandrake_root",
+				count: 8
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.0d,
+			dependencies: ["5867F73EB8938ADF"],
+			id: "5130EC14D9DDE3B7",
+			tasks: [{
+				id: "4B5A5C64153E9CC6",
+				type: "item",
+				item: "bewitchment:aqua_cerate"
+			}],
+			rewards: [{
+				id: "32EB0B53E5ADB511",
+				type: "item",
+				item: "bewitchment:mandrake_root",
+				count: 4
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.0d,
+			dependencies: ["5867F73EB8938ADF"],
+			id: "43B66F14758617C5",
+			tasks: [{
+				id: "40317F10B47B72D5",
+				type: "item",
+				item: "bewitchment:cleansing_balm"
+			}],
+			rewards: [{
+				id: "6A587F3800CBF248",
+				type: "item",
+				item: "bewitchment:mandrake_root",
+				count: 4
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.0d,
+			dependencies: ["5867F73EB8938ADF"],
+			id: "18C444D63231912F",
+			tasks: [{
+				id: "3B84CD2FBDF3A791",
+				type: "item",
+				item: "bewitchment:grim_elixir"
+			}],
+			rewards: [{
+				id: "038DAACB686BF732",
+				type: "item",
+				item: "bewitchment:mandrake_root",
+				count: 4
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.0d,
+			dependencies: ["5867F73EB8938ADF"],
+			id: "0E65F992BD5E3C16",
+			tasks: [{
+				id: "5C8F6148812961B3",
+				type: "item",
+				item: "bewitchment:fiery_serum"
+			}],
+			rewards: [{
+				id: "4E13408A4184992D",
+				type: "item",
+				item: "bewitchment:mandrake_root",
+				count: 4
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 4.0d,
+			dependencies: ["5867F73EB8938ADF"],
+			id: "0745320DA7F409B7",
+			tasks: [{
+				id: "00D9CB901BCA108F",
+				type: "item",
+				item: "bewitchment:earth_ichor"
+			}],
+			rewards: [{
+				id: "2DC38061F3AD7E94",
+				type: "item",
+				item: "bewitchment:mandrake_root",
+				count: 4
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.0d,
+			dependencies: ["5867F73EB8938ADF"],
+			id: "6F06BA58C8AF45C1",
+			tasks: [{
+				id: "700623CE24077429",
+				type: "item",
+				item: "bewitchment:heaven_extract"
+			}],
+			rewards: [{
+				id: "30D0D333C706F1FE",
+				type: "item",
+				item: "bewitchment:mandrake_root",
+				count: 4
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -0.5d,
+			subtitle: "Right click on an entity or bed to taglock it",
+			id: "53BF559D847C42F2",
+			tasks: [{
+				id: "201DF1FF276453D8",
+				type: "item",
+				item: "bewitchment:taglock"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -0.5d,
+			dependencies: ["53BF559D847C42F2"],
+			id: "00CC15E395A26FCF",
+			tasks: [{
+				id: "0723739EE3777A7F",
+				type: "item",
+				item: {
+					id: "bewitchment:voodoo_poppet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "2077820BD90C178A",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 2.0d,
+			dependencies: ["0A2AB78864AED052"],
+			id: "29CC794CDEADE475",
+			tasks: [{
+				id: "5DB15432B2FE8368",
+				type: "item",
+				item: "bewitchment:stone_witch_altar"
+			}],
+			rewards: [{
+				id: "235E236B63ABCBDF",
+				type: "random",
+				table_id: 3279900820427924797L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.0d,
+			dependencies: [
+				"29CC794CDEADE475",
+				"5D8C56AF2F02B345"
+			],
+			id: "3571954759FE4C54",
+			tasks: [{
+				id: "44E3B18F6E6014F8",
+				type: "item",
+				item: {
+					id: "bewitchment:chalk",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "4C42E021E2D89412",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			dependencies: ["2DCE8A072E6085FD"],
+			id: "0A2AB78864AED052",
+			tasks: [{
+				id: "74A39E67A0C0AD19",
+				type: "item",
+				item: "bewitchment:oak_bark"
+			}],
+			rewards: [{
+				id: "031ED581FEE131D9",
+				type: "random",
+				table_id: 3279900820427924797L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			dependencies: ["3571954759FE4C54"],
+			id: "52E398A590AA3C92",
+			tasks: [{
+				id: "68490FE1EB2DC981",
+				type: "item",
+				item: "bewitchment:demon_heart"
+			}],
+			rewards: [
+				{
+					id: "75B40B01A677B1B8",
+					type: "item",
+					item: "bewitchment:juniper_sapling"
+				},
+				{
+					id: "467EAB5BCF793E75",
+					type: "item",
+					item: "bewitchment:cypress_sapling"
+				},
+				{
+					id: "200E60EACFE9322E",
+					type: "item",
+					item: "bewitchment:elder_sapling"
+				},
+				{
+					id: "2E789A301CC118E8",
+					type: "item",
+					item: "bewitchment:dragons_blood_sapling"
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: -1.0d,
+			dependencies: ["52E398A590AA3C92"],
+			id: "187C52E9A95C23BD",
+			tasks: [{
+				id: "3FC0F227512858A8",
+				type: "item",
+				item: "bewitchment:juniper_broom"
+			}],
+			rewards: [{
+				id: "5E4C42BFCC709026",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			dependencies: ["53BF559D847C42F2"],
+			id: "3249834CFDCDFC9D",
+			tasks: [{
+				id: "751004782D5E5D93",
+				type: "item",
+				item: {
+					id: "bewitchment:protection_poppet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "04626A7D78B45A67",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			dependencies: ["53BF559D847C42F2"],
+			id: "3209C62E541F0CA4",
+			tasks: [{
+				id: "71A502CBBF15B9F0",
+				type: "item",
+				item: {
+					id: "bewitchment:death_protection_poppet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "37D56739559EB1C2",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 1.0d,
+			dependencies: ["3571954759FE4C54"],
+			id: "6071D8CB353D0157",
+			tasks: [{
+				id: "2CAAA3A5C23CA89C",
+				type: "item",
+				item: "bewitchment:demon_horn"
+			}],
+			rewards: [{
+				id: "42BE0A788DE4FBE1",
+				type: "random",
+				table_id: 3133982820876343405L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.0d,
+			dependencies: ["29CC794CDEADE475"],
+			id: "78B60BECBE0F504A",
+			tasks: [{
+				id: "2E9568DC80FB4612",
+				type: "item",
+				item: "bewitchment:crystal_ball"
+			}],
+			rewards: [{
+				id: "7C82456E5FE5E687",
+				type: "item",
+				item: "minecraft:diamond"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: ["52E398A590AA3C92"],
+			id: "74E7EDA3FADA7054",
+			tasks: [{
+				id: "6DF34402C70D4074",
+				type: "item",
+				item: "bewitchment:grotesque_stew"
+			}],
+			rewards: [
+				{
+					id: "1E928DA787B6D56B",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "3987EAE820B6CB9F",
+					type: "item",
+					item: "bewitchment:dragons_blood_resin",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 1.5d,
+			dependencies: ["6071D8CB353D0157"],
+			id: "73B2ED8E9AD6E283",
+			tasks: [{
+				id: "7378F6D34DD9F0B6",
+				type: "item",
+				item: {
+					id: "bewitchment:scepter",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0EE66D43128310B2",
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: "2898F547ADB3B509",
+					type: "random",
+					table_id: 903773656038413314L
+				}
+			]
+		},
+		{
+			x: 7.0d,
+			y: 0.0d,
+			dependencies: ["6071D8CB353D0157"],
+			id: "2D777EA52084A9B1",
+			tasks: [{
+				id: "7DF8243E10DE95F7",
+				type: "item",
+				item: {
+					id: "bewitchment:caduceus",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "76B3648A641FAECD",
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: "1D83E19D220B17B5",
+					type: "random",
+					table_id: 903773656038413314L
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 0.5d,
+			dependencies: ["6071D8CB353D0157"],
+			id: "113472779737A2EF",
+			tasks: [{
+				id: "0B857E9CC889619B",
+				type: "item",
+				item: {
+					id: "bewitchment:horned_spear",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0A78ED66E3F4EDC8",
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: "625B9A70F9F6DBDD",
+					type: "random",
+					table_id: 903773656038413314L
+				}
+			]
+		},
+		{
+			x: 7.0d,
+			y: 2.0d,
+			dependencies: ["6071D8CB353D0157"],
+			id: "33431672A1D760B5",
+			tasks: [{
+				id: "275DBED01CE11CB4",
+				type: "item",
+				item: {
+					id: "bewitchment:harbinger",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "444DFD3C5B88F274",
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: "64514023EAE566AA",
+					type: "random",
+					table_id: 903773656038413314L
+				}
+			]
+		},
+		{
+			title: "Find A Nether Fortress",
+			icon: "minecraft:nether_bricks",
+			x: 6.0d,
+			y: 2.0d,
+			dependencies: ["29CC794CDEADE475"],
+			id: "22DA310A4D4F3FD6",
+			tasks: [{
+				id: "06E549DAD2C5DB82",
+				type: "advancement",
+				advancement: "minecraft:nether/find_fortress",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: "439FC1121C746255",
+					type: "item",
+					item: "minecraft:blaze_rod",
+					count: 2
+				},
+				{
+					id: "28E16B91FEC981D1",
+					type: "item",
+					item: {
+						id: "bewitchment:fiery_chalk",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			dependencies: ["53BF559D847C42F2"],
+			id: "7C631CDFF9BBAB7A",
+			tasks: [{
+				id: "4F1726530E87E8F8",
+				type: "item",
+				item: {
+					id: "bewitchment:voodoo_protection_poppet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "629FBE2A29EF9820",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.5d,
+			dependencies: ["53BF559D847C42F2"],
+			id: "355858F14025DB04",
+			tasks: [{
+				id: "7F42579D7C6022CF",
+				type: "item",
+				item: {
+					id: "bewitchment:mending_poppet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "566C2C5455682ACD",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.5d,
+			dependencies: ["53BF559D847C42F2"],
+			id: "304C5407B5A9A945",
+			tasks: [{
+				id: "577BE8B268C62B53",
+				type: "item",
+				item: {
+					id: "bewitchment:curse_poppet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "4F9699D0B09A8777",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.5d,
+			dependencies: ["53BF559D847C42F2"],
+			id: "39D7EAF4B596CFCE",
+			tasks: [{
+				id: "502FA24FD82C37E7",
+				type: "item",
+				item: {
+					id: "bewitchment:vampiric_poppet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "7DFEC4502570C4B9",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -0.5d,
+			dependencies: ["53BF559D847C42F2"],
+			id: "3AC12D63C0092F20",
+			tasks: [{
+				id: "405FC09F1817B817",
+				type: "item",
+				item: {
+					id: "bewitchment:judgment_poppet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "688465A9A7BFB78B",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		}
+	]
+}

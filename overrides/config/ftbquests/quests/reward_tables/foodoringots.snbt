@@ -1,0 +1,11 @@
+{
+	id: "37D677B3022678C6",
+	order_index: 0,
+	title: "foodORingots",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [
+		{ item: "tacocraft:carnitas_taco", count: 12, weight: 2 },
+		{ item: "minecraft:iron_ingot", count: 12 }
+	]
+}

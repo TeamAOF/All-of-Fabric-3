@@ -1,0 +1,23 @@
+{
+	id: "4F2C9F25812F49E5",
+	order_index: 2,
+	title: "Medium",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [
+		{ item: "minecraft:gold_block" },
+		{ item: "minecraft:iron_block", weight: 5 },
+		{ item: "minecraft:redstone_block" },
+		{ item: "blockus:apple_crate", count: 8, weight: 10 },
+		{ item: "techreborn:copper_storage_block" },
+		{ item: "adorn:carrot_crate", count: 8, weight: 10 },
+		{ item: "adorn:melon_crate", count: 8, weight: 10 },
+		{ item: "adorn:egg_crate", count: 8, weight: 10 },
+		{ item: "minecraft:emerald_block" },
+		{ item: "techreborn:aluminum_storage_block" },
+		{ item: "techreborn:brass_storage_block" },
+		{ item: "techreborn:bronze_storage_block" },
+		{ item: "techreborn:nickel_storage_block" },
+		{ item: "blockus:rainbow_block", count: 64, weight: 6 }
+	]
+}

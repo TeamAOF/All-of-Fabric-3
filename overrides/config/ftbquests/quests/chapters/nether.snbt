@@ -1,0 +1,320 @@
+{
+	id: "327CCD3E12B81920",
+	group: "14EF39AAFA552664",
+	order_index: 1,
+	filename: "nether",
+	title: "Nether",
+	icon: "minecraft:warped_nylium",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -5.5d,
+			y: -2.5d,
+			subtitle: "Visit Biome: Warped Forest",
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "63B7E9D202637CEE",
+			tasks: [{
+				id: "45F005C67C5C2F20",
+				type: "biome",
+				title: "Warped Forest",
+				icon: "minecraft:warped_fungus",
+				biome: "minecraft:warped_forest"
+			}],
+			rewards: [
+				{
+					id: "0538E2BE6372BA37",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "3915DD787AFCE055",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: -5.0d,
+			subtitle: "Visit Biome: Withering Woods",
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "38CBA773AFBEAF22",
+			tasks: [{
+				id: "659F8AA8AF660ED2",
+				type: "biome",
+				title: "Withering Woods",
+				icon: "byg:withering_oak_sapling",
+				biome: "byg:withering_woods"
+			}],
+			rewards: [
+				{
+					id: "16C4F430726BFB3D",
+					type: "loot",
+					table_id: 5705109811401542117L
+				},
+				{
+					id: "411BFEDA42BA2CFD",
+					type: "loot",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: -5.0d,
+			subtitle: "Visit Biome: Brimstone Caverns",
+			hide_dependency_lines: true,
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "05CD96C64C260F95",
+			tasks: [{
+				id: "04722C4BED1D259E",
+				type: "biome",
+				title: "Brimstone Caverns",
+				icon: "byg:brimstone",
+				biome: "byg:brimstone_caverns"
+			}],
+			rewards: [
+				{
+					id: "64EF01C3EB9C20D0",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "119F631F0D62D152",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -6.5d,
+			subtitle: "Visit Biome: Protanopian Gallery",
+			hide_dependency_lines: true,
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "6A2B74D56660E9D0",
+			tasks: [{
+				id: "034A55B0B49B94FF",
+				type: "biome",
+				title: "Protanopian Gallery",
+				icon: "promenade:white_mushroom_block",
+				biome: "wild_explorer:protanopian_gallery"
+			}],
+			rewards: [
+				{
+					id: "5E272E582E0AFBE1",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "0C549A3B2A48DA2B",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -6.5d,
+			y: -3.5d,
+			subtitle: "Visit Biome: Quartz Desert",
+			hide_dependency_lines: true,
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "5EE63353A89780C0",
+			tasks: [{
+				id: "62E4E58C6B354673",
+				type: "biome",
+				title: "Quartz Desert",
+				icon: "minecraft:smooth_quartz",
+				biome: "byg:quartz_desert"
+			}],
+			rewards: [
+				{
+					id: "560026001F06CDAB",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "72E34E482257A339",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -2.5d,
+			subtitle: "Visit Biome: Luminous Grove",
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "00E3AF63B95EB83D",
+			tasks: [{
+				id: "2A909D636ADFB6DE",
+				type: "biome",
+				title: "Luminous Grove",
+				icon: "cinderscapes:umbral_wart_block",
+				biome: "cinderscapes:luminous_grove"
+			}],
+			rewards: [
+				{
+					id: "55B51A4C30392E59",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "0C21D87698DBFC34",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -5.0d,
+			subtitle: "Visit Biome: Ashy Shoals",
+			hide_dependency_lines: true,
+			dependencies: ["4566DA7C2FDF5656"],
+			dependency_requirement: "one_completed",
+			id: "2019FCCF56C2B01E",
+			tasks: [{
+				id: "55DC6C37C6817B23",
+				type: "biome",
+				title: "Ashy Shoals",
+				icon: "cinderscapes:ash_block",
+				biome: "cinderscapes:ashy_shoals"
+			}],
+			rewards: [
+				{
+					id: "4F5CCCB6C5DF8019",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "3A1D39FF155422FF",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: -5.0d,
+			subtitle: "Visit Biome: Blackstone Shales",
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "422101912ABB8135",
+			tasks: [{
+				id: "71EA90051669C2A0",
+				type: "biome",
+				title: "Blackstone Shales",
+				icon: "minecraft:blackstone",
+				biome: "cinderscapes:blackstone_shales"
+			}],
+			rewards: [
+				{
+					id: "0340187B5382C61E",
+					type: "loot",
+					table_id: 5705109811401542117L
+				},
+				{
+					id: "742E8FC0201E5917",
+					type: "loot",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: -2.5d,
+			subtitle: "Visit Biome: Quartz Canyon",
+			description: ['also known as the "Quartz Cavern"'],
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "59115F306B9F7EF1",
+			tasks: [{
+				id: "32BA0277B21A1D9E",
+				type: "biome",
+				title: "Quartz Canyon",
+				icon: "cinderscapes:crystalline_quartz",
+				biome: "cinderscapes:quartz_canyon"
+			}],
+			rewards: [
+				{
+					id: "3EC187BD3E7A2359",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "7A3F3B4D8CA7B486",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			icon: "byg:soul_shroom",
+			x: -5.5d,
+			y: -7.5d,
+			subtitle: "Visit Biome: Glowstone Gardens",
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "4DC79B13D7895332",
+			tasks: [{
+				id: "7D8F4C9FE1F91E5A",
+				type: "biome",
+				title: "Glowstone Gardens",
+				biome: "byg:glowstone_gardens"
+			}],
+			rewards: [
+				{
+					id: "6D9B1301E5638F34",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "169FD08A62B1A100",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			title: "Embur Bog",
+			icon: "byg:embur_wart",
+			x: -4.5d,
+			y: -3.5d,
+			subtitle: "Visit Biome: Embur Bog",
+			hide_dependency_lines: true,
+			dependencies: ["4566DA7C2FDF5656"],
+			id: "1D9E5A744C3E2921",
+			tasks: [{
+				id: "5B990C993C52D120",
+				type: "biome",
+				title: "Ember Bog",
+				biome: "byg:embur_bog"
+			}],
+			rewards: [
+				{
+					id: "4E41EEF704ABE2F4",
+					type: "loot",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "6200EACEF2D68439",
+					type: "loot",
+					table_id: 5705109811401542117L
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -5.0d,
+			shape: "gear",
+			dependencies: ["37C5BB6AE9E73F11"],
+			dependency_requirement: "one_completed",
+			size: 1.2d,
+			id: "4566DA7C2FDF5656",
+			tasks: [{
+				id: "7E2BAAB137643B7D",
+				type: "checkmark",
+				title: "Complete Overworld",
+				icon: "minecraft:grass_block"
+			}]
+		}
+	]
+}

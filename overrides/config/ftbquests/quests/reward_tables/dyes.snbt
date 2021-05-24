@@ -1,0 +1,27 @@
+{
+	id: "4DF238F6836A25D5",
+	order_index: 4,
+	title: "Dyes",
+	icon: "winged:bowl_of_dyes",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [
+		{ item: "minecraft:white_dye", count: 4 },
+		{ item: "minecraft:orange_dye", count: 4 },
+		{ item: "minecraft:magenta_dye", count: 4 },
+		{ item: "minecraft:light_blue_dye", count: 4 },
+		{ item: "minecraft:yellow_dye", count: 4 },
+		{ item: "minecraft:lime_dye", count: 4 },
+		{ item: "minecraft:pink_dye", count: 4 },
+		{ item: "minecraft:gray_dye", count: 4 },
+		{ item: "minecraft:light_gray_dye", count: 4 },
+		{ item: "minecraft:cyan_dye", count: 4 },
+		{ item: "minecraft:purple_dye", count: 4 },
+		{ item: "minecraft:blue_dye", count: 4 },
+		{ item: "minecraft:brown_dye", count: 4 },
+		{ item: "minecraft:green_dye", count: 4 },
+		{ item: "minecraft:red_dye", count: 4 },
+		{ item: "minecraft:black_dye", count: 4 }
+	]
+}

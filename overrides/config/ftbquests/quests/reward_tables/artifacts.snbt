@@ -1,0 +1,352 @@
+{
+	id: "0C8AD95A0D869402",
+	order_index: 5,
+	title: "Artifacts",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [
+		{ item: "artifacts:umbrella" },
+		{
+			item: {
+				id: "artifacts:whoopee_cushion",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{ item: "artifacts:everlasting_beef" },
+		{
+			item: {
+				id: "artifacts:plastic_drinking_hat",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:novelty_drinking_hat",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:snorkel",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:night_vision_goggles",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:villager_hat",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:superstitious_hat",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:lucky_scarf",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:scarf_of_invisibility",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:cross_necklace",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:panic_necklace",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:shock_pendant",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:flame_pendant",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:thorn_pendant",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:obsidian_skull",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:antidote_vessel",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:universal_attractor",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:crystal_heart",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:cloud_in_a_bottle",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:digging_claws",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:feral_claws",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:power_glove",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:fire_gauntlet",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:pocket_piston",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:vampiric_glove",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:golden_hook",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:bunny_hoppers",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:kitty_slippers",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:running_shoes",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:steadfast_spikes",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "artifacts:flippers",
+				Count: 1b,
+				cardinal_components: {
+					"artifacts:trinket_enabled": {
+						isEnabled: 1b
+					}
+				}
+			}
+		}
+	]
+}

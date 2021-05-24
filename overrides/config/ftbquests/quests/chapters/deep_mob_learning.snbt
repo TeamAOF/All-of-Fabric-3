@@ -1,0 +1,429 @@
+{
+	id: "008E9FBD02F09AA5",
+	group: "0C9B847BCE2B4A0A",
+	order_index: 3,
+	filename: "deep_mob_learning",
+	title: "Deep Mob Learning",
+	icon: "dml-refabricated:glitch_ingot",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.5d,
+			y: 0.0d,
+			id: "266725E8934F38BA",
+			tasks: [{
+				id: "646BE26F22E379EB",
+				type: "item",
+				item: "dml-refabricated:data_model"
+			}],
+			rewards: [
+				{
+					id: "77F2FDAD0401B936",
+					type: "random",
+					table_id: 3279900820427924797L
+				},
+				{
+					id: "22EE6FE34B058AD4",
+					type: "random",
+					table_id: 3279900820427924797L
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "64F7F9D1F1396CC1",
+			tasks: [{
+				id: "5BAA2EBE948134F9",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_nether",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "18B55183CD5A3532",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -0.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "383B710420C07D4C",
+			tasks: [{
+				id: "07A9EE6467AA6216",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_slimy",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "21F3DC487270A01B",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "2426ACF1C026BD27",
+			tasks: [{
+				id: "4301F3F8AFEC460F",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_overworld",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "34A1DD14C9CBE9E1",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "362A33E26B2FB505",
+			tasks: [{
+				id: "77F925BD69A00911",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_zombie",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "1EF5B0F203CDAE49",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -0.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "485ABB8FBB1DFB71",
+			tasks: [{
+				id: "4A1F8D22774C8346",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_skeleton",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "3CD74014AB9A8097",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "3544109008955C03",
+			tasks: [{
+				id: "5476E015CF9DB3BC",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_end",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "3993770B25AD2FA0",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "36FD32FD212AD66F",
+			tasks: [{
+				id: "6B330EC7AD001E3D",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_ghost",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "72B866B15E5DA918",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "40F2D2A69D4E8668",
+			tasks: [{
+				id: "71033C23B4A5765B",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_illager",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "37F03D307C75643E",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "045DDE778995DBD7",
+			tasks: [{
+				id: "2A7C1E939EF5517E",
+				type: "item",
+				item: {
+					id: "dml-refabricated:data_model_ocean",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "1F5F2279018DF21A",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.5d,
+			dependencies: ["266725E8934F38BA"],
+			id: "19D7A9AB2E183EFF",
+			tasks: [{
+				id: "17D8E656A4EEA63E",
+				type: "item",
+				item: "dml-refabricated:deep_learner"
+			}],
+			rewards: [{
+				id: "04E875A625E6DB5C",
+				type: "random",
+				table_id: 3279900820427924797L
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.0d,
+			dependencies: ["19D7A9AB2E183EFF"],
+			id: "35CACCE34214FAF5",
+			tasks: [{
+				id: "7BAE345B29068869",
+				type: "item",
+				item: "dml-refabricated:trial_keystone"
+			}],
+			rewards: [{
+				id: "1552A1546E178602",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			dependencies: ["35CACCE34214FAF5"],
+			id: "1F055FB12AA5E9FB",
+			tasks: [{
+				id: "5312945BB2B06F40",
+				type: "item",
+				item: {
+					id: "dml-refabricated:trial_key",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [{
+				id: "5575F8F31A4838CF",
+				type: "random",
+				table_id: 5705109811401542117L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 6.5d,
+			dependencies: ["1F055FB12AA5E9FB"],
+			id: "7EE8539CB636F830",
+			tasks: [{
+				id: "5253A1A1FD3841A9",
+				type: "item",
+				item: "dml-refabricated:loot_fabricator"
+			}],
+			rewards: [
+				{
+					id: "67CAF4A18FCBE307",
+					type: "random",
+					table_id: 6678589052687768962L
+				},
+				{
+					id: "5427F06E85A3B209",
+					type: "random",
+					table_id: 6678589052687768962L
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 7.0d,
+			subtitle: "Used to upgrade Glitch Armor",
+			dependencies: ["7465D56B2C33A278"],
+			id: "67606C8B50EB22AB",
+			tasks: [{
+				id: "57EB8F63ED6666B9",
+				type: "item",
+				item: "dml-refabricated:matter_condenser"
+			}],
+			rewards: [{
+				id: "4987074A52C73E82",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 5.5d,
+			dependencies: ["7465D56B2C33A278"],
+			id: "64DB0B202FC7341D",
+			tasks: [{
+				id: "0AFE655742CE7D40",
+				type: "item",
+				item: {
+					id: "dml-refabricated:glitch_helmet",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "2857DB1EE9EA572E",
+					type: "random",
+					table_id: 6678589052687768962L
+				},
+				{
+					id: "185980F03CFA05EC",
+					type: "random",
+					table_id: 6678589052687768962L
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 6.0d,
+			dependencies: ["7465D56B2C33A278"],
+			id: "7CD7677EC631DB62",
+			tasks: [{
+				id: "3C988A4349948237",
+				type: "item",
+				item: {
+					id: "dml-refabricated:glitch_chestplate",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "38C520E16386235A",
+					type: "random",
+					table_id: 6678589052687768962L
+				},
+				{
+					id: "30740E3C650D0DA0",
+					type: "random",
+					table_id: 6678589052687768962L
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 7.0d,
+			dependencies: ["7465D56B2C33A278"],
+			id: "7ECC8DB0D075BC06",
+			tasks: [{
+				id: "4840D38CE9467C76",
+				type: "item",
+				item: {
+					id: "dml-refabricated:glitch_leggings",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "31E7F935B2798E7E",
+					type: "random",
+					table_id: 6678589052687768962L
+				},
+				{
+					id: "3DEFAE8465C30D1E",
+					type: "random",
+					table_id: 6678589052687768962L
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 7.5d,
+			dependencies: ["7465D56B2C33A278"],
+			id: "66345CAFC1F3C0B6",
+			tasks: [{
+				id: "68AB45E18B11D2BD",
+				type: "item",
+				item: {
+					id: "dml-refabricated:glitch_boots",
+					Count: 1b,
+					tag: { }
+				}
+			}],
+			rewards: [
+				{
+					id: "16B6E23FC3563611",
+					type: "random",
+					table_id: 6678589052687768962L
+				},
+				{
+					id: "49530AF788FE9AF1",
+					type: "random",
+					table_id: 6678589052687768962L
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 6.5d,
+			dependencies: ["1F055FB12AA5E9FB"],
+			id: "7465D56B2C33A278",
+			tasks: [{
+				id: "3EF6242D6272E39F",
+				type: "item",
+				item: "dml-refabricated:glitch_ingot"
+			}],
+			rewards: [{
+				id: "7B335BC28139662E",
+				type: "random",
+				table_id: 6678589052687768962L
+			}]
+		}
+	]
+}
