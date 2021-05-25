@@ -1,7 +1,7 @@
 {
 	id: "37C5BB6AE9E73F11",
-	group: "14EF39AAFA552664",
-	order_index: 0,
+	group: "",
+	order_index: 15,
 	filename: "exploration",
 	title: "Overworld",
 	icon: "minecraft:grass_block",
@@ -11,6 +11,7 @@
 			icon: "terrestria:jungle_palm_sapling",
 			x: -8.5d,
 			y: -8.5d,
+			subtitle: "Visit Biome: Volcanic Island",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "58AEFB90F465CD79",
 			tasks: [{
@@ -30,6 +31,7 @@
 			icon: "byg:purple_sand",
 			x: -13.5d,
 			y: -4.5d,
+			subtitle: "Visit Biome: Rainbow Beach",
 			description: ["Beaches so beautiful, you can't help but feel fabulous."],
 			dependencies: ["43B7F8B8E206346B"],
 			id: "5800FD0063D9BBE7",
@@ -50,6 +52,7 @@
 			x: -11.0d,
 			y: -7.0d,
 			shape: "circle",
+			subtitle: "Used to locate biomes",
 			size: 1.2d,
 			id: "43B7F8B8E206346B",
 			tasks: [{
@@ -71,6 +74,7 @@
 			icon: "terrestria:hemlock_sapling",
 			x: -8.5d,
 			y: -6.5d,
+			subtitle: "Visit Biome: Hemlock Rainforest",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "75A4E098FF7A2731",
 			tasks: [{
@@ -89,6 +93,7 @@
 		{
 			x: -10.5d,
 			y: -9.5d,
+			subtitle: "Visit Biome: Sakura Forest",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "160B57EAEB00D10A",
 			tasks: [{
@@ -107,6 +112,7 @@
 		{
 			x: -13.5d,
 			y: -9.5d,
+			subtitle: "Visit Biome: Japenese Maple Forest",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "6C732F5419F8B177",
 			tasks: [{
@@ -125,6 +131,7 @@
 		{
 			x: -13.5d,
 			y: -5.5d,
+			subtitle: "Visit Biome: Pine Mire",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "7D60ADC93869ACC1",
 			tasks: [{
@@ -144,6 +151,7 @@
 			title: "Twilight Valley",
 			x: -8.5d,
 			y: -9.5d,
+			subtitle: "Visit Biome: Twilight Valley",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "1EF1854F86829921",
 			tasks: [{
@@ -163,6 +171,7 @@
 			icon: "byg:ebony_sapling",
 			x: -9.5d,
 			y: -9.5d,
+			subtitle: "Visit Biome: Ebony Woods",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "7B944B5828810BA9",
 			tasks: [{
@@ -181,6 +190,7 @@
 		{
 			x: -12.5d,
 			y: -9.5d,
+			subtitle: "Visit Biome: Cypress Forest",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "35F55963256142C3",
 			tasks: [{
@@ -199,6 +209,7 @@
 		{
 			x: -8.5d,
 			y: -7.5d,
+			subtitle: "Visit Biome: Enchanted Grove",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "095EC9F23F272F6B",
 			tasks: [{
@@ -217,6 +228,7 @@
 		{
 			x: -12.5d,
 			y: -4.5d,
+			subtitle: "Visit Biome: Blue Giant Taiga",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "1620B290DE5D4962",
 			tasks: [{
@@ -235,6 +247,7 @@
 		{
 			x: -8.5d,
 			y: -5.5d,
+			subtitle: "Visit Biome: Cold Swamplands",
 			dependencies: ["43B7F8B8E206346B"],
 			dependency_requirement: "one_completed",
 			id: "5D3809DC5AFC53B7",
@@ -254,6 +267,7 @@
 		{
 			x: -11.5d,
 			y: -9.5d,
+			subtitle: "Visit Biome: Glowshroom Bayou",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "00D2FCF1B69B50C8",
 			tasks: [{
@@ -274,6 +288,7 @@
 			icon: "byg:holly_sapling",
 			x: -13.5d,
 			y: -6.5d,
+			subtitle: "Visit Biome: Frozen Lake",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "5734097C3F03074F",
 			tasks: [{
@@ -294,6 +309,7 @@
 			icon: "byg:overgrown_dacite",
 			x: -8.5d,
 			y: -4.5d,
+			subtitle: "Visit Biome: Stone Forest",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "64BA4E85309B543B",
 			tasks: [{
@@ -312,6 +328,7 @@
 		{
 			x: -11.5d,
 			y: -4.5d,
+			subtitle: "Visit Biome: Vibrant Swamplands",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "092AB1A791DFCD89",
 			tasks: [{
@@ -331,6 +348,7 @@
 			title: "Skyris Highlands",
 			x: -10.5d,
 			y: -4.5d,
+			subtitle: "Visit Biome: Skyris Highlands",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "057C84DC6B70E3DA",
 			tasks: [{
@@ -350,6 +368,7 @@
 			icon: "minecraft:red_sand",
 			x: -13.5d,
 			y: -8.5d,
+			subtitle: "Visit Biome: Outback Uluru",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "2A20212CC8F16533",
 			tasks: [{
@@ -367,6 +386,7 @@
 			title: "Rainbow Rainforest",
 			x: -9.5d,
 			y: -4.5d,
+			subtitle: "Visit Biome: Rainbow Rainforest",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "4D1F39361704F9C0",
 			tasks: [{
@@ -385,6 +405,7 @@
 			title: "Cika Woods",
 			x: -13.5d,
 			y: -7.5d,
+			subtitle: "Visit Biome: Cika Woods",
 			dependencies: ["43B7F8B8E206346B"],
 			id: "0CF552905116773C",
 			tasks: [{

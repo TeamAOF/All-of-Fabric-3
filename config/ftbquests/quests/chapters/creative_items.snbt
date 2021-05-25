@@ -1,10 +1,11 @@
 {
 	id: "38C080C5958A7653",
-	group: "4C1384FECEABE1CF",
-	order_index: 0,
+	group: "57900AEDDA8197A7",
+	order_index: 2,
 	filename: "creative_items",
 	title: "Creative Items",
 	icon: "appliedenergistics2:creative_energy_cell",
+	always_invisible: true,
 	default_quest_shape: "rsquare",
 	quests: [
 		{

@@ -1,7 +1,7 @@
 {
 	id: "420326AEF1218754",
-	group: "3649680F519F99E2",
-	order_index: 2,
+	group: "",
+	order_index: 11,
 	filename: "mystical_agriculture",
 	title: "Mystical Agriculture",
 	icon: "mysticalagriculture:inferium_essence",
@@ -9,7 +9,7 @@
 	quests: [
 		{
 			x: 0.0d,
-			y: 0.0d,
+			y: 0.5d,
 			subtitle: "Used to create higher tier Essences",
 			dependencies: [
 				"5959CBA5237F9C73",
@@ -26,6 +26,12 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "62D31F894184F45F",
+				type: "item",
+				item: "mysticalagriculture:mystical_fertilizer",
+				count: 2
 			}]
 		},
 		{
@@ -76,6 +82,34 @@
 						}
 					}
 				}
+			],
+			rewards: [
+				{
+					id: "12F7A65EE9A62F9C",
+					type: "item",
+					item: "mysticalagriculture:supremium_growth_accelerator",
+					count: 4
+				},
+				{
+					id: "639D4D27715A876B",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "4CB486ABB9E8F17F",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "2B48BB5110D68786",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "47513E44AACDCA11",
+					type: "random",
+					table_id: 6908501239918343164L
+				}
 			]
 		},
 		{
@@ -88,7 +122,25 @@
 				id: "2DDD967EDA54A875",
 				type: "item",
 				item: "mysticalagriculture:supremium_essence"
-			}]
+			}],
+			rewards: [
+				{
+					id: "3BD715807B94D69D",
+					type: "item",
+					item: "mysticalagriculture:mystical_fertilizer",
+					count: 4
+				},
+				{
+					id: "3E0C01705B19546E",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "344A5652AA3680E2",
+					type: "random",
+					table_id: 6908501239918343164L
+				}
+			]
 		},
 		{
 			x: 7.5d,
@@ -100,7 +152,19 @@
 				id: "3E5DA101AF8FB83A",
 				type: "item",
 				item: "mysticalagriculture:imperium_essence"
-			}]
+			}],
+			rewards: [
+				{
+					id: "0EC346DB8764D195",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "01DA178F60DB2AF3",
+					type: "random",
+					table_id: 6908501239918343164L
+				}
+			]
 		},
 		{
 			x: 5.5d,
@@ -112,7 +176,19 @@
 				id: "7FD5D576BBE88BF5",
 				type: "item",
 				item: "mysticalagriculture:tertium_essence"
-			}]
+			}],
+			rewards: [
+				{
+					id: "0B0948686660442B",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "6E11B84F2E81AB1E",
+					type: "random",
+					table_id: 6908501239918343164L
+				}
+			]
 		},
 		{
 			x: 3.5d,
@@ -157,6 +233,11 @@
 				id: "455CE24C10972114",
 				type: "item",
 				item: "mysticalagriculture:prosperity_shard"
+			}],
+			rewards: [{
+				id: "0B78C1695FFA6850",
+				type: "random",
+				table_id: 6908501239918343164L
 			}]
 		},
 		{
@@ -164,7 +245,10 @@
 			x: -1.5d,
 			y: -2.0d,
 			subtitle: "Used to craft seeds and augments",
-			description: ["Place the Infusion Altar down to see where to place the Infusion Pedestals"],
+			description: [
+				"Place the Infusion Altar down to see where to place the Infusion Pedestals",
+				"Enabled by redstone"
+			],
 			dependencies: [
 				"5A9756A2041C2065",
 				"12282D139E7F28D2"
@@ -182,7 +266,12 @@
 					item: "mysticalagriculture:infusion_pedestal",
 					count: 8L
 				}
-			]
+			],
+			rewards: [{
+				id: "790E196225EB380D",
+				type: "random",
+				table_id: 6908501239918343164L
+			}]
 		},
 		{
 			x: -2.0d,
@@ -194,6 +283,11 @@
 				id: "0F0E5A4DAAF4FABB",
 				type: "item",
 				item: "mysticalagriculture:prosperity_seed_base"
+			}],
+			rewards: [{
+				id: "4158445594E5E31F",
+				type: "random",
+				table_id: 6908501239918343164L
 			}]
 		},
 		{
@@ -207,6 +301,11 @@
 				id: "5C21CEA3E9F32B4F",
 				type: "item",
 				item: "mysticalagriculture:soulium_seed_base"
+			}],
+			rewards: [{
+				id: "756444A1C39B5059",
+				type: "random",
+				table_id: 6908501239918343164L
 			}]
 		},
 		{
@@ -239,6 +338,18 @@
 					type: "item",
 					item: "mysticalagriculture:soul_jar",
 					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "0EFD1B2BA9D0CFCC",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "6E20AB8E34D57492",
+					type: "random",
+					table_id: 6908501239918343164L
 				}
 			]
 		},
@@ -326,6 +437,24 @@
 						}
 					}
 				}
+			],
+			rewards: [
+				{
+					id: "04B73AB781A2EECA",
+					type: "item",
+					item: "mysticalagriculture:imperium_growth_accelerator",
+					count: 4
+				},
+				{
+					id: "780CBA5BDDDA8283",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "3FC94A6A5FE7C03D",
+					type: "random",
+					table_id: 6908501239918343164L
+				}
 			]
 		},
 		{
@@ -338,6 +467,11 @@
 				id: "0995301F13FA4202",
 				type: "item",
 				item: "mysticalagriculture:unattuned_augment"
+			}],
+			rewards: [{
+				id: "792F9134EFB262E0",
+				type: "random",
+				table_id: 6908501239918343164L
 			}]
 		},
 		{
@@ -423,6 +557,24 @@
 							Active: 0b
 						}
 					}
+				}
+			],
+			rewards: [
+				{
+					id: "7DF247068C8F3734",
+					type: "item",
+					item: "mysticalagriculture:tertium_growth_accelerator",
+					count: 4
+				},
+				{
+					id: "5B82916EF402B0CD",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "29DD143202975D16",
+					type: "random",
+					table_id: 6908501239918343164L
 				}
 			]
 		},
@@ -510,6 +662,19 @@
 						}
 					}
 				}
+			],
+			rewards: [
+				{
+					id: "44AF3CFCAA6A858E",
+					type: "item",
+					item: "mysticalagriculture:prudentium_growth_accelerator",
+					count: 4
+				},
+				{
+					id: "1537AC1CF21803F0",
+					type: "random",
+					table_id: 6908501239918343164L
+				}
 			]
 		},
 		{
@@ -592,6 +757,19 @@
 							Active: 0b
 						}
 					}
+				}
+			],
+			rewards: [
+				{
+					id: "05793ED04DC7F260",
+					type: "item",
+					item: "mysticalagriculture:inferium_growth_accelerator",
+					count: 4
+				},
+				{
+					id: "3C2636DF1B0C58BD",
+					type: "random",
+					table_id: 6908501239918343164L
 				}
 			]
 		},
@@ -686,7 +864,25 @@
 						]
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: "60760B49FA39E0A7",
+					type: "item",
+					item: "mysticalagriculture:soul_jar",
+					count: 4
+				},
+				{
+					id: "7436A7EA15925000",
+					type: "random",
+					table_id: 6908501239918343164L
+				},
+				{
+					id: "17AC364F2F5298A5",
+					type: "random",
+					table_id: 6908501239918343164L
+				}
+			]
 		},
 		{
 			title: "Elemental Seeds",
@@ -1136,6 +1332,7 @@
 			tasks: [{
 				id: "7D9C29926EE639BC",
 				type: "item",
+				title: "Tier 1 Augments",
 				item: {
 					id: "itemfilters:or",
 					Count: 1b,
@@ -1156,6 +1353,12 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "061ABCD7D5B20F6A",
+				type: "item",
+				item: "mysticalagriculture:inferium_essence",
+				count: 8
 			}]
 		},
 		{
@@ -1168,6 +1371,7 @@
 			tasks: [{
 				id: "275EC7CC9E6C2832",
 				type: "item",
+				title: "Tier 2 Augments",
 				item: {
 					id: "itemfilters:or",
 					Count: 1b,
@@ -1212,6 +1416,12 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "202E6EF6A8BEE871",
+				type: "item",
+				item: "mysticalagriculture:inferium_farmland",
+				count: 8
 			}]
 		},
 		{
@@ -1224,6 +1434,7 @@
 			tasks: [{
 				id: "570E9922B82E2450",
 				type: "item",
+				title: "Tier 3 Augments",
 				item: {
 					id: "itemfilters:or",
 					Count: 1b,
@@ -1280,6 +1491,12 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "6A6A21CE06BA9B7E",
+				type: "item",
+				item: "mysticalagriculture:prudentium_farmland",
+				count: 8
 			}]
 		},
 		{
@@ -1292,6 +1509,7 @@
 			tasks: [{
 				id: "7589A5010566D148",
 				type: "item",
+				title: "Tier 4 Augments",
 				item: {
 					id: "itemfilters:or",
 					Count: 1b,
@@ -1344,6 +1562,12 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "539E49129D0325B0",
+				type: "item",
+				item: "mysticalagriculture:tertium_farmland",
+				count: 4
 			}]
 		},
 		{
@@ -1356,6 +1580,7 @@
 			tasks: [{
 				id: "34D4FEDF55E32F74",
 				type: "item",
+				title: "Tier 5 Augments",
 				item: {
 					id: "itemfilters:or",
 					Count: 1b,
@@ -1396,6 +1621,12 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "1D450A65FD5344B5",
+				type: "item",
+				item: "mysticalagriculture:tertium_farmland",
+				count: 8
 			}]
 		},
 		{
@@ -1409,6 +1640,44 @@
 				id: "58943F450C7C14AA",
 				type: "item",
 				item: "mysticalagriculture:master_infusion_crystal"
+			}],
+			rewards: [
+				{
+					id: "0C553D3D3E789A1A",
+					type: "item",
+					item: "mysticalagriculture:mystical_fertilizer",
+					count: 8
+				},
+				{
+					id: "12247BEAF4C2659F",
+					type: "item",
+					item: "mysticalagriculture:supremium_growth_accelerator",
+					count: 4
+				},
+				{
+					id: "0DC024AD6374766B",
+					type: "item",
+					item: "mysticalagriculture:supremium_farmland",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -0.5d,
+			dependencies: ["5959CBA5237F9C73"],
+			id: "2A2408248EEA705A",
+			tasks: [{
+				id: "6AE3774715A9B8C7",
+				type: "item",
+				item: "mysticalagriculture:mystical_fertilizer",
+				count: 8L
+			}],
+			rewards: [{
+				id: "657007CCBD13CA25",
+				type: "item",
+				item: "mysticalagriculture:inferium_farmland",
+				count: 4
 			}]
 		}
 	]

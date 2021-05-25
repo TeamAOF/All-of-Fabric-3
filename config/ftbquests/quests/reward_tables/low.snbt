@@ -17,6 +17,8 @@
 		{ item: "techreborn:emerald_nugget" },
 		{ item: "techreborn:bronze_nugget" },
 		{ item: "techreborn:aluminum_nugget" },
-		{ item: "techreborn:brass_nugget" }
+		{ item: "techreborn:brass_nugget" },
+		{ item: "techreborn:lead_nugget" },
+		{ item: "techreborn:copper_nugget" }
 	]
 }

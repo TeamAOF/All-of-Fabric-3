@@ -1,7 +1,7 @@
 {
 	id: "5CEDE7611863C76E",
-	group: "763EA77976DB28C3",
-	order_index: 0,
+	group: "",
+	order_index: 1,
 	filename: "industrial_revolution",
 	title: "Industrial Revolution",
 	icon: {
@@ -16,6 +16,7 @@
 		{
 			x: -3.0d,
 			y: -1.5d,
+			description: ["Use to rotate a machine. using shift+right click to change mode.. which allows for configuration of inputs. Welcome to Indrev."],
 			id: "677909DDB75C6D6F",
 			tasks: [{
 				id: "6F7B8095BF6960BF",
@@ -427,6 +428,7 @@
 		{
 			x: -3.0d,
 			y: 3.0d,
+			description: ["The latest in upgrade tech in one package. Choose the best. Choose Indrev."],
 			dependencies: ["715E719BA83FCF68"],
 			id: "209AF5F0A72814F1",
 			tasks: [{
@@ -444,6 +446,7 @@
 		{
 			x: 3.5d,
 			y: 4.0d,
+			description: ['Hey! Hey you..... yeah you.... imma tell you something.... "Paul Bunyan has nothing on... The Indrev Chopper!" The finest in chopping tech can take trees down in a designated area. All you need is an axe and power from one of Indrev\'s other fine products. In no time, you too can be rolling in the logs and submitting to Indrev\'s new global command. Choose the best. Choose Indrev.'],
 			id: "6A65223183662AFC",
 			tasks: [{
 				id: "73F0BE65371E5CDD",
@@ -468,6 +471,7 @@
 		{
 			x: 3.5d,
 			y: 5.5d,
+			description: ["Don't Farm your life away. Farm it out to Indrev. With it's latest in farming tech. Choose the best. Choose Indrev."],
 			dependencies: ["6A65223183662AFC"],
 			id: "1C7D01CABC321F63",
 			tasks: [{
@@ -484,6 +488,7 @@
 		{
 			x: 3.5d,
 			y: 7.0d,
+			description: ["Come along little doggy. With Indrev's finest animal slaying and breeding tech, you can be sure to be the life of the party. Choose the best. Choose Indrev."],
 			dependencies: ["1C7D01CABC321F63"],
 			id: "536E6CF7EBAB9A95",
 			tasks: [{
@@ -539,6 +544,7 @@
 		{
 			x: 8.0d,
 			y: -1.5d,
+			description: ["Tired of fishing with a lousy stick and string? fear no more! for the improved fisher can take the pain away, while you enjoy other Indrev products!"],
 			dependencies: ["2690A909C81B7880"],
 			id: "0C63912270AF4F7C",
 			tasks: [{
@@ -564,6 +570,7 @@
 		{
 			x: 9.5d,
 			y: -1.5d,
+			description: ["Got the power blues? Need some way to have more fun saving power? Indrev Upgrades for your power saving needs. Choose the best. Choose Indrev."],
 			dependencies: ["0C63912270AF4F7C"],
 			id: "793FF933EDF4B460",
 			tasks: [{
@@ -651,6 +658,7 @@
 		{
 			x: 8.0d,
 			y: 0.0d,
+			description: ["Use this to charge devices. Indrev invites you to submit to it's wonder line of technology. Choose the best. Choose Indrev."],
 			dependencies: ["00CB4568F4E2E08D"],
 			id: "680D97508E1B6A28",
 			tasks: [{
@@ -754,6 +762,7 @@
 			x: 6.5d,
 			y: 3.5d,
 			subtitle: "Use up to 8 per mining rig computer",
+			description: ["Mining and Crafting? Leave half the work to Indrev's finest in automatic mining. *hits top of drill* This baby can fit so many ores inside it. Choose the best. Choose Indrev."],
 			dependencies: ["1A3208F77701907B"],
 			id: "68C84F9AEE34DB49",
 			tasks: [{
@@ -891,6 +900,7 @@
 		{
 			x: 8.5d,
 			y: 1.5d,
+			description: ["After crafting this, you'll have to get into laser technology next to charge it. Choose the best. Choose Indrev."],
 			dependencies: ["7B789F6F72A91B3E"],
 			id: "080E24206BB0C3E7",
 			tasks: [{
@@ -932,6 +942,7 @@
 		{
 			x: 6.0d,
 			y: 1.5d,
+			description: ["Use the Indrev Charging Pad for optimal fun. Destroy your enemies, slay your friends. Gamer axe!  Indrev is not responsible for damage to friends or family. Choose the best. Choose Indrev."],
 			dependencies: ["00CB4568F4E2E08D"],
 			id: "3D1E5570A0C218E7",
 			tasks: [{
@@ -1100,6 +1111,7 @@
 		{
 			x: 10.0d,
 			y: 1.5d,
+			subtitle: "Be sure to check the revolutionary guide before you use this!",
 			dependencies: ["080E24206BB0C3E7"],
 			id: "64FF579AEB88C22B",
 			tasks: [{
@@ -1117,6 +1129,7 @@
 		{
 			x: 11.5d,
 			y: 1.5d,
+			description: ["Indrev brings you the highest in technology. With cores like this, you can create Indrev Modular Armor. Choose the best, Choose Indrev."],
 			dependencies: ["64FF579AEB88C22B"],
 			id: "1AB5FB34EB5A9020",
 			tasks: [{
@@ -1312,6 +1325,7 @@
 			}]
 		},
 		{
+			title: "Servos",
 			icon: {
 				id: "indrev:servo_output",
 				Count: 1b,
@@ -1346,6 +1360,7 @@
 		{
 			x: 0.0d,
 			y: 1.0d,
+			description: ["Mine Faster, Mine Harder, Mine Indrev."],
 			dependencies: ["4CF84A7DBDB28451"],
 			id: "21FB8A3BF0F5D619",
 			tasks: [{

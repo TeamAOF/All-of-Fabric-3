@@ -3,8 +3,14 @@
 	group: "",
 	order_index: 0,
 	filename: "welcome_to_aof_3",
-	title: "Introduction",
-	icon: "minecraft:book",
+	title: "Welcome",
+	icon: {
+		id: "minecraft:iron_pickaxe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
 	default_quest_shape: "",
 	quests: [
 		{
@@ -25,33 +31,25 @@
 				id: "302EB130F3DFCE33",
 				type: "checkmark",
 				title: "Esc -> Mods -> Diggus Maximus to change config"
-			}],
-			rewards: [{
-				id: "1562074D3B7BFCB8",
-				type: "xp",
-				xp: 20
 			}]
 		},
 		{
+			icon: "minecraft:chest",
 			x: 0.0d,
 			y: -1.5d,
+			subtitle: "World Blender is a unique Dimension which generates all content from all dimensions in one place! To make a portal, place 8 chests in a 2x2x2 area and fill them with unique, placable blocks. To activate the portal, crouch + rightclick with a netherstar onto the chests.",
 			dependencies: ["18AE8E898162EE40"],
 			id: "3332C573DD9B123D",
 			tasks: [{
 				id: "2D9184E7D6FD4ED1",
 				type: "checkmark",
 				title: "World Blender"
-			}],
-			rewards: [{
-				id: "34130658B79CCC2B",
-				type: "xp",
-				xp: 20
 			}]
 		},
 		{
 			icon: "minecraft:chiseled_stone_bricks",
-			x: 1.5d,
-			y: 0.0d,
+			x: -1.0d,
+			y: -1.0d,
 			subtitle: "Place chiseled stone brick like a nether portal and use a pickaxe to activate it. Press shift to go through the portal.",
 			dependencies: ["18AE8E898162EE40"],
 			id: "5C812960E3970D18",
@@ -59,35 +57,25 @@
 				id: "0AD1D0DC5EDEEEBC",
 				type: "checkmark",
 				title: "Miner's Horizon"
-			}],
-			rewards: [{
-				id: "4DB8CF135E23462E",
-				type: "xp",
-				xp: 20
 			}]
 		},
 		{
-			icon: "framed:framers_hammer",
-			x: -1.0d,
-			y: 1.5d,
-			subtitle: "This mod adds blocks which you can disguise as any other block by right clicking",
+			icon: "wirelessnetworks:entangled_capacitor",
+			x: 1.0d,
+			y: 1.0d,
+			subtitle: "This mod adds network nodes, which you can configure to transfer energy across any distance or dimension.",
 			dependencies: ["18AE8E898162EE40"],
 			id: "6C3A08132C153A6A",
 			tasks: [{
 				id: "3066FACECAE0811A",
 				type: "checkmark",
-				title: "Framed"
-			}],
-			rewards: [{
-				id: "3AC7A3B33FB37A9C",
-				type: "xp",
-				xp: 20
+				title: "Wireless networks"
 			}]
 		},
 		{
 			icon: "minecraft:spawner",
-			x: 1.0d,
-			y: 1.5d,
+			x: -1.0d,
+			y: 1.0d,
 			subtitle: "Shift + Right Click to pick up spawners, chests or entities",
 			dependencies: ["18AE8E898162EE40"],
 			id: "72E4A952CB05932B",
@@ -95,11 +83,6 @@
 				id: "74F5711506150040",
 				type: "checkmark",
 				title: "Carrier"
-			}],
-			rewards: [{
-				id: "720FAAA02A0A9A7A",
-				type: "xp",
-				xp: 20
 			}]
 		},
 		{
@@ -117,6 +100,78 @@
 				type: "item",
 				item: "croptopia:apple_juice",
 				count: 2
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.0d,
+			subtitle: "Each food has a food type, and eating balanced meals leads to beneficial effects. See your current nourishment in the top right of your inventory",
+			dependencies: ["18AE8E898162EE40"],
+			id: "7BC6430FF76FA54D",
+			tasks: [{
+				id: "5BA7B6C6ED50C9F0",
+				type: "checkmark",
+				title: "Nourish",
+				icon: "minecraft:carrot"
+			}]
+		},
+		{
+			title: "Hard Hat Steve",
+			icon: "hard-hat-steve:hard_hat",
+			x: 1.5d,
+			y: 0.0d,
+			subtitle: "This mod adds armor which increases the user's reach by up to 2 blocks",
+			dependencies: ["18AE8E898162EE40"],
+			id: "0731482379814213",
+			tasks: [{
+				id: "3C145B4995618394",
+				type: "checkmark",
+				title: "Hard Hat Steve"
+			}]
+		},
+		{
+			title: "Entity Banners",
+			icon: {
+				id: "entitybanners:entity_banner",
+				Count: 1b,
+				tag: {
+					BlockEntityTag: {
+						Bannerpp_LoomPatterns: [{
+							Pattern: "minecraft:creeper_banner",
+							Index: 0,
+							Color: 15
+						}],
+						entitybanners_Entity: "minecraft:creeper",
+						Patterns: [
+							{
+								Pattern: "tts",
+								Color: 13
+							},
+							{
+								Pattern: "bts",
+								Color: 13
+							},
+							{
+								Pattern: "bo",
+								Color: 13
+							},
+							{
+								Pattern: "cs",
+								Color: 15
+							}
+						]
+					}
+				}
+			},
+			x: 0.0d,
+			y: 1.5d,
+			subtitle: "Entity banners add banners for each entity, which give increased attack and defense to nearby players against the specific entity. They drop every 50th kill per entity",
+			dependencies: ["18AE8E898162EE40"],
+			id: "12322CFC96ECF5FB",
+			tasks: [{
+				id: "0D08731FBF60BFFE",
+				type: "checkmark",
+				title: "Entity Banners"
 			}]
 		}
 	]

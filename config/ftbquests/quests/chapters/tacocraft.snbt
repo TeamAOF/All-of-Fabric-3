@@ -1,7 +1,7 @@
 {
 	id: "5BF0DBE7370B441E",
-	group: "43D306D3C07F61C5",
-	order_index: 0,
+	group: "",
+	order_index: 12,
 	filename: "tacocraft",
 	title: "Tacocraft",
 	icon: "tacocraft:barbacoa_taco",

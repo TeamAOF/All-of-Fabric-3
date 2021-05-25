@@ -1,7 +1,7 @@
 {
 	id: "2E85360C822A5250",
-	group: "3649680F519F99E2",
-	order_index: 0,
+	group: "57900AEDDA8197A7",
+	order_index: 1,
 	filename: "bewitchment",
 	title: "Bewitchment",
 	icon: {
@@ -11,6 +11,7 @@
 			Damage: 0
 		}
 	},
+	always_invisible: true,
 	default_quest_shape: "hexagon",
 	quests: [
 		{

@@ -1,7 +1,7 @@
 {
 	id: "008E9FBD02F09AA5",
-	group: "0C9B847BCE2B4A0A",
-	order_index: 3,
+	group: "",
+	order_index: 10,
 	filename: "deep_mob_learning",
 	title: "Deep Mob Learning",
 	icon: "dml-refabricated:glitch_ingot",

@@ -1,10 +1,11 @@
 {
 	id: "32E800F2D5FEBB33",
-	group: "3649680F519F99E2",
-	order_index: 1,
+	group: "57900AEDDA8197A7",
+	order_index: 0,
 	filename: "art_of_alchemy",
 	title: "Art of Alchemy",
 	icon: "artofalchemy:philosophers_stone",
+	always_invisible: true,
 	default_quest_shape: "",
 	quests: [
 		{

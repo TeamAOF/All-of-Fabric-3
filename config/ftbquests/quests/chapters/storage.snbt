@@ -1,7 +1,7 @@
 {
 	id: "2DF9C624928A0EA1",
-	group: "0C9B847BCE2B4A0A",
-	order_index: 1,
+	group: "",
+	order_index: 8,
 	filename: "storage",
 	title: "Storage",
 	icon: "expandedstorage:netherite_chest",

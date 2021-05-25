@@ -1,7 +1,7 @@
 {
 	id: "327CCD3E12B81920",
-	group: "14EF39AAFA552664",
-	order_index: 1,
+	group: "",
+	order_index: 16,
 	filename: "nether",
 	title: "Nether",
 	icon: "minecraft:warped_nylium",

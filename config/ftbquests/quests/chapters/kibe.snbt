@@ -1,7 +1,7 @@
 {
 	id: "678F1B2A6B0EAD8A",
-	group: "0C9B847BCE2B4A0A",
-	order_index: 0,
+	group: "",
+	order_index: 7,
 	filename: "kibe",
 	title: "Kibe",
 	icon: "kibe:kibe",
@@ -9,7 +9,8 @@
 	quests: [
 		{
 			x: -1.5d,
-			y: -1.5d,
+			y: -0.5d,
+			subtitle: "A pocket version of the crafting table that you can access without placing down",
 			id: "361EB40A421A54D0",
 			tasks: [{
 				id: "5F0C386671CCED97",
@@ -39,6 +40,7 @@
 		{
 			x: 1.5d,
 			y: -1.5d,
+			subtitle: "Nullifies fall damage and makes you bounce instead!",
 			dependencies: ["6DB3219A892587E7"],
 			id: "6DF9ED6B11E39EE5",
 			tasks: [{
@@ -68,9 +70,10 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: -1.5d,
-			dependencies: ["414A9FF13407018C"],
+			x: 1.5d,
+			y: -2.5d,
+			subtitle: "Launches you backwards!",
+			dependencies: ["21BEFA852ACC1F25"],
 			id: "6DB3219A892587E7",
 			tasks: [{
 				id: "7ACD20B336946E26",
@@ -84,8 +87,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 1.5d,
+			x: -0.5d,
+			y: -3.5d,
+			subtitle: "A good food source",
 			id: "58841B1EBF6621D7",
 			tasks: [{
 				id: "3BACDE665F5E88B0",
@@ -100,8 +104,9 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 1.5d,
+			x: -1.5d,
+			y: -3.5d,
+			subtitle: "Has a chance to kill you when eaten",
 			dependencies: ["58841B1EBF6621D7"],
 			id: "4E57E55B6E5BEA7E",
 			tasks: [{
@@ -118,8 +123,9 @@
 		},
 		{
 			x: 0.5d,
-			y: 1.5d,
-			dependencies: ["4E57E55B6E5BEA7E"],
+			y: -3.5d,
+			subtitle: "A great food source, gives the user some boons!",
+			dependencies: ["58841B1EBF6621D7"],
 			id: "02A0144E86588E14",
 			tasks: [{
 				id: "2AB72B2B7BA4E8E4",
@@ -134,7 +140,8 @@
 		},
 		{
 			x: 1.5d,
-			y: 1.5d,
+			y: -3.5d,
+			subtitle: "An amazing food source, giving the user many boons!",
 			dependencies: ["02A0144E86588E14"],
 			id: "7C411E45471F75A9",
 			tasks: [{
@@ -160,7 +167,7 @@
 		{
 			x: -0.5d,
 			y: -1.5d,
-			dependencies: ["361EB40A421A54D0"],
+			subtitle: "Lets you delete items, like lava",
 			id: "414A9FF13407018C",
 			tasks: [{
 				id: "3107AA81795E23B7",
@@ -182,6 +189,7 @@
 		{
 			x: -0.5d,
 			y: -0.5d,
+			subtitle: "A pocket version of the trash can that you can access without placing down",
 			dependencies: ["414A9FF13407018C"],
 			id: "2C097D94E43FCA31",
 			tasks: [{
@@ -196,9 +204,9 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -0.5d,
-			dependencies: ["5283DE5D0B36F117"],
+			x: -1.5d,
+			y: 1.5d,
+			subtitle: "Pulls in items from range, right click to toggle",
 			id: "005579D7253783DD",
 			tasks: [{
 				id: "3DE0218DE8AC27FE",
@@ -225,14 +233,86 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: -0.5d,
-			dependencies: ["2C097D94E43FCA31"],
+			x: -1.5d,
+			y: -1.5d,
+			subtitle: "Allows you to sleep without setting your spawnpoint",
 			id: "5283DE5D0B36F117",
 			tasks: [{
 				id: "41208414FAB8FFB0",
 				type: "item",
-				item: "kibe:sleeping_bag"
+				title: "Sleeping Bag",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "kibe:pink_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:lime_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:yellow_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:light_blue_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:magenta_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:orange_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:white_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:gray_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:black_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:red_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:brown_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:green_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:purple_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:cyan_sleeping_bag",
+								Count: 1b
+							},
+							{
+								id: "kibe:light_gray_sleeping_bag",
+								Count: 1b
+							}
+						]
+					}
+				}
 			}],
 			rewards: [
 				{
@@ -250,9 +330,9 @@
 			]
 		},
 		{
-			x: 2.5d,
-			y: -0.5d,
-			dependencies: ["005579D7253783DD"],
+			x: -1.5d,
+			y: -2.5d,
+			subtitle: "A redstone timer, right click to change the delay",
 			id: "68E6922D87650FCF",
 			tasks: [{
 				id: "3736BE39C21CE3EE",
@@ -273,16 +353,101 @@
 		},
 		{
 			x: 2.5d,
-			y: -1.5d,
-			dependencies: ["6DF9ED6B11E39EE5"],
+			y: -2.5d,
+			subtitle: "Allows elytra-like gliding",
+			dependencies: ["6DB3219A892587E7"],
 			id: "05A746383CAF92B5",
 			tasks: [{
 				id: "3CF403E19CFB43F5",
 				type: "item",
+				title: "Glider",
 				item: {
-					id: "kibe:red_glider",
+					id: "itemfilters:or",
 					Count: 1b,
-					tag: { }
+					tag: {
+						items: [
+							{
+								id: "kibe:white_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:orange_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:magenta_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:light_blue_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:yellow_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:lime_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:pink_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:gray_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:light_gray_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:cyan_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:blue_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:purple_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:green_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:brown_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:red_glider",
+								Count: 1b,
+								tag: { }
+							},
+							{
+								id: "kibe:black_glider",
+								Count: 1b,
+								tag: { }
+							}
+						]
+					}
 				}
 			}],
 			rewards: [
@@ -301,8 +466,9 @@
 			]
 		},
 		{
-			x: -1.5d,
-			y: 3.0d,
+			x: 1.5d,
+			y: -0.5d,
+			subtitle: "Moves any entities on top of it in the specified direction.",
 			id: "723042FEB43DB32B",
 			tasks: [{
 				id: "10275B5AFED17E0A",
@@ -317,8 +483,9 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 3.0d,
+			x: 1.5d,
+			y: 0.5d,
+			subtitle: "Moves any entities on top of it in the specified direction. Quickly.",
 			dependencies: ["723042FEB43DB32B"],
 			id: "1606B1622251F2DA",
 			tasks: [{
@@ -354,8 +521,9 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: 3.0d,
+			x: 1.5d,
+			y: 1.5d,
+			subtitle: "Moves any entities on top of it in the specified direction. Very Quickly.",
 			dependencies: ["1606B1622251F2DA"],
 			id: "09A32E4B84B60770",
 			tasks: [{
@@ -388,13 +556,86 @@
 			]
 		},
 		{
-			x: 1.5d,
-			y: 3.0d,
+			x: -1.5d,
+			y: 0.5d,
+			subtitle: "Allows you to jump between different Y levels that are connected by elevators, with a max range of 20 blocks. When on an elevator, press jump to go up and press sneak to go down",
 			id: "430038C243856BEE",
 			tasks: [{
 				id: "15754F0F344385D0",
 				type: "item",
-				item: "kibe:white_elevator"
+				title: "Elevator",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "kibe:white_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:orange_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:magenta_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:light_blue_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:yellow_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:lime_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:pink_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:gray_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:light_gray_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:cyan_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:blue_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:purple_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:green_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:brown_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:red_elevator",
+								Count: 1b
+							},
+							{
+								id: "kibe:black_elevator",
+								Count: 1b
+							}
+						]
+					}
+				}
 			}],
 			rewards: [{
 				id: "588AC7C90C4069B9",
@@ -404,8 +645,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 1.5d,
+			x: 5.5d,
+			y: 0.5d,
+			subtitle: "A crafting component for other rings",
 			id: "6A09C575021CFFB3",
 			tasks: [{
 				id: "2B68583BE3081BFD",
@@ -428,9 +670,10 @@
 			]
 		},
 		{
-			x: 3.0d,
-			y: 5.5d,
-			dependencies: ["32CCFCF5BFD43059"],
+			x: 6.5d,
+			y: 0.5d,
+			subtitle: "Gives the user creative flight",
+			dependencies: ["6A09C575021CFFB3"],
 			id: "713D78B576FC2358",
 			tasks: [{
 				id: "26CECB9F0606FB3F",
@@ -448,9 +691,10 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 3.5d,
-			dependencies: ["096BEB1299C8ACFF"],
+			x: 5.5d,
+			y: -0.5d,
+			subtitle: "Gives the user unlimited fire resistance",
+			dependencies: ["6A09C575021CFFB3"],
 			id: "134A0BDD1EA1B57C",
 			tasks: [{
 				id: "601DB3BDB123333A",
@@ -469,8 +713,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 2.5d,
+			x: 4.5d,
+			y: 0.5d,
+			subtitle: "Gives the user unlimited water breathing",
 			dependencies: ["6A09C575021CFFB3"],
 			id: "096BEB1299C8ACFF",
 			tasks: [{
@@ -490,9 +735,10 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 4.5d,
-			dependencies: ["134A0BDD1EA1B57C"],
+			x: 5.5d,
+			y: 1.5d,
+			subtitle: "Right click to place a light source",
+			dependencies: ["6A09C575021CFFB3"],
 			id: "32CCFCF5BFD43059",
 			tasks: [{
 				id: "7FF1D418EC755A0D",
@@ -507,8 +753,9 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 2.5d,
+			x: 3.5d,
+			y: -1.5d,
+			subtitle: "Right click glass to turn it into cursed dirt, which spawns mobs at a high rate",
 			dependencies: ["71A8CB25F05858E3"],
 			id: "06B1CFEDB4820C10",
 			tasks: [{
@@ -524,8 +771,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 1.5d,
+			x: 3.5d,
+			y: -2.5d,
 			subtitle: "Dropped by Wither Skeletons",
 			description: [""],
 			id: "71A8CB25F05858E3",
@@ -542,8 +789,9 @@
 			}]
 		},
 		{
-			x: 5.5d,
-			y: 2.5d,
+			x: 2.5d,
+			y: -1.5d,
+			subtitle: "Stops hostile mobs from spawning in an area around it, put torches inside to increase that area",
 			dependencies: ["06B1CFEDB4820C10"],
 			id: "5B4EFCF837D869DF",
 			tasks: [{
@@ -567,8 +815,9 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: 3.5d,
+			x: 3.5d,
+			y: -0.5d,
+			subtitle: "Sucks in items and exp from range",
 			dependencies: ["06B1CFEDB4820C10"],
 			id: "68FBAC7FEA3519CD",
 			tasks: [{
@@ -596,8 +845,9 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: 4.5d,
+			x: 3.5d,
+			y: 0.5d,
+			subtitle: "Damages entities that stand on it",
 			dependencies: ["68FBAC7FEA3519CD"],
 			id: "3C9101E3DE9CD5F3",
 			tasks: [{
@@ -612,8 +862,9 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 5.5d,
+			x: 3.5d,
+			y: 1.5d,
+			subtitle: "Damages entities that stand on it, counts as a player when killing mobs",
 			dependencies: ["3C9101E3DE9CD5F3"],
 			id: "087764F730F2F28F",
 			tasks: [{
@@ -635,8 +886,9 @@
 			]
 		},
 		{
-			x: 6.5d,
-			y: -1.5d,
+			x: -0.5d,
+			y: 1.5d,
+			subtitle: "A cheap bucket that can only hold water",
 			id: "389E1B4E634FC44B",
 			tasks: [{
 				id: "476CA55663635644",
@@ -651,8 +903,9 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: -0.5d,
+			x: -0.5d,
+			y: 0.5d,
+			subtitle: "A bucket that deletes any fluid it tries to pickup",
 			dependencies: ["389E1B4E634FC44B"],
 			id: "6D0F80D814762BC6",
 			tasks: [{
@@ -668,8 +921,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 4.5d,
+			x: 0.5d,
+			y: -0.5d,
+			subtitle: "Holds fluids",
 			id: "0CCADAE611DE18DE",
 			tasks: [{
 				id: "75ECF4406E2C30F9",
@@ -688,7 +942,8 @@
 		},
 		{
 			x: 0.5d,
-			y: 4.5d,
+			y: 1.5d,
+			subtitle: "Activate using redstone and connect to a tank with xp to shower xp",
 			dependencies: ["1BC1EA201E056F20"],
 			id: "5A5024A5BBD57C34",
 			tasks: [{
@@ -703,8 +958,9 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 4.5d,
+			x: 0.5d,
+			y: 0.5d,
+			subtitle: "Stand ontop of this to turn your xp into liquid xp",
 			dependencies: ["0CCADAE611DE18DE"],
 			id: "1BC1EA201E056F20",
 			tasks: [{
@@ -719,9 +975,10 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 4.5d,
-			dependencies: ["5A5024A5BBD57C34"],
+			x: 0.5d,
+			y: -1.5d,
+			subtitle: "A hopper for fluids",
+			dependencies: ["0CCADAE611DE18DE"],
 			id: "6560D75355D87E0C",
 			tasks: [{
 				id: "40F00F899CEADC49",
@@ -735,8 +992,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 0.5d,
+			x: -0.5d,
+			y: -2.5d,
+			subtitle: "Consumes the food inside automatically",
 			dependencies: ["58841B1EBF6621D7"],
 			id: "3C0E959D274AC3FF",
 			tasks: [{
@@ -760,8 +1018,9 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: -1.5d,
+			x: 2.5d,
+			y: 1.5d,
+			subtitle: "Allows you to pickup peaceful animals",
 			id: "79569B5EA267AB78",
 			tasks: [{
 				id: "50E22852D8FFBF39",
@@ -788,8 +1047,9 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: -0.5d,
+			x: 2.5d,
+			y: 0.5d,
+			subtitle: "Allows you to pick up hostile mobs",
 			dependencies: ["79569B5EA267AB78"],
 			id: "2141D1E07BA2687D",
 			tasks: [{
@@ -809,8 +1069,9 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 0.5d,
+			x: 2.5d,
+			y: -0.5d,
+			subtitle: "Can pickup almost all mobs",
 			dependencies: ["2141D1E07BA2687D"],
 			id: "1F24357206737FF2",
 			tasks: [{
@@ -836,8 +1097,9 @@
 			]
 		},
 		{
-			x: -1.5d,
-			y: 6.0d,
+			x: 5.5d,
+			y: -3.5d,
+			dependencies: ["5CD2EE5FE857951A"],
 			id: "5FE1D3D19D76F02E",
 			tasks: [{
 				id: "04F057119998BAE7",
@@ -858,9 +1120,9 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: 6.0d,
-			dependencies: ["4984393ED12F6FBD"],
+			x: 4.5d,
+			y: -2.5d,
+			dependencies: ["5CD2EE5FE857951A"],
 			id: "601ACCD382EBCECB",
 			tasks: [{
 				id: "2A98D931E04C2929",
@@ -881,9 +1143,9 @@
 			]
 		},
 		{
-			x: -0.5d,
-			y: 6.0d,
-			dependencies: ["5FE1D3D19D76F02E"],
+			x: 6.5d,
+			y: -2.5d,
+			dependencies: ["5CD2EE5FE857951A"],
 			id: "4984393ED12F6FBD",
 			tasks: [{
 				id: "7E95DC5B1FAAE809",
@@ -892,21 +1154,21 @@
 			}],
 			rewards: [
 				{
-					id: "5FEA324E1A67C366",
-					type: "choice",
+					id: "756A6942ACFBF511",
+					type: "random",
 					table_id: 3133982820876343405L
 				},
 				{
-					id: "4451ACE5881A03E2",
+					id: "4413F25FB1973AA8",
 					type: "choice",
 					table_id: 5616614316702311893L
 				}
 			]
 		},
 		{
-			x: 1.5d,
-			y: 6.0d,
-			dependencies: ["601ACCD382EBCECB"],
+			x: 5.5d,
+			y: -1.5d,
+			dependencies: ["5CD2EE5FE857951A"],
 			id: "7151E40AD624965B",
 			tasks: [{
 				id: "3CAFBA924D241CC2",
@@ -921,6 +1183,113 @@
 				},
 				{
 					id: "0461D80C0C658E15",
+					type: "choice",
+					table_id: 5616614316702311893L
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -2.5d,
+			subtitle: "Launches torches",
+			id: "21BEFA852ACC1F25",
+			tasks: [{
+				id: "4A2C8B0C3DDD7AF7",
+				type: "item",
+				item: "kibe:torch_sling"
+			}]
+		},
+		{
+			title: "Entangled Items",
+			x: 5.5d,
+			y: -2.5d,
+			subtitle: "Entangled items share their inventories with all other entangled items with the same color code. Use runes to change the color code",
+			id: "5CD2EE5FE857951A",
+			tasks: [{
+				id: "737CC17ADFCC8548",
+				type: "item",
+				title: "Runes",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "kibe:white_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:orange_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:magenta_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:light_blue_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:yellow_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:lime_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:pink_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:gray_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:light_gray_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:cyan_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:blue_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:purple_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:green_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:brown_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:red_rune",
+								Count: 1b
+							},
+							{
+								id: "kibe:black_rune",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "59749FCCF6397872",
+					type: "choice",
+					table_id: 5616614316702311893L
+				},
+				{
+					id: "4CEC99D21F7B073F",
 					type: "choice",
 					table_id: 5616614316702311893L
 				}
