@@ -1,5 +1,9 @@
 {
 	"values": [
+		"alaskanativecraft:seal",
+		"alaskanativecraft:ptarmigan",
+		"alaskanativecraft:cooked_ptarmigan",
+		"alaskanativecraft:cooked_seal",
 		"kibe:kibe",
 		"kibe:golden_kibe",
 		"kibe:cursed_kibe",
@@ -7,6 +11,10 @@
 		"winged:fried_chicken",
 		"betterend:end_fish_cooked",
 		"betterend:end_fish_raw",
+		"biomemakeover:bulbus_root",
+		"biomemakeover:raw_toad",
+		"biomemakeover:cooked_toad",
+		"biomemakeover:roasted_bulbus_root",
 		"byg:soul_shroom",
 		"byg:death_cap",
 		"byg:green_mushroom",
@@ -52,12 +60,15 @@
 		"gofish:seaweed_eel",
 		"gofish:lunarfish",
 		"gofish:galaxy_starfish",
-		"gofish:starry_salmon",
 		"gofish:seaweed_eel",
-		"gofish:aquatic_astral_stew",
 		"gofish:baked_endfish",
+		"gofish:aquatic_astral_stew",
+		"gofish:starry_salmon",
 		"gofish:nebula_swordfish",
 		"gofish:grilled_blackstone_deluxe",
+		"gofish:thundering_bass",
+		"gofish:rainy_bass",
+		"gofish:endfish_and_chorus",
 		"croptopia:roasted_nuts",
 		"croptopia:trail_mix",
 		"croptopia:doughnut",
@@ -68,7 +79,10 @@
 		"croptopia:cashew_chicken",
 		"croptopia:pecan_ice_cream",
 		"croptopia:candied_nuts",
-		"croptopia:nutty_cookie"
-
+		"croptopia:nutty_cookie",
+		"untitledduckmod:raw_goose",
+		"untitledduckmod:raw_duck",
+		"untitledduckmod:cooked_goose",
+		"untitledduckmod:cooked_duck"
 	]
 }

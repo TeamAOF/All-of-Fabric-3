@@ -1,11 +1,18 @@
 {
 	"values": [
+		"alaskanativecraft:muktuk",
+		"alaskanativecraft:seal",
+		"alaskanativecraft:ptarmigan",
+		"alaskanativecraft:cooked_ptarmigan",
+		"alaskanativecraft:cooked_seal",
 		"betterend:end_fish_cooked",
 		"betterend:end_fish_raw",
 		"tacocraft:fish_taco",
 		"tacocraft:cheesy_taco",
+		"tacocraft:barbacoa",
 		"biomemakeover:glowfish",
 		"biomemakeover:cooked_glowfish",
+		"biomemakeover:cooked_toad",
 		"gofish:icicle_fish",
 		"gofish:lilyfish",
 		"gofish:matrix_fish",
@@ -33,9 +40,15 @@
 		"gofish:starry_salmon",
 		"gofish:nebula_swordfish",
 		"gofish:grilled_blackstone_deluxe",
+		"gofish:thundering_bass",
+		"gofish:rainy_bass",
+		"gofish:endfish_and_chorus",
 		"croptopia:trail_mix",
 		"croptopia:nougat",
-		"croptopia:almond_brittle"
-
+		"croptopia:almond_brittle",
+		"untitledduckmod:raw_goose",
+		"untitledduckmod:raw_duck",
+		"untitledduckmod:cooked_goose",
+		"untitledduckmod:cooked_duck"
 	]
 }
