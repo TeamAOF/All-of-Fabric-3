@@ -1,470 +1,470 @@
 {
-	id: "5BF0DBE7370B441E",
-	group: "",
-	order_index: 12,
-	filename: "tacocraft",
-	title: "Tacocraft",
-	icon: "tacocraft:barbacoa_taco",
-	default_quest_shape: "",
+	id: "5BF0DBE7370B441E"
+	group: ""
+	order_index: 14
+	filename: "tacocraft"
+	title: "Tacocraft"
+	icon: "tacocraft:barbacoa_taco"
+	default_quest_shape: ""
 	quests: [
 		{
-			x: -9.5d,
-			y: -3.5d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "7E0CC936F7E01606",
+			x: -9.5d
+			y: -3.5d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "7E0CC936F7E01606"
 			tasks: [{
-				id: "13BAEDD07865AD02",
-				type: "item",
+				id: "13BAEDD07865AD02"
+				type: "item"
 				item: "croptopia:taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "52B78A148D908C3B",
-					type: "random",
+					id: "52B78A148D908C3B"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "3ED0162433D42967",
-					type: "random",
+					id: "3ED0162433D42967"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -9.0d,
-			y: -2.5d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "0F5F5F76284F7FC5",
+			x: -9.0d
+			y: -2.5d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "0F5F5F76284F7FC5"
 			tasks: [{
-				id: "0E9E53A6A59E2CEE",
-				type: "item",
+				id: "0E9E53A6A59E2CEE"
+				type: "item"
 				item: "tacocraft:steak_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "43D846B123BAFFA8",
-					type: "random",
+					id: "43D846B123BAFFA8"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "654785B8218ADF21",
-					type: "random",
+					id: "654785B8218ADF21"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -5.0d,
-			y: -4.5d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "1C62BEF3B867E8DA",
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "1C62BEF3B867E8DA"
 			tasks: [{
-				id: "4B9965900992C792",
-				type: "item",
+				id: "4B9965900992C792"
+				type: "item"
 				item: "tacocraft:carnitas_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "40A179B18342D999",
-					type: "random",
+					id: "40A179B18342D999"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "0140FA82052B7BE3",
-					type: "random",
+					id: "0140FA82052B7BE3"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -4.5d,
-			y: -3.5d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "626156EAB8064233",
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "626156EAB8064233"
 			tasks: [{
-				id: "666353E6C4C35A22",
-				type: "item",
+				id: "666353E6C4C35A22"
+				type: "item"
 				item: "tacocraft:al_pastor_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "5218329047453DA9",
-					type: "random",
+					id: "5218329047453DA9"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "3C54D2C3EAFBC601",
-					type: "random",
+					id: "3C54D2C3EAFBC601"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -6.5d,
-			y: -7.0d,
-			id: "4A8BD292FF81B3C0",
+			x: -6.5d
+			y: -7.0d
+			id: "4A8BD292FF81B3C0"
 			tasks: [{
-				id: "4B6F87CFE7F3E82E",
-				type: "item",
+				id: "4B6F87CFE7F3E82E"
+				type: "item"
 				item: "tacocraft:furnace"
-			}],
+			}]
 			rewards: [
 				{
-					id: "56C385DCA4DE4AE8",
-					type: "item",
-					item: "tacocraft:corn_seed",
+					id: "56C385DCA4DE4AE8"
+					type: "item"
+					item: "tacocraft:corn_seed"
 					count: 12
-				},
+				}
 				{
-					id: "01307580A8F06B2F",
-					type: "random",
+					id: "01307580A8F06B2F"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -6.5d,
-			y: -6.0d,
-			subtitle: "Place on top of the Brick Furnace",
-			description: [""],
-			dependencies: ["4A8BD292FF81B3C0"],
-			id: "5CDAE4267700840A",
+			x: -6.5d
+			y: -6.0d
+			subtitle: "Place on top of the Brick Furnace"
+			description: [""]
+			dependencies: ["4A8BD292FF81B3C0"]
+			id: "5CDAE4267700840A"
 			tasks: [{
-				id: "4B9348C29889D210",
-				type: "item",
+				id: "4B9348C29889D210"
+				type: "item"
 				item: "tacocraft:comal"
-			}],
+			}]
 			rewards: [{
-				id: "715A975115DF79D6",
-				type: "random",
+				id: "715A975115DF79D6"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -12.5d,
-			y: -5.0d,
-			subtitle: "Put in the pot, Cover with dirt",
-			dependencies: ["330B154E097653C2"],
-			id: "42930ED192A62A9A",
+			x: -12.5d
+			y: -5.0d
+			subtitle: "Put in the pot, Cover with dirt"
+			dependencies: ["330B154E097653C2"]
+			id: "42930ED192A62A9A"
 			tasks: [{
-				id: "6936A4CC591EF77C",
-				type: "item",
+				id: "6936A4CC591EF77C"
+				type: "item"
 				item: "tacocraft:penca"
-			}],
+			}]
 			rewards: [{
-				id: "220C3414B31C8E4A",
-				type: "random",
+				id: "220C3414B31C8E4A"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -8.5d,
-			y: -6.0d,
-			dependencies: ["13D1E5EACC333725"],
-			id: "0D69FCEE7B2BDE9B",
+			x: -8.5d
+			y: -6.0d
+			dependencies: ["13D1E5EACC333725"]
+			id: "0D69FCEE7B2BDE9B"
 			tasks: [{
-				id: "3F315E7D62CB8337",
-				type: "item",
+				id: "3F315E7D62CB8337"
+				type: "item"
 				item: "tacocraft:tacobowl"
-			}],
+			}]
 			rewards: [{
-				id: "3774353A12B20316",
-				type: "random",
+				id: "3774353A12B20316"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -12.5d,
-			y: -6.0d,
-			subtitle: "Place over the Campfire, Surround with Cobblestone",
-			dependencies: ["13354D2DF150C281"],
-			id: "330B154E097653C2",
+			x: -12.5d
+			y: -6.0d
+			subtitle: "Place over the Campfire, Surround with Cobblestone"
+			dependencies: ["13354D2DF150C281"]
+			id: "330B154E097653C2"
 			tasks: [{
-				id: "72B831F7DA583A18",
-				type: "item",
+				id: "72B831F7DA583A18"
+				type: "item"
 				item: "tacocraft:open_pot"
-			}],
+			}]
 			rewards: [{
-				id: "3C512043FAD1DFC3",
-				type: "random",
+				id: "3C512043FAD1DFC3"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -12.5d,
-			y: -4.0d,
-			dependencies: ["42930ED192A62A9A"],
-			id: "5526CD3D5521B75D",
+			x: -12.5d
+			y: -4.0d
+			dependencies: ["42930ED192A62A9A"]
+			id: "5526CD3D5521B75D"
 			tasks: [{
-				id: "350875E394E9E068",
-				type: "item",
+				id: "350875E394E9E068"
+				type: "item"
 				item: "tacocraft:barbacoa"
-			}],
+			}]
 			rewards: [{
-				id: "19B5693E6FEBCA78",
-				type: "random",
+				id: "19B5693E6FEBCA78"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -12.5d,
-			y: -3.0d,
-			dependencies: ["5526CD3D5521B75D"],
-			id: "2EFA2E126C2CE3E3",
+			x: -12.5d
+			y: -3.0d
+			dependencies: ["5526CD3D5521B75D"]
+			id: "2EFA2E126C2CE3E3"
 			tasks: [{
-				id: "2000EB87AE6D7138",
-				type: "item",
+				id: "2000EB87AE6D7138"
+				type: "item"
 				item: "tacocraft:barbacoa_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "1B19B53A1C31B730",
-					type: "random",
+					id: "1B19B53A1C31B730"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "438B75AA7A17B243",
-					type: "random",
+					id: "438B75AA7A17B243"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "3697240977773B5D",
-					type: "random",
+					id: "3697240977773B5D"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -7.0d,
-			y: -3.5d,
-			subtitle: "Put Tortilla Dough in the Comal",
+			x: -7.0d
+			y: -3.5d
+			subtitle: "Put Tortilla Dough in the Comal"
 			dependencies: [
-				"5CDAE4267700840A",
+				"5CDAE4267700840A"
 				"13D1E5EACC333725"
-			],
-			id: "4018C9C2F69F206A",
+			]
+			id: "4018C9C2F69F206A"
 			tasks: [{
-				id: "598BAB50AF5EB778",
-				type: "item",
+				id: "598BAB50AF5EB778"
+				type: "item"
 				item: "tacocraft:tortilla"
-			}],
+			}]
 			rewards: [{
-				id: "12BA51DF4BF00F84",
-				type: "random",
+				id: "12BA51DF4BF00F84"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -7.5d,
-			y: -6.0d,
-			id: "13D1E5EACC333725",
+			x: -7.5d
+			y: -6.0d
+			id: "13D1E5EACC333725"
 			tasks: [{
-				id: "6B955485DCD6BBD5",
-				type: "item",
+				id: "6B955485DCD6BBD5"
+				type: "item"
 				item: "tacocraft:corn"
-			}],
+			}]
 			rewards: [{
-				id: "3261AE729B94B531",
-				type: "random",
+				id: "3261AE729B94B531"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -6.0d,
-			y: -5.0d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "4F4B925FCEE848FF",
+			x: -6.0d
+			y: -5.0d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "4F4B925FCEE848FF"
 			tasks: [{
-				id: "5C3A6CF964C5D623",
-				type: "item",
+				id: "5C3A6CF964C5D623"
+				type: "item"
 				item: "tacocraft:fish_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "01180F3647F78ED1",
-					type: "random",
+					id: "01180F3647F78ED1"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "4E80959E6995BB5C",
-					type: "random",
+					id: "4E80959E6995BB5C"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -5.0d,
-			y: -2.5d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "10EA49A927395704",
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "10EA49A927395704"
 			tasks: [{
-				id: "28EA14111E20A474",
-				type: "item",
+				id: "28EA14111E20A474"
+				type: "item"
 				item: "tacocraft:chicken_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "457EC17ED4A80374",
-					type: "random",
+					id: "457EC17ED4A80374"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "175060A6969C5563",
-					type: "random",
+					id: "175060A6969C5563"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -9.0d,
-			y: -4.5d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "57F815AC9C45C865",
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "57F815AC9C45C865"
 			tasks: [{
-				id: "29B9E4959795D8BF",
-				type: "item",
+				id: "29B9E4959795D8BF"
+				type: "item"
 				item: "tacocraft:cheesy_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "049DDBE61F2C1D7B",
-					type: "random",
+					id: "049DDBE61F2C1D7B"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "0CEBAA764BDB5D37",
-					type: "random",
+					id: "0CEBAA764BDB5D37"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -8.0d,
-			y: -5.0d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "73DD218BCE58458F",
+			x: -8.0d
+			y: -5.0d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "73DD218BCE58458F"
 			tasks: [{
-				id: "5DD6A66A15B9370B",
-				type: "item",
+				id: "5DD6A66A15B9370B"
+				type: "item"
 				item: "tacocraft:crunchy_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "1CA335B9ED9D69AA",
-					type: "random",
+					id: "1CA335B9ED9D69AA"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "3736BCE1BF48480E",
-					type: "random",
+					id: "3736BCE1BF48480E"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -8.5d,
-			y: -1.5d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "30614A33E36E0370",
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "30614A33E36E0370"
 			tasks: [{
-				id: "4EFAC6F05E827B42",
-				type: "item",
+				id: "4EFAC6F05E827B42"
+				type: "item"
 				item: "tacocraft:double_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "015B023901CA0E7A",
-					type: "random",
+					id: "015B023901CA0E7A"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "44EA145BE2C8AAFD",
-					type: "random",
+					id: "44EA145BE2C8AAFD"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -5.5d,
-			y: -1.5d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "7874D0342E12C7FE",
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "7874D0342E12C7FE"
 			tasks: [{
-				id: "34AD36BF0D710812",
-				type: "item",
+				id: "34AD36BF0D710812"
+				type: "item"
 				item: "tacocraft:california_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "4CFCA7FB716C994B",
-					type: "random",
+					id: "4CFCA7FB716C994B"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "57B33B43430BCDB8",
-					type: "random",
+					id: "57B33B43430BCDB8"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -7.0d,
-			y: -1.0d,
-			dependencies: ["4018C9C2F69F206A"],
-			id: "58033FCE992DF9B0",
+			x: -7.0d
+			y: -1.0d
+			dependencies: ["4018C9C2F69F206A"]
+			id: "58033FCE992DF9B0"
 			tasks: [{
-				id: "1B5BA778F27E7B92",
-				type: "item",
+				id: "1B5BA778F27E7B92"
+				type: "item"
 				item: "tacocraft:golden_taco"
-			}],
+			}]
 			rewards: [
 				{
-					id: "29DC33CB4BE28D4B",
-					type: "random",
+					id: "29DC33CB4BE28D4B"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "7896926DD226582F",
-					type: "random",
+					id: "7896926DD226582F"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: -7.5d,
-			y: -7.0d,
-			dependencies: ["13D1E5EACC333725"],
-			id: "0CF9AF67DF373839",
+			x: -7.5d
+			y: -7.0d
+			dependencies: ["13D1E5EACC333725"]
+			id: "0CF9AF67DF373839"
 			tasks: [{
-				id: "241308A9FBAA6E6F",
-				type: "item",
+				id: "241308A9FBAA6E6F"
+				type: "item"
 				item: {
-					id: "tacocraft:divine_corn_blade",
-					Count: 1b,
+					id: "tacocraft:divine_corn_blade"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "5A2EFF2D3EDB63D5",
-				type: "loot",
+				id: "5A2EFF2D3EDB63D5"
+				type: "loot"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -12.5d,
-			y: -7.0d,
-			subtitle: "Surround in Cobblestone",
-			id: "13354D2DF150C281",
+			x: -12.5d
+			y: -7.0d
+			subtitle: "Surround in Cobblestone"
+			id: "13354D2DF150C281"
 			tasks: [{
-				id: "55E7CD5F9955559D",
-				type: "item",
+				id: "55E7CD5F9955559D"
+				type: "item"
 				item: "minecraft:campfire"
-			}],
+			}]
 			rewards: [{
-				id: "0D5D5E5CA38416BF",
-				type: "random",
+				id: "0D5D5E5CA38416BF"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
 		}

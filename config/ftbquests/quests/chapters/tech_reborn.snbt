@@ -1,756 +1,756 @@
 {
-	id: "00AFE54418B08A94",
-	group: "",
-	order_index: 2,
-	filename: "tech_reborn",
-	title: "Tech Reborn",
-	icon: "techreborn:interdimensional_su",
-	default_quest_shape: "hexagon",
+	id: "00AFE54418B08A94"
+	group: ""
+	order_index: 2
+	filename: "tech_reborn"
+	title: "Tech Reborn"
+	icon: "techreborn:interdimensional_su"
+	default_quest_shape: "hexagon"
 	quests: [
 		{
-			x: -3.0d,
-			y: -1.5d,
-			id: "6573D96A4CBB70A7",
+			x: -3.0d
+			y: -1.5d
+			id: "6573D96A4CBB70A7"
 			tasks: [{
-				id: "026C68289DC82173",
-				type: "item",
+				id: "026C68289DC82173"
+				type: "item"
 				item: {
-					id: "techreborn:treetap",
-					Count: 1b,
+					id: "techreborn:treetap"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "16C3C78A774E9DFC",
-				type: "item",
-				item: "techreborn:sap",
+				id: "16C3C78A774E9DFC"
+				type: "item"
+				item: "techreborn:sap"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -0.5d,
-			dependencies: ["6573D96A4CBB70A7"],
-			id: "3B89671B060D6577",
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["6573D96A4CBB70A7"]
+			id: "3B89671B060D6577"
 			tasks: [{
-				id: "69443AA7E756E942",
-				type: "item",
+				id: "69443AA7E756E942"
+				type: "item"
 				item: {
-					id: "techreborn:basic_drill",
-					Count: 1b,
+					id: "techreborn:basic_drill"
+					Count: 1b
 					tag: {
 						energy: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "50D7B9E69E5D3334",
-				type: "item",
-				item: "minecraft:iron_ore",
+				id: "50D7B9E69E5D3334"
+				type: "item"
+				item: "minecraft:iron_ore"
 				count: 6
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 0.5d,
-			dependencies: ["3B89671B060D6577"],
-			id: "0156C4A6D9754D26",
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["3B89671B060D6577"]
+			id: "0156C4A6D9754D26"
 			tasks: [{
-				id: "11F1579E892C2241",
-				type: "item",
+				id: "11F1579E892C2241"
+				type: "item"
 				item: {
-					id: "techreborn:basic_chainsaw",
-					Count: 1b,
+					id: "techreborn:basic_chainsaw"
+					Count: 1b
 					tag: {
 						energy: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "157034BFA5AE4695",
-				type: "item",
-				item: "minecraft:oak_log",
+				id: "157034BFA5AE4695"
+				type: "item"
+				item: "minecraft:oak_log"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 1.5d,
-			dependencies: ["0156C4A6D9754D26"],
-			id: "6084BE96AA39E830",
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["0156C4A6D9754D26"]
+			id: "6084BE96AA39E830"
 			tasks: [{
-				id: "4EE80B1C3914B240",
-				type: "item",
+				id: "4EE80B1C3914B240"
+				type: "item"
 				item: {
-					id: "techreborn:basic_jackhammer",
-					Count: 1b,
+					id: "techreborn:basic_jackhammer"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "4B575B8B0D51338A",
-				type: "item",
-				item: "croptopia:saguaro_juice",
+				id: "4B575B8B0D51338A"
+				type: "item"
+				item: "croptopia:saguaro_juice"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 2.5d,
-			dependencies: ["6084BE96AA39E830"],
-			id: "6B786C128953889D",
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["6084BE96AA39E830"]
+			id: "6B786C128953889D"
 			tasks: [{
-				id: "7C8B0B4F2ED413DA",
-				type: "item",
+				id: "7C8B0B4F2ED413DA"
+				type: "item"
 				item: {
-					id: "techreborn:electric_treetap",
-					Count: 1b,
+					id: "techreborn:electric_treetap"
+					Count: 1b
 					tag: {
 						energy: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "553615074F9D5DA9",
-				type: "item",
-				item: "techreborn:rubber_sapling",
+				id: "553615074F9D5DA9"
+				type: "item"
+				item: "techreborn:rubber_sapling"
 				count: 12
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: -1.5d,
-			dependencies: ["6573D96A4CBB70A7"],
-			id: "5EB16AF43496C3FB",
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["6573D96A4CBB70A7"]
+			id: "5EB16AF43496C3FB"
 			tasks: [{
-				id: "05814665C3F27D0E",
-				type: "item",
+				id: "05814665C3F27D0E"
+				type: "item"
 				item: "techreborn:rubber"
-			}],
+			}]
 			rewards: [{
-				id: "439A7EBD7D5552F4",
-				type: "item",
-				item: "croptopia:limeade",
+				id: "439A7EBD7D5552F4"
+				type: "item"
+				item: "croptopia:limeade"
 				count: 3
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -1.5d,
-			dependencies: ["5EB16AF43496C3FB"],
-			id: "6085DEF404C6BF96",
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["5EB16AF43496C3FB"]
+			id: "6085DEF404C6BF96"
 			tasks: [{
-				id: "750BE20C5FF153BD",
-				type: "item",
+				id: "750BE20C5FF153BD"
+				type: "item"
 				item: "techreborn:insulated_copper_cable"
-			}],
+			}]
 			rewards: [{
-				id: "2DE30BEF6D54F57F",
-				type: "item",
-				item: "techreborn:copper_cable",
+				id: "2DE30BEF6D54F57F"
+				type: "item"
+				item: "techreborn:copper_cable"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -1.5d,
-			dependencies: ["6085DEF404C6BF96"],
-			id: "40CA76C06FADD71B",
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["6085DEF404C6BF96"]
+			id: "40CA76C06FADD71B"
 			tasks: [{
-				id: "4896D0D86D3B8FC9",
-				type: "item",
+				id: "4896D0D86D3B8FC9"
+				type: "item"
 				item: "techreborn:solid_fuel_generator"
-			}],
+			}]
 			rewards: [{
-				id: "5053F41C013C26A9",
-				type: "item",
-				item: "minecraft:coal",
+				id: "5053F41C013C26A9"
+				type: "item"
+				item: "minecraft:coal"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -0.5d,
-			dependencies: ["40CA76C06FADD71B"],
-			id: "3FF1F59E868FCF74",
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["40CA76C06FADD71B"]
+			id: "3FF1F59E868FCF74"
 			tasks: [{
-				id: "32B57C01A9A8C407",
-				type: "item",
+				id: "32B57C01A9A8C407"
+				type: "item"
 				item: "techreborn:electric_furnace"
-			}],
+			}]
 			rewards: [{
-				id: "2234A97066BE1A6B",
-				type: "item",
-				item: "techreborn:tin_ore",
+				id: "2234A97066BE1A6B"
+				type: "item"
+				item: "techreborn:tin_ore"
 				count: 12
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 0.5d,
-			dependencies: ["3FF1F59E868FCF74"],
-			id: "0E2808092F603CF9",
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["3FF1F59E868FCF74"]
+			id: "0E2808092F603CF9"
 			tasks: [{
-				id: "19AFACE0BA168C48",
-				type: "item",
+				id: "19AFACE0BA168C48"
+				type: "item"
 				item: "techreborn:grinder"
-			}],
+			}]
 			rewards: [{
-				id: "46342142A709B8B1",
-				type: "item",
-				item: "minecraft:gold_ore",
+				id: "46342142A709B8B1"
+				type: "item"
+				item: "minecraft:gold_ore"
 				count: 6
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 1.5d,
-			dependencies: ["0E2808092F603CF9"],
-			id: "58B455DBDCF72559",
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["0E2808092F603CF9"]
+			id: "58B455DBDCF72559"
 			tasks: [{
-				id: "6A5103C13A19498E",
-				type: "item",
+				id: "6A5103C13A19498E"
+				type: "item"
 				item: "techreborn:extractor"
-			}],
+			}]
 			rewards: [{
-				id: "786710B283732040",
-				type: "item",
-				item: "techreborn:tungsten_ingot",
+				id: "786710B283732040"
+				type: "item"
+				item: "techreborn:tungsten_ingot"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 2.5d,
-			dependencies: ["58B455DBDCF72559"],
-			id: "31873F6F29DA2873",
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["58B455DBDCF72559"]
+			id: "31873F6F29DA2873"
 			tasks: [{
-				id: "72CFE9C64580AED0",
-				type: "item",
+				id: "72CFE9C64580AED0"
+				type: "item"
 				item: "techreborn:compressor"
-			}],
+			}]
 			rewards: [{
-				id: "5C77F5071B695497",
-				type: "item",
-				item: "techreborn:electronic_circuit",
+				id: "5C77F5071B695497"
+				type: "item"
+				item: "techreborn:electronic_circuit"
 				count: 3
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 3.5d,
-			dependencies: ["31873F6F29DA2873"],
-			id: "52E213CF9BEC5E29",
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["31873F6F29DA2873"]
+			id: "52E213CF9BEC5E29"
 			tasks: [{
-				id: "445A0DF5EF31C027",
-				type: "item",
+				id: "445A0DF5EF31C027"
+				type: "item"
 				item: "techreborn:alloy_smelter"
-			}],
+			}]
 			rewards: [{
-				id: "707169A521D9696E",
-				type: "item",
-				item: "techreborn:bronze_storage_block",
+				id: "707169A521D9696E"
+				type: "item"
+				item: "techreborn:bronze_storage_block"
 				count: 6
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -1.5d,
-			id: "49800D1BDD669188",
+			x: 1.5d
+			y: -1.5d
+			id: "49800D1BDD669188"
 			tasks: [{
-				id: "07BDBB4F38C4D2CF",
-				type: "item",
+				id: "07BDBB4F38C4D2CF"
+				type: "item"
 				item: "techreborn:industrial_centrifuge"
-			}],
+			}]
 			rewards: [{
-				id: "1463EB11C7F98C80",
-				type: "item",
-				item: "techreborn:cell",
+				id: "1463EB11C7F98C80"
+				type: "item"
+				item: "techreborn:cell"
 				count: 12
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -0.5d,
-			dependencies: ["49800D1BDD669188"],
-			id: "3A63AD54112688FD",
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["49800D1BDD669188"]
+			id: "3A63AD54112688FD"
 			tasks: [{
-				id: "6285263725F76DFF",
-				type: "item",
+				id: "6285263725F76DFF"
+				type: "item"
 				item: "techreborn:industrial_electrolyzer"
-			}],
+			}]
 			rewards: [
 				{
-					id: "43F971B45A011086",
-					type: "item",
-					item: "croptopia:beer",
+					id: "43F971B45A011086"
+					type: "item"
+					item: "croptopia:beer"
 					count: 12
-				},
+				}
 				{
-					id: "16A632504DFA3263",
-					type: "item",
-					item: "techreborn:cell",
+					id: "16A632504DFA3263"
+					type: "item"
+					item: "techreborn:cell"
 					count: 12
 				}
 			]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 0.5d,
-			dependencies: ["3A63AD54112688FD"],
-			id: "38A4FE0B2918BF35",
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["3A63AD54112688FD"]
+			id: "38A4FE0B2918BF35"
 			tasks: [{
-				id: "45FCC95B3C79A559",
-				type: "item",
+				id: "45FCC95B3C79A559"
+				type: "item"
 				item: "techreborn:industrial_grinder"
-			}],
+			}]
 			rewards: [{
-				id: "7051994922412E80",
-				type: "item",
+				id: "7051994922412E80"
+				type: "item"
 				item: {
-					id: "techreborn:cell",
-					Count: 1b,
+					id: "techreborn:cell"
+					Count: 1b
 					tag: {
 						fluid: "techreborn:mercury"
 					}
-				},
+				}
 				count: 16
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 1.5d,
-			dependencies: ["38A4FE0B2918BF35"],
-			id: "6F6C950298F4A839",
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["38A4FE0B2918BF35"]
+			id: "6F6C950298F4A839"
 			tasks: [{
-				id: "4010DB861C64D2E2",
-				type: "item",
+				id: "4010DB861C64D2E2"
+				type: "item"
 				item: "techreborn:industrial_blast_furnace"
-			}],
+			}]
 			rewards: [{
-				id: "38D2FBD3D770B496",
-				type: "item",
+				id: "38D2FBD3D770B496"
+				type: "item"
 				item: "techreborn:basic_machine_casing"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -1.5d,
-			id: "032BB89786FFA712",
+			x: 3.0d
+			y: -1.5d
+			id: "032BB89786FFA712"
 			tasks: [{
-				id: "4EF4B4BCBA9AEC2C",
-				type: "item",
+				id: "4EF4B4BCBA9AEC2C"
+				type: "item"
 				item: "techreborn:basic_machine_casing"
-			}],
+			}]
 			rewards: [{
-				id: "3D786151A57028A1",
-				type: "item",
-				item: "croptopia:supreme_pizza",
+				id: "3D786151A57028A1"
+				type: "item"
+				item: "croptopia:supreme_pizza"
 				count: 2
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -0.5d,
-			dependencies: ["032BB89786FFA712"],
-			id: "56BC10C55379EE15",
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["032BB89786FFA712"]
+			id: "56BC10C55379EE15"
 			tasks: [{
-				id: "59C350C5943D3EB3",
-				type: "item",
+				id: "59C350C5943D3EB3"
+				type: "item"
 				item: "techreborn:advanced_machine_casing"
-			}],
+			}]
 			rewards: [{
-				id: "15F5018B47329FC4",
-				type: "item",
-				item: "techreborn:basic_machine_frame",
+				id: "15F5018B47329FC4"
+				type: "item"
+				item: "techreborn:basic_machine_frame"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 0.5d,
-			description: [""],
-			dependencies: ["56BC10C55379EE15"],
-			id: "5099164677086DBA",
+			x: 3.0d
+			y: 0.5d
+			description: [""]
+			dependencies: ["56BC10C55379EE15"]
+			id: "5099164677086DBA"
 			tasks: [{
-				id: "7CE645F3D7B45963",
-				type: "item",
+				id: "7CE645F3D7B45963"
+				type: "item"
 				item: "techreborn:industrial_machine_casing"
-			}],
+			}]
 			rewards: [
 				{
-					id: "55C1C8833D186470",
-					type: "item",
-					item: "croptopia:pineapple_pepperoni_pizza",
+					id: "55C1C8833D186470"
+					type: "item"
+					item: "croptopia:pineapple_pepperoni_pizza"
 					count: 3
-				},
+				}
 				{
-					id: "07728547AF741D22",
-					type: "item",
+					id: "07728547AF741D22"
+					type: "item"
 					item: "givemehats:bunny_space_helmet"
 				}
 			]
-		},
+		}
 		{
-			x: 6.0d,
-			y: -1.5d,
-			id: "5B519CC1CCA647E7",
+			x: 6.0d
+			y: -1.5d
+			id: "5B519CC1CCA647E7"
 			tasks: [{
-				id: "7054AABF7BB8C01A",
-				type: "item",
+				id: "7054AABF7BB8C01A"
+				type: "item"
 				item: "techreborn:recycler"
-			}],
+			}]
 			rewards: [{
-				id: "643DC8E4D22A69AA",
-				type: "item",
-				item: "techreborn:scrap",
+				id: "643DC8E4D22A69AA"
+				type: "item"
+				item: "techreborn:scrap"
 				count: 64
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: -0.5d,
-			dependencies: ["5B519CC1CCA647E7"],
-			id: "519EBB9C15637A51",
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["5B519CC1CCA647E7"]
+			id: "519EBB9C15637A51"
 			tasks: [{
-				id: "5CAAE29EFF2E061C",
-				type: "item",
+				id: "5CAAE29EFF2E061C"
+				type: "item"
 				item: "techreborn:matter_fabricator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "51515DB37E950B26",
-					type: "item",
-					item: "croptopia:tofuburger",
+					id: "51515DB37E950B26"
+					type: "item"
+					item: "croptopia:tofuburger"
 					count: 16
-				},
+				}
 				{
-					id: "4D37833C3D0366B1",
-					type: "item",
-					item: "tacocraft:golden_taco",
+					id: "4D37833C3D0366B1"
+					type: "item"
+					item: "tacocraft:golden_taco"
 					count: 4
 				}
 			]
-		},
+		}
 		{
-			x: 4.5d,
-			y: -1.5d,
-			id: "6859986433B0CA09",
+			x: 4.5d
+			y: -1.5d
+			id: "6859986433B0CA09"
 			tasks: [{
-				id: "4843F2E04C099DFA",
-				type: "item",
+				id: "4843F2E04C099DFA"
+				type: "item"
 				item: "techreborn:fusion_coil"
-			}],
+			}]
 			rewards: [{
-				id: "066FC6181AB9BC76",
-				type: "item",
+				id: "066FC6181AB9BC76"
+				type: "item"
 				item: "givemehats:irish_hat"
 			}]
-		},
+		}
 		{
-			x: 4.5d,
-			y: -0.5d,
-			dependencies: ["6859986433B0CA09"],
-			id: "12A39EE4C24FC381",
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["6859986433B0CA09"]
+			id: "12A39EE4C24FC381"
 			tasks: [{
-				id: "643B43F23C8C1BD5",
-				type: "item",
+				id: "643B43F23C8C1BD5"
+				type: "item"
 				item: "techreborn:fusion_control_computer"
-			}],
+			}]
 			rewards: [
 				{
-					id: "17352B465A624FDE",
-					type: "item",
+					id: "17352B465A624FDE"
+					type: "item"
 					item: "givemehats:tater_hat"
-				},
+				}
 				{
-					id: "5B47EF146E4DBEF0",
-					type: "item",
+					id: "5B47EF146E4DBEF0"
+					type: "item"
 					item: {
-						id: "techreborn:energy_crystal",
-						Count: 1b,
+						id: "techreborn:energy_crystal"
+						Count: 1b
 						tag: {
 							energy: 0
 						}
 					}
 				}
 			]
-		},
+		}
 		{
-			x: 4.5d,
-			y: 0.5d,
-			dependencies: ["12A39EE4C24FC381"],
-			id: "4031986A397703A9",
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["12A39EE4C24FC381"]
+			id: "4031986A397703A9"
 			tasks: [{
-				id: "0C0529F6421E3C30",
-				type: "item",
+				id: "0C0529F6421E3C30"
+				type: "item"
 				item: "techreborn:plasma_generator"
-			}],
+			}]
 			rewards: [{
-				id: "7AC5CBFB06D9B2BF",
-				type: "item",
-				item: "techreborn:heliumplasma_bucket",
+				id: "7AC5CBFB06D9B2BF"
+				type: "item"
+				item: "techreborn:heliumplasma_bucket"
 				count: 2
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 4.5d,
-			id: "6775E1C9D88FB591",
+			x: -3.0d
+			y: 4.5d
+			id: "6775E1C9D88FB591"
 			tasks: [{
-				id: "0202A37960361335",
-				type: "item",
+				id: "0202A37960361335"
+				type: "item"
 				item: "techreborn:basic_solar_panel"
-			}],
+			}]
 			rewards: [{
-				id: "05D6A2C7A7B6744C",
-				type: "item",
-				item: "techreborn:lead_ingot",
+				id: "05D6A2C7A7B6744C"
+				type: "item"
+				item: "techreborn:lead_ingot"
 				count: 12
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 4.5d,
-			dependencies: ["6775E1C9D88FB591"],
-			id: "02DB76BE93888A37",
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["6775E1C9D88FB591"]
+			id: "02DB76BE93888A37"
 			tasks: [{
-				id: "0A764CCA2F77306A",
-				type: "item",
+				id: "0A764CCA2F77306A"
+				type: "item"
 				item: "techreborn:advanced_solar_panel"
-			}],
+			}]
 			rewards: [
 				{
-					id: "085A6C4AA2211A96",
-					type: "item",
-					item: "techreborn:carbon_mesh",
+					id: "085A6C4AA2211A96"
+					type: "item"
+					item: "techreborn:carbon_mesh"
 					count: 3
-				},
+				}
 				{
-					id: "63DDCB7A32FDE76E",
-					type: "item",
-					item: "tacocraft:steak_taco",
+					id: "63DDCB7A32FDE76E"
+					type: "item"
+					item: "tacocraft:steak_taco"
 					count: 4
 				}
 			]
-		},
+		}
 		{
-			x: -1.0d,
-			y: 4.5d,
-			dependencies: ["02DB76BE93888A37"],
-			id: "40BDA1B0ADC2A181",
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["02DB76BE93888A37"]
+			id: "40BDA1B0ADC2A181"
 			tasks: [{
-				id: "7A33EA9D8F68ED92",
-				type: "item",
+				id: "7A33EA9D8F68ED92"
+				type: "item"
 				item: "techreborn:industrial_solar_panel"
-			}],
+			}]
 			rewards: [
 				{
-					id: "07A9CFA798E50492",
-					type: "item",
-					item: "croptopia:peanut_butter_and_jam",
+					id: "07A9CFA798E50492"
+					type: "item"
+					item: "croptopia:peanut_butter_and_jam"
 					count: 2
-				},
+				}
 				{
-					id: "42182ED2C0711766",
-					type: "random",
+					id: "42182ED2C0711766"
+					type: "random"
 					table_id: 5705109811401542117L
 				}
 			]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 4.5d,
-			dependencies: ["40BDA1B0ADC2A181"],
-			id: "7199B5E8B817083D",
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["40BDA1B0ADC2A181"]
+			id: "7199B5E8B817083D"
 			tasks: [{
-				id: "12F75EB7AF8A35FE",
-				type: "item",
+				id: "12F75EB7AF8A35FE"
+				type: "item"
 				item: "techreborn:ultimate_solar_panel"
-			}],
+			}]
 			rewards: [{
-				id: "40C6E20F0DE0598D",
-				type: "item",
-				item: "techreborn:reinforced_glass",
+				id: "40C6E20F0DE0598D"
+				type: "item"
+				item: "techreborn:reinforced_glass"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 4.5d,
-			dependencies: ["7199B5E8B817083D"],
-			id: "0558226E7B2A7E68",
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["7199B5E8B817083D"]
+			id: "0558226E7B2A7E68"
 			tasks: [{
-				id: "4B3AADD7EC58E196",
-				type: "item",
+				id: "4B3AADD7EC58E196"
+				type: "item"
 				item: "techreborn:quantum_solar_panel"
-			}],
+			}]
 			rewards: [
 				{
-					id: "0F188DA20EF7F4FC",
-					type: "item",
-					item: "croptopia:pineapple_pepperoni_pizza",
+					id: "0F188DA20EF7F4FC"
+					type: "item"
+					item: "croptopia:pineapple_pepperoni_pizza"
 					count: 4
-				},
+				}
 				{
-					id: "42AD246BCEE87DB1",
-					type: "random",
+					id: "42AD246BCEE87DB1"
+					type: "random"
 					table_id: 3133982820876343405L
-				},
+				}
 				{
-					id: "6A66ECD80A766FD0",
-					type: "random",
+					id: "6A66ECD80A766FD0"
+					type: "random"
 					table_id: 3133982820876343405L
 				}
 			]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 3.0d,
-			id: "21DFDED29E73ED00",
+			x: 3.0d
+			y: 3.0d
+			id: "21DFDED29E73ED00"
 			tasks: [{
-				id: "40C07937EDEBA041",
-				type: "item",
+				id: "40C07937EDEBA041"
+				type: "item"
 				item: {
-					id: "techreborn:nanosaber",
-					Count: 1b,
+					id: "techreborn:nanosaber"
+					Count: 1b
 					tag: {
 						isActive: 0b
 					}
 				}
-			}],
+			}]
 			rewards: [
 				{
-					id: "139D5E8BBA41B12D",
-					type: "item",
+					id: "139D5E8BBA41B12D"
+					type: "item"
 					item: "givemehats:topest_hat"
-				},
+				}
 				{
-					id: "55B859CCA2E25DE6",
-					type: "item",
-					item: "tacocraft:carnitas_taco",
+					id: "55B859CCA2E25DE6"
+					type: "item"
+					item: "tacocraft:carnitas_taco"
 					count: 16
 				}
 			]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 3.0d,
-			dependencies: ["21DFDED29E73ED00"],
-			id: "089331FAB2E1A85F",
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["21DFDED29E73ED00"]
+			id: "089331FAB2E1A85F"
 			tasks: [{
-				id: "5F8F8E492653DB15",
-				type: "item",
+				id: "5F8F8E492653DB15"
+				type: "item"
 				item: {
-					id: "techreborn:quantum_helmet",
-					Count: 1b,
+					id: "techreborn:quantum_helmet"
+					Count: 1b
 					tag: {
 						energy: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "13652E0A3BB80B8B",
-				type: "item",
-				item: "techreborn:superconductor_cable",
+				id: "13652E0A3BB80B8B"
+				type: "item"
+				item: "techreborn:superconductor_cable"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: 4.0d,
-			dependencies: ["21DFDED29E73ED00"],
-			id: "702F34643FE4C58E",
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["21DFDED29E73ED00"]
+			id: "702F34643FE4C58E"
 			tasks: [{
-				id: "29A5A1295D385B34",
-				type: "item",
+				id: "29A5A1295D385B34"
+				type: "item"
 				item: {
-					id: "techreborn:quantum_chestplate",
-					Count: 1b,
+					id: "techreborn:quantum_chestplate"
+					Count: 1b
 					tag: {
 						energy: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "7FDB7AD22765A31D",
-				type: "item",
-				item: "techreborn:adjustable_su",
+				id: "7FDB7AD22765A31D"
+				type: "item"
+				item: "techreborn:adjustable_su"
 				count: 2
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 4.0d,
-			dependencies: ["21DFDED29E73ED00"],
-			id: "7FB39A09223A31F6",
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["21DFDED29E73ED00"]
+			id: "7FB39A09223A31F6"
 			tasks: [{
-				id: "432B40B535562A93",
-				type: "item",
+				id: "432B40B535562A93"
+				type: "item"
 				item: {
-					id: "techreborn:quantum_leggings",
-					Count: 1b,
+					id: "techreborn:quantum_leggings"
+					Count: 1b
 					tag: {
 						energy: 0
 					}
 				}
-			}],
+			}]
 			rewards: [
 				{
-					id: "48A2F6F0AA59360E",
-					type: "item",
-					item: "minecraft:diamond",
+					id: "48A2F6F0AA59360E"
+					type: "item"
+					item: "minecraft:diamond"
 					count: 32
-				},
+				}
 				{
-					id: "476C49C3D4687A14",
-					type: "item",
-					item: "croptopia:supreme_pizza",
+					id: "476C49C3D4687A14"
+					type: "item"
+					item: "croptopia:supreme_pizza"
 					count: 16
 				}
 			]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 3.0d,
-			dependencies: ["21DFDED29E73ED00"],
-			id: "2BF06052093E6C19",
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["21DFDED29E73ED00"]
+			id: "2BF06052093E6C19"
 			tasks: [{
-				id: "42A283982031DE22",
-				type: "item",
+				id: "42A283982031DE22"
+				type: "item"
 				item: {
-					id: "techreborn:quantum_boots",
-					Count: 1b,
+					id: "techreborn:quantum_boots"
+					Count: 1b
 					tag: {
 						energy: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "57355C4E58A7E232",
-				type: "item",
-				item: "techreborn:superconductor",
+				id: "57355C4E58A7E232"
+				type: "item"
+				item: "techreborn:superconductor"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -2.5d,
-			dependencies: ["40CA76C06FADD71B"],
-			id: "6AD5DE8EA7FB6748",
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["40CA76C06FADD71B"]
+			id: "6AD5DE8EA7FB6748"
 			tasks: [{
-				id: "6BBC56592168879A",
-				type: "item",
+				id: "6BBC56592168879A"
+				type: "item"
 				item: "techreborn:wrench"
-			}],
+			}]
 			rewards: [{
-				id: "08C06686EC6448E0",
-				type: "item",
-				item: "techreborn:insulated_copper_cable",
+				id: "08C06686EC6448E0"
+				type: "item"
+				item: "techreborn:insulated_copper_cable"
 				count: 8
 			}]
 		}

@@ -1,6 +1,3 @@
 {
-	chapter_groups: [
-		{ id: "69635F1F4DBE9CD3", title: "Unfinished" },
-		{ id: "57900AEDDA8197A7", title: "Hidden" }
-	]
+	chapter_groups: [{ id: "57900AEDDA8197A7", title: "Hidden" }]
 }

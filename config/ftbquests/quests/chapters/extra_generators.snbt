@@ -1,514 +1,514 @@
 {
-	id: "24FEABE273BFA610",
-	group: "",
-	order_index: 5,
-	filename: "extra_generators",
-	title: "Extra Generators",
-	icon: "extragenerators:colorful_generator",
-	default_quest_shape: "",
+	id: "24FEABE273BFA610"
+	group: ""
+	order_index: 5
+	filename: "extra_generators"
+	title: "Extra Generators"
+	icon: "extragenerators:colorful_generator"
+	default_quest_shape: ""
 	quests: [
 		{
-			x: 3.5d,
-			y: 5.5d,
-			subtitle: "Uses heat from lava, torches, campires, or fire to generate energy",
-			id: "4368A26E1F3DAADD",
+			x: 3.5d
+			y: 5.5d
+			subtitle: "Uses heat from lava, torches, campires, or fire to generate energy"
+			id: "4368A26E1F3DAADD"
 			tasks: [{
-				id: "6CE17D626AA10287",
-				type: "item",
+				id: "6CE17D626AA10287"
+				type: "item"
 				item: "extragenerators:thermoelectric_generator"
-			}],
+			}]
 			rewards: [{
-				id: "71C0C3D91A77A7EA",
-				type: "random",
+				id: "71C0C3D91A77A7EA"
+				type: "random"
 				table_id: 70152086514459238L
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 4.5d,
-			subtitle: "Generates energy using fuel",
-			id: "39089A6A3188DC63",
+			x: 3.5d
+			y: 4.5d
+			subtitle: "Generates energy using fuel"
+			id: "39089A6A3188DC63"
 			tasks: [{
-				id: "185EE46AF64F63C0",
-				type: "item",
+				id: "185EE46AF64F63C0"
+				type: "item"
 				item: "extragenerators:burnable_generator"
-			}],
+			}]
 			rewards: [{
-				id: "35697A0203FD5472",
-				type: "random",
+				id: "35697A0203FD5472"
+				type: "random"
 				table_id: 70152086514459238L
 			}]
-		},
+		}
 		{
-			x: 4.5d,
-			y: 4.5d,
-			subtitle: "Uses ice and snow to generate energy",
-			id: "051BEBF649B17D0D",
+			x: 4.5d
+			y: 4.5d
+			subtitle: "Uses ice and snow to generate energy"
+			id: "051BEBF649B17D0D"
 			tasks: [{
-				id: "45DA27F8D821643D",
-				type: "item",
+				id: "45DA27F8D821643D"
+				type: "item"
 				item: "extragenerators:icy_generator"
-			}],
+			}]
 			rewards: [{
-				id: "368B375001AFE94F",
-				type: "random",
+				id: "368B375001AFE94F"
+				type: "random"
 				table_id: 70152086514459238L
 			}]
-		},
+		}
 		{
-			x: 4.5d,
-			y: 5.5d,
-			subtitle: "Uses red, green and blue items to generate energy",
-			id: "353FA5394C021773",
+			x: 4.5d
+			y: 5.5d
+			subtitle: "Uses red, green and blue items to generate energy"
+			id: "353FA5394C021773"
 			tasks: [{
-				id: "09E486A814365317",
-				type: "item",
+				id: "09E486A814365317"
+				type: "item"
 				item: "extragenerators:colorful_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "02408DFEAA4B709F",
-					type: "random",
+					id: "02408DFEAA4B709F"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "29097BFC7924BCEF",
-					type: "random",
+					id: "29097BFC7924BCEF"
+					type: "random"
 					table_id: 70152086514459238L
 				}
 			]
-		},
+		}
 		{
-			x: 4.5d,
-			y: 3.5d,
-			subtitle: "Uses slime to generate energy",
-			id: "2718367F51D73E2F",
+			x: 4.5d
+			y: 3.5d
+			subtitle: "Uses slime to generate energy"
+			id: "2718367F51D73E2F"
 			tasks: [{
-				id: "238D0140DB427431",
-				type: "item",
+				id: "238D0140DB427431"
+				type: "item"
 				item: "extragenerators:sludgy_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "7D9FB6614BD3AACF",
-					type: "random",
+					id: "7D9FB6614BD3AACF"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "1C610C3B5B77C2C1",
-					type: "random",
+					id: "1C610C3B5B77C2C1"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: 5.5d,
-			y: 3.5d,
-			subtitle: "Uses enderpearls, eyes of ender,  or chorus fruit to generate energy",
-			id: "038C6C74DEEF9303",
+			x: 5.5d
+			y: 3.5d
+			subtitle: "Uses enderpearls, eyes of ender,  or chorus fruit to generate energy"
+			id: "038C6C74DEEF9303"
 			tasks: [{
-				id: "346D58D3C4A3B774",
-				type: "item",
+				id: "346D58D3C4A3B774"
+				type: "item"
 				item: "extragenerators:teleport_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "5B1007CCD9CA8D20",
-					type: "random",
+					id: "5B1007CCD9CA8D20"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "7A1E35E38EB86FDB",
-					type: "random",
+					id: "7A1E35E38EB86FDB"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "62E67059A9442BF9",
-					type: "random",
+					id: "62E67059A9442BF9"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: 2.5d,
-			y: 3.5d,
-			subtitle: "Burns lava to generate energy",
-			id: "59CD18017A8BAE95",
+			x: 2.5d
+			y: 3.5d
+			subtitle: "Burns lava to generate energy"
+			id: "59CD18017A8BAE95"
 			tasks: [{
-				id: "2D1F189A8592404F",
-				type: "item",
+				id: "2D1F189A8592404F"
+				type: "item"
 				item: "extragenerators:scalding_generator"
-			}],
+			}]
 			rewards: [{
-				id: "11AE82512A57C394",
-				type: "random",
+				id: "11AE82512A57C394"
+				type: "random"
 				table_id: 70152086514459238L
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 3.5d,
-			subtitle: "Uses water and fuel to generate energy",
-			id: "64FDF3BD785A8589",
+			x: 3.5d
+			y: 3.5d
+			subtitle: "Uses water and fuel to generate energy"
+			id: "64FDF3BD785A8589"
 			tasks: [{
-				id: "6AA0F77B9DE4923F",
-				type: "item",
+				id: "6AA0F77B9DE4923F"
+				type: "item"
 				item: "extragenerators:steam_generator"
-			}],
+			}]
 			rewards: [{
-				id: "0D8782E4CC438A26",
-				type: "random",
+				id: "0D8782E4CC438A26"
+				type: "random"
 				table_id: 70152086514459238L
 			}]
-		},
+		}
 		{
-			x: 6.5d,
-			y: 4.5d,
-			subtitle: "Uses food to generate energy",
-			id: "42244A963B40808A",
+			x: 6.5d
+			y: 4.5d
+			subtitle: "Uses food to generate energy"
+			id: "42244A963B40808A"
 			tasks: [{
-				id: "3BD5F52F25945C99",
-				type: "item",
+				id: "3BD5F52F25945C99"
+				type: "item"
 				item: "extragenerators:gluttony_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "1ED9F8EF1B07B23A",
-					type: "random",
+					id: "1ED9F8EF1B07B23A"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "3E9B97F99F9399DB",
-					type: "random",
+					id: "3E9B97F99F9399DB"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "15A743CA38A200F1",
-					type: "random",
+					id: "15A743CA38A200F1"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "63F5F3BFFCD2CBFC",
-					type: "random",
+					id: "63F5F3BFFCD2CBFC"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "30608A0AC9760EF2",
-					type: "random",
+					id: "30608A0AC9760EF2"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "24996FD85A7D9E46",
-					type: "random",
+					id: "24996FD85A7D9E46"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "0D4F8232FA278D1B",
-					type: "random",
+					id: "0D4F8232FA278D1B"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "40107AD11E86C062",
-					type: "random",
+					id: "40107AD11E86C062"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "5A440A6A00CE5EC7",
-					type: "random",
+					id: "5A440A6A00CE5EC7"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "6A69E9DA1F521E8A",
-					type: "random",
+					id: "6A69E9DA1F521E8A"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "2D90285C72C00770",
-					type: "random",
+					id: "2D90285C72C00770"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "227A1F5246351C01",
-					type: "random",
+					id: "227A1F5246351C01"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "53687E35A326310C",
-					type: "random",
+					id: "53687E35A326310C"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "1FA3C58DCA6A3088",
-					type: "random",
+					id: "1FA3C58DCA6A3088"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "3486A02454A53F86",
-					type: "random",
+					id: "3486A02454A53F86"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "4F2AF1DA7E9C6915",
-					type: "random",
+					id: "4F2AF1DA7E9C6915"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "5EDD71C3D71A8DCC",
-					type: "random",
+					id: "5EDD71C3D71A8DCC"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "6168F3BD86DDBFC7",
-					type: "random",
+					id: "6168F3BD86DDBFC7"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "38EC9B5FAFE9ACBA",
-					type: "random",
+					id: "38EC9B5FAFE9ACBA"
+					type: "random"
 					table_id: 1697359609362440165L
-				},
+				}
 				{
-					id: "6028AB7E9D6980ED",
-					type: "random",
+					id: "6028AB7E9D6980ED"
+					type: "random"
 					table_id: 1697359609362440165L
 				}
 			]
-		},
+		}
 		{
-			x: 6.5d,
-			y: 3.5d,
-			subtitle: "Uses potions to generate energy",
-			id: "0358438976ED1B49",
+			x: 6.5d
+			y: 3.5d
+			subtitle: "Uses potions to generate energy"
+			id: "0358438976ED1B49"
 			tasks: [{
-				id: "68B9AA6DFD5261D4",
-				type: "item",
+				id: "68B9AA6DFD5261D4"
+				type: "item"
 				item: "extragenerators:brew_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "70FB44C51F298E71",
-					type: "random",
+					id: "70FB44C51F298E71"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "36E6AE8FDE66DF43",
-					type: "item",
-					item: "minecraft:brewing_stand",
+					id: "36E6AE8FDE66DF43"
+					type: "item"
+					item: "minecraft:brewing_stand"
 					count: 3
 				}
 			]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 3.5d,
-			subtitle: "Uses redstone and lava to generate energy",
-			id: "2B481D35757519C6",
+			x: 1.5d
+			y: 3.5d
+			subtitle: "Uses redstone and lava to generate energy"
+			id: "2B481D35757519C6"
 			tasks: [{
-				id: "18F337D14ACDE69E",
-				type: "item",
+				id: "18F337D14ACDE69E"
+				type: "item"
 				item: "extragenerators:redstone_generator"
-			}],
+			}]
 			rewards: [{
-				id: "64EF2D8F2722EC7B",
-				type: "random",
+				id: "64EF2D8F2722EC7B"
+				type: "random"
 				table_id: 70152086514459238L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 4.5d,
-			subtitle: "Uses TNT or gunpowder to generate energy",
-			id: "3AE814DEE0397E8E",
+			x: 1.5d
+			y: 4.5d
+			subtitle: "Uses TNT or gunpowder to generate energy"
+			id: "3AE814DEE0397E8E"
 			tasks: [{
-				id: "3E4B832DA894B7EA",
-				type: "item",
+				id: "3E4B832DA894B7EA"
+				type: "item"
 				item: "extragenerators:blast_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "13C459087E4F7C66",
-					type: "random",
+					id: "13C459087E4F7C66"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "1874B73B4EA57316",
-					type: "random",
+					id: "1874B73B4EA57316"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "4A7E6C1C3ED690D6",
-					type: "random",
+					id: "4A7E6C1C3ED690D6"
+					type: "random"
 					table_id: 3279900820427924797L
 				}
 			]
-		},
+		}
 		{
-			x: 6.5d,
-			y: 5.5d,
-			subtitle: "Uses enchanted books to generate energy",
-			id: "1AC81453ACE4B6A3",
+			x: 6.5d
+			y: 5.5d
+			subtitle: "Uses enchanted books to generate energy"
+			id: "1AC81453ACE4B6A3"
 			tasks: [{
-				id: "4AACC7B6E5DDA9BD",
-				type: "item",
+				id: "4AACC7B6E5DDA9BD"
+				type: "item"
 				item: "extragenerators:enchanted_generator"
-			}],
+			}]
 			rewards: [{
-				id: "7F4CCAF1A42B2443",
-				type: "random",
+				id: "7F4CCAF1A42B2443"
+				type: "random"
 				table_id: 70152086514459238L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 5.5d,
-			subtitle: "Uses mob drops to generate energy",
-			id: "581797955ECDF2F9",
+			x: 1.5d
+			y: 5.5d
+			subtitle: "Uses mob drops to generate energy"
+			id: "581797955ECDF2F9"
 			tasks: [{
-				id: "0476A49D63487097",
-				type: "item",
+				id: "0476A49D63487097"
+				type: "item"
 				item: "extragenerators:demise_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "38010422BA022EE5",
-					type: "random",
+					id: "38010422BA022EE5"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "4B4B676A446F5EAE",
-					type: "random",
+					id: "4B4B676A446F5EAE"
+					type: "random"
 					table_id: 5705109811401542117L
 				}
 			]
-		},
+		}
 		{
-			x: 5.5d,
-			y: 5.5d,
-			subtitle: "Uses dragon's breath, dragon head or dragon egg to generat energy",
-			id: "585DDFACFC8971B4",
+			x: 5.5d
+			y: 5.5d
+			subtitle: "Uses dragon's breath, dragon head or dragon egg to generat energy"
+			id: "585DDFACFC8971B4"
 			tasks: [{
-				id: "6E6904ADE315E668",
-				type: "item",
+				id: "6E6904ADE315E668"
+				type: "item"
 				item: "extragenerators:dragon_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "35921367A91128AF",
-					type: "random",
+					id: "35921367A91128AF"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "09D0D89B76068ADF",
-					type: "random",
+					id: "09D0D89B76068ADF"
+					type: "random"
 					table_id: 70152086514459238L
 				}
 			]
-		},
+		}
 		{
-			x: 2.5d,
-			y: 5.5d,
-			subtitle: "Uses nether stars, wither skeleton skulls or wither roses to generate energy",
-			id: "6B324923C3D16AE0",
+			x: 2.5d
+			y: 5.5d
+			subtitle: "Uses nether stars, wither skeleton skulls or wither roses to generate energy"
+			id: "6B324923C3D16AE0"
 			tasks: [{
-				id: "0183F78594BF543B",
-				type: "item",
+				id: "0183F78594BF543B"
+				type: "item"
 				item: "extragenerators:withered_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "6D2BE96305F29742",
-					type: "random",
+					id: "6D2BE96305F29742"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "127BC3FFAD39F50F",
-					type: "random",
+					id: "127BC3FFAD39F50F"
+					type: "random"
 					table_id: 70152086514459238L
 				}
 			]
-		},
+		}
 		{
-			x: 5.5d,
-			y: 4.5d,
-			subtitle: "Only works if you have all other generators running at the same time",
+			x: 5.5d
+			y: 4.5d
+			subtitle: "Only works if you have all other generators running at the same time"
 			dependencies: [
-				"051BEBF649B17D0D",
-				"2718367F51D73E2F",
-				"038C6C74DEEF9303",
-				"0358438976ED1B49",
-				"42244A963B40808A",
-				"585DDFACFC8971B4",
-				"1AC81453ACE4B6A3",
+				"051BEBF649B17D0D"
+				"2718367F51D73E2F"
+				"038C6C74DEEF9303"
+				"0358438976ED1B49"
+				"42244A963B40808A"
+				"585DDFACFC8971B4"
+				"1AC81453ACE4B6A3"
 				"353FA5394C021773"
-			],
-			id: "117AB17F1EF8088E",
+			]
+			id: "117AB17F1EF8088E"
 			tasks: [{
-				id: "1054BCCD02A5D91B",
-				type: "item",
+				id: "1054BCCD02A5D91B"
+				type: "item"
 				item: "extragenerators:heavenly_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "21260526D5B46499",
-					type: "random",
+					id: "21260526D5B46499"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "3C5F7D3497C5E837",
-					type: "random",
+					id: "3C5F7D3497C5E837"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "5CBF966D0C075A2D",
-					type: "random",
+					id: "5CBF966D0C075A2D"
+					type: "random"
 					table_id: 5705109811401542117L
-				},
+				}
 				{
-					id: "4D5E2711252484D3",
-					type: "random",
+					id: "4D5E2711252484D3"
+					type: "random"
 					table_id: 70152086514459238L
 				}
 			]
-		},
+		}
 		{
-			x: 2.5d,
-			y: 4.5d,
-			subtitle: "Only works if you have all other generators running at the same time",
+			x: 2.5d
+			y: 4.5d
+			subtitle: "Only works if you have all other generators running at the same time"
 			dependencies: [
-				"3AE814DEE0397E8E",
-				"59CD18017A8BAE95",
-				"2B481D35757519C6",
-				"64FDF3BD785A8589",
-				"39089A6A3188DC63",
-				"4368A26E1F3DAADD",
-				"6B324923C3D16AE0",
+				"3AE814DEE0397E8E"
+				"59CD18017A8BAE95"
+				"2B481D35757519C6"
+				"64FDF3BD785A8589"
+				"39089A6A3188DC63"
+				"4368A26E1F3DAADD"
+				"6B324923C3D16AE0"
 				"581797955ECDF2F9"
-			],
-			id: "01EDB143FC04C604",
+			]
+			id: "01EDB143FC04C604"
 			tasks: [{
-				id: "5F83404135132CE7",
-				type: "item",
+				id: "5F83404135132CE7"
+				type: "item"
 				item: "extragenerators:infernal_generator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "631BF9054B1E9539",
-					type: "random",
+					id: "631BF9054B1E9539"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "1DF85B50359EF7C8",
-					type: "random",
+					id: "1DF85B50359EF7C8"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "35C52328D28DE663",
-					type: "random",
+					id: "35C52328D28DE663"
+					type: "random"
 					table_id: 70152086514459238L
-				},
+				}
 				{
-					id: "71BB371020EC2F98",
-					type: "random",
+					id: "71BB371020EC2F98"
+					type: "random"
 					table_id: 5616614316702311893L
 				}
 			]

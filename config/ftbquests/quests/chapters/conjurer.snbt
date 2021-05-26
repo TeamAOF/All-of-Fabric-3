@@ -1,164 +1,163 @@
 {
-	id: "7FC95F70C23E78CE",
-	group: "69635F1F4DBE9CD3",
-	order_index: 0,
-	filename: "conjurer",
-	title: "Conjurer",
-	icon: "conjuring:conjurer",
-	always_invisible: true,
-	default_quest_shape: "",
+	id: "7FC95F70C23E78CE"
+	group: ""
+	order_index: 11
+	filename: "conjurer"
+	title: "Conjuring"
+	icon: "conjuring:conjurer"
+	default_quest_shape: ""
 	quests: [
 		{
-			x: 0.0d,
-			y: 0.0d,
-			id: "4A3333C9741BCCE5",
+			x: 0.0d
+			y: 0.0d
+			id: "4A3333C9741BCCE5"
 			tasks: [{
-				id: "073EEA22955A9488",
-				type: "item",
+				id: "073EEA22955A9488"
+				type: "item"
 				item: "conjuring:conjuring_scepter"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 0.0d,
+			x: 1.0d
+			y: 0.0d
 			dependencies: [
-				"4A3333C9741BCCE5",
+				"4A3333C9741BCCE5"
 				"5FF3E722E09A1B1F"
-			],
-			id: "30F9CCC81006C1C9",
+			]
+			id: "30F9CCC81006C1C9"
 			tasks: [{
-				id: "496DDE52A2B1DC66",
-				type: "item",
+				id: "496DDE52A2B1DC66"
+				type: "item"
 				item: "conjuring:superior_conjuring_scepter"
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: 1.0d,
-			id: "7B193434D8AAB910",
+			x: -1.0d
+			y: 1.0d
+			id: "7B193434D8AAB910"
 			tasks: [{
-				id: "4011F145FB47E6E5",
-				type: "item",
+				id: "4011F145FB47E6E5"
+				type: "item"
 				item: "conjuring:lesser_conjuration_essence"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 1.0d,
-			dependencies: ["7B193434D8AAB910"],
-			id: "7E927904DF852EE6",
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["7B193434D8AAB910"]
+			id: "7E927904DF852EE6"
 			tasks: [{
-				id: "5A22B1577CB5DF59",
-				type: "item",
+				id: "5A22B1577CB5DF59"
+				type: "item"
 				item: "conjuring:conjuration_essence"
 			}]
-		},
+		}
 		{
-			x: -5.0d,
-			y: 1.0d,
-			subtitle: "Used to craft charms",
-			id: "7473F5D8EFC2DF35",
+			x: -5.0d
+			y: 1.0d
+			subtitle: "Used to craft charms"
+			id: "7473F5D8EFC2DF35"
 			tasks: [{
-				id: "39730093E1B9F559",
-				type: "item",
+				id: "39730093E1B9F559"
+				type: "item"
 				item: "conjuring:gem_socket"
 			}]
-		},
+		}
 		{
-			x: -4.0d,
-			y: 1.0d,
-			dependencies: ["7473F5D8EFC2DF35"],
-			id: "4383C9F396B68D4D",
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["7473F5D8EFC2DF35"]
+			id: "4383C9F396B68D4D"
 			tasks: [{
-				id: "5D97E23E4D386F05",
-				type: "item",
+				id: "5D97E23E4D386F05"
+				type: "item"
 				item: "conjuring:haste_charm"
 			}]
-		},
+		}
 		{
-			x: -5.0d,
-			y: 2.0d,
-			dependencies: ["5D3E4EC02FEC4472"],
-			id: "26CB59D8BCAF21CE",
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["5D3E4EC02FEC4472"]
+			id: "26CB59D8BCAF21CE"
 			tasks: [{
-				id: "58ACD034C6C8696F",
-				type: "item",
+				id: "58ACD034C6C8696F"
+				type: "item"
 				item: "conjuring:ignorance_charm"
 			}]
-		},
+		}
 		{
-			x: -6.0d,
-			y: 1.0d,
-			dependencies: ["7473F5D8EFC2DF35"],
-			id: "6F17F9051F3254E3",
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["7473F5D8EFC2DF35"]
+			id: "6F17F9051F3254E3"
 			tasks: [{
-				id: "503E794B255034E7",
-				type: "item",
+				id: "503E794B255034E7"
+				type: "item"
 				item: "conjuring:plentifulness_charm"
 			}]
-		},
+		}
 		{
-			x: -5.0d,
-			y: 0.0d,
-			dependencies: ["7473F5D8EFC2DF35"],
-			id: "5D3E4EC02FEC4472",
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["7473F5D8EFC2DF35"]
+			id: "5D3E4EC02FEC4472"
 			tasks: [{
-				id: "68EAC4AD3E2DCD8E",
-				type: "item",
+				id: "68EAC4AD3E2DCD8E"
+				type: "item"
 				item: "conjuring:scope_charm"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 2.0d,
-			dependencies: ["7E927904DF852EE6"],
-			id: "4327B63C69B38C8C",
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["7E927904DF852EE6"]
+			id: "4327B63C69B38C8C"
 			tasks: [{
-				id: "6DC198D43CB531B7",
-				type: "item",
+				id: "6DC198D43CB531B7"
+				type: "item"
 				item: "conjuring:conjurer"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 2.0d,
-			id: "7673FB8F9BF6579D",
+			x: -2.0d
+			y: 2.0d
+			id: "7673FB8F9BF6579D"
 			tasks: [
 				{
-					id: "06970BCF3AACD359",
-					type: "item",
+					id: "06970BCF3AACD359"
+					type: "item"
 					item: {
-						id: "conjuring:conjuring_focus",
-						Count: 1b,
+						id: "conjuring:conjuring_focus"
+						Count: 1b
 						tag: { }
 					}
-				},
+				}
 				{
-					id: "7196EE06AEF45362",
-					type: "item",
+					id: "7196EE06AEF45362"
+					type: "item"
 					item: "conjuring:soul_funnel"
 				}
 			]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 0.0d,
-			subtitle: "Used to craft conjuration items",
-			id: "3DC1B15970FD9E3D",
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Used to craft conjuration items"
+			id: "3DC1B15970FD9E3D"
 			tasks: [{
-				id: "29296042467BEABB",
-				type: "item",
+				id: "29296042467BEABB"
+				type: "item"
 				item: "conjuring:soulfire_forge"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 1.0d,
-			dependencies: ["7E927904DF852EE6"],
-			id: "5FF3E722E09A1B1F",
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["7E927904DF852EE6"]
+			id: "5FF3E722E09A1B1F"
 			tasks: [{
-				id: "0E3B4EB0DFDEC06B",
-				type: "item",
+				id: "0E3B4EB0DFDEC06B"
+				type: "item"
 				item: "conjuring:soul_rod"
 			}]
 		}

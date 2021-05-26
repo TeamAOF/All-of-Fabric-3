@@ -1,193 +1,193 @@
 {
-	id: "79EC62003681D496",
-	group: "",
-	order_index: 14,
-	filename: "sandwhichable",
-	title: "Sandwichable",
-	icon: "sandwichable:sandwich_table",
-	default_quest_shape: "",
+	id: "79EC62003681D496"
+	group: ""
+	order_index: 15
+	filename: "sandwhichable"
+	title: "Sandwichable"
+	icon: "sandwichable:sandwich_table"
+	default_quest_shape: ""
 	quests: [
 		{
-			x: -3.0d,
-			y: -2.0d,
-			id: "181ACDF2EF2132BE",
+			x: -3.0d
+			y: -2.0d
+			id: "181ACDF2EF2132BE"
 			tasks: [{
-				id: "0C3871C68CD7AC7B",
-				type: "item",
+				id: "0C3871C68CD7AC7B"
+				type: "item"
 				item: "sandwichable:sandwich_table"
-			}],
+			}]
 			rewards: [{
-				id: "3D3865C395747FE4",
-				type: "item",
-				item: "minecraft:bread",
+				id: "3D3865C395747FE4"
+				type: "item"
+				item: "minecraft:bread"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -0.5d,
-			id: "07E988EF9D621181",
+			x: -1.5d
+			y: -0.5d
+			id: "07E988EF9D621181"
 			tasks: [{
-				id: "0EA8BAF337ABD1D0",
-				type: "item",
+				id: "0EA8BAF337ABD1D0"
+				type: "item"
 				item: "sandwichable:toaster"
-			}],
+			}]
 			rewards: [{
-				id: "3574198F950C448F",
-				type: "random",
+				id: "3574198F950C448F"
+				type: "random"
 				table_id: 3279900820427924797L
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -0.5d,
-			id: "682E85F3AEB4E8DC",
+			x: -3.0d
+			y: -0.5d
+			id: "682E85F3AEB4E8DC"
 			tasks: [{
-				id: "2D2667BD8F5BA5EA",
-				type: "item",
+				id: "2D2667BD8F5BA5EA"
+				type: "item"
 				item: "sandwichable:desalinator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "066F6D387EC9F00C",
-					type: "random",
+					id: "066F6D387EC9F00C"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "44B9A2F672595FE8",
-					type: "item",
-					item: "sandwichable:salt",
+					id: "44B9A2F672595FE8"
+					type: "item"
+					item: "sandwichable:salt"
 					count: 4
 				}
 			]
-		},
+		}
 		{
-			x: 0.5d,
-			y: -1.0d,
-			dependencies: ["05FDB4295F55CF7D"],
-			id: "509CA568BB9B89FB",
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["05FDB4295F55CF7D"]
+			id: "509CA568BB9B89FB"
 			tasks: [{
-				id: "6DD161DA00B2ECE2",
-				type: "item",
+				id: "6DD161DA00B2ECE2"
+				type: "item"
 				item: "sandwichable:stone_kitchen_knife"
-			}],
+			}]
 			rewards: [{
-				id: "155B2B79CD261CFA",
-				type: "item",
-				item: "minecraft:beef",
+				id: "155B2B79CD261CFA"
+				type: "item"
+				item: "minecraft:beef"
 				count: 2
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: 0.0d,
-			dependencies: ["509CA568BB9B89FB"],
-			id: "4307BEA2A3ABB70B",
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["509CA568BB9B89FB"]
+			id: "4307BEA2A3ABB70B"
 			tasks: [{
-				id: "21FAF37CF572C82F",
-				type: "item",
+				id: "21FAF37CF572C82F"
+				type: "item"
 				item: "sandwichable:kitchen_knife"
-			}],
+			}]
 			rewards: [{
-				id: "748B8EDB1E0FE818",
-				type: "item",
-				item: "minecraft:beef",
+				id: "748B8EDB1E0FE818"
+				type: "item"
+				item: "minecraft:beef"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: 1.0d,
-			dependencies: ["4307BEA2A3ABB70B"],
-			id: "0DB06ADB84C9456D",
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["4307BEA2A3ABB70B"]
+			id: "0DB06ADB84C9456D"
 			tasks: [{
-				id: "11DB83C774352B4D",
-				type: "item",
+				id: "11DB83C774352B4D"
+				type: "item"
 				item: "sandwichable:golden_kitchen_knife"
-			}],
+			}]
 			rewards: [{
-				id: "1DAE8A7710CE195F",
-				type: "item",
-				item: "minecraft:beef",
+				id: "1DAE8A7710CE195F"
+				type: "item"
+				item: "minecraft:beef"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: 2.0d,
-			dependencies: ["0DB06ADB84C9456D"],
-			id: "56C489F46D8E1975",
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["0DB06ADB84C9456D"]
+			id: "56C489F46D8E1975"
 			tasks: [{
-				id: "65FFED70CBED59B1",
-				type: "item",
+				id: "65FFED70CBED59B1"
+				type: "item"
 				item: "sandwichable:diamond_kitchen_knife"
-			}],
+			}]
 			rewards: [{
-				id: "3BD5EDBA32693651",
-				type: "item",
-				item: "minecraft:beef",
+				id: "3BD5EDBA32693651"
+				type: "item"
+				item: "minecraft:beef"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: 3.0d,
-			dependencies: ["56C489F46D8E1975"],
-			id: "523FA10926E039EB",
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["56C489F46D8E1975"]
+			id: "523FA10926E039EB"
 			tasks: [{
-				id: "14C8E738CE51041C",
-				type: "item",
+				id: "14C8E738CE51041C"
+				type: "item"
 				item: "sandwichable:netherite_kitchen_knife"
-			}],
+			}]
 			rewards: [
 				{
-					id: "352D60E1DC7C1F7B",
-					type: "item",
+					id: "352D60E1DC7C1F7B"
+					type: "item"
 					item: "sandwichable:salty_stone"
-				},
+				}
 				{
-					id: "473B081E1CFADE13",
-					type: "item",
-					item: "minecraft:beef",
+					id: "473B081E1CFADE13"
+					type: "item"
+					item: "minecraft:beef"
 					count: 32
 				}
 			]
-		},
+		}
 		{
-			x: 0.5d,
-			y: -2.0d,
-			id: "05FDB4295F55CF7D",
+			x: 0.5d
+			y: -2.0d
+			id: "05FDB4295F55CF7D"
 			tasks: [{
-				id: "08DC7C52D3F864F5",
-				type: "item",
+				id: "08DC7C52D3F864F5"
+				type: "item"
 				item: "sandwichable:oak_cutting_board"
-			}],
+			}]
 			rewards: [{
-				id: "16C8FBBA072ACFED",
-				type: "item",
-				item: "minecraft:bread",
+				id: "16C8FBBA072ACFED"
+				type: "item"
+				item: "minecraft:bread"
 				count: 2
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -2.0d,
-			id: "35E4DC54D5E8047D",
+			x: -1.5d
+			y: -2.0d
+			id: "35E4DC54D5E8047D"
 			tasks: [{
-				id: "693ABFC552F87BA1",
-				type: "item",
+				id: "693ABFC552F87BA1"
+				type: "item"
 				item: "sandwichable:empty_pickle_jar"
-			}],
+			}]
 			rewards: [
 				{
-					id: "1413C809F11FC4AA",
-					type: "random",
+					id: "1413C809F11FC4AA"
+					type: "random"
 					table_id: 3279900820427924797L
-				},
+				}
 				{
-					id: "40DB39A14A91763C",
-					type: "item",
-					item: "sandwichable:salt",
+					id: "40DB39A14A91763C"
+					type: "item"
+					item: "sandwichable:salt"
 					count: 4
 				}
 			]

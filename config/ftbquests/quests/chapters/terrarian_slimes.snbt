@@ -1,398 +1,398 @@
 {
-	id: "1C850C96DC2696D1",
-	group: "",
-	order_index: 18,
-	filename: "terrarian_slimes",
-	title: "Terrarian Slimes",
-	default_quest_shape: "",
+	id: "1C850C96DC2696D1"
+	group: ""
+	order_index: 19
+	filename: "terrarian_slimes"
+	title: "Terrarian Slimes"
+	default_quest_shape: ""
 	quests: [
 		{
-			x: 0.0d,
-			y: 0.0d,
-			subtitle: "Makes slimes friendly to the holder",
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Makes slimes friendly to the holder"
 			dependencies: [
-				"54404D8221AE84B0",
-				"6CC6C7B48A9069A5",
-				"7B0D8DB5115933E3",
-				"05056AD7F1DCA6E9",
-				"543BF75497436396",
-				"2DCB4F9E68A06C31",
-				"4F20054FD43F432A",
-				"38DEE1F4AEB87B5E",
+				"54404D8221AE84B0"
+				"6CC6C7B48A9069A5"
+				"7B0D8DB5115933E3"
+				"05056AD7F1DCA6E9"
+				"543BF75497436396"
+				"2DCB4F9E68A06C31"
+				"4F20054FD43F432A"
+				"38DEE1F4AEB87B5E"
 				"6AABF1B162F3C012"
-			],
-			id: "3B0A727A67E5BC86",
+			]
+			id: "3B0A727A67E5BC86"
 			tasks: [{
-				id: "1F3E80CB1D5DDFB2",
-				type: "item",
+				id: "1F3E80CB1D5DDFB2"
+				type: "item"
 				item: "terrarianslimes:royal_gel"
-			}],
+			}]
 			rewards: [
 				{
-					id: "287F830FE5A6F7AE",
-					type: "random",
+					id: "287F830FE5A6F7AE"
+					type: "random"
 					table_id: 3133982820876343405L
-				},
+				}
 				{
-					id: "367940506C381263",
-					type: "random",
+					id: "367940506C381263"
+					type: "random"
 					table_id: 3133982820876343405L
 				}
 			]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -1.5d,
-			subtitle: "Dropped from the king slime",
-			dependencies: ["194B598105DE7854"],
-			id: "4F20054FD43F432A",
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Dropped from the king slime"
+			dependencies: ["194B598105DE7854"]
+			id: "4F20054FD43F432A"
 			tasks: [{
-				id: "09A6DC43746E0028",
-				type: "item",
+				id: "09A6DC43746E0028"
+				type: "item"
 				item: "terrarianslimes:king_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "6A7996F06F8211A3",
-				type: "random",
+				id: "6A7996F06F8211A3"
+				type: "random"
 				table_id: 903773656038413314L
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -2.5d,
-			subtitle: "Used to summon the king slime",
-			id: "194B598105DE7854",
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Used to summon the king slime"
+			id: "194B598105DE7854"
 			tasks: [{
-				id: "0C917C8CEF827CFF",
-				type: "item",
+				id: "0C917C8CEF827CFF"
+				type: "item"
 				item: "terrarianslimes:slime_crown"
-			}],
+			}]
 			rewards: [
 				{
-					id: "0A04AFDA7944152E",
-					type: "random",
+					id: "0A04AFDA7944152E"
+					type: "random"
 					table_id: 5613305090647468367L
-				},
+				}
 				{
-					id: "07D66E66ECA9E13C",
-					type: "random",
+					id: "07D66E66ECA9E13C"
+					type: "random"
 					table_id: 3133982820876343405L
 				}
 			]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -1.5d,
-			id: "28CC258827B9790B",
+			x: -3.0d
+			y: -1.5d
+			id: "28CC258827B9790B"
 			tasks: [{
-				id: "52BA9B3DCC39A1DD",
-				type: "item",
+				id: "52BA9B3DCC39A1DD"
+				type: "item"
 				item: "terrarianslimes:glowstick"
-			}],
+			}]
 			rewards: [{
-				id: "6B92D11F0B41AE15",
-				type: "item",
-				item: "terrarianslimes:glowstick",
+				id: "6B92D11F0B41AE15"
+				type: "item"
+				item: "terrarianslimes:glowstick"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -0.5d,
-			dependencies: ["28CC258827B9790B"],
-			id: "0E546D8548A7C71E",
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["28CC258827B9790B"]
+			id: "0E546D8548A7C71E"
 			tasks: [{
-				id: "75A530A02E353849",
-				type: "item",
+				id: "75A530A02E353849"
+				type: "item"
 				item: "terrarianslimes:sticky_glowstick"
-			}],
+			}]
 			rewards: [{
-				id: "778B7DD99C46A2F5",
-				type: "item",
-				item: "terrarianslimes:sticky_glowstick",
+				id: "778B7DD99C46A2F5"
+				type: "item"
+				item: "terrarianslimes:sticky_glowstick"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 0.5d,
-			dependencies: ["0E546D8548A7C71E"],
-			id: "76B6EE2C019DED30",
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["0E546D8548A7C71E"]
+			id: "76B6EE2C019DED30"
 			tasks: [{
-				id: "51B6AEAEEABD74E7",
-				type: "item",
+				id: "51B6AEAEEABD74E7"
+				type: "item"
 				item: "terrarianslimes:bouncy_glowstick"
-			}],
+			}]
 			rewards: [{
-				id: "29606D3A3F3C883F",
-				type: "item",
-				item: "terrarianslimes:bouncy_glowstick",
+				id: "29606D3A3F3C883F"
+				type: "item"
+				item: "terrarianslimes:bouncy_glowstick"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: 1.5d,
-			id: "05056AD7F1DCA6E9",
+			x: 0.5d
+			y: 1.5d
+			id: "05056AD7F1DCA6E9"
 			tasks: [{
-				id: "6035499A59D7B49F",
-				type: "item",
+				id: "6035499A59D7B49F"
+				type: "item"
 				item: "terrarianslimes:ice_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "37C88F969CF6B2C7",
-				type: "random",
+				id: "37C88F969CF6B2C7"
+				type: "random"
 				table_id: 5613305090647468367L
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: -1.5d,
-			id: "2DCB4F9E68A06C31",
+			x: 1.0d
+			y: -1.5d
+			id: "2DCB4F9E68A06C31"
 			tasks: [{
-				id: "17B7928FD4F82393",
-				type: "item",
+				id: "17B7928FD4F82393"
+				type: "item"
 				item: "terrarianslimes:jungle_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "76A3C02A7C68BFD9",
-				type: "random",
+				id: "76A3C02A7C68BFD9"
+				type: "random"
 				table_id: 5613305090647468367L
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -1.5d,
-			id: "54404D8221AE84B0",
+			x: -1.0d
+			y: -1.5d
+			id: "54404D8221AE84B0"
 			tasks: [{
-				id: "216D7CEC604502BF",
-				type: "item",
+				id: "216D7CEC604502BF"
+				type: "item"
 				item: "terrarianslimes:black_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "5C41AD8B0805CE44",
-				type: "random",
+				id: "5C41AD8B0805CE44"
+				type: "random"
 				table_id: 5613305090647468367L
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -0.5d,
-			id: "7B0D8DB5115933E3",
+			x: -1.5d
+			y: -0.5d
+			id: "7B0D8DB5115933E3"
 			tasks: [{
-				id: "2DF42DAAB31CEF6D",
-				type: "item",
+				id: "2DF42DAAB31CEF6D"
+				type: "item"
 				item: "terrarianslimes:crimson_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "2BBC83E05229BA94",
-				type: "random",
+				id: "2BBC83E05229BA94"
+				type: "random"
 				table_id: 5613305090647468367L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -0.5d,
-			id: "6AABF1B162F3C012",
+			x: 1.5d
+			y: -0.5d
+			id: "6AABF1B162F3C012"
 			tasks: [{
-				id: "32C8B7999B06D570",
-				type: "item",
+				id: "32C8B7999B06D570"
+				type: "item"
 				item: "terrarianslimes:sand_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "030A2A2C662321E5",
-				type: "random",
+				id: "030A2A2C662321E5"
+				type: "random"
 				table_id: 5613305090647468367L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 0.5d,
-			id: "38DEE1F4AEB87B5E",
+			x: 1.5d
+			y: 0.5d
+			id: "38DEE1F4AEB87B5E"
 			tasks: [{
-				id: "244D9C926D92CF4C",
-				type: "item",
+				id: "244D9C926D92CF4C"
+				type: "item"
 				item: "terrarianslimes:rainbow_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "6DCF12B67734CB0D",
-				type: "random",
+				id: "6DCF12B67734CB0D"
+				type: "random"
 				table_id: 5613305090647468367L
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 1.5d,
-			id: "543BF75497436396",
+			x: -0.5d
+			y: 1.5d
+			id: "543BF75497436396"
 			tasks: [{
-				id: "06B021AF7C1064A7",
-				type: "item",
+				id: "06B021AF7C1064A7"
+				type: "item"
 				item: "terrarianslimes:illuminant_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "1B4100D64ADC3217",
-				type: "random",
+				id: "1B4100D64ADC3217"
+				type: "random"
 				table_id: 5613305090647468367L
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 0.5d,
-			id: "6CC6C7B48A9069A5",
+			x: -1.5d
+			y: 0.5d
+			id: "6CC6C7B48A9069A5"
 			tasks: [{
-				id: "4B1C71BDEC17C71B",
-				type: "item",
+				id: "4B1C71BDEC17C71B"
+				type: "item"
 				item: "terrarianslimes:corrupt_slime_ball"
-			}],
+			}]
 			rewards: [{
-				id: "64D66C12E50C6FCE",
-				type: "random",
+				id: "64D66C12E50C6FCE"
+				type: "random"
 				table_id: 5613305090647468367L
 			}]
-		},
+		}
 		{
-			title: "Explosives",
-			x: -5.0d,
-			y: -1.5d,
-			id: "1DDF05A79BF2BEFC",
+			title: "Explosives"
+			x: -5.0d
+			y: -1.5d
+			id: "1DDF05A79BF2BEFC"
 			tasks: [
 				{
-					id: "128364BF605DE157",
-					type: "item",
+					id: "128364BF605DE157"
+					type: "item"
 					item: "terrarianslimes:grenade"
-				},
+				}
 				{
-					id: "4A210B7CC24A1607",
-					type: "item",
+					id: "4A210B7CC24A1607"
+					type: "item"
 					item: "terrarianslimes:bomb"
-				},
+				}
 				{
-					id: "1386BD913313224C",
-					type: "item",
+					id: "1386BD913313224C"
+					type: "item"
 					item: "terrarianslimes:dynamite"
 				}
-			],
+			]
 			rewards: [
 				{
-					id: "10B38BE24A7127DF",
-					type: "item",
-					item: "terrarianslimes:grenade",
+					id: "10B38BE24A7127DF"
+					type: "item"
+					item: "terrarianslimes:grenade"
 					count: 8
-				},
+				}
 				{
-					id: "4A2C4B4577C49E5F",
-					type: "random",
+					id: "4A2C4B4577C49E5F"
+					type: "random"
 					table_id: 5613305090647468367L
 				}
 			]
-		},
+		}
 		{
-			title: "Sticky Explosives",
-			x: -5.0d,
-			y: -0.5d,
-			dependencies: ["1DDF05A79BF2BEFC"],
-			dependency_requirement: "one_completed",
-			id: "6475DE1ED2A8E769",
+			title: "Sticky Explosives"
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["1DDF05A79BF2BEFC"]
+			dependency_requirement: "one_completed"
+			id: "6475DE1ED2A8E769"
 			tasks: [
 				{
-					id: "30E70FDEBABEBE1E",
-					type: "item",
+					id: "30E70FDEBABEBE1E"
+					type: "item"
 					item: "terrarianslimes:sticky_grenade"
-				},
+				}
 				{
-					id: "40E277422C0312C3",
-					type: "item",
+					id: "40E277422C0312C3"
+					type: "item"
 					item: "terrarianslimes:sticky_bomb"
-				},
+				}
 				{
-					id: "6CD112DFD64E0255",
-					type: "item",
+					id: "6CD112DFD64E0255"
+					type: "item"
 					item: "terrarianslimes:sticky_dynamite"
 				}
-			],
+			]
 			rewards: [
 				{
-					id: "50CF2F5B30BDD094",
-					type: "item",
-					item: "terrarianslimes:sticky_grenade",
+					id: "50CF2F5B30BDD094"
+					type: "item"
+					item: "terrarianslimes:sticky_grenade"
 					count: 8
-				},
+				}
 				{
-					id: "55027FFAE056134B",
-					type: "random",
+					id: "55027FFAE056134B"
+					type: "random"
 					table_id: 5613305090647468367L
 				}
 			]
-		},
+		}
 		{
-			title: "Bouncy Explosives",
-			x: -5.0d,
-			y: 0.5d,
-			dependencies: ["6475DE1ED2A8E769"],
-			dependency_requirement: "one_completed",
-			id: "2252A38D9CE9411A",
+			title: "Bouncy Explosives"
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["6475DE1ED2A8E769"]
+			dependency_requirement: "one_completed"
+			id: "2252A38D9CE9411A"
 			tasks: [
 				{
-					id: "504DB0340BD3B324",
-					type: "item",
+					id: "504DB0340BD3B324"
+					type: "item"
 					item: "terrarianslimes:bouncy_grenade"
-				},
+				}
 				{
-					id: "2BA03B9A05FCB39D",
-					type: "item",
+					id: "2BA03B9A05FCB39D"
+					type: "item"
 					item: "terrarianslimes:bouncy_bomb"
-				},
+				}
 				{
-					id: "480899E8F8E58B82",
-					type: "item",
+					id: "480899E8F8E58B82"
+					type: "item"
 					item: "terrarianslimes:bouncy_dynamite"
 				}
-			],
+			]
 			rewards: [
 				{
-					id: "5180CE020E248B5D",
-					type: "item",
-					item: "terrarianslimes:bouncy_grenade",
+					id: "5180CE020E248B5D"
+					type: "item"
+					item: "terrarianslimes:bouncy_grenade"
 					count: 8
-				},
+				}
 				{
-					id: "7854C6D27372CC39",
-					type: "random",
+					id: "7854C6D27372CC39"
+					type: "random"
 					table_id: 5613305090647468367L
 				}
 			]
-		},
+		}
 		{
-			title: "Slime food",
-			x: -4.0d,
-			y: -2.5d,
-			id: "58FEC20FB2388B96",
+			title: "Slime food"
+			x: -4.0d
+			y: -2.5d
+			id: "58FEC20FB2388B96"
 			tasks: [
 				{
-					id: "6F8743C186982D2A",
-					type: "item",
+					id: "6F8743C186982D2A"
+					type: "item"
 					item: "terrarianslimes:apple_pie"
-				},
+				}
 				{
-					id: "47BAA581C9A431BB",
-					type: "item",
+					id: "47BAA581C9A431BB"
+					type: "item"
 					item: "terrarianslimes:blessed_apple"
-				},
+				}
 				{
-					id: "40031EF4730ED7A8",
-					type: "item",
+					id: "40031EF4730ED7A8"
+					type: "item"
 					item: "terrarianslimes:ice_cream"
 				}
-			],
+			]
 			rewards: [
 				{
-					id: "54195E6A51FAA282",
-					type: "random",
+					id: "54195E6A51FAA282"
+					type: "random"
 					table_id: 5705109811401542117L
-				},
+				}
 				{
-					id: "3C78E26C435A090B",
-					type: "random",
+					id: "3C78E26C435A090B"
+					type: "random"
 					table_id: 5613305090647468367L
 				}
 			]

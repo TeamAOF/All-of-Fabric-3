@@ -1,20 +1,20 @@
 {
-	id: "66B7E0F5F66B6BF7",
-	order_index: 12,
-	title: "Color Modules",
-	icon: "indrev:module_color_pink",
-	loot_size: 1,
-	hide_tooltip: true,
+	id: "66B7E0F5F66B6BF7"
+	order_index: 12
+	title: "Color Modules"
+	icon: "indrev:module_color_pink"
+	loot_size: 1
+	hide_tooltip: true
 	rewards: [
-		{ item: "indrev:module_color_pink" },
-		{ item: "indrev:module_color_red" },
-		{ item: "indrev:module_color_purple" },
-		{ item: "indrev:module_color_blue" },
-		{ item: "indrev:module_color_cyan" },
-		{ item: "indrev:module_color_green" },
-		{ item: "indrev:module_color_yellow" },
-		{ item: "indrev:module_color_orange" },
-		{ item: "indrev:module_color_black" },
+		{ item: "indrev:module_color_pink" }
+		{ item: "indrev:module_color_red" }
+		{ item: "indrev:module_color_purple" }
+		{ item: "indrev:module_color_blue" }
+		{ item: "indrev:module_color_cyan" }
+		{ item: "indrev:module_color_green" }
+		{ item: "indrev:module_color_yellow" }
+		{ item: "indrev:module_color_orange" }
+		{ item: "indrev:module_color_black" }
 		{ item: "indrev:module_color_brown" }
 	]
 }
