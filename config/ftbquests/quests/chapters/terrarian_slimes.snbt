@@ -4,6 +4,7 @@
 	order_index: 19
 	filename: "terrarian_slimes"
 	title: "Terrarian Slimes"
+	icon: "terrarianslimes:slime_crown"
 	default_quest_shape: ""
 	quests: [
 		{

@@ -1,22 +1,31 @@
 {
 	id: "678F1B2A6B0EAD8A"
 	group: ""
-	order_index: 7
+	order_index: 8
 	filename: "kibe"
 	title: "Kibe"
 	icon: "kibe:kibe"
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	quests: [
 		{
-			x: -1.5d
-			y: -0.5d
-			subtitle: "A pocket version of the crafting table that you can access without placing down"
+			title: "Pocket Items"
+			x: -2.0d
+			y: 1.0d
+			subtitle: "Pocket versions of placeable items that can be used from your inventory"
+			dependencies: ["7516D04B8054E8F6"]
 			id: "361EB40A421A54D0"
-			tasks: [{
-				id: "5F0C386671CCED97"
-				type: "item"
-				item: "kibe:pocket_crafting_table"
-			}]
+			tasks: [
+				{
+					id: "5F0C386671CCED97"
+					type: "item"
+					item: "kibe:pocket_crafting_table"
+				}
+				{
+					id: "18D58113D2EDAF5E"
+					type: "item"
+					item: "kibe:pocket_trash_can"
+				}
+			]
 			rewards: [
 				{
 					id: "7BA1CF190C1DE907"
@@ -38,8 +47,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -1.5d
+			x: -5.5d
+			y: 0.5d
 			subtitle: "Nullifies fall damage and makes you bounce instead!"
 			dependencies: ["6DB3219A892587E7"]
 			id: "6DF9ED6B11E39EE5"
@@ -70,10 +79,10 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -2.5d
+			x: -4.5d
+			y: 0.0d
 			subtitle: "Launches you backwards!"
-			dependencies: ["21BEFA852ACC1F25"]
+			dependencies: ["7516D04B8054E8F6"]
 			id: "6DB3219A892587E7"
 			tasks: [{
 				id: "7ACD20B336946E26"
@@ -87,9 +96,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -3.5d
-			subtitle: "A good food source"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Kibe is a mod that adds lots of random, useful items into the game. Also a good food source"
 			id: "58841B1EBF6621D7"
 			tasks: [{
 				id: "3BACDE665F5E88B0"
@@ -104,8 +113,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -3.5d
+			x: -1.0d
+			y: 1.0d
 			subtitle: "Has a chance to kill you when eaten"
 			dependencies: ["58841B1EBF6621D7"]
 			id: "4E57E55B6E5BEA7E"
@@ -122,8 +131,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -3.5d
+			x: -1.0d
+			y: -1.0d
 			subtitle: "A great food source, gives the user some boons!"
 			dependencies: ["58841B1EBF6621D7"]
 			id: "02A0144E86588E14"
@@ -139,10 +148,10 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.5d
+			x: 1.0d
+			y: 1.0d
 			subtitle: "An amazing food source, giving the user many boons!"
-			dependencies: ["02A0144E86588E14"]
+			dependencies: ["58841B1EBF6621D7"]
 			id: "7C411E45471F75A9"
 			tasks: [{
 				id: "1C8E09BBFCE9E474"
@@ -165,9 +174,10 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -1.5d
+			x: 4.0d
+			y: -1.0d
 			subtitle: "Lets you delete items, like lava"
+			dependencies: ["2FC100430DE21634"]
 			id: "414A9FF13407018C"
 			tasks: [{
 				id: "3107AA81795E23B7"
@@ -187,26 +197,10 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
-			subtitle: "A pocket version of the trash can that you can access without placing down"
-			dependencies: ["414A9FF13407018C"]
-			id: "2C097D94E43FCA31"
-			tasks: [{
-				id: "371BA976EFFC9C56"
-				type: "item"
-				item: "kibe:pocket_trash_can"
-			}]
-			rewards: [{
-				id: "59A5EF2770CD44CA"
-				type: "item"
-				item: "minecraft:golden_apple"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.5d
+			x: -2.0d
+			y: -1.0d
 			subtitle: "Pulls in items from range, right click to toggle"
+			dependencies: ["7516D04B8054E8F6"]
 			id: "005579D7253783DD"
 			tasks: [{
 				id: "3DE0218DE8AC27FE"
@@ -233,9 +227,10 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
+			x: -4.0d
+			y: 1.0d
 			subtitle: "Allows you to sleep without setting your spawnpoint"
+			dependencies: ["7516D04B8054E8F6"]
 			id: "5283DE5D0B36F117"
 			tasks: [{
 				id: "41208414FAB8FFB0"
@@ -330,9 +325,10 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -2.5d
+			x: 4.5d
+			y: 0.0d
 			subtitle: "A redstone timer, right click to change the delay"
+			dependencies: ["2FC100430DE21634"]
 			id: "68E6922D87650FCF"
 			tasks: [{
 				id: "3736BE39C21CE3EE"
@@ -352,8 +348,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.5d
+			x: -5.5d
+			y: -0.5d
 			subtitle: "Allows elytra-like gliding"
 			dependencies: ["6DB3219A892587E7"]
 			id: "05A746383CAF92B5"
@@ -450,25 +446,18 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "0571DFC567A50319"
-					type: "item"
-					item: "minecraft:redstone_ore"
-					count: 16
-				}
-				{
-					id: "56942A64914DB5DA"
-					type: "item"
-					item: "minecraft:gold_ore"
-					count: 10
-				}
-			]
+			rewards: [{
+				id: "0FF548D293209A8B"
+				type: "item"
+				item: "minecraft:leather"
+				count: 8
+			}]
 		}
 		{
-			x: 1.5d
-			y: -0.5d
+			x: -1.0d
+			y: -4.0d
 			subtitle: "Moves any entities on top of it in the specified direction."
+			dependencies: ["312C47BD327F4D2F"]
 			id: "723042FEB43DB32B"
 			tasks: [{
 				id: "10275B5AFED17E0A"
@@ -483,8 +472,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.5d
+			x: -2.0d
+			y: -5.0d
 			subtitle: "Moves any entities on top of it in the specified direction. Quickly."
 			dependencies: ["723042FEB43DB32B"]
 			id: "1606B1622251F2DA"
@@ -521,8 +510,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
+			x: -3.0d
+			y: -6.0d
 			subtitle: "Moves any entities on top of it in the specified direction. Very Quickly."
 			dependencies: ["1606B1622251F2DA"]
 			id: "09A32E4B84B60770"
@@ -556,9 +545,10 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 0.5d
+			x: 4.0d
+			y: 1.0d
 			subtitle: "Allows you to jump between different Y levels that are connected by elevators, with a max range of 20 blocks. When on an elevator, press jump to go up and press sneak to go down"
+			dependencies: ["2FC100430DE21634"]
 			id: "430038C243856BEE"
 			tasks: [{
 				id: "15754F0F344385D0"
@@ -646,7 +636,7 @@
 		}
 		{
 			x: 5.5d
-			y: 0.5d
+			y: 5.0d
 			subtitle: "A crafting component for other rings"
 			id: "6A09C575021CFFB3"
 			tasks: [{
@@ -671,7 +661,7 @@
 		}
 		{
 			x: 6.5d
-			y: 0.5d
+			y: 5.0d
 			subtitle: "Gives the user creative flight"
 			dependencies: ["6A09C575021CFFB3"]
 			id: "713D78B576FC2358"
@@ -684,15 +674,27 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "00AB0E3146FC9C79"
-				type: "item"
-				item: "fabric-furnaces:ethereal_furnace"
-			}]
+			rewards: [
+				{
+					id: "173C3F493B328182"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "71B6E4AA70C0D701"
+					type: "random"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6E459DC897C156FF"
+					type: "random"
+					table_id: 3133982820876343405L
+				}
+			]
 		}
 		{
 			x: 5.5d
-			y: -0.5d
+			y: 4.0d
 			subtitle: "Gives the user unlimited fire resistance"
 			dependencies: ["6A09C575021CFFB3"]
 			id: "134A0BDD1EA1B57C"
@@ -714,7 +716,7 @@
 		}
 		{
 			x: 4.5d
-			y: 0.5d
+			y: 5.0d
 			subtitle: "Gives the user unlimited water breathing"
 			dependencies: ["6A09C575021CFFB3"]
 			id: "096BEB1299C8ACFF"
@@ -736,7 +738,7 @@
 		}
 		{
 			x: 5.5d
-			y: 1.5d
+			y: 6.0d
 			subtitle: "Right click to place a light source"
 			dependencies: ["6A09C575021CFFB3"]
 			id: "32CCFCF5BFD43059"
@@ -753,8 +755,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 2.0d
+			y: -5.0d
 			subtitle: "Right click glass to turn it into cursed dirt, which spawns mobs at a high rate"
 			dependencies: ["71A8CB25F05858E3"]
 			id: "06B1CFEDB4820C10"
@@ -771,10 +773,11 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -2.5d
+			x: 1.0d
+			y: -4.0d
 			subtitle: "Dropped by Wither Skeletons"
 			description: [""]
+			dependencies: ["312C47BD327F4D2F"]
 			id: "71A8CB25F05858E3"
 			tasks: [{
 				id: "3E4A39B831FDFDE4"
@@ -789,10 +792,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: 2.0d
+			y: -1.0d
 			subtitle: "Stops hostile mobs from spawning in an area around it, put torches inside to increase that area"
-			dependencies: ["06B1CFEDB4820C10"]
+			dependencies: ["2FC100430DE21634"]
 			id: "5B4EFCF837D869DF"
 			tasks: [{
 				id: "26C8889C7FB1D14E"
@@ -815,10 +818,10 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: -1.0d
+			y: -2.0d
 			subtitle: "Sucks in items and exp from range"
-			dependencies: ["06B1CFEDB4820C10"]
+			dependencies: ["312C47BD327F4D2F"]
 			id: "68FBAC7FEA3519CD"
 			tasks: [{
 				id: "34CD571C5E4907AE"
@@ -845,27 +848,34 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: 0.0d
+			y: -5.5d
 			subtitle: "Damages entities that stand on it"
-			dependencies: ["68FBAC7FEA3519CD"]
+			dependencies: ["4A934D6D649516D8"]
 			id: "3C9101E3DE9CD5F3"
 			tasks: [{
 				id: "4B43456ABF0639E3"
 				type: "item"
 				item: "kibe:iron_spikes"
 			}]
-			rewards: [{
-				id: "1EED86F5E75B98FD"
-				type: "random"
-				table_id: 4023534927821043910L
-			}]
+			rewards: [
+				{
+					id: "1EED86F5E75B98FD"
+					type: "random"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "2DE5AA31AED45C5A"
+					type: "random"
+					table_id: 4023534927821043910L
+				}
+			]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: 0.0d
+			y: -7.5d
 			subtitle: "Damages entities that stand on it, counts as a player when killing mobs"
-			dependencies: ["3C9101E3DE9CD5F3"]
+			dependencies: ["3C5B4706A081433D"]
 			id: "087764F730F2F28F"
 			tasks: [{
 				id: "4A0B72DEAF10B38B"
@@ -886,9 +896,10 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -3.0d
 			y: 1.5d
 			subtitle: "A cheap bucket that can only hold water"
+			dependencies: ["7516D04B8054E8F6"]
 			id: "389E1B4E634FC44B"
 			tasks: [{
 				id: "476CA55663635644"
@@ -903,8 +914,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.5d
 			subtitle: "A bucket that deletes any fluid it tries to pickup"
 			dependencies: ["389E1B4E634FC44B"]
 			id: "6D0F80D814762BC6"
@@ -921,9 +932,10 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -0.5d
+			x: 3.0d
+			y: 1.5d
 			subtitle: "Holds fluids"
+			dependencies: ["2FC100430DE21634"]
 			id: "0CCADAE611DE18DE"
 			tasks: [{
 				id: "75ECF4406E2C30F9"
@@ -941,8 +953,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: 3.0d
+			y: -2.5d
 			subtitle: "Activate using redstone and connect to a tank with xp to shower xp"
 			dependencies: ["1BC1EA201E056F20"]
 			id: "5A5024A5BBD57C34"
@@ -958,10 +970,10 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.5d
-			subtitle: "Stand ontop of this to turn your xp into liquid xp"
-			dependencies: ["0CCADAE611DE18DE"]
+			x: 3.0d
+			y: -1.5d
+			subtitle: "Stand on top of this to turn your xp into liquid xp"
+			dependencies: ["2FC100430DE21634"]
 			id: "1BC1EA201E056F20"
 			tasks: [{
 				id: "4F8CEE3FF9FA1FD9"
@@ -975,8 +987,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.5d
+			x: 3.0d
+			y: 2.5d
 			subtitle: "A hopper for fluids"
 			dependencies: ["0CCADAE611DE18DE"]
 			id: "6560D75355D87E0C"
@@ -992,8 +1004,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.5d
+			x: 1.0d
+			y: -1.0d
 			subtitle: "Consumes the food inside automatically"
 			dependencies: ["58841B1EBF6621D7"]
 			id: "3C0E959D274AC3FF"
@@ -1018,9 +1030,10 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: -3.0d
+			y: -1.5d
 			subtitle: "Allows you to pickup peaceful animals"
+			dependencies: ["7516D04B8054E8F6"]
 			id: "79569B5EA267AB78"
 			tasks: [{
 				id: "50E22852D8FFBF39"
@@ -1047,8 +1060,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 0.5d
+			x: -3.0d
+			y: -2.5d
 			subtitle: "Allows you to pick up hostile mobs"
 			dependencies: ["79569B5EA267AB78"]
 			id: "2141D1E07BA2687D"
@@ -1069,8 +1082,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
+			x: -3.0d
+			y: -3.5d
 			subtitle: "Can pickup almost all mobs"
 			dependencies: ["2141D1E07BA2687D"]
 			id: "1F24357206737FF2"
@@ -1097,8 +1110,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: -3.5d
+			x: -5.0d
+			y: 4.0d
 			dependencies: ["5CD2EE5FE857951A"]
 			id: "5FE1D3D19D76F02E"
 			tasks: [{
@@ -1120,8 +1133,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: -2.5d
+			x: -6.0d
+			y: 5.0d
 			dependencies: ["5CD2EE5FE857951A"]
 			id: "601ACCD382EBCECB"
 			tasks: [{
@@ -1143,8 +1156,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -2.5d
+			x: -4.0d
+			y: 5.0d
 			dependencies: ["5CD2EE5FE857951A"]
 			id: "4984393ED12F6FBD"
 			tasks: [{
@@ -1166,8 +1179,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: -1.5d
+			x: -5.0d
+			y: 6.0d
 			dependencies: ["5CD2EE5FE857951A"]
 			id: "7151E40AD624965B"
 			tasks: [{
@@ -1189,9 +1202,10 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -2.5d
+			x: -4.0d
+			y: -1.0d
 			subtitle: "Launches torches"
+			dependencies: ["7516D04B8054E8F6"]
 			id: "21BEFA852ACC1F25"
 			tasks: [{
 				id: "4A2C8B0C3DDD7AF7"
@@ -1201,8 +1215,8 @@
 		}
 		{
 			title: "Entangled Items"
-			x: 5.5d
-			y: -2.5d
+			x: -5.0d
+			y: 5.0d
 			subtitle: "Entangled items share their inventories with all other entangled items with the same color code. Use runes to change the color code"
 			id: "5CD2EE5FE857951A"
 			tasks: [{
@@ -1294,6 +1308,364 @@
 					table_id: 5616614316702311893L
 				}
 			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["5566754EA1C2FDE8"]
+			id: "689001CE849E078B"
+			tasks: [{
+				id: "011411D44BE90DE6"
+				type: "item"
+				item: "kibe:cobblestone_generator_mk1"
+			}]
+			rewards: [
+				{
+					id: "114463638E82E84F"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "11176BBD6AB3442D"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["689001CE849E078B"]
+			id: "6EA4A6C874B497E6"
+			tasks: [{
+				id: "01F29925473C3464"
+				type: "item"
+				item: "kibe:cobblestone_generator_mk2"
+			}]
+			rewards: [{
+				id: "6646D0FB66AEF0FE"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["6EA4A6C874B497E6"]
+			id: "6BE0FE7ED0882B4A"
+			tasks: [{
+				id: "69B73885CE23F04B"
+				type: "item"
+				item: "kibe:cobblestone_generator_mk3"
+			}]
+			rewards: [{
+				id: "0204BECFB82D3889"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["6BE0FE7ED0882B4A"]
+			id: "30CCDBEBB7281BB3"
+			tasks: [{
+				id: "23A18A879D51DFF0"
+				type: "item"
+				item: "kibe:cobblestone_generator_mk4"
+			}]
+			rewards: [{
+				id: "3F0AE7DE95A3BE94"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["30CCDBEBB7281BB3"]
+			id: "746306087A932A4B"
+			tasks: [{
+				id: "33426AC1CD55B90D"
+				type: "item"
+				item: "kibe:cobblestone_generator_mk5"
+			}]
+			rewards: [{
+				id: "089DE41856CAAE90"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["5566754EA1C2FDE8"]
+			id: "1E55E99F2165E467"
+			tasks: [{
+				id: "582B9D2463C50E89"
+				type: "item"
+				item: "kibe:basalt_generator_mk1"
+			}]
+			rewards: [
+				{
+					id: "48A96CC76872DE5A"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "1737DAC93BCCA7BA"
+					type: "item"
+					item: "minecraft:blue_ice"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["1E55E99F2165E467"]
+			id: "7830426B46104F6F"
+			tasks: [{
+				id: "0035B2748E134CA7"
+				type: "item"
+				item: "kibe:basalt_generator_mk2"
+			}]
+			rewards: [{
+				id: "21F826E9E179FB0F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["7830426B46104F6F"]
+			id: "46950ED948D46773"
+			tasks: [{
+				id: "08AB7577C29E1D9F"
+				type: "item"
+				item: "kibe:basalt_generator_mk3"
+			}]
+			rewards: [{
+				id: "384FCE2624240AA2"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["46950ED948D46773"]
+			id: "6D3E173D2679E135"
+			tasks: [{
+				id: "1BCA11D148BE7FE5"
+				type: "item"
+				item: "kibe:basalt_generator_mk4"
+			}]
+			rewards: [{
+				id: "1680BB6B4E310BD6"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["6D3E173D2679E135"]
+			id: "24BF90C05943C8D8"
+			tasks: [{
+				id: "5E0D6500C4A17DDB"
+				type: "item"
+				item: "kibe:basalt_generator_mk5"
+			}]
+			rewards: [{
+				id: "34ECB8936E29EA38"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			title: "Wither Farming"
+			icon: "kibe:wither_builder"
+			x: 1.0d
+			y: -2.0d
+			subtitle: "Utility Blocks to farm the Wither"
+			dependencies: ["312C47BD327F4D2F"]
+			id: "0AEB78BDC687730C"
+			tasks: [
+				{
+					id: "40A7625DD024DE86"
+					type: "item"
+					item: "kibe:wither_proof_block"
+				}
+				{
+					id: "17F83151A136B9A9"
+					type: "item"
+					item: "kibe:wither_proof_glass"
+				}
+				{
+					id: "7E3A3FCDCB3FA339"
+					type: "item"
+					item: "kibe:wither_builder"
+				}
+			]
+			rewards: [
+				{
+					id: "248E40B6E117286D"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3
+				}
+				{
+					id: "5109F9CA16E6C1D4"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Placer \\& Breaker"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Places and breaks blocks"
+			dependencies: ["2FC100430DE21634"]
+			id: "574AA1E2D7465C9D"
+			tasks: [
+				{
+					id: "7DF81E8DE4DE45DE"
+					type: "item"
+					item: "kibe:breaker"
+				}
+				{
+					id: "7A56EFF18DE4431D"
+					type: "item"
+					item: "kibe:placer"
+				}
+			]
+			rewards: [
+				{
+					id: "06BEBC0366039ABF"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "1B9654A465DD7BE3"
+					type: "item"
+					item: "kibe:kibe"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "gear"
+			id: "312C47BD327F4D2F"
+			tasks: [{
+				id: "4E020916014AA3E7"
+				type: "checkmark"
+				title: "Mob Farming"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "gear"
+			id: "7516D04B8054E8F6"
+			tasks: [{
+				id: "709D9E22D62FA214"
+				type: "checkmark"
+				title: "Utility Items"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Damages entities that stand on it, entities drop xp"
+			dependencies: ["3C9101E3DE9CD5F3"]
+			id: "3C5B4706A081433D"
+			tasks: [{
+				id: "25CEBFECE92D2C71"
+				type: "item"
+				item: "kibe:gold_spikes"
+			}]
+			rewards: [{
+				id: "3784105C2BA5F934"
+				type: "random"
+				table_id: 5705109811401542117L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Damages entities that stand on it, entities drop nothing"
+			dependencies: ["312C47BD327F4D2F"]
+			id: "4A934D6D649516D8"
+			tasks: [{
+				id: "7B48B115258E8FF0"
+				type: "item"
+				item: "kibe:stone_spikes"
+			}]
+			rewards: [{
+				id: "59663F5917DD8CD2"
+				type: "random"
+				table_id: 4023534927821043910L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			id: "2FC100430DE21634"
+			tasks: [{
+				id: "4E23030B9FDE801C"
+				type: "checkmark"
+				title: "Utility Blocks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			id: "5566754EA1C2FDE8"
+			tasks: [{
+				id: "08F3C1F169A533C4"
+				type: "checkmark"
+				title: "Generators"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			subtitle: "Hold right click to go to the surface"
+			dependencies: ["5283DE5D0B36F117"]
+			id: "061BB43AE3014804"
+			tasks: [{
+				id: "3970D01ABE7945D4"
+				type: "item"
+				item: {
+					id: "kibe:escape_rope"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "44041BC80FC0425C"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 3
+			}]
 		}
 	]
 }

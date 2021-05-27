@@ -10,18 +10,7 @@
 		{
 			x: -3.5d
 			y: -0.5d
-			id: "78E5B4FD3C46BEC9"
-			tasks: [{
-				id: "7E9DC84965A8DAF8"
-				type: "item"
-				item: "modern_industrialization:guidebook"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 0.5d
 			subtitle: "Click the hammer or saw to swap between the two"
-			dependencies: ["78E5B4FD3C46BEC9"]
 			id: "64642C171EDE39BD"
 			tasks: [{
 				id: "64820E832413E000"
@@ -37,7 +26,7 @@
 		{
 			x: -3.5d
 			y: 1.5d
-			dependencies: ["64642C171EDE39BD"]
+			dependencies: ["390C2A68A3C98D0A"]
 			id: "6ECF8FE73D53B765"
 			tasks: [{
 				id: "56450225FCF2AF70"
@@ -96,7 +85,7 @@
 		{
 			x: -2.0d
 			y: -0.5d
-			dependencies: ["78E5B4FD3C46BEC9"]
+			dependencies: ["64642C171EDE39BD"]
 			id: "73E189C5B276EA9A"
 			tasks: [{
 				id: "75DD1D75913D082B"
@@ -583,6 +572,23 @@
 				id: "66E48BC853A3A8D4"
 				type: "item"
 				item: "modern_industrialization:electronic_circuit"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["64642C171EDE39BD"]
+			id: "390C2A68A3C98D0A"
+			tasks: [{
+				id: "359579088C32D69A"
+				type: "item"
+				item: "modern_industrialization:wrench"
+			}]
+			rewards: [{
+				id: "3C8794586B073B4B"
+				type: "item"
+				item: "techreborn:bronze_plate"
 				count: 2
 			}]
 		}

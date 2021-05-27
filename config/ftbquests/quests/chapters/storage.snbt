@@ -1,7 +1,7 @@
 {
 	id: "2DF9C624928A0EA1"
 	group: ""
-	order_index: 8
+	order_index: 7
 	filename: "storage"
 	title: "Storage"
 	icon: "expandedstorage:netherite_chest"
@@ -146,7 +146,96 @@
 			tasks: [{
 				id: "74211FC9547625C5"
 				type: "item"
-				item: "minecraft:chest"
+				title: "Chest"
+				icon: "minecraft:chest"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:chest"
+								Count: 1b
+							}
+							{
+								id: "charm:oak_chest"
+								Count: 1b
+							}
+							{
+								id: "charm:spruce_chest"
+								Count: 1b
+							}
+							{
+								id: "charm:birch_chest"
+								Count: 1b
+							}
+							{
+								id: "charm:jungle_chest"
+								Count: 1b
+							}
+							{
+								id: "charm:acacia_chest"
+								Count: 1b
+							}
+							{
+								id: "charm:dark_oak_chest"
+								Count: 1b
+							}
+							{
+								id: "charm:crimson_chest"
+								Count: 1b
+							}
+							{
+								id: "charm:warped_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:mossy_glowshroom_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:pythadendron_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:end_lotus_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:lacugrove_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:dragon_tree_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:umbrella_tree_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:jellyshroom_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:lucernia_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:helix_tree_chest"
+								Count: 1b
+							}
+							{
+								id: "betterend:tenanea_chest"
+								Count: 1b
+							}
+							{
+								id: "expandedstorage:wood_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [
 				{

@@ -27,5 +27,6 @@
 		{ item: "minecraft:iron_block", count: 32, weight: 12 }
 		{ item: "tacocraft:golden_taco", weight: 15 }
 		{ item: "kibe:diamond_kibe", weight: 3 }
+		{ item: "conjuring:soul_slice", count: 2 }
 	]
 }
