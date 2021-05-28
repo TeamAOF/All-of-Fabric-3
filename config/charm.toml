@@ -96,7 +96,7 @@
 #Allows crafting from inventory if the player has a crafting table in their inventory.
 "PortableCrafting Enabled" = true
 #Allows access to chest contents if the player has an Ender Chest in their inventory.
-"PortableEnderChest Enabled" = true
+"PortableEnderChest Enabled" = false
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.
 "RaidHorns Enabled" = true
 #A lantern that emits light when a redstone signal is received.
