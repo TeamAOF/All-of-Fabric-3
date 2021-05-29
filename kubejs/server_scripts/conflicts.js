@@ -3,6 +3,9 @@
 ////////////////////////
 
 events.listen("recipes", function (event) {
+  
+  //Remove byg:gray_dye as it is a null tag, and this fixes the empty gray dye recipe
+  event.remove({ id: "byg:gray_dye" });
 
   //Gunpowder Block
   event.remove({ output: "blast:gunpowder_block" });
