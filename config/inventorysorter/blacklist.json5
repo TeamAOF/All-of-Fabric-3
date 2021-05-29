@@ -3,7 +3,6 @@
 	"blacklistedInventories": [
 		"tfar.dankstorage.client.screens.DockScreen",
 		"goldenhoppers:golden_hopper",
-		"adorn:trading_station",
 		"woodenhoppers:*",
 		"tfar.dankstorage.client.screens.PortableDankStorageScreen"
 		"juuxel.adorn.client.gui.screen.TradingStationScreen"
