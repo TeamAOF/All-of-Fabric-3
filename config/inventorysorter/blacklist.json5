@@ -6,5 +6,6 @@
 		"adorn:trading_station",
 		"woodenhoppers:*",
 		"tfar.dankstorage.client.screens.PortableDankStorageScreen"
+		"juuxel.adorn.client.gui.screen.TradingStationScreen"
 	]
 }
