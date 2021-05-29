@@ -98,7 +98,7 @@
 				type: "biome"
 				title: "Protanopian Gallery"
 				icon: "promenade:white_mushroom_block"
-				biome: "wild_explorer:protanopian_gallery"
+				biome: "promenade:protanopian_gallery"
 			}]
 			rewards: [
 				{
