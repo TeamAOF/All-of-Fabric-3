@@ -1,4 +1,17 @@
-<h1>2.8.0/2.8.1</h1>
+<h1>2.8.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+<h2>DISCLAIMER: This build WILL reset quest data & also backup your map waypoints as Xaero is removed!</h2>
+
+**Changed/Fixed**
+- Fixed insane log spam when looking up any recipe due to how rei plugin was registered.
+- Fixed faulty recipe ids in MI unification for REI script.
+
+**Removed**
+- **Save My Stronghold**
+---------------------------------------------------------------------------------------------
+
+<h1>2.8.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
 <h2>DISCLAIMER: This build WILL reset quest data & also backup your map waypoints as Xaero is removed!</h2>
@@ -16,7 +29,6 @@
 - Fixed the empty gray dye recipe.
 - Fixed bug where dank storages wouldnt accept "minecraft:stone".
 - Fixed FTL Energy tooltip showing 0/infinity.
-- Fixed faulty recipe ids in MI unification for REI script.
 - Fixed strongholds containing 1 dirt block.
 - Fixed nourish button sometimes commit yeet.
 - Nerfed fabric furnaces.
@@ -51,7 +63,6 @@
 - **FTB GUI Library**
 - **Impersonate**
 - **Pehkui**
-- **Save My Stronghold**
 - **Somnus API**
 - **Xaero's World Map**
 - **Xaero's Minimap**
