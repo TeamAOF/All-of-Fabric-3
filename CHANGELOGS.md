@@ -1,3 +1,91 @@
+<h1>2.8.0</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+<h2>DISCLAIMER: This build WILL reset quest data & also backup your map waypoints as Xaero is removed!</h2>
+
+**Changed/Fixed**
+- Much improved performance with this update.
+- New Angel Ring recipe.
+- Mystical Agriculture quest chapter.
+- Conjuring quest chapter.
+- Extra Generators quest chapter.
+- Introduction quest chapter.
+- Terrarian Slimes quest chapter.
+- Added descriptions for tons of quests.
+- Fixed weird rendering with indrev conduits.
+- Fixed the empty gray dye recipe.
+- Fixed bug where dank storages wouldnt accept "minecraft:stone".
+- Fixed FTL Energy tooltip showing 0/infinity.
+- Fixed strongholds containing 1 dirt block.
+- Fixed nourish button sometimes commit yeet.
+- Nerfed fabric furnaces.
+- Nerfed netherite & emerald jetpacks.
+- Reverted quantum armor recipes back to default except chestplate.
+- Fixed quest icons.
+- Fixed incorrect registry of nuggets > ingots from Indrev showing up in REI.
+
+**Added**
+- **AE2WTLib** (AE2WTLib-1.1.2-release.2.jar)
+- **Alaska Native Craft** (alaskanativecraft-1.2.0.jar)
+- **YUNG's Better Strongholds** (BetterStrongholds-Fabric-1.16.5-1.0.jar)
+- **BitsAndChisels** (bitsandchisels-2.3.2.jar)
+- **Break Progress** (breakprogress-1.0.1.jar)
+- **Conjuring** (conjuring-0.2.3.jar)
+- **Entity Banners** (entity-banners-1.16.5-1.0-BETA.jar)
+- **Extra Generators** (extragenerators-1.16.5-1.0.1-BETA.jar)
+- **FTB Chunks** (ftb-chunks-fabric-1605.3.1-build.12.jar)
+- **FTB Library** (ftb-library-fabric-1605.3.1-build.10.jar)
+- **FTB Teams** (ftb-teams-fabric-1605.2.1-build.8.jar)
+- **Golden Hoppers** (goldenhoppers-1.0.2.jar)
+- **Miner's Horizon** (miners-horizon-1.6.1-1.16.5.jar)
+- **MoreVillagersFabric** (morevillagers-FABRIC-1.16.5-1.2.0.jar)
+- **Mystical Agriculture: Refabricated** (MysticalAgriculture-Refabricated-1.16.5-1.1.4.jar)
+- **Terrarian Slimes** (terrarian-slimes-1.16.5-1.0.3-BETA.jar)
+- **Untitled Duck Mod** (untitledduckmod-0.2.2-fabric.jar)
+- **World Blender** (world_blender-1.16.5-2.1.5.jar)
+
+**Removed**
+- **Art of Alchemy: Memoriam**
+- **Bewitchment**
+- **FTB GUI Library**
+- **Impersonate**
+- **Pehkui**
+- **Somnus API**
+- **Xaero's World Map**
+- **Xaero's Minimap**
+
+**Updated**
+- **Adorn** (Adorn-1.13.0+1.16.5.jar -> Adorn-1.14.0+1.16.5.jar)
+- **Architectury** (architectury-1.14.156-fabric.jar -> architectury-1.17.20-fabric.jar)
+- **Blockus** (blockus-2.1.4+1.16.5.jar -> blockus-2.1.5+1.16.5.jar)
+- **Cardinal Components API** (Cardinal-Components-API-2.8.2.jar -> Cardinal-Components-API-2.8.3.jar)
+- **CC:Restitched** (cc-restiched-1.95.0-beta.jar -> cc-restiched-1.95.3-beta.jar)
+- **Crusade** (crusade-mod-1.2.1.jar -> crusade-mod-1.2.2.jar)
+- **Enchantment Descriptions** (EnchantmentDescriptions-fabric-1.16.5-2.0.2.jar -> EnchantmentDescriptions-fabric-1.16.5-2.0.4.jar)
+- **Fabric API** (fabric-api-0.34.2+1.16.jar -> fabric-api-0.34.6+1.16.jar)
+- **Fermion** (fermion-mc116-2.9.218.jar -> fermion-mc116-2.9.221.jar)
+- **FlytreLib** (flytre_lib-0.2.10.jar -> flytre_lib-0.2.11.jar)
+- **FTB Quests** (ftb-quests-1605.2.1-build.39-fabric.jar -> ftb-quests-fabric-1605.3.1-build.5.jar)
+- **Gate Of Babylon** (gate-of-babylon-1.4.2-1.16.5.jar -> gate-of-babylon-1.4.4-1.16.5.jar)
+- **Geckolib** (geckolib-fabric-1.16.5-3.0.34.jar -> geckolib-fabric-1.16.5-3.0.36.jar)
+- **Go Fish** (go-fish-1.2.1-beta-1.16.4.jar -> go-fish-1.2.3-beta-1.16.5.jar)
+- **Industrial Revolution** (indrev-1.9.12-BETA.jar -> indrev-1.9.16-BETA.jar)
+- **JSON Model Extensions** (jmx-mc116-1.21.182.jar -> jmx-mc116-1.22.185.jar)
+- **Kibe** (kibe-1.16.5-1.6.7-BETA.jar -> kibe-1.16.5-1.7-BETA.jar)
+- **KubeJS** (kubejs-1605.3.8-build.197-fabric.jar -> kubejs-1605.3.10-build.8-fabric.jar)
+- **Library of Exile** (Library-Of-Exile-1.16.5-1.0.8.jar -> Library-Of-Exile-1.16.5-1.0.10.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.3.17.jar -> Modern-Industrialization-0.4.0-alpha.06.jar)
+- **Mouse Wheelie** (mousewheelie-1.7.1+mc1.16.5.jar -> mousewheelie-1.7.2+mc1.16.5.jar)
+- **Nourish** (nourish-1.2.1.jar -> nourish-1.3.0.jar)
+- **Patchouli** (Patchouli-1.16.4-50-FABRIC.jar -> Patchouli-1.16.4-51-FABRIC.jar)
+- **Reborn Core** (RebornCore-1.16-4.7.2+build.132.jar -> RebornCore-1.16-4.7.3+build.136.jar)
+- **Rhino** (rhino-1.7.13-build.24.jar -> rhino-1605.1.0-build.4.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.11.218.jar -> RoughlyEnoughItems-5.12.235.jar)
+- **Tech Reborn** (TechReborn-1.16-3.8.3+build.231.jar -> TechReborn-1.16-3.8.4+build.236.jar)
+- **Winged Mod** (winged-1.16.5-2.0.5.jar -> winged-1.16.5-2.1.1.jar)
+- **wthit** (wthit-2.10.0-fabric.jar -> wthit-2.10.2-fabric.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.7.4</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
