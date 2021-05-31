@@ -6,6 +6,7 @@
 **Changed/Fixed**
 - Fixed insane log spam when looking up any recipe due to how rei plugin was registered.
 - Fixed faulty recipe ids in MI unification for REI script.
+- Disable world gen of Driftwood.
 
 **Removed**
 - **Save My Stronghold**
