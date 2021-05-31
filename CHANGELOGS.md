@@ -27,6 +27,7 @@
 
 **Added**
 - **AE2WTLib** (AE2WTLib-1.1.2-release.2.jar)
+- **Alaska Native Craft** (alaskanativecraft-1.2.0.jar)
 - **YUNG's Better Strongholds** (BetterStrongholds-Fabric-1.16.5-1.0.jar)
 - **BitsAndChisels** (bitsandchisels-2.3.2.jar)
 - **Break Progress** (breakprogress-1.0.1.jar)
