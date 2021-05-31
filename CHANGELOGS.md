@@ -1,4 +1,4 @@
-<h1>2.8.0</h1>
+<h1>2.8.0/2.8.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
 <h2>DISCLAIMER: This build WILL reset quest data & also backup your map waypoints as Xaero is removed!</h2>
@@ -26,7 +26,6 @@
 
 **Added**
 - **AE2WTLib** (AE2WTLib-1.1.2-release.2.jar)
-- **Alaska Native Craft** (alaskanativecraft-1.2.0.jar)
 - **YUNG's Better Strongholds** (BetterStrongholds-Fabric-1.16.5-1.0.jar)
 - **BitsAndChisels** (bitsandchisels-2.3.2.jar)
 - **Break Progress** (breakprogress-1.0.1.jar)
@@ -50,6 +49,7 @@
 - **FTB GUI Library**
 - **Impersonate**
 - **Pehkui**
+- **Save My Stronghold**
 - **Somnus API**
 - **Xaero's World Map**
 - **Xaero's Minimap**
