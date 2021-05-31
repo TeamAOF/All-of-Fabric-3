@@ -16,6 +16,7 @@
 - Fixed the empty gray dye recipe.
 - Fixed bug where dank storages wouldnt accept "minecraft:stone".
 - Fixed FTL Energy tooltip showing 0/infinity.
+- Fixed faulty recipe ids in MI unification for REI script.
 - Fixed strongholds containing 1 dirt block.
 - Fixed nourish button sometimes commit yeet.
 - Nerfed fabric furnaces.
