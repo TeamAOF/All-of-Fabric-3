@@ -322,9 +322,9 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: 1.5d
-			dependencies: ["38A4FE0B2918BF35"]
+			dependency_requirement: "one_completed"
 			id: "6F6C950298F4A839"
 			tasks: [{
 				id: "4010DB861C64D2E2"
