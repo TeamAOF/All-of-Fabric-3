@@ -4,7 +4,7 @@
 <h2>DISCLAIMER: This build WILL reset quest data & also backup your map waypoints as Xaero is removed!</h2>
 
 **Changed/Fixed**
-- Fixed insane log spam when looking up any recipe due to how rei plugin was registered.
+- Fixed insane log spam when looking up any recipe due to how rei plugin was registered. This also fixes the lag with it.
 - Fixed faulty recipe ids in MI unification for REI script.
 - Fixed nourish tags not loading at all.
 - Fixed visual bug happening in Zephyr Workbench.
