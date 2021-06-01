@@ -7,6 +7,7 @@
 - Fixed insane log spam when looking up any recipe due to how rei plugin was registered.
 - Fixed faulty recipe ids in MI unification for REI script.
 - Fixed nourish tags not loading at all.
+- Fixed visual bug happening in Zephyr Workbench.
 - Fixed megane implementation for Modern Industrialization.
 - Disable world gen of Driftwood.
 
