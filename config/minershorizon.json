@@ -15,6 +15,118 @@
   "enableCanyons": true,
   "oreConfigList": [
     {
+      "block": "techreborn:tin_ore",
+      "size": 9,
+      "count": 15,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "techreborn:copper_ore",
+      "size": 9,
+      "count": 15,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "techreborn:galena_ore",
+      "size": 8,
+      "count": 15,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "techreborn:lead_ore",
+      "size": 9,
+      "count": 10,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "techreborn:silver_ore",
+      "size": 9,
+      "count": 10,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "techreborn:bauxite_ore",
+      "size": 8,
+      "count": 12,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "lightstones:lightstone_ore",
+      "size": 6,
+      "count": 5,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "techreborn:tin_ore",
+      "size": 9,
+      "count": 5,
+      "minY": 0,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:copper_ore",
+      "size": 9,
+      "count": 5,
+      "minY": 0,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:galena_ore",
+      "size": 8,
+      "count": 5,
+      "minY": 0,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:lead_ore",
+      "size": 9,
+      "count": 5,
+      "minY": 0,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:silver_ore",
+      "size": 9,
+      "count": 5,
+      "minY": 0,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:bauxite_ore",
+      "size": 8,
+      "count": 5,
+      "minY": 0,
+      "maxY": 100
+    },
+    {
+      "block": "lightstones:lightstone_ore",
+      "size": 8,
+      "count": 2,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:ruby_ore",
+      "size": 8,
+      "count": 4,
+      "minY": 0,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:sapphire_ore",
+      "size": 8,
+      "count": 4,
+      "minY": 0,
+      "maxY": 100
+    },
+    {
       "block": "minecraft:coal_ore",
       "size": 17,
       "count": 30,
