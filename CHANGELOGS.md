@@ -1,3 +1,18 @@
+<h1>2.8.2</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+<h2>DISCLAIMER: This build WILL reset quest data & also backup your map waypoints as Xaero is removed!</h2>
+
+**Changed/Fixed**
+- Fixed TextComponentUtils crash when using text field.
+- Fixed crash with rancher and Entity Banners.
+- Fixed infusion crafting duplication glitch.
+- Fixed world blender dimension making performance go bang boom.
+- Meteorites will no longer crash down on you in mining dimension.
+- Added modded ores to mining dimension.
+- Middle Mouse sorting now works by default.
+---------------------------------------------------------------------------------------------
+
 <h1>2.8.1</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
