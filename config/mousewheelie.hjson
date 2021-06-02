@@ -8,6 +8,11 @@
 		// This means that pushing the inventory or sorting the main inventory will not affect the hotbar and vice-versa.
 		// default: true
 		hotbar-scope: true
+		// Sets the interval in milliseconds in which certain packets are fired.
+		// Lower numbers increase the speed but might be rejected by servers.
+		// default: 10
+		// Must be inclusively between 1 and 1000
+		interaction-rate: 10
 	}
 	scrolling: {
 		// Enables scrolling of stacks
