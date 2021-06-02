@@ -1,7 +1,6 @@
 <h1>2.8.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
-<h2>DISCLAIMER: This build WILL reset quest data & also backup your map waypoints as Xaero is removed!</h2>
 
 **Changed/Fixed**
 - Fixed TextComponentUtils crash when using text field.
