@@ -23,7 +23,7 @@
 		    and a vanilla biome at the same time: 
 		    "ultra_amplified_dimension*, minecraft:jungle_edge"
 		*/
-		"blanketBlacklist": "ultra_amplified_dimension*",
+		"blanketBlacklist": "ultra_amplified_dimension*, betterend*,byg*",
 		/*  Blacklist features by key terms, mod ID, or their identifier
 		    
 		    To blacklist by key terms, just enter the term alone such as "tree"
@@ -41,7 +41,7 @@
 		    and vanilla's icebergs: 
 		    "tree, minecraft:iceberg"
 		*/
-		"blacklistedFeatures": "minecraft:basalt_blobs, minecraft:blackstone_blobs",
+		"blacklistedFeatures": "minecraft:basalt_blobs, minecraft:blackstone_blobs, byg:subzero_ashes, byg:subzero_ash_block, byg:subzero_ash, byg:black_sandstone_spike, byg:black_sandstone_spike2, byg:sythian_fungus_pillars, byg:soul_soil_pillars, byg:mossy_netherrack_pillars, byg:magma_pillars, byg:frost_magma_pillars, byg:brimstone_pillars, byg:small_basalt_columns, byg:large_basalt_columns, byg:quartz_columns, byg:withering_oak_trees, cinderscapes:vegetation_ashy_shoals, cinderscapes:dead_tree, byg:soul_shroom_trees, byg:dead_sea_spike, byg:dead_sea_spikes, byg:dead_sea_tall_spike, byg:ivis_spikes1, byg:ivis_spikes2, byg:ether_stone_boulder, woods_and_mires:pine_forest_boulder, wild_explorer:ender_boulder, traverse:rocky_edge_boulder, repurposed_structures:boulder_tiny, repurposed_structures:boulder_giant, mostructures:configured_boulder, byg:terracotta_boulder, byg:rocky_stone_boulders, byg:rocky_stone_boulder, byg:orange_terracotta_boulders, byg:orange_terracotta_boulder, byg:mossy_stone_boulders, byg:mossy_stone_boulder, byg:grassland_boulder, byg:granite_boulder, byg:quartz_crystal, byg:cryptic_spike, byg:frost_magma_lake, woods_and_mires:mire_ponds, wild_explorer:obsidian_spike, byg:white_sandstone_boulder2, byg:white_sandstone_boulder, byg:bulbis_water_lake, byg:cryptic_fire, byg:nylium_soul_fire_patch, byg:nylium_soul_fire, byg:boric_fire, byg:boric_fire_patch, byg:dummy_trees, byg:purpur_peak, byg:magma_fire, byg:magma_fire_patch, byg:river_aheehee, byg:stacked_boulders, byg:volcano, byg:wide_water_lake, repurposed_structures:swamp_village_vines, repurposed_structures:jungle_village_vines, cinderscapes:ash_top_layer",
 		/*  Blacklist structures by key terms, mod ID, or their identifier
 		    
 		    To blacklist by key terms, just enter the term alone such as "temple"
@@ -59,7 +59,7 @@
 		    and vanilla's igloos: 
 		    "temple, minecraft:igloo"
 		*/
-		"blacklistedStructures": "",
+		"blacklistedStructures": "appliedenergistics2:meteorite, terrestria:shore_volcano, terrestria:volcano_structure, terrestria:ocean_volcano_structure",
 		/*  Blacklist carvers by key terms, mod ID, or their identifier
 		    
 		    To blacklist by key terms, just enter the term alone such as "cave"
@@ -98,7 +98,7 @@
 		    and vanilla's ghasts: 
 		    "zombie, minecraft:ghast"
 		*/
-		"blacklistedSpawns": "",
+		"blacklistedSpawns": "biomemakeover:tumbleweed",
 		/*  Blacklist surfaces by key terms, mod ID, or by block's identifier
 		    This will blacklist based on the very top most block that the surface uses.
 		    
@@ -161,10 +161,10 @@
 		"allowVanillaCarvers": true,
 		/*  Decides if the dimension imports natural mob spawns like zombies, cows, etc.
 		*/
-		"allowVanillaSpawns": true,
+		"allowVanillaSpawns": false,
 		/*  Decides if the dimension imports surfaces like desert's sand, giant tree taiga's podzol, etc.
 		*/
-		"allowVanillaSurfaces": true,
+		"allowVanillaSurfaces": false,
 		/* Will prevent importing vanilla lava/fire/basalt features and 
 		    will attempt to make modded lava/fire features not spawn at all 
 		    in order to help reduce lag in the world due to fire spreading rapidly. 
@@ -179,7 +179,7 @@
 		   
 		    Use this option to look up the resource location or name of registered features, biomes, blocks, carvers, structures, or entities that you want to blacklist.
 		*/
-		"identifierDump": false
+		"identifierDump": true
 	},
 	"WBDimensionConfig": {
 		/*  The size of the different kinds of surfaces. Higher numbers means
@@ -196,7 +196,7 @@
 		    If set to false, the Enderdragon will not spawn.
 		    NOTE: Once the Enderdragon is spawned, changing this to false will not despawn the Enderdragon.
 		*/
-		"spawnEnderDragon": true,
+		"spawnEnderDragon": false,
 		/*  If true, carvers (mainly vanilla caves and ravines) can now carve
 		    out Netherrack, End Stone, and some modded blocks as well.
 		    
