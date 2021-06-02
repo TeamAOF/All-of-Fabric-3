@@ -82,7 +82,7 @@
   "worldGen": {
     "spawnChargedChance": 0.08,
     "__comment": "Biome IDs in which quartz ores should NOT be generated (i.e. minecraft:plains).",
-    "meteoriteBiomeBlacklist": [],
+    "meteoriteBiomeBlacklist": ["minershorizon:mining_biome"],
     "quartzOresPerCluster": 4,
     "quartzOresClusterAmount": 20,
     "quartzOreBiomeBlacklist": []
