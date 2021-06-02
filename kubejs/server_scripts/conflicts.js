@@ -3,11 +3,17 @@
 ////////////////////////
 
 events.listen("recipes", function (event) {
+
+   // Charm Barrel
+   event.remove({ output: "minecraft:barrel" });
+
+   event.shapeless('charm:spruce_barrel', ['minecraft:barrel'])
+   event.shapeless('minecraft:barrel', ['charm:spruce_barrel'])
   
-  //Remove byg:gray_dye as it is a null tag, and this fixes the empty gray dye recipe
+  // Remove byg:gray_dye as it is a null tag, and this fixes the empty gray dye recipe
   event.remove({ id: "byg:gray_dye" });
 
-  //Gunpowder Block
+  // Gunpowder Block
   event.remove({ output: "blast:gunpowder_block" });
 
   event.shaped(item.of("blast:gunpowder_block"), [
@@ -81,6 +87,13 @@ events.listen("recipes", function (event) {
     "minecraft:iron_ingot",
     "techreborn:iron_plate"
   );
+
+  // Gold Plating
+    event.replaceInput(
+      { id: "blockus:gold_plating" },
+      "minecraft:gold_ingot",
+      "techreborn:gold_plate"
+    );
 
   // Chests
   event.replaceInput({}, "#c:wooden_chests", "#c:wooden_chests");

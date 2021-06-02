@@ -93,7 +93,8 @@ events.listen("recipes", function (event) {
     // REI
     event.remove({ id: "indrev:shapeless/" + item + "_ingot_from_block" });
     event.remove({ id: "indrev:shapeless/" + item + "_nugget" });
-    event.remove({ id: "indrev:shaped/" + item + "_ingot_from_nuggets" });
+    event.remove({ id: "indrev:shaped/" + item + "_ingot_from_nugget" });
+    event.remove({ id: "indrev:shaped/" + item + "_block_from_nugget" });
     event.remove({ id: "indrev:shaped/" + item + "_block" });
   });
 
@@ -330,28 +331,28 @@ events.listen("recipes", function (event) {
       id:
         "modern_industrialization:generated/materials/" +
         item +
-        "/craft/main_from_nugget",
+        "/craft/ingot_from_nugget",
     });
 
     event.remove({
       id:
         "modern_industrialization:generated/materials/" +
         item +
-        "/craft/nugget_from_main",
+        "/craft/nugget_from_ingot",
     });
 
     event.remove({
       id:
         "modern_industrialization:generated/materials/" +
         item +
-        "/craft/main_from_block",
+        "/craft/ingot_from_block",
     });
 
     event.remove({
       id:
         "modern_industrialization:generated/materials/" +
         item +
-        "/craft/block_from_main",
+        "/craft/block_from_ingot",
     });
   });
 

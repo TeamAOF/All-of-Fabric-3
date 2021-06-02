@@ -44,6 +44,9 @@ be_stuff.forEach(function (item, index) {
   event.get("charm:barrels").add("betterend:" + item + "_barrel")
 });
 
+  // Dank Storage
+  event.get("dankstorage:blacklisted_storage").remove("minecraft:stone");
+
 // Workbenches
 var workbench = [
   'byg:nightshade_crafting_table',
