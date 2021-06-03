@@ -1,12 +1,19 @@
 {
   "mixin": {
     "appliedenergistics2.MTileWailaDataProvider": true,
-    "modern_industrialization.ATankBlockEntity": false,
+    "modern_industrialization.ATankBlockEntity": true,
     "minecraft.AHorseBaseEntity": true,
-    "modern_industrialization.AMultiblockMachineBlockEntity": false,
+    "modern_industrialization.AMultiblockMachineBlockEntity": true,
     "fabric_furnaces.ABaseFurnaceEntity": true,
     "artofalchemy.AProgress": true,
-    "modern_industrialization.ACreativeTankBlockEntity": false,
-    "modern_industrialization.AMachineBlockEntity": false
+    "modern_industrialization.ACreativeTankBlockEntity": true,
+    "modern_industrialization.AMachineBlockEntity": true,
+    "modern_industrialization.ACraftingFluid": true,
+    "modern_industrialization.CrafterComponentHolder": true,
+    "modern_industrialization.CrafterComponentHolder$Inventory": true,
+    "modern_industrialization.EnergyComponentHolder": true,
+    "modern_industrialization.EnergyInputsComponentHolder": true,
+    "modern_industrialization.EnergyOutputsComponentHolder": true,
+    "modern_industrialization.MultiblockInventoryComponentHolder": true
   }
 }
