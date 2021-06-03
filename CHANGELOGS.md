@@ -6,6 +6,7 @@
 - Fixed TextComponentUtils crash when using text field.
 - Fixed crash with rancher and Entity Banners.
 - Fixed infusion crafting duplication glitch.
+- Fixed input/output scripts not loading at all on servers (unification etc).
 - Fixed world blender dimension making performance go bang boom.
 - Meteorites will no longer crash down on you in mining dimension.
 - Added modded ores to mining dimension.
