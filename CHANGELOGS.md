@@ -1,3 +1,31 @@
+<h1>2.8.3</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed random reward weights.
+- Fixed megane crash with MI tank.
+- Fixed mob spawn weights.
+- Fixed promenade quests.
+- Changes to diggus blacklisting.
+- Disabled heart of the sky drop from ender dragon.
+
+**Updated**
+- **AE2WTLib** (AE2WTLib-1.1.2-release.2.jar -> AE2WTLib-1.1.4-release.jar)
+- **Alaska Native Craft** (alaskanativecraft-1.2.1.jar -> alaskanativecraft-1.2.2.jar)
+- **CC:Restitched** (cc-restiched-1.95.3-beta.jar -> cc-restiched-1.96.0-inv-fix.jar)
+- **Geckolib** (geckolib-fabric-1.16.5-3.0.36.jar -> geckolib-fabric-1.16.5-3.0.39.jar)
+- **Library of Exile** (Library-Of-Exile-1.16.5-1.0.10.jar -> Library-Of-Exile-1.16.5-1.0.11.jar)
+- **megane** (megane-4.1.1.jar -> megane-4.1.3.jar)
+- **Miner's Horizon** (miners-horizon-1.6.1-1.16.5.jar -> miners-horizon-1.6.2-1.16.5.jar)
+- **Modern Industrialization** (Modern-Industrialization-0.4.0-alpha.06.jar -> Modern-Industrialization-0.4.0-alpha.07.jar)
+- **MoreVillagersFabric** (morevillagers-FABRIC-1.16.5-1.3.0.jar -> morevillagers-FABRIC-1.16.5-1.4.1.jar)
+- **Repurposed Structures** (repurposed_structures-1.16.5-1.10.5-fabric.jar -> repurposed_structures-1.16.5-1.11.2-fabric.jar)
+- **Roughly Enough Items** (RoughlyEnoughItems-5.12.235.jar -> RoughlyEnoughItems-5.12.248.jar)
+- **Winged Mod** (winged-1.16.5-2.1.2.jar -> winged-1.16.5-2.1.3.jar)
+- **World Blender** (world_blender-1.16.5-2.1.5.jar -> world_blender-1.16.5-2.1.6-fabric.jar)
+---------------------------------------------------------------------------------------------
+
 <h1>2.8.2</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
