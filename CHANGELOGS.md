@@ -1,3 +1,11 @@
+<h1>2.8.4</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changed/Fixed**
+- Fixed steam machines not working at all.
+---------------------------------------------------------------------------------------------
+
 <h1>2.8.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
