@@ -5,6 +5,9 @@
 **Changed/Fixed**
 - AOF3 now uses native fabric (no more jumploader), this should result in faster loading times aswell.
 - Fixed strongholds sometimes glitching out and not present in the world.
+
+**Removed**
+- World Blender
 ---------------------------------------------------------------------------------------------
 
 <h1>2.8.4</h1>
