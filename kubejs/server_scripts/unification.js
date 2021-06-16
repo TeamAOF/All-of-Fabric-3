@@ -283,16 +283,6 @@ events.listen("recipes", function (event) {
     "techreborn:sheldonite_ore"
   );
 
-  event.replaceOutput(
-    {},
-    "modern_industrialization:quartz_ore",
-    "minecraft:nether_quartz_ore"
-  );
-
-  event.remove({
-    input: "modern_industrialization:quartz_ore",
-  });
-
   // REI
   modern_materials.forEach(function (item, index) {
     event.remove({
@@ -325,6 +315,9 @@ events.listen("recipes", function (event) {
         "/smelting/ore_blasting",
     });
   });
+  event.remove({id:"modern_industrialization:generated/materials/quartz/smelting/ore_smelting"});
+  event.remove({id:"modern_industrialization:generated/materials/quartz/smelting/ore_blasting"});
+
 
   modern_metals.forEach(function (item, index) {
     event.remove({
@@ -550,4 +543,5 @@ events.listen("recipes", function (event) {
   });
 
   event.replaceInput({}, "minecraft:quartz", "#c:quartz");
+  event.replaceInput({}, "minecraft:nether_quartz_ore", "#c:quartz_ores");
 });
