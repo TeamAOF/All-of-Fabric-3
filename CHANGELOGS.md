@@ -8,26 +8,35 @@
 - Fixed quest weights of rewards.
 
 **Added**
-- **BCLib** (bclib-0.1.42.jar)
+- **BCLib** (bclib-0.1.43.jar)
+- **Chunky** (Chunky-1.2.54.jar)
 
 **Removed**
+- **Fabric Chunk Pregenerator**
+- **Horse Info**
 - **Jumploader**
+- **TIS-3D Additions**
 - **World Blender**
 
 **Updated**
 - **Advancements Debug** (advdebug-2.2.0.jar -> advdebug-2.3.0.jar)
-- **AE2WTLib** (AE2WTLib-1.1.4-release.jar -> AE2WTLib-1.2.3-beta.1.jar)
+- **AE2WTLib** (AE2WTLib-1.1.4-release.jar -> AE2WTLib-1.2.3-beta.3.jar)
 - **Architectury** (architectury-1.17.20-fabric.jar -> architectury-1.17.22-fabric.jar)
-- **Better End** (better-end-0.9.6-pre.jar -> better-end-0.9.8.2-pre.jar)
+- **Better End** (better-end-0.9.6-pre.jar -> better-end-0.9.8.5-pre.jar)
 - **YUNG's Better Mineshafts** (BetterMineshafts-Fabric-1.16.4-1.0.1.jar -> BetterMineshafts-Fabric-1.16.4-1.0.2.jar)
 - **Blockus** (blockus-2.1.6+1.16.5.jar -> blockus-2.1.8+1.16.5.jar)
+- **CC:Restitched** (cc-restiched-1.96.0-inv-fix.jar -> cc-restiched-1.96.1-rc1.jar)
 - **CraftPresence** (CraftPresence-Fabric-1.16.5-Release-1.8.1.jar -> CraftPresence-Fabric-1.16.5-Release-1.8.2.jar)
+- **Crusade** (crusade-mod-1.2.2.jar -> crusade-mod-1.2.1.jar)
+- **Dank Storage** (dankstorage-1.10a-1.16.5.jar -> dankstorage-1.9a-1.16.3.jar)
 - **Dark Paintings** (DarkPaintings-fabric-1.16.5-3.0.1.jar -> DarkPaintings-Fabric-1.16.5-3.0.2.jar)
+- **Extra Generators** (extragenerators-1.16.5-1.0.1-BETA.jar -> extra-generators-1.0.2-BETA+1.16.jar)
 - **Fabric API** (fabric-api-0.34.6+1.16.jar -> fabric-api-0.34.7+1.16.jar)
 - **Fabric Language Kotlin** (fabric-language-kotlin-1.6.0+kotlin.1.5.0.jar -> fabric-language-kotlin-1.6.1+kotlin.1.5.10.jar)
+- **Fabric Language Scala** (fabric-language-scala-1.0.0-fat.jar -> fabric-language-scala-1.0.0-fat (1).jar)
 - **FTB Chunks** (ftb-chunks-fabric-1605.3.1-build.12.jar -> ftb-chunks-fabric-1605.3.1-build.16.jar)
-- **FTB Library** (ftb-library-fabric-1605.3.1-build.18.jar -> ftb-library-fabric-1605.3.1-build.26.jar)
-- **FTB Quests** (ftb-quests-fabric-1605.3.2-build.14.jar -> ftb-quests-fabric-1605.3.2-build.20.jar)
+- **FTB Library** (ftb-library-fabric-1605.3.1-build.18.jar -> ftb-library-fabric-1605.3.1-build.33.jar)
+- **FTB Quests** (ftb-quests-fabric-1605.3.2-build.14.jar -> ftb-quests-fabric-1605.3.3-build.26.jar)
 - **FTB Teams** (ftb-teams-fabric-1605.2.1-build.8.jar -> ftb-teams-fabric-1605.2.1-build.12.jar)
 - **Geckolib** (geckolib-fabric-1.16.5-3.0.39.jar -> geckolib-fabric-1.16.5-3.0.40.jar)
 - **Library of Exile** (Library-Of-Exile-1.16.5-1.0.11.jar -> Library-Of-Exile-1.16.5-1.0.12.jar)
@@ -35,6 +44,7 @@
 - **Modern Industrialization** (Modern-Industrialization-0.4.0-alpha.08.jar -> Modern-Industrialization-0.4.0-alpha.10.jar)
 - **Mo' Structures** (mostructures-1.1.1+mc.1.16.5.jar -> mostructures-1.2.0-1.16.5.jar)
 - **Mouse Wheelie** (mousewheelie-1.7.2+mc1.16.5.jar -> mousewheelie-1.7.3+mc1.16.5.jar)
+- **Rat's Mischief** (ratsmischief-1.1.1.jar -> ratsmischief-1.1.2.jar)
 - **Repurposed Structures** (repurposed_structures-1.16.5-1.11.2-fabric.jar -> repurposed_structures-1.16.5-1.11.5-fabric.jar)
 - **Rhino** (rhino-1605.1.0-build.4.jar -> rhino-1605.1.1-build.23.jar)
 - **Terrarian Slimes** (terrarian-slimes-1.16.5-1.0.3-BETA.jar -> terrarian-slimes-1.1-BETA+1.16.jar)
