@@ -6,6 +6,7 @@
 - AOF3 now uses native fabric (no more jumploader), this should result in faster loading times aswell.
 - Fixed strongholds sometimes glitching out and not present in the world.
 - Fixed quest weights of rewards.
+- Fixed other bugs, too many I cant comprehend.
 
 **Added**
 - **BCLib** (bclib-0.1.43.jar)
