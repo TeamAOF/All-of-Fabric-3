@@ -15,7 +15,7 @@
 		/* The position preset for the HUD.
 		   0=Top Left, 1=Middle Left, 2=Bottom Left, 3=Top Right, 4=Middle Right, 5=Bottom Right
 		*/
-		"hudPosition": 1,
+		"hudPosition": 4,
 		// The X offset for the HUD.
 		"hudOffsetX": 0,
 		// The Y offset for the HUD.
