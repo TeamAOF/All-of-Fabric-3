@@ -1,0 +1,1684 @@
+{
+	id: "420326AEF1218754"
+	group: ""
+	order_index: 12
+	filename: "mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: "mysticalagriculture:inferium_essence"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Used to create higher tier Essences"
+			dependencies: [
+				"5959CBA5237F9C73"
+				"03444CDB7A2CD366"
+			]
+			id: "48F4A7436860B08A"
+			tasks: [{
+				id: "72355E7CF2BFA72B"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "62D31F894184F45F"
+				type: "item"
+				item: "mysticalagriculture:mystical_fertilizer"
+				count: 2
+			}]
+		}
+		{
+			title: "Supremium Tools"
+			icon: "mysticalagriculture:supremium_sword"
+			x: 10.0d
+			y: 1.0d
+			dependencies: [
+				"65EA3F59C33D069B"
+				"6B49E97B958E845E"
+			]
+			id: "15AF05A55B4E23BD"
+			tasks: [
+				{
+					id: "0BD1256C92F8B5A7"
+					type: "item"
+					item: "mysticalagriculture:supremium_sword"
+				}
+				{
+					id: "6E3D34EA3DEC89B0"
+					type: "item"
+					item: "mysticalagriculture:supremium_pickaxe"
+				}
+				{
+					id: "11028E4AA5122FC1"
+					type: "item"
+					item: "mysticalagriculture:supremium_shovel"
+				}
+				{
+					id: "124BB8B82211853E"
+					type: "item"
+					item: "mysticalagriculture:supremium_axe"
+				}
+				{
+					id: "6795CA165EF43B03"
+					type: "item"
+					item: "mysticalagriculture:supremium_hoe"
+				}
+				{
+					id: "2B5981622F27D436"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_watering_can"
+						Count: 1b
+						tag: {
+							Water: 0b
+							Active: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "12F7A65EE9A62F9C"
+					type: "item"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+					count: 4
+				}
+				{
+					id: "639D4D27715A876B"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "4CB486ABB9E8F17F"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "2B48BB5110D68786"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "47513E44AACDCA11"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			subtitle: "Tier 5"
+			dependencies: ["313AFD5A20C647EE"]
+			id: "6B49E97B958E845E"
+			tasks: [{
+				id: "2DDD967EDA54A875"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [
+				{
+					id: "3BD715807B94D69D"
+					type: "item"
+					item: "mysticalagriculture:mystical_fertilizer"
+					count: 4
+				}
+				{
+					id: "3E0C01705B19546E"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "344A5652AA3680E2"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Tier 4"
+			dependencies: ["04A2DF20D4EE841B"]
+			id: "313AFD5A20C647EE"
+			tasks: [{
+				id: "3E5DA101AF8FB83A"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [
+				{
+					id: "0EC346DB8764D195"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "01DA178F60DB2AF3"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			subtitle: "Tier 3"
+			dependencies: ["0133C856F9CC5051"]
+			id: "04A2DF20D4EE841B"
+			tasks: [{
+				id: "7FD5D576BBE88BF5"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [
+				{
+					id: "0B0948686660442B"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "6E11B84F2E81AB1E"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "Tier 2"
+			dependencies: ["5959CBA5237F9C73"]
+			id: "0133C856F9CC5051"
+			tasks: [{
+				id: "3ACE14B742674CCF"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [{
+				id: "37D2DEEB09159193"
+				type: "random"
+				table_id: 6908501239918343164L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Tier 1"
+			description: ["Found as an ore and dropped from mobs"]
+			id: "5959CBA5237F9C73"
+			tasks: [{
+				id: "057F06DCF803FEA9"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+			rewards: [{
+				id: "24954915272AFDC9"
+				type: "random"
+				table_id: 6908501239918343164L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Found as an ore"]
+			id: "03444CDB7A2CD366"
+			tasks: [{
+				id: "455CE24C10972114"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+			}]
+			rewards: [{
+				id: "0B78C1695FFA6850"
+				type: "random"
+				table_id: 6908501239918343164L
+			}]
+		}
+		{
+			icon: "mysticalagriculture:infusion_altar"
+			x: -1.5d
+			y: -2.0d
+			subtitle: "Used to craft seeds and augments"
+			description: [
+				"Place the Infusion Altar down to see where to place the Infusion Pedestals"
+				"Enabled by redstone"
+			]
+			dependencies: [
+				"5A9756A2041C2065"
+				"12282D139E7F28D2"
+			]
+			id: "112AE10A0C538A73"
+			tasks: [
+				{
+					id: "21662CB4285CBC13"
+					type: "item"
+					item: "mysticalagriculture:infusion_altar"
+				}
+				{
+					id: "6D6B116443292085"
+					type: "item"
+					item: "mysticalagriculture:infusion_pedestal"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "790E196225EB380D"
+				type: "random"
+				table_id: 6908501239918343164L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Used to craft all kinds of mystical seeds"
+			dependencies: ["03444CDB7A2CD366"]
+			id: "12282D139E7F28D2"
+			tasks: [{
+				id: "0F0E5A4DAAF4FABB"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+			rewards: [{
+				id: "4158445594E5E31F"
+				type: "random"
+				table_id: 6908501239918343164L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Used to craft Mob Seeds"
+			description: [""]
+			dependencies: ["12282D139E7F28D2"]
+			id: "5B4FD21921FD194A"
+			tasks: [{
+				id: "5C21CEA3E9F32B4F"
+				type: "item"
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+			rewards: [{
+				id: "756444A1C39B5059"
+				type: "random"
+				table_id: 6908501239918343164L
+			}]
+		}
+		{
+			title: "Soul Collection"
+			icon: {
+				id: "mysticalagriculture:soulium_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: 0.0d
+			subtitle: "Kill entities using the Soulium Dagger with a Soul Jar to collect their Essence"
+			id: "7564BBC841B14DF3"
+			tasks: [
+				{
+					id: "282A02DF168899AD"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:soulium_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B3D6CFB7C205C15"
+					type: "item"
+					item: "mysticalagriculture:soul_jar"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0EFD1B2BA9D0CFCC"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "6E20AB8E34D57492"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Imperium Tools"
+			icon: {
+				id: "mysticalagriculture:imperium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 8.0d
+			y: 1.0d
+			dependencies: [
+				"32F33441848844A4"
+				"313AFD5A20C647EE"
+			]
+			id: "65EA3F59C33D069B"
+			tasks: [
+				{
+					id: "34CEFF54DB9CFF7B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E0DD35A610BCB84"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E1235A540023EB5"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ECBFF069EF89C7A"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "665E7C1D4A8B742B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A2211EFEFEBF68B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_watering_can"
+						Count: 1b
+						tag: {
+							Water: 0b
+							Active: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "04B73AB781A2EECA"
+					type: "item"
+					item: "mysticalagriculture:imperium_growth_accelerator"
+					count: 4
+				}
+				{
+					id: "780CBA5BDDDA8283"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "3FC94A6A5FE7C03D"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Used to craft all kinds of augments"
+			dependencies: ["03444CDB7A2CD366"]
+			id: "5A9756A2041C2065"
+			tasks: [{
+				id: "0995301F13FA4202"
+				type: "item"
+				item: "mysticalagriculture:unattuned_augment"
+			}]
+			rewards: [{
+				id: "792F9134EFB262E0"
+				type: "random"
+				table_id: 6908501239918343164L
+			}]
+		}
+		{
+			title: "Tertium Tools"
+			icon: {
+				id: "mysticalagriculture:tertium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 1.0d
+			dependencies: [
+				"6E8F1D295A535EE1"
+				"04A2DF20D4EE841B"
+			]
+			id: "32F33441848844A4"
+			tasks: [
+				{
+					id: "1EAEA61DC5130EB4"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D8E45FC92B589CF"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E5DAE8B5D78FF65"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "38267CDB714A2643"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23175382B7CC8124"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F4EA7168DF0057A"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_watering_can"
+						Count: 1b
+						tag: {
+							Water: 0b
+							Active: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7DF247068C8F3734"
+					type: "item"
+					item: "mysticalagriculture:tertium_growth_accelerator"
+					count: 4
+				}
+				{
+					id: "5B82916EF402B0CD"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "29DD143202975D16"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Prudentium Tools"
+			icon: {
+				id: "mysticalagriculture:prudentium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 1.0d
+			dependencies: [
+				"383F99234DA60CF7"
+				"0133C856F9CC5051"
+			]
+			id: "6E8F1D295A535EE1"
+			tasks: [
+				{
+					id: "049359EC38900847"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FC4D00F82FC253C"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "180A83F240F14BEC"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C8C09A8E95D9180"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78CB2E06E88E1132"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E7CCDD17CB2FCB7"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_watering_can"
+						Count: 1b
+						tag: {
+							Water: 0b
+							Active: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "44AF3CFCAA6A858E"
+					type: "item"
+					item: "mysticalagriculture:prudentium_growth_accelerator"
+					count: 4
+				}
+				{
+					id: "1537AC1CF21803F0"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Inferium Tools"
+			icon: {
+				id: "mysticalagriculture:inferium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["5959CBA5237F9C73"]
+			id: "383F99234DA60CF7"
+			tasks: [
+				{
+					id: "6DE75481D0E6DC32"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "21D51642D7DDBA18"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "358B87628E1E9B7B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77E0AE6B08EA0253"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BD7EAB463BFAF93"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5584A7BFD6BD1032"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_watering_can"
+						Count: 1b
+						tag: {
+							Water: 0b
+							Active: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "05793ED04DC7F260"
+					type: "item"
+					item: "mysticalagriculture:inferium_growth_accelerator"
+					count: 4
+				}
+				{
+					id: "3C2636DF1B0C58BD"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Mob Seeds"
+			x: -4.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Mob Seed"
+			description: ["Literally mob farming!"]
+			dependencies: [
+				"7564BBC841B14DF3"
+				"5B4FD21921FD194A"
+			]
+			id: "0DD91AE68BE1F0D6"
+			tasks: [{
+				id: "45504C3A94BAADD3"
+				type: "item"
+				title: "Mob Seeds"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:blaze_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:cow_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:chicken_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:pig_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:creeper_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:enderman_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:fish_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:zombie_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:wither_skeleton_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:skeleton_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:rabbit_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:sheep_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:slime_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:spider_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:squid_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:turtle_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:ghast_seeds"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60760B49FA39E0A7"
+					type: "item"
+					item: "mysticalagriculture:soul_jar"
+					count: 4
+				}
+				{
+					id: "7436A7EA15925000"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "17AC364F2F5298A5"
+					type: "random"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Elemental Seeds"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Make all of the Elemental Seeds"
+			dependencies: ["5959CBA5237F9C73"]
+			id: "6B441E26FFE1818B"
+			tasks: [
+				{
+					id: "2D04F8678B37E090"
+					type: "item"
+					item: "mysticalagriculture:air_seeds"
+				}
+				{
+					id: "25D3FE2525311AD7"
+					type: "item"
+					item: "mysticalagriculture:earth_seeds"
+				}
+				{
+					id: "3DFE1E777FFF4E64"
+					type: "item"
+					item: "mysticalagriculture:water_seeds"
+				}
+				{
+					id: "48B26C4DA22ADAD3"
+					type: "item"
+					item: "mysticalagriculture:fire_seeds"
+				}
+			]
+			rewards: [{
+				id: "2E433CF60B0CEAB1"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+				count: 4
+			}]
+		}
+		{
+			title: "Tier 1 Seeds"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 1 Seed"
+			dependencies: ["5959CBA5237F9C73"]
+			id: "6C47CDEB3FD675D4"
+			tasks: [{
+				id: "5673EA6ED4749658"
+				type: "item"
+				title: "Tier 1 Seeds"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:inferium_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:stone_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:dirt_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:wood_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:ice_seeds"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "39C57F11D590163D"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+		{
+			title: "Tier 2 Seeds"
+			x: 3.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 2 Seed"
+			dependencies: ["0133C856F9CC5051"]
+			id: "678AADE864918029"
+			tasks: [{
+				id: "4EC38AAE5E51AAB8"
+				type: "item"
+				title: "Tier 2 Seeds"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:chicken_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:cow_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:sheep_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:squid_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:fish_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:slime_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:rubber_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:copper_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:aluminum_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:sulfur_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:turtle_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:nature_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:dye_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:nether_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:coal_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:coral_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:honey_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:pig_seeds"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "35BF29C19752A354"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+				count: 2
+			}]
+		}
+		{
+			title: "Tier 3 Seeds"
+			x: 5.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 3 Seed"
+			dependencies: ["04A2DF20D4EE841B"]
+			id: "03874BDAF185C053"
+			tasks: [{
+				id: "777CB0E0D182ED3B"
+				type: "item"
+				title: "Tier 3 Seeds"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:iron_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:nether_quartz_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:glowstone_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:redstone_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:obsidian_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:prismarine_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:zombie_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:skeleton_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:lead_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:silver_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:brass_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:zinc_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:bronze_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:tin_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:rabbit_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:spider_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:nikolite_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:antimony_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:sky_stone_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:certus_quartz_seeds"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E847EB2FEA1E905"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+				count: 4
+			}]
+		}
+		{
+			title: "Tier 4 Seeds"
+			x: 7.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 4 Seed"
+			dependencies: ["313AFD5A20C647EE"]
+			id: "23CDEC6717BA5316"
+			tasks: [{
+				id: "25BCD142429070D8"
+				type: "item"
+				title: "Tier 4 Seeds"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:tungsten_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:titanium_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:chrome_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:fluix_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:ruby_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:sapphire_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:peridot_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:gold_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:lapis_lazuli_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:experience_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:end_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:ghast_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:blaze_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:enderman_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:steel_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:nickel_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:electrum_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:invar_seeds"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "30F0A001DF0EE96E"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+				count: 8
+			}]
+		}
+		{
+			title: "Tier 5 Seeds"
+			x: 9.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 5 Seed"
+			dependencies: ["6B49E97B958E845E"]
+			id: "4D227D41B1BABB1F"
+			tasks: [{
+				id: "668BE58F09E1B023"
+				type: "item"
+				title: "Tier 5 Seeds"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:diamond_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:emerald_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:netherite_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:wither_skeleton_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:platinum_seeds"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:iridium_seeds"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D2DE38DCF85C824"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+				count: 16
+			}]
+		}
+		{
+			title: "Tier 1 Augments"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 1 Augment"
+			dependencies: ["5959CBA5237F9C73"]
+			id: "3481B2ECD345F798"
+			tasks: [{
+				id: "7D9C29926EE639BC"
+				type: "item"
+				title: "Tier 1 Augments"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:pathing_aoe_i_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:absorption_i_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:health_boost_i_augment"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "061ABCD7D5B20F6A"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 8
+			}]
+		}
+		{
+			title: "Tier 2 Augments"
+			x: 4.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 2 Augment"
+			dependencies: ["0133C856F9CC5051"]
+			id: "6ECB8661E26F5631"
+			tasks: [{
+				id: "275EC7CC9E6C2832"
+				type: "item"
+				title: "Tier 2 Augments"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:night_vision_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:speed_i_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:water_breathing_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:mining_aoe_i_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:pathing_aoe_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:tilling_aoe_i_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:absorption_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:health_boost_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:jump_boost_i_augment"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "202E6EF6A8BEE871"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+				count: 8
+			}]
+		}
+		{
+			title: "Tier 3 Augments"
+			x: 6.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 3 Augment"
+			dependencies: ["04A2DF20D4EE841B"]
+			id: "0B9C69E28F7896D2"
+			tasks: [{
+				id: "570E9922B82E2450"
+				type: "item"
+				title: "Tier 3 Augments"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:jump_boost_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:speed_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:step_assist_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:strength_i_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:no_fall_damage_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:mining_aoe_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:attack_aoe_i_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:pathing_aoe_iii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:tilling_aoe_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:absorption_iii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:fire_resistance_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:health_boost_iii_augment"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A6A21CE06BA9B7E"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+				count: 8
+			}]
+		}
+		{
+			title: "Tier 4 Augments"
+			x: 8.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 4 Augment"
+			dependencies: ["313AFD5A20C647EE"]
+			id: "19E20BD9F65719FD"
+			tasks: [{
+				id: "7589A5010566D148"
+				type: "item"
+				title: "Tier 4 Augments"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:poison_resistance_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:speed_iii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:strength_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:mining_aoe_iii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:attack_aoe_ii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:pathing_aoe_iv_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:tilling_aoe_iii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:absorption_iv_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:health_boost_iv_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:jump_boost_iii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:mining_fatigue_resistance_augment"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "539E49129D0325B0"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+				count: 4
+			}]
+		}
+		{
+			title: "Tier 5 Augments"
+			x: 10.0d
+			y: -1.0d
+			subtitle: "Make atleast one type of Tier 5 Augment"
+			dependencies: ["6B49E97B958E845E"]
+			id: "5329FBD23EC6A4BF"
+			tasks: [{
+				id: "34D4FEDF55E32F74"
+				type: "item"
+				title: "Tier 5 Augments"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:attack_aoe_iii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:tilling_aoe_iv_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:flight_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:absorption_v_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:health_boost_v_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:strength_iii_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:wither_resistance_augment"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:mining_aoe_iv_augment"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D450A65FD5344B5"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+				count: 8
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			subtitle: "An Infusion Crystal with unlimited uses"
+			description: ["Great for autocrafting"]
+			dependencies: ["6B49E97B958E845E"]
+			id: "718EAFA3588AF395"
+			tasks: [{
+				id: "58943F450C7C14AA"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+			rewards: [
+				{
+					id: "0C553D3D3E789A1A"
+					type: "item"
+					item: "mysticalagriculture:mystical_fertilizer"
+					count: 8
+				}
+				{
+					id: "12247BEAF4C2659F"
+					type: "item"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+					count: 4
+				}
+				{
+					id: "0DC024AD6374766B"
+					type: "item"
+					item: "mysticalagriculture:supremium_farmland"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["5959CBA5237F9C73"]
+			id: "2A2408248EEA705A"
+			tasks: [{
+				id: "6AE3774715A9B8C7"
+				type: "item"
+				item: "mysticalagriculture:mystical_fertilizer"
+				count: 8L
+			}]
+			rewards: [{
+				id: "657007CCBD13CA25"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+				count: 4
+			}]
+		}
+	]
+}

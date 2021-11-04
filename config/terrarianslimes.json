@@ -1,0 +1,240 @@
+{
+  "slimeConfig": {
+    "greenSlime": {
+      "enabled": true,
+      "spawnWeight": 30,
+      "spawnProbability": 0.02,
+      "baseHealth": 4.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 2.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "blueSlime": {
+      "enabled": true,
+      "spawnWeight": 30,
+      "spawnProbability": 0.01,
+      "baseHealth": 6.5,
+      "baseSpeed": 0.4,
+      "baseAttack": 2.3,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "redSlime": {
+      "enabled": true,
+      "spawnWeight": 100,
+      "spawnProbability": 0.05,
+      "baseHealth": 9.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 4.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "purpleSlime": {
+      "enabled": true,
+      "spawnWeight": 40,
+      "spawnProbability": 0.01,
+      "baseHealth": 9.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 4.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "yellowSlime": {
+      "enabled": true,
+      "spawnWeight": 100,
+      "spawnProbability": 0.02,
+      "baseHealth": 12.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 5.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "blackSlime": {
+      "enabled": true,
+      "spawnWeight": 100,
+      "spawnProbability": 0.05,
+      "baseHealth": 12.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 5.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "iceSlime": {
+      "enabled": true,
+      "spawnWeight": 40,
+      "spawnProbability": 0.04,
+      "baseHealth": 8.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 3.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": false
+    },
+    "sandSlime": {
+      "enabled": true,
+      "spawnWeight": 40,
+      "spawnProbability": 0.04,
+      "baseHealth": 13.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 6.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": false
+    },
+    "jungleSlime": {
+      "enabled": true,
+      "spawnWeight": 40,
+      "spawnProbability": 0.04,
+      "baseHealth": 16.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 6.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "spikedIceSlime": {
+      "baseSpikeAttack": 6.0,
+      "spikeAttackCooldown": 100,
+      "enabled": true,
+      "spawnWeight": 20,
+      "spawnProbability": 0.01,
+      "baseHealth": 16.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 4.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": false
+    },
+    "spikedJungleSlime": {
+      "baseSpikeAttack": 8.5,
+      "spikeAttackCooldown": 100,
+      "enabled": true,
+      "spawnWeight": 20,
+      "spawnProbability": 0.01,
+      "baseHealth": 17.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 8.4,
+      "attackCooldown": 20,
+      "hasBonusDrops": false
+    },
+    "motherSlime": {
+      "enabled": true,
+      "spawnWeight": 100,
+      "spawnProbability": 0.02,
+      "baseHealth": 24.0,
+      "baseSpeed": 0.5,
+      "baseAttack": 8.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": false
+    },
+    "babySlime": {
+      "enabled": true,
+      "spawnWeight": 0,
+      "spawnProbability": 0.0,
+      "baseHealth": 8.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 4.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "lavaSlime": {
+      "enabled": true,
+      "spawnWeight": 10,
+      "spawnProbability": 0.05,
+      "baseHealth": 13.0,
+      "baseSpeed": 0.8,
+      "baseAttack": 6.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": false
+    },
+    "pinky": {
+      "enabled": true,
+      "spawnWeight": 1,
+      "spawnProbability": 0.05,
+      "baseHealth": 45.0,
+      "baseSpeed": 0.6,
+      "baseAttack": 2.0,
+      "attackCooldown": 20,
+      "hasBonusDrops": true
+    },
+    "kingSlime": {
+      "enabled": true,
+      "spawnWeight": 0,
+      "spawnProbability": 0.001,
+      "baseHealth": 500.0,
+      "baseSpeed": 0.7,
+      "baseAttack": 14.4,
+      "attackCooldown": 60,
+      "hasBonusDrops": false
+    },
+    "spikedSlime": {
+      "baseSpikeAttack": 6.0,
+      "spikeAttackCooldown": 100,
+      "enabled": true,
+      "spawnWeight": 0,
+      "spawnProbability": 0.0,
+      "baseHealth": 15.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 4.8,
+      "attackCooldown": 20,
+      "hasBonusDrops": false
+    },
+    "umbrellaSlime": {
+      "enabled": true,
+      "spawnWeight": 40,
+      "spawnProbability": 0.01,
+      "baseHealth": 9.0,
+      "baseSpeed": 0.5,
+      "baseAttack": 3.6,
+      "attackCooldown": 20,
+      "hasBonusDrops": false
+    },
+    "corruptSlime": {
+      "enabled": true,
+      "spawnWeight": 10,
+      "spawnProbability": 0.05,
+      "baseHealth": 50.0,
+      "baseSpeed": 0.5,
+      "baseAttack": 18.3,
+      "attackCooldown": 40,
+      "hasBonusDrops": false
+    },
+    "slimeling": {
+      "enabled": true,
+      "spawnWeight": 0,
+      "spawnProbability": 0.0,
+      "baseHealth": 25.0,
+      "baseSpeed": 0.4,
+      "baseAttack": 15.0,
+      "attackCooldown": 60,
+      "hasBonusDrops": false
+    },
+    "crimslime": {
+      "enabled": true,
+      "spawnWeight": 10,
+      "spawnProbability": 0.05,
+      "baseHealth": 57.0,
+      "baseSpeed": 0.5,
+      "baseAttack": 20.0,
+      "attackCooldown": 40,
+      "hasBonusDrops": false
+    },
+    "illuminantSlime": {
+      "enabled": true,
+      "spawnWeight": 1,
+      "spawnProbability": 0.04,
+      "baseHealth": 51.4,
+      "baseSpeed": 0.8,
+      "baseAttack": 23.2,
+      "attackCooldown": 40,
+      "hasBonusDrops": false
+    },
+    "rainbowSlime": {
+      "enabled": true,
+      "spawnWeight": 1,
+      "spawnProbability": 0.01,
+      "baseHealth": 115.0,
+      "baseSpeed": 0.6,
+      "baseAttack": 28.3,
+      "attackCooldown": 80,
+      "hasBonusDrops": false
+    }
+  }
+}

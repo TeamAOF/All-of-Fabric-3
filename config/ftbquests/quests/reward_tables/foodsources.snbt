@@ -1,0 +1,60 @@
+{
+	id: "178E3B925C24DFE5"
+	order_index: 10
+	title: "foodsources"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "croptopia:apple_sapling", weight: 2 }
+		{ item: "croptopia:banana_sapling", weight: 2 }
+		{ item: "croptopia:orange_sapling", weight: 2 }
+		{ item: "croptopia:persimmon_sapling", weight: 2 }
+		{ item: "croptopia:plum_sapling", weight: 2 }
+		{ item: "croptopia:cherry_sapling", weight: 2 }
+		{ item: "croptopia:lemon_sapling", weight: 2 }
+		{ item: "croptopia:grapefruit_sapling", weight: 2 }
+		{ item: "croptopia:kumquat_sapling", weight: 2 }
+		{ item: "croptopia:peach_sapling", weight: 2 }
+		{ item: "croptopia:coconut_sapling", weight: 2 }
+		{ item: "croptopia:nutmeg_sapling", weight: 2 }
+		{ item: "croptopia:fig_sapling", weight: 2 }
+		{ item: "croptopia:nectarine_sapling", weight: 2 }
+		{ item: "croptopia:mango_sapling", weight: 2 }
+		{ item: "croptopia:dragonfruit_sapling", weight: 2 }
+		{ item: "croptopia:starfruit_sapling", weight: 2 }
+		{ item: "croptopia:avocado_sapling", weight: 2 }
+		{ item: "croptopia:apricot_sapling", weight: 2 }
+		{ item: "croptopia:pear_sapling", weight: 2 }
+		{ item: "croptopia:lime_sapling", weight: 2 }
+		{ item: "croptopia:date_sapling", weight: 2 }
+		{ item: "croptopia:artichoke_seed", weight: 2 }
+		{ item: "croptopia:asparagus_seed", weight: 2 }
+		{ item: "croptopia:bellpepper_seed", weight: 2 }
+		{ item: "croptopia:blackbean_seed", weight: 2 }
+		{ item: "croptopia:blackberry_seed", weight: 2 }
+		{ item: "croptopia:blueberry_seed", weight: 2 }
+		{ item: "croptopia:broccoli_seed", weight: 2 }
+		{ item: "croptopia:cabbage_seed", weight: 2 }
+		{ item: "croptopia:cantaloupe_seed", weight: 2 }
+		{ item: "croptopia:cauliflower_seed", weight: 2 }
+		{ item: "croptopia:celery_seed", weight: 2 }
+		{ item: "croptopia:coffee_seed", weight: 2 }
+		{ item: "croptopia:corn_seed", weight: 2 }
+		{ item: "croptopia:cranberry_seed", weight: 2 }
+		{ item: "croptopia:cucumber_seed", weight: 2 }
+		{ item: "croptopia:currant_seed", weight: 2 }
+		{ item: "croptopia:eggplant_seed", weight: 2 }
+		{ item: "croptopia:elderberry_seed", weight: 2 }
+		{ item: "croptopia:garlic_seed", weight: 2 }
+		{ item: "croptopia:grape_seed", weight: 2 }
+		{ item: "croptopia:greenbean_seed", weight: 2 }
+		{ item: "croptopia:greenonion_seed", weight: 2 }
+		{ item: "croptopia:honeydew_seed", weight: 2 }
+		{ item: "croptopia:hops_seed", weight: 2 }
+		{ item: "croptopia:pineapple_seed", weight: 2 }
+		{ item: "croptopia:almond_sapling", weight: 2 }
+		{ item: "croptopia:cashew_sapling", weight: 2 }
+		{ item: "croptopia:pecan_sapling", weight: 2 }
+		{ item: "croptopia:walnut_sapling", weight: 2 }
+	]
+}

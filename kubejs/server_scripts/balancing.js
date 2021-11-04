@@ -15,48 +15,26 @@ events.listen("recipes", function (event) {
   // Angel Ring
   event.remove({ output: "kibe:angel_ring" });
   event.shaped(item.of("kibe:angel_ring"), [
-    ["dml-refabricated:glitch_ingot", "blockus:nether_stars_block",          "dml-refabricated:glitch_ingot"],
-    ["minecraft:elytra",              "techreborn:interdimensional_su",   "minecraft:elytra"],
-    ["winged:booster_empty",          "modern_industrialization:jetpack", "winged:booster_empty"],
+    ['indrev:module_feather_falling', null,         'indrev:module_feather_falling'],
+    ['netherite_plus:netherite_elytra', 'kibe:diamond_ring', 'netherite_plus:netherite_elytra'],
+    ['minecraft:end_crystal', 'minecraft:nether_star', 'minecraft:dragon_breath'],
   ]);
 
-
-  // Boosters
-  event.remove({ output: "winged:booster_empty" });
-  event.shaped(item.of("winged:booster_empty"), [
-    ["techreborn:titanium_plate", "techreborn:titanium_plate",         "techreborn:titanium_plate"],
-    ["techreborn:titanium_plate", "techreborn:superconductor_upgrade", "techreborn:titanium_plate"],
-    ["techreborn:titanium_plate", "techreborn:superconductor_upgrade", "techreborn:titanium_plate"],
-  ]);
+    // Master Infusion Crystal
+    event.remove({ output: "mysticalagriculture:master_infusion_crystal" });
+    event.shaped(item.of("mysticalagriculture:master_infusion_crystal"), [
+      ['mysticalagriculture:supremium_ingot', 'mysticalagriculture:infusion_crystal',         'mysticalagriculture:supremium_ingot'],
+      ['mysticalagriculture:infusion_crystal', 'mysticalagriculture:supremium_gemstone_block', 'mysticalagriculture:infusion_crystal'],
+      ['mysticalagriculture:supremium_ingot', 'mysticalagriculture:infusion_crystal', 'mysticalagriculture:supremium_ingot'],
+    ]);
 
 
   // Quantum Suit
-   event.remove({ output: "techreborn:quantum_helmet" });
-   event.shaped(item.of("techreborn:quantum_helmet"), [
-     ["techreborn:data_storage_chip", "techreborn:lapotronic_orb", "techreborn:data_storage_chip"],
-     ["winged:booster_empty",         null,                        "winged:booster_empty"],
-     [null,                           null,                        null],
-   ]);
-
   event.remove({ output: "techreborn:quantum_chestplate" });
   event.shaped(item.of("techreborn:quantum_chestplate"), [
     ["techreborn:tungstensteel_plate",  null,                                   "techreborn:tungstensteel_plate"],
     ["techreborn:superconductor_cable", "kibe:angel_ring",                      "techreborn:superconductor_cable"],
     ["techreborn:data_storage_chip",    "techreborn:iridium_neutron_reflector", "techreborn:data_storage_chip"],
-  ]);
-
-  event.remove({ output: "techreborn:quantum_leggings" });
-  event.shaped(item.of("techreborn:quantum_leggings"), [
-    ["techreborn:data_storage_chip",   "techreborn:lapotronic_orb", "techreborn:data_storage_chip"],
-    ["winged:booster_empty",           null,                        "winged:booster_empty"],
-    ["techreborn:tungstensteel_plate", null,                        "techreborn:tungstensteel_plate"],
-  ]);
-
-  event.remove({ output: "techreborn:quantum_boots" });
-  event.shaped(item.of("techreborn:quantum_boots"), [
-    ["techreborn:lapotronic_orb",    null, "techreborn:lapotronic_orb"],
-    ["techreborn:data_storage_chip", null, "techreborn:data_storage_chip"],
-    ["winged:booster_empty",         null, "winged:booster_empty"],
   ]);
 
   // Cobweb

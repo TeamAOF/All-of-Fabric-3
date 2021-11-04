@@ -1,0 +1,33 @@
+{
+	id: "6E5CE314A63896F2"
+	order_index: 6
+	title: "explorerer"
+	icon: "byg:palm_sapling"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "terrestria:rainbow_eucalyptus_sapling", count: 64, weight: 2 }
+		{ item: "terrestria:sakura_sapling", count: 64, weight: 2 }
+		{ item: "terrestria:saguaro_cactus_sapling", count: 64, weight: 2 }
+		{ item: "terrestria:japanese_maple_shrub_sapling", count: 64, weight: 2 }
+		{ item: "byg:redwood_sapling", count: 64, weight: 2 }
+		{ item: "byg:joshua_sapling", count: 64, weight: 2 }
+		{ item: "byg:holly_sapling", count: 64, weight: 2 }
+		{ item: "byg:blue_spruce_sapling", count: 64, weight: 2 }
+		{ item: "byg:palm_sapling", count: 64, weight: 2 }
+		{ item: "byg:willow_sapling", count: 64, weight: 2 }
+		{ item: "byg:red_maple_sapling", count: 64, weight: 2 }
+		{ item: "byg:white_cherry_sapling", count: 64, weight: 2 }
+		{ item: "byg:yellow_spruce_sapling", count: 64, weight: 2 }
+		{ item: "terrestria:yucca_palm_planks", count: 64, weight: 2 }
+		{ item: "byg:cypress_planks", count: 64, weight: 2 }
+		{ item: "byg:bulbis_planks", count: 64, weight: 2 }
+		{ item: "blockus:white_oak_planks", count: 64, weight: 2 }
+		{ item: "terrestria:japanese_maple_planks", count: 64, weight: 2 }
+		{ item: "betterend:tenanea_planks", count: 64, weight: 2 }
+		{ item: "byg:aspen_planks", count: 64, weight: 2 }
+		{ item: "biomemakeover:willow_planks", count: 64, weight: 2 }
+		{ item: "promenade:palm_planks", count: 64, weight: 2 }
+		{ item: "promenade:dark_amaranth_planks", count: 64, weight: 2 }
+	]
+}

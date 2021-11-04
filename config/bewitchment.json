@@ -45,6 +45,5 @@
   "werewolfMaxGroupCount": 1,
   "hellhoundWeight": 6,
   "hellhoundMinGroupCount": 1,
-  "hellhoundMaxGroupCount": 1,
-  "doDemonTradesRefresh": true
+  "hellhoundMaxGroupCount": 1
 }

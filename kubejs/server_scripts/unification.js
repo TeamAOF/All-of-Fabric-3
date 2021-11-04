@@ -93,7 +93,8 @@ events.listen("recipes", function (event) {
     // REI
     event.remove({ id: "indrev:shapeless/" + item + "_ingot_from_block" });
     event.remove({ id: "indrev:shapeless/" + item + "_nugget" });
-    event.remove({ id: "indrev:shaped/" + item + "_ingot_from_nuggets" });
+    event.remove({ id: "indrev:shaped/" + item + "_ingot_from_nugget" });
+    event.remove({ id: "indrev:shaped/" + item + "_block_from_nugget" });
     event.remove({ id: "indrev:shaped/" + item + "_block" });
   });
 
@@ -117,18 +118,22 @@ events.listen("recipes", function (event) {
     "aluminum",
     "bronze",
     "chrome",
+    "diamond",
     "electrum",
+    "emerald",
     "gold",
     "invar",
     "redstone",
     "iron",
     "quartz",
     "lead",
+    "platinum",
     "nickel",
     "silver",
     "steel",
     "tin",
     "titanium",
+    "tungsten",
   ];
 
   var modern_dusts = [
@@ -139,7 +144,9 @@ events.listen("recipes", function (event) {
     "bronze",
     "bauxite",
     "chrome",
+    "diamond",
     "electrum",
+    "emerald",
     "gold",
     "invar",
     "nickel",
@@ -154,6 +161,8 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
+    "tungsten",
+    "platinum",
   ];
 
   var modern_nuggets = [
@@ -170,6 +179,9 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
+    "iridium",
+    "platinum",
+    "tungsten",
   ];
 
   var modern_metals = [
@@ -179,6 +191,7 @@ events.listen("recipes", function (event) {
     "chrome",
     "electrum",
     "invar",
+    "iridium",
     "redstone",
     "lead",
     "nickel",
@@ -186,9 +199,19 @@ events.listen("recipes", function (event) {
     "steel",
     "tin",
     "titanium",
+    "tungsten",
+    "platinum",
   ];
 
-  var modern_ores = ["copper", "bauxite", "lead", "silver", "tin"];
+  var modern_ores = [
+    "copper",
+    "bauxite",
+    "iridium",
+    "lead",
+    "silver",
+    "tin",
+    "tungsten",
+  ];
 
   // Plates
   modern_materials.forEach(function (item, index) {
@@ -254,6 +277,22 @@ events.listen("recipes", function (event) {
     "croptopia:salt_ore"
   );
 
+  event.replaceOutput(
+    {},
+    "modern_industrialization:platinum_ore",
+    "techreborn:sheldonite_ore"
+  );
+
+  event.replaceOutput(
+    {},
+    "modern_industrialization:quartz_ore",
+    "minecraft:nether_quartz_ore"
+  );
+
+  event.remove({
+    input: "modern_industrialization:quartz_ore",
+  });
+
   // REI
   modern_materials.forEach(function (item, index) {
     event.remove({
@@ -292,57 +331,69 @@ events.listen("recipes", function (event) {
       id:
         "modern_industrialization:generated/materials/" +
         item +
-        "/craft/main_from_nugget",
+        "/craft/ingot_from_nugget",
     });
 
     event.remove({
       id:
         "modern_industrialization:generated/materials/" +
         item +
-        "/craft/nugget_from_main",
+        "/craft/nugget_from_ingot",
     });
 
     event.remove({
       id:
         "modern_industrialization:generated/materials/" +
         item +
-        "/craft/main_from_block",
+        "/craft/ingot_from_block",
     });
 
     event.remove({
       id:
         "modern_industrialization:generated/materials/" +
         item +
-        "/craft/block_from_main",
+        "/craft/block_from_ingot",
     });
   });
 
-    // --------- BEWITCHMENT --------- //
-  
-    var bewitchment = ["silver"];
-  
-    // Ingots
-    bewitchment.forEach(function (item, index) {
-      event.replaceOutput(
-        {},
-        "bewitchment:" + item + "_ingot",
-        "techreborn:" + item + "_ingot"
-      );
-  
-      // Blocks
-      event.replaceOutput(
-        {},
-        "bewitchment:" + item + "_block",
-        "techreborn:" + item + "_storage_block"
-      );
-  
-      // REI
-      event.remove({ id: "bewitchment:" + item + "_ingot_from" + item + "block" });
-      event.remove({ id: "bewitchment:" + item + "_ingot_from_nuggets" });
-      event.remove({ id: "bewitchment:" + item + "_ingot_from_blasting" });
-      event.remove({ id: "bewitchment:" + item + "_block" });
-      event.remove({ id: "bewitchment:" + item + "_ingot" });
-    });
+
+  // --------- MYSTICAL AGRICULTURE --------- //
+
+  event.recipes.modern_industrialization.macerator({
+    eu: 2,
+    duration: 200,
+    id: "aof3:macerator/inferium_ore",
+    item_inputs: [
+        {
+            item: "mysticalagriculture:inferium_ore",
+            amount: 1
+        }
+    ],
+    item_outputs: [
+        {
+            item: "mysticalagriculture:inferium_essence",
+            amount: 8
+        }
+    ],
+  });
+
+  event.recipes.modern_industrialization.macerator({
+    eu: 2,
+    duration: 200,
+    id: "aof3:macerator/prosperity_ore",
+    item_inputs: [
+        {
+            item: "mysticalagriculture:prosperity_ore",
+            amount: 1
+        }
+    ],
+    item_outputs: [
+        {
+            item: "mysticalagriculture:prosperity_shard",
+            amount: 6
+        }
+    ],
+  });
 
   // --------- APPLIED ENERGESTICS 2 --------- //
 
@@ -374,7 +425,10 @@ events.listen("recipes", function (event) {
     "chrome",
     "bronze",
     "silicon",
+    "diamond",
     "electrum",
+    "emerald",
+    "platinum",
     "invar",
     "nickel",
     "iron",
@@ -394,14 +448,17 @@ events.listen("recipes", function (event) {
     "electrum",
     "chrome",
     "invar",
+    "iridium",
     "nickel",
     "silver",
     "steel",
     "titanium",
     "tungsten",
+    "platinum",
   ];
 
   var rei_dusts = [
+    "invar",
     "coal",
     "charcoal",
     "iron",
@@ -424,6 +481,7 @@ events.listen("recipes", function (event) {
     "bronze",
     "electrum",
     "titanium",
+    "tungsten",
     "chrome",
   ];
 
@@ -457,6 +515,12 @@ events.listen("recipes", function (event) {
       "techreborn:" + item + "_ore"
     );
   });
+
+  event.replaceInput(
+    {},
+    "#c:platinum_ores",
+    "techreborn:sheldonite_ore"
+  );
 
   // REI Ingots
   rei_ingots.forEach(function (item, index) {

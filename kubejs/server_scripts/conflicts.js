@@ -4,7 +4,16 @@
 
 events.listen("recipes", function (event) {
 
-  //Gunpowder Block
+   // Charm Barrel
+   event.remove({ output: "minecraft:barrel" });
+
+   event.shapeless('charm:spruce_barrel', ['minecraft:barrel'])
+   event.shapeless('minecraft:barrel', ['charm:spruce_barrel'])
+  
+  // Remove byg:gray_dye as it is a null tag, and this fixes the empty gray dye recipe
+  event.remove({ id: "byg:gray_dye" });
+
+  // Gunpowder Block
   event.remove({ output: "blast:gunpowder_block" });
 
   event.shaped(item.of("blast:gunpowder_block"), [
@@ -79,6 +88,13 @@ events.listen("recipes", function (event) {
     "techreborn:iron_plate"
   );
 
+  // Gold Plating
+    event.replaceInput(
+      { id: "blockus:gold_plating" },
+      "minecraft:gold_ingot",
+      "techreborn:gold_plate"
+    );
+
   // Chests
   event.replaceInput({}, "#c:wooden_chests", "#c:wooden_chests");
 
@@ -111,6 +127,13 @@ events.listen("recipes", function (event) {
     ["minecraft:bamboo", "minecraft:bamboo", "minecraft:bamboo"],
     ["minecraft:bamboo", "minecraft:bamboo", "minecraft:bamboo"],
   ]);
+ 
+  
+  //Blockus Golden bars
+  event.remove({ output: "blockus:golden_bars" });
+
+  event.shapeless('blockus:golden_bars', ['charm:gold_bars'])
+  event.shapeless('charm:gold_bars', ['blockus:golden_bars'])
 
   // Basic Coil / Red Alloy Compound
   event.remove({ output: "rswires:red_alloy_compound" });
@@ -129,6 +152,10 @@ events.listen("recipes", function (event) {
 
   // AE2 Grindstone
   event.remove({ output: "appliedenergistics2:grindstone" });
+
+  // Seeds
+  event.remove({ id: "sandwichable:tomato_seeds_from_tomato" });
+  event.remove({ id: "sandwichable:cucumber_seeds" });
 
   // Barrels
   var blockus_barrels = [

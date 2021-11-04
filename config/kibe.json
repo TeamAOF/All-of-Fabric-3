@@ -1,0 +1,12 @@
+{
+  "miscellaneousModule": {
+    "tanksChangeLights": true,
+    "cursedDirtMobCap": 25,
+    "cursedDirtBlacklist": []
+  },
+  "chunkLoaderModule": {
+    "checkForPlayer": false,
+    "maxPerPlayer": -1,
+    "maxOfflineTime": -1
+  }
+}

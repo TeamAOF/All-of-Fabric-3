@@ -8,7 +8,10 @@
 	"scaledItemDrops": true,
 	"scaledProjectiles": true,
 	"scaledExplosions": true,
-	"keepScaleOnRespawn": false,
+	"keepAllScalesOnRespawn": false,
+	"scalesKeptOnRespawn": [],
 	"accurateNetherPortals": true,
-	"minimumCameraDepth": 0.001
+	"largeScaleCollisionThreshold": 26.0,
+	"minimumCameraDepth": 0.001,
+	"keepScaleOnRespawn": false
 }

@@ -1,0 +1,49 @@
+{
+	"conjurer_config": {
+		// How many extra mobs to spawn per abundance charm
+		"abundance_multiplier": 2,
+		// How many ticks of waiting to remove per haste charm
+		"haste_multiplier": 93.75,
+		// How many blocks of range to add per scope charm
+		"scope_multiplier": 6,
+		// How many extra mobs are allowed close to the conjurer per ignorance charm
+		"ignorance_multiplier": 2,
+		// Which mob types you shouldn't be able to create a conjuring focus for
+		"conjurer_blacklist": [
+			"minecraft:wither",
+			"minecraft:ender_dragon"
+		]
+	},
+	"tools_config": {
+		// What percentage (additive) of the original damage to apply to each entity in the aoe per scope level
+		"sword_scope_damage_multiplier": 0.30000001192092896,
+		// How many entities the sword's aoe is allowed to affect
+		"sword_scope_max_entities": 15,
+		// What percentage (additive) of the original damage to make armor piercing per ignorance level
+		"sword_ignorance_multiplier": 0.10000000149011612,
+		// Exponent for the haste level, attack speed calculation goes like this: -2.4f + haste_level^exponent
+		"sword_haste_exponent": 1.5,
+		// How much durability firing a projectile with sword costs
+		"sword_secondary_durability_cost": 20,
+		// Cooldown for firing projectiles with the sword, in ticks
+		"sword_secondary_cooldown": 30,
+		// How much of the sword's damage each fired projectile deals
+		"sword_projectile_damage_multiplier": 0.20000000298023224,
+		// The exponent for the scope level, tree cutting range is calculated like this: 8 + scope_level^exponent * 8
+		"axe_scope_exponent": 3.0,
+		// How much durability firing a projectile with the hatchet costs, base value
+		"axe_secondary_base_durability_cost": 10,
+		// How much durability firing a projectile with the hatchet costs, added per scope level
+		"axe_secondary_per_scope_durability_cost": 5,
+		// Cooldown for firing projectiles with the hatchet, in ticks
+		"axe_secondary_cooldown": 15,
+		// How much durability firing a projectile with the pickaxe costs
+		"pickaxe_secondary_durability_cost": 15,
+		// Cooldown for firing projectiles with the pickaxe, in ticks
+		"pickaxe_secondary_cooldown": 15,
+		// How many ores the pickaxe's projectile can mine in one go
+		"pickaxe_veinmine_max_blocks": 32,
+		// From what distance the shovel's projectile pulls in items
+		"shovel_magnet_range": 4
+	}
+}

@@ -1,0 +1,18 @@
+{
+	id: "5CAF1D5BD6445D82"
+	order_index: 9
+	title: "Pristine Matter"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "dml-refabricated:pristine_matter_nether", weight: 2 }
+		{ item: "dml-refabricated:pristine_matter_slimy", weight: 2 }
+		{ item: "dml-refabricated:pristine_matter_overworld", weight: 2 }
+		{ item: "dml-refabricated:pristine_matter_zombie", weight: 2 }
+		{ item: "dml-refabricated:pristine_matter_skeleton", weight: 2 }
+		{ item: "dml-refabricated:pristine_matter_end", weight: 2 }
+		{ item: "dml-refabricated:pristine_matter_ghost", weight: 2 }
+		{ item: "dml-refabricated:pristine_matter_illager", weight: 2 }
+		{ item: "dml-refabricated:pristine_matter_ocean", weight: 2 }
+	]
+}

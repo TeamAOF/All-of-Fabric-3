@@ -1,6 +1,6 @@
 {
 	// Enable 'Sort' button in inventorys
-	"displaySort": false,
+	"displaySort": true,
 	// Middle click to sort inventorys
 	"middleClick": true,
 	// Enable second 'Sort' button in player inv
@@ -11,5 +11,9 @@
 	"sortType": "NAME",
 	// Display Sort Button Tooltip
 	"displayTooltip": true,
+	// Sort Inventory key
+	"keybinding": "key.keyboard.p",
+	// Should sort half of open inv highlighted by mouse
+	"sortMouseHighlighted": true,
 	"debugMode": false
 }

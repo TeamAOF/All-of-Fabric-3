@@ -1,0 +1,111 @@
+{
+	id: "33AFCEE40952A3FA"
+	order_index: 8
+	title: "Hats"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{
+			item: {
+				id: "villagerhats:farmer_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "villagerhats:armorer_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "villagerhats:butcher_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "villagerhats:cartographer_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "villagerhats:fisherman_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "villagerhats:fletcher_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "villagerhats:librarian_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "villagerhats:shepherd_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "villagerhats:weaponsmith_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "givemehats:bowler_hat" }
+		{ item: "givemehats:bunny_ears" }
+		{ item: "givemehats:santa_hat" }
+		{ item: "givemehats:slime_hat" }
+		{ item: "givemehats:cowboy_hat" }
+		{ item: "givemehats:sailor_hat" }
+		{ item: "givemehats:floating_hat" }
+		{ item: "givemehats:top_hat" }
+		{ item: "givemehats:topest_hat" }
+		{ item: "givemehats:fez_hat" }
+		{ item: "givemehats:deerstalker_hat" }
+		{ item: "givemehats:cat_ears" }
+		{ item: "givemehats:fox_ears" }
+		{ item: "givemehats:electric_mouse_ears" }
+		{ item: "givemehats:crown" }
+		{ item: "givemehats:russian_hat" }
+		{ item: "givemehats:strider_hat" }
+		{ item: "givemehats:woolrus_hat" }
+		{ item: "givemehats:tater_hat" }
+		{ item: "givemehats:bunny_space_helmet" }
+		{ item: "givemehats:irish_hat" }
+	]
+}

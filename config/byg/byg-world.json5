@@ -1,7 +1,7 @@
-{ 
-	"OverworldDimension": { 
-		"Stones": { 
-			"RockyStone": { 
+{
+	"OverworldDimension": {
+		"Stones": {
+			"RockyStone": {
 				/* 
 				   Generate ore?
 				*/
@@ -22,7 +22,7 @@
 				*/
 				"PerChunk": 10
 			},
-			"ScoriaStone": { 
+			"ScoriaStone": {
 				/* 
 				   Generate ore?
 				*/
@@ -43,7 +43,7 @@
 				*/
 				"PerChunk": 10
 			},
-			"SoapStone": { 
+			"SoapStone": {
 				/* 
 				   Generate ore?
 				*/
@@ -65,8 +65,8 @@
 				"PerChunk": 10
 			}
 		},
-		"Ores": { 
-			"Ametrine": { 
+		"Ores": {
+			"Ametrine": {
 				/* 
 				   Generate ore?
 				*/
@@ -87,7 +87,7 @@
 				*/
 				"PerChunk": 10
 			},
-			"Pendorite": { 
+			"Pendorite": {
 				/* 
 				   Generate ore?
 				*/
@@ -110,19 +110,19 @@
 			}
 		}
 	},
-	"EndDimension": { 
+	"EndDimension": {
 		/* 
 		   Does BYG Control The End Dimension?
 		*/
 		"ControlEnd": true,
-		"Void": { 
+		"Void": {
 			/* 
 			   Void Biome(where small end islands generate in vanilla) size.
 			   Default: 3
 			*/
 			"VoidBiomeSize": 3
 		},
-		"Islands": { 
+		"Islands": {
 			/* 
 			   End Island Biome Size
 			   Default: 3
@@ -130,7 +130,7 @@
 			"IslandBiomeSize": 3
 		}
 	},
-	"NetherDimension": { 
+	"NetherDimension": {
 		/* 
 		   Does Control The Nether Dimension?
 		*/

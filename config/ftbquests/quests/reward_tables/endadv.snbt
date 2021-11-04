@@ -1,0 +1,39 @@
+{
+	id: "09203DE7286105D1"
+	order_index: 11
+	title: "endadv"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "minecraft:ender_pearl", count: 12, weight: 40 }
+		{ item: "croptopia:tofuburger", weight: 10 }
+		{
+			xp_levels: 1
+			type: "xp_levels"
+			weight: 35
+		}
+		{ item: "simpleteleporters:tele_crystal" }
+		{
+			item: {
+				id: "harvest_scythes:pendorite_scythe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "betterend:end_veil"
+				}
+			}
+			weight: 25
+		}
+		{ item: "gofish:ender_eel", weight: 20 }
+		{ item: "gofish:baked_endfish", count: 4 }
+		{ item: "columns:end_stone_brick_column", count: 12 }
+	]
+}

@@ -1,0 +1,492 @@
+{
+	id: "7FC95F70C23E78CE"
+	group: ""
+	order_index: 11
+	filename: "conjurer"
+	title: "Conjuring"
+	icon: "conjuring:conjurer"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Allows you to use most conjuration apparatuses"
+			dependencies: ["3DC1B15970FD9E3D"]
+			id: "4A3333C9741BCCE5"
+			tasks: [{
+				id: "073EEA22955A9488"
+				type: "item"
+				item: "conjuring:conjuring_scepter"
+			}]
+			rewards: [{
+				id: "221C3BBCFF78841B"
+				type: "random"
+				table_id: 5705109811401542117L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Used to turn mobs into conjuration essence"
+			dependencies: [
+				"4A3333C9741BCCE5"
+				"5FF3E722E09A1B1F"
+			]
+			id: "30F9CCC81006C1C9"
+			tasks: [{
+				id: "496DDE52A2B1DC66"
+				type: "item"
+				item: "conjuring:superior_conjuring_scepter"
+			}]
+			rewards: [{
+				id: "42F98EE863A843D5"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			id: "7B193434D8AAB910"
+			tasks: [{
+				id: "4011F145FB47E6E5"
+				type: "item"
+				item: "conjuring:lesser_conjuration_essence"
+			}]
+			rewards: [{
+				id: "4D5217C850B0A5DD"
+				type: "random"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["7B193434D8AAB910"]
+			id: "7E927904DF852EE6"
+			tasks: [{
+				id: "5A22B1577CB5DF59"
+				type: "item"
+				item: "conjuring:conjuration_essence"
+			}]
+			rewards: [{
+				id: "4B117B19A6DA8C08"
+				type: "item"
+				item: "minecraft:soul_soil"
+				count: 8
+			}]
+		}
+		{
+			title: "Gem Tinkering"
+			x: -6.5d
+			y: -0.5d
+			subtitle: "Used to craft charms, which are used to affect the conjuring focus"
+			dependencies: ["46C0D9D0607E0714"]
+			id: "7473F5D8EFC2DF35"
+			tasks: [{
+				id: "39730093E1B9F559"
+				type: "item"
+				item: "conjuring:gem_socket"
+			}]
+			rewards: [{
+				id: "2E26593B555AC4DC"
+				type: "item"
+				item: "conjuring:soul_alloy"
+				count: 2
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			dependencies: ["7473F5D8EFC2DF35"]
+			id: "4383C9F396B68D4D"
+			tasks: [{
+				id: "5D97E23E4D386F05"
+				type: "item"
+				item: "conjuring:haste_charm"
+			}]
+			rewards: [{
+				id: "63AFF4F43D9280AF"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["7473F5D8EFC2DF35"]
+			id: "26CB59D8BCAF21CE"
+			tasks: [{
+				id: "58ACD034C6C8696F"
+				type: "item"
+				item: "conjuring:ignorance_charm"
+			}]
+			rewards: [{
+				id: "5849CE14625D2C28"
+				type: "item"
+				item: "minecraft:lapis_block"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["7473F5D8EFC2DF35"]
+			id: "6F17F9051F3254E3"
+			tasks: [{
+				id: "503E794B255034E7"
+				type: "item"
+				item: "conjuring:plentifulness_charm"
+			}]
+			rewards: [{
+				id: "217656114AAD840B"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["7473F5D8EFC2DF35"]
+			id: "5D3E4EC02FEC4472"
+			tasks: [{
+				id: "68EAC4AD3E2DCD8E"
+				type: "item"
+				item: "conjuring:scope_charm"
+			}]
+			rewards: [{
+				id: "42BE5AF0A2B36C42"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["7E927904DF852EE6"]
+			id: "4327B63C69B38C8C"
+			tasks: [{
+				id: "6DC198D43CB531B7"
+				type: "item"
+				item: "conjuring:conjurer"
+			}]
+			rewards: [{
+				id: "7E21B9CEE1F12A42"
+				type: "random"
+				table_id: 5705109811401542117L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["3DC1B15970FD9E3D"]
+			id: "7673FB8F9BF6579D"
+			tasks: [{
+				id: "06970BCF3AACD359"
+				type: "item"
+				item: {
+					id: "conjuring:conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6DCB11DABF1FF956"
+				type: "item"
+				item: "conjuring:conjuration_essence"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Used to craft conjuration items"
+			dependencies: ["4E9B296A4C0267E9"]
+			id: "3DC1B15970FD9E3D"
+			tasks: [{
+				id: "29296042467BEABB"
+				type: "item"
+				item: "conjuring:soulfire_forge"
+			}]
+			rewards: [
+				{
+					id: "6BFF5B71E5F0BEAC"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "21076B7DFC2046FF"
+					type: "item"
+					item: "conjuring:lesser_conjuration_essence"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["7E927904DF852EE6"]
+			id: "5FF3E722E09A1B1F"
+			tasks: [{
+				id: "0E3B4EB0DFDEC06B"
+				type: "item"
+				item: "conjuring:soul_rod"
+			}]
+			rewards: [{
+				id: "1D6E514B823D4CED"
+				type: "item"
+				item: "conjuring:lesser_conjuration_essence"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			subtitle: "Use this to help you understand how to conjure"
+			id: "4E9B296A4C0267E9"
+			tasks: [{
+				id: "53E12D85EB84FCA6"
+				type: "item"
+				item: {
+					id: "conjuring:enchiridion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "667FE8D0FE9A28DA"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16
+			}]
+		}
+		{
+			title: "Soul Composite Materials"
+			x: -3.0d
+			y: -0.5d
+			dependencies: [
+				"7E927904DF852EE6"
+				"3DC1B15970FD9E3D"
+			]
+			id: "5107A94AF6FB81E4"
+			tasks: [
+				{
+					id: "12430E973BB645D4"
+					type: "item"
+					item: "conjuring:soul_slice"
+				}
+				{
+					id: "18EC11DFC6BEF025"
+					type: "item"
+					item: "conjuring:soul_alloy"
+				}
+			]
+			rewards: [
+				{
+					id: "6A7C5DAE910689B0"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+					count: 2
+				}
+				{
+					id: "62339FDDBDA7F9AD"
+					type: "random"
+					table_id: 3133982820876343405L
+				}
+			]
+		}
+		{
+			title: "Soul Alloy Tools"
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["5107A94AF6FB81E4"]
+			id: "529BD550B24FB8DB"
+			tasks: [
+				{
+					id: "678AF4452448B559"
+					type: "item"
+					item: {
+						id: "conjuring:soul_alloy_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Modifiers: { }
+						}
+					}
+				}
+				{
+					id: "45AE0B77084187B2"
+					type: "item"
+					item: {
+						id: "conjuring:soul_alloy_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Modifiers: { }
+						}
+					}
+				}
+				{
+					id: "57488993059E4413"
+					type: "item"
+					item: {
+						id: "conjuring:soul_alloy_hatchet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Modifiers: { }
+						}
+					}
+				}
+				{
+					id: "39296330CFED894C"
+					type: "item"
+					item: {
+						id: "conjuring:soul_alloy_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Modifiers: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5086AD653464647D"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "2B165367A4740021"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			subtitle: "A much more potent version of the conjuring focus"
+			dependencies: ["7673FB8F9BF6579D"]
+			id: "232C4F494EEF8B7D"
+			tasks: [{
+				id: "0C607343FEA0AABA"
+				type: "item"
+				item: {
+					id: "conjuring:stabilized_conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "45599A5C5AE2091A"
+				type: "random"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["4A3333C9741BCCE5"]
+			id: "798566C4C1FA4F8F"
+			tasks: [{
+				id: "7F23554DB8555AB3"
+				type: "item"
+				item: "conjuring:blackstone_pedestal"
+			}]
+			rewards: [{
+				id: "743C6018558A3E66"
+				type: "random"
+				table_id: 5705109811401542117L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Used in the Ritual of Weaving"
+			dependencies: ["798566C4C1FA4F8F"]
+			id: "23D2AB706D10CB54"
+			tasks: [{
+				id: "3A8F71D0F11C883D"
+				type: "item"
+				item: "conjuring:soul_weaver"
+			}]
+			rewards: [{
+				id: "738B742B6D54BDB7"
+				type: "random"
+				table_id: 5705109811401542117L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Used in the Ritual of Extraction"
+			dependencies: ["798566C4C1FA4F8F"]
+			id: "53A8D4822995B2A8"
+			tasks: [{
+				id: "6C56004DF675B6EF"
+				type: "item"
+				item: "conjuring:soul_funnel"
+			}]
+			rewards: [{
+				id: "6A81E9C4918A9CF6"
+				type: "random"
+				table_id: 5705109811401542117L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			id: "49DB04D7E850916C"
+			tasks: [{
+				id: "30F6B2778A0B49CE"
+				type: "item"
+				item: "conjuring:gem_tinkerer"
+			}]
+			rewards: [{
+				id: "29F3C99F9D6E3797"
+				type: "item"
+				item: "conjuring:lesser_conjuration_essence"
+				count: 2
+			}]
+		}
+		{
+			title: "Gems"
+			x: -6.5d
+			y: -1.5d
+			subtitle: "Used to craft charms and modify soul alloy tools"
+			dependencies: ["49DB04D7E850916C"]
+			id: "46C0D9D0607E0714"
+			tasks: [
+				{
+					id: "14FDBFA42DB3E844"
+					type: "item"
+					item: "conjuring:haste_gem"
+				}
+				{
+					id: "720B5194F8AFED28"
+					type: "item"
+					item: "conjuring:ignorance_gem"
+				}
+				{
+					id: "010C5CC06E99C11C"
+					type: "item"
+					item: "conjuring:abundance_gem"
+				}
+				{
+					id: "6B12189F1CEEB081"
+					type: "item"
+					item: "conjuring:scope_gem"
+				}
+			]
+			rewards: [{
+				id: "06DCD3DB42A10B16"
+				type: "item"
+				item: "conjuring:conjuration_essence"
+				count: 2
+			}]
+		}
+	]
+}

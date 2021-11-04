@@ -1,0 +1,74 @@
+{
+  "thermoelectricGenerator": {
+    "output": 64.0,
+    "storage": 32000.0
+  },
+  "burnableGenerator": {
+    "output": 64.0,
+    "storage": 32000.0
+  },
+  "icyGenerator": {
+    "output": 64.0,
+    "storage": 32000.0
+  },
+  "colorfulGenerator": {
+    "output": 64.0,
+    "storage": 32000.0
+  },
+  "sludgyGenerator": {
+    "output": 128.0,
+    "storage": 64000.0
+  },
+  "teleportGenerator": {
+    "output": 128.0,
+    "storage": 64000.0
+  },
+  "scaldingGenerator": {
+    "output": 128.0,
+    "storage": 64000.0
+  },
+  "steamGenerator": {
+    "output": 128.0,
+    "storage": 64000.0
+  },
+  "gluttonyGenerator": {
+    "output": 256.0,
+    "storage": 128000.0
+  },
+  "brewGenerator": {
+    "output": 256.0,
+    "storage": 128000.0
+  },
+  "redstoneGenerator": {
+    "output": 256.0,
+    "storage": 128000.0
+  },
+  "blastGenerator": {
+    "output": 256.0,
+    "storage": 128000.0
+  },
+  "enchantedGenerator": {
+    "output": 512.0,
+    "storage": 256000.0
+  },
+  "demiseGenerator": {
+    "output": 512.0,
+    "storage": 256000.0
+  },
+  "dragonGenerator": {
+    "output": 4096.0,
+    "storage": 2048000.0
+  },
+  "witheredGenerator": {
+    "output": 4096.0,
+    "storage": 2048000.0
+  },
+  "heavenlyGenerator": {
+    "output": 204800.0,
+    "storage": 1.024E8
+  },
+  "infernalGenerator": {
+    "output": 204800.0,
+    "storage": 1.024E8
+  }
+}
