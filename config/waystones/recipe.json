@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BBB",
+    "BOB",
     "BEB",
-    "BBB"
+    "BOB"
   ],
   "key": {
     "B": {
       "item": "minecraft:stone_bricks"
     },
     "E": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:emerald"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
     }
   },
   "result": {
@@ -18,4 +21,3 @@
     "count": 1
   }
 }
-

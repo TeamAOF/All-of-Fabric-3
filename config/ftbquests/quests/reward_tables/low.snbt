@@ -1,35 +1,24 @@
 {
-	id: "2D848C6B241E653D",
-	order_index: 3,
-	title: "Low",
-	loot_size: 6,
+	id: "2D848C6B241E653D"
+	order_index: 3
+	title: "Low"
+	loot_size: 6
+	hide_tooltip: true
 	rewards: [
-		{
-			item: "minecraft:gold_ore"
-		},
-		{
-			item: "minecraft:iron_ore"
-		},
-		{
-			item: "minecraft:redstone_ore"
-		},
-		{
-			item: "techreborn:copper_ore"
-		},
-		{
-			item: "minecraft:apple"
-		},
-		{
-			item: "byg:green_apple"
-		},
-		{
-			item: "croptopia:banana"
-		},
-		{
-			item: "croptopia:mango"
-		},
-		{
-			item: "croptopia:strawberry"
-		}
+		{ item: "minecraft:gold_ore", weight: 2 }
+		{ item: "minecraft:iron_ore", weight: 2 }
+		{ item: "minecraft:redstone_ore", weight: 2 }
+		{ item: "techreborn:copper_ore", weight: 2 }
+		{ item: "minecraft:apple", count: 12, weight: 10 }
+		{ item: "byg:green_apple", count: 12, weight: 10 }
+		{ item: "croptopia:banana", count: 12, weight: 10 }
+		{ item: "croptopia:mango", count: 12, weight: 10 }
+		{ item: "croptopia:strawberry", count: 12, weight: 10 }
+		{ item: "techreborn:emerald_nugget", weight: 2 }
+		{ item: "techreborn:bronze_nugget", weight: 2 }
+		{ item: "techreborn:aluminum_nugget", weight: 2 }
+		{ item: "techreborn:brass_nugget", weight: 2 }
+		{ item: "techreborn:lead_nugget", weight: 2 }
+		{ item: "techreborn:copper_nugget", weight: 2 }
 	]
 }

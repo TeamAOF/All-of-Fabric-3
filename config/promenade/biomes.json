@@ -1,0 +1,10 @@
+{
+  "pumpkin_pastures": true,
+  "pumpkin_pastures_weight": 10,
+  "cherry_oak_forests": true,
+  "cherry_oak_forests_weight": 10,
+  "tall_nether_forests": true,
+  "nether_galleries": true,
+  "dark_amaranth_forests": true,
+  "dark_amaranth_forests_weight": 10
+}

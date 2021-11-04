@@ -31,7 +31,9 @@
 		"traverse": true,
 		"byg": true,
 		"terrestria": true,
+		"cinderscapes": true,
 		"woods_and_mires": true,
-		"towelette": true
+		"towelette": true,
+		"biomemakeover": true
 	}
 }

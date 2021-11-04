@@ -9,5 +9,5 @@
   "disableUI": false,
   "loadJarsFromFolder": null,
   "overrideMainClass": null,
-  "pinFabricLoaderVersion": "0.11.1"
+  "pinFabricLoaderVersion": "0.11.3"
 }

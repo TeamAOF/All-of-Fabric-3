@@ -1,535 +1,595 @@
 {
-	id: "600D44D7248008F3",
-	group: "",
-	order_index: 3,
-	filename: "modern_industrialization",
-	title: "Modern Industrialization",
-	icon: "modern_industrialization:coke_oven",
-	default_quest_shape: "",
+	id: "600D44D7248008F3"
+	group: ""
+	order_index: 3
+	filename: "modern_industrialization"
+	title: "Modern Industrialization"
+	icon: "modern_industrialization:coke_oven"
+	default_quest_shape: "hexagon"
 	quests: [
 		{
-			x: -3.5d,
-			y: -0.5d,
-			id: "78E5B4FD3C46BEC9",
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Click the hammer or saw to swap between the two"
+			id: "64642C171EDE39BD"
 			tasks: [{
-				id: "7E9DC84965A8DAF8",
-				type: "item",
-				item: "modern_industrialization:guidebook"
-			}]
-		},
-		{
-			x: -3.5d,
-			y: 0.5d,
-			dependencies: ["78E5B4FD3C46BEC9"],
-			id: "64642C171EDE39BD",
-			tasks: [{
-				id: "64820E832413E000",
-				type: "item",
+				id: "64820E832413E000"
+				type: "item"
 				item: "modern_industrialization:forge_hammer"
-			}],
+			}]
 			rewards: [{
-				id: "33E1DF8AF63BD576",
-				type: "item",
+				id: "33E1DF8AF63BD576"
+				type: "item"
 				item: "techreborn:bronze_storage_block"
 			}]
-		},
+		}
 		{
-			x: -3.5d,
-			y: 1.5d,
-			dependencies: ["64642C171EDE39BD"],
-			id: "6ECF8FE73D53B765",
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["390C2A68A3C98D0A"]
+			id: "6ECF8FE73D53B765"
 			tasks: [{
-				id: "56450225FCF2AF70",
-				type: "item",
+				id: "56450225FCF2AF70"
+				type: "item"
 				item: "modern_industrialization:coke_oven"
-			}],
+			}]
 			rewards: [{
-				id: "2B0572F6C02E4C48",
-				type: "item",
+				id: "2B0572F6C02E4C48"
+				type: "item"
 				item: "techreborn:steel_storage_block"
 			}]
-		},
+		}
 		{
-			x: -3.5d,
-			y: 2.5d,
-			dependencies: ["6ECF8FE73D53B765"],
-			id: "72F21EE9B0582D50",
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["6ECF8FE73D53B765"]
+			id: "72F21EE9B0582D50"
 			tasks: [{
-				id: "0134809BF64207CD",
-				type: "item",
-				item: "modern_industrialization:pipe_item_iron",
+				id: "0134809BF64207CD"
+				type: "item"
+				item: "modern_industrialization:pipe_item_iron"
 				count: 4L
-			}],
+			}]
 			rewards: [{
-				id: "199F07A0B7B4108D",
-				type: "item",
-				item: "tacocraft:steak_taco",
+				id: "199F07A0B7B4108D"
+				type: "item"
+				item: "tacocraft:steak_taco"
 				count: 3
 			}]
-		},
+		}
 		{
-			x: -3.5d,
-			y: 3.5d,
-			dependencies: ["72F21EE9B0582D50"],
-			id: "79E53CBB5FD50852",
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["72F21EE9B0582D50"]
+			id: "79E53CBB5FD50852"
 			tasks: [{
-				id: "66BD9B26B40101E0",
-				type: "item",
-				item: "modern_industrialization:pipe_fluid_iron",
+				id: "66BD9B26B40101E0"
+				type: "item"
+				item: "modern_industrialization:pipe_fluid_iron"
 				count: 4L
-			}],
+			}]
 			rewards: [
 				{
-					id: "725D9F830D91E3BE",
-					type: "item",
+					id: "725D9F830D91E3BE"
+					type: "item"
 					item: "techreborn:bronze_storage_block"
-				},
+				}
 				{
-					id: "3CE78F4140818B2C",
-					type: "item",
-					item: "croptopia:sushi",
+					id: "3CE78F4140818B2C"
+					type: "item"
+					item: "croptopia:sushi"
 					count: 6
 				}
 			]
-		},
+		}
 		{
-			x: -2.0d,
-			y: -0.5d,
-			dependencies: ["78E5B4FD3C46BEC9"],
-			id: "73E189C5B276EA9A",
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["64642C171EDE39BD"]
+			id: "73E189C5B276EA9A"
 			tasks: [{
-				id: "75DD1D75913D082B",
-				type: "item",
-				item: "modern_industrialization:fire_clay_bricks",
+				id: "75DD1D75913D082B"
+				type: "item"
+				item: "modern_industrialization:fire_clay_bricks"
 				count: 37L
-			}],
+			}]
 			rewards: [{
-				id: "400D19D654990B80",
-				type: "item",
+				id: "400D19D654990B80"
+				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 0.5d,
-			dependencies: ["73E189C5B276EA9A"],
-			id: "75AB0C9EAC7BAC29",
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["73E189C5B276EA9A"]
+			id: "75AB0C9EAC7BAC29"
 			tasks: [{
-				id: "10B649EF66A183D3",
-				type: "item",
+				id: "10B649EF66A183D3"
+				type: "item"
 				item: "modern_industrialization:bronze_boiler"
-			}],
+			}]
 			rewards: [{
-				id: "3D55472863FA1F9C",
-				type: "item",
+				id: "3D55472863FA1F9C"
+				type: "item"
 				item: "techreborn:bronze_storage_block"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 1.5d,
-			dependencies: ["75AB0C9EAC7BAC29"],
-			id: "1CB1B21F61B8DCCA",
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["75AB0C9EAC7BAC29"]
+			id: "1CB1B21F61B8DCCA"
 			tasks: [{
-				id: "2DF99303DDC5F0CC",
-				type: "item",
+				id: "2DF99303DDC5F0CC"
+				type: "item"
 				item: "modern_industrialization:bronze_furnace"
-			}],
+			}]
 			rewards: [
 				{
-					id: "6EE304334650C370",
-					type: "item",
+					id: "6EE304334650C370"
+					type: "item"
 					item: "techreborn:bronze_storage_block"
-				},
+				}
 				{
-					id: "44188F0DDF0785CC",
-					type: "item",
-					item: "croptopia:supreme_pizza",
+					id: "44188F0DDF0785CC"
+					type: "item"
+					item: "croptopia:supreme_pizza"
 					count: 4
 				}
 			]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 2.5d,
-			dependencies: ["1CB1B21F61B8DCCA"],
-			id: "5483C2470F4C7915",
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["1CB1B21F61B8DCCA"]
+			id: "5483C2470F4C7915"
 			tasks: [{
-				id: "4D2E091ACDDC8B2B",
-				type: "item",
+				id: "4D2E091ACDDC8B2B"
+				type: "item"
 				item: "modern_industrialization:bronze_macerator"
-			}],
+			}]
 			rewards: [
 				{
-					id: "4BE8C812BEB1D9EC",
-					type: "item",
+					id: "4BE8C812BEB1D9EC"
+					type: "item"
 					item: "techreborn:bronze_storage_block"
-				},
+				}
 				{
-					id: "4DCA64300790DF94",
-					type: "item",
+					id: "4DCA64300790DF94"
+					type: "item"
 					item: "givemehats:tater_hat"
 				}
 			]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 3.5d,
-			dependencies: ["5483C2470F4C7915"],
-			id: "4C401792A4E4A4F0",
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["5483C2470F4C7915"]
+			id: "4C401792A4E4A4F0"
 			tasks: [{
-				id: "6FAE3B6D9A47BA38",
-				type: "item",
+				id: "6FAE3B6D9A47BA38"
+				type: "item"
 				item: "modern_industrialization:bronze_compressor"
-			}],
+			}]
 			rewards: [
 				{
-					id: "4F8ED1CB1D51C865",
-					type: "item",
+					id: "4F8ED1CB1D51C865"
+					type: "item"
 					item: "techreborn:bronze_storage_block"
-				},
+				}
 				{
-					id: "4E44C10BD3352A10",
-					type: "item",
-					item: "croptopia:supreme_pizza",
+					id: "4E44C10BD3352A10"
+					type: "item"
+					item: "croptopia:supreme_pizza"
 					count: 2
 				}
 			]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 4.5d,
-			dependencies: ["4C401792A4E4A4F0"],
-			id: "54E20815AFFD6513",
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["4C401792A4E4A4F0"]
+			id: "54E20815AFFD6513"
 			tasks: [{
-				id: "757E95217A08E589",
-				type: "item",
+				id: "757E95217A08E589"
+				type: "item"
 				item: "modern_industrialization:bronze_mixer"
-			}],
+			}]
 			rewards: [{
-				id: "5E23758C9303FE2E",
-				type: "item",
-				item: "croptopia:tofuburger",
+				id: "5E23758C9303FE2E"
+				type: "item"
+				item: "croptopia:tofuburger"
 				count: 2
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: -0.5d,
-			dependencies: ["73E189C5B276EA9A"],
-			id: "00EA761AFDDF65DB",
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["73E189C5B276EA9A"]
+			id: "00EA761AFDDF65DB"
 			tasks: [{
-				id: "322E434BEDC568F7",
-				type: "item",
+				id: "322E434BEDC568F7"
+				type: "item"
 				item: "modern_industrialization:steam_blast_furnace"
-			}],
+			}]
 			rewards: [{
-				id: "2C916AE34E292C46",
-				type: "item",
-				item: "modern_industrialization:steel_large_plate",
+				id: "2C916AE34E292C46"
+				type: "item"
+				item: "modern_industrialization:steel_large_plate"
 				count: 3
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 0.5d,
-			dependencies: ["00EA761AFDDF65DB"],
-			id: "085A478F5BA0DBB3",
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["00EA761AFDDF65DB"]
+			id: "085A478F5BA0DBB3"
 			tasks: [{
-				id: "07D84A6B177D38E3",
-				type: "item",
+				id: "07D84A6B177D38E3"
+				type: "item"
 				item: "modern_industrialization:steel_machine_casing"
-			}],
+			}]
 			rewards: [{
-				id: "22A4C566EC860F9E",
-				type: "item",
-				item: "techreborn:steel_ingot",
+				id: "22A4C566EC860F9E"
+				type: "item"
+				item: "techreborn:steel_ingot"
 				count: 3
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 1.5d,
-			dependencies: ["085A478F5BA0DBB3"],
-			id: "02C3596C0EB1EB66",
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["085A478F5BA0DBB3"]
+			id: "02C3596C0EB1EB66"
 			tasks: [{
-				id: "6DA2F0CA6D7135B6",
-				type: "item",
+				id: "6DA2F0CA6D7135B6"
+				type: "item"
 				item: "modern_industrialization:quarry"
-			}],
+			}]
 			rewards: [{
-				id: "2F82FF69939924C8",
-				type: "item",
+				id: "2F82FF69939924C8"
+				type: "item"
 				item: "techreborn:steel_storage_block"
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 2.5d,
-			dependencies: ["02C3596C0EB1EB66"],
-			id: "3FCFE243E7ACA84F",
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["02C3596C0EB1EB66"]
+			id: "3FCFE243E7ACA84F"
 			tasks: [{
-				id: "39C3E16DD76EDEEF",
-				type: "item",
+				id: "39C3E16DD76EDEEF"
+				type: "item"
 				item: "modern_industrialization:steel_packer"
-			}],
-			rewards: [{
-				id: "5F7765E416A5B9FC",
-				type: "item",
-				item: "tacocraft:chicken_taco",
-				count: 2
 			}]
-		},
-		{
-			x: -0.5d,
-			y: 3.5d,
-			dependencies: ["3FCFE243E7ACA84F"],
-			id: "6CE8A0000F1F131A",
-			tasks: [{
-				id: "0FE91934CBBBA37A",
-				type: "item",
-				item: "modern_industrialization:steel_wiremill"
-			}],
-			rewards: [{
-				id: "5A72837CEFB73470",
-				type: "item",
-				item: "tacocraft:golden_taco",
-				count: 2
-			}]
-		},
-		{
-			x: 1.0d,
-			y: -0.5d,
-			id: "11ABFB4336C6105D",
-			tasks: [{
-				id: "2461023C67F46348",
-				type: "item",
-				item: "modern_industrialization:lv_circuit"
-			}],
-			rewards: [{
-				id: "2A5A44A6BB64F881",
-				type: "item",
-				item: "minecraft:iron_ore",
-				count: 12
-			}]
-		},
-		{
-			x: 2.0d,
-			y: -0.5d,
-			dependencies: ["11ABFB4336C6105D"],
-			id: "68D5D280DF02F574",
-			tasks: [{
-				id: "451E61801A6AF61B",
-				type: "item",
-				item: "modern_industrialization:lv_steam_turbine"
-			}],
 			rewards: [
 				{
-					id: "6726CF2F1C98662E",
-					type: "item",
-					item: "croptopia:hamburger",
-					count: 4
-				},
+					id: "5F7765E416A5B9FC"
+					type: "item"
+					item: "tacocraft:chicken_taco"
+					count: 2
+				}
 				{
-					id: "509DA9EA6AF4BC92",
-					type: "item",
-					item: "croptopia:supreme_pizza",
+					id: "436D94524BD7A4B0"
+					type: "item"
+					item: "techreborn:steel_storage_block"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["3FCFE243E7ACA84F"]
+			id: "6CE8A0000F1F131A"
+			tasks: [{
+				id: "0FE91934CBBBA37A"
+				type: "item"
+				item: "modern_industrialization:steel_wiremill"
+			}]
+			rewards: [
+				{
+					id: "5A72837CEFB73470"
+					type: "item"
+					item: "tacocraft:golden_taco"
+					count: 2
+				}
+				{
+					id: "7BBDBF3BF6F7ACEC"
+					type: "item"
+					item: "modern_industrialization:tin_wire"
+					count: 4
+				}
+				{
+					id: "1A0BA86EAB9EC0BD"
+					type: "item"
+					item: "modern_industrialization:copper_wire"
 					count: 4
 				}
 			]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 0.5d,
-			dependencies: ["68D5D280DF02F574"],
-			id: "1353E6E07B571CC6",
+			x: 1.0d
+			y: -0.5d
+			id: "11ABFB4336C6105D"
 			tasks: [{
-				id: "03A50538B12B345F",
-				type: "item",
-				item: "modern_industrialization:electric_blast_furnace"
-			}],
+				id: "2461023C67F46348"
+				type: "item"
+				item: "modern_industrialization:lv_circuit"
+			}]
+			rewards: [{
+				id: "2A5A44A6BB64F881"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 12
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["11ABFB4336C6105D"]
+			id: "68D5D280DF02F574"
+			tasks: [{
+				id: "451E61801A6AF61B"
+				type: "item"
+				item: "modern_industrialization:lv_steam_turbine"
+			}]
 			rewards: [
 				{
-					id: "7384FD8A30888707",
-					type: "item",
-					item: "modern_industrialization:clean_stainless_steel_machine_casing"
-				},
+					id: "6726CF2F1C98662E"
+					type: "item"
+					item: "croptopia:hamburger"
+					count: 4
+				}
 				{
-					id: "0A701E93BE213FF8",
-					type: "item",
+					id: "509DA9EA6AF4BC92"
+					type: "item"
+					item: "croptopia:supreme_pizza"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["68D5D280DF02F574"]
+			id: "1353E6E07B571CC6"
+			tasks: [{
+				id: "03A50538B12B345F"
+				type: "item"
+				item: "modern_industrialization:electric_blast_furnace"
+			}]
+			rewards: [
+				{
+					id: "7384FD8A30888707"
+					type: "item"
+					item: "modern_industrialization:clean_stainless_steel_machine_casing"
+				}
+				{
+					id: "0A701E93BE213FF8"
+					type: "item"
 					item: "techreborn:bronze_storage_block"
 				}
 			]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 1.5d,
-			dependencies: ["1353E6E07B571CC6"],
-			id: "432E8E3966F23B99",
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["1353E6E07B571CC6"]
+			id: "432E8E3966F23B99"
 			tasks: [{
-				id: "2AA5E89773B2B9C0",
-				type: "item",
+				id: "2AA5E89773B2B9C0"
+				type: "item"
 				item: "modern_industrialization:electric_quarry"
-			}],
+			}]
 			rewards: [{
-				id: "59E3EAF08F450911",
-				type: "item",
+				id: "59E3EAF08F450911"
+				type: "item"
 				item: "modern_industrialization:steel_machine_casing"
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 2.5d,
-			dependencies: ["432E8E3966F23B99"],
-			id: "42D59A3AC59DE099",
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["432E8E3966F23B99"]
+			id: "42D59A3AC59DE099"
 			tasks: [{
-				id: "68B8995011C0EB8B",
-				type: "item",
+				id: "68B8995011C0EB8B"
+				type: "item"
 				item: "modern_industrialization:oil_drilling_rig"
-			}],
-			rewards: [{
-				id: "69FCF8F0BF92C8E3",
-				type: "item",
-				item: "croptopia:chocolate_milkshake"
 			}]
-		},
-		{
-			x: 2.0d,
-			y: 3.5d,
-			dependencies: ["42D59A3AC59DE099"],
-			id: "6E5C429F1C0205DB",
-			tasks: [{
-				id: "7BE874A2E991D782",
-				type: "item",
-				item: "modern_industrialization:lv_distillery"
-			}],
-			rewards: [{
-				id: "2954DC1677902DB7",
-				type: "item",
-				item: "croptopia:beer",
-				count: 12
-			}]
-		},
-		{
-			x: 2.0d,
-			y: 4.5d,
-			dependencies: ["6E5C429F1C0205DB"],
-			id: "12A8EED985524B6E",
-			tasks: [{
-				id: "17B85FD2077F497F",
-				type: "item",
-				item: "modern_industrialization:diesel_generator"
-			}],
-			rewards: [{
-				id: "1550E829B12A75E6",
-				type: "item",
-				item: "modern_industrialization:steel_machine_casing",
-				count: 2
-			}]
-		},
-		{
-			x: 2.0d,
-			y: -1.5d,
-			dependencies: ["68D5D280DF02F574"],
-			id: "72369B5366A8A275",
-			tasks: [{
-				id: "3AD5E942CAA93D48",
-				type: "item",
-				item: "modern_industrialization:lv_assembler"
-			}],
-			rewards: [{
-				id: "0076BAF6846DEB0A",
-				type: "item",
-				item: "modern_industrialization:stainless_steel_block"
-			}]
-		},
-		{
-			x: 3.0d,
-			y: -2.0d,
-			dependencies: ["72369B5366A8A275"],
-			id: "066644769F02923D",
-			tasks: [{
-				id: "5FA163BBC6940710",
-				type: "item",
-				item: "modern_industrialization:large_steam_boiler"
-			}],
-			rewards: [{
-				id: "749311C1C20E5903",
-				type: "item",
-				item: "techreborn:bronze_storage_block"
-			}]
-		},
-		{
-			x: 3.0d,
-			y: -1.0d,
-			dependencies: ["72369B5366A8A275"],
-			id: "08662701C924472A",
-			tasks: [{
-				id: "72402B9FCC6B63A1",
-				type: "item",
-				item: "modern_industrialization:lv_polarizer"
-			}],
 			rewards: [
 				{
-					id: "6EE114022FC69817",
-					type: "item",
-					item: "givemehats:floating_hat"
-				},
+					id: "69FCF8F0BF92C8E3"
+					type: "item"
+					item: "croptopia:chocolate_milkshake"
+				}
 				{
-					id: "4B5A280C4F15E4F8",
-					type: "item",
-					item: "minecraft:gold_ore",
+					id: "03DC79A1AFD00785"
+					type: "random"
+					table_id: 5705109811401542117L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["42D59A3AC59DE099"]
+			id: "6E5C429F1C0205DB"
+			tasks: [{
+				id: "7BE874A2E991D782"
+				type: "item"
+				item: "modern_industrialization:lv_distillery"
+			}]
+			rewards: [
+				{
+					id: "2954DC1677902DB7"
+					type: "item"
+					item: "croptopia:beer"
+					count: 12
+				}
+				{
+					id: "688D483882A49E1F"
+					type: "item"
+					item: "modern_industrialization:rubber_sheet"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["6E5C429F1C0205DB"]
+			id: "12A8EED985524B6E"
+			tasks: [{
+				id: "17B85FD2077F497F"
+				type: "item"
+				item: "modern_industrialization:diesel_generator"
+			}]
+			rewards: [{
+				id: "1550E829B12A75E6"
+				type: "item"
+				item: "modern_industrialization:steel_machine_casing"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["68D5D280DF02F574"]
+			id: "72369B5366A8A275"
+			tasks: [{
+				id: "3AD5E942CAA93D48"
+				type: "item"
+				item: "modern_industrialization:lv_assembler"
+			}]
+			rewards: [{
+				id: "0076BAF6846DEB0A"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["72369B5366A8A275"]
+			id: "066644769F02923D"
+			tasks: [{
+				id: "5FA163BBC6940710"
+				type: "item"
+				item: "modern_industrialization:large_steam_boiler"
+			}]
+			rewards: [{
+				id: "749311C1C20E5903"
+				type: "item"
+				item: "techreborn:bronze_storage_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["72369B5366A8A275"]
+			id: "08662701C924472A"
+			tasks: [{
+				id: "72402B9FCC6B63A1"
+				type: "item"
+				item: "modern_industrialization:lv_polarizer"
+			}]
+			rewards: [
+				{
+					id: "6EE114022FC69817"
+					type: "item"
+					item: "givemehats:floating_hat"
+				}
+				{
+					id: "4B5A280C4F15E4F8"
+					type: "item"
+					item: "minecraft:gold_ore"
 					count: 12
 				}
 			]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 1.0d,
-			dependencies: ["1353E6E07B571CC6"],
-			id: "63A7AFF4EB138441",
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["1353E6E07B571CC6"]
+			id: "63A7AFF4EB138441"
 			tasks: [{
-				id: "4D3BDC000F1CEF9E",
-				type: "item",
+				id: "4D3BDC000F1CEF9E"
+				type: "item"
 				item: "modern_industrialization:lv_electrolyzer"
-			}],
-			rewards: [{
-				id: "2D6706B781327140",
-				type: "item",
-				item: "modern_industrialization:cupronickel_block"
 			}]
-		},
+			rewards: [{
+				id: "2D6706B781327140"
+				type: "item"
+				item: "modern_industrialization:cupronickel_block"
+				count: 2
+			}]
+		}
 		{
-			x: 3.0d,
-			y: 0.0d,
-			dependencies: ["1353E6E07B571CC6"],
-			id: "78798501769E5AAC",
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["1353E6E07B571CC6"]
+			id: "78798501769E5AAC"
 			tasks: [{
-				id: "2EF14D5A88DB7D1E",
-				type: "item",
+				id: "2EF14D5A88DB7D1E"
+				type: "item"
 				item: "modern_industrialization:mv_steam_turbine"
 			}]
-		},
+			rewards: [{
+				id: "5A324E0C77B527B5"
+				type: "item"
+				item: "modern_industrialization:electronic_circuit"
+			}]
+		}
 		{
-			x: 4.0d,
-			y: 1.0d,
-			dependencies: ["63A7AFF4EB138441"],
-			id: "13690C0CFD6E6693",
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["63A7AFF4EB138441"]
+			id: "13690C0CFD6E6693"
 			tasks: [{
-				id: "16BCA9BC4D818E86",
-				type: "item",
+				id: "16BCA9BC4D818E86"
+				type: "item"
 				item: "modern_industrialization:lv_centrifuge"
 			}]
-		},
+			rewards: [{
+				id: "5998144CB0B0BF7C"
+				type: "item"
+				item: "modern_industrialization:electronic_circuit"
+			}]
+		}
 		{
-			x: 4.0d,
-			y: 0.0d,
-			dependencies: ["78798501769E5AAC"],
-			id: "427FE8ADFD35C205",
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["78798501769E5AAC"]
+			id: "427FE8ADFD35C205"
 			tasks: [{
-				id: "45D98DBE3EE75398",
-				type: "item",
+				id: "45D98DBE3EE75398"
+				type: "item"
 				item: "modern_industrialization:lv_chemical_reactor"
+			}]
+			rewards: [{
+				id: "66E48BC853A3A8D4"
+				type: "item"
+				item: "modern_industrialization:electronic_circuit"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["64642C171EDE39BD"]
+			id: "390C2A68A3C98D0A"
+			tasks: [{
+				id: "359579088C32D69A"
+				type: "item"
+				item: "modern_industrialization:wrench"
+			}]
+			rewards: [{
+				id: "3C8794586B073B4B"
+				type: "item"
+				item: "techreborn:bronze_plate"
+				count: 2
 			}]
 		}
 	]

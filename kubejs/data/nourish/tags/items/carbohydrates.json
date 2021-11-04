@@ -1,5 +1,9 @@
 {
 	"values": [
+		"alaskanativecraft:seal",
+		"alaskanativecraft:ptarmigan",
+		"alaskanativecraft:cooked_ptarmigan",
+		"alaskanativecraft:cooked_seal",
 		"kibe:kibe",
 		"kibe:golden_kibe",
 		"kibe:cursed_kibe",
@@ -19,6 +23,9 @@
 		"campanion:cracker",
 		"campanion:smore",
 		"gofish:grilled_blackstone_deluxe",
+		"gofish:thundering_bass",
+		"gofish:rainy_bass",
+		"gofish:endfish_and_chorus",
 		"croptopia:leek_soup",
 		"croptopia:raisin_oatmeal_cookie",
 		"croptopia:nutty_cookie"

@@ -8,6 +8,11 @@
 		// This means that pushing the inventory or sorting the main inventory will not affect the hotbar and vice-versa.
 		// default: true
 		hotbar-scope: true
+		// Sets the interval in milliseconds in which certain packets are fired.
+		// Lower numbers increase the speed but might be rejected by servers.
+		// default: 10
+		// Must be inclusively between 1 and 1000
+		interaction-rate: 10
 	}
 	scrolling: {
 		// Enables scrolling of stacks
@@ -23,14 +28,14 @@
 		// Sets whether to by default scroll items
 		// out of the creative menu.
 		// default: true
-		scroll-creative-menu-items: true
+		scroll-creative-menu-items: false
 		// Invert the scroll direction when scrolling items
 		// default: false
 		invert: false
 		// Sets whether creative mode tabs can
 		// be switched by scrolling over them.
 		// default: true
-		scroll-creative-menu-tabs: true
+		scroll-creative-menu-tabs: false
 	}
 	// Change sort modes. Existing sort modes are ALPHABET, RAW_ID and QUANTITY
 	sort: {
