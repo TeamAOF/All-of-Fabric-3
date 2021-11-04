@@ -1,1 +1,6 @@
+autoJump:false
+fov:0.25
+guiScale:3
+enableVsync:false
+mipmapLevels:4
 key_key.mousewheelie.sort_inventory:key.keyboard.unknown
