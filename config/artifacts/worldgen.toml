@@ -1,3 +1,5 @@
+artifactRarity = 1.0
+
 [campsite]
 genChance = 8
 mimicChance = 30

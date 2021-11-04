@@ -72,3 +72,11 @@ usercache.json
 .fabric/
 
 .github/
+
+crash-reports/
+
+local/
+
+.curseclient
+
+ds_private_storage.json

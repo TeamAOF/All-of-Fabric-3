@@ -1,7 +1,119 @@
 {
-  "global_discover": false,
-  "cost_type": "xp",
+  "generate_in_villages": true,
+  "consume_infinite_knowledge_scroll_on_use": false,
+  "can_owners_redeem_payments": false,
+  "cost_amount": 1,
+  "cost_type": "level",
   "cost_item": "minecraft:ender_pearl",
-  "cost_amount": 7,
-  "village_generation": true
+  "waystone_block_hardness": 4,
+  "waystone_block_required_mining_level": 1.0,
+  "recipes": {
+    "abyss_watcher": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "FEF"
+      ],
+      "key": {
+        "E": {
+          "item": "minecraft:ender_pearl"
+        },
+        "F": {
+          "item": "minecraft:flint"
+        }
+      },
+      "result": {
+        "item": "waystones:abyss_watcher",
+        "count": 1
+      }
+    },
+    "waystone_scroll": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SPS",
+        "PPP",
+        "SPS"
+      ],
+      "key": {
+        "P": {
+          "item": "minecraft:paper"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "waystones:waystone_scroll",
+        "count": 1
+      }
+    },
+    "waystone_recipe": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SAS",
+        "SES",
+        "SOS"
+      ],
+      "key": {
+        "A": {
+          "item": "waystones:abyss_watcher"
+        },
+        "S": {
+          "item": "minecraft:stone_bricks"
+        },
+        "E": {
+          "item": "minecraft:emerald"
+        },
+        "O": {
+          "item": "minecraft:obsidian"
+        }
+      },
+      "result": {
+        "item": "waystones:waystone",
+        "count": 1
+      }
+    },
+    "pocket_wormhole": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " A ",
+        "PSP",
+        " P "
+      ],
+      "key": {
+        "P": {
+          "item": "minecraft:blaze_powder"
+        },
+        "A": {
+          "item": "waystones:abyss_watcher"
+        },
+        "S": {
+          "item": "minecraft:nether_star"
+        }
+      },
+      "result": {
+        "item": "waystones:pocket_wormhole",
+        "count": 1
+      }
+    },
+    "local_void": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " B ",
+        "BAB",
+        " B "
+      ],
+      "key": {
+        "A": {
+          "item": "waystones:abyss_watcher"
+        },
+        "B": {
+          "item": "minecraft:blaze_powder"
+        }
+      },
+      "result": {
+        "item": "waystones:local_void",
+        "count": 1
+      }
+    }
+  }
 }

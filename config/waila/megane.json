@@ -4,37 +4,17 @@
     "megane-kibe": {
       "badasintended.megane.impl.Kibe": true
     },
-    "megane-art-of-alchemy": {
-      "badasintended.megane.impl.ArtOfAlchemy": false
-    },
-    "megane-impl": {
-      "badasintended.megane.impl.TechReborn": true,
-      "badasintended.megane.impl.Astromine": false,
-      "badasintended.megane.impl.ArtOfAlchemy": false,
-      "badasintended.megane.impl.Kibe": true,
-      "badasintended.megane.impl.Minecraft": true,
-      "badasintended.megane.impl.ModernIndustrialization": true,
-      "badasintended.megane.impl.IndustrialRevolution": true,
-      "badasintended.megane.impl.AppliedEnergistics2": true,
-      "badasintended.megane.impl.FabricFurnaces": true
+    "megane-team-reborn-energy": {
+      "badasintended.megane.impl.TeamRebornEnergy": true
     },
     "megane-industrial-revolution": {
       "badasintended.megane.impl.IndustrialRevolution": true
     },
-    "megane-fabric-furnaces": {
-      "badasintended.megane.impl.FabricFurnaces": true
-    },
-    "megane-modern-industrialization": {
-      "badasintended.megane.impl.ModernIndustrialization": true
-    },
-    "megane-fast-transfer-lib": {
-      "badasintended.megane.impl.FastTransferLib": true
-    },
-    "megane-team-reborn-energy": {
-      "badasintended.megane.impl.TeamRebornEnergy": true
-    },
     "megane-tech-reborn": {
       "badasintended.megane.impl.TechReborn": true
+    },
+    "megane-fabric-furnaces": {
+      "badasintended.megane.impl.FabricFurnaces": true
     },
     "megane-modern-industrialization-4": {
       "badasintended.megane.impl.ModernIndustrialization": true
@@ -45,21 +25,24 @@
     "megane-applied-energistics-2": {
       "badasintended.megane.impl.AppliedEnergistics2": true
     },
+    "megane-fast-transfer-lib": {
+      "badasintended.megane.impl.FastTransferLib": true
+    },
     "megane-vanilla": {
       "badasintended.megane.impl.Minecraft": true
     }
   },
   "inventory": {
-    "enabled": false,
-    "itemCount": false,
+    "enabled": true,
+    "itemCount": true,
     "nbt": false,
     "maxWidth": 9,
     "maxHeight": 3,
     "blacklist": []
   },
   "entityInventory": {
-    "enabled": false,
-    "itemCount": false,
+    "enabled": true,
+    "itemCount": true,
     "nbt": false,
     "maxWidth": 9,
     "maxHeight": 3,
@@ -69,18 +52,10 @@
     "enabled": true,
     "expandWhenSneak": false,
     "colors": {
-      "megane": 7408640,
-      "indrev": 3885790,
-      "techreborn": 8390656,
-      "appliedenergistics2": 6556063,
-      "extragenerators": 7408640
+      "megane": 7408640
     },
     "units": {
-      "megane": "E",
-      "indrev": "LF",
-      "techreborn": "E",
-      "appliedenergistics2": "AE",
-      "extragenerators": "E"
+      "megane": "E"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -90,8 +65,7 @@
     "enabled": true,
     "expandWhenSneak": false,
     "colors": {
-      "megane:default": 855385,
-      "techreborn:methane": 8917592
+      "megane:default": 855385
     },
     "blacklist": []
   },
@@ -116,6 +90,6 @@
     "blacklist": []
   },
   "catchServerErrors": true,
-  "spawnEgg": false,
+  "spawnEgg": true,
   "playerHead": true
 }

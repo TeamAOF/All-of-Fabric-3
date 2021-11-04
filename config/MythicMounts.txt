@@ -1,0 +1,312 @@
+Config MOB properties here
+
+Important! Do not modify the value of the config version in this file or the mod may overwrite custom settings.
+[Global] Config Version: 4
+
+SpawnDebug:
+    Helpful when trying out different spawn configs or for testing adjustments to spawn weights.
+    true: will set the entity to glowing and add information to the logs about spawn attempts.
+    false: will not enable spawn debug features.
+
+
+SpawnBiomes:
+    All: will spawn in all biomes, in all dimensions
+    All Overworld: will spawn in all biomes, in the overworld dimension only.
+    All Nether: will spawn in all biomes, in the nether dimension only.
+    All End: will spawn in all biomes, in the end dimension only.
+    List of vanilla biomes: will spawn in any of the listed biomes, in all dimensions (separate with semicolons).
+
+SpawnYCeiling:
+    Sets the maximum Y height at which an entity may spawn.
+
+SpawnYFloor:
+    Sets the minimum Y height at which an entity may spawn.
+
+SpawnBlocks:
+    Used to cause an entity to spawn only near certain kinds of blocks. Can be set to All (no restrictions/will spawn
+    on all blocks) or a list of blocks (separated with semicolons).
+
+SpawnWeight:
+    Controls the vanilla spawn weight of an entity.
+
+SpawnTypes:
+    overworld: anywhere on the world's surface.
+    water: anywhere on the world's surface in water.
+    subterranean: in caves only (no surface spawns).
+    nether: nether only (and not in lava).
+
+SpawnRandomChance:
+    Used to make certain types of MOBs even rarer by adding an additional random chance to
+    their natural spawning rate (this chance is only applied if all other spawning conditions
+    are met). Values range from 1-100, where 1 = 1% chance to spawn, and 100 = 100% chance to spawn.
+
+InventorySize:
+    Controls how many inventory __columns__ (not slots) are present for a tamed and chested entity. For example, an
+    entity with InventorySize = 4 will have 12 total inventory slots once it's chested (4 cols x 3 slots per column,
+    yielding 12 slots total).
+
+Loudness:
+    Controls the volume of mod sounds. Values range from 0-100, where 0 = silent, and 100 = full volume.
+
+-------------------------------------------------------------
+
+[Global] Print Biomes: false;
+[Global] Command Item: stick;
+[Global] Mounted Flight Enabled: true;
+[Global] Creative Flight: false;
+
+CourierBird ShouldSpawn: true
+CourierBird SpawnDebug: false
+CourierBird SpawnBiomes: Jungle; Jungle Hills; Jungle Edge;
+CourierBird SpawnYCeiling: 50000
+CourierBird SpawnYFloor: -50000
+CourierBird SpawnBlocks: All
+CourierBird SpawnWeight: 12
+CourierBird SpawnRandomChance: 100
+CourierBird SpawnType: overworld
+CourierBird MinSpawnGroupSize: 1
+CourierBird MaxSpawnGroupSize: 3
+CourierBird InventorySize: 3
+CourierBird Attack: 4
+CourierBird Speed: 0.44999998807907104
+CourierBird Health: 20
+CourierBird FleeFromPlayer: true
+CourierBird PlayerHostile: false
+CourierBird HostileToMobs: none
+CourierBird BattleWithOwner: true
+CourierBird FollowOwner: false
+CourierBird Diet: herbivore
+CourierBird TamingItems:  sweet_berries;
+CourierBird TamingChance:  10
+CourierBird BreedingItems: sweet_berries; melon_slice;
+CourierBird Loudness: 100
+
+DireWolf ShouldSpawn: true
+DireWolf SpawnDebug: false
+DireWolf SpawnBiomes: Snowy Taiga Mountains; Giant Spruce Taiga; Giant Spruce Taiga Hills; Giant Tree Taiga; Giant Tree Taiga Hills;
+DireWolf SpawnYCeiling: 50000
+DireWolf SpawnYFloor: -50000
+DireWolf SpawnBlocks: All
+DireWolf SpawnWeight: 10
+DireWolf SpawnRandomChance: 100
+DireWolf SpawnType: overworld
+DireWolf MinSpawnGroupSize: 1
+DireWolf MaxSpawnGroupSize: 3
+DireWolf InventorySize: 4
+DireWolf Attack: 7
+DireWolf Speed: 0.44999998807907104
+DireWolf Health: 30
+DireWolf FleeFromPlayer: false
+DireWolf PlayerHostile: false
+DireWolf HostileToMobs: minecraft:sheep; minecraft:skeleton;
+DireWolf BattleWithOwner: true
+DireWolf FollowOwner: false
+DireWolf Diet: carnivore
+DireWolf TamingItems:  bone;
+DireWolf TamingChance:  10
+DireWolf BreedingItems:  rabbit; chicken; mutton; beef; porkchop;
+DireWolf Loudness: 100
+
+Dragon ShouldSpawn: true
+Dragon SpawnDebug: false
+Dragon SpawnBiomes: All Overworld
+Dragon SpawnYCeiling: 40
+Dragon SpawnYFloor: -50000
+Dragon SpawnBlocks: All
+Dragon SpawnWeight: 40
+Dragon SpawnRandomChance: 50
+Dragon SpawnType: subterranean
+Dragon MinSpawnGroupSize: 1
+Dragon MaxSpawnGroupSize: 1
+Dragon MaxIn256Region: 1
+Dragon InventorySize: 9
+Dragon Attack: 10
+Dragon Speed: 0.44999998807907104
+Dragon Health: 40
+Dragon FleeFromPlayer: false
+Dragon PlayerHostile: true
+Dragon HostileToMobs: none
+Dragon BattleWithOwner: true
+Dragon Diet: carnivore
+Dragon TamingItems:  gold_ingot; diamond; emerald;
+Dragon TamingChance:  5
+Dragon BreedingItems: golden_carrot; golden_apple; glistering_melon_slice;
+Dragon Loudness: 100
+
+Griffon ShouldSpawn: true
+Griffon SpawnDebug: false
+Griffon SpawnBiomes: Gravelly Mountains+; Snowy Taiga Mountains; Taiga Mountains; Gravelly Mountains; Wooded Mountains; Snowy Mountains; Mountains;
+Griffon SpawnYCeiling: 50000
+Griffon SpawnYFloor: 100
+Griffon SpawnBlocks: All
+Griffon SpawnWeight: 10
+Griffon SpawnRandomChance: 70
+Griffon SpawnType: overworld
+Griffon MinSpawnGroupSize: 1
+Griffon MaxSpawnGroupSize: 1
+Griffon InventorySize: 4
+Griffon Attack: 7
+Griffon Speed: 0.44999998807907104
+Griffon Health: 35
+Griffon FleeFromPlayer: false
+Griffon PlayerHostile: false
+Griffon HostileToMobs: minecraft:sheep; minecraft:rabbit;
+Griffon BattleWithOwner: true
+Griffon Diet: carnivore
+Griffon TamingItems:  rabbit; mutton;
+Griffon TamingChance:  10
+Griffon BreedingItems: rabbit; mutton;
+Griffon Loudness: 100
+
+GeckotoaLizard ShouldSpawn: true
+GeckotoaLizard SpawnDebug: false
+GeckotoaLizard SpawnBiomes: All Overworld
+GeckotoaLizard SpawnYCeiling: 5000
+GeckotoaLizard SpawnYFloor: 60
+GeckotoaLizard SpawnBlocks: All
+GeckotoaLizard SpawnWeight: 50
+GeckotoaLizard SpawnRandomChance: 100
+GeckotoaLizard SpawnType: subterranean
+GeckotoaLizard MinSpawnGroupSize: 1
+GeckotoaLizard MaxSpawnGroupSize: 1
+GeckotoaLizard InventorySize: 9
+GeckotoaLizard Attack: 4
+GeckotoaLizard Speed: 0.44999998807907104
+GeckotoaLizard Health: 35
+GeckotoaLizard FleeFromPlayer: false
+GeckotoaLizard PlayerHostile: false
+GeckotoaLizard HostileToMobs: none
+GeckotoaLizard BattleWithOwner: false
+GeckotoaLizard Diet: omnivore
+GeckotoaLizard TamingItems:  melon; pumpkin; hay_block;
+GeckotoaLizard TamingChance:  10
+GeckotoaLizard BreedingItems: melon; pumpkin; hay_block;
+GeckotoaLizard Loudness: 100
+
+Moth ShouldSpawn: true
+Moth SpawnDebug: false
+Moth SpawnBiomes: Dark Forest Hills; Dark Forest;
+Moth SpawnYCeiling: 50000
+Moth SpawnYFloor: -50000
+Moth SpawnBlocks: All
+Moth SeekBlocks: minecraft:torch; minecraft:redstone_torch; minecraft:soul_torch; 
+Moth SpawnWeight: 10
+Moth SpawnRandomChance: 70
+Moth SpawnType: overworld
+Moth MinSpawnGroupSize: 1
+Moth MaxSpawnGroupSize: 1
+Moth InventorySize: 2
+Moth Attack: 2
+Moth Speed: 0.44999998807907104
+Moth Health: 10
+Moth FleeFromPlayer: false
+Moth PlayerHostile: false
+Moth HostileToMobs: none
+Moth BattleWithOwner: false
+Moth Diet: herbivore
+Moth TamingItems: dandelion; poppy; blue_orchid; allium; azure_bluet; red_tulip; orange_tulip; white_tulip; pink_tulip; oxeye_daisy; cornflower; lily_of_the_valley; lilac; rose_bush; peony;
+Moth TamingChance:  20
+Moth BreedingItems: sugar; melon_slice; glistering_melon_slice;
+Moth Loudness: 100
+
+NetherBat ShouldSpawn: true
+NetherBat SpawnDebug: false
+NetherBat SpawnBiomes: Crimson Forest; Warped Forest;
+NetherBat SpawnYCeiling: 50000
+NetherBat SpawnYFloor: -50000
+NetherBat SpawnBlocks: All
+NetherBat SpawnWeight: 50
+NetherBat SpawnRandomChance: 100
+NetherBat SpawnType: nether
+NetherBat MinSpawnGroupSize: 1
+NetherBat MaxSpawnGroupSize: 1
+NetherBat MaxIn256Region: 5
+NetherBat InventorySize: 3
+NetherBat Attack: 4
+NetherBat Speed: 0.44999998807907104
+NetherBat Health: 25
+NetherBat FleeFromPlayer: false
+NetherBat PlayerHostile: true
+NetherBat HostileToMobs: none
+NetherBat BattleWithOwner: true
+NetherBat Diet: omnivore
+NetherBat TamingItems:  porkchop;
+NetherBat TamingChance:  10
+NetherBat BreedingItems: porkchop; apple; rotten_flesh;
+NetherBat Loudness: 100
+
+Nudibranch ShouldSpawn: true
+Nudibranch SpawnDebug: false
+Nudibranch SpawnBiomes: Warm Ocean;
+Nudibranch SpawnYCeiling: 50000
+Nudibranch SpawnYFloor: -50000
+Nudibranch SpawnBlocks: minecraft:brain_coral_block; minecraft:bubble_coral_block; minecraft:fire_coral_block; minecraft:horn_coral_block; minecraft:tube_coral_block;
+Nudibranch SpawnWeight: 20
+Nudibranch SpawnRandomChance: 100
+Nudibranch SpawnType: overworld
+Nudibranch MinSpawnGroupSize: 2
+Nudibranch MaxSpawnGroupSize: 4
+Nudibranch InventorySize: 3
+Nudibranch Attack: 3
+Nudibranch Health: 25
+Nudibranch Speed: 0.44999998807907104
+Nudibranch FleeFromPlayer: false
+Nudibranch PlayerHostile: false
+Nudibranch HostileToMobs: none
+Nudibranch BattleWithOwner: false
+Nudibranch Diet: herbivore
+Nudibranch TamingItems: seagrass;
+Nudibranch TamingChance:  10
+Nudibranch BreedingItems: kelp;
+Nudibranch Loudness: 100
+
+RidingLizard ShouldSpawn: true
+RidingLizard SpawnDebug: false
+RidingLizard SpawnBiomes: Desert; Desert Lakes; Desert Hills; Eroded Badlands; Modified Wooded Badlands Plateau; Modified Badlands Plateau;
+RidingLizard SpawnYCeiling: 50000
+RidingLizard SpawnYFloor: -50000
+RidingLizard SpawnBlocks: All
+RidingLizard SpawnWeight: 1
+RidingLizard SpawnRandomChance: 10
+RidingLizard SpawnType: overworld
+RidingLizard MinSpawnGroupSize: 2
+RidingLizard MaxSpawnGroupSize: 3
+RidingLizard InventorySize: 2
+RidingLizard Attack: 4
+RidingLizard Speed: 0.44999998807907104
+RidingLizard Health: 20
+RidingLizard FleeFromPlayer: false
+RidingLizard PlayerHostile: true
+RidingLizard HostileToMobs: minecraft:rabbit; minecraft:chicken;
+RidingLizard BattleWithOwner: true
+RidingLizard Diet: carnivore
+RidingLizard TamingItems:  rabbit; chicken;
+RidingLizard TamingChance:  10
+RidingLizard BreedingItems: rabbit; chicken; pumpkin; rotten_flesh;
+RidingLizard Loudness: 100
+
+Nightmare ShouldSpawn: true
+Nightmare SpawnDebug: false
+Nightmare SpawnBiomes: minecraft:basalt_deltas; minecraft:soul_sand_valley;
+Nightmare SpawnYCeiling: 50000
+Nightmare SpawnYFloor: -50000
+Nightmare SpawnBlocks: All
+Nightmare SpawnWeight: 100
+Nightmare SpawnRandomChance: 25
+Nightmare SpawnType: nether
+Nightmare MinSpawnGroupSize: 1
+Nightmare MaxSpawnGroupSize: 2
+Nightmare MaxIn256Region: 5
+Nightmare InventorySize: 4
+Nightmare Attack: 5
+Nightmare Speed: 0.44999998807907104
+Nightmare Health: 35
+Nightmare FleeFromPlayer: false
+Nightmare PlayerHostile: false
+Nightmare HostileToMobs: minecraft:skeleton; minecraft:wither_skeleton;
+Nightmare BattleWithOwner: true
+Nightmare Diet: omnivore
+Nightmare TamingItems:  bone; coal; charcoal;
+Nightmare TamingChance:  3
+Nightmare BreedingItems: blaze_rod; fire_charge;
+Nightmare Loudness: 100
