@@ -102,21 +102,25 @@ events.listen("recipes", function (event) {
       "indrev:" + item + "_ingot",
       "techreborn:" + item + "_ingot"
     );
-
-    // Blocks
+  });
+   
+  // Blocks
+  indrev_metals.forEach(function (item, index) {
     event.replaceOutput(
       {},
       "indrev:" + item + "_block",
       "techreborn:" + item + "_storage_block"
     );
-
-    // REI
+    
+  // REI 
     event.remove({ id: "indrev:shapeless/" + item + "_ingot_from_block" });
+    event.remove({ id: "indrev:shaped/" + item + "_block" });
+  });
+  
+  indrev_materials.forEach(function (item, index) {
     event.remove({ id: "indrev:shapeless/" + item + "_nugget" });
     event.remove({ id: "indrev:shaped/" + item + "_ingot_from_nugget" });
     event.remove({ id: "indrev:shaped/" + item + "_ingot_from_nuggets" });
-    event.remove({ id: "indrev:shaped/" + item + "_block_from_nugget" });
-    event.remove({ id: "indrev:shaped/" + item + "_block" });
   });
 
   indrev_materials.forEach(function (item, index) {
