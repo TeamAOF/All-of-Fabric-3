@@ -32,6 +32,17 @@ events.listen("recipes", function (event) {
     "bronze",
     "tungsten",
   ];
+  
+    var indrev_nuggets = [
+    "copper",
+    "tin",
+    "steel",
+    "silver",
+    "lead",
+    "electrum",
+    "bronze",
+    "tungsten",
+  ];
 
   var indrev_metals = [
     "copper",
@@ -74,7 +85,16 @@ events.listen("recipes", function (event) {
   });
 
   event.replaceOutput({}, "indrev:sawdust", "techreborn:saw_dust");
-
+  
+  // Nuggets
+  indrev_dusts.forEach(function (item, index) {
+    event.replaceOutput(
+      {},
+      "indrev:" + item + "_nugget",
+      "techreborn:" + item + "_nugget"
+    );
+  });
+  
   // Ingots
   indrev_metals.forEach(function (item, index) {
     event.replaceOutput(
@@ -94,6 +114,7 @@ events.listen("recipes", function (event) {
     event.remove({ id: "indrev:shapeless/" + item + "_ingot_from_block" });
     event.remove({ id: "indrev:shapeless/" + item + "_nugget" });
     event.remove({ id: "indrev:shaped/" + item + "_ingot_from_nugget" });
+    event.remove({ id: "indrev:shaped/" + item + "_ingot_from_nuggets" });
     event.remove({ id: "indrev:shaped/" + item + "_block_from_nugget" });
     event.remove({ id: "indrev:shaped/" + item + "_block" });
   });
@@ -149,7 +170,6 @@ events.listen("recipes", function (event) {
     "emerald",
     "gold",
     "invar",
-    "nickel",
     "redstone",
     "manganese",
     "iron",
@@ -172,7 +192,6 @@ events.listen("recipes", function (event) {
     "chrome",
     "electrum",
     "invar",
-    "nickel",
     "lead",
     "nickel",
     "silver",
@@ -325,6 +344,10 @@ events.listen("recipes", function (event) {
         "/smelting/ore_blasting",
     });
   });
+  
+  event.remove({ id: "modern_industrialization:generated/materials/quartz/smelting/ore_smelting" })
+
+  event.remove({ id: "modern_industrialization:generated/materials/quartz/smelting/ore_smelting" })
 
   modern_metals.forEach(function (item, index) {
     event.remove({
@@ -474,7 +497,6 @@ events.listen("recipes", function (event) {
     "copper",
     "aluminum",
     "lead",
-    "tungsten",
     "tin",
     "silver",
     "steel",
