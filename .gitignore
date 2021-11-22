@@ -80,3 +80,5 @@ local/
 .curseclient
 
 ds_private_storage.json
+
+servers.dat
