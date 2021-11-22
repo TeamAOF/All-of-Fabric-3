@@ -1,4 +1,8 @@
 {
+  "activeFixers": {
+    "balanceExistantItems": true,
+    "forceTravelerTrades": true
+  },
   "bosses": {
     "crawler": {
       "lootTable": "dungeonsmod:entities/crawler"

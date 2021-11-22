@@ -28,7 +28,7 @@
     //Volcanic Vent
     "volcanic_vent": true,
     //Air Balloons
-    "air_balloons": true,
+    "air_balloons": false,
     //Pirate Ship
     "pirate_ship": true,
     //Lighthouse

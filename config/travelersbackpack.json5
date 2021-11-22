@@ -1,0 +1,36 @@
+{
+	"disableCrafting": false,
+	// Enables wearing backpack directly from ground
+	"enableBackpackBlockQuickEquip": true,
+	// Enables backpacks spawning in loot chests
+	"enableLoot": true,
+	// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
+	"invulnerableBackpack": true,
+	"tanksCapacity": 324000,
+	"enableBackpackAbilities": true,
+	// Places backpack at place where player died
+	"backpackDeathPlace": true,
+	// Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
+	"backpackForceDeathPlace": false,
+	// Enables button in backpack gui, which allows to empty tank
+	"enableEmptyTankButton": true,
+	"enableSleepingBagSpawnPoint": false,
+	// Enables auto message with backpack coords after player dies
+	"enableBackpackCoordsMessage": true,
+	// Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn
+	"enableToolCycling": true,
+	// Allows tool cycling using keybinding only (Default Z) (Do not change to false - it won't work)
+	"disableScrollWheel": true,
+	// Enables tip, how to obtain a backpack, if there's no crafting recipe for it
+	"obtainTips": true,
+	// Render tools in tool slots on the backpack, while worn
+	"renderTools": true,
+	// Render backpack if elytra is present
+	"renderBackpackWithElytra": true,
+	// Enables tanks and tool slots overlay, while backpack is worn
+	"enableOverlay": true,
+	// Offsets to left side
+	"offsetX": 20,
+	// Offsets to up
+	"offsetY": 30
+}

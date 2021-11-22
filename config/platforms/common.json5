@@ -1,0 +1,45 @@
+{
+	// Craft Output Control
+	"CRAFTING": {
+		/* Multiplies the craft amount by the given value if a 'compressed' block is used (2x value if two are used) 
+		   See 'data/forge/tags/items/storage_blocks/' to know what qualifies 
+		   Note: Final value will be capped at a full stack
+		*/
+		"blockMultiplier": 4,
+		"flat": 4,
+		"floor": 2,
+		"ramp": 2,
+		"frame": 2,
+		"rise": 4,
+		"rail": 4
+	},
+	// Platform Dust Covering Options
+	"COVERING": {
+		/* Enables the manual placement of sand, snow, and gravel via sneak place 
+		   Other blocks are supported as long as the extend FallingBlock and use Material.SAND
+		*/
+		"canManuallyAdd": true,
+		// When enabled the amount of snow/sand built up on platforms will change with the weather
+		"isEnvironmentReactive": true,
+		/* When enabled walking on platforms will disturb the collected snow/sand 
+		   Regardless of setting you can still remove layers by right clicking with a shovel
+		*/
+		"isEntityReactive": true,
+		/* 1 in x chance sand will passively accumulate 
+		   Disabled when set to zero, or when 'isEnvironmentReactive' is disabled
+		*/
+		"chanceSand": 4,
+		/* 1 in x chance sand will accumulate during a storm 
+		   Disabled when set to zero, or when 'isEnvironmentReactive' is disabled
+		*/
+		"chanceSandStorm": 3,
+		/* 1 in x chance snow will accumulate while snowing 
+		   Disabled when set to zero, or when 'isEnvironmentReactive' is disabled
+		*/
+		"chanceSnow": 3,
+		/* 1 in x chance rain will wash away dust layers 
+		   Disabled when set to zero, or when 'isEnvironmentReactive' is disabled
+		*/
+		"chanceRainWash": 3
+	}
+}

@@ -7,23 +7,28 @@
     "knives": [
       {
         "itemId": "sandwichable:stone_kitchen_knife",
-        "value": 1
+        "value": 1,
+        "sharpness": 132
       },
       {
         "itemId": "sandwichable:kitchen_knife",
-        "value": 3
+        "value": 3,
+        "sharpness": 850
       },
       {
         "itemId": "sandwichable:golden_kitchen_knife",
-        "value": 5
+        "value": 5,
+        "sharpness": 225
       },
       {
         "itemId": "sandwichable:diamond_kitchen_knife",
-        "value": 8
+        "value": 8,
+        "sharpness": 1025
       },
       {
         "itemId": "sandwichable:netherite_kitchen_knife",
-        "value": 20
+        "value": 20,
+        "sharpness": 1984
       }
     ]
   },
@@ -34,5 +39,9 @@
   },
   "shrubGenOptions": {
     "spawnTries": 0
+  },
+  "saltPoolGenOptions": {
+    "saltPools": true,
+    "drySaltPools": true
   }
 }

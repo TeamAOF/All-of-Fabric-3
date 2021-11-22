@@ -6,6 +6,7 @@
     "useColoredCraftingStatus": true,
     "__comment": "Controls buttons on Level Emitter Screen",
     "PowerUnit": "ae",
+    "showDebugGuiOverlays": false,
     "craftByStacks0": 1,
     "priorityByStacks0": 1,
     "levelByStacks0": 1,

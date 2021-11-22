@@ -1,0 +1,38 @@
+[betterDungeons.general]
+enableHeads = true
+removeVanillaDungeons = true
+enableNetherBlocks = true
+[betterDungeons.spiderDungeon]
+spiderDungeonStartMinY = 70
+spiderDungeonStartMaxY = 71
+enableSpiderDungeons = true
+spiderDungeonSeparationDistance = 44
+whitelistedDimensions = "[minecraft:overworld]"
+blacklistedBiomes = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
+[betterDungeons.skeletonDungeon]
+skeletonDungeonStartMinY = 11
+skeletonDungeonStartMaxY = 30
+enableSkeletonDungeons = true
+skeletonDungeonSeparationDistance = 46
+whitelistedDimensions = "[minecraft:overworld]"
+blacklistedBiomes = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
+[betterDungeons.zombieDungeon]
+zombieDungeonStartMinY = 50
+zombieDungeonStartMaxY = 51
+enableZombieDungeons = true
+zombieDungeonSeparationDistance = 48
+zombieDungeonMaxSurfaceStaircaseLength = 20
+whitelistedDimensions = "[minecraft:overworld]"
+blacklistedBiomes = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
+[betterDungeons.smallDungeon]
+smallDungeonMinY = 11
+smallDungeonMaxY = 50
+bannerMaxCount = 2
+chestMinCount = 1
+chestMaxCount = 2
+enableSmallDungeons = true
+smallDungeonSeparationDistance = 10
+smallDungeonDistanceVariation = 6
+whitelistedDimensions = "[minecraft:overworld]"
+blacklistedBiomes = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
+enableOreProps = true

@@ -1,5 +1,5 @@
-{ 
-	"main": { 
+{
+	"main": {
 		// Toggles the shulker box preview
 		"enablePreview": true,
 		/* Locks the preview window above the tooltip.
@@ -46,19 +46,23 @@
 		   LIGHT: the regular vanilla-style theme
 		   DARK: preview windows will be gray instead of white.
 		*/
-		"theme": "AUTO"
+		"theme": "AUTO",
+		/* If on, the mod hides the custom text on shulker box tooltips.
+		   Use this option when a server-side preview datapack clashes with the mod.
+		*/
+		"hideShulkerBoxLore": false
 	},
-	"controls": { 
+	"controls": {
 		// Press this key when hovering a container stack to open the preview window.
-		"previewKey": { 
+		"previewKey": {
 			"code": "key.keyboard.left.shift"
 		},
 		// Press this key when hovering a container stack to open the full preview window.
-		"fullPreviewKey": { 
+		"fullPreviewKey": {
 			"code": "key.keyboard.left.alt"
 		}
 	},
-	"server": { 
+	"server": {
 		/* If on, the server will be able to provide extra information about containers to the clients with the mod installed.
 		   Disabling this option will disable all of the options below.
 		*/
