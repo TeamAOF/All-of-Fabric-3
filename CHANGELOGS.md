@@ -1,3 +1,95 @@
+<h1>2.8.6</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changes**
+- Indrev machines will no longer eat your mystical agriculture tools after 1 use.
+- Armor HUD showing durability.
+- No more annoying tutorial toasts.
+- A shizzel ton of other stuff that I totally remember but still wont write down.
+
+**Fixes**
+- Fixed crash when changing dimension with elytra/winged on.
+- Most likely LOADS of crashes/bugs fixed with mod updates. If you had any problems before this update, try them out and if it still occurs be sure to use the issue tracker.
+
+**Added**
+- Armor Sound Tweak: ArmorSoundTweak-3.0.1-fabric.jar  
+- YUNG's Better Dungeons: BetterDungeons-Fabric-1.16.5-1.0.1.jar  
+- DefaultSettings: DefaultSettings-1.16.x-3.0.2.jar  
+- Drink Beer: drinkbeer-v2.3 for 1.16.x.jar  
+- FallFlyingLib: fallflyinglib-2.0.4.jar  
+- FFL Trinkets Compat: ffl-trinkets-compat-1.0.0.jar  
+- FPS Reducer: FpsReducer-fabric-1.24-mc1.16.5.jar  
+- I Know What I'm Doing: IKnowWhatImDoing-3.1.0-fabric.jar  
+- Inventory HUD +: InventoryHUD-fabric-[1.16.2-1.16.5]-3.4.1.jar  
+- Magitek Mechs: magitekmechs-fabric-MC1.16-1.0.4.jar  
+- Mythic Mounts: mythic-mounts-1.16.5-3.0.jar  
+- Platforms: platforms-[fabric]-1.16-1.0.1-.jar  
+- Industial Quarry Mod: quarry-reborn-1.16-0.5.2.jar  
+- ShetiPhianCore: shetiphiancore-[fabric]-1.16-1.0.1-.jar  
+- Traveler's Backpack: travelers-backpack-1.16.5-5.4.0.jar  
+  
+**Removed**  
+- CraftPresence: CraftPresence-Fabric-1.16.5-Release-1.8.2.jar  
+- Dynamic FPS: dynamic-fps-2.0.2.jar  
+- RandomPatches: randompatches-2.4.5-fabric.jar  
+  
+**Updated**  
+- Adorn: Adorn-1.14.2+1.16.5.jar  
+- AE2WTLib: AE2WTLib-1.2.5-release.jar  
+- AppleSkin: appleskin-fabric-mc1.16.x-2.2.0.jar  
+- Applied Energistics 2: appliedenergistics2-fabric-8.4.0-alpha.3.jar  
+- Architectury: architectury-1.24.35-fabric.jar  
+- Artifacts: artifacts-4.0.2+fabric.jar  
+- Attribute Fix {FABRIC}: attribute-fix-fabric-1.0.2.jar  
+- BCLib: bclib-0.1.45.jar  
+- YUNG's Better Strongholds: BetterStrongholds-Fabric-1.16.5-1.1.1.jar  
+- Blockshifter: blockshifter-1.4.0+fabric-1.16.4.jar  
+- Blockus: blockus-2.1.12+1.16.5.jar  
+- Cherished Worlds: cherishedworlds-fabric-2.0.1-1.16.5.jar  
+- Cinderscapes: cinderscapes-1.4.0.jar  
+- Cloth Config v4: cloth-config-4.12.41-fabric.jar  
+- Conjuring: conjuring-0.2.5.jar  
+- Decimal Coins: decimalCoins-fabric-1.16.5-1.3.0.jar  
+- Disable Custom Worlds Advice: DisableCustomWorldsAdvice-1.3.jar  
+- Dungeons Mod Lite: DungeonsModLite-1.16.5-1.0.12.jar  
+- EnchantmentDescriptions: EnchantmentDescriptions-Fabric-1.16.5-2.0.8.jar  
+- Expanded Storage: expandedstorage-7.0.2+1.16.4.jar  
+- Extra Generators: extra-generators-1.0.3-BETA+1.16.jar  
+- Ezpas: ezpas-1.2.2-1.16.5.jar  
+- Fabric API: fabric-api-0.42.0+1.16.jar  
+- Fabric Language Kotlin: fabric-language-kotlin-1.6.5+kotlin.1.5.31.jar  
+- Fabric Language Scala: fabric-language-scala-1.1.0+scala.2.13.6-fat.jar  
+- FerriteCore: ferritecore-2.1.0-fabric.jar  
+- FTB Chunks: ftb-chunks-fabric-1605.3.2-build.81.jar  
+- FTB Library: ftb-library-fabric-1605.3.4-build.87.jar  
+- FTB Quests: ftb-quests-fabric-1605.3.5-build.72.jar  
+- FTB Teams: ftb-teams-fabric-1605.2.3-build.38.jar  
+- Geckolib: geckolib-fabric-1.16.5-3.0.58.jar  
+- Health Overlay: HealthOverlay-1.16.5-4.0.1.jar  
+- Industrial Revolution: indrev-1.9.18-BETA.jar  
+- Item Filters: item-filters-fabric-1605.2.5-build.9.jar  
+- KubeJS: kubejs-fabric-1605.3.19-build.180.jar  
+- Library of Exile: Library-Of-Exile-1.16.5-1.0.15.jar  
+- megane: megane-4.1.4.jar  
+- Modern Industrialization: Modern-Industrialization-0.4.0-alpha.11.jar  
+- Mod Menu: modmenu-1.16.22.jar  
+- Mouse Wheelie: mousewheelie-1.7.5+mc1.16.5.jar  
+- Mystical Agriculture: Refabricated: MysticalAgriculture-Refabricated-1.16.5-1.1.7.jar  
+- Nourish: nourish-1.3.2.jar  
+- Patchouli: Patchouli-1.16.4-53-FABRIC.jar  
+- Repurposed Structures: repurposed_structures-1.16.5-1.11.6-fabric.jar  
+- Rhino: rhino-fabric-1605.1.5-build.75.jar  
+- Sandwichable: sandwichable-1.2-rc2+1.16.jar  
+- Shulker Box Tooltip: shulkerboxtooltip-2.3.8+1.16.5.jar  
+- Smoother Bedrock: smootherbedrock-1.0.2.jar  
+- TIS-3D: TIS-3D-MC1.16.5-Fabric-1.6.2.35.jar  
+- Traverse: traverse-3.3.3.jar  
+- Waystones: wraith-waystones-2.0.2-1.16.5.jar  
+- wthit: wthit-2.10.11-fabric.jar  
+- YUNG's API: YungsApi-1.16.5-Fabric-9.jar  
+---------------------------------------------------------------------------------------------
+
 <h1>2.8.5</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
