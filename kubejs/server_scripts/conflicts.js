@@ -10,7 +10,7 @@ events.listen("recipes", function (event) {
    event.shapeless('charm:spruce_barrel', ['minecraft:barrel'])
    event.shapeless('minecraft:barrel', ['charm:spruce_barrel'])
   
-  // Remove byg:gray_dye as it is a null tag, and this fixes the empty gray dye recipe
+  // Remove Empty Recipe - Trent87
   event.remove({ id: "byg:gray_dye" });
 
   // Gunpowder Block
@@ -98,12 +98,6 @@ events.listen("recipes", function (event) {
   // Chests
   event.replaceInput({}, "#c:wooden_chests", "#c:wooden_chests");
 
-  // Diamond Chain
-  event.replaceInput(
-    { id: "mochains:diamond_chain" },
-    "mochains:diamond_nugget",
-    "astromine:diamond_fragment"
-  );
 
   // Crafting Tables
   event.remove({ type: "crafting_shaped", output: "#c:workbench" });
