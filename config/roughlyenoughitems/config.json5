@@ -937,6 +937,11 @@
 					"id": "betterend:jellyshroom_crafting_table",
 					"Count": 1,
 					"type": "item"
+				},
+								{
+					"id": "betterend:lucernia_crafting_table",
+					"Count": 1,
+					"type": "item"
 				}
 			]
 		},

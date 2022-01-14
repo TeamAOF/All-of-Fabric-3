@@ -5,5 +5,5 @@
   "defenseMultiplier": 0.75,
   "shouldBroadcastWhenGivenBanner": true,
   "shouldBroadcastToEveryone": true,
-  "blacklistedEntities": []
+  "blacklistedEntities": ["biomemakeover:adjudicator_mimic", "crusade:trebuchet_projectile"]
 }

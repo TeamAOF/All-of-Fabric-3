@@ -3,8 +3,8 @@
 ////////////////////////
 
 events.listen('item.tags', function (event) {
-  
-  
+
+
   // Salt
   event.get('c:salt_dusts').add('croptopia:salt')
   event.get('c:salt_ores').add('croptopia:salt_ore')
@@ -27,6 +27,7 @@ var be_stuff = [
   "pythadendron",
   "end_lotus",
   "lacugrove",
+  "lucernia",
   "dragon_tree",
   "tenanea",
   "helix_tree",
