@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=east": {
+			"model": "bambootweaks:block/bamboo_torch_wall"
+		},
+		"facing=south": {
+			"model": "bambootweaks:block/bamboo_torch_wall",
+			"y": 90
+		},
+		"facing=west": {
+			"model": "bambootweaks:block/bamboo_torch_wall",
+			"y": 180
+		},
+		"facing=north": {
+			"model": "bambootweaks:block/bamboo_torch_wall",
+			"y": 270
+		}
+	}
+}

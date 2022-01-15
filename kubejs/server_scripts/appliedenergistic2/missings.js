@@ -1,13 +1,5 @@
-//╔════════════════════════════════════════╗
-//║     GNU Free Documentation License     ║
-//╚════════════════════════════════════════╝
-
 events.listen("recipes", function (event) {
 
-//╔════════════════════════════════════════╗
-//║           AE2 MISSING SLABS            ║
-//╚════════════════════════════════════════╝
-    
 	// Smooth slab
 	event.remove({ output: "appliedenergistics2:smooth_sky_stone_slab" });	
     event.shaped(item.of("appliedenergistics2:smooth_sky_stone_slab", 6), [
@@ -55,11 +47,7 @@ events.listen("recipes", function (event) {
     event.shaped(item.of("appliedenergistics2:chiseled_quartz_slab", 6), [
     ["appliedenergistics2:chiseled_quartz_block", "appliedenergistics2:chiseled_quartz_block", "appliedenergistics2:chiseled_quartz_block"],
    ]);
-
-//╔════════════════════════════════════════╗
-//║          AE2 MISSING STAIRS            ║
-//╚════════════════════════════════════════╝
-    
+  
 	// Smooth Stairs
 	event.remove({ output: "appliedenergistics2:smooth_sky_stone_stairs" });	
     event.shaped(item.of("appliedenergistics2:smooth_sky_stone_stairs", 6), [
