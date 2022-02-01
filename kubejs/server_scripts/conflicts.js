@@ -98,10 +98,6 @@ events.listen("recipes", function (event) {
   // Chests
   event.replaceInput({}, "#c:wooden_chests", "#c:wooden_chests");
 
-
-  // Crafting Tables
-  event.remove({ type: "crafting_shaped", output: "#c:workbench" });
-
   // Fragments
   event.remove({ output: "techreborn:diamond_nugget" });
   event.remove({ output: "techreborn:emerald_nugget" });

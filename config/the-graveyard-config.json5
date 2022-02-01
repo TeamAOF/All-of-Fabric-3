@@ -1,0 +1,55 @@
+{
+  //Graveyard structures can spawn:
+  "structures": {
+    "large_birch_tree": true,
+    "medium_walled_graveyard": true,
+    "mushroom_grave": true,
+    "small_grave": true,
+    "small_walled_graveyard": true,
+    "small_walled_graveyard_desert": true,
+    "small_walled_graveyard_savanna": true,
+    "large_walled_graveyard": true
+  },
+  //Structure generation settings. Separation is the minimum distance between two structures of this type in chunks; must be less than spacing. Spacing is the average distance between two structure placement attempts of this type in chunks. Change salt-value only if you know what you are doing!
+  "structureChances": {
+    //Large Birch Tree settings:
+    "large_birch_tree_separation": 12,
+    "large_birch_tree_spacing": 14,
+    "large_birch_tree_salt": 304812394,
+    //Medium Walled Graveyard settings:
+    "medium_walled_graveyard_separation": 14,
+    "medium_walled_graveyard_spacing": 16,
+    "medium_walled_graveyard_salt": 379123039,
+    //Mushroom Grave settings:
+    "mushroom_grave_separation": 18,
+    "mushroom_grave_spacing": 24,
+    "mushroom_grave_salt": 598017285,
+    //Small Grave settings:
+    "small_grave_separation": 8,
+    "small_grave_spacing": 12,
+    "small_grave_salt": 240451934,
+    //Small Walled Graveyard settings:
+    "small_walled_graveyard_separation": 18,
+    "small_walled_graveyard_spacing": 20,
+    "small_walled_graveyard_salt": 1690192399,
+    //Small Walled Graveyard (Desert) settings:
+    "small_walled_graveyard_desert_separation": 28,
+    "small_walled_graveyard_desert_spacing": 32,
+    "small_walled_graveyard_desert_salt": 661903018,
+    //Small Walled Graveyard (Savanna) settings:
+    "small_walled_graveyard_savanna_separation": 12,
+    "small_walled_graveyard_savanna_spacing": 14,
+    "small_walled_graveyard_savanna_salt": 451235912,
+    //Large Walled Graveyard settings:
+    "large_walled_graveyard_separation": 9,
+    "large_walled_graveyard_spacing": 11,
+    "large_walled_graveyard_salt": 739017628
+  },
+  //Graveyard fog particle settings:
+  "fogParticle": {
+    //Graveyard fog particle can generate from graveyard moss:
+    "canGenerate": true,
+    //Graveyard fog particle chance to spawn 1 in ...
+    "fog_particle_spawn": 50
+  }
+}
