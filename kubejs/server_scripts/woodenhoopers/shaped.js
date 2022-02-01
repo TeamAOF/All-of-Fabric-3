@@ -1,12 +1,12 @@
-//╔════════════════════════════════════════╗
-//║     GNU Free Documentation License     ║
-//╚════════════════════════════════════════╝
 events.listen("recipes", function (event) {
 	
 //╔════════════════════════════════════════╗
 //║             WOODEN HOPPERS             ║
 //╚════════════════════════════════════════╝
 
+//   event.replaceInput(
+//     { id: "woodenhoppers:oak_hopper" },
+	
   // Oak Hopper
   event.remove({ output: "woodenhoppers:oak_hopper" });	
   event.shaped(item.of("woodenhoppers:oak_hopper"), [
@@ -69,5 +69,29 @@ events.listen("recipes", function (event) {
 	["minecraft:warped_planks", "#minecraft:beacon_payment_items", "minecraft:warped_planks"],
 	["minecraft:warped_planks", "#minecraft:beacon_payment_items", "minecraft:warped_planks"],
 	["null"				      , "minecraft:warped_planks"        , "null"                   ],
+   ]);
+   
+  // Bamboo Hopper
+  event.remove({ output: "blockus:bamboo_hopper" });		
+  event.shaped(item.of("blockus:bamboo_hopper"), [
+	["blockus:bamboo_planks", "#minecraft:beacon_payment_items", "blockus:bamboo_planks"],
+	["blockus:bamboo_planks", "#minecraft:beacon_payment_items", "blockus:bamboo_planks"],
+	["null"				    , "blockus:bamboo_planks"          , "null"                 ],
+   ]);
+   
+   // Charred Hopper
+  event.remove({ output: "blockus:charred_hopper" });		
+  event.shaped(item.of("blockus:charred_hopper"), [
+	["blockus:charred_planks", "#minecraft:beacon_payment_items", "blockus:charred_planks"],
+	["blockus:charred_planks", "#minecraft:beacon_payment_items", "blockus:charred_planks"],
+	["null"				    , "blockus:charred_planks"          , "null"                 ],
+   ]);
+   
+   // White Oak Hopper
+  event.remove({ output: "blockus:white_oak_hopper" });		
+  event.shaped(item.of("blockus:white_oak_hopper"), [
+	["blockus:white_oak_planks", "#minecraft:beacon_payment_items", "blockus:white_oak_planks"],
+	["blockus:white_oak_planks", "#minecraft:beacon_payment_items", "blockus:white_oak_planks"],
+	["null"				       , "blockus:white_oak_planks"       , "null"                    ],
    ]);
 });

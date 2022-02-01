@@ -1,4 +1,5 @@
 {
- "keybind.iron-jetpacks.engine":"Toggle Engine",
- "keybind.iron-jetpacks.hover":"Toggle Hover Mode"
+ "key.iron-jetpacks.engine":"Toggle Engine",
+ "key.iron-jetpacks.hover":"Toggle Hover Mode",
+ "key.iron-jetpacks.descend":"Toggle Descend"
 }

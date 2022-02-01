@@ -1,23 +1,8 @@
-//priority: 888
 
-settings.logAddedRecipes = true
-settings.logRemovedRecipes = true
-settings.logSkippedRecipes = false
-settings.logErroringRecipes = true
-
-//╔════════════════════════════════════════╗
-//║     GNU Free Documentation License     ║
-//╚════════════════════════════════════════╝
 events.listen("recipes", function (event) {
-	
-//╔════════════════════════════════════════╗
-//║              SPAWN EGGS                ║
-//╚════════════════════════════════════════╝
 
-//╔════════════════════════════════════════╗
-//║               SPAWNER                  ║
-//╚════════════════════════════════════════╝
-	
+// Spawners
+
 	event.remove({ output: "minecraft:spawner" });
 	event.shaped(item.of("minecraft:spawner", 2), [
 	["minecraft:netherite_ingot", "minecraft:netherite_ingot", "minecraft:netherite_ingot"],
@@ -32,9 +17,9 @@ events.listen("recipes", function (event) {
 	["minecraft:netherite_block", "minecraft:netherite_block", "minecraft:netherite_block"],
 	]);
 	
-//╔════════════════════════════════════════╗
-//║           SPAWN EGGS RECIPES           ║
-//╚════════════════════════════════════════╝
+
+// Spawn Eggs
+
 
 	// zombie_spawn_egg //
 	

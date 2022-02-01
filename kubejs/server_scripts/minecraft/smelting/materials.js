@@ -1,9 +1,6 @@
 events.listen("recipes", function (event) {
-
-//╔════════════════════════════════════════╗
-//║             ROTTEN FLESH               ║
-//╚════════════════════════════════════════╝
-
+  
+  // Rotten Flesh
    event.smelting('minecraft:leather', 'minecraft:rotten_flesh').xp(0.1);
 })
 
