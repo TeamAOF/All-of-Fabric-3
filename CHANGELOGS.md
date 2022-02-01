@@ -3,6 +3,7 @@
 <h2>Be sure to always backup your world(s) before updating!</h2>
 
 **Changes**
+- Updated loader to 0.12.12
 - Added back assets for loading/window title screen.
 - Removed Thallasium Ingot from recipes using Iron Ingot tags.
 - Brought back wood to old wood chest.
