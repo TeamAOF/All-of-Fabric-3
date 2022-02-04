@@ -20,13 +20,13 @@ events.listen("recipes", function (event) {
     ['minecraft:end_crystal', 'minecraft:nether_star', 'minecraft:dragon_breath'],
   ]);
 
-    // Master Infusion Crystal
-    event.remove({ output: "mysticalagriculture:master_infusion_crystal" });
-    event.shaped(item.of("mysticalagriculture:master_infusion_crystal"), [
-      ['mysticalagriculture:supremium_ingot', 'mysticalagriculture:infusion_crystal',         'mysticalagriculture:supremium_ingot'],
-      ['mysticalagriculture:infusion_crystal', 'mysticalagriculture:supremium_gemstone_block', 'mysticalagriculture:infusion_crystal'],
-      ['mysticalagriculture:supremium_ingot', 'mysticalagriculture:infusion_crystal', 'mysticalagriculture:supremium_ingot'],
-    ]);
+  // Master Infusion Crystal
+  event.remove({ output: "mysticalagriculture:master_infusion_crystal" });
+  event.shaped(item.of("mysticalagriculture:master_infusion_crystal"), [
+    ['mysticalagriculture:supremium_ingot', 'mysticalagriculture:infusion_crystal',         'mysticalagriculture:supremium_ingot'],
+    ['mysticalagriculture:infusion_crystal', 'mysticalagriculture:supremium_gemstone_block', 'mysticalagriculture:infusion_crystal'],
+    ['mysticalagriculture:supremium_ingot', 'mysticalagriculture:infusion_crystal', 'mysticalagriculture:supremium_ingot'],
+  ]);
 
 
   // Quantum Suit
@@ -65,15 +65,15 @@ events.listen("recipes", function (event) {
   event.remove({ id: "vanilla-hammers:obsidian_hammer" });
   event.remove({ id: "vanilla-excavators:obsidian_excavator" });
 
-    // Light Ring
-    event.remove({ output: "kibe:light_ring" });
-    event.shaped(item.of("kibe:light_ring"), [
-      ["iron-jetpacks:diamond_capacitor",            "modern_industrialization:tank_stainless_steel", "iron-jetpacks:diamond_capacitor"],
-      ["modern_industrialization:bucket_light_fuel", "kibe:diamond_ring",                             "modern_industrialization:bucket_light_fuel"],
-      ["iron-jetpacks:diamond_capacitor",            "modern_industrialization:tank_stainless_steel", "iron-jetpacks:diamond_capacitor"],
-    ]);
+  // Light Ring
+  event.remove({ output: "kibe:light_ring" });
+  event.shaped(item.of("kibe:light_ring"), [
+    ["iron-jetpacks:diamond_capacitor",            "modern_industrialization:tank_stainless_steel", "iron-jetpacks:diamond_capacitor"],
+    ["modern_industrialization:bucket_light_fuel", "kibe:diamond_ring",                             "modern_industrialization:bucket_light_fuel"],
+    ["iron-jetpacks:diamond_capacitor",            "modern_industrialization:tank_stainless_steel", "iron-jetpacks:diamond_capacitor"],
+  ]);
 
-      //Gem Tools & Gear
+  //Gem Tools & Gear
   var gems = [
     "ruby",
     "sapphire",
@@ -88,12 +88,12 @@ events.listen("recipes", function (event) {
     event.remove({ output: "techreborn:" + item + "_sword"});
   });
 
-    // Minecart in Rolling Machine
-    event.remove({ id: "techreborn:rolling_machine/minecart" });
+  // Minecart in Rolling Machine
+  event.remove({ id: "techreborn:rolling_machine/minecart" });
 
-    // MRE
+  // MRE
   event.remove({ output: "campanion:mre" });
   
-    // Remove boss key
+  // Remove Boss Key
   event.remove({ output: "battletowers:boss_key" });
 });

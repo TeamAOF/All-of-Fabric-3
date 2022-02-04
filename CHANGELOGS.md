@@ -1,3 +1,64 @@
+<h1>2.8.8</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changes**
+- Updated loader to 0.12.12
+- Added back assets for loading/window title screen.
+- Removed Thallasium Ingot from recipes using Iron Ingot tags.
+- Brought back wood to old wood chest.
+- Added blacklist for the conjurer.
+- Added more difficulty to Kibe recipes.
+- Added additional recipes to craft wooden hoppers.
+
+**Fixes**
+- Fixed missing AE2 recipes, mostly for Skystone.
+- Fixed TONS of missing lang.
+- Fixed missing button textures.
+
+**Added**
+- Mouse Tweaks: MouseTweaks-fabric-mc1.16.5-2.22.jar  
+- NinjaPhenix's Container Library: ninjaphenix-container-library-1.2.10+1.16.5.jar  
+- [The Graveyard:](https://www.curseforge.com/minecraft/mc-mods/the-graveyard-fabric) The_Graveyard_1.1(FABRIC)_for_1.16.4-1.16.5.jar  
+- [Tool Stats:](https://www.curseforge.com/minecraft/mc-mods/tool-stats) ToolStats-fabric-1.16.5-1.0.1.jar  
+- You're in Grave Danger: youre-in-grave-danger-1.0.3.jar  
+  
+**Removed**  
+- Mouse Wheelie: mousewheelie-1.7.5+mc1.16.5.jar  
+- VanillaDeathChest: vanilladeathchest-2.0.6-fabric.jar  
+  
+**Updated**  
+- AE2WTLib: AE2WTLib-1.2.6-release.jar  
+- AppleSkin: appleskin-fabric-mc1.16.5-2.3.0.jar  
+- Architectury: architectury-1.29.50.jar  
+- Armor Sound Tweak: ArmorSoundTweak-3.1.1-fabric.jar  
+- Artifacts: artifacts-4.0.3+fabric.jar  
+- Auth Me: authme-mc1.16.5-2.1.0.jar  
+- CC:Restitched: cc-restiched-1.96.3.jar  
+- Cloth API: cloth-api-1.6.59.jar  
+- Cloth Config v4: cloth-config-4.13.49-fabric.jar  
+- DarkPaintings: DarkPaintings-Fabric-1.16.5-3.0.4.jar  
+- Disable Custom Worlds Advice: DisableCustomWorldsAdvice-1.4.jar  
+- Drink Beer: drinkbeer-v3.0.2 for 1.16.x.jar  
+- Dungeons Mod Lite: DungeonsModLite-1.16.5-1.0.14.jar  
+- Expanded Storage: expandedstorage-7.3.7+1.16.5.jar  
+- [Fabric Language Kotlin:](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) (fabric-language-kotlin-1.6.5+kotlin.1.5.31.jar -> fabric-language-kotlin-1.7.0+kotlin.1.6.0.jar)  
+- Fabric Language Scala: fabric-language-scala-2.0.0+scala.3.0.2.jar  
+- FTB Chunks: ftb-chunks-fabric-1605.3.2-build.115.jar  
+- FTB Library: ftb-library-fabric-1605.3.4-build.90.jar  
+- FTB Quests: ftb-quests-fabric-1605.3.6-build.76.jar  
+- FTB Teams: ftb-teams-fabric-1605.2.3-build.40.jar  
+- Geckolib: geckolib-fabric-1.16.5-3.0.67.jar  
+- I Know What I'm Doing: IKnowWhatImDoing-4.0.0-fabric.jar  
+- KubeJS: kubejs-fabric-1605.3.19-build.289.jar  
+- Mythic Mounts: mythic-mounts-1.16.5-4.0.jar  
+- Phosphor: phosphor-fabric-mc1.16.2-0.8.0.jar  
+- Industial Quarry Mod: quarry-reborn-1.16-0.5.4.jar  
+- Roughly Enough Items: RoughlyEnoughItems-5.12.385.jar  
+- Sandwichable: sandwichable-1.2-rc4+1.16.jar  
+- Smoother Bedrock: smootherbedrock-1.0.3.jar  
+---------------------------------------------------------------------------------------------
+
 <h1>2.8.6</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>

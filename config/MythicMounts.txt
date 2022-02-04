@@ -1,7 +1,7 @@
 Config MOB properties here
 
 Important! Do not modify the value of the config version in this file or the mod may overwrite custom settings.
-[Global] Config Version: 4
+[Global] Config Version: 6
 
 SpawnDebug:
     Helpful when trying out different spawn configs or for testing adjustments to spawn weights.
@@ -57,15 +57,15 @@ Loudness:
 
 CourierBird ShouldSpawn: true
 CourierBird SpawnDebug: false
-CourierBird SpawnBiomes: Jungle; Jungle Hills; Jungle Edge;
+CourierBird SpawnBiomes: Jungle; minecraft:sparse_jungle;
 CourierBird SpawnYCeiling: 50000
 CourierBird SpawnYFloor: -50000
 CourierBird SpawnBlocks: All
 CourierBird SpawnWeight: 12
 CourierBird SpawnRandomChance: 100
 CourierBird SpawnType: overworld
-CourierBird MinSpawnGroupSize: 1
-CourierBird MaxSpawnGroupSize: 3
+CourierBird MinSpawnGroupSize: 2
+CourierBird MaxSpawnGroupSize: 4
 CourierBird InventorySize: 3
 CourierBird Attack: 4
 CourierBird Speed: 0.44999998807907104
@@ -83,7 +83,7 @@ CourierBird Loudness: 100
 
 DireWolf ShouldSpawn: true
 DireWolf SpawnDebug: false
-DireWolf SpawnBiomes: Snowy Taiga Mountains; Giant Spruce Taiga; Giant Spruce Taiga Hills; Giant Tree Taiga; Giant Tree Taiga Hills;
+DireWolf SpawnBiomes: minecraft:old_growth_spruce_taiga; minecraft:old_growth_pine_taiga; 
 DireWolf SpawnYCeiling: 50000
 DireWolf SpawnYFloor: -50000
 DireWolf SpawnBlocks: All
@@ -113,8 +113,8 @@ Dragon SpawnBiomes: All Overworld
 Dragon SpawnYCeiling: 40
 Dragon SpawnYFloor: -50000
 Dragon SpawnBlocks: All
-Dragon SpawnWeight: 40
-Dragon SpawnRandomChance: 50
+Dragon SpawnWeight: 100
+Dragon SpawnRandomChance: 10
 Dragon SpawnType: subterranean
 Dragon MinSpawnGroupSize: 1
 Dragon MaxSpawnGroupSize: 1
@@ -127,6 +127,7 @@ Dragon FleeFromPlayer: false
 Dragon PlayerHostile: true
 Dragon HostileToMobs: none
 Dragon BattleWithOwner: true
+Dragon FollowOwner: false
 Dragon Diet: carnivore
 Dragon TamingItems:  gold_ingot; diamond; emerald;
 Dragon TamingChance:  5
@@ -135,7 +136,7 @@ Dragon Loudness: 100
 
 Griffon ShouldSpawn: true
 Griffon SpawnDebug: false
-Griffon SpawnBiomes: Gravelly Mountains+; Snowy Taiga Mountains; Taiga Mountains; Gravelly Mountains; Wooded Mountains; Snowy Mountains; Mountains;
+Griffon SpawnBiomes: minecraft:windswept_gravelly_hills; minecraft:windswept_forest; minecraft:snowy_slopes; minecraft:jagged_peaks; minecraft:windswept_hills;
 Griffon SpawnYCeiling: 50000
 Griffon SpawnYFloor: 100
 Griffon SpawnBlocks: All
@@ -152,6 +153,7 @@ Griffon FleeFromPlayer: false
 Griffon PlayerHostile: false
 Griffon HostileToMobs: minecraft:sheep; minecraft:rabbit;
 Griffon BattleWithOwner: true
+Griffon FollowOwner: false
 Griffon Diet: carnivore
 Griffon TamingItems:  rabbit; mutton;
 Griffon TamingChance:  10
@@ -169,6 +171,7 @@ GeckotoaLizard SpawnRandomChance: 100
 GeckotoaLizard SpawnType: subterranean
 GeckotoaLizard MinSpawnGroupSize: 1
 GeckotoaLizard MaxSpawnGroupSize: 1
+GeckotoaLizard MaxIn256Region: 4
 GeckotoaLizard InventorySize: 9
 GeckotoaLizard Attack: 4
 GeckotoaLizard Speed: 0.44999998807907104
@@ -177,11 +180,12 @@ GeckotoaLizard FleeFromPlayer: false
 GeckotoaLizard PlayerHostile: false
 GeckotoaLizard HostileToMobs: none
 GeckotoaLizard BattleWithOwner: false
+GeckotoaLizard FollowOwner: false
 GeckotoaLizard Diet: omnivore
 GeckotoaLizard TamingItems:  melon; pumpkin; hay_block;
 GeckotoaLizard TamingChance:  10
 GeckotoaLizard BreedingItems: melon; pumpkin; hay_block;
-GeckotoaLizard Loudness: 100
+GeckotoaLizard Loudness: 75
 
 Moth ShouldSpawn: true
 Moth SpawnDebug: false
@@ -203,6 +207,7 @@ Moth FleeFromPlayer: false
 Moth PlayerHostile: false
 Moth HostileToMobs: none
 Moth BattleWithOwner: false
+Moth FollowOwner: false
 Moth Diet: herbivore
 Moth TamingItems: dandelion; poppy; blue_orchid; allium; azure_bluet; red_tulip; orange_tulip; white_tulip; pink_tulip; oxeye_daisy; cornflower; lily_of_the_valley; lilac; rose_bush; peony;
 Moth TamingChance:  20
@@ -229,6 +234,7 @@ NetherBat FleeFromPlayer: false
 NetherBat PlayerHostile: true
 NetherBat HostileToMobs: none
 NetherBat BattleWithOwner: true
+NetherBat FollowOwner: false
 NetherBat Diet: omnivore
 NetherBat TamingItems:  porkchop;
 NetherBat TamingChance:  10
@@ -243,7 +249,7 @@ Nudibranch SpawnYFloor: -50000
 Nudibranch SpawnBlocks: minecraft:brain_coral_block; minecraft:bubble_coral_block; minecraft:fire_coral_block; minecraft:horn_coral_block; minecraft:tube_coral_block;
 Nudibranch SpawnWeight: 20
 Nudibranch SpawnRandomChance: 100
-Nudibranch SpawnType: overworld
+Nudibranch SpawnType: water
 Nudibranch MinSpawnGroupSize: 2
 Nudibranch MaxSpawnGroupSize: 4
 Nudibranch InventorySize: 3
@@ -254,6 +260,7 @@ Nudibranch FleeFromPlayer: false
 Nudibranch PlayerHostile: false
 Nudibranch HostileToMobs: none
 Nudibranch BattleWithOwner: false
+Nudibranch FollowOwner: false
 Nudibranch Diet: herbivore
 Nudibranch TamingItems: seagrass;
 Nudibranch TamingChance:  10
@@ -262,7 +269,7 @@ Nudibranch Loudness: 100
 
 RidingLizard ShouldSpawn: true
 RidingLizard SpawnDebug: false
-RidingLizard SpawnBiomes: Desert; Desert Lakes; Desert Hills; Eroded Badlands; Modified Wooded Badlands Plateau; Modified Badlands Plateau;
+RidingLizard SpawnBiomes: Desert; 
 RidingLizard SpawnYCeiling: 50000
 RidingLizard SpawnYFloor: -50000
 RidingLizard SpawnBlocks: All
@@ -279,6 +286,7 @@ RidingLizard FleeFromPlayer: false
 RidingLizard PlayerHostile: true
 RidingLizard HostileToMobs: minecraft:rabbit; minecraft:chicken;
 RidingLizard BattleWithOwner: true
+RidingLizard FollowOwner: false
 RidingLizard Diet: carnivore
 RidingLizard TamingItems:  rabbit; chicken;
 RidingLizard TamingChance:  10
@@ -305,8 +313,62 @@ Nightmare FleeFromPlayer: false
 Nightmare PlayerHostile: false
 Nightmare HostileToMobs: minecraft:skeleton; minecraft:wither_skeleton;
 Nightmare BattleWithOwner: true
+Nightmare FollowOwner: false
 Nightmare Diet: omnivore
 Nightmare TamingItems:  bone; coal; charcoal;
 Nightmare TamingChance:  3
 Nightmare BreedingItems: blaze_rod; fire_charge;
 Nightmare Loudness: 100
+
+Acencia ShouldSpawn: true
+Acencia SpawnDebug: false
+Acencia SpawnBiomes: minecraft:grove; minecraft:snowy_taiga; 
+Acencia SpawnYCeiling: 50000
+Acencia SpawnYFloor: -50000
+Acencia SpawnBlocks: All
+Acencia SpawnWeight: 10
+Acencia SpawnRandomChance: 100
+Acencia SpawnType: overworld
+Acencia MinSpawnGroupSize: 1
+Acencia MaxSpawnGroupSize: 3
+Acencia InventorySize: 4
+Acencia Attack: 10
+Acencia Speed: 0.44999998807907104
+Acencia Health: 28
+Acencia FleeFromPlayer: false
+Acencia PlayerHostile: false
+Acencia HostileToMobs: minecraft:rabbits; minecraft:sheep; minecraft:goat; minecraft:chicken;
+Acencia BattleWithOwner: true
+Acencia FollowOwner: false
+Acencia Diet: carnivore
+Acencia TamingItems: rabbit; chicken; mutton; salmon; cod;
+Acencia TamingChance: 10
+Acencia BreedingItems: mutton; salmon;
+Acencia Loudness: 100
+
+Archelon ShouldSpawn: true
+Archelon SpawnDebug: false
+Archelon SpawnBiomes: minecraft:deep_lukewarm_ocean; 
+Archelon SpawnYCeiling: 50000
+Archelon SpawnYFloor: -50000
+Archelon SpawnBlocks: All
+Archelon SpawnWeight: 1
+Archelon SpawnRandomChance: 10
+Archelon MaxIn256Region: 2
+Archelon SpawnType: water
+Archelon MinSpawnGroupSize: 1
+Archelon MaxSpawnGroupSize: 1
+Archelon InventorySize: 10
+Archelon Attack: 6
+Archelon Speed: 0.14999998807907104
+Archelon Health: 60
+Archelon FleeFromPlayer: false
+Archelon PlayerHostile: false
+Archelon HostileToMobs: minecraft:salmon;
+Archelon BattleWithOwner: false
+Archelon FollowOwner: false
+Archelon Diet: omnivore
+Archelon TamingItems: salmon; cod; kelp; tropical_fish; pufferfish; seagrass; tropical_fish;
+Archelon TamingChance: 10
+Archelon BreedingItems: tropical_fish; pufferfish;
+Archelon Loudness: 75

@@ -1,0 +1,22 @@
+[graveSettings]
+generateGraves = true
+retrievalType = "ON_USE"
+dropType = "IN_INVENTORY"
+deleteEnchantments = []
+soulboundEnchantments = ["yigd:soulbound"]
+blacklistBlocks = ["minecraft:bedrock"]
+blacklistDimensions = []
+graveInVoid = true
+lastResort = "DROP_ITEMS"
+defaultXpDrop = false
+xpDropPercent = 50
+renderGraveSkull = true
+renderGraveOwner = true
+
+[graveSettings.blockUnderGrave]
+generateBlockUnder = true
+inOverWorld = "minecraft:cobblestone"
+inNether = "minecraft:soul_soil"
+inTheEnd = "minecraft:end_stone"
+inCustom = "minecraft:dirt"
+whiteListBlocks = ["minecraft:air", "minecraft:water", "minecraft:lava"]

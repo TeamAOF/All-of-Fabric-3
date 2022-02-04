@@ -1,8 +1,8 @@
 
 [sounds]
-	armor = true
-	elytra = true
 	skulls = false
 	pumpkins = false
+	armor = true
+	elytra = true
 	anything = false
 

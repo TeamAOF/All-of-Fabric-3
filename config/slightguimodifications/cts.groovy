@@ -29,7 +29,7 @@ mainMenu {
             }
         }
 
-        text = literal("All of Fabric 3 - 2.8.6")
+        text = literal("All of Fabric 3 - 2.8.8")
         shadow = true
     }
 
